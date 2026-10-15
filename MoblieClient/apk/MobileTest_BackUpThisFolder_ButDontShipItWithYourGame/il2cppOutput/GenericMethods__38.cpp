@@ -2417,7 +2417,7 @@ inline EqualityComparer_1_tF74A06E4DA351FE016FE9BD76C2A66524D685C24* EqualityCom
 {
 	return ((  EqualityComparer_1_tF74A06E4DA351FE016FE9BD76C2A66524D685C24* (*) (const RuntimeMethod*))EqualityComparer_1_CreateComparer_m779CEAAA847760E44B83AED6B8E7A854F40754FF_gshared)(method);
 }
-// Method Definition Index: 41231
+// Method Definition Index: 41224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Resources_ConvertObjects_TisRuntimeObject_m20F94D02587DBE09D871BC872CEE50AC6E2DB1B9_gshared (ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A* ___0_rawObjects, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -2489,7 +2489,7 @@ IL_003d:
 		return L_15;
 	}
 }
-// Method Definition Index: 41233
+// Method Definition Index: 41226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Resources_FindObjectsOfTypeAll_TisRuntimeObject_mD84D8C84477F126072383A3F1E7789DA25B4206B_gshared (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -2513,7 +2513,7 @@ IL_0018:
 		return L_4;
 	}
 }
-// Method Definition Index: 41238
+// Method Definition Index: 41231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Resources_GetBuiltinResource_TisRuntimeObject_mD1671043430ED893B11348B4C95B5969274DB9B6_gshared (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -2536,7 +2536,7 @@ IL_0019:
 		return L_4;
 	}
 }
-// Method Definition Index: 41235
+// Method Definition Index: 41228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Resources_Load_TisRuntimeObject_mD1AF6299B14F87ED1D1A6199A51480919F7C79D7_gshared (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -2723,7 +2723,7 @@ IL_0019:
 		return;
 	}
 }
-// Method Definition Index: 59016
+// Method Definition Index: 59009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 RewindableAllocator_AllocateNativeArray_TisIl2CppFullySharedGenericStruct_m4479CFD1A95CD9F990A45465228776D4616411C6_gshared (RewindableAllocator_tB18F8ADC8F2EE36E1F51FCCCFF0AC093108EF254* __this, int32_t ___0_length, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -2767,7 +2767,7 @@ IL2CPP_EXTERN_C  NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 Rewinda
 	_returnValue = RewindableAllocator_AllocateNativeArray_TisIl2CppFullySharedGenericStruct_m4479CFD1A95CD9F990A45465228776D4616411C6(_thisAdjusted, ___0_length, method);
 	return _returnValue;
 }
-// Method Definition Index: 59017
+// Method Definition Index: 59010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeList_1_tC1434025FAC1738D2E1A0029AA90EC61D91370C1 RewindableAllocator_AllocateNativeList_TisIl2CppFullySharedGenericStruct_m1227D13E5F2F598F6F28C575B23ADEE7DBDE8AD5_gshared (RewindableAllocator_tB18F8ADC8F2EE36E1F51FCCCFF0AC093108EF254* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -16943,7 +16943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RuntimePropertyInfo_StaticGett
 		return L_2;
 	}
 }
-// Method Definition Index: 41541
+// Method Definition Index: 41534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ScriptableObject_CreateInstance_TisRuntimeObject_mC07BE383F5EF546F4191035A679930852BC19BDA_gshared (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -16965,7 +16965,7 @@ IL_0018:
 		return L_3;
 	}
 }
-// Method Definition Index: 44975
+// Method Definition Index: 44968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScriptableRendererData_TryGetRendererFeature_TisRuntimeObject_m77C40288EAE6FCFB88FA24DFE755A3C7E3BFFDB5_gshared (ScriptableRendererData_t9005CE645D4881FA4431E52EDC7678203632CAA7* __this, RuntimeObject** ___0_rendererFeature, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -17078,7 +17078,6 @@ IL_0064:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_TisClientConnectionChangeBroadcast_t19F4AE2A3D57C97FA7FA3D1DD3D8955CAD4DA336_mEAE3D5A80EAAC416F57381848B8A7219DF020841_gshared (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:398>
 		return;
 	}
 }
@@ -17086,7 +17085,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_TisConnectedClientsBroadcast_t64317189E427A2038146DEF5D0BB01454B5C404E_mFEC8AEA44C03E7F7DF60B418D60637AA72CA8FC6_gshared (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:398>
 		return;
 	}
 }
@@ -17094,7 +17092,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_TisEmptyStartScenesBroadcast_t4516CBC3CE6426A60EE95E3BD11141CA55934275_m359107025CE88251A8E44848CD26DE7D90953DE0_gshared (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:398>
 		return;
 	}
 }
@@ -17102,7 +17099,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_TisLoadScenesBroadcast_tCE8A375A34220E9079FF3380F4B54F3EA4A9EABF_mAEE2AC62A441E8E479DEEAB95FC1D77FCBBB1B73_gshared (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:398>
 		return;
 	}
 }
@@ -17110,7 +17106,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_TisResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8_m4F46380A0CC30E9B70D276CF64E0509E69EAE52B_gshared (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:398>
 		return;
 	}
 }
@@ -17118,7 +17113,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_TisUnloadScenesBroadcast_tD363EF49E27C04059FF09E221F078D9048968B99_m37B7AC04F93DDB1572276CDA89335AEF0F44701E_gshared (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:398>
 		return;
 	}
 }
@@ -17126,7 +17120,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_AddOutboundNetworkTraffic_TisIl2CppFullySharedGenericStruct_mC6AC594D9FAA2819C18A6363E75DB8BE4616D528_gshared (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* __this, int32_t ___0_bytes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:398>
 		return;
 	}
 }
@@ -17157,7 +17150,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisLoadScenesBro
 	memset((&V_5), 0, sizeof(V_5));
 	NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* V_6 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:344>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -17166,44 +17158,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisLoadScenesBro
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:346>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:347>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:350>
 		V_0 = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:351>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_2;
 		L_2 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:352>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_3;
 		L_3 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_4 = V_1;
 		LoadScenesBroadcast_tCE8A375A34220E9079FF3380F4B54F3EA4A9EABF L_5 = ___0_message;
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = BroadcastsSerializers_WriteBroadcast_TisLoadScenesBroadcast_tCE8A375A34220E9079FF3380F4B54F3EA4A9EABF_mE7AEFB1BD8A920D852FFAE2D57A731FF45646BAF(L_3, L_4, L_5, (&___2_channel), il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:353>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_7 = V_1;
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_7);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_8;
 		L_8 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_7, NULL);
 		V_2 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:355>
 		V_3 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:356>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_9;
 		L_9 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&V_2), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		V_4 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:358>
 		Dictionary_2_tB831FBE45C185F84DFBE5872AC5BF37E9E22C117* L_10 = __this->___Clients;
 		NullCheck(L_10);
 		ValueCollection_tC594B05A9F5557CE7874F0F46DA4AE2894BFBBF2* L_11;
@@ -17231,11 +17214,9 @@ FINALLY_0096:
 
 IL_0057_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:358>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_13;
 				L_13 = Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_inline((&V_5), Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_RuntimeMethod_var);
 				V_6 = L_13;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:361>
 				bool L_14 = ___1_requireAuthenticated;
 				if (!L_14)
 				{
@@ -17253,14 +17234,12 @@ IL_0057_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:363>
 				V_0 = (bool)1;
 				goto IL_008b_1;
 			}
 
 IL_0070_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:367>
 				NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_17;
 				L_17 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 				NullCheck(L_17);
@@ -17271,7 +17250,6 @@ IL_0070_1:
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_21 = V_6;
 				NullCheck(L_18);
 				TransportManager_SendToClient_mE97C0828AA2F97270472A9BAC0113DBE675B4841(L_18, (uint8_t)L_19, L_20, L_21, (bool)1, (int32_t)0, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:368>
 				int32_t L_22 = V_3;
 				int32_t L_23 = V_4;
 				V_3 = ((int32_t)il2cpp_codegen_add(L_22, L_23));
@@ -17279,7 +17257,6 @@ IL_0070_1:
 
 IL_008b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:358>
 				bool L_24;
 				L_24 = Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC((&V_5), Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC_RuntimeMethod_var);
 				if (L_24)
@@ -17299,14 +17276,11 @@ IL_008b_1:
 
 IL_00a4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:372>
 		int32_t L_25 = V_3;
 		ServerManager_AddOutboundNetworkTraffic_TisLoadScenesBroadcast_tCE8A375A34220E9079FF3380F4B54F3EA4A9EABF_mAEE2AC62A441E8E479DEEAB95FC1D77FCBBB1B73(__this, L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:374>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_26 = V_1;
 		NullCheck(L_26);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_26, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:376>
 		bool L_27 = V_0;
 		if (!L_27)
 		{
@@ -17314,7 +17288,6 @@ IL_00a4:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:377>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_28;
 		L_28 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_28, _stringLiteralC60661445FEB1BFD183CD119F4E2CA022DEE1773, NULL);
@@ -17322,7 +17295,6 @@ IL_00a4:
 
 IL_00c4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:378>
 		return;
 	}
 }
@@ -17353,7 +17325,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisUnloadScenesB
 	memset((&V_5), 0, sizeof(V_5));
 	NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* V_6 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:344>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -17362,44 +17333,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisUnloadScenesB
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:346>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:347>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:350>
 		V_0 = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:351>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_2;
 		L_2 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:352>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_3;
 		L_3 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_4 = V_1;
 		UnloadScenesBroadcast_tD363EF49E27C04059FF09E221F078D9048968B99 L_5 = ___0_message;
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = BroadcastsSerializers_WriteBroadcast_TisUnloadScenesBroadcast_tD363EF49E27C04059FF09E221F078D9048968B99_m4BD90B5A158EE1304855F15F8E0CFE96507868B0(L_3, L_4, L_5, (&___2_channel), il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:353>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_7 = V_1;
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_7);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_8;
 		L_8 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_7, NULL);
 		V_2 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:355>
 		V_3 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:356>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_9;
 		L_9 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&V_2), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		V_4 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:358>
 		Dictionary_2_tB831FBE45C185F84DFBE5872AC5BF37E9E22C117* L_10 = __this->___Clients;
 		NullCheck(L_10);
 		ValueCollection_tC594B05A9F5557CE7874F0F46DA4AE2894BFBBF2* L_11;
@@ -17427,11 +17389,9 @@ FINALLY_0096:
 
 IL_0057_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:358>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_13;
 				L_13 = Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_inline((&V_5), Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_RuntimeMethod_var);
 				V_6 = L_13;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:361>
 				bool L_14 = ___1_requireAuthenticated;
 				if (!L_14)
 				{
@@ -17449,14 +17409,12 @@ IL_0057_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:363>
 				V_0 = (bool)1;
 				goto IL_008b_1;
 			}
 
 IL_0070_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:367>
 				NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_17;
 				L_17 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 				NullCheck(L_17);
@@ -17467,7 +17425,6 @@ IL_0070_1:
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_21 = V_6;
 				NullCheck(L_18);
 				TransportManager_SendToClient_mE97C0828AA2F97270472A9BAC0113DBE675B4841(L_18, (uint8_t)L_19, L_20, L_21, (bool)1, (int32_t)0, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:368>
 				int32_t L_22 = V_3;
 				int32_t L_23 = V_4;
 				V_3 = ((int32_t)il2cpp_codegen_add(L_22, L_23));
@@ -17475,7 +17432,6 @@ IL_0070_1:
 
 IL_008b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:358>
 				bool L_24;
 				L_24 = Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC((&V_5), Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC_RuntimeMethod_var);
 				if (L_24)
@@ -17495,14 +17451,11 @@ IL_008b_1:
 
 IL_00a4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:372>
 		int32_t L_25 = V_3;
 		ServerManager_AddOutboundNetworkTraffic_TisUnloadScenesBroadcast_tD363EF49E27C04059FF09E221F078D9048968B99_m37B7AC04F93DDB1572276CDA89335AEF0F44701E(__this, L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:374>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_26 = V_1;
 		NullCheck(L_26);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_26, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:376>
 		bool L_27 = V_0;
 		if (!L_27)
 		{
@@ -17510,7 +17463,6 @@ IL_00a4:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:377>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_28;
 		L_28 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_28, _stringLiteralC60661445FEB1BFD183CD119F4E2CA022DEE1773, NULL);
@@ -17518,7 +17470,6 @@ IL_00a4:
 
 IL_00c4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:378>
 		return;
 	}
 }
@@ -17551,7 +17502,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisIl2CppFullySh
 	memset((&V_5), 0, sizeof(V_5));
 	NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* V_6 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:344>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -17560,44 +17510,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisIl2CppFullySh
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:346>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:347>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:350>
 		V_0 = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:351>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_2;
 		L_2 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:352>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_3;
 		L_3 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_4 = V_1;
 		il2cpp_codegen_memcpy(L_5, ___0_message, SizeOf_T_t2B0D02A04CA677A7A9492E0E99FE0A6469A88D0A);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = InvokerFuncInvoker4< PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3*, NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF*, PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3*, Il2CppFullySharedGenericStruct, uint8_t* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), NULL, L_3, L_4, L_5, (&___2_channel));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:353>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_7 = V_1;
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_7);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_8;
 		L_8 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_7, NULL);
 		V_2 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:355>
 		V_3 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:356>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_9;
 		L_9 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&V_2), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		V_4 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:358>
 		Dictionary_2_tB831FBE45C185F84DFBE5872AC5BF37E9E22C117* L_10 = __this->___Clients;
 		NullCheck(L_10);
 		ValueCollection_tC594B05A9F5557CE7874F0F46DA4AE2894BFBBF2* L_11;
@@ -17625,11 +17566,9 @@ FINALLY_0096:
 
 IL_0057_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:358>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_13;
 				L_13 = Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_inline((&V_5), Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_RuntimeMethod_var);
 				V_6 = L_13;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:361>
 				bool L_14 = ___1_requireAuthenticated;
 				if (!L_14)
 				{
@@ -17647,14 +17586,12 @@ IL_0057_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:363>
 				V_0 = (bool)1;
 				goto IL_008b_1;
 			}
 
 IL_0070_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:367>
 				NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_17;
 				L_17 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 				NullCheck(L_17);
@@ -17665,7 +17602,6 @@ IL_0070_1:
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_21 = V_6;
 				NullCheck(L_18);
 				TransportManager_SendToClient_mE97C0828AA2F97270472A9BAC0113DBE675B4841(L_18, (uint8_t)L_19, L_20, L_21, (bool)1, (int32_t)0, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:368>
 				int32_t L_22 = V_3;
 				int32_t L_23 = V_4;
 				V_3 = ((int32_t)il2cpp_codegen_add(L_22, L_23));
@@ -17673,7 +17609,6 @@ IL_0070_1:
 
 IL_008b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:358>
 				bool L_24;
 				L_24 = Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC((&V_5), Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC_RuntimeMethod_var);
 				if (L_24)
@@ -17693,14 +17628,11 @@ IL_008b_1:
 
 IL_00a4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:372>
 		int32_t L_25 = V_3;
 		((  void (*) (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(__this, L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:374>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_26 = V_1;
 		NullCheck(L_26);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_26, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:376>
 		bool L_27 = V_0;
 		if (!L_27)
 		{
@@ -17708,7 +17640,6 @@ IL_00a4:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:377>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_28;
 		L_28 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_28, _stringLiteralC60661445FEB1BFD183CD119F4E2CA022DEE1773, NULL);
@@ -17716,7 +17647,6 @@ IL_00a4:
 
 IL_00c4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:378>
 		return;
 	}
 }
@@ -17736,7 +17666,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisClientConnect
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:120>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -17745,17 +17674,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisClientConnect
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:122>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:123>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:125>
 		bool L_2 = ___2_requireAuthenticated;
 		if (!L_2)
 		{
@@ -17773,40 +17699,33 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:127>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_5;
 		L_5 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_5, _stringLiteral7ADEF744785A494F1E82B72CFA1F9EA8867B1E16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:128>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:131>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:132>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_7;
 		L_7 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = V_0;
 		ClientConnectionChangeBroadcast_t19F4AE2A3D57C97FA7FA3D1DD3D8955CAD4DA336 L_9 = ___1_message;
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_10;
 		L_10 = BroadcastsSerializers_WriteBroadcast_TisClientConnectionChangeBroadcast_t19F4AE2A3D57C97FA7FA3D1DD3D8955CAD4DA336_m1257AB857A831A41A3FFE6009195F70D481C5C86(L_7, L_8, L_9, (&___3_channel), il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:133>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_11 = V_0;
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_12;
 		L_12 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11, NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:135>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_13;
 		L_13 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&V_1), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		ServerManager_AddOutboundNetworkTraffic_TisClientConnectionChangeBroadcast_t19F4AE2A3D57C97FA7FA3D1DD3D8955CAD4DA336_mEAE3D5A80EAAC416F57381848B8A7219DF020841(__this, L_13, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:137>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_14;
 		L_14 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NullCheck(L_14);
@@ -17817,11 +17736,9 @@ IL_0035:
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_18 = ___0_connection;
 		NullCheck(L_15);
 		TransportManager_SendToClient_mE97C0828AA2F97270472A9BAC0113DBE675B4841(L_15, (uint8_t)L_16, L_17, L_18, (bool)1, (int32_t)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:138>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_19 = V_0;
 		NullCheck(L_19);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:139>
 		return;
 	}
 }
@@ -17841,7 +17758,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisConnectedClie
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:120>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -17850,17 +17766,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisConnectedClie
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:122>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:123>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:125>
 		bool L_2 = ___2_requireAuthenticated;
 		if (!L_2)
 		{
@@ -17878,40 +17791,33 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:127>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_5;
 		L_5 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_5, _stringLiteral7ADEF744785A494F1E82B72CFA1F9EA8867B1E16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:128>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:131>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:132>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_7;
 		L_7 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = V_0;
 		ConnectedClientsBroadcast_t64317189E427A2038146DEF5D0BB01454B5C404E L_9 = ___1_message;
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_10;
 		L_10 = BroadcastsSerializers_WriteBroadcast_TisConnectedClientsBroadcast_t64317189E427A2038146DEF5D0BB01454B5C404E_mE6509D2005F9EA2A922179CD64A6041D6BB3446C(L_7, L_8, L_9, (&___3_channel), il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:133>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_11 = V_0;
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_12;
 		L_12 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11, NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:135>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_13;
 		L_13 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&V_1), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		ServerManager_AddOutboundNetworkTraffic_TisConnectedClientsBroadcast_t64317189E427A2038146DEF5D0BB01454B5C404E_mFEC8AEA44C03E7F7DF60B418D60637AA72CA8FC6(__this, L_13, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:137>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_14;
 		L_14 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NullCheck(L_14);
@@ -17922,11 +17828,9 @@ IL_0035:
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_18 = ___0_connection;
 		NullCheck(L_15);
 		TransportManager_SendToClient_mE97C0828AA2F97270472A9BAC0113DBE675B4841(L_15, (uint8_t)L_16, L_17, L_18, (bool)1, (int32_t)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:138>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_19 = V_0;
 		NullCheck(L_19);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:139>
 		return;
 	}
 }
@@ -17946,7 +17850,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisEmptyStartSce
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:120>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -17955,17 +17858,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisEmptyStartSce
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:122>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:123>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:125>
 		bool L_2 = ___2_requireAuthenticated;
 		if (!L_2)
 		{
@@ -17983,40 +17883,33 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:127>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_5;
 		L_5 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_5, _stringLiteral7ADEF744785A494F1E82B72CFA1F9EA8867B1E16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:128>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:131>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:132>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_7;
 		L_7 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = V_0;
 		EmptyStartScenesBroadcast_t4516CBC3CE6426A60EE95E3BD11141CA55934275 L_9 = ___1_message;
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_10;
 		L_10 = BroadcastsSerializers_WriteBroadcast_TisEmptyStartScenesBroadcast_t4516CBC3CE6426A60EE95E3BD11141CA55934275_m471B0BDF73B85D387420CCB98C8BE4EDA9355DE8(L_7, L_8, L_9, (&___3_channel), il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:133>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_11 = V_0;
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_12;
 		L_12 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11, NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:135>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_13;
 		L_13 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&V_1), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		ServerManager_AddOutboundNetworkTraffic_TisEmptyStartScenesBroadcast_t4516CBC3CE6426A60EE95E3BD11141CA55934275_m359107025CE88251A8E44848CD26DE7D90953DE0(__this, L_13, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:137>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_14;
 		L_14 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NullCheck(L_14);
@@ -18027,11 +17920,9 @@ IL_0035:
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_18 = ___0_connection;
 		NullCheck(L_15);
 		TransportManager_SendToClient_mE97C0828AA2F97270472A9BAC0113DBE675B4841(L_15, (uint8_t)L_16, L_17, L_18, (bool)1, (int32_t)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:138>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_19 = V_0;
 		NullCheck(L_19);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:139>
 		return;
 	}
 }
@@ -18051,7 +17942,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisLoadScenesBro
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:120>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -18060,17 +17950,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisLoadScenesBro
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:122>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:123>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:125>
 		bool L_2 = ___2_requireAuthenticated;
 		if (!L_2)
 		{
@@ -18088,40 +17975,33 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:127>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_5;
 		L_5 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_5, _stringLiteral7ADEF744785A494F1E82B72CFA1F9EA8867B1E16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:128>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:131>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:132>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_7;
 		L_7 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = V_0;
 		LoadScenesBroadcast_tCE8A375A34220E9079FF3380F4B54F3EA4A9EABF L_9 = ___1_message;
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_10;
 		L_10 = BroadcastsSerializers_WriteBroadcast_TisLoadScenesBroadcast_tCE8A375A34220E9079FF3380F4B54F3EA4A9EABF_mE7AEFB1BD8A920D852FFAE2D57A731FF45646BAF(L_7, L_8, L_9, (&___3_channel), il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:133>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_11 = V_0;
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_12;
 		L_12 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11, NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:135>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_13;
 		L_13 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&V_1), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		ServerManager_AddOutboundNetworkTraffic_TisLoadScenesBroadcast_tCE8A375A34220E9079FF3380F4B54F3EA4A9EABF_mAEE2AC62A441E8E479DEEAB95FC1D77FCBBB1B73(__this, L_13, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:137>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_14;
 		L_14 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NullCheck(L_14);
@@ -18132,11 +18012,9 @@ IL_0035:
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_18 = ___0_connection;
 		NullCheck(L_15);
 		TransportManager_SendToClient_mE97C0828AA2F97270472A9BAC0113DBE675B4841(L_15, (uint8_t)L_16, L_17, L_18, (bool)1, (int32_t)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:138>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_19 = V_0;
 		NullCheck(L_19);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:139>
 		return;
 	}
 }
@@ -18156,7 +18034,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisResponseBroad
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:120>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -18165,17 +18042,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisResponseBroad
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:122>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:123>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:125>
 		bool L_2 = ___2_requireAuthenticated;
 		if (!L_2)
 		{
@@ -18193,40 +18067,33 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:127>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_5;
 		L_5 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_5, _stringLiteral7ADEF744785A494F1E82B72CFA1F9EA8867B1E16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:128>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:131>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:132>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_7;
 		L_7 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = V_0;
 		ResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8 L_9 = ___1_message;
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_10;
 		L_10 = BroadcastsSerializers_WriteBroadcast_TisResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8_m600CAA9DA19EB9984AD094205698BD9A0177C202(L_7, L_8, L_9, (&___3_channel), il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:133>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_11 = V_0;
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_12;
 		L_12 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11, NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:135>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_13;
 		L_13 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&V_1), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		ServerManager_AddOutboundNetworkTraffic_TisResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8_m4F46380A0CC30E9B70D276CF64E0509E69EAE52B(__this, L_13, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:137>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_14;
 		L_14 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NullCheck(L_14);
@@ -18237,11 +18104,9 @@ IL_0035:
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_18 = ___0_connection;
 		NullCheck(L_15);
 		TransportManager_SendToClient_mE97C0828AA2F97270472A9BAC0113DBE675B4841(L_15, (uint8_t)L_16, L_17, L_18, (bool)1, (int32_t)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:138>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_19 = V_0;
 		NullCheck(L_19);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:139>
 		return;
 	}
 }
@@ -18261,7 +18126,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisUnloadScenesB
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:120>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -18270,17 +18134,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisUnloadScenesB
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:122>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:123>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:125>
 		bool L_2 = ___2_requireAuthenticated;
 		if (!L_2)
 		{
@@ -18298,40 +18159,33 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:127>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_5;
 		L_5 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_5, _stringLiteral7ADEF744785A494F1E82B72CFA1F9EA8867B1E16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:128>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:131>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:132>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_7;
 		L_7 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = V_0;
 		UnloadScenesBroadcast_tD363EF49E27C04059FF09E221F078D9048968B99 L_9 = ___1_message;
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_10;
 		L_10 = BroadcastsSerializers_WriteBroadcast_TisUnloadScenesBroadcast_tD363EF49E27C04059FF09E221F078D9048968B99_m4BD90B5A158EE1304855F15F8E0CFE96507868B0(L_7, L_8, L_9, (&___3_channel), il2cpp_rgctx_method(method->rgctx_data, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:133>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_11 = V_0;
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_12;
 		L_12 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11, NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:135>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_13;
 		L_13 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&V_1), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		ServerManager_AddOutboundNetworkTraffic_TisUnloadScenesBroadcast_tD363EF49E27C04059FF09E221F078D9048968B99_m37B7AC04F93DDB1572276CDA89335AEF0F44701E(__this, L_13, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:137>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_14;
 		L_14 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NullCheck(L_14);
@@ -18342,11 +18196,9 @@ IL_0035:
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_18 = ___0_connection;
 		NullCheck(L_15);
 		TransportManager_SendToClient_mE97C0828AA2F97270472A9BAC0113DBE675B4841(L_15, (uint8_t)L_16, L_17, L_18, (bool)1, (int32_t)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:138>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_19 = V_0;
 		NullCheck(L_19);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:139>
 		return;
 	}
 }
@@ -18378,7 +18230,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisIl2CppFullySh
 	memset((&V_5), 0, sizeof(V_5));
 	NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* V_6 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:151>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -18387,44 +18238,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisIl2CppFullySh
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:153>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:154>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:157>
 		V_0 = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:158>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_2;
 		L_2 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:159>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_3;
 		L_3 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_4 = V_1;
 		il2cpp_codegen_memcpy(L_5, ___1_message, SizeOf_T_tDB45C2DAC15464449B2F37CA8F1560506C5BB375);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = InvokerFuncInvoker4< PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3*, NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF*, PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3*, Il2CppFullySharedGenericStruct, uint8_t* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), NULL, L_3, L_4, L_5, (&___3_channel));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:160>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_7 = V_1;
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_7);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_8;
 		L_8 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_7, NULL);
 		V_2 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:162>
 		V_3 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:163>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_9;
 		L_9 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&V_2), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		V_4 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:165>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_10 = ___0_connections;
 		NullCheck(L_10);
 		Enumerator_tDBF5076DFA9CFB40C9CC1B8210B9671A140534A6 L_11;
@@ -18449,11 +18291,9 @@ FINALLY_008d:
 
 IL_004d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:165>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_12;
 				L_12 = Enumerator_get_Current_mA88ED20EEA1FDB9580447067382A9DC6F82EB04C_inline((&V_5), Enumerator_get_Current_mA88ED20EEA1FDB9580447067382A9DC6F82EB04C_RuntimeMethod_var);
 				V_6 = L_12;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:167>
 				bool L_13 = ___2_requireAuthenticated;
 				if (!L_13)
 				{
@@ -18471,14 +18311,12 @@ IL_004d_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:169>
 				V_0 = (bool)1;
 				goto IL_0082_1;
 			}
 
 IL_0066_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:173>
 				NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_16;
 				L_16 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 				NullCheck(L_16);
@@ -18489,7 +18327,6 @@ IL_0066_1:
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_20 = V_6;
 				NullCheck(L_17);
 				TransportManager_SendToClient_mE97C0828AA2F97270472A9BAC0113DBE675B4841(L_17, (uint8_t)L_18, L_19, L_20, (bool)1, (int32_t)0, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:174>
 				int32_t L_21 = V_3;
 				int32_t L_22 = V_4;
 				V_3 = ((int32_t)il2cpp_codegen_add(L_21, L_22));
@@ -18497,7 +18334,6 @@ IL_0066_1:
 
 IL_0082_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:165>
 				bool L_23;
 				L_23 = Enumerator_MoveNext_m8E9656E0228D773187F5B3E86F939576EEDE11C8((&V_5), Enumerator_MoveNext_m8E9656E0228D773187F5B3E86F939576EEDE11C8_RuntimeMethod_var);
 				if (L_23)
@@ -18517,14 +18353,11 @@ IL_0082_1:
 
 IL_009b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:178>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_24 = V_1;
 		NullCheck(L_24);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_24, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:180>
 		int32_t L_25 = V_3;
 		((  void (*) (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(__this, L_25, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:182>
 		bool L_26 = V_0;
 		if (!L_26)
 		{
@@ -18532,7 +18365,6 @@ IL_009b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:183>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_27;
 		L_27 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_27, _stringLiteralC60661445FEB1BFD183CD119F4E2CA022DEE1773, NULL);
@@ -18540,7 +18372,6 @@ IL_009b:
 
 IL_00bb:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:184>
 		return;
 	}
 }
@@ -18562,7 +18393,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisIl2CppFullySh
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:120>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -18571,17 +18401,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisIl2CppFullySh
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:122>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:123>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:125>
 		bool L_2 = ___2_requireAuthenticated;
 		if (!L_2)
 		{
@@ -18599,40 +18426,33 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:127>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_5;
 		L_5 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_5, _stringLiteral7ADEF744785A494F1E82B72CFA1F9EA8867B1E16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:128>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:131>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:132>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_7;
 		L_7 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = V_0;
 		il2cpp_codegen_memcpy(L_9, ___1_message, SizeOf_T_t168E1AEF595463D172BA2B3C14591C71CDB203CD);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_10;
 		L_10 = InvokerFuncInvoker4< PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3*, NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF*, PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3*, Il2CppFullySharedGenericStruct, uint8_t* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), NULL, L_7, L_8, L_9, (&___3_channel));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:133>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_11 = V_0;
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_12;
 		L_12 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_11, NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:135>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_13;
 		L_13 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&V_1), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		((  void (*) (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(__this, L_13, il2cpp_rgctx_method(method->rgctx_data, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:137>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_14;
 		L_14 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NullCheck(L_14);
@@ -18643,11 +18463,9 @@ IL_0035:
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_18 = ___0_connection;
 		NullCheck(L_15);
 		TransportManager_SendToClient_mE97C0828AA2F97270472A9BAC0113DBE675B4841(L_15, (uint8_t)L_16, L_17, L_18, (bool)1, (int32_t)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:138>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_19 = V_0;
 		NullCheck(L_19);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:139>
 		return;
 	}
 }
@@ -18663,7 +18481,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisIl2CppFullySh
 	const uint32_t SizeOf_T_t7EF5A1577A7902243762C4C36AE7ADAB6E0151C0 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->rgctx_data, 0));
 	const Il2CppFullySharedGenericStruct L_5 = alloca(SizeOf_T_t7EF5A1577A7902243762C4C36AE7ADAB6E0151C0);
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:326>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_0 = ___0_networkObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -18674,17 +18491,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_Broadcast_TisIl2CppFullySh
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:328>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_2;
 		L_2 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_2, _stringLiteralA7AD4DB6AAE1333C291BAA13C90682DAA19C9061, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:329>
 		return;
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:332>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_3 = ___0_networkObject;
 		NullCheck(L_3);
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_4 = L_3->___Observers;
@@ -18692,7 +18506,6 @@ IL_001a:
 		bool L_6 = ___2_requireAuthenticated;
 		uint8_t L_7 = ___3_channel;
 		InvokerActionInvoker4< HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5*, Il2CppFullySharedGenericStruct, bool, uint8_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), __this, L_4, L_5, L_6, L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:333>
 		return;
 	}
 }
@@ -18727,7 +18540,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_BroadcastExcept_TisIl2CppF
 	memset((&V_2), 0, sizeof(V_2));
 	NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* V_3 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:291>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -18736,17 +18548,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_BroadcastExcept_TisIl2CppF
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:293>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:294>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:298>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_2 = ___0_excludedConnections;
 		if (!L_2)
 		{
@@ -18766,22 +18575,18 @@ IL_0019:
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:300>
 		il2cpp_codegen_memcpy(L_5, ___1_message, SizeOf_T_t45352B60150BE39990372C1ABB2BB089B29F5743);
 		bool L_6 = ___2_requireAuthenticated;
 		uint8_t L_7 = ___3_channel;
 		InvokerActionInvoker3< Il2CppFullySharedGenericStruct, bool, uint8_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), __this, L_5, L_6, L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:301>
 		return;
 	}
 
 IL_002f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:304>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_8 = __this->____connectionsWithoutExclusionsCache;
 		NullCheck(L_8);
 		HashSet_1_Clear_m457ACC32AF0BEF3EA0579A5161DAFBA7EED86F39(L_8, HashSet_1_Clear_m457ACC32AF0BEF3EA0579A5161DAFBA7EED86F39_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:307>
 		Dictionary_2_tB831FBE45C185F84DFBE5872AC5BF37E9E22C117* L_9 = __this->___Clients;
 		NullCheck(L_9);
 		ValueCollection_tC594B05A9F5557CE7874F0F46DA4AE2894BFBBF2* L_10;
@@ -18809,11 +18614,9 @@ FINALLY_006d:
 
 IL_004d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:307>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_12;
 				L_12 = Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_inline((&V_0), Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_RuntimeMethod_var);
 				V_1 = L_12;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:308>
 				HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_13 = __this->____connectionsWithoutExclusionsCache;
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_14 = V_1;
 				NullCheck(L_13);
@@ -18823,7 +18626,6 @@ IL_004d_1:
 
 IL_0062_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:307>
 				bool L_16;
 				L_16 = Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC((&V_0), Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC_RuntimeMethod_var);
 				if (L_16)
@@ -18843,7 +18645,6 @@ IL_0062_1:
 
 IL_007b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:310>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_17 = ___0_excludedConnections;
 		NullCheck(L_17);
 		Enumerator_tDBF5076DFA9CFB40C9CC1B8210B9671A140534A6 L_18;
@@ -18868,11 +18669,9 @@ FINALLY_00a4:
 
 IL_0084_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:310>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_19;
 				L_19 = Enumerator_get_Current_mA88ED20EEA1FDB9580447067382A9DC6F82EB04C_inline((&V_2), Enumerator_get_Current_mA88ED20EEA1FDB9580447067382A9DC6F82EB04C_RuntimeMethod_var);
 				V_3 = L_19;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:311>
 				HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_20 = __this->____connectionsWithoutExclusionsCache;
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_21 = V_3;
 				NullCheck(L_20);
@@ -18882,7 +18681,6 @@ IL_0084_1:
 
 IL_0099_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:310>
 				bool L_23;
 				L_23 = Enumerator_MoveNext_m8E9656E0228D773187F5B3E86F939576EEDE11C8((&V_2), Enumerator_MoveNext_m8E9656E0228D773187F5B3E86F939576EEDE11C8_RuntimeMethod_var);
 				if (L_23)
@@ -18902,13 +18700,11 @@ IL_0099_1:
 
 IL_00b2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:313>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_24 = __this->____connectionsWithoutExclusionsCache;
 		il2cpp_codegen_memcpy(L_25, ___1_message, SizeOf_T_t45352B60150BE39990372C1ABB2BB089B29F5743);
 		bool L_26 = ___2_requireAuthenticated;
 		uint8_t L_27 = ___3_channel;
 		InvokerActionInvoker4< HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5*, Il2CppFullySharedGenericStruct, bool, uint8_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)), il2cpp_rgctx_method(method->rgctx_data, 2), __this, L_24, L_25, L_26, L_27);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:314>
 		return;
 	}
 }
@@ -18935,7 +18731,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_BroadcastExcept_TisIl2CppF
 	memset((&V_0), 0, sizeof(V_0));
 	NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:257>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -18944,17 +18739,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_BroadcastExcept_TisIl2CppF
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:259>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:260>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:264>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2 = ___0_excludedConnection;
 		bool L_3;
 		L_3 = NetworkConnection_op_Equality_mF0A856F3C59998C36B81874471C8BB619D8AF38D(L_2, (NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C*)NULL, NULL);
@@ -18976,22 +18768,18 @@ IL_0019:
 
 IL_002a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:266>
 		il2cpp_codegen_memcpy(L_6, ___1_message, SizeOf_T_tCCC44C599871901B84090600487C669740AC1A94);
 		bool L_7 = ___2_requireAuthenticated;
 		uint8_t L_8 = ___3_channel;
 		InvokerActionInvoker3< Il2CppFullySharedGenericStruct, bool, uint8_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), __this, L_6, L_7, L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:267>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:270>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_9 = __this->____connectionsWithoutExclusionsCache;
 		NullCheck(L_9);
 		HashSet_1_Clear_m457ACC32AF0BEF3EA0579A5161DAFBA7EED86F39(L_9, HashSet_1_Clear_m457ACC32AF0BEF3EA0579A5161DAFBA7EED86F39_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:273>
 		Dictionary_2_tB831FBE45C185F84DFBE5872AC5BF37E9E22C117* L_10 = __this->___Clients;
 		NullCheck(L_10);
 		ValueCollection_tC594B05A9F5557CE7874F0F46DA4AE2894BFBBF2* L_11;
@@ -19019,11 +18807,9 @@ FINALLY_0073:
 
 IL_0053_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:273>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_13;
 				L_13 = Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_inline((&V_0), Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_RuntimeMethod_var);
 				V_1 = L_13;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:274>
 				HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_14 = __this->____connectionsWithoutExclusionsCache;
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_15 = V_1;
 				NullCheck(L_14);
@@ -19033,7 +18819,6 @@ IL_0053_1:
 
 IL_0068_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:273>
 				bool L_17;
 				L_17 = Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC((&V_0), Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC_RuntimeMethod_var);
 				if (L_17)
@@ -19053,19 +18838,16 @@ IL_0068_1:
 
 IL_0081:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:276>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_18 = __this->____connectionsWithoutExclusionsCache;
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_19 = ___0_excludedConnection;
 		NullCheck(L_18);
 		bool L_20;
 		L_20 = HashSet_1_Remove_m0CBD22130939E2AEEF4FB90B455FC25055A6C997(L_18, L_19, HashSet_1_Remove_m0CBD22130939E2AEEF4FB90B455FC25055A6C997_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:278>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_21 = __this->____connectionsWithoutExclusionsCache;
 		il2cpp_codegen_memcpy(L_22, ___1_message, SizeOf_T_tCCC44C599871901B84090600487C669740AC1A94);
 		bool L_23 = ___2_requireAuthenticated;
 		uint8_t L_24 = ___3_channel;
 		InvokerActionInvoker4< HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5*, Il2CppFullySharedGenericStruct, bool, uint8_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)), il2cpp_rgctx_method(method->rgctx_data, 2), __this, L_21, L_22, L_23, L_24);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:279>
 		return;
 	}
 }
@@ -19090,7 +18872,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_BroadcastExcept_TisIl2CppF
 	memset((&V_0), 0, sizeof(V_0));
 	NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:225>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -19099,17 +18880,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_BroadcastExcept_TisIl2CppF
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:227>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:228>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:232>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_2 = ___1_excludedConnections;
 		if (!L_2)
 		{
@@ -19129,19 +18907,16 @@ IL_0019:
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:234>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_5 = ___0_connections;
 		il2cpp_codegen_memcpy(L_6, ___2_message, SizeOf_T_t1FC5CF6631ED7F095132CA1789A6B7C927D7DF7D);
 		bool L_7 = ___3_requireAuthenticated;
 		uint8_t L_8 = ___4_channel;
 		InvokerActionInvoker4< HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5*, Il2CppFullySharedGenericStruct, bool, uint8_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), __this, L_5, L_6, L_7, L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:235>
 		return;
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:241>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_9 = ___1_excludedConnections;
 		NullCheck(L_9);
 		Enumerator_tDBF5076DFA9CFB40C9CC1B8210B9671A140534A6 L_10;
@@ -19166,11 +18941,9 @@ FINALLY_0055:
 
 IL_003a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:241>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_11;
 				L_11 = Enumerator_get_Current_mA88ED20EEA1FDB9580447067382A9DC6F82EB04C_inline((&V_0), Enumerator_get_Current_mA88ED20EEA1FDB9580447067382A9DC6F82EB04C_RuntimeMethod_var);
 				V_1 = L_11;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:242>
 				HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_12 = ___0_connections;
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_13 = V_1;
 				NullCheck(L_12);
@@ -19180,7 +18953,6 @@ IL_003a_1:
 
 IL_004a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:241>
 				bool L_15;
 				L_15 = Enumerator_MoveNext_m8E9656E0228D773187F5B3E86F939576EEDE11C8((&V_0), Enumerator_MoveNext_m8E9656E0228D773187F5B3E86F939576EEDE11C8_RuntimeMethod_var);
 				if (L_15)
@@ -19200,13 +18972,11 @@ IL_004a_1:
 
 IL_0063:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:244>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_16 = ___0_connections;
 		il2cpp_codegen_memcpy(L_17, ___2_message, SizeOf_T_t1FC5CF6631ED7F095132CA1789A6B7C927D7DF7D);
 		bool L_18 = ___3_requireAuthenticated;
 		uint8_t L_19 = ___4_channel;
 		InvokerActionInvoker4< HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5*, Il2CppFullySharedGenericStruct, bool, uint8_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), __this, L_16, L_17, L_18, L_19);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:245>
 		return;
 	}
 }
@@ -19223,7 +18993,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_BroadcastExcept_TisIl2CppF
 	const Il2CppFullySharedGenericStruct L_7 = alloca(SizeOf_T_t654F381BE533E53E104B2F43084746C7A81E5080);
 	const Il2CppFullySharedGenericStruct L_14 = L_7;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:197>
 		bool L_0;
 		L_0 = ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline(__this, NULL);
 		if (L_0)
@@ -19232,17 +19001,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_BroadcastExcept_TisIl2CppF
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:199>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_1, _stringLiteralE904449556C5E6719DB0AC4926AA8120AB573B20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:200>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:204>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2 = ___1_excludedConnection;
 		bool L_3;
 		L_3 = NetworkConnection_op_Equality_mF0A856F3C59998C36B81874471C8BB619D8AF38D(L_2, (NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C*)NULL, NULL);
@@ -19264,31 +19030,26 @@ IL_0019:
 
 IL_002a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:206>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_6 = ___0_connections;
 		il2cpp_codegen_memcpy(L_7, ___2_message, SizeOf_T_t654F381BE533E53E104B2F43084746C7A81E5080);
 		bool L_8 = ___3_requireAuthenticated;
 		uint8_t L_9 = ___4_channel;
 		InvokerActionInvoker4< HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5*, Il2CppFullySharedGenericStruct, bool, uint8_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), __this, L_6, L_7, L_8, L_9);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:207>
 		return;
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:210>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_10 = ___0_connections;
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_11 = ___1_excludedConnection;
 		NullCheck(L_10);
 		bool L_12;
 		L_12 = HashSet_1_Remove_m0CBD22130939E2AEEF4FB90B455FC25055A6C997(L_10, L_11, HashSet_1_Remove_m0CBD22130939E2AEEF4FB90B455FC25055A6C997_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:211>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_13 = ___0_connections;
 		il2cpp_codegen_memcpy(L_14, ___2_message, SizeOf_T_t654F381BE533E53E104B2F43084746C7A81E5080);
 		bool L_15 = ___3_requireAuthenticated;
 		uint8_t L_16 = ___4_channel;
 		InvokerActionInvoker4< HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5*, Il2CppFullySharedGenericStruct, bool, uint8_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), __this, L_13, L_14, L_15, L_16);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:212>
 		return;
 	}
 }
@@ -19305,7 +19066,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_RegisterBroadcast_TisClien
 	uint16_t V_0 = 0;
 	BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:43>
 		Action_3_t3F7676943261BEFBA780C9162F3DD2CC96FB9CE5* L_0 = ___0_handler;
 		if (L_0)
 		{
@@ -19313,21 +19073,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_RegisterBroadcast_TisClien
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:45>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogError_mD7BE80E7A765BD00754AB02E7E2252865C9B6568(L_1, _stringLiteral8A4C3497D199BB8E9F8220539CCFED6249C41F67, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:46>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:49>
 		uint16_t L_2;
 		L_2 = BroadcastExtensions_GetKey_TisClientScenesLoadedBroadcast_t801962942135BB681D76F730A40E118431A0F164_m3817BD732AF18F172CC8C44D2D8D46CA424FF0C3(il2cpp_rgctx_method(method->rgctx_data, 1));
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:57>
 		Dictionary_2_t4F027D03558814585D4CA606578FAE55E4C5DBFC* L_3 = __this->____broadcastHandlers;
 		uint16_t L_4 = V_0;
 		bool L_5;
@@ -19338,12 +19094,10 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:59>
 		bool L_6 = ___1_requireAuthentication;
 		ClientBroadcastHandler_1_t4E24D77E41E42C257B6EDB79F986E7BE38BF0B99* L_7 = (ClientBroadcastHandler_1_t4E24D77E41E42C257B6EDB79F986E7BE38BF0B99*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 2));
 		ClientBroadcastHandler_1__ctor_mF835E0E822F420FA791C61E855BAF1F98B574F22(L_7, L_6, il2cpp_rgctx_method(method->rgctx_data, 3));
 		V_1 = (BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214*)L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:60>
 		Dictionary_2_t4F027D03558814585D4CA606578FAE55E4C5DBFC* L_8 = __this->____broadcastHandlers;
 		uint16_t L_9 = V_0;
 		BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* L_10 = V_1;
@@ -19353,12 +19107,10 @@ IL_0014:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:63>
 		BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* L_11 = V_1;
 		Action_3_t3F7676943261BEFBA780C9162F3DD2CC96FB9CE5* L_12 = ___0_handler;
 		NullCheck(L_11);
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(4, L_11, (RuntimeObject*)L_12);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:64>
 		return;
 	}
 }
@@ -19375,7 +19127,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_RegisterBroadcast_TisEmpty
 	uint16_t V_0 = 0;
 	BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:43>
 		Action_3_t174C614B495EE54A18F3487FF6222E704480C9CC* L_0 = ___0_handler;
 		if (L_0)
 		{
@@ -19383,21 +19134,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_RegisterBroadcast_TisEmpty
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:45>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogError_mD7BE80E7A765BD00754AB02E7E2252865C9B6568(L_1, _stringLiteral8A4C3497D199BB8E9F8220539CCFED6249C41F67, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:46>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:49>
 		uint16_t L_2;
 		L_2 = BroadcastExtensions_GetKey_TisEmptyStartScenesBroadcast_t4516CBC3CE6426A60EE95E3BD11141CA55934275_m4B48C3EE8E475F5AD76FF8758B5C7582D7A17FFC(il2cpp_rgctx_method(method->rgctx_data, 1));
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:57>
 		Dictionary_2_t4F027D03558814585D4CA606578FAE55E4C5DBFC* L_3 = __this->____broadcastHandlers;
 		uint16_t L_4 = V_0;
 		bool L_5;
@@ -19408,12 +19155,10 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:59>
 		bool L_6 = ___1_requireAuthentication;
 		ClientBroadcastHandler_1_t206AC5E3C498E70D5826E1AD34EA15C35A893C0E* L_7 = (ClientBroadcastHandler_1_t206AC5E3C498E70D5826E1AD34EA15C35A893C0E*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 2));
 		ClientBroadcastHandler_1__ctor_mDA7D4DE40358F01A76707DDAB25CE60122EB2BEF(L_7, L_6, il2cpp_rgctx_method(method->rgctx_data, 3));
 		V_1 = (BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214*)L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:60>
 		Dictionary_2_t4F027D03558814585D4CA606578FAE55E4C5DBFC* L_8 = __this->____broadcastHandlers;
 		uint16_t L_9 = V_0;
 		BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* L_10 = V_1;
@@ -19423,12 +19168,10 @@ IL_0014:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:63>
 		BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* L_11 = V_1;
 		Action_3_t174C614B495EE54A18F3487FF6222E704480C9CC* L_12 = ___0_handler;
 		NullCheck(L_11);
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(4, L_11, (RuntimeObject*)L_12);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:64>
 		return;
 	}
 }
@@ -19445,7 +19188,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_RegisterBroadcast_TisHostP
 	uint16_t V_0 = 0;
 	BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:43>
 		Action_3_tFE046E48BC3A80731AC01D383B6D9EA34FDC5745* L_0 = ___0_handler;
 		if (L_0)
 		{
@@ -19453,21 +19195,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_RegisterBroadcast_TisHostP
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:45>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogError_mD7BE80E7A765BD00754AB02E7E2252865C9B6568(L_1, _stringLiteral8A4C3497D199BB8E9F8220539CCFED6249C41F67, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:46>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:49>
 		uint16_t L_2;
 		L_2 = BroadcastExtensions_GetKey_TisHostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A_mD61C84114A22FE5EF730ADA2C49804ACC815B20E(il2cpp_rgctx_method(method->rgctx_data, 1));
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:57>
 		Dictionary_2_t4F027D03558814585D4CA606578FAE55E4C5DBFC* L_3 = __this->____broadcastHandlers;
 		uint16_t L_4 = V_0;
 		bool L_5;
@@ -19478,12 +19216,10 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:59>
 		bool L_6 = ___1_requireAuthentication;
 		ClientBroadcastHandler_1_t239F38725940BF2AFAC81EFC4C4A1A273E7DB4EF* L_7 = (ClientBroadcastHandler_1_t239F38725940BF2AFAC81EFC4C4A1A273E7DB4EF*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 2));
 		ClientBroadcastHandler_1__ctor_mE1C781FFDE81077A11F5CFBBEE3B511A432A14F4(L_7, L_6, il2cpp_rgctx_method(method->rgctx_data, 3));
 		V_1 = (BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214*)L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:60>
 		Dictionary_2_t4F027D03558814585D4CA606578FAE55E4C5DBFC* L_8 = __this->____broadcastHandlers;
 		uint16_t L_9 = V_0;
 		BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* L_10 = V_1;
@@ -19493,12 +19229,10 @@ IL_0014:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:63>
 		BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* L_11 = V_1;
 		Action_3_tFE046E48BC3A80731AC01D383B6D9EA34FDC5745* L_12 = ___0_handler;
 		NullCheck(L_11);
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(4, L_11, (RuntimeObject*)L_12);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:64>
 		return;
 	}
 }
@@ -19515,7 +19249,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_RegisterBroadcast_TisPassw
 	uint16_t V_0 = 0;
 	BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:43>
 		Action_3_t9BA0300CF9442736ECDC2AD7861ABFB3E501A7DF* L_0 = ___0_handler;
 		if (L_0)
 		{
@@ -19523,21 +19256,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_RegisterBroadcast_TisPassw
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:45>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogError_mD7BE80E7A765BD00754AB02E7E2252865C9B6568(L_1, _stringLiteral8A4C3497D199BB8E9F8220539CCFED6249C41F67, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:46>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:49>
 		uint16_t L_2;
 		L_2 = BroadcastExtensions_GetKey_TisPasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0_m794AA106A7E7A42FF0719B2610D17CAC1A661FE9(il2cpp_rgctx_method(method->rgctx_data, 1));
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:57>
 		Dictionary_2_t4F027D03558814585D4CA606578FAE55E4C5DBFC* L_3 = __this->____broadcastHandlers;
 		uint16_t L_4 = V_0;
 		bool L_5;
@@ -19548,12 +19277,10 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:59>
 		bool L_6 = ___1_requireAuthentication;
 		ClientBroadcastHandler_1_t6D064565293D4EA54B51995F17C99B0C5A0B0DAC* L_7 = (ClientBroadcastHandler_1_t6D064565293D4EA54B51995F17C99B0C5A0B0DAC*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 2));
 		ClientBroadcastHandler_1__ctor_m9AF034C40529B3AB44E25B017D9A40C1FD44896C(L_7, L_6, il2cpp_rgctx_method(method->rgctx_data, 3));
 		V_1 = (BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214*)L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:60>
 		Dictionary_2_t4F027D03558814585D4CA606578FAE55E4C5DBFC* L_8 = __this->____broadcastHandlers;
 		uint16_t L_9 = V_0;
 		BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* L_10 = V_1;
@@ -19563,12 +19290,10 @@ IL_0014:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:63>
 		BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* L_11 = V_1;
 		Action_3_t9BA0300CF9442736ECDC2AD7861ABFB3E501A7DF* L_12 = ___0_handler;
 		NullCheck(L_11);
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(4, L_11, (RuntimeObject*)L_12);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:64>
 		return;
 	}
 }
@@ -19585,7 +19310,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_RegisterBroadcast_TisIl2Cp
 	uint16_t V_0 = 0;
 	BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:43>
 		Action_3_tA89C56C5CB4FF9BFA93152CE9BD558E261E2664E* L_0 = ___0_handler;
 		if (L_0)
 		{
@@ -19593,21 +19317,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_RegisterBroadcast_TisIl2Cp
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:45>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline(__this, NULL);
 		NetworkManagerExtensions_LogError_mD7BE80E7A765BD00754AB02E7E2252865C9B6568(L_1, _stringLiteral8A4C3497D199BB8E9F8220539CCFED6249C41F67, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:46>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:49>
 		uint16_t L_2;
 		L_2 = ((  uint16_t (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)))(il2cpp_rgctx_method(method->rgctx_data, 1));
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:57>
 		Dictionary_2_t4F027D03558814585D4CA606578FAE55E4C5DBFC* L_3 = __this->____broadcastHandlers;
 		uint16_t L_4 = V_0;
 		bool L_5;
@@ -19618,12 +19338,10 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:59>
 		bool L_6 = ___1_requireAuthentication;
 		ClientBroadcastHandler_1_tEB4ED861FAC67114165317810649D8FDCDF15F0C* L_7 = (ClientBroadcastHandler_1_tEB4ED861FAC67114165317810649D8FDCDF15F0C*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 2));
 		((  void (*) (ClientBroadcastHandler_1_tEB4ED861FAC67114165317810649D8FDCDF15F0C*, bool, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)))(L_7, L_6, il2cpp_rgctx_method(method->rgctx_data, 3));
 		V_1 = (BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214*)L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:60>
 		Dictionary_2_t4F027D03558814585D4CA606578FAE55E4C5DBFC* L_8 = __this->____broadcastHandlers;
 		uint16_t L_9 = V_0;
 		BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* L_10 = V_1;
@@ -19633,12 +19351,10 @@ IL_0014:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:63>
 		BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* L_11 = V_1;
 		Action_3_tA89C56C5CB4FF9BFA93152CE9BD558E261E2664E* L_12 = ___0_handler;
 		NullCheck(L_11);
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(4, L_11, (RuntimeObject*)L_12);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:64>
 		return;
 	}
 }
@@ -19653,11 +19369,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_UnregisterBroadcast_TisIl2
 	uint16_t V_0 = 0;
 	BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:73>
 		uint16_t L_0;
 		L_0 = ((  uint16_t (*) (const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(il2cpp_rgctx_method(method->rgctx_data, 0));
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:74>
 		Dictionary_2_t4F027D03558814585D4CA606578FAE55E4C5DBFC* L_1 = __this->____broadcastHandlers;
 		uint16_t L_2 = V_0;
 		bool L_3;
@@ -19668,7 +19382,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_UnregisterBroadcast_TisIl2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:75>
 		BroadcastHandlerBase_t7493D47F5EC1E2AE0A9FB96F89FA3F578060C214* L_4 = V_1;
 		Action_3_tA89C56C5CB4FF9BFA93152CE9BD558E261E2664E* L_5 = ___0_handler;
 		NullCheck(L_4);
@@ -19677,11 +19390,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerManager_UnregisterBroadcast_TisIl2
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.Broadcast.cs:76>
 		return;
 	}
 }
-// Method Definition Index: 60769
+// Method Definition Index: 60762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetClass_TisRuntimeObject_m01819E5BCB283FECD09F412899624B68D23D408F_gshared (RuntimeObject** ___0_currentValue, RuntimeObject* ___1_newValue, const RuntimeMethod* method) 
 {
 	{
@@ -19739,7 +19451,7 @@ IL_0038:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 60767
+// Method Definition Index: 60760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetEquatableStruct_TisIl2CppFullySharedGenericAny_m46B9D6D20F31E6CD9CA6AEBE837E7124D0FCED6F_gshared (Il2CppFullySharedGenericAny* ___0_currentValue, Il2CppFullySharedGenericAny ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -19774,7 +19486,7 @@ IL_0011:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 60768
+// Method Definition Index: 60761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mFC5853627DE5D7B57CA91271BE9B87C37468C5B0_gshared (bool* ___0_currentValue, bool ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -19807,7 +19519,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 60768
+// Method Definition Index: 60761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m092CE7A99757F329A043C95552E8B3B423FCCC3C_gshared (Il2CppChar* ___0_currentValue, Il2CppChar ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -19840,7 +19552,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 60768
+// Method Definition Index: 60761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mE6315CF1CE5FA8F8C0132CCC9F41080CF201D0AB_gshared (int32_t* ___0_currentValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -19872,7 +19584,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 60768
+// Method Definition Index: 60761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m6625DA5A19FE58FF1A311A17DF1531C080135BF4_gshared (int32_t* ___0_currentValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -19905,7 +19617,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 60768
+// Method Definition Index: 60761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m1695F711101D5AC5A1F63CE010CF455DDA1627CC_gshared (float* ___0_currentValue, float ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -19937,7 +19649,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 60768
+// Method Definition Index: 60761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisIl2CppFullySharedGenericStruct_m02A4246793C5C70B3AEE28C1B34979AE4CF52035_gshared (Il2CppFullySharedGenericStruct* ___0_currentValue, Il2CppFullySharedGenericStruct ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -19973,7 +19685,7 @@ IL_0016:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 68947
+// Method Definition Index: 68940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetClass_TisRuntimeObject_m0AB9B5D3D06FCB75E487FA73ADF780D2A90F22DC_gshared (RuntimeObject** ___0_currentValue, RuntimeObject* ___1_newValue, const RuntimeMethod* method) 
 {
 	{
@@ -20031,7 +19743,7 @@ IL_0038:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 68946
+// Method Definition Index: 68939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m8D96C8077BB7384F3CE2D22D7F7432CD43DDDC77_gshared (bool* ___0_currentValue, bool ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -20065,7 +19777,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 68946
+// Method Definition Index: 68939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m18A822ED66C0EDFFF967DD2EE9848945B34E87B5_gshared (Il2CppChar* ___0_currentValue, Il2CppChar ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -20099,7 +19811,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 68946
+// Method Definition Index: 68939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_m9C058D0B8344122080B4EA792AD0A489EB927099_gshared (ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11* ___0_currentValue, ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -20133,7 +19845,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 68946
+// Method Definition Index: 68939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m2ED6D8023FCEE74764642E262219A183C576362A_gshared (int32_t* ___0_currentValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -20167,7 +19879,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 68946
+// Method Definition Index: 68939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m25D8BCECB38D1D07CD8BCEDE0739A0F7EF955150_gshared (int32_t* ___0_currentValue, int32_t ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -20201,7 +19913,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 68946
+// Method Definition Index: 68939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisNavigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_m3647C557CFFC5721FAAC342AC4C9613B69F15F6B_gshared (Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C* ___0_currentValue, Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -20245,7 +19957,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 68946
+// Method Definition Index: 68939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mEF97FFCC58933AFC108E72BFF17641AA1305A628_gshared (float* ___0_currentValue, float ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -20279,7 +19991,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 68946
+// Method Definition Index: 68939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisSpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_mE16632C284B9E24D8747A1D0A25CE4C3D5B102EC_gshared (SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD* ___0_currentValue, SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -20323,7 +20035,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 68946
+// Method Definition Index: 68939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SetPropertyUtility_SetStruct_TisIl2CppFullySharedGenericStruct_m53D5867BC66A8AE3BF6ED2A7515C83C8EA8DB375_gshared (Il2CppFullySharedGenericStruct* ___0_currentValue, Il2CppFullySharedGenericStruct ___1_newValue, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -20362,7 +20074,7 @@ IL_0015:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 46233
+// Method Definition Index: 46226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ShaderData_GetOrUpdateBuffer_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mB93A79A40A529AA1CE4D71CADD4986F2CA3D79B7_gshared (ShaderData_t149ABF5B880D5E69604B9F5A510F02D567464C19* __this, ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233** ___0_buffer, int32_t ___1_size, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -20434,7 +20146,7 @@ IL_0031:
 		return L_17;
 	}
 }
-// Method Definition Index: 46233
+// Method Definition Index: 46226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ShaderData_GetOrUpdateBuffer_TisMatrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_mB7EB88CF218EAF7986B61EFA9566ADCFF447A6B5_gshared (ShaderData_t149ABF5B880D5E69604B9F5A510F02D567464C19* __this, ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233** ___0_buffer, int32_t ___1_size, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -20506,7 +20218,7 @@ IL_0031:
 		return L_17;
 	}
 }
-// Method Definition Index: 46233
+// Method Definition Index: 46226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ShaderData_GetOrUpdateBuffer_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m42B9F88CD2E4F0DC0E4E995EE91F0FA5229229F2_gshared (ShaderData_t149ABF5B880D5E69604B9F5A510F02D567464C19* __this, ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233** ___0_buffer, int32_t ___1_size, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -20578,7 +20290,7 @@ IL_0031:
 		return L_17;
 	}
 }
-// Method Definition Index: 46233
+// Method Definition Index: 46226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ShaderData_GetOrUpdateBuffer_TisIl2CppFullySharedGenericStruct_m64A0FBCC747D569D6758BD0C0233427F94B2055C_gshared (ShaderData_t149ABF5B880D5E69604B9F5A510F02D567464C19* __this, ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233** ___0_buffer, int32_t ___1_size, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -20650,7 +20362,7 @@ IL_0031:
 		return L_17;
 	}
 }
-// Method Definition Index: 46233
+// Method Definition Index: 46226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233* ShaderData_GetOrUpdateBuffer_TisLightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED_m6CD53CB46B4065A5ACE36F7FBA7585D630F059CA_gshared (ShaderData_t149ABF5B880D5E69604B9F5A510F02D567464C19* __this, ComputeBuffer_t51EADA9015EBCC1B982C5584E9AB2734415A8233** ___0_buffer, int32_t ___1_size, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -20722,7 +20434,7 @@ IL_0031:
 		return L_17;
 	}
 }
-// Method Definition Index: 45610
+// Method Definition Index: 45603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_U3CMedian3PivotU3Eg__SwapU7C4_0_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m6901AA984E3BEF71A55D3950C185B3CF9D948C5E_gshared (int32_t ___0_a, int32_t ___1_b, U3CU3Ec__DisplayClass4_0_1_t7F80AF2C2CFE9611C1B30ED696866BE33DD43A5E* ___2_p, const RuntimeMethod* method) 
 {
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
@@ -20759,7 +20471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_U3CMedian3PivotU3Eg__SwapU7C4_0_
 		return;
 	}
 }
-// Method Definition Index: 45610
+// Method Definition Index: 45603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_U3CMedian3PivotU3Eg__SwapU7C4_0_TisIl2CppFullySharedGenericAny_mE8196D95B3DCDACF05F0AED3BF3269DD82F0533A_gshared (int32_t ___0_a, int32_t ___1_b, U3CU3Ec__DisplayClass4_0_1_t3A57CA40D75D8310E897ADCF344FB5CE60FF0AC7* ___2_p, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -20803,7 +20515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_U3CMedian3PivotU3Eg__SwapU7C4_0_
 		return;
 	}
 }
-// Method Definition Index: 45610
+// Method Definition Index: 45603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_U3CMedian3PivotU3Eg__SwapU7C4_0_TisShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE_m0EE1A6B1673ECB120D2A50EDE7568BC60F4914EE_gshared (int32_t ___0_a, int32_t ___1_b, U3CU3Ec__DisplayClass4_0_1_t016B1F2FE10093B5FA7FDA772A35B26AFC4BB46E* ___2_p, const RuntimeMethod* method) 
 {
 	ShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE V_0;
@@ -20840,7 +20552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_U3CMedian3PivotU3Eg__SwapU7C4_0_
 		return;
 	}
 }
-// Method Definition Index: 45610
+// Method Definition Index: 45603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_U3CMedian3PivotU3Eg__SwapU7C4_0_TisLightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2_m4C1C38A190E94C62C7B125813DA26EBB072D97E7_gshared (int32_t ___0_a, int32_t ___1_b, U3CU3Ec__DisplayClass4_0_1_t26B165FBF4E446BE6DADF9626A6C864B3CAF0A6B* ___2_p, const RuntimeMethod* method) 
 {
 	LightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2 V_0;
@@ -20877,7 +20589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_U3CMedian3PivotU3Eg__SwapU7C4_0_
 		return;
 	}
 }
-// Method Definition Index: 45607
+// Method Definition Index: 45600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_InsertionSort_TisIl2CppFullySharedGenericAny_mE258B030C3CFBE4323C3A7CCA9A4CF07A5F18F70_gshared (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ___0_data, Func_3_tECED1961B53AB164A131061296ABA1276B4FBBB9* ___1_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -20927,7 +20639,7 @@ IL_0029:
 		return;
 	}
 }
-// Method Definition Index: 45608
+// Method Definition Index: 45601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_InsertionSort_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m3565D582F40FDBBFA49D6BC0B04AB449EA74E672_gshared (Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_tD46831209E6E19204CD8F9EAFC74DBFCA3C36C5F* ___3_compare, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -21028,7 +20740,7 @@ IL_004b:
 		return;
 	}
 }
-// Method Definition Index: 45608
+// Method Definition Index: 45601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_InsertionSort_TisIl2CppFullySharedGenericAny_m1B6505ED6D8B2FBAD8F4F57A9743CE2C048DC536_gshared (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_tECED1961B53AB164A131061296ABA1276B4FBBB9* ___3_compare, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -21137,7 +20849,7 @@ IL_004b:
 		return;
 	}
 }
-// Method Definition Index: 45608
+// Method Definition Index: 45601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_InsertionSort_TisShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE_mF878B84A10CDB6293A41BB11BD203C7F3038F0BC_gshared (ShadowResolutionRequestU5BU5D_tC33A2E5E2712B8688E21C80BB2350155D029B334* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_t04BCD613633CE8BB98EC046F90C4C9B0AA84F0BF* ___3_compare, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -21238,7 +20950,7 @@ IL_004b:
 		return;
 	}
 }
-// Method Definition Index: 45608
+// Method Definition Index: 45601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_InsertionSort_TisLightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2_m6B1E78D6877EE3C4F07CABE67B92AE123C023C76_gshared (LightCookieMappingU5BU5D_tE1F10A7D54920D3636F1DB7774B3D5F5B560E263* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_t3E644C82345CE04737DA5CDE018481FE0A88F821* ___3_compare, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -21339,7 +21051,7 @@ IL_004b:
 		return;
 	}
 }
-// Method Definition Index: 45605
+// Method Definition Index: 45598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Sorting_Median3Pivot_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m7E1DBF188BBECF1D7E896CE444FD5743CDE01D4D_gshared (Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* ___0_data, int32_t ___1_start, int32_t ___2_pivot, int32_t ___3_end, Func_3_tD46831209E6E19204CD8F9EAFC74DBFCA3C36C5F* ___4_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -21459,7 +21171,7 @@ IL_0089:
 		return L_47;
 	}
 }
-// Method Definition Index: 45605
+// Method Definition Index: 45598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_Median3Pivot_TisIl2CppFullySharedGenericAny_m3F8CD2A0BC4162C3536552BA95F0645E45E8F9D0_gshared (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ___0_data, int32_t ___1_start, int32_t ___2_pivot, int32_t ___3_end, Func_3_tECED1961B53AB164A131061296ABA1276B4FBBB9* ___4_compare, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -21588,7 +21300,7 @@ IL_0089:
 		return;
 	}
 }
-// Method Definition Index: 45605
+// Method Definition Index: 45598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE Sorting_Median3Pivot_TisShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE_mF7295183B95C5E00B86EAB95E8EF6A3527EF430F_gshared (ShadowResolutionRequestU5BU5D_tC33A2E5E2712B8688E21C80BB2350155D029B334* ___0_data, int32_t ___1_start, int32_t ___2_pivot, int32_t ___3_end, Func_3_t04BCD613633CE8BB98EC046F90C4C9B0AA84F0BF* ___4_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -21708,7 +21420,7 @@ IL_0089:
 		return L_47;
 	}
 }
-// Method Definition Index: 45605
+// Method Definition Index: 45598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2 Sorting_Median3Pivot_TisLightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2_m20F7770D3471D02435A3C651255854443F749A4D_gshared (LightCookieMappingU5BU5D_tE1F10A7D54920D3636F1DB7774B3D5F5B560E263* ___0_data, int32_t ___1_start, int32_t ___2_pivot, int32_t ___3_end, Func_3_t3E644C82345CE04737DA5CDE018481FE0A88F821* ___4_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -21828,7 +21540,7 @@ IL_0089:
 		return L_47;
 	}
 }
-// Method Definition Index: 45606
+// Method Definition Index: 45599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sorting_Partition_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mB7FB1CD1502515D3660B0FD07A623414D974C6DE_gshared (Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_tD46831209E6E19204CD8F9EAFC74DBFCA3C36C5F* ___3_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -21966,7 +21678,7 @@ IL_004b:
 		goto IL_001c;
 	}
 }
-// Method Definition Index: 45606
+// Method Definition Index: 45599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sorting_Partition_TisIl2CppFullySharedGenericAny_mBE2DD41B3F545F7F7293E85CA1A51A16CC8AC07E_gshared (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_tECED1961B53AB164A131061296ABA1276B4FBBB9* ___3_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22114,7 +21826,7 @@ IL_004b:
 		goto IL_001c;
 	}
 }
-// Method Definition Index: 45606
+// Method Definition Index: 45599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sorting_Partition_TisShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE_m104A9C9BE930B4C90844EAD6EF846FA5787F7DB5_gshared (ShadowResolutionRequestU5BU5D_tC33A2E5E2712B8688E21C80BB2350155D029B334* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_t04BCD613633CE8BB98EC046F90C4C9B0AA84F0BF* ___3_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22252,7 +21964,7 @@ IL_004b:
 		goto IL_001c;
 	}
 }
-// Method Definition Index: 45606
+// Method Definition Index: 45599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sorting_Partition_TisLightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2_m9F2CB2AB7B0FE6D69D6365BB3A3FE33DD1F48CF4_gshared (LightCookieMappingU5BU5D_tE1F10A7D54920D3636F1DB7774B3D5F5B560E263* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_t3E644C82345CE04737DA5CDE018481FE0A88F821* ___3_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22390,7 +22102,7 @@ IL_004b:
 		goto IL_001c;
 	}
 }
-// Method Definition Index: 45603
+// Method Definition Index: 45596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_QuickSort_TisIl2CppFullySharedGenericAny_m05A9EDED93F2302BD3A5003A96EED8356C840577_gshared (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ___0_data, Func_3_tECED1961B53AB164A131061296ABA1276B4FBBB9* ___1_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22440,7 +22152,7 @@ IL_0029:
 		return;
 	}
 }
-// Method Definition Index: 45604
+// Method Definition Index: 45597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_QuickSort_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mB8556CFA6B9237741AAA1ADF2EE68AA3696F9477_gshared (Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_tD46831209E6E19204CD8F9EAFC74DBFCA3C36C5F* ___3_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22551,7 +22263,7 @@ IL_0043:
 		return;
 	}
 }
-// Method Definition Index: 45604
+// Method Definition Index: 45597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_QuickSort_TisIl2CppFullySharedGenericAny_mFECEFDEFE0154FD35AB3600D1EC1BCA3688FB81D_gshared (__Il2CppFullySharedGenericTypeU5BU5D_tCAB6D060972DD49223A834B7EEFEB9FE2D003BEC* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_tECED1961B53AB164A131061296ABA1276B4FBBB9* ___3_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22662,7 +22374,7 @@ IL_0043:
 		return;
 	}
 }
-// Method Definition Index: 45604
+// Method Definition Index: 45597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_QuickSort_TisShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE_m02C944B93F94BB0652D9C62D7C42639D23B3709F_gshared (ShadowResolutionRequestU5BU5D_tC33A2E5E2712B8688E21C80BB2350155D029B334* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_t04BCD613633CE8BB98EC046F90C4C9B0AA84F0BF* ___3_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -22773,7 +22485,7 @@ IL_0043:
 		return;
 	}
 }
-// Method Definition Index: 45604
+// Method Definition Index: 45597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Sorting_QuickSort_TisLightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2_mD7019ED48D20810C1169430283118F96945E9450_gshared (LightCookieMappingU5BU5D_tE1F10A7D54920D3636F1DB7774B3D5F5B560E263* ___0_data, int32_t ___1_start, int32_t ___2_end, Func_3_t3E644C82345CE04737DA5CDE018481FE0A88F821* ___3_compare, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -25685,7 +25397,7 @@ IL_028b:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 44968
+// Method Definition Index: 44961
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t2121653FB628940E808D105AD2C17E0F20AFB3A6* ScriptableRendererData_get_rendererFeatures_m1DF4156F6E0733E01D096AE7A3C43EC6C9D2DD45_inline (ScriptableRendererData_t9005CE645D4881FA4431E52EDC7678203632CAA7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25698,7 +25410,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t2121653FB628940E808D105AD
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ServerManager_get_Started_m3AC336E19035316CF869DAD7FF1D7C3599DDEBF9_inline (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.cs:51>
 		bool L_0 = __this->___U3CStartedU3Ek__BackingField;
 		return L_0;
 	}
@@ -25707,7 +25418,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ServerManager_get_Started_m3
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* ServerManager_get_NetworkManager_m232B0609F2D20A90EBB9D96475F00AF67B873E4A_inline (ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Server/ServerManager.cs:69>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0 = __this->___U3CNetworkManagerU3Ek__BackingField;
 		return L_0;
 	}
@@ -25716,7 +25426,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3CF56E00215CFB653
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkConnection_get_IsAuthenticated_mE4D6289CC2DEDB78437ED9E9DE0F19931CF3A808_inline (NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Connection/NetworkConnection.cs:112>
 		bool L_0 = __this->___U3CIsAuthenticatedU3Ek__BackingField;
 		return L_0;
 	}
@@ -25725,12 +25434,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkConnection_get_IsAuth
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TransportManager_t95A6A47A62F301E35D436CA02371559328532A54* NetworkManager_get_TransportManager_m12B7C44FF34413D7AD67951FDF310FFFC225A2FE_inline (NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/NetworkManager.cs:111>
 		TransportManager_t95A6A47A62F301E35D436CA02371559328532A54* L_0 = __this->___U3CTransportManagerU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 58411
+// Method Definition Index: 58404
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeList_1_get_IsCreated_m27B7D70198314F371E0156A3B6A1B2AB19762D25_gshared_inline (NativeList_1_t849341A90D92C0EDCE3EB2109A577334F76D37DA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25739,7 +25447,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeList_1_get_IsCreated_m
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 58411
+// Method Definition Index: 58404
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeList_1_get_IsCreated_m6C48113C727D29C96343EC3E716A102E5455FCE3_gshared_inline (NativeList_1_t8669CE2F5F28A2FCC6C5AFE126A15F0661AE0B6D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25748,7 +25456,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeList_1_get_IsCreated_m
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 58411
+// Method Definition Index: 58404
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeList_1_get_IsCreated_m4302F0B164E4E1F3A6B08094C61437906893868F_gshared_inline (NativeList_1_t959C2708BDFCE76B695843BBB6CB994043416657* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25781,7 +25489,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 77187
+// Method Definition Index: 77182
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m139A176CD271A0532D75BE08DA7831C8C45CE28F_gshared_inline (Enumerator_t72556E98D7DDBE118A973D782D523D15A96461C8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25789,7 +25497,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 77153
+// Method Definition Index: 77148
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HashSet_1_get_Count_m41CC85EEB7855CEFA3BC7A32F115387939318ED3_gshared_inline (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) 
 {
 	{

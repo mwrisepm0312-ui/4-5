@@ -95,6 +95,8 @@ extern void DataManager_get_CollectedEvidences_mA86F29F97E532447C6B3B249DB5243E2
 extern void DataManager_set_CollectedEvidences_mC7FD65780E73F4FC167B1C32AC611845C9CEB743 (void);
 extern void DataManager_get_SharedEvidences_m36B8F4DDEE4A2ABC88945CE2BF8BC9C840398049 (void);
 extern void DataManager_set_SharedEvidences_m31FC4E7B6CB657C5067D4D7AE35B75363B253C9C (void);
+extern void DataManager_get_TutorialShown_mD44E317D2AF9D144FC0E5B1D6E2365A6484359B6 (void);
+extern void DataManager_set_TutorialShown_m8DCEEC1BED7F42D2FC384E3ABE8797A5C307B8E5 (void);
 extern void DataManager_get_CurrentStage_mFA01B06D98C9D4B1CD7BA9286B207BF55447B837 (void);
 extern void DataManager_set_CurrentStage_m75F2C7AE027CD7B2E171338B868EB19C81D4554D (void);
 extern void DataManager_Awake_mBED5EDC55313601164C69104F2D67B067AC6183E (void);
@@ -360,7 +362,7 @@ extern void GeneratedWriters___Internal_InitializeOnce_mAA3E280D41052AA56EEA2746
 extern void GeneratedWriters___Internal_GWrite___System_StringU5BU5DFishNet_Serializing_Generated_mF8F60AFA6653CDDEB3AD4671F4B619444C3CE939 (void);
 extern void GeneratedReaders___Internal_InitializeOnce_m165BE950CF88ED63DAEF9E3A1BA13DD04D81D220 (void);
 extern void GeneratedReaders___Internal_GRead___System_StringU5BU5DFishNet_Serializing_Generateds_mE4BAE65ADDC7E7B1C71C9F9ED5E72D188726F465 (void);
-static Il2CppMethodPointer s_methodPointers[353] = 
+static Il2CppMethodPointer s_methodPointers[355] = 
 {
 	CCTVGame_Start_m9ECBA8E0F6F8020D3A125F0E160CBF6C3EFF2F54,
 	CCTVGame_SetInteractable_mFE458E8A06FB05931F8C84932658B1DC4541243A,
@@ -450,6 +452,8 @@ static Il2CppMethodPointer s_methodPointers[353] =
 	DataManager_set_CollectedEvidences_mC7FD65780E73F4FC167B1C32AC611845C9CEB743,
 	DataManager_get_SharedEvidences_m36B8F4DDEE4A2ABC88945CE2BF8BC9C840398049,
 	DataManager_set_SharedEvidences_m31FC4E7B6CB657C5067D4D7AE35B75363B253C9C,
+	DataManager_get_TutorialShown_mD44E317D2AF9D144FC0E5B1D6E2365A6484359B6,
+	DataManager_set_TutorialShown_m8DCEEC1BED7F42D2FC384E3ABE8797A5C307B8E5,
 	DataManager_get_CurrentStage_mFA01B06D98C9D4B1CD7BA9286B207BF55447B837,
 	DataManager_set_CurrentStage_m75F2C7AE027CD7B2E171338B868EB19C81D4554D,
 	DataManager_Awake_mBED5EDC55313601164C69104F2D67B067AC6183E,
@@ -716,7 +720,7 @@ static Il2CppMethodPointer s_methodPointers[353] =
 	GeneratedReaders___Internal_InitializeOnce_m165BE950CF88ED63DAEF9E3A1BA13DD04D81D220,
 	GeneratedReaders___Internal_GRead___System_StringU5BU5DFishNet_Serializing_Generateds_mE4BAE65ADDC7E7B1C71C9F9ED5E72D188726F465,
 };
-static const int32_t s_InvokerIndices[353] = 
+static const int32_t s_InvokerIndices[355] = 
 {
 	15948,
 	11972,
@@ -806,6 +810,8 @@ static const int32_t s_InvokerIndices[353] =
 	12185,
 	15728,
 	12185,
+	15519,
+	11972,
 	15660,
 	12119,
 	15948,
@@ -1076,7 +1082,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	353,
+	355,
 	s_methodPointers,
 	0,
 	NULL,

@@ -6055,7 +6055,7 @@ inline void List_1_AddWithResize_m366F6345C6B8C8C6B753366A478477FC941F1DB2 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74791
+// Method Definition Index: 74784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mC7CA174A23290C34424DF6D2733D5E64B92E5977 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6089,7 +6089,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t3405F29D573A6DFAAC547345A6BDB
 		return L_6;
 	}
 }
-// Method Definition Index: 74792
+// Method Definition Index: 74785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3C9D09F94200334DD5FA29A465481C7848AF4549 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC4249931E82CEBAEC1968B680E9E9A0DF4A946C6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6175,7 +6175,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t3405F29D573A6DFAAC547345A6BDBBE41CF54685_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74793
+// Method Definition Index: 74786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* DOTweenModuleAudio_DOFade_m1D693C3CE476AABDF1973BE1CDB974276D71307A (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6200,7 +6200,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:25>
 		float L_3 = ___1_endValue;
 		if ((!(((float)L_3) < ((float)(0.0f)))))
 		{
@@ -6208,14 +6207,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:25>
 		___1_endValue = (0.0f);
 		goto IL_002d;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:26>
 		float L_4 = ___1_endValue;
 		if ((!(((float)L_4) > ((float)(1.0f)))))
 		{
@@ -6223,13 +6220,11 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:26>
 		___1_endValue = (1.0f);
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:27>
 		U3CU3Ec__DisplayClass0_0_t59F50543B6FEFF5A3083DDBD0014F90AF0F88A43* L_5 = V_0;
 		DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03* L_6 = (DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03*)il2cpp_codegen_object_new(DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mD5E79861254E8BFB1618B3AB0B9755D18F553CFA(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass0_0_U3CDOFadeU3Eb__0_m8143CFDDC70BD69C48E4BBBDF5BD596D88C518F9_RuntimeMethod_var), NULL);
@@ -6241,18 +6236,16 @@ IL_002d:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_11;
 		L_11 = DOTween_To_m9C9EBC0FB6CF94364DD4FF85C476D8EE0A7FF4B1(L_6, L_8, L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:28>
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_12 = L_11;
 		U3CU3Ec__DisplayClass0_0_t59F50543B6FEFF5A3083DDBD0014F90AF0F88A43* L_13 = V_0;
 		NullCheck(L_13);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = L_13->___target;
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:29>
 		return L_12;
 	}
 }
-// Method Definition Index: 74794
+// Method Definition Index: 74787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* DOTweenModuleAudio_DOPitch_m21C03AF57AD7EEC7C1CF82CA7F660A58BD17D7CF (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6277,7 +6270,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:37>
 		U3CU3Ec__DisplayClass1_0_tEAB34591A3D9422D47089AF3756769B92EA68A23* L_3 = V_0;
 		DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03* L_4 = (DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03*)il2cpp_codegen_object_new(DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mD5E79861254E8BFB1618B3AB0B9755D18F553CFA(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass1_0_U3CDOPitchU3Eb__0_m0E574CBA7B1412BA78918BD8457649F22458B1FD_RuntimeMethod_var), NULL);
@@ -6289,18 +6281,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_9;
 		L_9 = DOTween_To_m9C9EBC0FB6CF94364DD4FF85C476D8EE0A7FF4B1(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:38>
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_10 = L_9;
 		U3CU3Ec__DisplayClass1_0_tEAB34591A3D9422D47089AF3756769B92EA68A23* L_11 = V_0;
 		NullCheck(L_11);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12 = L_11->___target;
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:39>
 		return L_10;
 	}
 }
-// Method Definition Index: 74795
+// Method Definition Index: 74788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* DOTweenModuleAudio_DOSetFloat_m95C5B73E2208425BB0D225DBBE705A62C34ADB8B (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, String_t* ___1_floatName, float ___2_endValue, float ___3_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6330,11 +6320,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		NullCheck(L_3);
 		L_3->___floatName = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___floatName), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:53>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:54>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:55>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:56>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:57>
 		U3CU3Ec__DisplayClass2_0_t983A17B7EA42860742F49575E50045E560CC39B9* L_5 = V_0;
 		DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03* L_6 = (DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03*)il2cpp_codegen_object_new(DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mD5E79861254E8BFB1618B3AB0B9755D18F553CFA(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass2_0_U3CDOSetFloatU3Eb__0_m638EF4CAE8BAF409B36498CC75BE2EECB4E327C7_RuntimeMethod_var), NULL);
@@ -6346,18 +6331,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_11;
 		L_11 = DOTween_To_m9C9EBC0FB6CF94364DD4FF85C476D8EE0A7FF4B1(L_6, L_8, L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:58>
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_12 = L_11;
 		U3CU3Ec__DisplayClass2_0_t983A17B7EA42860742F49575E50045E560CC39B9* L_13 = V_0;
 		NullCheck(L_13);
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_14 = L_13->___target;
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:59>
 		return L_12;
 	}
 }
-// Method Definition Index: 74796
+// Method Definition Index: 74789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOComplete_mB34A0C4B5156B4D5D7F88E1F1B3549F0ED35048C (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, bool ___1_withCallbacks, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6367,7 +6350,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOComplete_mB34A0C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:74>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		bool L_1 = ___1_withCallbacks;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
@@ -6376,7 +6358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOComplete_mB34A0C
 		return L_2;
 	}
 }
-// Method Definition Index: 74797
+// Method Definition Index: 74790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOKill_mAF9948DBD5491192943527B5FD65561EB5E6DA23 (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, bool ___1_complete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6386,7 +6368,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOKill_mAF9948DBD5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:85>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		bool L_1 = ___1_complete;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
@@ -6395,7 +6376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOKill_mAF9948DBD5
 		return L_2;
 	}
 }
-// Method Definition Index: 74798
+// Method Definition Index: 74791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOFlip_mA5DAA9E654CBF4C302F7376463DC80EF9FE480B0 (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6405,7 +6386,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOFlip_mA5DAA9E654
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:95>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -6413,7 +6393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOFlip_mA5DAA9E654
 		return L_1;
 	}
 }
-// Method Definition Index: 74799
+// Method Definition Index: 74792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOGoto_m0E560369CDA932ED0068A0CED7D733FE203E43E1 (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, float ___1_to, bool ___2_andPlay, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6423,7 +6403,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOGoto_m0E560369CD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:108>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		float L_1 = ___1_to;
 		bool L_2 = ___2_andPlay;
@@ -6433,7 +6412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOGoto_m0E560369CD
 		return L_3;
 	}
 }
-// Method Definition Index: 74800
+// Method Definition Index: 74793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPause_mDC395F8C1B08A113E79E42FAB5EE1EF453B1136D (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6443,7 +6422,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPause_mDC395F8C1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:118>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -6451,7 +6429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPause_mDC395F8C1
 		return L_1;
 	}
 }
-// Method Definition Index: 74801
+// Method Definition Index: 74794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPlay_m86F982951B3B2786390449AFE30BAEFBDC7E92D7 (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6461,7 +6439,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPlay_m86F982951B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:128>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -6469,7 +6446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPlay_m86F982951B
 		return L_1;
 	}
 }
-// Method Definition Index: 74802
+// Method Definition Index: 74795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPlayBackwards_mD371D3D6C3D85A6CE99B597BB0305D9E6EDD87F4 (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6479,7 +6456,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPlayBackwards_mD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:138>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -6487,7 +6463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPlayBackwards_mD
 		return L_1;
 	}
 }
-// Method Definition Index: 74803
+// Method Definition Index: 74796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPlayForward_m561924708D16379FF482E79B5710AB2FB5B1E9FB (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6497,7 +6473,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPlayForward_m561
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:148>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -6505,7 +6480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOPlayForward_m561
 		return L_1;
 	}
 }
-// Method Definition Index: 74804
+// Method Definition Index: 74797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DORestart_m0B4E5FF932DACDE8A3B1C85BE6B5A8FCB12AC0F0 (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6515,7 +6490,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DORestart_m0B4E5FF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:158>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -6523,7 +6497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DORestart_m0B4E5FF
 		return L_1;
 	}
 }
-// Method Definition Index: 74805
+// Method Definition Index: 74798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DORewind_m20E78D2E878D7E35D859B4789DBDC2DF968B06E3 (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6533,7 +6507,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DORewind_m20E78D2E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:168>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -6541,7 +6514,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DORewind_m20E78D2E
 		return L_1;
 	}
 }
-// Method Definition Index: 74806
+// Method Definition Index: 74799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOSmoothRewind_m775A16C85A17C3471062578BCC5A45683A67AC5A (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6551,7 +6524,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOSmoothRewind_m77
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:178>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -6559,7 +6531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOSmoothRewind_m77
 		return L_1;
 	}
 }
-// Method Definition Index: 74807
+// Method Definition Index: 74800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOTogglePause_m23CC6F5387C5060B72E4000C5F4A61B944A5F971 (AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6569,7 +6541,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOTogglePause_m23C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:188>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = ___0_target;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -6585,7 +6556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenModuleAudio_DOTogglePause_m23C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74808
+// Method Definition Index: 74801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m3791FA75A8CE2C48268B7EFD94EA4A3765266D67 (U3CU3Ec__DisplayClass0_0_t59F50543B6FEFF5A3083DDBD0014F90AF0F88A43* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6593,11 +6564,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m3791FA75
 		return;
 	}
 }
-// Method Definition Index: 74809
+// Method Definition Index: 74802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass0_0_U3CDOFadeU3Eb__0_m8143CFDDC70BD69C48E4BBBDF5BD596D88C518F9 (U3CU3Ec__DisplayClass0_0_t59F50543B6FEFF5A3083DDBD0014F90AF0F88A43* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:27>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -6605,11 +6575,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass0_0_U3CDOFadeU3Eb_
 		return L_1;
 	}
 }
-// Method Definition Index: 74810
+// Method Definition Index: 74803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0_U3CDOFadeU3Eb__1_m5E5FBB05013DE3D53572D7BA16CC7C54A0F2D0FC (U3CU3Ec__DisplayClass0_0_t59F50543B6FEFF5A3083DDBD0014F90AF0F88A43* __this, float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:27>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___target;
 		float L_1 = ___0_x;
 		NullCheck(L_0);
@@ -6625,7 +6594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0_U3CDOFadeU3Eb__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74811
+// Method Definition Index: 74804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m7F6CF474218CDB04F1779336A4121CB4413DBA05 (U3CU3Ec__DisplayClass1_0_tEAB34591A3D9422D47089AF3756769B92EA68A23* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6633,11 +6602,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m7F6CF474
 		return;
 	}
 }
-// Method Definition Index: 74812
+// Method Definition Index: 74805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass1_0_U3CDOPitchU3Eb__0_m0E574CBA7B1412BA78918BD8457649F22458B1FD (U3CU3Ec__DisplayClass1_0_tEAB34591A3D9422D47089AF3756769B92EA68A23* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:37>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -6645,11 +6613,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass1_0_U3CDOPitchU3Eb
 		return L_1;
 	}
 }
-// Method Definition Index: 74813
+// Method Definition Index: 74806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CDOPitchU3Eb__1_m64853930D881A088A3DC9B899622925943A4BC13 (U3CU3Ec__DisplayClass1_0_tEAB34591A3D9422D47089AF3756769B92EA68A23* __this, float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:37>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___target;
 		float L_1 = ___0_x;
 		NullCheck(L_0);
@@ -6665,7 +6632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CDOPitchU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74814
+// Method Definition Index: 74807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m0137DE0DC632BA91C3E6EF826AF8E333F0293D90 (U3CU3Ec__DisplayClass2_0_t983A17B7EA42860742F49575E50045E560CC39B9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6673,27 +6640,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m0137DE0D
 		return;
 	}
 }
-// Method Definition Index: 74815
+// Method Definition Index: 74808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass2_0_U3CDOSetFloatU3Eb__0_m638EF4CAE8BAF409B36498CC75BE2EECB4E327C7 (U3CU3Ec__DisplayClass2_0_t983A17B7EA42860742F49575E50045E560CC39B9* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:55>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = __this->___target;
 		String_t* L_1 = __this->___floatName;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = AudioMixer_GetFloat_mAED8D277AD30D0346292555CBF81D8961117AEC9(L_0, L_1, (&V_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:56>
 		float L_3 = V_0;
 		return L_3;
 	}
 }
-// Method Definition Index: 74816
+// Method Definition Index: 74809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CDOSetFloatU3Eb__1_mD0BF393888DDC1CA4DB4E8035A4033B1FC5F3563 (U3CU3Ec__DisplayClass2_0_t983A17B7EA42860742F49575E50045E560CC39B9* __this, float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs:57>
 		AudioMixer_tE2E8D79241711CDF9AB428C7FB96A35D80E40B04* L_0 = __this->___target;
 		String_t* L_1 = __this->___floatName;
 		float L_2 = ___0_x;
@@ -6711,7 +6675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CDOSetFloatU3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74817
+// Method Definition Index: 74810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* DOTweenModulePhysics_DOMove_m5B66A39F2C06E19EDFA4D9D79B8CEDD1B2C1AE9C (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6736,7 +6700,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:28>
 		U3CU3Ec__DisplayClass0_0_t7A8E83B59527B3FEAE3B44C39ED05E6008A297C3* L_3 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_4 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass0_0_U3CDOMoveU3Eb__0_m6E0B04D7869F5FF54EA1C743AC07762BE15C450F_RuntimeMethod_var), NULL);
@@ -6750,7 +6713,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_10;
 		L_10 = DOTween_To_m29FF04132DD76AFF686CF5DBCCD84CB6105A2DB8(L_4, L_7, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:29>
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_11 = L_10;
 		bool L_12 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_13;
@@ -6760,11 +6722,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_15 = L_14->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_16;
 		L_16 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_13, L_15, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:30>
 		return L_11;
 	}
 }
-// Method Definition Index: 74818
+// Method Definition Index: 74811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* DOTweenModulePhysics_DOMoveX_mAE96C9DA1E0C5EC23A773965A91B86C987BAEAAB (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6789,7 +6750,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:39>
 		U3CU3Ec__DisplayClass1_0_t3A78B607DFF930B7D43BCC15854BA73BFD4287A8* L_3 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_4 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass1_0_U3CDOMoveXU3Eb__0_m44B6924634D19688FB006D483138E93595291D10_RuntimeMethod_var), NULL);
@@ -6806,7 +6766,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_11;
 		L_11 = DOTween_To_m29FF04132DD76AFF686CF5DBCCD84CB6105A2DB8(L_4, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:40>
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_12 = L_11;
 		bool L_13 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_14;
@@ -6816,11 +6775,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_16 = L_15->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_17;
 		L_17 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_14, L_16, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:41>
 		return L_12;
 	}
 }
-// Method Definition Index: 74819
+// Method Definition Index: 74812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* DOTweenModulePhysics_DOMoveY_mE4DCBAC03F31FBF07EDFB15A55E2822256EAE03A (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6845,7 +6803,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:50>
 		U3CU3Ec__DisplayClass2_0_t8C1AE406019D344EE0395C065C3EC1A3154FEB7A* L_3 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_4 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass2_0_U3CDOMoveYU3Eb__0_m6BFE21962DA4F6AD341BB59633EDCE28B6E45B67_RuntimeMethod_var), NULL);
@@ -6862,7 +6819,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_11;
 		L_11 = DOTween_To_m29FF04132DD76AFF686CF5DBCCD84CB6105A2DB8(L_4, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:51>
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_12 = L_11;
 		bool L_13 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_14;
@@ -6872,11 +6828,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_16 = L_15->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_17;
 		L_17 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_14, L_16, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:52>
 		return L_12;
 	}
 }
-// Method Definition Index: 74820
+// Method Definition Index: 74813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* DOTweenModulePhysics_DOMoveZ_m5915FC138CB7BBFFCEF34456590EF4670B1893CE (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6901,7 +6856,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:61>
 		U3CU3Ec__DisplayClass3_0_tD6D6E53B37AFAC161D55DEB2BCFA4F353A7932B9* L_3 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_4 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass3_0_U3CDOMoveZU3Eb__0_mB670881A3259C5E5997D07DA4A1DDD3EDE75063B_RuntimeMethod_var), NULL);
@@ -6918,7 +6872,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_11;
 		L_11 = DOTween_To_m29FF04132DD76AFF686CF5DBCCD84CB6105A2DB8(L_4, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:62>
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_12 = L_11;
 		bool L_13 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_14;
@@ -6928,11 +6881,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_16 = L_15->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_17;
 		L_17 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_14, L_16, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:63>
 		return L_12;
 	}
 }
-// Method Definition Index: 74821
+// Method Definition Index: 74814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* DOTweenModulePhysics_DORotate_m65EA16E432A1B477A5A696EF95257FE812C948D6 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_endValue, float ___2_duration, int32_t ___3_mode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6957,7 +6909,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t392C54729BB024F5802F8E205C5836
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:72>
 		U3CU3Ec__DisplayClass4_0_t9E669FCCA49892C3EB54A986B376D01225F5C32F* L_3 = V_0;
 		DOGetter_1_tB89DD12456B8E79576BB70E1CA6DF899686410D3* L_4 = (DOGetter_1_tB89DD12456B8E79576BB70E1CA6DF899686410D3*)il2cpp_codegen_object_new(DOGetter_1_tB89DD12456B8E79576BB70E1CA6DF899686410D3_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m51479DFF391AD5DCBF44F595E1F6A5855A6C09E4(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3CDORotateU3Eb__0_m1F121B516FF4A3B19D60370CAF7215037FC55AFE_RuntimeMethod_var), NULL);
@@ -6971,24 +6922,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t392C54729BB024F5802F8E205C5836
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* L_10;
 		L_10 = DOTween_To_m7A731ADF3CCD5C4439F8710B2CD16BC6CEB051D0(L_4, L_7, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:73>
 		TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* L_11 = L_10;
 		U3CU3Ec__DisplayClass4_0_t9E669FCCA49892C3EB54A986B376D01225F5C32F* L_12 = V_0;
 		NullCheck(L_12);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_13 = L_12->___target;
 		TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* L_14;
 		L_14 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3_m5B8DCDA4F2BC949D5A7F4C39C4311718F00F396B(L_11, L_13, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3_m5B8DCDA4F2BC949D5A7F4C39C4311718F00F396B_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:74>
 		TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* L_15 = L_11;
 		NullCheck(L_15);
 		QuaternionOptions_t1B83700718F7417854E4B6FB0E1726E183F69718* L_16 = (QuaternionOptions_t1B83700718F7417854E4B6FB0E1726E183F69718*)(&L_15->___plugOptions);
 		int32_t L_17 = ___3_mode;
 		L_16->___rotateMode = L_17;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:75>
 		return L_15;
 	}
 }
-// Method Definition Index: 74822
+// Method Definition Index: 74815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* DOTweenModulePhysics_DOLookAt_m86BB568C280583D5140AF00ACDB6102191ECD98D (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_towards, float ___2_duration, int32_t ___3_axisConstraint, Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE ___4_up, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7024,8 +6972,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t392C54729BB024F5802F8E205C5836
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:85>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:86>
 		U3CU3Ec__DisplayClass5_0_tCE2250763F6C0A955A4B7F95159E527AECDCCDCC* L_3 = V_0;
 		DOGetter_1_tB89DD12456B8E79576BB70E1CA6DF899686410D3* L_4 = (DOGetter_1_tB89DD12456B8E79576BB70E1CA6DF899686410D3*)il2cpp_codegen_object_new(DOGetter_1_tB89DD12456B8E79576BB70E1CA6DF899686410D3_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m51479DFF391AD5DCBF44F595E1F6A5855A6C09E4(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3CDOLookAtU3Eb__0_m23D8CC0E9DB5CE2D88199B4DDE0CAD4AD1B2BC5E_RuntimeMethod_var), NULL);
@@ -7046,13 +6992,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t392C54729BB024F5802F8E205C5836
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3_m5B8DCDA4F2BC949D5A7F4C39C4311718F00F396B(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3_m5B8DCDA4F2BC949D5A7F4C39C4311718F00F396B_RuntimeMethod_var);
 		TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* L_14;
 		L_14 = Extensions_SetSpecialStartupMode_TisTweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3_m1FB31CA0D8160EBB636C80C061DA609BC80EC8B5(L_13, 1, Extensions_SetSpecialStartupMode_TisTweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3_m1FB31CA0D8160EBB636C80C061DA609BC80EC8B5_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:87>
 		TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* L_15 = L_14;
 		NullCheck(L_15);
 		QuaternionOptions_t1B83700718F7417854E4B6FB0E1726E183F69718* L_16 = (QuaternionOptions_t1B83700718F7417854E4B6FB0E1726E183F69718*)(&L_15->___plugOptions);
 		int32_t L_17 = ___3_axisConstraint;
 		L_16->___axisConstraint = L_17;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:88>
 		TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* L_18 = L_15;
 		NullCheck(L_18);
 		QuaternionOptions_t1B83700718F7417854E4B6FB0E1726E183F69718* L_19 = (QuaternionOptions_t1B83700718F7417854E4B6FB0E1726E183F69718*)(&L_18->___plugOptions);
@@ -7088,11 +7032,10 @@ IL_0066:
 IL_006b:
 	{
 		G_B3_1->___up = G_B3_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:89>
 		return G_B3_2;
 	}
 }
-// Method Definition Index: 74823
+// Method Definition Index: 74816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* DOTweenModulePhysics_DOJump_m66B1A29F77189B9981097A35A69E00974F0ACA65 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_endValue, float ___2_jumpPower, int32_t ___3_numJumps, float ___4_duration, bool ___5_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7132,7 +7075,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_endValue;
 		NullCheck(L_3);
 		L_3->___endValue = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:104>
 		int32_t L_5 = ___3_numJumps;
 		if ((((int32_t)L_5) >= ((int32_t)1)))
 		{
@@ -7140,25 +7082,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:104>
 		___3_numJumps = 1;
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:105>
 		U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* L_6 = V_0;
 		NullCheck(L_6);
 		L_6->___startPosY = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:106>
 		U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* L_7 = V_0;
 		NullCheck(L_7);
 		L_7->___offsetY = (-1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:107>
 		U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* L_8 = V_0;
 		NullCheck(L_8);
 		L_8->___offsetYSet = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:108>
 		U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* L_9 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_10;
@@ -7166,10 +7103,6 @@ IL_001b:
 		NullCheck(L_9);
 		L_9->___s = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___s), (void*)L_10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:109>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:110>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:111>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:112>
 		U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* L_11 = V_0;
 		U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* L_12 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_13 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
@@ -7205,12 +7138,6 @@ IL_001b:
 		NullCheck(L_11);
 		L_11->___yTween = L_30;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___yTween), (void*)L_30);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:113>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:114>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:115>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:116>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:117>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:118>
 		U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* L_31 = V_0;
 		NullCheck(L_31);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_32 = L_31->___s;
@@ -7277,15 +7204,6 @@ IL_001b:
 		int32_t L_69 = ((DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_StaticFields*)il2cpp_codegen_static_fields_for(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var))->___defaultEaseType;
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_70;
 		L_70 = TweenSettingsExtensions_SetEase_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m8883E8F9ADB1071F2480D9CE910190D8A121A24D(L_68, L_69, TweenSettingsExtensions_SetEase_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m8883E8F9ADB1071F2480D9CE910190D8A121A24D_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:119>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:120>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:121>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:122>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:123>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:124>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:125>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:126>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:127>
 		U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* L_71 = V_0;
 		NullCheck(L_71);
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_72 = L_71->___yTween;
@@ -7294,14 +7212,13 @@ IL_001b:
 		TweenCallback__ctor_m68CC9304423CBDE43001F9B1413B5DAAF70DB621(L_74, L_73, (intptr_t)((void*)U3CU3Ec__DisplayClass6_0_U3CDOJumpU3Eb__4_m8F3D5C990949F26E7B0CCCC3E56815037389E63C_RuntimeMethod_var), NULL);
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_75;
 		L_75 = TweenSettingsExtensions_OnUpdate_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_m57E18275D826369CD94860A3F1C39309D94D7379(L_72, L_74, TweenSettingsExtensions_OnUpdate_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_m57E18275D826369CD94860A3F1C39309D94D7379_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:128>
 		U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* L_76 = V_0;
 		NullCheck(L_76);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_77 = L_76->___s;
 		return L_77;
 	}
 }
-// Method Definition Index: 74824
+// Method Definition Index: 74817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* DOTweenModulePhysics_DOPath_m1443BEE665EB5D1A4EF2C356BE311406251657D4 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___1_path, float ___2_duration, int32_t ___3_pathType, int32_t ___4_pathMode, int32_t ___5_resolution, Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 ___6_gizmoColor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7329,7 +7246,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:148>
 		int32_t L_3 = ___5_resolution;
 		if ((((int32_t)L_3) >= ((int32_t)1)))
 		{
@@ -7337,14 +7253,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:148>
 		___5_resolution = 1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:149>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:150>
 		ABSTweenPlugin_3_t08B14BED068ACE348E543E45725D6C6BFFA60143* L_4;
 		L_4 = PathPlugin_Get_m997FB98C4FEB9E5E74B71034B36E2A40D0153BC6(NULL);
 		U3CU3Ec__DisplayClass7_0_t838318FF7AD89F850DE26411D3961E68C2B8507A* L_5 = V_0;
@@ -7372,22 +7285,19 @@ IL_0015:
 		L_19 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA(L_16, L_18, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA_RuntimeMethod_var);
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_20;
 		L_20 = TweenSettingsExtensions_SetUpdate_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mD2532784744F5E7D0417EE0EB9A48F701F995AFF(L_19, 2, TweenSettingsExtensions_SetUpdate_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mD2532784744F5E7D0417EE0EB9A48F701F995AFF_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:152>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_21 = L_20;
 		NullCheck(L_21);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_22 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_21->___plugOptions);
 		L_22->___isRigidbody = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:153>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_23 = L_21;
 		NullCheck(L_23);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_24 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_23->___plugOptions);
 		int32_t L_25 = ___4_pathMode;
 		L_24->___mode = L_25;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:154>
 		return L_23;
 	}
 }
-// Method Definition Index: 74825
+// Method Definition Index: 74818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* DOTweenModulePhysics_DOLocalPath_m16C97084468DB6E53825EEED8132F80E127EF0FA (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___1_path, float ___2_duration, int32_t ___3_pathType, int32_t ___4_pathMode, int32_t ___5_resolution, Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 ___6_gizmoColor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7415,7 +7325,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:173>
 		int32_t L_3 = ___5_resolution;
 		if ((((int32_t)L_3) >= ((int32_t)1)))
 		{
@@ -7423,13 +7332,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:173>
 		___5_resolution = 1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:174>
 		U3CU3Ec__DisplayClass8_0_t2C10088D8C53CEFD5E5012FBFC4B65019A1989EF* L_4 = V_0;
 		U3CU3Ec__DisplayClass8_0_t2C10088D8C53CEFD5E5012FBFC4B65019A1989EF* L_5 = V_0;
 		NullCheck(L_5);
@@ -7440,8 +7347,6 @@ IL_0015:
 		NullCheck(L_4);
 		L_4->___trans = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___trans), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:175>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:176>
 		ABSTweenPlugin_3_t08B14BED068ACE348E543E45725D6C6BFFA60143* L_8;
 		L_8 = PathPlugin_Get_m997FB98C4FEB9E5E74B71034B36E2A40D0153BC6(NULL);
 		U3CU3Ec__DisplayClass8_0_t2C10088D8C53CEFD5E5012FBFC4B65019A1989EF* L_9 = V_0;
@@ -7467,27 +7372,23 @@ IL_0015:
 		L_22 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA(L_19, L_21, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA_RuntimeMethod_var);
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_23;
 		L_23 = TweenSettingsExtensions_SetUpdate_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mD2532784744F5E7D0417EE0EB9A48F701F995AFF(L_22, 2, TweenSettingsExtensions_SetUpdate_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mD2532784744F5E7D0417EE0EB9A48F701F995AFF_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:178>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_24 = L_23;
 		NullCheck(L_24);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_25 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_24->___plugOptions);
 		L_25->___isRigidbody = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:179>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_26 = L_24;
 		NullCheck(L_26);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_27 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_26->___plugOptions);
 		int32_t L_28 = ___4_pathMode;
 		L_27->___mode = L_28;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:180>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_29 = L_26;
 		NullCheck(L_29);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_30 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_29->___plugOptions);
 		L_30->___useLocalPosition = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:181>
 		return L_29;
 	}
 }
-// Method Definition Index: 74826
+// Method Definition Index: 74819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* DOTweenModulePhysics_DOPath_mF43CCB4AF2A13F42ED05CE2E666422CA4065F328 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, Path_t6EC35555EF601CAFED947AC467DEBA7C1496A0C3* ___1_path, float ___2_duration, int32_t ___3_pathMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7513,8 +7414,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:188>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:189>
 		ABSTweenPlugin_3_t08B14BED068ACE348E543E45725D6C6BFFA60143* L_3;
 		L_3 = PathPlugin_Get_m997FB98C4FEB9E5E74B71034B36E2A40D0153BC6(NULL);
 		U3CU3Ec__DisplayClass9_0_t249DDBCB23E8308D09D0B03AB7A0B2CCB4F854E3* L_4 = V_0;
@@ -7535,22 +7434,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_13 = L_12->___target;
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_14;
 		L_14 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA(L_11, L_13, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:191>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_15 = L_14;
 		NullCheck(L_15);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_16 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_15->___plugOptions);
 		L_16->___isRigidbody = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:192>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_17 = L_15;
 		NullCheck(L_17);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_18 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_17->___plugOptions);
 		int32_t L_19 = ___3_pathMode;
 		L_18->___mode = L_19;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:193>
 		return L_17;
 	}
 }
-// Method Definition Index: 74827
+// Method Definition Index: 74820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* DOTweenModulePhysics_DOLocalPath_mCB4C763749BBB71E0B4ECB3EA7C9C43B9EAA45FF (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, Path_t6EC35555EF601CAFED947AC467DEBA7C1496A0C3* ___1_path, float ___2_duration, int32_t ___3_pathMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7576,7 +7472,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:199>
 		U3CU3Ec__DisplayClass10_0_tB8A336F0E7DC9883C0E326A2DFE75AB01145E4BF* L_3 = V_0;
 		U3CU3Ec__DisplayClass10_0_tB8A336F0E7DC9883C0E326A2DFE75AB01145E4BF* L_4 = V_0;
 		NullCheck(L_4);
@@ -7587,8 +7482,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		NullCheck(L_3);
 		L_3->___trans = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___trans), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:200>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:201>
 		ABSTweenPlugin_3_t08B14BED068ACE348E543E45725D6C6BFFA60143* L_7;
 		L_7 = PathPlugin_Get_m997FB98C4FEB9E5E74B71034B36E2A40D0153BC6(NULL);
 		U3CU3Ec__DisplayClass10_0_tB8A336F0E7DC9883C0E326A2DFE75AB01145E4BF* L_8 = V_0;
@@ -7607,23 +7500,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_16 = L_15->___target;
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_17;
 		L_17 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA(L_14, L_16, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:203>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_18 = L_17;
 		NullCheck(L_18);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_19 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_18->___plugOptions);
 		L_19->___isRigidbody = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:204>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_20 = L_18;
 		NullCheck(L_20);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_21 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_20->___plugOptions);
 		int32_t L_22 = ___3_pathMode;
 		L_21->___mode = L_22;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:205>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_23 = L_20;
 		NullCheck(L_23);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_24 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_23->___plugOptions);
 		L_24->___useLocalPosition = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:206>
 		return L_23;
 	}
 }
@@ -7635,7 +7524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74828
+// Method Definition Index: 74821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m0BEB792A0FE19EAA31D6B34FD5B01D116B6982E8 (U3CU3Ec__DisplayClass0_0_t7A8E83B59527B3FEAE3B44C39ED05E6008A297C3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7643,11 +7532,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m0BEB792A
 		return;
 	}
 }
-// Method Definition Index: 74829
+// Method Definition Index: 74822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass0_0_U3CDOMoveU3Eb__0_m6E0B04D7869F5FF54EA1C743AC07762BE15C450F (U3CU3Ec__DisplayClass0_0_t7A8E83B59527B3FEAE3B44C39ED05E6008A297C3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:28>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -7663,7 +7551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74830
+// Method Definition Index: 74823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m03E61F264547D93763B90C045BE06D44AAA239DF (U3CU3Ec__DisplayClass10_0_tB8A336F0E7DC9883C0E326A2DFE75AB01145E4BF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7671,11 +7559,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m03E61F2
 		return;
 	}
 }
-// Method Definition Index: 74831
+// Method Definition Index: 74824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass10_0_U3CDOLocalPathU3Eb__0_m7055847965DE725A80D146EAEB0434DF0D185D01 (U3CU3Ec__DisplayClass10_0_tB8A336F0E7DC9883C0E326A2DFE75AB01145E4BF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:200>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___trans;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -7683,7 +7570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 74832
+// Method Definition Index: 74825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CDOLocalPathU3Eb__1_m3744C63CE1A944BF7209BD755A38A3EF757E32C7 (U3CU3Ec__DisplayClass10_0_tB8A336F0E7DC9883C0E326A2DFE75AB01145E4BF* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7698,7 +7585,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CDOLocalPath
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:200>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___trans;
 		NullCheck(L_1);
@@ -7750,7 +7636,7 @@ IL_002d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74833
+// Method Definition Index: 74826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m82174D8C8C82955F6E9E1D59B330645364022DD0 (U3CU3Ec__DisplayClass1_0_t3A78B607DFF930B7D43BCC15854BA73BFD4287A8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7758,11 +7644,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m82174D8C
 		return;
 	}
 }
-// Method Definition Index: 74834
+// Method Definition Index: 74827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass1_0_U3CDOMoveXU3Eb__0_m44B6924634D19688FB006D483138E93595291D10 (U3CU3Ec__DisplayClass1_0_t3A78B607DFF930B7D43BCC15854BA73BFD4287A8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:39>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -7778,7 +7663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74835
+// Method Definition Index: 74828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m95E3ADCB89ABFACB7D1E91DA4A1CDF392DC794E6 (U3CU3Ec__DisplayClass2_0_t8C1AE406019D344EE0395C065C3EC1A3154FEB7A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7786,11 +7671,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m95E3ADCB
 		return;
 	}
 }
-// Method Definition Index: 74836
+// Method Definition Index: 74829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass2_0_U3CDOMoveYU3Eb__0_m6BFE21962DA4F6AD341BB59633EDCE28B6E45B67 (U3CU3Ec__DisplayClass2_0_t8C1AE406019D344EE0395C065C3EC1A3154FEB7A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:50>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -7806,7 +7690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74837
+// Method Definition Index: 74830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m5EFD6FE639198BF1AD1E9FA475731D194EFE073B (U3CU3Ec__DisplayClass3_0_tD6D6E53B37AFAC161D55DEB2BCFA4F353A7932B9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7814,11 +7698,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m5EFD6FE6
 		return;
 	}
 }
-// Method Definition Index: 74838
+// Method Definition Index: 74831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass3_0_U3CDOMoveZU3Eb__0_mB670881A3259C5E5997D07DA4A1DDD3EDE75063B (U3CU3Ec__DisplayClass3_0_tD6D6E53B37AFAC161D55DEB2BCFA4F353A7932B9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:61>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -7834,7 +7717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74839
+// Method Definition Index: 74832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m0C905B754B9A6187494F408107EE861B650A5DF7 (U3CU3Ec__DisplayClass4_0_t9E669FCCA49892C3EB54A986B376D01225F5C32F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7842,11 +7725,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m0C905B75
 		return;
 	}
 }
-// Method Definition Index: 74840
+// Method Definition Index: 74833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 U3CU3Ec__DisplayClass4_0_U3CDORotateU3Eb__0_m1F121B516FF4A3B19D60370CAF7215037FC55AFE (U3CU3Ec__DisplayClass4_0_t9E669FCCA49892C3EB54A986B376D01225F5C32F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:72>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
@@ -7862,7 +7744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74841
+// Method Definition Index: 74834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m5454D12FFC74B0B715588F08E4DA72D94E47D69A (U3CU3Ec__DisplayClass5_0_tCE2250763F6C0A955A4B7F95159E527AECDCCDCC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7870,11 +7752,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m5454D12F
 		return;
 	}
 }
-// Method Definition Index: 74842
+// Method Definition Index: 74835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 U3CU3Ec__DisplayClass5_0_U3CDOLookAtU3Eb__0_m23D8CC0E9DB5CE2D88199B4DDE0CAD4AD1B2BC5E (U3CU3Ec__DisplayClass5_0_tCE2250763F6C0A955A4B7F95159E527AECDCCDCC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:85>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
@@ -7890,7 +7771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74843
+// Method Definition Index: 74836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m0D378F1E0358380DA1CD247F90674C29D9954E0E (U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7898,11 +7779,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m0D378F1E
 		return;
 	}
 }
-// Method Definition Index: 74844
+// Method Definition Index: 74837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass6_0_U3CDOJumpU3Eb__0_m41ECCE19967CB8FF9557E9EFC068AB9199CF160D (U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:109>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -7910,11 +7790,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 74845
+// Method Definition Index: 74838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CDOJumpU3Eb__1_mF4A2E742B3B0550F2D22177E36FB64F1298BE508 (U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:112>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -7924,11 +7803,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CDOJumpU3Eb__
 		return;
 	}
 }
-// Method Definition Index: 74846
+// Method Definition Index: 74839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass6_0_U3CDOJumpU3Eb__2_m9DB85188D8D2D2AB9C1656C58A65639CFB20CCAA (U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:113>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -7936,11 +7814,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 74847
+// Method Definition Index: 74840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass6_0_U3CDOJumpU3Eb__3_m20C802577C48BC4FEEC502F10698D6E33014CF3D (U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:115>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -7948,7 +7825,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 74848
+// Method Definition Index: 74841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CDOJumpU3Eb__4_m8F3D5C990949F26E7B0CCCC3E56815037389E63C (U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -7958,7 +7835,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CDOJumpU3Eb__
 	float G_B4_0 = 0.0f;
 	U3CU3Ec__DisplayClass6_0_tF676EF1983CD3B91B739A19ABEEAB2A5B12A30CA* G_B4_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:120>
 		bool L_0 = __this->___offsetYSet;
 		if (L_0)
 		{
@@ -7966,9 +7842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CDOJumpU3Eb__
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:121>
 		__this->___offsetYSet = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:122>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_1 = __this->___s;
 		NullCheck(L_1);
 		bool L_2;
@@ -8005,13 +7879,11 @@ IL_003c:
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:124>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_8 = __this->___target;
 		NullCheck(L_8);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Rigidbody_get_position_m4ECB79BDBBF8FD1EA572EDB792D3330DDED24691(L_8, NULL);
 		V_0 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:125>
 		float* L_10 = (float*)(&(&V_0)->___y);
 		float* L_11 = L_10;
 		float L_12 = *((float*)L_11);
@@ -8022,12 +7894,10 @@ IL_0041:
 		float L_16;
 		L_16 = DOVirtual_EasedValue_m40F83FCD3705E8DD33558C84B3F7067D91F3B9DF((0.0f), L_13, L_15, 6, NULL);
 		*((float*)L_11) = (float)((float)il2cpp_codegen_add(L_12, L_16));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:126>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_17 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_0;
 		NullCheck(L_17);
 		Rigidbody_MovePosition_mB2CD29ABC8F59AC338C0A3A5A6B75C38FDA92CA9(L_17, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:127>
 		return;
 	}
 }
@@ -8039,7 +7909,7 @@ IL_0041:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74849
+// Method Definition Index: 74842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mC0EAAE8F4A19AAD8FD1BE8F1E1F982463877988F (U3CU3Ec__DisplayClass7_0_t838318FF7AD89F850DE26411D3961E68C2B8507A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8047,11 +7917,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mC0EAAE8F
 		return;
 	}
 }
-// Method Definition Index: 74850
+// Method Definition Index: 74843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass7_0_U3CDOPathU3Eb__0_m7C61A8F92F87D76AE9C46EBFDE4A761BD36EEC9D (U3CU3Ec__DisplayClass7_0_t838318FF7AD89F850DE26411D3961E68C2B8507A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:149>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -8067,7 +7936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74851
+// Method Definition Index: 74844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_mA253330E57ECE63BD9DA2F36F950A44B8D19F75D (U3CU3Ec__DisplayClass8_0_t2C10088D8C53CEFD5E5012FBFC4B65019A1989EF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8075,11 +7944,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_mA253330E
 		return;
 	}
 }
-// Method Definition Index: 74852
+// Method Definition Index: 74845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass8_0_U3CDOLocalPathU3Eb__0_m5C5018BD3AB3DEFE56DB1B58F78D8E8B4AE5AC20 (U3CU3Ec__DisplayClass8_0_t2C10088D8C53CEFD5E5012FBFC4B65019A1989EF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:175>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___trans;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -8087,7 +7955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 74853
+// Method Definition Index: 74846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CDOLocalPathU3Eb__1_m209F28992EB1879A4349497D0672A7C2749EC393 (U3CU3Ec__DisplayClass8_0_t2C10088D8C53CEFD5E5012FBFC4B65019A1989EF* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8102,7 +7970,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CDOLocalPathU
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:175>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___trans;
 		NullCheck(L_1);
@@ -8154,7 +8021,7 @@ IL_002d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74854
+// Method Definition Index: 74847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_mE8C66DFD146B85189C06E2392A7CEDA18580DFF1 (U3CU3Ec__DisplayClass9_0_t249DDBCB23E8308D09D0B03AB7A0B2CCB4F854E3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8162,11 +8029,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_mE8C66DFD
 		return;
 	}
 }
-// Method Definition Index: 74855
+// Method Definition Index: 74848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass9_0_U3CDOPathU3Eb__0_m780F14A754BC9CD461B328E1D201CCBA31236A3E (U3CU3Ec__DisplayClass9_0_t249DDBCB23E8308D09D0B03AB7A0B2CCB4F854E3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs:188>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -8182,7 +8048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74856
+// Method Definition Index: 74849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModulePhysics2D_DOMove_m6A74D57E65B6F8E119164B18F17D3ED7BB8B6B44 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8207,7 +8073,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:27>
 		U3CU3Ec__DisplayClass0_0_tE3BC3F80330AED5085BA4E033B920916AE2EE75C* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass0_0_U3CDOMoveU3Eb__0_m3B437B7A49D2CB3F8665A68251D2037D4D2DFAFB_RuntimeMethod_var), NULL);
@@ -8221,7 +8086,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10;
 		L_10 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_7, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:28>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_11 = L_10;
 		bool L_12 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_13;
@@ -8231,11 +8095,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_15 = L_14->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_16;
 		L_16 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_13, L_15, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:29>
 		return L_11;
 	}
 }
-// Method Definition Index: 74857
+// Method Definition Index: 74850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModulePhysics2D_DOMoveX_m7F9730EFF5DE54338332D74B2364243C211EB7F4 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8260,7 +8123,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:38>
 		U3CU3Ec__DisplayClass1_0_t1193F41F38E742B3C5DC7DB01E9714978DDCBD01* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass1_0_U3CDOMoveXU3Eb__0_mDCC3F81EA6919A6758DF902C951C7BE90FD9ED21_RuntimeMethod_var), NULL);
@@ -8277,7 +8139,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_11;
 		L_11 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:39>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_12 = L_11;
 		bool L_13 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_14;
@@ -8287,11 +8148,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_16 = L_15->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_17;
 		L_17 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_14, L_16, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:40>
 		return L_12;
 	}
 }
-// Method Definition Index: 74858
+// Method Definition Index: 74851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModulePhysics2D_DOMoveY_mA3B4A7F4B174180E22FA9F9CC8852B001460E990 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8316,7 +8176,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:49>
 		U3CU3Ec__DisplayClass2_0_t449E13E54A99AFAE4984651C67700DEC993B98ED* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass2_0_U3CDOMoveYU3Eb__0_m26EFA27B3283A4CDEA74C1C10C2298172D6F3DA7_RuntimeMethod_var), NULL);
@@ -8333,7 +8192,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_11;
 		L_11 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_7, L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:50>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_12 = L_11;
 		bool L_13 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_14;
@@ -8343,11 +8201,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_16 = L_15->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_17;
 		L_17 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_14, L_16, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:51>
 		return L_12;
 	}
 }
-// Method Definition Index: 74859
+// Method Definition Index: 74852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* DOTweenModulePhysics2D_DORotate_m914F5F01CD6972EE0FCBA60FBC4AB340E647DC5E (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8372,7 +8229,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:59>
 		U3CU3Ec__DisplayClass3_0_t892F716A8A1CDF8AFF37E5CA93703B60ADC4B9F3* L_3 = V_0;
 		DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03* L_4 = (DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03*)il2cpp_codegen_object_new(DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mD5E79861254E8BFB1618B3AB0B9755D18F553CFA(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass3_0_U3CDORotateU3Eb__0_mA761FE1B426A6D4F495CF6236077759B83404880_RuntimeMethod_var), NULL);
@@ -8386,18 +8242,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_10;
 		L_10 = DOTween_To_m9C9EBC0FB6CF94364DD4FF85C476D8EE0A7FF4B1(L_4, L_7, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:60>
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_11 = L_10;
 		U3CU3Ec__DisplayClass3_0_t892F716A8A1CDF8AFF37E5CA93703B60ADC4B9F3* L_12 = V_0;
 		NullCheck(L_12);
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_13 = L_12->___target;
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_14;
 		L_14 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5(L_11, L_13, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:61>
 		return L_11;
 	}
 }
-// Method Definition Index: 74860
+// Method Definition Index: 74853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* DOTweenModulePhysics2D_DOJump_m994418231434C0151D7ADEE79A02174D6F4E5B2B (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_jumpPower, int32_t ___3_numJumps, float ___4_duration, bool ___5_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8437,7 +8291,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___1_endValue;
 		NullCheck(L_3);
 		L_3->___endValue = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:77>
 		int32_t L_5 = ___3_numJumps;
 		if ((((int32_t)L_5) >= ((int32_t)1)))
 		{
@@ -8445,25 +8298,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:77>
 		___3_numJumps = 1;
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:78>
 		U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* L_6 = V_0;
 		NullCheck(L_6);
 		L_6->___startPosY = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:79>
 		U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* L_7 = V_0;
 		NullCheck(L_7);
 		L_7->___offsetY = (-1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:80>
 		U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* L_8 = V_0;
 		NullCheck(L_8);
 		L_8->___offsetYSet = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:81>
 		U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* L_9 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_10;
@@ -8471,10 +8319,6 @@ IL_001b:
 		NullCheck(L_9);
 		L_9->___s = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___s), (void*)L_10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:82>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:83>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:84>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:85>
 		U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* L_11 = V_0;
 		U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* L_12 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_13 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
@@ -8508,10 +8352,6 @@ IL_001b:
 		NullCheck(L_11);
 		L_11->___yTween = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___yTween), (void*)L_29);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:86>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:87>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:88>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:89>
 		U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* L_30 = V_0;
 		NullCheck(L_30);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_31 = L_30->___s;
@@ -8551,15 +8391,6 @@ IL_001b:
 		int32_t L_52 = ((DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_StaticFields*)il2cpp_codegen_static_fields_for(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var))->___defaultEaseType;
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_53;
 		L_53 = TweenSettingsExtensions_SetEase_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m8883E8F9ADB1071F2480D9CE910190D8A121A24D(L_51, L_52, TweenSettingsExtensions_SetEase_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m8883E8F9ADB1071F2480D9CE910190D8A121A24D_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:90>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:91>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:92>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:93>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:94>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:95>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:96>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:97>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:98>
 		U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* L_54 = V_0;
 		NullCheck(L_54);
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_55 = L_54->___yTween;
@@ -8568,14 +8399,13 @@ IL_001b:
 		TweenCallback__ctor_m68CC9304423CBDE43001F9B1413B5DAAF70DB621(L_57, L_56, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__5_mA4ECC8E0DC621BEC5EA7C6F8B770CCF97FAFFDFB_RuntimeMethod_var), NULL);
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_58;
 		L_58 = TweenSettingsExtensions_OnUpdate_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_m57E18275D826369CD94860A3F1C39309D94D7379(L_55, L_57, TweenSettingsExtensions_OnUpdate_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_m57E18275D826369CD94860A3F1C39309D94D7379_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:99>
 		U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* L_59 = V_0;
 		NullCheck(L_59);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_60 = L_59->___s;
 		return L_60;
 	}
 }
-// Method Definition Index: 74861
+// Method Definition Index: 74854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* DOTweenModulePhysics2D_DOPath_m0CF606B5F7970A8D1FBC5816ED775CA1736C9D1C (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_target, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___1_path, float ___2_duration, int32_t ___3_pathType, int32_t ___4_pathMode, int32_t ___5_resolution, Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 ___6_gizmoColor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8607,7 +8437,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:119>
 		int32_t L_3 = ___5_resolution;
 		if ((((int32_t)L_3) >= ((int32_t)1)))
 		{
@@ -8615,28 +8444,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:119>
 		___5_resolution = 1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:120>
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_4 = ___1_path;
 		NullCheck(L_4);
 		V_1 = ((int32_t)(((RuntimeArray*)L_4)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:121>
 		int32_t L_5 = V_1;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_5);
 		V_2 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:122>
 		V_3 = 0;
 		goto IL_003b;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:122>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_7 = V_2;
 		int32_t L_8 = V_3;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_9 = ___1_path;
@@ -8648,14 +8472,12 @@ IL_0024:
 		L_13 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_12, NULL);
 		NullCheck(L_7);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_13);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:122>
 		int32_t L_14 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:122>
 		int32_t L_15 = V_3;
 		int32_t L_16 = V_1;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -8664,8 +8486,6 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:123>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:124>
 		ABSTweenPlugin_3_t08B14BED068ACE348E543E45725D6C6BFFA60143* L_17;
 		L_17 = PathPlugin_Get_m997FB98C4FEB9E5E74B71034B36E2A40D0153BC6(NULL);
 		U3CU3Ec__DisplayClass5_0_t5952AFF296950978CAEC258447E9176598BA17EB* L_18 = V_0;
@@ -8691,22 +8511,19 @@ IL_003b:
 		L_31 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA(L_28, L_30, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA_RuntimeMethod_var);
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_32;
 		L_32 = TweenSettingsExtensions_SetUpdate_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mD2532784744F5E7D0417EE0EB9A48F701F995AFF(L_31, 2, TweenSettingsExtensions_SetUpdate_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mD2532784744F5E7D0417EE0EB9A48F701F995AFF_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:126>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_33 = L_32;
 		NullCheck(L_33);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_34 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_33->___plugOptions);
 		L_34->___isRigidbody2D = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:127>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_35 = L_33;
 		NullCheck(L_35);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_36 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_35->___plugOptions);
 		int32_t L_37 = ___4_pathMode;
 		L_36->___mode = L_37;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:128>
 		return L_35;
 	}
 }
-// Method Definition Index: 74862
+// Method Definition Index: 74855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* DOTweenModulePhysics2D_DOLocalPath_mEC1BAA9AEDBCE7F667D52E04746C6E29C7AFAA5B (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_target, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___1_path, float ___2_duration, int32_t ___3_pathType, int32_t ___4_pathMode, int32_t ___5_resolution, Nullable_1_tEE83D90B507D40B6C58B5EEF5B9D44D377B44F11 ___6_gizmoColor, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8738,7 +8555,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:147>
 		int32_t L_3 = ___5_resolution;
 		if ((((int32_t)L_3) >= ((int32_t)1)))
 		{
@@ -8746,28 +8562,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:147>
 		___5_resolution = 1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:148>
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_4 = ___1_path;
 		NullCheck(L_4);
 		V_1 = ((int32_t)(((RuntimeArray*)L_4)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:149>
 		int32_t L_5 = V_1;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_5);
 		V_2 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:150>
 		V_3 = 0;
 		goto IL_003b;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:150>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_7 = V_2;
 		int32_t L_8 = V_3;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_9 = ___1_path;
@@ -8779,14 +8590,12 @@ IL_0024:
 		L_13 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_12, NULL);
 		NullCheck(L_7);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_13);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:150>
 		int32_t L_14 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:150>
 		int32_t L_15 = V_3;
 		int32_t L_16 = V_1;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -8795,7 +8604,6 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:151>
 		U3CU3Ec__DisplayClass6_0_tF7A18B8A6B9E46A956B38BDD1913A5AC7CCCD0E6* L_17 = V_0;
 		U3CU3Ec__DisplayClass6_0_tF7A18B8A6B9E46A956B38BDD1913A5AC7CCCD0E6* L_18 = V_0;
 		NullCheck(L_18);
@@ -8806,8 +8614,6 @@ IL_003b:
 		NullCheck(L_17);
 		L_17->___trans = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&L_17->___trans), (void*)L_20);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:152>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:153>
 		ABSTweenPlugin_3_t08B14BED068ACE348E543E45725D6C6BFFA60143* L_21;
 		L_21 = PathPlugin_Get_m997FB98C4FEB9E5E74B71034B36E2A40D0153BC6(NULL);
 		U3CU3Ec__DisplayClass6_0_tF7A18B8A6B9E46A956B38BDD1913A5AC7CCCD0E6* L_22 = V_0;
@@ -8833,27 +8639,23 @@ IL_003b:
 		L_35 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA(L_32, L_34, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA_RuntimeMethod_var);
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_36;
 		L_36 = TweenSettingsExtensions_SetUpdate_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mD2532784744F5E7D0417EE0EB9A48F701F995AFF(L_35, 2, TweenSettingsExtensions_SetUpdate_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mD2532784744F5E7D0417EE0EB9A48F701F995AFF_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:155>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_37 = L_36;
 		NullCheck(L_37);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_38 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_37->___plugOptions);
 		L_38->___isRigidbody2D = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:156>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_39 = L_37;
 		NullCheck(L_39);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_40 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_39->___plugOptions);
 		int32_t L_41 = ___4_pathMode;
 		L_40->___mode = L_41;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:157>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_42 = L_39;
 		NullCheck(L_42);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_43 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_42->___plugOptions);
 		L_43->___useLocalPosition = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:158>
 		return L_42;
 	}
 }
-// Method Definition Index: 74863
+// Method Definition Index: 74856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* DOTweenModulePhysics2D_DOPath_mB1B83D2F6891C271CC77EB66926701FC799328F3 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_target, Path_t6EC35555EF601CAFED947AC467DEBA7C1496A0C3* ___1_path, float ___2_duration, int32_t ___3_pathMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8879,8 +8681,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:165>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:166>
 		ABSTweenPlugin_3_t08B14BED068ACE348E543E45725D6C6BFFA60143* L_3;
 		L_3 = PathPlugin_Get_m997FB98C4FEB9E5E74B71034B36E2A40D0153BC6(NULL);
 		U3CU3Ec__DisplayClass7_0_tAD72DF3E41D581C965CFD52335B1FFAA457EAF96* L_4 = V_0;
@@ -8899,22 +8699,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_12 = L_11->___target;
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:168>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_14 = L_13;
 		NullCheck(L_14);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_15 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_14->___plugOptions);
 		L_15->___isRigidbody2D = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:169>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_16 = L_14;
 		NullCheck(L_16);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_17 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_16->___plugOptions);
 		int32_t L_18 = ___3_pathMode;
 		L_17->___mode = L_18;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:170>
 		return L_16;
 	}
 }
-// Method Definition Index: 74864
+// Method Definition Index: 74857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* DOTweenModulePhysics2D_DOLocalPath_m3C71F4FACAA8A8519EA16714625B9B3B693ECC58 (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_target, Path_t6EC35555EF601CAFED947AC467DEBA7C1496A0C3* ___1_path, float ___2_duration, int32_t ___3_pathMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8940,7 +8737,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:176>
 		U3CU3Ec__DisplayClass8_0_t9C697E36D5D0AF152BCACC17C1D020869C34C0B8* L_3 = V_0;
 		U3CU3Ec__DisplayClass8_0_t9C697E36D5D0AF152BCACC17C1D020869C34C0B8* L_4 = V_0;
 		NullCheck(L_4);
@@ -8951,8 +8747,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		NullCheck(L_3);
 		L_3->___trans = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___trans), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:177>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:178>
 		ABSTweenPlugin_3_t08B14BED068ACE348E543E45725D6C6BFFA60143* L_7;
 		L_7 = PathPlugin_Get_m997FB98C4FEB9E5E74B71034B36E2A40D0153BC6(NULL);
 		U3CU3Ec__DisplayClass8_0_t9C697E36D5D0AF152BCACC17C1D020869C34C0B8* L_8 = V_0;
@@ -8971,23 +8765,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_16 = L_15->___target;
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_17;
 		L_17 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA(L_14, L_16, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA_mF304C456D64A3A40ADCE3F28589D2861FFA16EDA_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:180>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_18 = L_17;
 		NullCheck(L_18);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_19 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_18->___plugOptions);
 		L_19->___isRigidbody2D = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:181>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_20 = L_18;
 		NullCheck(L_20);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_21 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_20->___plugOptions);
 		int32_t L_22 = ___3_pathMode;
 		L_21->___mode = L_22;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:182>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_23 = L_20;
 		NullCheck(L_23);
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A* L_24 = (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A*)(&L_23->___plugOptions);
 		L_24->___useLocalPosition = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:183>
 		return L_23;
 	}
 }
@@ -8999,7 +8789,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74865
+// Method Definition Index: 74858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m6E60A649269716DA67C91FEA9DB5E4838B171FFB (U3CU3Ec__DisplayClass0_0_tE3BC3F80330AED5085BA4E033B920916AE2EE75C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9007,11 +8797,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m6E60A649
 		return;
 	}
 }
-// Method Definition Index: 74866
+// Method Definition Index: 74859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass0_0_U3CDOMoveU3Eb__0_m3B437B7A49D2CB3F8665A68251D2037D4D2DFAFB (U3CU3Ec__DisplayClass0_0_tE3BC3F80330AED5085BA4E033B920916AE2EE75C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:27>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -9027,7 +8816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74867
+// Method Definition Index: 74860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_mAA755EB23D9336AA9EC71EBD7D962163A5D701BB (U3CU3Ec__DisplayClass1_0_t1193F41F38E742B3C5DC7DB01E9714978DDCBD01* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9035,11 +8824,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_mAA755EB2
 		return;
 	}
 }
-// Method Definition Index: 74868
+// Method Definition Index: 74861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass1_0_U3CDOMoveXU3Eb__0_mDCC3F81EA6919A6758DF902C951C7BE90FD9ED21 (U3CU3Ec__DisplayClass1_0_t1193F41F38E742B3C5DC7DB01E9714978DDCBD01* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:38>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -9055,7 +8843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74869
+// Method Definition Index: 74862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m287F996454332CC75504F22382E84F764A6703E5 (U3CU3Ec__DisplayClass2_0_t449E13E54A99AFAE4984651C67700DEC993B98ED* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9063,11 +8851,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_m287F9964
 		return;
 	}
 }
-// Method Definition Index: 74870
+// Method Definition Index: 74863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass2_0_U3CDOMoveYU3Eb__0_m26EFA27B3283A4CDEA74C1C10C2298172D6F3DA7 (U3CU3Ec__DisplayClass2_0_t449E13E54A99AFAE4984651C67700DEC993B98ED* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:49>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -9083,7 +8870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74871
+// Method Definition Index: 74864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m4AB88AEBE4C86B65F1E152630DCC77C868D114EF (U3CU3Ec__DisplayClass3_0_t892F716A8A1CDF8AFF37E5CA93703B60ADC4B9F3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9091,11 +8878,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m4AB88AEB
 		return;
 	}
 }
-// Method Definition Index: 74872
+// Method Definition Index: 74865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass3_0_U3CDORotateU3Eb__0_mA761FE1B426A6D4F495CF6236077759B83404880 (U3CU3Ec__DisplayClass3_0_t892F716A8A1CDF8AFF37E5CA93703B60ADC4B9F3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:59>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -9111,7 +8897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass3_0_U3CDORotateU3E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74873
+// Method Definition Index: 74866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_mB04F62E995B27D6A6428EC7912C8E28383226888 (U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9119,11 +8905,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_mB04F62E9
 		return;
 	}
 }
-// Method Definition Index: 74874
+// Method Definition Index: 74867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__0_mC384861F18478CA4920D44A4FF1DBAC168091984 (U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:82>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -9131,11 +8916,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 74875
+// Method Definition Index: 74868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__1_m4BE94E6CA4A7343449BF1C380C49969ACEAC3258 (U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:82>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -9143,11 +8927,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__
 		return;
 	}
 }
-// Method Definition Index: 74876
+// Method Definition Index: 74869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__2_mB0AC03FA3A2D44B6659E6FD460970C0AED148A48 (U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:85>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -9157,11 +8940,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__
 		return;
 	}
 }
-// Method Definition Index: 74877
+// Method Definition Index: 74870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__3_m50157E12B08569073B9B7C226EA7E0FF7AF83BE3 (U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:86>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -9169,11 +8951,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 74878
+// Method Definition Index: 74871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__4_mAB03323C38080C1800DA5545B062D5ADAA39CB73 (U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:86>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -9181,7 +8962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__
 		return;
 	}
 }
-// Method Definition Index: 74879
+// Method Definition Index: 74872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__5_mA4ECC8E0DC621BEC5EA7C6F8B770CCF97FAFFDFB (U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -9191,7 +8972,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__
 	float G_B4_0 = 0.0f;
 	U3CU3Ec__DisplayClass4_0_t5ED7ACF8AF501EC38AC580536C22E8222A74CD9A* G_B4_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:91>
 		bool L_0 = __this->___offsetYSet;
 		if (L_0)
 		{
@@ -9199,9 +8979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOJumpU3Eb__
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:92>
 		__this->___offsetYSet = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:93>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_1 = __this->___s;
 		NullCheck(L_1);
 		bool L_2;
@@ -9238,7 +9016,6 @@ IL_003c:
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:95>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_8 = __this->___target;
 		NullCheck(L_8);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
@@ -9246,7 +9023,6 @@ IL_0041:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_9, NULL);
 		V_0 = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:96>
 		float* L_11 = (float*)(&(&V_0)->___y);
 		float* L_12 = L_11;
 		float L_13 = *((float*)L_12);
@@ -9257,14 +9033,12 @@ IL_0041:
 		float L_17;
 		L_17 = DOVirtual_EasedValue_m40F83FCD3705E8DD33558C84B3F7067D91F3B9DF((0.0f), L_14, L_16, 6, NULL);
 		*((float*)L_12) = (float)((float)il2cpp_codegen_add(L_13, L_17));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:97>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_18 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20;
 		L_20 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_19, NULL);
 		NullCheck(L_18);
 		Rigidbody2D_MovePosition_m7F24879BB78DA0587168B257C56DCFD248A90895(L_18, L_20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:98>
 		return;
 	}
 }
@@ -9276,7 +9050,7 @@ IL_0041:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74880
+// Method Definition Index: 74873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m7785F019FCF0C76EB1A4663C908429D4552F8864 (U3CU3Ec__DisplayClass5_0_t5952AFF296950978CAEC258447E9176598BA17EB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9284,11 +9058,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m7785F019
 		return;
 	}
 }
-// Method Definition Index: 74881
+// Method Definition Index: 74874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass5_0_U3CDOPathU3Eb__0_mC091AB67A43DA9A1DB9DD889184670E586A7F96F (U3CU3Ec__DisplayClass5_0_t5952AFF296950978CAEC258447E9176598BA17EB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:123>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -9298,11 +9071,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_2;
 	}
 }
-// Method Definition Index: 74882
+// Method Definition Index: 74875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CDOPathU3Eb__1_m2D47B6559DAF1FA18DC18EE9DD442D9A949533C1 (U3CU3Ec__DisplayClass5_0_t5952AFF296950978CAEC258447E9176598BA17EB* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:123>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
@@ -9320,7 +9092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CDOPathU3Eb__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74883
+// Method Definition Index: 74876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m08366EEB1AB56732D845835BBA4105463E4F109D (U3CU3Ec__DisplayClass6_0_tF7A18B8A6B9E46A956B38BDD1913A5AC7CCCD0E6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9328,11 +9100,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m08366EEB
 		return;
 	}
 }
-// Method Definition Index: 74884
+// Method Definition Index: 74877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass6_0_U3CDOLocalPathU3Eb__0_m3D8AA6655141216299BC1F1259C20544EEA146C4 (U3CU3Ec__DisplayClass6_0_tF7A18B8A6B9E46A956B38BDD1913A5AC7CCCD0E6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:152>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___trans;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -9340,7 +9111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 74885
+// Method Definition Index: 74878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CDOLocalPathU3Eb__1_mC71B4D60BA6713F56A7626ECA1C0AC87C640EF16 (U3CU3Ec__DisplayClass6_0_tF7A18B8A6B9E46A956B38BDD1913A5AC7CCCD0E6* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9355,7 +9126,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CDOLocalPathU
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:152>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___trans;
 		NullCheck(L_1);
@@ -9409,7 +9179,7 @@ IL_002d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74886
+// Method Definition Index: 74879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_m51DE98C309B2FDCCE7A04DA3E9B811D60D517172 (U3CU3Ec__DisplayClass7_0_tAD72DF3E41D581C965CFD52335B1FFAA457EAF96* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9417,11 +9187,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_m51DE98C3
 		return;
 	}
 }
-// Method Definition Index: 74887
+// Method Definition Index: 74880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass7_0_U3CDOPathU3Eb__0_mEF255E84035CB68CA278B84F20B2205441071C17 (U3CU3Ec__DisplayClass7_0_tAD72DF3E41D581C965CFD52335B1FFAA457EAF96* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:165>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -9431,11 +9200,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_2;
 	}
 }
-// Method Definition Index: 74888
+// Method Definition Index: 74881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3CDOPathU3Eb__1_m6F66FA57616B9119567C264D23FD5DCFFD500770 (U3CU3Ec__DisplayClass7_0_tAD72DF3E41D581C965CFD52335B1FFAA457EAF96* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:165>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
@@ -9453,7 +9221,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3CDOPathU3Eb__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74889
+// Method Definition Index: 74882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_mF3941735BDEE084796E7E2354D5086916112AEBE (U3CU3Ec__DisplayClass8_0_t9C697E36D5D0AF152BCACC17C1D020869C34C0B8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9461,11 +9229,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_mF3941735
 		return;
 	}
 }
-// Method Definition Index: 74890
+// Method Definition Index: 74883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass8_0_U3CDOLocalPathU3Eb__0_m8859794B8FEADED8E4F54E27B8E0A0F4038629D7 (U3CU3Ec__DisplayClass8_0_t9C697E36D5D0AF152BCACC17C1D020869C34C0B8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:177>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___trans;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -9473,7 +9240,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 74891
+// Method Definition Index: 74884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CDOLocalPathU3Eb__1_m01DD88F15C2CACDEBC789CE5454E11777144CF82 (U3CU3Ec__DisplayClass8_0_t9C697E36D5D0AF152BCACC17C1D020869C34C0B8* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9488,7 +9255,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CDOLocalPathU
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs:177>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = __this->___target;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___trans;
 		NullCheck(L_1);
@@ -9542,7 +9308,7 @@ IL_002d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74892
+// Method Definition Index: 74885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenModuleSprite_DOColor_m6E59DCD8638072DF9AA02645F45A4367CE903FF3 (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9567,7 +9333,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:24>
 		U3CU3Ec__DisplayClass0_0_tCF08126DC44C5C3B34BACA4E22626734E523AA4E* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass0_0_U3CDOColorU3Eb__0_mA10A642C6F3D0B140227D1D6B5B972CA9624F6B7_RuntimeMethod_var), NULL);
@@ -9579,18 +9344,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_To_mA1EBEAF49DD682B626CB60B4C53B7069F7933339(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:25>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass0_0_tCF08126DC44C5C3B34BACA4E22626734E523AA4E* L_11 = V_0;
 		NullCheck(L_11);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:26>
 		return L_10;
 	}
 }
-// Method Definition Index: 74893
+// Method Definition Index: 74886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenModuleSprite_DOFade_m6AE51AD4E4655B3A03EE59353450C611725E6D1A (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9615,7 +9378,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:34>
 		U3CU3Ec__DisplayClass1_0_tDB440B05588765695FD264B656234EFBF64155DA* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass1_0_U3CDOFadeU3Eb__0_m34F6B168CAE3EBDE25B3A62A680E3F5387957414_RuntimeMethod_var), NULL);
@@ -9627,18 +9389,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_ToAlpha_m93AB0EDCF2956A0DD806D9537799F2727CA5E7C1(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:35>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass1_0_tDB440B05588765695FD264B656234EFBF64155DA* L_11 = V_0;
 		NullCheck(L_11);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:36>
 		return L_10;
 	}
 }
-// Method Definition Index: 74894
+// Method Definition Index: 74887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* DOTweenModuleSprite_DOGradientColor_mBDB37BF5C3939448FCEFEB812414F303D7C99C72 (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_target, Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___1_gradient, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9662,36 +9422,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC
 	float G_B8_1 = 0.0f;
 	float G_B10_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:45>
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_0;
 		L_0 = DOTween_Sequence_mC3AE53A08EC5DFD7DB9AE18A2FD11226A6611F89(NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:46>
 		Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* L_1 = ___1_gradient;
 		NullCheck(L_1);
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_2;
 		L_2 = Gradient_get_colorKeys_mA4B24805A35BC4FBF04F182FCDA6E9D0CBB52F0A(L_1, NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:47>
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_3 = V_1;
 		NullCheck(L_3);
 		V_2 = ((int32_t)(((RuntimeArray*)L_3)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:48>
 		V_3 = 0;
 		goto IL_0098;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:49>
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_4 = V_1;
 		int32_t L_5 = V_3;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		V_4 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:50>
 		int32_t L_8 = V_3;
 		if (L_8)
 		{
@@ -9707,21 +9461,16 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:51>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_11 = ___0_target;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_12 = V_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = L_12.___color;
 		NullCheck(L_11);
 		SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546(L_11, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:52>
 		goto IL_0094;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:54>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:55>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:56>
 		int32_t L_14 = V_3;
 		int32_t L_15 = V_2;
 		if ((((int32_t)L_14) == ((int32_t)((int32_t)il2cpp_codegen_subtract(L_15, 1)))))
@@ -9777,7 +9526,6 @@ IL_006d:
 IL_0076:
 	{
 		V_5 = G_B10_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:57>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_28 = V_0;
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_29 = ___0_target;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_30 = V_4;
@@ -9793,14 +9541,12 @@ IL_0076:
 
 IL_0094:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:48>
 		int32_t L_36 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_36, 1));
 	}
 
 IL_0098:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:48>
 		int32_t L_37 = V_3;
 		int32_t L_38 = V_2;
 		if ((((int32_t)L_37) < ((int32_t)L_38)))
@@ -9809,17 +9555,15 @@ IL_0098:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:59>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_39 = V_0;
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_40 = ___0_target;
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_41;
 		L_41 = TweenSettingsExtensions_SetTarget_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m87E21291C6C5BECA753976C5CA64050E8AFF93C0(L_39, L_40, TweenSettingsExtensions_SetTarget_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m87E21291C6C5BECA753976C5CA64050E8AFF93C0_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:60>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_42 = V_0;
 		return L_42;
 	}
 }
-// Method Definition Index: 74895
+// Method Definition Index: 74888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenModuleSprite_DOBlendableColor_m5570320359C3164713C74486272EC313724DD6F1 (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9845,7 +9589,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:76>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___1_endValue;
 		U3CU3Ec__DisplayClass3_0_tC6A3C24ECE56869CB1D6AB3A4FE842EF0C4297E1* L_4 = V_0;
 		NullCheck(L_4);
@@ -9856,19 +9599,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
 		L_7 = Color_op_Subtraction_mF003448D819F2A41405BB6D85F1563CDA900B07F_inline(L_3, L_6, NULL);
 		___1_endValue = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:77>
 		U3CU3Ec__DisplayClass3_0_tC6A3C24ECE56869CB1D6AB3A4FE842EF0C4297E1* L_8 = V_0;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_9), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
 		NullCheck(L_8);
 		L_8->___to = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:78>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:79>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:80>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:81>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:82>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:83>
 		U3CU3Ec__DisplayClass3_0_tC6A3C24ECE56869CB1D6AB3A4FE842EF0C4297E1* L_10 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_11 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_11, L_10, (intptr_t)((void*)U3CU3Ec__DisplayClass3_0_U3CDOBlendableColorU3Eb__0_mD1F5CC03348BACDD68A45FC8BC8D379841EF09D6_RuntimeMethod_var), NULL);
@@ -9898,7 +9634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74896
+// Method Definition Index: 74889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m270031771548A13843FD1B9701D5D178797EB9AD (U3CU3Ec__DisplayClass0_0_tCF08126DC44C5C3B34BACA4E22626734E523AA4E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9906,11 +9642,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m27003177
 		return;
 	}
 }
-// Method Definition Index: 74897
+// Method Definition Index: 74890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass0_0_U3CDOColorU3Eb__0_mA10A642C6F3D0B140227D1D6B5B972CA9624F6B7 (U3CU3Ec__DisplayClass0_0_tCF08126DC44C5C3B34BACA4E22626734E523AA4E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:24>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -9918,11 +9653,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 74898
+// Method Definition Index: 74891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0_U3CDOColorU3Eb__1_m31412CE4EE9499BB433AC04B055AB41BD5047A74 (U3CU3Ec__DisplayClass0_0_tCF08126DC44C5C3B34BACA4E22626734E523AA4E* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:24>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -9938,7 +9672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0_U3CDOColorU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74899
+// Method Definition Index: 74892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_mDF7123DA26647D6C19E3D8D2131EDB0AFE40446A (U3CU3Ec__DisplayClass1_0_tDB440B05588765695FD264B656234EFBF64155DA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9946,11 +9680,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_mDF7123DA
 		return;
 	}
 }
-// Method Definition Index: 74900
+// Method Definition Index: 74893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass1_0_U3CDOFadeU3Eb__0_m34F6B168CAE3EBDE25B3A62A680E3F5387957414 (U3CU3Ec__DisplayClass1_0_tDB440B05588765695FD264B656234EFBF64155DA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:34>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -9958,11 +9691,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 74901
+// Method Definition Index: 74894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CDOFadeU3Eb__1_m769F0265E8D0A6320E185169D06F8ED38FF6191E (U3CU3Ec__DisplayClass1_0_tDB440B05588765695FD264B656234EFBF64155DA* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:34>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -9978,7 +9710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CDOFadeU3Eb__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74902
+// Method Definition Index: 74895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m6B0AC5DDB17C25A1A2C8F55A84AC2C5986EF8240 (U3CU3Ec__DisplayClass3_0_tC6A3C24ECE56869CB1D6AB3A4FE842EF0C4297E1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9986,31 +9718,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m6B0AC5DD
 		return;
 	}
 }
-// Method Definition Index: 74903
+// Method Definition Index: 74896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass3_0_U3CDOBlendableColorU3Eb__0_mD1F5CC03348BACDD68A45FC8BC8D379841EF09D6 (U3CU3Ec__DisplayClass3_0_tC6A3C24ECE56869CB1D6AB3A4FE842EF0C4297E1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:78>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___to;
 		return L_0;
 	}
 }
-// Method Definition Index: 74904
+// Method Definition Index: 74897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CDOBlendableColorU3Eb__1_mF6CA7D8E1F46B4CAC9DC17BE940693728B469EE2 (U3CU3Ec__DisplayClass3_0_tC6A3C24ECE56869CB1D6AB3A4FE842EF0C4297E1* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:79>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_x;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = __this->___to;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		L_2 = Color_op_Subtraction_mF003448D819F2A41405BB6D85F1563CDA900B07F_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:80>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_x;
 		__this->___to = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:81>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_4 = __this->___target;
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_5 = L_4;
 		NullCheck(L_5);
@@ -10021,7 +9749,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CDOBlendableC
 		L_8 = Color_op_Addition_mA7A51CACA49ED8D23D3D9CA3A0092D32F657E053_inline(L_6, L_7, NULL);
 		NullCheck(L_5);
 		SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546(L_5, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs:82>
 		return;
 	}
 }
@@ -10033,7 +9760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CDOBlendableC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74905
+// Method Definition Index: 74898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* DOTweenModuleUI_DOFade_mA073F33862AA7BEF33842B8200D0E79E046D114E (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10058,7 +9785,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:31>
 		U3CU3Ec__DisplayClass0_0_tB18B0BBCEBB20AFFAEF4A5DC6E774BB71965CB5D* L_3 = V_0;
 		DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03* L_4 = (DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03*)il2cpp_codegen_object_new(DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mD5E79861254E8BFB1618B3AB0B9755D18F553CFA(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass0_0_U3CDOFadeU3Eb__0_m43479452AB6CABC809F8BB075F80A6B391A8AA4B_RuntimeMethod_var), NULL);
@@ -10070,18 +9796,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_9;
 		L_9 = DOTween_To_m9C9EBC0FB6CF94364DD4FF85C476D8EE0A7FF4B1(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:32>
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_10 = L_9;
 		U3CU3Ec__DisplayClass0_0_tB18B0BBCEBB20AFFAEF4A5DC6E774BB71965CB5D* L_11 = V_0;
 		NullCheck(L_11);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_12 = L_11->___target;
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:33>
 		return L_10;
 	}
 }
-// Method Definition Index: 74906
+// Method Definition Index: 74899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenModuleUI_DOColor_m961875592E62912276F701C48C3C3C3DDB4E7341 (Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10106,7 +9830,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:45>
 		U3CU3Ec__DisplayClass1_0_tD8156063570C9F9EDAFB40925044950112A26793* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass1_0_U3CDOColorU3Eb__0_m7A0F2549C2C54325EC64A09C154142F9212E4119_RuntimeMethod_var), NULL);
@@ -10118,18 +9841,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_To_mA1EBEAF49DD682B626CB60B4C53B7069F7933339(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:46>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass1_0_tD8156063570C9F9EDAFB40925044950112A26793* L_11 = V_0;
 		NullCheck(L_11);
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:47>
 		return L_10;
 	}
 }
-// Method Definition Index: 74907
+// Method Definition Index: 74900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenModuleUI_DOFade_mE2E3C2482CD1D3B81C2F4B0EA4E95CF2CC10CC21 (Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10154,7 +9875,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:55>
 		U3CU3Ec__DisplayClass2_0_t51A1D3D91AFC969F0DAF516721DDD2B73F01ED0D* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass2_0_U3CDOFadeU3Eb__0_m83DABFF83F53843B3210E3663AA658A393F72C21_RuntimeMethod_var), NULL);
@@ -10166,18 +9886,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_ToAlpha_m93AB0EDCF2956A0DD806D9537799F2727CA5E7C1(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:56>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass2_0_t51A1D3D91AFC969F0DAF516721DDD2B73F01ED0D* L_11 = V_0;
 		NullCheck(L_11);
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:57>
 		return L_10;
 	}
 }
-// Method Definition Index: 74908
+// Method Definition Index: 74901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenModuleUI_DOColor_m385F3DCBA53A421BC288521879635D67E8155783 (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10202,7 +9920,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:69>
 		U3CU3Ec__DisplayClass3_0_t2C69FBF013ADB32163CC4F67A146C846E181C18B* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass3_0_U3CDOColorU3Eb__0_m4568743D7735E8597149620347E7C6C1F8F8F573_RuntimeMethod_var), NULL);
@@ -10214,18 +9931,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_To_mA1EBEAF49DD682B626CB60B4C53B7069F7933339(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:70>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass3_0_t2C69FBF013ADB32163CC4F67A146C846E181C18B* L_11 = V_0;
 		NullCheck(L_11);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:71>
 		return L_10;
 	}
 }
-// Method Definition Index: 74909
+// Method Definition Index: 74902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenModuleUI_DOFade_mC1C042C14FF418F2BE7B8A6B3B73A2F8D3719EED (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10250,7 +9965,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:79>
 		U3CU3Ec__DisplayClass4_0_t8053081EDEC54E0DFD42D923A1A91BC995ACC579* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3CDOFadeU3Eb__0_m45ED3C46917C2BF3FA1E62E5E5FA07933322FC8B_RuntimeMethod_var), NULL);
@@ -10262,18 +9976,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_ToAlpha_m93AB0EDCF2956A0DD806D9537799F2727CA5E7C1(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:80>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass4_0_t8053081EDEC54E0DFD42D923A1A91BC995ACC579* L_11 = V_0;
 		NullCheck(L_11);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:81>
 		return L_10;
 	}
 }
-// Method Definition Index: 74910
+// Method Definition Index: 74903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* DOTweenModuleUI_DOFillAmount_mF99B81AA5E4A001FD8DEB2C7F6056271802D153D (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10298,7 +10010,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:89>
 		float L_3 = ___1_endValue;
 		if ((!(((float)L_3) > ((float)(1.0f)))))
 		{
@@ -10306,14 +10017,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:89>
 		___1_endValue = (1.0f);
 		goto IL_002d;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:90>
 		float L_4 = ___1_endValue;
 		if ((!(((float)L_4) < ((float)(0.0f)))))
 		{
@@ -10321,13 +10030,11 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:90>
 		___1_endValue = (0.0f);
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:91>
 		U3CU3Ec__DisplayClass5_0_t97A2D1591F4437C9A3355B842244B21EEDFC7D3C* L_5 = V_0;
 		DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03* L_6 = (DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03*)il2cpp_codegen_object_new(DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mD5E79861254E8BFB1618B3AB0B9755D18F553CFA(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3CDOFillAmountU3Eb__0_mA61D89DB8E1FCE175F34BFC13C1173C788BC70FF_RuntimeMethod_var), NULL);
@@ -10339,18 +10046,16 @@ IL_002d:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_11;
 		L_11 = DOTween_To_m9C9EBC0FB6CF94364DD4FF85C476D8EE0A7FF4B1(L_6, L_8, L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:92>
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_12 = L_11;
 		U3CU3Ec__DisplayClass5_0_t97A2D1591F4437C9A3355B842244B21EEDFC7D3C* L_13 = V_0;
 		NullCheck(L_13);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_14 = L_13->___target;
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:93>
 		return L_12;
 	}
 }
-// Method Definition Index: 74911
+// Method Definition Index: 74904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* DOTweenModuleUI_DOGradientColor_mB08E7CC98E98E7A0A8A04DC84CDE434B038CF03E (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___0_target, Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___1_gradient, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10374,36 +10079,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC
 	float G_B8_1 = 0.0f;
 	float G_B10_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:102>
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_0;
 		L_0 = DOTween_Sequence_mC3AE53A08EC5DFD7DB9AE18A2FD11226A6611F89(NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:103>
 		Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* L_1 = ___1_gradient;
 		NullCheck(L_1);
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_2;
 		L_2 = Gradient_get_colorKeys_mA4B24805A35BC4FBF04F182FCDA6E9D0CBB52F0A(L_1, NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:104>
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_3 = V_1;
 		NullCheck(L_3);
 		V_2 = ((int32_t)(((RuntimeArray*)L_3)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:105>
 		V_3 = 0;
 		goto IL_0098;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:106>
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_4 = V_1;
 		int32_t L_5 = V_3;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		V_4 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:107>
 		int32_t L_8 = V_3;
 		if (L_8)
 		{
@@ -10419,21 +10118,16 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:108>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_11 = ___0_target;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_12 = V_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = L_12.___color;
 		NullCheck(L_11);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_11, L_13);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:109>
 		goto IL_0094;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:111>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:112>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:113>
 		int32_t L_14 = V_3;
 		int32_t L_15 = V_2;
 		if ((((int32_t)L_14) == ((int32_t)((int32_t)il2cpp_codegen_subtract(L_15, 1)))))
@@ -10489,7 +10183,6 @@ IL_006d:
 IL_0076:
 	{
 		V_5 = G_B10_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:114>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_28 = V_0;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_29 = ___0_target;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_30 = V_4;
@@ -10505,14 +10198,12 @@ IL_0076:
 
 IL_0094:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:105>
 		int32_t L_36 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_36, 1));
 	}
 
 IL_0098:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:105>
 		int32_t L_37 = V_3;
 		int32_t L_38 = V_2;
 		if ((((int32_t)L_37) < ((int32_t)L_38)))
@@ -10521,17 +10212,15 @@ IL_0098:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:116>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_39 = V_0;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_40 = ___0_target;
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_41;
 		L_41 = TweenSettingsExtensions_SetTarget_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m87E21291C6C5BECA753976C5CA64050E8AFF93C0(L_39, L_40, TweenSettingsExtensions_SetTarget_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m87E21291C6C5BECA753976C5CA64050E8AFF93C0_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:117>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_42 = V_0;
 		return L_42;
 	}
 }
-// Method Definition Index: 74912
+// Method Definition Index: 74905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOFlexibleSize_m2476B21F9C3D8213723B01A0FA93553D8E45F3B7 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10556,10 +10245,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:130>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:131>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:132>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:133>
 		U3CU3Ec__DisplayClass7_0_t6825EE9800F145C3DC6520DEBF5CCD211D160E49* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass7_0_U3CDOFlexibleSizeU3Eb__0_m3785D78D950D02D749F4640AA0C67FB2CA01DB48_RuntimeMethod_var), NULL);
@@ -10571,7 +10256,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_9;
 		L_9 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:134>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10 = L_9;
 		bool L_11 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_12;
@@ -10581,11 +10265,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_14 = L_13->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:135>
 		return L_10;
 	}
 }
-// Method Definition Index: 74913
+// Method Definition Index: 74906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOMinSize_m2D92E524BAEA78CDA2815597D779B2835EF8CC03 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10610,10 +10293,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:144>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:145>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:146>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:147>
 		U3CU3Ec__DisplayClass8_0_t20FEDD5A66AA07E40BC3977804178A67426F6D3D* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass8_0_U3CDOMinSizeU3Eb__0_mCB197686B19FEE2A3789796C320289EDEBCA59DD_RuntimeMethod_var), NULL);
@@ -10625,7 +10304,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_9;
 		L_9 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:148>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10 = L_9;
 		bool L_11 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_12;
@@ -10635,11 +10313,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_14 = L_13->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:149>
 		return L_10;
 	}
 }
-// Method Definition Index: 74914
+// Method Definition Index: 74907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOPreferredSize_m59E62BDF15A51E4529FC3D920EBC77178DFEDFD8 (LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10664,10 +10341,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:158>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:159>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:160>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:161>
 		U3CU3Ec__DisplayClass9_0_tE85C8192601740DA12B6A252D29726E9A7F06E5C* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass9_0_U3CDOPreferredSizeU3Eb__0_m1AB892211B71DB2D4E8F21F9BA126944DF9D500C_RuntimeMethod_var), NULL);
@@ -10679,7 +10352,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_9;
 		L_9 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:162>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10 = L_9;
 		bool L_11 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_12;
@@ -10689,11 +10361,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_14 = L_13->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:163>
 		return L_10;
 	}
 }
-// Method Definition Index: 74915
+// Method Definition Index: 74908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenModuleUI_DOColor_mAF1146331160A3A8C7FFA916BFA8B71A8531FCF2 (Outline_t9CF146E077DC65F441EDEC463AA6710374108084* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10718,7 +10389,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:175>
 		U3CU3Ec__DisplayClass10_0_tCC949A20CDD228AC8F8B3A8CD5753ADA411636B3* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass10_0_U3CDOColorU3Eb__0_mA4364DFDB200823F9D4FF95D114157C2A424D9DC_RuntimeMethod_var), NULL);
@@ -10730,18 +10400,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_To_mA1EBEAF49DD682B626CB60B4C53B7069F7933339(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:176>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass10_0_tCC949A20CDD228AC8F8B3A8CD5753ADA411636B3* L_11 = V_0;
 		NullCheck(L_11);
 		Outline_t9CF146E077DC65F441EDEC463AA6710374108084* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:177>
 		return L_10;
 	}
 }
-// Method Definition Index: 74916
+// Method Definition Index: 74909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenModuleUI_DOFade_mFDEF44F0F048DD606FEF46F539D4F47AF40EF817 (Outline_t9CF146E077DC65F441EDEC463AA6710374108084* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10766,7 +10434,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:185>
 		U3CU3Ec__DisplayClass11_0_t65D5FA900D6220B15D4F61001E4C0761C72A6796* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass11_0_U3CDOFadeU3Eb__0_mDCACD4D30AEE9D07134544798AB5B9C5D979BE93_RuntimeMethod_var), NULL);
@@ -10778,18 +10445,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_ToAlpha_m93AB0EDCF2956A0DD806D9537799F2727CA5E7C1(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:186>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass11_0_t65D5FA900D6220B15D4F61001E4C0761C72A6796* L_11 = V_0;
 		NullCheck(L_11);
 		Outline_t9CF146E077DC65F441EDEC463AA6710374108084* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:187>
 		return L_10;
 	}
 }
-// Method Definition Index: 74917
+// Method Definition Index: 74910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOScale_mEBEA04E6C90874A4903841D8D2720867B2CA292F (Outline_t9CF146E077DC65F441EDEC463AA6710374108084* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10814,7 +10479,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:195>
 		U3CU3Ec__DisplayClass12_0_tCD751A3A64E63AA8CAAFAF76B7A47FB79314B30B* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass12_0_U3CDOScaleU3Eb__0_m5C34A94B2CF727A19CE3D6D99933B680E7847F2A_RuntimeMethod_var), NULL);
@@ -10826,18 +10490,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_9;
 		L_9 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:196>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10 = L_9;
 		U3CU3Ec__DisplayClass12_0_tCD751A3A64E63AA8CAAFAF76B7A47FB79314B30B* L_11 = V_0;
 		NullCheck(L_11);
 		Outline_t9CF146E077DC65F441EDEC463AA6710374108084* L_12 = L_11->___target;
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271_m7563CA4B8BD3EA41428B31557409B6456D19A876(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271_m7563CA4B8BD3EA41428B31557409B6456D19A876_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:197>
 		return L_10;
 	}
 }
-// Method Definition Index: 74918
+// Method Definition Index: 74911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOAnchorPos_m5B60876E10960019C209F1C215F921E6F994831A (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10862,7 +10524,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:210>
 		U3CU3Ec__DisplayClass13_0_tA7908A005DAFADE5E96F672B1A0AC21105DC4A84* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass13_0_U3CDOAnchorPosU3Eb__0_m45698E882FAA3963ED0653B5927E9B5F99C8B4E4_RuntimeMethod_var), NULL);
@@ -10874,7 +10535,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_9;
 		L_9 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:211>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10 = L_9;
 		bool L_11 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_12;
@@ -10884,11 +10544,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = L_13->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:212>
 		return L_10;
 	}
 }
-// Method Definition Index: 74919
+// Method Definition Index: 74912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOAnchorPosX_m483100309684443A215A8279D4E54B2769DAF3E8 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10913,7 +10572,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:220>
 		U3CU3Ec__DisplayClass14_0_t14BD385BD495A01BD6C66D2D92360407933E64E9* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass14_0_U3CDOAnchorPosXU3Eb__0_m77F354FDCA32A28B5E166D92E7AD31A13AAC60FA_RuntimeMethod_var), NULL);
@@ -10928,7 +10586,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10;
 		L_10 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:221>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_11 = L_10;
 		bool L_12 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_13;
@@ -10938,11 +10595,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = L_14->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_16;
 		L_16 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_13, L_15, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:222>
 		return L_11;
 	}
 }
-// Method Definition Index: 74920
+// Method Definition Index: 74913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOAnchorPosY_mBCFDB7E014D45E6B56588C598C23D4EB111D1395 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10967,7 +10623,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:230>
 		U3CU3Ec__DisplayClass15_0_tD42752F57E0F92A701F49E8A350FDCE98CD5B0F8* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass15_0_U3CDOAnchorPosYU3Eb__0_m3B38EF80DFF9D4EF696F2F08DCC156C16FE55E8D_RuntimeMethod_var), NULL);
@@ -10982,7 +10637,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10;
 		L_10 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:231>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_11 = L_10;
 		bool L_12 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_13;
@@ -10992,11 +10646,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = L_14->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_16;
 		L_16 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_13, L_15, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:232>
 		return L_11;
 	}
 }
-// Method Definition Index: 74921
+// Method Definition Index: 74914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* DOTweenModuleUI_DOAnchorPos3D_mBFA28183F6CBCCD444AF47AA85A0272E8D1CAA48 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11021,7 +10674,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:241>
 		U3CU3Ec__DisplayClass16_0_t19F6A4F2A285615B2EFC11553DF0D96149166E7A* L_3 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_4 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass16_0_U3CDOAnchorPos3DU3Eb__0_m2E02A40A5465C662FCB26908E7F13C7DD3A4BBC2_RuntimeMethod_var), NULL);
@@ -11033,7 +10685,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_9;
 		L_9 = DOTween_To_m29FF04132DD76AFF686CF5DBCCD84CB6105A2DB8(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:242>
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_10 = L_9;
 		bool L_11 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_12;
@@ -11043,11 +10694,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = L_13->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:243>
 		return L_10;
 	}
 }
-// Method Definition Index: 74922
+// Method Definition Index: 74915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* DOTweenModuleUI_DOAnchorPos3DX_m6AE58A54659B9562734FB13539AE84FA69C34980 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11072,7 +10722,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:251>
 		U3CU3Ec__DisplayClass17_0_t284A2013A9CF39A877F17C22914B8003908BAF2A* L_3 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_4 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass17_0_U3CDOAnchorPos3DXU3Eb__0_mC5FAD099F119CE2ACDEAD414435B244F21CDB4E7_RuntimeMethod_var), NULL);
@@ -11087,7 +10736,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_10;
 		L_10 = DOTween_To_m29FF04132DD76AFF686CF5DBCCD84CB6105A2DB8(L_4, L_6, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:252>
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_11 = L_10;
 		bool L_12 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_13;
@@ -11097,11 +10745,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = L_14->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_16;
 		L_16 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_13, L_15, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:253>
 		return L_11;
 	}
 }
-// Method Definition Index: 74923
+// Method Definition Index: 74916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* DOTweenModuleUI_DOAnchorPos3DY_mC051E07149C6D443662E3682338A26D0ADC6591C (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11126,7 +10773,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:261>
 		U3CU3Ec__DisplayClass18_0_t8041ED4DE7248F565E86D82594DDD9BD74602121* L_3 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_4 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass18_0_U3CDOAnchorPos3DYU3Eb__0_m30DD1FDFC6B5104DB734F01FB77F60BAB3C67578_RuntimeMethod_var), NULL);
@@ -11141,7 +10787,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_10;
 		L_10 = DOTween_To_m29FF04132DD76AFF686CF5DBCCD84CB6105A2DB8(L_4, L_6, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:262>
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_11 = L_10;
 		bool L_12 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_13;
@@ -11151,11 +10796,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = L_14->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_16;
 		L_16 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_13, L_15, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:263>
 		return L_11;
 	}
 }
-// Method Definition Index: 74924
+// Method Definition Index: 74917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* DOTweenModuleUI_DOAnchorPos3DZ_m334F6667A6103C39B84749DC1EBE6557CCBE91D3 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11180,7 +10824,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:271>
 		U3CU3Ec__DisplayClass19_0_tE0338A49FF6F541CD74258CC0E361949F17279F8* L_3 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_4 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass19_0_U3CDOAnchorPos3DZU3Eb__0_m81FCF7B95ACC17C67BE6C8D68B570D959D88EADC_RuntimeMethod_var), NULL);
@@ -11195,7 +10838,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_10;
 		L_10 = DOTween_To_m29FF04132DD76AFF686CF5DBCCD84CB6105A2DB8(L_4, L_6, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:272>
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_11 = L_10;
 		bool L_12 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_13;
@@ -11205,11 +10847,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = L_14->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_16;
 		L_16 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_13, L_15, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:273>
 		return L_11;
 	}
 }
-// Method Definition Index: 74925
+// Method Definition Index: 74918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOAnchorMax_mA7BFD0284B3A23C3BF4DE76F542F60EAE1CC5368 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11234,7 +10875,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:282>
 		U3CU3Ec__DisplayClass20_0_t984E360099B0FDF4B884478FC49D03EC7CC5FC62* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass20_0_U3CDOAnchorMaxU3Eb__0_mD50D23ECA6FBD3AE03536697B9ED7332E4FDD2CD_RuntimeMethod_var), NULL);
@@ -11246,7 +10886,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_9;
 		L_9 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:283>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10 = L_9;
 		bool L_11 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_12;
@@ -11256,11 +10895,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = L_13->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:284>
 		return L_10;
 	}
 }
-// Method Definition Index: 74926
+// Method Definition Index: 74919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOAnchorMin_m7EC8E45746F25D2679DE1267FBD5DEB4CC619057 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11285,7 +10923,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:293>
 		U3CU3Ec__DisplayClass21_0_t103F15D006C0D1B8C5D8BF3FB799D36CD246036A* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass21_0_U3CDOAnchorMinU3Eb__0_m33BBB55D66991F54EE55E79B0AE622F40FFCD764_RuntimeMethod_var), NULL);
@@ -11297,7 +10934,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_9;
 		L_9 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:294>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10 = L_9;
 		bool L_11 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_12;
@@ -11307,11 +10943,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = L_13->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:295>
 		return L_10;
 	}
 }
-// Method Definition Index: 74927
+// Method Definition Index: 74920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOPivot_m3F8012446C42571C9F1549771422917AEC9EEDF8 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11336,7 +10971,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:303>
 		U3CU3Ec__DisplayClass22_0_t5C323042506D23A90B58A769162DBBF0BC76B035* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass22_0_U3CDOPivotU3Eb__0_m5FE19E82DBA2702E7A7ADF66BB937773CACBEC6D_RuntimeMethod_var), NULL);
@@ -11348,18 +10982,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_9;
 		L_9 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:304>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10 = L_9;
 		U3CU3Ec__DisplayClass22_0_t5C323042506D23A90B58A769162DBBF0BC76B035* L_11 = V_0;
 		NullCheck(L_11);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12 = L_11->___target;
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271_m7563CA4B8BD3EA41428B31557409B6456D19A876(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271_m7563CA4B8BD3EA41428B31557409B6456D19A876_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:305>
 		return L_10;
 	}
 }
-// Method Definition Index: 74928
+// Method Definition Index: 74921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOPivotX_mFD1858E2B5933F093EB84E3D87A69783B04CA7F4 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11384,7 +11016,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:312>
 		U3CU3Ec__DisplayClass23_0_t3DFCA163008250F066061F9E3ED061A2BCFA666F* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass23_0_U3CDOPivotXU3Eb__0_mEBA64E950B901D99C27662F211C5357066A46C1B_RuntimeMethod_var), NULL);
@@ -11399,7 +11030,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10;
 		L_10 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:313>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_11 = L_10;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_12;
 		L_12 = TweenSettingsExtensions_SetOptions_mFD076C0377973484D8607E062753FE55478F0D0C(L_11, 2, (bool)0, NULL);
@@ -11408,11 +11038,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = L_13->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:314>
 		return L_11;
 	}
 }
-// Method Definition Index: 74929
+// Method Definition Index: 74922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOPivotY_m7CA2B8D7162770DC0700106C9ADB97F9A4BD877B (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11437,7 +11066,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:321>
 		U3CU3Ec__DisplayClass24_0_t04F97A805A71B33C86A4F3A2F05635361548FD88* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CDOPivotYU3Eb__0_mB9A0E99B23333028B4BA97E332DA19268ADFEBBB_RuntimeMethod_var), NULL);
@@ -11452,7 +11080,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10;
 		L_10 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:322>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_11 = L_10;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_12;
 		L_12 = TweenSettingsExtensions_SetOptions_mFD076C0377973484D8607E062753FE55478F0D0C(L_11, 4, (bool)0, NULL);
@@ -11461,11 +11088,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = L_13->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:323>
 		return L_11;
 	}
 }
-// Method Definition Index: 74930
+// Method Definition Index: 74923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUI_DOSizeDelta_mC2236310385A8326B78FE900A33586006C8B4474 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11490,7 +11116,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:332>
 		U3CU3Ec__DisplayClass25_0_t4DA808F4CFC3EA9D61AC01DF1B84F0601D03DABB* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass25_0_U3CDOSizeDeltaU3Eb__0_m9465A762A443D9DAA50004FF4EC3E7A5710D24F3_RuntimeMethod_var), NULL);
@@ -11502,7 +11127,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_9;
 		L_9 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:333>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_10 = L_9;
 		bool L_11 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_12;
@@ -11512,11 +11136,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = L_13->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:334>
 		return L_10;
 	}
 }
-// Method Definition Index: 74931
+// Method Definition Index: 74924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenModuleUI_DOPunchAnchorPos_mCE5DF2A8B462E813FBB84C4DBC5697848D1C2B45 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_punch, float ___2_duration, int32_t ___3_vibrato, float ___4_elasticity, bool ___5_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11541,8 +11164,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:349>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:350>
 		U3CU3Ec__DisplayClass26_0_t124EF2B4B70F54D478CDCCFB5BCD1975BB607407* L_3 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_4 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass26_0_U3CDOPunchAnchorPosU3Eb__0_m8A97B30EF54DCC1B5253F2CE036DA7BEF521F9E2_RuntimeMethod_var), NULL);
@@ -11569,7 +11190,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_17;
 	}
 }
-// Method Definition Index: 74932
+// Method Definition Index: 74925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenModuleUI_DOShakeAnchorPos_m12477B21C8CD40EF1A6CA4F73A6AF1E35883B992 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, float ___1_duration, float ___2_strength, int32_t ___3_vibrato, float ___4_randomness, bool ___5_snapping, bool ___6_fadeOut, int32_t ___7_randomnessMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11595,8 +11216,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:365>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:366>
 		U3CU3Ec__DisplayClass27_0_t5DF692DEA21E1F075A801B6B88FD7309CD5F86B7* L_3 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_4 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass27_0_U3CDOShakeAnchorPosU3Eb__0_m28D2453CAB4630D898B61CF1679C5C4955EC5761_RuntimeMethod_var), NULL);
@@ -11625,7 +11244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_19;
 	}
 }
-// Method Definition Index: 74933
+// Method Definition Index: 74926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenModuleUI_DOShakeAnchorPos_m919C4BA7526A3CEA6FF8F4CF669FB7681E2893BB (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, float ___1_duration, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_strength, int32_t ___3_vibrato, float ___4_randomness, bool ___5_snapping, bool ___6_fadeOut, int32_t ___7_randomnessMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11651,8 +11270,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:380>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:381>
 		U3CU3Ec__DisplayClass28_0_tD0958576900019D44F20769282634622310A6335* L_3 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_4 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass28_0_U3CDOShakeAnchorPosU3Eb__0_mE987488CB26087991EB5B2AF5E1BB03633A9C5E9_RuntimeMethod_var), NULL);
@@ -11683,7 +11300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_20;
 	}
 }
-// Method Definition Index: 74934
+// Method Definition Index: 74927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* DOTweenModuleUI_DOJumpAnchorPos_m5629EA273819E9C2EE98068F8793202EC96765F3 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_jumpPower, int32_t ___3_numJumps, float ___4_duration, bool ___5_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11724,7 +11341,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___1_endValue;
 		NullCheck(L_3);
 		L_3->___endValue = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:396>
 		int32_t L_5 = ___3_numJumps;
 		if ((((int32_t)L_5) >= ((int32_t)1)))
 		{
@@ -11732,25 +11348,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:396>
 		___3_numJumps = 1;
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:397>
 		U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* L_6 = V_0;
 		NullCheck(L_6);
 		L_6->___startPosY = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:398>
 		U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* L_7 = V_0;
 		NullCheck(L_7);
 		L_7->___offsetY = (-1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:399>
 		U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* L_8 = V_0;
 		NullCheck(L_8);
 		L_8->___offsetYSet = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:403>
 		U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* L_9 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_10;
@@ -11758,10 +11369,6 @@ IL_001b:
 		NullCheck(L_9);
 		L_9->___s = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___s), (void*)L_10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:404>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:405>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:406>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:407>
 		U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* L_11 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_12 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_12, L_11, (intptr_t)((void*)U3CU3Ec__DisplayClass29_0_U3CDOJumpAnchorPosU3Eb__0_m82918F5D73CE67BC9AD9979A3F81C717AA95A5EF_RuntimeMethod_var), NULL);
@@ -11792,10 +11399,6 @@ IL_001b:
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_28;
 		L_28 = TweenSettingsExtensions_OnStart_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m91BC1289F73A9909A236B66B621A8CFE5A8A8FAD(L_25, L_27, TweenSettingsExtensions_OnStart_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m91BC1289F73A9909A236B66B621A8CFE5A8A8FAD_RuntimeMethod_var);
 		V_1 = L_28;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:408>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:409>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:410>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:411>
 		U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* L_29 = V_0;
 		NullCheck(L_29);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_30 = L_29->___s;
@@ -11833,15 +11436,6 @@ IL_001b:
 		int32_t L_50 = ((DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_StaticFields*)il2cpp_codegen_static_fields_for(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var))->___defaultEaseType;
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_51;
 		L_51 = TweenSettingsExtensions_SetEase_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m8883E8F9ADB1071F2480D9CE910190D8A121A24D(L_49, L_50, TweenSettingsExtensions_SetEase_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m8883E8F9ADB1071F2480D9CE910190D8A121A24D_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:412>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:413>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:414>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:415>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:416>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:417>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:418>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:419>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:420>
 		U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* L_52 = V_0;
 		NullCheck(L_52);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_53 = L_52->___s;
@@ -11850,14 +11444,13 @@ IL_001b:
 		TweenCallback__ctor_m68CC9304423CBDE43001F9B1413B5DAAF70DB621(L_55, L_54, (intptr_t)((void*)U3CU3Ec__DisplayClass29_0_U3CDOJumpAnchorPosU3Eb__5_m31B52507CE1503653EED1573137622C1202BA9D9_RuntimeMethod_var), NULL);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_56;
 		L_56 = TweenSettingsExtensions_OnUpdate_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m03D8242DF57323B66FBF83879F79072F3127AD12(L_53, L_55, TweenSettingsExtensions_OnUpdate_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m03D8242DF57323B66FBF83879F79072F3127AD12_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:421>
 		U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* L_57 = V_0;
 		NullCheck(L_57);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_58 = L_57->___s;
 		return L_58;
 	}
 }
-// Method Definition Index: 74935
+// Method Definition Index: 74928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenModuleUI_DONormalizedPos_mABC0EB2280EEC8C8A990E76E16D7BB5DA48A1706 (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11882,12 +11475,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:436>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:437>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:438>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:439>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:440>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:441>
 		U3CU3Ec__DisplayClass30_0_tEC2889D7CADE796A4FFB321716EC8FE47DEEBC46* L_3 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_4 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass30_0_U3CDONormalizedPosU3Eb__0_m80C5E010B8B0C14A9F1358140D6DB2AE6C5374A9_RuntimeMethod_var), NULL);
@@ -11910,7 +11497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_14;
 	}
 }
-// Method Definition Index: 74936
+// Method Definition Index: 74929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenModuleUI_DOHorizontalNormalizedPos_m41E8A271B7FE392B43523F6B123DCBF26CB0BA74 (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11935,8 +11522,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:449>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:450>
 		U3CU3Ec__DisplayClass31_0_tA83E5335930C3B73B36584C0C49AEF4D60F994FA* L_3 = V_0;
 		DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03* L_4 = (DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03*)il2cpp_codegen_object_new(DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mD5E79861254E8BFB1618B3AB0B9755D18F553CFA(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass31_0_U3CDOHorizontalNormalizedPosU3Eb__0_m77E495AE88490935170B5479753B0D251A5D3CA4_RuntimeMethod_var), NULL);
@@ -11959,7 +11544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_14;
 	}
 }
-// Method Definition Index: 74937
+// Method Definition Index: 74930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenModuleUI_DOVerticalNormalizedPos_mC141061A07ACD836F365221BA33198FF316BFBA3 (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11984,8 +11569,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:458>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:459>
 		U3CU3Ec__DisplayClass32_0_tC0A04FC69DFA3D09F95256B3260E19CDF93CFFAB* L_3 = V_0;
 		DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03* L_4 = (DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03*)il2cpp_codegen_object_new(DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mD5E79861254E8BFB1618B3AB0B9755D18F553CFA(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass32_0_U3CDOVerticalNormalizedPosU3Eb__0_m38805643288D85CEE1588577A69586E047726867_RuntimeMethod_var), NULL);
@@ -12008,7 +11591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_14;
 	}
 }
-// Method Definition Index: 74938
+// Method Definition Index: 74931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* DOTweenModuleUI_DOValue_m38DB0CB09A73E2DDC33B3EEE49D74944FBA82A38 (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___0_target, float ___1_endValue, float ___2_duration, bool ___3_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12033,7 +11616,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:472>
 		U3CU3Ec__DisplayClass33_0_t5E307A3D92BFAC7CC6F0D5285761865A1041D7A8* L_3 = V_0;
 		DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03* L_4 = (DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03*)il2cpp_codegen_object_new(DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mD5E79861254E8BFB1618B3AB0B9755D18F553CFA(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass33_0_U3CDOValueU3Eb__0_m8E6B52F72A726C09781FAAE48C1097CE6C2D8188_RuntimeMethod_var), NULL);
@@ -12045,7 +11627,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_9;
 		L_9 = DOTween_To_m9C9EBC0FB6CF94364DD4FF85C476D8EE0A7FF4B1(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:473>
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_10 = L_9;
 		bool L_11 = ___3_snapping;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_12;
@@ -12055,11 +11636,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_14 = L_13->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_15;
 		L_15 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_12, L_14, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:474>
 		return L_10;
 	}
 }
-// Method Definition Index: 74939
+// Method Definition Index: 74932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenModuleUI_DOColor_mAF96B607A774C0B0D912E56C3C11A87E4F093440 (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12084,7 +11664,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:486>
 		U3CU3Ec__DisplayClass34_0_t18D864D495A67B8E3723FF168949A00B63EE2EC5* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass34_0_U3CDOColorU3Eb__0_mBA716E6626BB3051125B19AC02EC825AA305B9A6_RuntimeMethod_var), NULL);
@@ -12096,18 +11675,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_To_mA1EBEAF49DD682B626CB60B4C53B7069F7933339(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:487>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass34_0_t18D864D495A67B8E3723FF168949A00B63EE2EC5* L_11 = V_0;
 		NullCheck(L_11);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:488>
 		return L_10;
 	}
 }
-// Method Definition Index: 74940
+// Method Definition Index: 74933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* DOTweenModuleUI_DOCounter_m85EC79863973B9D9DF9D67E7B5DD835C86BF1438 (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___0_target, int32_t ___1_fromValue, int32_t ___2_endValue, float ___3_duration, bool ___4_addThousandsSeparator, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___5_culture, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12143,12 +11720,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394
 		bool L_4 = ___4_addThousandsSeparator;
 		NullCheck(L_3);
 		L_3->___addThousandsSeparator = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:502>
 		U3CU3Ec__DisplayClass35_0_tB39D8ABA66B038B793C44B42BF240EA543CB3427* L_5 = V_0;
 		int32_t L_6 = ___1_fromValue;
 		NullCheck(L_5);
 		L_5->___v = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:503>
 		U3CU3Ec__DisplayClass35_0_tB39D8ABA66B038B793C44B42BF240EA543CB3427* L_7 = V_0;
 		U3CU3Ec__DisplayClass35_0_tB39D8ABA66B038B793C44B42BF240EA543CB3427* L_8 = V_0;
 		NullCheck(L_8);
@@ -12192,12 +11767,6 @@ IL_0033:
 		NullCheck(G_B4_1);
 		G_B4_1->___cInfo = G_B4_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B4_1->___cInfo), (void*)G_B4_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:504>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:505>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:506>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:507>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:508>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:509>
 		U3CU3Ec__DisplayClass35_0_tB39D8ABA66B038B793C44B42BF240EA543CB3427* L_13 = V_0;
 		DOGetter_1_t126D20ADA2999ECC8E5336D1EDE57C560F53784B* L_14 = (DOGetter_1_t126D20ADA2999ECC8E5336D1EDE57C560F53784B*)il2cpp_codegen_object_new(DOGetter_1_t126D20ADA2999ECC8E5336D1EDE57C560F53784B_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m5586C4AB5126DB0C5D2BDB10005E502A150C7710(L_14, L_13, (intptr_t)((void*)U3CU3Ec__DisplayClass35_0_U3CDOCounterU3Eb__0_mD4515C9E2BA21A91E51DCA562DB8BD859BB73D4B_RuntimeMethod_var), NULL);
@@ -12209,18 +11778,16 @@ IL_0033:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* L_19;
 		L_19 = DOTween_To_mE00A5CA8947AD59966A2CFE3810F1FEEC83E157B(L_14, L_16, L_17, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:510>
 		TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* L_20 = L_19;
 		U3CU3Ec__DisplayClass35_0_tB39D8ABA66B038B793C44B42BF240EA543CB3427* L_21 = V_0;
 		NullCheck(L_21);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = L_21->___target;
 		TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* L_23;
 		L_23 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C_m82894E84FCB9577C2BA36B22C720E143E6AAA5E1(L_20, L_22, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C_m82894E84FCB9577C2BA36B22C720E143E6AAA5E1_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:511>
 		return L_20;
 	}
 }
-// Method Definition Index: 74941
+// Method Definition Index: 74934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenModuleUI_DOFade_m5AD3262DBFA4B713B61D3F2203B2930562A3B54D (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12245,7 +11812,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:519>
 		U3CU3Ec__DisplayClass36_0_tAE460456A155A97552A76CF67AF3D3BE866F30C8* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass36_0_U3CDOFadeU3Eb__0_m72BB7D6C818418B6497D3356DA77BA4A5B325E47_RuntimeMethod_var), NULL);
@@ -12257,18 +11823,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_ToAlpha_m93AB0EDCF2956A0DD806D9537799F2727CA5E7C1(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:520>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass36_0_tAE460456A155A97552A76CF67AF3D3BE866F30C8* L_11 = V_0;
 		NullCheck(L_11);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:521>
 		return L_10;
 	}
 }
-// Method Definition Index: 74942
+// Method Definition Index: 74935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t390910F1CE8B4737AA72FEED470399C8DBE1AF8B* DOTweenModuleUI_DOText_mDE24022401FC6820F90F1BE517FF46F73AE9BC15 (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___0_target, String_t* ___1_endValue, float ___2_duration, bool ___3_richTextEnabled, int32_t ___4_scrambleMode, String_t* ___5_scrambleChars, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12295,7 +11859,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t390910F1CE8B4737AA72FEED470399
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:535>
 		String_t* L_3 = ___1_endValue;
 		if (L_3)
 		{
@@ -12303,7 +11866,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t390910F1CE8B4737AA72FEED470399
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:536>
 		int32_t L_4;
 		L_4 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_4) <= ((int32_t)0)))
@@ -12312,19 +11874,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t390910F1CE8B4737AA72FEED470399
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:536>
 		Debugger_LogWarning_mB528DCD3175EB2D670A62A6507A656F8DE76D06E(_stringLiteralE41209BF9C5F52C0362394BD3BC6A948E0B35B91, (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL, NULL);
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:537>
 		___1_endValue = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 	}
 
 IL_002a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:539>
 		U3CU3Ec__DisplayClass37_0_tEB346CC740290347A0EAF5C4DBE0B8B55EC9B6D0* L_5 = V_0;
 		DOGetter_1_t65A2B66606014CD7EFBA1D8DDD1273F57511D146* L_6 = (DOGetter_1_t65A2B66606014CD7EFBA1D8DDD1273F57511D146*)il2cpp_codegen_object_new(DOGetter_1_t65A2B66606014CD7EFBA1D8DDD1273F57511D146_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mC8C03B65352C1426F2985D1516464D9A6E48D1EC(L_6, L_5, (intptr_t)((void*)U3CU3Ec__DisplayClass37_0_U3CDOTextU3Eb__0_m02FF7D2EC040673A6A8DAF254FA06CCB5E19150D_RuntimeMethod_var), NULL);
@@ -12336,8 +11895,6 @@ IL_002a:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t390910F1CE8B4737AA72FEED470399C8DBE1AF8B* L_11;
 		L_11 = DOTween_To_mA4E61D06204BD01537C08EEB9ED148C18ABC75ED(L_6, L_8, L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:540>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:541>
 		TweenerCore_3_t390910F1CE8B4737AA72FEED470399C8DBE1AF8B* L_12 = L_11;
 		bool L_13 = ___3_richTextEnabled;
 		int32_t L_14 = ___4_scrambleMode;
@@ -12349,11 +11906,10 @@ IL_002a:
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = L_17->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_19;
 		L_19 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_16, L_18, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:542>
 		return L_12;
 	}
 }
-// Method Definition Index: 74943
+// Method Definition Index: 74936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenModuleUI_DOBlendableColor_m69717A08080A14BE5A01F1E8886EBF829CEF7227 (Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12379,7 +11935,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:558>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___1_endValue;
 		U3CU3Ec__DisplayClass38_0_t267FF01517518B123F4EB11811FAF5BEDB2CB83D* L_4 = V_0;
 		NullCheck(L_4);
@@ -12390,19 +11945,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
 		L_7 = Color_op_Subtraction_mF003448D819F2A41405BB6D85F1563CDA900B07F_inline(L_3, L_6, NULL);
 		___1_endValue = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:559>
 		U3CU3Ec__DisplayClass38_0_t267FF01517518B123F4EB11811FAF5BEDB2CB83D* L_8 = V_0;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_9), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
 		NullCheck(L_8);
 		L_8->___to = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:560>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:561>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:562>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:563>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:564>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:565>
 		U3CU3Ec__DisplayClass38_0_t267FF01517518B123F4EB11811FAF5BEDB2CB83D* L_10 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_11 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_11, L_10, (intptr_t)((void*)U3CU3Ec__DisplayClass38_0_U3CDOBlendableColorU3Eb__0_mE68FE0C254E1D0E7E8D659FF3E4A3AA5F7738351_RuntimeMethod_var), NULL);
@@ -12424,7 +11972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_20;
 	}
 }
-// Method Definition Index: 74944
+// Method Definition Index: 74937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenModuleUI_DOBlendableColor_m9D9F47100CD74C031BBA7ABF9A16E45AC29D2E8F (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12450,7 +11998,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:579>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___1_endValue;
 		U3CU3Ec__DisplayClass39_0_t38D78B606D82F31C19D959AF12B5C4F1D4AF65C2* L_4 = V_0;
 		NullCheck(L_4);
@@ -12461,19 +12008,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
 		L_7 = Color_op_Subtraction_mF003448D819F2A41405BB6D85F1563CDA900B07F_inline(L_3, L_6, NULL);
 		___1_endValue = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:580>
 		U3CU3Ec__DisplayClass39_0_t38D78B606D82F31C19D959AF12B5C4F1D4AF65C2* L_8 = V_0;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_9), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
 		NullCheck(L_8);
 		L_8->___to = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:581>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:582>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:583>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:584>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:585>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:586>
 		U3CU3Ec__DisplayClass39_0_t38D78B606D82F31C19D959AF12B5C4F1D4AF65C2* L_10 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_11 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_11, L_10, (intptr_t)((void*)U3CU3Ec__DisplayClass39_0_U3CDOBlendableColorU3Eb__0_m897EF1C1C8D7A638D7271A6E3BD8640F834CA567_RuntimeMethod_var), NULL);
@@ -12495,7 +12035,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_20;
 	}
 }
-// Method Definition Index: 74945
+// Method Definition Index: 74938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenModuleUI_DOBlendableColor_m7569CFBAB6EFA6049EECFDBC96898880565C368A (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12521,7 +12061,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:600>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___1_endValue;
 		U3CU3Ec__DisplayClass40_0_t0E7A83E8D1C93359BF9EB9E6A9AF3AA18311CD24* L_4 = V_0;
 		NullCheck(L_4);
@@ -12532,19 +12071,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
 		L_7 = Color_op_Subtraction_mF003448D819F2A41405BB6D85F1563CDA900B07F_inline(L_3, L_6, NULL);
 		___1_endValue = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:601>
 		U3CU3Ec__DisplayClass40_0_t0E7A83E8D1C93359BF9EB9E6A9AF3AA18311CD24* L_8 = V_0;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_9), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
 		NullCheck(L_8);
 		L_8->___to = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:602>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:603>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:604>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:605>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:606>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:607>
 		U3CU3Ec__DisplayClass40_0_t0E7A83E8D1C93359BF9EB9E6A9AF3AA18311CD24* L_10 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_11 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_11, L_10, (intptr_t)((void*)U3CU3Ec__DisplayClass40_0_U3CDOBlendableColorU3Eb__0_m031A8418D686ADB8B4AD6572C18FCBAD1E42B0F6_RuntimeMethod_var), NULL);
@@ -12566,7 +12098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_20;
 	}
 }
-// Method Definition Index: 74946
+// Method Definition Index: 74939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2AB8873CFFA96FCD79C3731A380BE3F2FAE1D947* DOTweenModuleUI_DOShapeCircle_m0A5FCD4C41E4B1FF07B94647146806013735FAE4 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_center, float ___2_endValueDegrees, float ___3_duration, bool ___4_relativeCenter, bool ___5_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12592,9 +12124,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2AB8873CFFA96FCD79C3731A380BE3
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:628>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:629>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:630>
 		ABSTweenPlugin_3_tF3514EEC2BD29A12B4641076F59405DFB6106DAE* L_3;
 		L_3 = CirclePlugin_Get_m58C3CF891705AD223A52D2A1E66D96E114BFE195(NULL);
 		U3CU3Ec__DisplayClass41_0_t7022E6DD68301100D1A7392EF5170CF153EDAD93* L_4 = V_0;
@@ -12608,7 +12137,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2AB8873CFFA96FCD79C3731A380BE3
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2AB8873CFFA96FCD79C3731A380BE3F2FAE1D947* L_10;
 		L_10 = DOTween_To_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisCircleOptions_tB7B463413662FD10ECA7DF439BF0B36AC7685008_m1E4E072867EDD465D9516798EFC1C3F2BBE3220D(L_3, L_5, L_7, L_8, L_9, DOTween_To_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_TisCircleOptions_tB7B463413662FD10ECA7DF439BF0B36AC7685008_m1E4E072867EDD465D9516798EFC1C3F2BBE3220D_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:631>
 		TweenerCore_3_t2AB8873CFFA96FCD79C3731A380BE3F2FAE1D947* L_11 = L_10;
 		float L_12 = ___2_endValueDegrees;
 		bool L_13 = ___4_relativeCenter;
@@ -12620,7 +12148,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2AB8873CFFA96FCD79C3731A380BE3
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17 = L_16->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_18;
 		L_18 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_15, L_17, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:632>
 		return L_11;
 	}
 }
@@ -12632,7 +12159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2AB8873CFFA96FCD79C3731A380BE3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74947
+// Method Definition Index: 74940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Utils_SwitchToRectTransform_m6A264948787CBEE108E0D97B235AE921BFBB6152 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_from, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___1_to, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12653,7 +12180,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:652>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_from;
 		NullCheck(L_0);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1;
@@ -12684,7 +12210,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		float L_11;
 		L_11 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline((&V_4), NULL);
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_1), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_2, (0.5f))), L_5)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_8, (0.5f))), L_11)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:653>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12 = ___0_from;
 		NullCheck(L_12);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
@@ -12693,18 +12218,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
 		L_14 = RectTransformUtility_WorldToScreenPoint_mC8701032E223BA296C43799F4AEE98626686238F((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL, L_13, NULL);
 		V_2 = L_14;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:654>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = V_2;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17;
 		L_17 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_15, L_16, NULL);
 		V_2 = L_17;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:655>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_18 = ___1_to;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = V_2;
 		bool L_20;
 		L_20 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m01A75CAFB6D1019F1C65BA606635EAB10AF31195(L_18, L_19, (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)NULL, (&V_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:656>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21 = ___1_to;
 		NullCheck(L_21);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_22;
@@ -12734,7 +12256,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		float L_32;
 		L_32 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline((&V_4), NULL);
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_3), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_23, (0.5f))), L_26)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_29, (0.5f))), L_32)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:657>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_33 = ___1_to;
 		NullCheck(L_33);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34;
@@ -12756,7 +12277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74948
+// Method Definition Index: 74941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m7CDF4DE59B75149775AFE16A0C4AB5482BC4C442 (U3CU3Ec__DisplayClass0_0_tB18B0BBCEBB20AFFAEF4A5DC6E774BB71965CB5D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12764,11 +12285,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_m7CDF4DE5
 		return;
 	}
 }
-// Method Definition Index: 74949
+// Method Definition Index: 74942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass0_0_U3CDOFadeU3Eb__0_m43479452AB6CABC809F8BB075F80A6B391A8AA4B (U3CU3Ec__DisplayClass0_0_tB18B0BBCEBB20AFFAEF4A5DC6E774BB71965CB5D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:31>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -12776,11 +12296,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass0_0_U3CDOFadeU3Eb_
 		return L_1;
 	}
 }
-// Method Definition Index: 74950
+// Method Definition Index: 74943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0_U3CDOFadeU3Eb__1_mB9CCB118057D74D8F6C152B0FA27DE980521FD9A (U3CU3Ec__DisplayClass0_0_tB18B0BBCEBB20AFFAEF4A5DC6E774BB71965CB5D* __this, float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:31>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___target;
 		float L_1 = ___0_x;
 		NullCheck(L_0);
@@ -12796,7 +12315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0_U3CDOFadeU3Eb__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74951
+// Method Definition Index: 74944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m985D8AA039C4BC8FC17F125005481B94749837C7 (U3CU3Ec__DisplayClass10_0_tCC949A20CDD228AC8F8B3A8CD5753ADA411636B3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12804,11 +12323,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m985D8AA
 		return;
 	}
 }
-// Method Definition Index: 74952
+// Method Definition Index: 74945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass10_0_U3CDOColorU3Eb__0_mA4364DFDB200823F9D4FF95D114157C2A424D9DC (U3CU3Ec__DisplayClass10_0_tCC949A20CDD228AC8F8B3A8CD5753ADA411636B3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:175>
 		Outline_t9CF146E077DC65F441EDEC463AA6710374108084* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -12816,11 +12334,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 74953
+// Method Definition Index: 74946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CDOColorU3Eb__1_mD28650B7F8BE4B8C96C0AB9DF5BB4B53C443CE41 (U3CU3Ec__DisplayClass10_0_tCC949A20CDD228AC8F8B3A8CD5753ADA411636B3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:175>
 		Outline_t9CF146E077DC65F441EDEC463AA6710374108084* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -12836,7 +12353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CDOColorU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74954
+// Method Definition Index: 74947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass11_0__ctor_m69309DF61BEF60177017EDBE3811AA7119806287 (U3CU3Ec__DisplayClass11_0_t65D5FA900D6220B15D4F61001E4C0761C72A6796* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12844,11 +12361,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass11_0__ctor_m69309DF
 		return;
 	}
 }
-// Method Definition Index: 74955
+// Method Definition Index: 74948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass11_0_U3CDOFadeU3Eb__0_mDCACD4D30AEE9D07134544798AB5B9C5D979BE93 (U3CU3Ec__DisplayClass11_0_t65D5FA900D6220B15D4F61001E4C0761C72A6796* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:185>
 		Outline_t9CF146E077DC65F441EDEC463AA6710374108084* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -12856,11 +12372,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 74956
+// Method Definition Index: 74949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass11_0_U3CDOFadeU3Eb__1_m73D2BA809B8464E6E216465A623D609E96823BD9 (U3CU3Ec__DisplayClass11_0_t65D5FA900D6220B15D4F61001E4C0761C72A6796* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:185>
 		Outline_t9CF146E077DC65F441EDEC463AA6710374108084* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -12876,7 +12391,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass11_0_U3CDOFadeU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74957
+// Method Definition Index: 74950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0__ctor_m64C4DEEF82977228537228CAAAF48792AE080622 (U3CU3Ec__DisplayClass12_0_tCD751A3A64E63AA8CAAFAF76B7A47FB79314B30B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12884,11 +12399,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0__ctor_m64C4DEE
 		return;
 	}
 }
-// Method Definition Index: 74958
+// Method Definition Index: 74951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass12_0_U3CDOScaleU3Eb__0_m5C34A94B2CF727A19CE3D6D99933B680E7847F2A (U3CU3Ec__DisplayClass12_0_tCD751A3A64E63AA8CAAFAF76B7A47FB79314B30B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:195>
 		Outline_t9CF146E077DC65F441EDEC463AA6710374108084* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -12896,11 +12410,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 74959
+// Method Definition Index: 74952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0_U3CDOScaleU3Eb__1_m79C4D6FE81FC8292C6B825B55A2F711DE92D835C (U3CU3Ec__DisplayClass12_0_tCD751A3A64E63AA8CAAFAF76B7A47FB79314B30B* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:195>
 		Outline_t9CF146E077DC65F441EDEC463AA6710374108084* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -12916,7 +12429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0_U3CDOScaleU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74960
+// Method Definition Index: 74953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_mBD97A0B94BB8F658AA2895C371742B0E74198455 (U3CU3Ec__DisplayClass13_0_tA7908A005DAFADE5E96F672B1A0AC21105DC4A84* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12924,11 +12437,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_mBD97A0B
 		return;
 	}
 }
-// Method Definition Index: 74961
+// Method Definition Index: 74954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass13_0_U3CDOAnchorPosU3Eb__0_m45698E882FAA3963ED0653B5927E9B5F99C8B4E4 (U3CU3Ec__DisplayClass13_0_tA7908A005DAFADE5E96F672B1A0AC21105DC4A84* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:210>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -12936,11 +12448,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 74962
+// Method Definition Index: 74955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CDOAnchorPosU3Eb__1_m5DD4C4D9473EA1DD1B2021D9131B4F6D8124BD57 (U3CU3Ec__DisplayClass13_0_tA7908A005DAFADE5E96F672B1A0AC21105DC4A84* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:210>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -12956,7 +12467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CDOAnchorPos
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74963
+// Method Definition Index: 74956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0__ctor_mF03BAB1D5A00A73CAA680F13E3BE0B226712B8C3 (U3CU3Ec__DisplayClass14_0_t14BD385BD495A01BD6C66D2D92360407933E64E9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12964,11 +12475,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0__ctor_mF03BAB1
 		return;
 	}
 }
-// Method Definition Index: 74964
+// Method Definition Index: 74957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass14_0_U3CDOAnchorPosXU3Eb__0_m77F354FDCA32A28B5E166D92E7AD31A13AAC60FA (U3CU3Ec__DisplayClass14_0_t14BD385BD495A01BD6C66D2D92360407933E64E9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:220>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -12976,11 +12486,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 74965
+// Method Definition Index: 74958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3CDOAnchorPosXU3Eb__1_m017F7F1E8BC9250F6CF7A0B75ED09A7ED669BA34 (U3CU3Ec__DisplayClass14_0_t14BD385BD495A01BD6C66D2D92360407933E64E9* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:220>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -12996,7 +12505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3CDOAnchorPos
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74966
+// Method Definition Index: 74959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass15_0__ctor_m48FC24F32D0415BE4512FB1D5C17CFF39D8149DC (U3CU3Ec__DisplayClass15_0_tD42752F57E0F92A701F49E8A350FDCE98CD5B0F8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13004,11 +12513,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass15_0__ctor_m48FC24F
 		return;
 	}
 }
-// Method Definition Index: 74967
+// Method Definition Index: 74960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass15_0_U3CDOAnchorPosYU3Eb__0_m3B38EF80DFF9D4EF696F2F08DCC156C16FE55E8D (U3CU3Ec__DisplayClass15_0_tD42752F57E0F92A701F49E8A350FDCE98CD5B0F8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:230>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13016,11 +12524,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 74968
+// Method Definition Index: 74961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass15_0_U3CDOAnchorPosYU3Eb__1_mEB016F250A040B81AEEF7C5D3A98D0B05E3B231F (U3CU3Ec__DisplayClass15_0_tD42752F57E0F92A701F49E8A350FDCE98CD5B0F8* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:230>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13036,7 +12543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass15_0_U3CDOAnchorPos
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74969
+// Method Definition Index: 74962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0__ctor_m6A7514F7CF8978AD8D2179728B06E74F14F4485E (U3CU3Ec__DisplayClass16_0_t19F6A4F2A285615B2EFC11553DF0D96149166E7A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13044,11 +12551,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0__ctor_m6A7514F
 		return;
 	}
 }
-// Method Definition Index: 74970
+// Method Definition Index: 74963
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass16_0_U3CDOAnchorPos3DU3Eb__0_m2E02A40A5465C662FCB26908E7F13C7DD3A4BBC2 (U3CU3Ec__DisplayClass16_0_t19F6A4F2A285615B2EFC11553DF0D96149166E7A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:241>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -13056,11 +12562,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 74971
+// Method Definition Index: 74964
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0_U3CDOAnchorPos3DU3Eb__1_mEC7A7D9EDE2E44E5EAF9ACBA9A993FC950F4EEE2 (U3CU3Ec__DisplayClass16_0_t19F6A4F2A285615B2EFC11553DF0D96149166E7A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:241>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13076,7 +12581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass16_0_U3CDOAnchorPos
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74972
+// Method Definition Index: 74965
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0__ctor_m54FF0D8E95B7DE95B74B8886D64EA0F803C66D9A (U3CU3Ec__DisplayClass17_0_t284A2013A9CF39A877F17C22914B8003908BAF2A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13084,11 +12589,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0__ctor_m54FF0D8
 		return;
 	}
 }
-// Method Definition Index: 74973
+// Method Definition Index: 74966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass17_0_U3CDOAnchorPos3DXU3Eb__0_mC5FAD099F119CE2ACDEAD414435B244F21CDB4E7 (U3CU3Ec__DisplayClass17_0_t284A2013A9CF39A877F17C22914B8003908BAF2A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:251>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -13096,11 +12600,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 74974
+// Method Definition Index: 74967
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0_U3CDOAnchorPos3DXU3Eb__1_mA7F32AA90629508030AAD74E0725D4B5DF28B76D (U3CU3Ec__DisplayClass17_0_t284A2013A9CF39A877F17C22914B8003908BAF2A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:251>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13116,7 +12619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0_U3CDOAnchorPos
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74975
+// Method Definition Index: 74968
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_mE054C2ABDC10BD5D710C5AF29506CA2841AA72E2 (U3CU3Ec__DisplayClass18_0_t8041ED4DE7248F565E86D82594DDD9BD74602121* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13124,11 +12627,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_mE054C2A
 		return;
 	}
 }
-// Method Definition Index: 74976
+// Method Definition Index: 74969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass18_0_U3CDOAnchorPos3DYU3Eb__0_m30DD1FDFC6B5104DB734F01FB77F60BAB3C67578 (U3CU3Ec__DisplayClass18_0_t8041ED4DE7248F565E86D82594DDD9BD74602121* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:261>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -13136,11 +12638,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 74977
+// Method Definition Index: 74970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CDOAnchorPos3DYU3Eb__1_m46549819EBCBEB1EE8404F9888866CD75997825D (U3CU3Ec__DisplayClass18_0_t8041ED4DE7248F565E86D82594DDD9BD74602121* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:261>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13156,7 +12657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CDOAnchorPos
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74978
+// Method Definition Index: 74971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0__ctor_m74B141AA06FF97B9170A5CD56D2E4422B6511AE3 (U3CU3Ec__DisplayClass19_0_tE0338A49FF6F541CD74258CC0E361949F17279F8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13164,11 +12665,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0__ctor_m74B141A
 		return;
 	}
 }
-// Method Definition Index: 74979
+// Method Definition Index: 74972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass19_0_U3CDOAnchorPos3DZU3Eb__0_m81FCF7B95ACC17C67BE6C8D68B570D959D88EADC (U3CU3Ec__DisplayClass19_0_tE0338A49FF6F541CD74258CC0E361949F17279F8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:271>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -13176,11 +12676,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 74980
+// Method Definition Index: 74973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0_U3CDOAnchorPos3DZU3Eb__1_m27CE65B98533504D302D8580C61D7D3F09A48D27 (U3CU3Ec__DisplayClass19_0_tE0338A49FF6F541CD74258CC0E361949F17279F8* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:271>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13196,7 +12695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass19_0_U3CDOAnchorPos
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74981
+// Method Definition Index: 74974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m6513901DE6123169BD8642D3EDF9341AD2C78AB9 (U3CU3Ec__DisplayClass1_0_tD8156063570C9F9EDAFB40925044950112A26793* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13204,11 +12703,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m6513901D
 		return;
 	}
 }
-// Method Definition Index: 74982
+// Method Definition Index: 74975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass1_0_U3CDOColorU3Eb__0_m7A0F2549C2C54325EC64A09C154142F9212E4119 (U3CU3Ec__DisplayClass1_0_tD8156063570C9F9EDAFB40925044950112A26793* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:45>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -13216,11 +12714,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 74983
+// Method Definition Index: 74976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CDOColorU3Eb__1_mFE2DE0E537DD7B1255D9B75969C15549646E6C94 (U3CU3Ec__DisplayClass1_0_tD8156063570C9F9EDAFB40925044950112A26793* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:45>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13236,7 +12733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CDOColorU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74984
+// Method Definition Index: 74977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0__ctor_mA78DA0FD1C871D24DEB547744F4DE38ABEACD0B4 (U3CU3Ec__DisplayClass20_0_t984E360099B0FDF4B884478FC49D03EC7CC5FC62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13244,11 +12741,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0__ctor_mA78DA0F
 		return;
 	}
 }
-// Method Definition Index: 74985
+// Method Definition Index: 74978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass20_0_U3CDOAnchorMaxU3Eb__0_mD50D23ECA6FBD3AE03536697B9ED7332E4FDD2CD (U3CU3Ec__DisplayClass20_0_t984E360099B0FDF4B884478FC49D03EC7CC5FC62* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:282>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13256,11 +12752,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 74986
+// Method Definition Index: 74979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0_U3CDOAnchorMaxU3Eb__1_mFEA7E952BB247F3CC01585B3C896AE53BB7B6540 (U3CU3Ec__DisplayClass20_0_t984E360099B0FDF4B884478FC49D03EC7CC5FC62* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:282>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13276,7 +12771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0_U3CDOAnchorMax
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74987
+// Method Definition Index: 74980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0__ctor_mCAB7F9CC3BBBA542AF258E0D021EC7AEFE5C2AF1 (U3CU3Ec__DisplayClass21_0_t103F15D006C0D1B8C5D8BF3FB799D36CD246036A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13284,11 +12779,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0__ctor_mCAB7F9C
 		return;
 	}
 }
-// Method Definition Index: 74988
+// Method Definition Index: 74981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass21_0_U3CDOAnchorMinU3Eb__0_m33BBB55D66991F54EE55E79B0AE622F40FFCD764 (U3CU3Ec__DisplayClass21_0_t103F15D006C0D1B8C5D8BF3FB799D36CD246036A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:293>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13296,11 +12790,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 74989
+// Method Definition Index: 74982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0_U3CDOAnchorMinU3Eb__1_m9D2C994ECFF4FB4237C178E213B731C1BD197F0A (U3CU3Ec__DisplayClass21_0_t103F15D006C0D1B8C5D8BF3FB799D36CD246036A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:293>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13316,7 +12809,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0_U3CDOAnchorMin
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74990
+// Method Definition Index: 74983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass22_0__ctor_mE10D2BDE628966FE49512531B20C51F6C2787089 (U3CU3Ec__DisplayClass22_0_t5C323042506D23A90B58A769162DBBF0BC76B035* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13324,11 +12817,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass22_0__ctor_mE10D2BD
 		return;
 	}
 }
-// Method Definition Index: 74991
+// Method Definition Index: 74984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass22_0_U3CDOPivotU3Eb__0_m5FE19E82DBA2702E7A7ADF66BB937773CACBEC6D (U3CU3Ec__DisplayClass22_0_t5C323042506D23A90B58A769162DBBF0BC76B035* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:303>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13336,11 +12828,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 74992
+// Method Definition Index: 74985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass22_0_U3CDOPivotU3Eb__1_mE3E48A091761963476D9CB2F1004A83281EE2643 (U3CU3Ec__DisplayClass22_0_t5C323042506D23A90B58A769162DBBF0BC76B035* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:303>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13356,7 +12847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass22_0_U3CDOPivotU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74993
+// Method Definition Index: 74986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0__ctor_m983854683F9F5CE4B7F0BD9033AB45DDA296F9E7 (U3CU3Ec__DisplayClass23_0_t3DFCA163008250F066061F9E3ED061A2BCFA666F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13364,11 +12855,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0__ctor_m9838546
 		return;
 	}
 }
-// Method Definition Index: 74994
+// Method Definition Index: 74987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass23_0_U3CDOPivotXU3Eb__0_mEBA64E950B901D99C27662F211C5357066A46C1B (U3CU3Ec__DisplayClass23_0_t3DFCA163008250F066061F9E3ED061A2BCFA666F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:312>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13376,11 +12866,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 74995
+// Method Definition Index: 74988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0_U3CDOPivotXU3Eb__1_m2BECC738B1793D1B2B8F075191056F44AE61DD6D (U3CU3Ec__DisplayClass23_0_t3DFCA163008250F066061F9E3ED061A2BCFA666F* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:312>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13396,7 +12885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass23_0_U3CDOPivotXU3E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74996
+// Method Definition Index: 74989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0__ctor_m41C1CA93D499089E6C5CD68BEB55BD64ADBFE43F (U3CU3Ec__DisplayClass24_0_t04F97A805A71B33C86A4F3A2F05635361548FD88* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13404,11 +12893,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0__ctor_m41C1CA9
 		return;
 	}
 }
-// Method Definition Index: 74997
+// Method Definition Index: 74990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass24_0_U3CDOPivotYU3Eb__0_mB9A0E99B23333028B4BA97E332DA19268ADFEBBB (U3CU3Ec__DisplayClass24_0_t04F97A805A71B33C86A4F3A2F05635361548FD88* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:321>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13416,11 +12904,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 74998
+// Method Definition Index: 74991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3CDOPivotYU3Eb__1_mC0B65C0BEC4968B86083A8E493E782A486638E3F (U3CU3Ec__DisplayClass24_0_t04F97A805A71B33C86A4F3A2F05635361548FD88* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:321>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13436,7 +12923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3CDOPivotYU3E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 74999
+// Method Definition Index: 74992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0__ctor_mDF25A8BF6CB8B1A343590B334D354F5EAC765572 (U3CU3Ec__DisplayClass25_0_t4DA808F4CFC3EA9D61AC01DF1B84F0601D03DABB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13444,11 +12931,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0__ctor_mDF25A8B
 		return;
 	}
 }
-// Method Definition Index: 75000
+// Method Definition Index: 74993
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass25_0_U3CDOSizeDeltaU3Eb__0_m9465A762A443D9DAA50004FF4EC3E7A5710D24F3 (U3CU3Ec__DisplayClass25_0_t4DA808F4CFC3EA9D61AC01DF1B84F0601D03DABB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:332>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13456,11 +12942,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 75001
+// Method Definition Index: 74994
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CDOSizeDeltaU3Eb__1_mE4D6E5ADF19E5741ADB793A0E043CAE94C18772B (U3CU3Ec__DisplayClass25_0_t4DA808F4CFC3EA9D61AC01DF1B84F0601D03DABB* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:332>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13476,7 +12961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CDOSizeDelta
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75002
+// Method Definition Index: 74995
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass26_0__ctor_m7F4C69BB9BF2084453CFD95533563FC7C6AF5941 (U3CU3Ec__DisplayClass26_0_t124EF2B4B70F54D478CDCCFB5BCD1975BB607407* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13484,11 +12969,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass26_0__ctor_m7F4C69B
 		return;
 	}
 }
-// Method Definition Index: 75003
+// Method Definition Index: 74996
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass26_0_U3CDOPunchAnchorPosU3Eb__0_m8A97B30EF54DCC1B5253F2CE036DA7BEF521F9E2 (U3CU3Ec__DisplayClass26_0_t124EF2B4B70F54D478CDCCFB5BCD1975BB607407* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:349>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13498,11 +12982,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_2;
 	}
 }
-// Method Definition Index: 75004
+// Method Definition Index: 74997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass26_0_U3CDOPunchAnchorPosU3Eb__1_mA354D1798B36E08566BC12DEDD0A878C47D19C46 (U3CU3Ec__DisplayClass26_0_t124EF2B4B70F54D478CDCCFB5BCD1975BB607407* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:349>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
@@ -13520,7 +13003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass26_0_U3CDOPunchAnch
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75005
+// Method Definition Index: 74998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0__ctor_m8180394F95E4CEDEA6E4B91A408E7CBC7F36A8D5 (U3CU3Ec__DisplayClass27_0_t5DF692DEA21E1F075A801B6B88FD7309CD5F86B7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13528,11 +13011,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0__ctor_m8180394
 		return;
 	}
 }
-// Method Definition Index: 75006
+// Method Definition Index: 74999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass27_0_U3CDOShakeAnchorPosU3Eb__0_m28D2453CAB4630D898B61CF1679C5C4955EC5761 (U3CU3Ec__DisplayClass27_0_t5DF692DEA21E1F075A801B6B88FD7309CD5F86B7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:365>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13542,11 +13024,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_2;
 	}
 }
-// Method Definition Index: 75007
+// Method Definition Index: 75000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0_U3CDOShakeAnchorPosU3Eb__1_m08D936A746E8737C9E37B326E975EDCB90427B5F (U3CU3Ec__DisplayClass27_0_t5DF692DEA21E1F075A801B6B88FD7309CD5F86B7* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:365>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
@@ -13564,7 +13045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass27_0_U3CDOShakeAnch
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75008
+// Method Definition Index: 75001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass28_0__ctor_m4179B6F77D9F8B2D07F78D25FC745F542063F335 (U3CU3Ec__DisplayClass28_0_tD0958576900019D44F20769282634622310A6335* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13572,11 +13053,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass28_0__ctor_m4179B6F
 		return;
 	}
 }
-// Method Definition Index: 75009
+// Method Definition Index: 75002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass28_0_U3CDOShakeAnchorPosU3Eb__0_mE987488CB26087991EB5B2AF5E1BB03633A9C5E9 (U3CU3Ec__DisplayClass28_0_tD0958576900019D44F20769282634622310A6335* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:380>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13586,11 +13066,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_2;
 	}
 }
-// Method Definition Index: 75010
+// Method Definition Index: 75003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass28_0_U3CDOShakeAnchorPosU3Eb__1_m223F195EA08AAF2F03AE46C9DE4761B0BC7FB7EC (U3CU3Ec__DisplayClass28_0_tD0958576900019D44F20769282634622310A6335* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:380>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
@@ -13608,7 +13087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass28_0_U3CDOShakeAnch
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75011
+// Method Definition Index: 75004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0__ctor_mCA183B392317E1ABAF1B8CA84C02784D75678A78 (U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13616,11 +13095,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0__ctor_mCA183B3
 		return;
 	}
 }
-// Method Definition Index: 75012
+// Method Definition Index: 75005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass29_0_U3CDOJumpAnchorPosU3Eb__0_m82918F5D73CE67BC9AD9979A3F81C717AA95A5EF (U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:404>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13628,11 +13106,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 75013
+// Method Definition Index: 75006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CDOJumpAnchorPosU3Eb__1_mACBA5402D427457E33770E20ABBF153EE8EA73B2 (U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:404>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13640,11 +13117,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CDOJumpAncho
 		return;
 	}
 }
-// Method Definition Index: 75014
+// Method Definition Index: 75007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CDOJumpAnchorPosU3Eb__2_m6BAF800D607189779E65F18B54EA2A29AC45D84B (U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:407>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13654,11 +13130,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CDOJumpAncho
 		return;
 	}
 }
-// Method Definition Index: 75015
+// Method Definition Index: 75008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass29_0_U3CDOJumpAnchorPosU3Eb__3_mA6D64EC026FB4AA6873394DBB91E728E6F6EFF3D (U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:408>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -13666,11 +13141,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 75016
+// Method Definition Index: 75009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CDOJumpAnchorPosU3Eb__4_mD71EC1A09CD5404D79A2FA0B068A00F3D2E7D12F (U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:408>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13678,7 +13152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CDOJumpAncho
 		return;
 	}
 }
-// Method Definition Index: 75017
+// Method Definition Index: 75010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CDOJumpAnchorPosU3Eb__5_m31B52507CE1503653EED1573137622C1202BA9D9 (U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* __this, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
@@ -13688,7 +13162,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CDOJumpAncho
 	float G_B4_0 = 0.0f;
 	U3CU3Ec__DisplayClass29_0_tAF3D1F414662AB44D54A1823AC81F9067EB039C5* G_B4_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:413>
 		bool L_0 = __this->___offsetYSet;
 		if (L_0)
 		{
@@ -13696,9 +13169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass29_0_U3CDOJumpAncho
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:414>
 		__this->___offsetYSet = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:415>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_1 = __this->___s;
 		NullCheck(L_1);
 		bool L_2;
@@ -13735,13 +13206,11 @@ IL_003c:
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:417>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = __this->___target;
 		NullCheck(L_8);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
 		L_9 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_8, NULL);
 		V_0 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:418>
 		float* L_10 = (float*)(&(&V_0)->___y);
 		float* L_11 = L_10;
 		float L_12 = *((float*)L_11);
@@ -13752,12 +13221,10 @@ IL_0041:
 		float L_16;
 		L_16 = DOVirtual_EasedValue_m40F83FCD3705E8DD33558C84B3F7067D91F3B9DF((0.0f), L_13, L_15, 6, NULL);
 		*((float*)L_11) = (float)((float)il2cpp_codegen_add(L_12, L_16));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:419>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = V_0;
 		NullCheck(L_17);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_17, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:420>
 		return;
 	}
 }
@@ -13769,7 +13236,7 @@ IL_0041:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75018
+// Method Definition Index: 75011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_mAC2FAC72E368A0770D2C88F39065B0CD1B860FDC (U3CU3Ec__DisplayClass2_0_t51A1D3D91AFC969F0DAF516721DDD2B73F01ED0D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13777,11 +13244,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_mAC2FAC72
 		return;
 	}
 }
-// Method Definition Index: 75019
+// Method Definition Index: 75012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass2_0_U3CDOFadeU3Eb__0_m83DABFF83F53843B3210E3663AA658A393F72C21 (U3CU3Ec__DisplayClass2_0_t51A1D3D91AFC969F0DAF516721DDD2B73F01ED0D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:55>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -13789,11 +13255,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 75020
+// Method Definition Index: 75013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CDOFadeU3Eb__1_mEBA98F9D99539591FC60AFBE48FD7336309CFE1D (U3CU3Ec__DisplayClass2_0_t51A1D3D91AFC969F0DAF516721DDD2B73F01ED0D* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:55>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13809,7 +13274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CDOFadeU3Eb__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75021
+// Method Definition Index: 75014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass30_0__ctor_m5F4F51BC32159EE37265F7032DE223AC3AB6A1C0 (U3CU3Ec__DisplayClass30_0_tEC2889D7CADE796A4FFB321716EC8FE47DEEBC46* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13817,11 +13282,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass30_0__ctor_m5F4F51B
 		return;
 	}
 }
-// Method Definition Index: 75022
+// Method Definition Index: 75015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass30_0_U3CDONormalizedPosU3Eb__0_m80C5E010B8B0C14A9F1358140D6DB2AE6C5374A9 (U3CU3Ec__DisplayClass30_0_tEC2889D7CADE796A4FFB321716EC8FE47DEEBC46* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:436>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -13836,23 +13300,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_4;
 	}
 }
-// Method Definition Index: 75023
+// Method Definition Index: 75016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass30_0_U3CDONormalizedPosU3Eb__1_m8185551DA74F9CE20DAD3392E7DDE2490EB1D301 (U3CU3Ec__DisplayClass30_0_tEC2889D7CADE796A4FFB321716EC8FE47DEEBC46* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:438>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		float L_2 = L_1.___x;
 		NullCheck(L_0);
 		ScrollRect_set_horizontalNormalizedPosition_m9B268C9AE7891FC73623DC7BE6B9900640C029B6(L_0, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:439>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_3 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_x;
 		float L_5 = L_4.___y;
 		NullCheck(L_3);
 		ScrollRect_set_verticalNormalizedPosition_m4AF461113925E6710BF04F46A49CF1F856F7738C(L_3, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:440>
 		return;
 	}
 }
@@ -13864,7 +13325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass30_0_U3CDONormalize
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75024
+// Method Definition Index: 75017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass31_0__ctor_m417F41C2607E2F3A10C14B9556514FC2BBA1B035 (U3CU3Ec__DisplayClass31_0_tA83E5335930C3B73B36584C0C49AEF4D60F994FA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13872,11 +13333,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass31_0__ctor_m417F41C
 		return;
 	}
 }
-// Method Definition Index: 75025
+// Method Definition Index: 75018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass31_0_U3CDOHorizontalNormalizedPosU3Eb__0_m77E495AE88490935170B5479753B0D251A5D3CA4 (U3CU3Ec__DisplayClass31_0_tA83E5335930C3B73B36584C0C49AEF4D60F994FA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:449>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -13884,11 +13344,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass31_0_U3CDOHorizont
 		return L_1;
 	}
 }
-// Method Definition Index: 75026
+// Method Definition Index: 75019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass31_0_U3CDOHorizontalNormalizedPosU3Eb__1_mF7393D7DDB277D5BFB5CE86BEB93E25B0558B7BD (U3CU3Ec__DisplayClass31_0_tA83E5335930C3B73B36584C0C49AEF4D60F994FA* __this, float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:449>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_0 = __this->___target;
 		float L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13904,7 +13363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass31_0_U3CDOHorizonta
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75027
+// Method Definition Index: 75020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0__ctor_mA218955A26898E155307DDE47E12B7E53255AB3E (U3CU3Ec__DisplayClass32_0_tC0A04FC69DFA3D09F95256B3260E19CDF93CFFAB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13912,11 +13371,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0__ctor_mA218955
 		return;
 	}
 }
-// Method Definition Index: 75028
+// Method Definition Index: 75021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass32_0_U3CDOVerticalNormalizedPosU3Eb__0_m38805643288D85CEE1588577A69586E047726867 (U3CU3Ec__DisplayClass32_0_tC0A04FC69DFA3D09F95256B3260E19CDF93CFFAB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:458>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -13924,11 +13382,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass32_0_U3CDOVertical
 		return L_1;
 	}
 }
-// Method Definition Index: 75029
+// Method Definition Index: 75022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0_U3CDOVerticalNormalizedPosU3Eb__1_mD395D9118A7944AE3F2ACF8AADCF71B0611F80BB (U3CU3Ec__DisplayClass32_0_tC0A04FC69DFA3D09F95256B3260E19CDF93CFFAB* __this, float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:458>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_0 = __this->___target;
 		float L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13944,7 +13401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0_U3CDOVerticalN
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75030
+// Method Definition Index: 75023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0__ctor_mFDBB24E2EB71DAB7C3811F51BCF45EE7733321D3 (U3CU3Ec__DisplayClass33_0_t5E307A3D92BFAC7CC6F0D5285761865A1041D7A8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13952,11 +13409,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0__ctor_mFDBB24E
 		return;
 	}
 }
-// Method Definition Index: 75031
+// Method Definition Index: 75024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass33_0_U3CDOValueU3Eb__0_m8E6B52F72A726C09781FAAE48C1097CE6C2D8188 (U3CU3Ec__DisplayClass33_0_t5E307A3D92BFAC7CC6F0D5285761865A1041D7A8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:472>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -13964,11 +13420,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass33_0_U3CDOValueU3E
 		return L_1;
 	}
 }
-// Method Definition Index: 75032
+// Method Definition Index: 75025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0_U3CDOValueU3Eb__1_m02996BC134ED2E96E505224009462007F093F825 (U3CU3Ec__DisplayClass33_0_t5E307A3D92BFAC7CC6F0D5285761865A1041D7A8* __this, float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:472>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___target;
 		float L_1 = ___0_x;
 		NullCheck(L_0);
@@ -13984,7 +13439,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass33_0_U3CDOValueU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75033
+// Method Definition Index: 75026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0__ctor_m6903649B5BDBAA53F5C179B09D1C77AABC913561 (U3CU3Ec__DisplayClass34_0_t18D864D495A67B8E3723FF168949A00B63EE2EC5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13992,11 +13447,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0__ctor_m6903649
 		return;
 	}
 }
-// Method Definition Index: 75034
+// Method Definition Index: 75027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass34_0_U3CDOColorU3Eb__0_mBA716E6626BB3051125B19AC02EC825AA305B9A6 (U3CU3Ec__DisplayClass34_0_t18D864D495A67B8E3723FF168949A00B63EE2EC5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:486>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -14004,11 +13458,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 75035
+// Method Definition Index: 75028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CDOColorU3Eb__1_m534299537BAA83C8B80BDB7C0622F05B8501D4C6 (U3CU3Ec__DisplayClass34_0_t18D864D495A67B8E3723FF168949A00B63EE2EC5* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:486>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -14024,7 +13477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CDOColorU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75036
+// Method Definition Index: 75029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_m6F52791A710AA19C73082E0EED5D298E31EDF1EF (U3CU3Ec__DisplayClass35_0_tB39D8ABA66B038B793C44B42BF240EA543CB3427* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14032,16 +13485,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_m6F52791
 		return;
 	}
 }
-// Method Definition Index: 75037
+// Method Definition Index: 75030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass35_0_U3CDOCounterU3Eb__0_mD4515C9E2BA21A91E51DCA562DB8BD859BB73D4B (U3CU3Ec__DisplayClass35_0_tB39D8ABA66B038B793C44B42BF240EA543CB3427* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:504>
 		int32_t L_0 = __this->___v;
 		return L_0;
 	}
 }
-// Method Definition Index: 75038
+// Method Definition Index: 75031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CDOCounterU3Eb__1_m91616BD436B4FAB5C826763E445C8A59C11AF221 (U3CU3Ec__DisplayClass35_0_tB39D8ABA66B038B793C44B42BF240EA543CB3427* __this, int32_t ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14055,12 +13507,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CDOCounterU3
 	String_t* G_B3_0 = NULL;
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:505>
 		int32_t L_0 = ___0_x;
 		__this->___v = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:506>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:507>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:508>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___target;
 		bool L_2 = __this->___addThousandsSeparator;
 		if (L_2)
@@ -14093,7 +13541,6 @@ IL_0038:
 	{
 		NullCheck(G_B3_1);
 		VirtualActionInvoker1< String_t* >::Invoke(75, G_B3_1, G_B3_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:509>
 		return;
 	}
 }
@@ -14105,7 +13552,7 @@ IL_0038:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75039
+// Method Definition Index: 75032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0__ctor_m7C683C9CF75033301DA090C8B583860556AF7F29 (U3CU3Ec__DisplayClass36_0_tAE460456A155A97552A76CF67AF3D3BE866F30C8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14113,11 +13560,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0__ctor_m7C683C9
 		return;
 	}
 }
-// Method Definition Index: 75040
+// Method Definition Index: 75033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass36_0_U3CDOFadeU3Eb__0_m72BB7D6C818418B6497D3356DA77BA4A5B325E47 (U3CU3Ec__DisplayClass36_0_tAE460456A155A97552A76CF67AF3D3BE866F30C8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:519>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -14125,11 +13571,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 75041
+// Method Definition Index: 75034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CDOFadeU3Eb__1_m4083DFAFABE118FAC072D3EE81663ACA96DD8F10 (U3CU3Ec__DisplayClass36_0_tAE460456A155A97552A76CF67AF3D3BE866F30C8* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:519>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -14145,7 +13590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CDOFadeU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75042
+// Method Definition Index: 75035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0__ctor_m30C619C273CA88E1630ADE30076D3BAB756E8037 (U3CU3Ec__DisplayClass37_0_tEB346CC740290347A0EAF5C4DBE0B8B55EC9B6D0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14153,11 +13598,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0__ctor_m30C619C
 		return;
 	}
 }
-// Method Definition Index: 75043
+// Method Definition Index: 75036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec__DisplayClass37_0_U3CDOTextU3Eb__0_m02FF7D2EC040673A6A8DAF254FA06CCB5E19150D (U3CU3Ec__DisplayClass37_0_tEB346CC740290347A0EAF5C4DBE0B8B55EC9B6D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:539>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___target;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -14165,11 +13609,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec__DisplayClass37_0_U3CDOText
 		return L_1;
 	}
 }
-// Method Definition Index: 75044
+// Method Definition Index: 75037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0_U3CDOTextU3Eb__1_m2838FBD1C16B38207C0B4528D6E805E6308E1E6B (U3CU3Ec__DisplayClass37_0_tEB346CC740290347A0EAF5C4DBE0B8B55EC9B6D0* __this, String_t* ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:539>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___target;
 		String_t* L_1 = ___0_x;
 		NullCheck(L_0);
@@ -14185,7 +13628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0_U3CDOTextU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75045
+// Method Definition Index: 75038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0__ctor_m82948A429B319CC7B45105656F6DD0ADBB2136CC (U3CU3Ec__DisplayClass38_0_t267FF01517518B123F4EB11811FAF5BEDB2CB83D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14193,31 +13636,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0__ctor_m82948A4
 		return;
 	}
 }
-// Method Definition Index: 75046
+// Method Definition Index: 75039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass38_0_U3CDOBlendableColorU3Eb__0_mE68FE0C254E1D0E7E8D659FF3E4A3AA5F7738351 (U3CU3Ec__DisplayClass38_0_t267FF01517518B123F4EB11811FAF5BEDB2CB83D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:560>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___to;
 		return L_0;
 	}
 }
-// Method Definition Index: 75047
+// Method Definition Index: 75040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0_U3CDOBlendableColorU3Eb__1_mA5048FA5B74BD7E9906C80159B99ACB2AFED6634 (U3CU3Ec__DisplayClass38_0_t267FF01517518B123F4EB11811FAF5BEDB2CB83D* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:561>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_x;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = __this->___to;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		L_2 = Color_op_Subtraction_mF003448D819F2A41405BB6D85F1563CDA900B07F_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:562>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_x;
 		__this->___to = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:563>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_4 = __this->___target;
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_5 = L_4;
 		NullCheck(L_5);
@@ -14228,7 +13667,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0_U3CDOBlendable
 		L_8 = Color_op_Addition_mA7A51CACA49ED8D23D3D9CA3A0092D32F657E053_inline(L_6, L_7, NULL);
 		NullCheck(L_5);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_5, L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:564>
 		return;
 	}
 }
@@ -14240,7 +13678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass38_0_U3CDOBlendable
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75048
+// Method Definition Index: 75041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0__ctor_mBAA4D644FB605A60D0C3BEB67229723BB3874E6D (U3CU3Ec__DisplayClass39_0_t38D78B606D82F31C19D959AF12B5C4F1D4AF65C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14248,31 +13686,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0__ctor_mBAA4D64
 		return;
 	}
 }
-// Method Definition Index: 75049
+// Method Definition Index: 75042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass39_0_U3CDOBlendableColorU3Eb__0_m897EF1C1C8D7A638D7271A6E3BD8640F834CA567 (U3CU3Ec__DisplayClass39_0_t38D78B606D82F31C19D959AF12B5C4F1D4AF65C2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:581>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___to;
 		return L_0;
 	}
 }
-// Method Definition Index: 75050
+// Method Definition Index: 75043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CDOBlendableColorU3Eb__1_m059D299137E18F4172FB89D42BBC0DBE0408311C (U3CU3Ec__DisplayClass39_0_t38D78B606D82F31C19D959AF12B5C4F1D4AF65C2* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:582>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_x;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = __this->___to;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		L_2 = Color_op_Subtraction_mF003448D819F2A41405BB6D85F1563CDA900B07F_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:583>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_x;
 		__this->___to = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:584>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___target;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = L_4;
 		NullCheck(L_5);
@@ -14283,7 +13717,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CDOBlendable
 		L_8 = Color_op_Addition_mA7A51CACA49ED8D23D3D9CA3A0092D32F657E053_inline(L_6, L_7, NULL);
 		NullCheck(L_5);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_5, L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:585>
 		return;
 	}
 }
@@ -14295,7 +13728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CDOBlendable
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75051
+// Method Definition Index: 75044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m6F636F1E7727A97A11CD562DA6C62E44D0CE8D37 (U3CU3Ec__DisplayClass3_0_t2C69FBF013ADB32163CC4F67A146C846E181C18B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14303,11 +13736,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m6F636F1E
 		return;
 	}
 }
-// Method Definition Index: 75052
+// Method Definition Index: 75045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass3_0_U3CDOColorU3Eb__0_m4568743D7735E8597149620347E7C6C1F8F8F573 (U3CU3Ec__DisplayClass3_0_t2C69FBF013ADB32163CC4F67A146C846E181C18B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:69>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -14315,11 +13747,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 75053
+// Method Definition Index: 75046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CDOColorU3Eb__1_m931C95B84B1BCD2FB3A2D8038972C9570DAB288D (U3CU3Ec__DisplayClass3_0_t2C69FBF013ADB32163CC4F67A146C846E181C18B* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:69>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -14335,7 +13766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CDOColorU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75054
+// Method Definition Index: 75047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0__ctor_m6C547429D9E437CED8C4BDCB96EE8BE2D7182763 (U3CU3Ec__DisplayClass40_0_t0E7A83E8D1C93359BF9EB9E6A9AF3AA18311CD24* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14343,31 +13774,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0__ctor_m6C54742
 		return;
 	}
 }
-// Method Definition Index: 75055
+// Method Definition Index: 75048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass40_0_U3CDOBlendableColorU3Eb__0_m031A8418D686ADB8B4AD6572C18FCBAD1E42B0F6 (U3CU3Ec__DisplayClass40_0_t0E7A83E8D1C93359BF9EB9E6A9AF3AA18311CD24* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:602>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___to;
 		return L_0;
 	}
 }
-// Method Definition Index: 75056
+// Method Definition Index: 75049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3CDOBlendableColorU3Eb__1_m74D298854E55DD21E0191F65A0A67376028748EC (U3CU3Ec__DisplayClass40_0_t0E7A83E8D1C93359BF9EB9E6A9AF3AA18311CD24* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:603>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_x;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = __this->___to;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		L_2 = Color_op_Subtraction_mF003448D819F2A41405BB6D85F1563CDA900B07F_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:604>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_x;
 		__this->___to = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:605>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___target;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = L_4;
 		NullCheck(L_5);
@@ -14378,7 +13805,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3CDOBlendable
 		L_8 = Color_op_Addition_mA7A51CACA49ED8D23D3D9CA3A0092D32F657E053_inline(L_6, L_7, NULL);
 		NullCheck(L_5);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_5, L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:606>
 		return;
 	}
 }
@@ -14390,7 +13816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3CDOBlendable
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75057
+// Method Definition Index: 75050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0__ctor_mE07F5C0560792F3960473CBCEC46C945FB514D35 (U3CU3Ec__DisplayClass41_0_t7022E6DD68301100D1A7392EF5170CF153EDAD93* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14398,11 +13824,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0__ctor_mE07F5C0
 		return;
 	}
 }
-// Method Definition Index: 75058
+// Method Definition Index: 75051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass41_0_U3CDOShapeCircleU3Eb__0_m3BF121FFD58F01B8268A055F42A85BF0546709BB (U3CU3Ec__DisplayClass41_0_t7022E6DD68301100D1A7392EF5170CF153EDAD93* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:629>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -14410,11 +13835,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 75059
+// Method Definition Index: 75052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0_U3CDOShapeCircleU3Eb__1_mA39DE4F3403BF27C206BFDFD704F57CBA06D74C2 (U3CU3Ec__DisplayClass41_0_t7022E6DD68301100D1A7392EF5170CF153EDAD93* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:629>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -14430,7 +13854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0_U3CDOShapeCirc
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75060
+// Method Definition Index: 75053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m9953E31874A19DF4ACB95C87FCE12660693A6AD5 (U3CU3Ec__DisplayClass4_0_t8053081EDEC54E0DFD42D923A1A91BC995ACC579* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14438,11 +13862,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m9953E318
 		return;
 	}
 }
-// Method Definition Index: 75061
+// Method Definition Index: 75054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass4_0_U3CDOFadeU3Eb__0_m45ED3C46917C2BF3FA1E62E5E5FA07933322FC8B (U3CU3Ec__DisplayClass4_0_t8053081EDEC54E0DFD42D923A1A91BC995ACC579* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:79>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -14450,11 +13873,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 75062
+// Method Definition Index: 75055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOFadeU3Eb__1_m1FCDD6D867999371C3AA240FAC66D48DD045C3DC (U3CU3Ec__DisplayClass4_0_t8053081EDEC54E0DFD42D923A1A91BC995ACC579* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:79>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -14470,7 +13892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOFadeU3Eb__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75063
+// Method Definition Index: 75056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m8826744854B3DF452491AF2C9F78CF8CD21E5ADF (U3CU3Ec__DisplayClass5_0_t97A2D1591F4437C9A3355B842244B21EEDFC7D3C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14478,11 +13900,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m88267448
 		return;
 	}
 }
-// Method Definition Index: 75064
+// Method Definition Index: 75057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass5_0_U3CDOFillAmountU3Eb__0_mA61D89DB8E1FCE175F34BFC13C1173C788BC70FF (U3CU3Ec__DisplayClass5_0_t97A2D1591F4437C9A3355B842244B21EEDFC7D3C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:91>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -14490,11 +13911,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass5_0_U3CDOFillAmoun
 		return L_1;
 	}
 }
-// Method Definition Index: 75065
+// Method Definition Index: 75058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CDOFillAmountU3Eb__1_mD611009CE94D3EBF2517D0EA25B6858E54C6FBAE (U3CU3Ec__DisplayClass5_0_t97A2D1591F4437C9A3355B842244B21EEDFC7D3C* __this, float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:91>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___target;
 		float L_1 = ___0_x;
 		NullCheck(L_0);
@@ -14510,7 +13930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CDOFillAmount
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75066
+// Method Definition Index: 75059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mC3A13E5D8A90789E6C1F6A26DFC8C8ED6B5B42DF (U3CU3Ec__DisplayClass7_0_t6825EE9800F145C3DC6520DEBF5CCD211D160E49* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14518,11 +13938,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_mC3A13E5D
 		return;
 	}
 }
-// Method Definition Index: 75067
+// Method Definition Index: 75060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass7_0_U3CDOFlexibleSizeU3Eb__0_m3785D78D950D02D749F4640AA0C67FB2CA01DB48 (U3CU3Ec__DisplayClass7_0_t6825EE9800F145C3DC6520DEBF5CCD211D160E49* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:130>
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -14537,23 +13956,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_4;
 	}
 }
-// Method Definition Index: 75068
+// Method Definition Index: 75061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3CDOFlexibleSizeU3Eb__1_m1E713C41B3EC5ED27907BEFDB2CDCB2D9649D3F0 (U3CU3Ec__DisplayClass7_0_t6825EE9800F145C3DC6520DEBF5CCD211D160E49* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:131>
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		float L_2 = L_1.___x;
 		NullCheck(L_0);
 		VirtualActionInvoker1< float >::Invoke(40, L_0, L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:132>
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_3 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_x;
 		float L_5 = L_4.___y;
 		NullCheck(L_3);
 		VirtualActionInvoker1< float >::Invoke(42, L_3, L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:133>
 		return;
 	}
 }
@@ -14565,7 +13981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3CDOFlexibleSi
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75069
+// Method Definition Index: 75062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_m12549EFF091117C02D5BD5BBAF860766EFFBD335 (U3CU3Ec__DisplayClass8_0_t20FEDD5A66AA07E40BC3977804178A67426F6D3D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14573,11 +13989,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_m12549EFF
 		return;
 	}
 }
-// Method Definition Index: 75070
+// Method Definition Index: 75063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass8_0_U3CDOMinSizeU3Eb__0_mCB197686B19FEE2A3789796C320289EDEBCA59DD (U3CU3Ec__DisplayClass8_0_t20FEDD5A66AA07E40BC3977804178A67426F6D3D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:144>
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -14592,23 +14007,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_4;
 	}
 }
-// Method Definition Index: 75071
+// Method Definition Index: 75064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CDOMinSizeU3Eb__1_m8B8E20DB6700A9E435B4EC30F00578E23B81F319 (U3CU3Ec__DisplayClass8_0_t20FEDD5A66AA07E40BC3977804178A67426F6D3D* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:145>
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		float L_2 = L_1.___x;
 		NullCheck(L_0);
 		VirtualActionInvoker1< float >::Invoke(32, L_0, L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:146>
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_3 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_x;
 		float L_5 = L_4.___y;
 		NullCheck(L_3);
 		VirtualActionInvoker1< float >::Invoke(34, L_3, L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:147>
 		return;
 	}
 }
@@ -14620,7 +14032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CDOMinSizeU3E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75072
+// Method Definition Index: 75065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m638C89DD65FC918306CF707CF4B3EA9CFACAF02E (U3CU3Ec__DisplayClass9_0_tE85C8192601740DA12B6A252D29726E9A7F06E5C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14628,11 +14040,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m638C89DD
 		return;
 	}
 }
-// Method Definition Index: 75073
+// Method Definition Index: 75066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass9_0_U3CDOPreferredSizeU3Eb__0_m1AB892211B71DB2D4E8F21F9BA126944DF9D500C (U3CU3Ec__DisplayClass9_0_tE85C8192601740DA12B6A252D29726E9A7F06E5C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:158>
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -14647,23 +14058,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_4;
 	}
 }
-// Method Definition Index: 75074
+// Method Definition Index: 75067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CDOPreferredSizeU3Eb__1_mBA091FF947DA978F76C73673E1472EB9BEABDCC8 (U3CU3Ec__DisplayClass9_0_tE85C8192601740DA12B6A252D29726E9A7F06E5C* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:159>
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_0 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_x;
 		float L_2 = L_1.___x;
 		NullCheck(L_0);
 		VirtualActionInvoker1< float >::Invoke(36, L_0, L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:160>
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_3 = __this->___target;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_x;
 		float L_5 = L_4.___y;
 		NullCheck(L_3);
 		VirtualActionInvoker1< float >::Invoke(38, L_3, L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:161>
 		return;
 	}
 }
@@ -14675,7 +14083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CDOPreferredS
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75075
+// Method Definition Index: 75068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* DOTweenModuleUnityVersion_DOGradientColor_m5989D5E5CCAA8B96FEC40CE899DDD9BC255F4126 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_target, Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___1_gradient, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14699,36 +14107,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC
 	float G_B8_1 = 0.0f;
 	float G_B10_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:29>
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_0;
 		L_0 = DOTween_Sequence_mC3AE53A08EC5DFD7DB9AE18A2FD11226A6611F89(NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:30>
 		Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* L_1 = ___1_gradient;
 		NullCheck(L_1);
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_2;
 		L_2 = Gradient_get_colorKeys_mA4B24805A35BC4FBF04F182FCDA6E9D0CBB52F0A(L_1, NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:31>
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_3 = V_1;
 		NullCheck(L_3);
 		V_2 = ((int32_t)(((RuntimeArray*)L_3)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:32>
 		V_3 = 0;
 		goto IL_0098;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:33>
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_4 = V_1;
 		int32_t L_5 = V_3;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		V_4 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:34>
 		int32_t L_8 = V_3;
 		if (L_8)
 		{
@@ -14744,21 +14146,16 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:35>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = ___0_target;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_12 = V_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = L_12.___color;
 		NullCheck(L_11);
 		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_11, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:36>
 		goto IL_0094;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:38>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:39>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:40>
 		int32_t L_14 = V_3;
 		int32_t L_15 = V_2;
 		if ((((int32_t)L_14) == ((int32_t)((int32_t)il2cpp_codegen_subtract(L_15, 1)))))
@@ -14814,7 +14211,6 @@ IL_006d:
 IL_0076:
 	{
 		V_5 = G_B10_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:41>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_28 = V_0;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_29 = ___0_target;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_30 = V_4;
@@ -14830,14 +14226,12 @@ IL_0076:
 
 IL_0094:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:32>
 		int32_t L_36 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_36, 1));
 	}
 
 IL_0098:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:32>
 		int32_t L_37 = V_3;
 		int32_t L_38 = V_2;
 		if ((((int32_t)L_37) < ((int32_t)L_38)))
@@ -14846,17 +14240,15 @@ IL_0098:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:43>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_39 = V_0;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_40 = ___0_target;
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_41;
 		L_41 = TweenSettingsExtensions_SetTarget_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m87E21291C6C5BECA753976C5CA64050E8AFF93C0(L_39, L_40, TweenSettingsExtensions_SetTarget_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m87E21291C6C5BECA753976C5CA64050E8AFF93C0_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:44>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_42 = V_0;
 		return L_42;
 	}
 }
-// Method Definition Index: 75076
+// Method Definition Index: 75069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* DOTweenModuleUnityVersion_DOGradientColor_m16A5065B7DA6EA92AC15D1E186EE14617F64896B (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_target, Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___1_gradient, String_t* ___2_property, float ___3_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14880,36 +14272,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC
 	float G_B8_1 = 0.0f;
 	float G_B10_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_0;
 		L_0 = DOTween_Sequence_mC3AE53A08EC5DFD7DB9AE18A2FD11226A6611F89(NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:55>
 		Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* L_1 = ___1_gradient;
 		NullCheck(L_1);
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_2;
 		L_2 = Gradient_get_colorKeys_mA4B24805A35BC4FBF04F182FCDA6E9D0CBB52F0A(L_1, NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:56>
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_3 = V_1;
 		NullCheck(L_3);
 		V_2 = ((int32_t)(((RuntimeArray*)L_3)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:57>
 		V_3 = 0;
 		goto IL_009a;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:58>
 		GradientColorKeyU5BU5D_tB8929E6EE130CA1F3C1664B300BE83A95A642C18* L_4 = V_1;
 		int32_t L_5 = V_3;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		V_4 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:59>
 		int32_t L_8 = V_3;
 		if (L_8)
 		{
@@ -14925,22 +14311,17 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:60>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11 = ___0_target;
 		String_t* L_12 = ___2_property;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_13 = V_4;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14 = L_13.___color;
 		NullCheck(L_11);
 		Material_SetColor_mFAB32FAA44461E46FD707B34184EC080CBB3539F(L_11, L_12, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:61>
 		goto IL_0096;
 	}
 
 IL_0042:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:63>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:64>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:65>
 		int32_t L_15 = V_3;
 		int32_t L_16 = V_2;
 		if ((((int32_t)L_15) == ((int32_t)((int32_t)il2cpp_codegen_subtract(L_16, 1)))))
@@ -14996,7 +14377,6 @@ IL_006e:
 IL_0077:
 	{
 		V_5 = G_B10_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:66>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_29 = V_0;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_30 = ___0_target;
 		GradientColorKey_tBD03A613338639E3774A10265CC5F3619C13421A L_31 = V_4;
@@ -15013,14 +14393,12 @@ IL_0077:
 
 IL_0096:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:57>
 		int32_t L_38 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_38, 1));
 	}
 
 IL_009a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:57>
 		int32_t L_39 = V_3;
 		int32_t L_40 = V_2;
 		if ((((int32_t)L_39) < ((int32_t)L_40)))
@@ -15029,17 +14407,15 @@ IL_009a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:68>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_41 = V_0;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_42 = ___0_target;
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_43;
 		L_43 = TweenSettingsExtensions_SetTarget_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m87E21291C6C5BECA753976C5CA64050E8AFF93C0(L_41, L_42, TweenSettingsExtensions_SetTarget_TisSequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C_m87E21291C6C5BECA753976C5CA64050E8AFF93C0_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:69>
 		Sequence_tEADBE56D6ED2E9EE8FB2E5459C3E57131EC0545C* L_44 = V_0;
 		return L_44;
 	}
 }
-// Method Definition Index: 75077
+// Method Definition Index: 75070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* DOTweenModuleUnityVersion_WaitForCompletion_m080081BC7D031CAE8CB22FC166C6E19FAA91295C (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, bool ___1_returnCustomYieldInstruction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15049,7 +14425,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:83>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_t;
 		NullCheck(L_0);
 		bool L_1;
@@ -15060,7 +14435,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:84>
 		int32_t L_2;
 		L_2 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_2) <= ((int32_t)0)))
@@ -15069,27 +14443,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:84>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_3 = ___0_t;
 		Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_3, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:85>
 		return (CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617*)NULL;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:87>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_4 = ___0_t;
 		WaitForCompletion_tC84400E0FA4E28B95AA56DF28973D5FFDA16AFA0* L_5 = (WaitForCompletion_tC84400E0FA4E28B95AA56DF28973D5FFDA16AFA0*)il2cpp_codegen_object_new(WaitForCompletion_tC84400E0FA4E28B95AA56DF28973D5FFDA16AFA0_il2cpp_TypeInfo_var);
 		WaitForCompletion__ctor_mE85B7CC8B7FE6A2AE84DB8210249A61018118C4D(L_5, L_4, NULL);
 		return L_5;
 	}
 }
-// Method Definition Index: 75078
+// Method Definition Index: 75071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* DOTweenModuleUnityVersion_WaitForRewind_m7EB6AB643D5F309EE41F15305ADB1324E16853A7 (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, bool ___1_returnCustomYieldInstruction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15099,7 +14470,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:97>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_t;
 		NullCheck(L_0);
 		bool L_1;
@@ -15110,7 +14480,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:98>
 		int32_t L_2;
 		L_2 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_2) <= ((int32_t)0)))
@@ -15119,27 +14488,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:98>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_3 = ___0_t;
 		Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_3, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:99>
 		return (CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617*)NULL;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:101>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_4 = ___0_t;
 		WaitForRewind_t2ABB006386A81D361C36B476044786442726743D* L_5 = (WaitForRewind_t2ABB006386A81D361C36B476044786442726743D*)il2cpp_codegen_object_new(WaitForRewind_t2ABB006386A81D361C36B476044786442726743D_il2cpp_TypeInfo_var);
 		WaitForRewind__ctor_mD79A34DBDAC1B30FBEBD36A8D749EC81935520B2(L_5, L_4, NULL);
 		return L_5;
 	}
 }
-// Method Definition Index: 75079
+// Method Definition Index: 75072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* DOTweenModuleUnityVersion_WaitForKill_m9592B2D81F0C76C9F8003645BDB0C4C3BA4E6A3B (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, bool ___1_returnCustomYieldInstruction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15149,7 +14515,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:111>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_t;
 		NullCheck(L_0);
 		bool L_1;
@@ -15160,7 +14525,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:112>
 		int32_t L_2;
 		L_2 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_2) <= ((int32_t)0)))
@@ -15169,27 +14533,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:112>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_3 = ___0_t;
 		Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_3, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:113>
 		return (CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617*)NULL;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:115>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_4 = ___0_t;
 		WaitForKill_t532BDFE32D7C3892E01BF80054F95A9A5C1C24DE* L_5 = (WaitForKill_t532BDFE32D7C3892E01BF80054F95A9A5C1C24DE*)il2cpp_codegen_object_new(WaitForKill_t532BDFE32D7C3892E01BF80054F95A9A5C1C24DE_il2cpp_TypeInfo_var);
 		WaitForKill__ctor_m75C2D3D54DBBBB35DE297B947C08C982CABF1BAF(L_5, L_4, NULL);
 		return L_5;
 	}
 }
-// Method Definition Index: 75080
+// Method Definition Index: 75073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* DOTweenModuleUnityVersion_WaitForElapsedLoops_m08D7DB6E86076A4D3224DE7F651529C03B0C9B93 (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, int32_t ___1_elapsedLoops, bool ___2_returnCustomYieldInstruction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15199,7 +14560,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:126>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_t;
 		NullCheck(L_0);
 		bool L_1;
@@ -15210,7 +14570,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:127>
 		int32_t L_2;
 		L_2 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_2) <= ((int32_t)0)))
@@ -15219,20 +14578,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:127>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_3 = ___0_t;
 		Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_3, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:128>
 		return (CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617*)NULL;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:130>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_4 = ___0_t;
 		int32_t L_5 = ___1_elapsedLoops;
 		WaitForElapsedLoops_t24C0691B408798B4BE5CCC92DC8B4D40430717BC* L_6 = (WaitForElapsedLoops_t24C0691B408798B4BE5CCC92DC8B4D40430717BC*)il2cpp_codegen_object_new(WaitForElapsedLoops_t24C0691B408798B4BE5CCC92DC8B4D40430717BC_il2cpp_TypeInfo_var);
@@ -15240,7 +14596,7 @@ IL_0018:
 		return L_6;
 	}
 }
-// Method Definition Index: 75081
+// Method Definition Index: 75074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* DOTweenModuleUnityVersion_WaitForPosition_m918A05EB65877997F48B218DE2B9B95A4E198A0E (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, float ___1_position, bool ___2_returnCustomYieldInstruction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15250,7 +14606,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:142>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_t;
 		NullCheck(L_0);
 		bool L_1;
@@ -15261,7 +14616,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:143>
 		int32_t L_2;
 		L_2 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_2) <= ((int32_t)0)))
@@ -15270,20 +14624,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:143>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_3 = ___0_t;
 		Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_3, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:144>
 		return (CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617*)NULL;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:146>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_4 = ___0_t;
 		float L_5 = ___1_position;
 		WaitForPosition_t302B4F4C6FC89426E08DDC65543F45785B20B84B* L_6 = (WaitForPosition_t302B4F4C6FC89426E08DDC65543F45785B20B84B*)il2cpp_codegen_object_new(WaitForPosition_t302B4F4C6FC89426E08DDC65543F45785B20B84B_il2cpp_TypeInfo_var);
@@ -15291,7 +14642,7 @@ IL_0018:
 		return L_6;
 	}
 }
-// Method Definition Index: 75082
+// Method Definition Index: 75075
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617* DOTweenModuleUnityVersion_WaitForStart_m3E6DF08DBF844D468C3DD2A14AB96AAF3717BA53 (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, bool ___1_returnCustomYieldInstruction, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15301,7 +14652,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:157>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_t;
 		NullCheck(L_0);
 		bool L_1;
@@ -15312,7 +14662,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:158>
 		int32_t L_2;
 		L_2 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_2) <= ((int32_t)0)))
@@ -15321,27 +14670,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomYieldInstruction_t6B81A50D5D210C1ACAAE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:158>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_3 = ___0_t;
 		Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_3, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:159>
 		return (CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617*)NULL;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:161>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_4 = ___0_t;
 		WaitForStart_t4448F8E46F59EE599CA8DCEF52FC706221093F30* L_5 = (WaitForStart_t4448F8E46F59EE599CA8DCEF52FC706221093F30*)il2cpp_codegen_object_new(WaitForStart_t4448F8E46F59EE599CA8DCEF52FC706221093F30_il2cpp_TypeInfo_var);
 		WaitForStart__ctor_m3AEC2F6E37815ED0D94C2FA5F3B784456C6E49D1(L_5, L_4, NULL);
 		return L_5;
 	}
 }
-// Method Definition Index: 75083
+// Method Definition Index: 75076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUnityVersion_DOOffset_mB985D0A38167056313BD49AA97A9A2F12B6C1CA2 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, int32_t ___2_propertyID, float ___3_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15370,7 +14716,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		int32_t L_4 = ___2_propertyID;
 		NullCheck(L_3);
 		L_3->___propertyID = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:178>
 		U3CU3Ec__DisplayClass8_0_t841A32590F7E9B5CE337F1E7576F44ACC997C081* L_5 = V_0;
 		NullCheck(L_5);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = L_5->___target;
@@ -15386,7 +14731,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:179>
 		int32_t L_10;
 		L_10 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_10) <= ((int32_t)0)))
@@ -15395,7 +14739,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:179>
 		U3CU3Ec__DisplayClass8_0_t841A32590F7E9B5CE337F1E7576F44ACC997C081* L_11 = V_0;
 		NullCheck(L_11);
 		int32_t L_12 = L_11->___propertyID;
@@ -15404,13 +14747,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 
 IL_003a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:180>
 		return (TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271*)NULL;
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:182>
 		U3CU3Ec__DisplayClass8_0_t841A32590F7E9B5CE337F1E7576F44ACC997C081* L_13 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_14 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_14, L_13, (intptr_t)((void*)U3CU3Ec__DisplayClass8_0_U3CDOOffsetU3Eb__0_m0247C66637BE1BC486E9B83E29D9A8C539F0C4C7_RuntimeMethod_var), NULL);
@@ -15422,18 +14763,16 @@ IL_003c:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_19;
 		L_19 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_14, L_16, L_17, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:183>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_20 = L_19;
 		U3CU3Ec__DisplayClass8_0_t841A32590F7E9B5CE337F1E7576F44ACC997C081* L_21 = V_0;
 		NullCheck(L_21);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_22 = L_21->___target;
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_23;
 		L_23 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271_m7563CA4B8BD3EA41428B31557409B6456D19A876(L_20, L_22, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271_m7563CA4B8BD3EA41428B31557409B6456D19A876_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:184>
 		return L_20;
 	}
 }
-// Method Definition Index: 75084
+// Method Definition Index: 75077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* DOTweenModuleUnityVersion_DOTiling_m354938745AA34ED1539D3CBF54C94A5E5753B903 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_target, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_endValue, int32_t ___2_propertyID, float ___3_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15462,7 +14801,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		int32_t L_4 = ___2_propertyID;
 		NullCheck(L_3);
 		L_3->___propertyID = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:194>
 		U3CU3Ec__DisplayClass9_0_t67C62AE5CAF58BCB265D7E092190857BFBCCEC86* L_5 = V_0;
 		NullCheck(L_5);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = L_5->___target;
@@ -15478,7 +14816,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:195>
 		int32_t L_10;
 		L_10 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_10) <= ((int32_t)0)))
@@ -15487,7 +14824,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:195>
 		U3CU3Ec__DisplayClass9_0_t67C62AE5CAF58BCB265D7E092190857BFBCCEC86* L_11 = V_0;
 		NullCheck(L_11);
 		int32_t L_12 = L_11->___propertyID;
@@ -15496,13 +14832,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE4045
 
 IL_003a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:196>
 		return (TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271*)NULL;
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:198>
 		U3CU3Ec__DisplayClass9_0_t67C62AE5CAF58BCB265D7E092190857BFBCCEC86* L_13 = V_0;
 		DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66* L_14 = (DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66*)il2cpp_codegen_object_new(DOGetter_1_t13276681BE97FCE6AB699EF1F894EA98C825FE66_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m718AE8DCD0734283AD4D7B50ABBA14ED1F4A967C(L_14, L_13, (intptr_t)((void*)U3CU3Ec__DisplayClass9_0_U3CDOTilingU3Eb__0_m049884D699FDEDD9B8CE44EC9104A8055F7E4DD8_RuntimeMethod_var), NULL);
@@ -15514,18 +14848,16 @@ IL_003c:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_19;
 		L_19 = DOTween_To_mAF71D4F17109689870406A4565636216CCFE7680(L_14, L_16, L_17, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:199>
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_20 = L_19;
 		U3CU3Ec__DisplayClass9_0_t67C62AE5CAF58BCB265D7E092190857BFBCCEC86* L_21 = V_0;
 		NullCheck(L_21);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_22 = L_21->___target;
 		TweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271* L_23;
 		L_23 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271_m7563CA4B8BD3EA41428B31557409B6456D19A876(L_20, L_22, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t2FB3CB0C11B50649FE6CFC6DBE404552B898B271_m7563CA4B8BD3EA41428B31557409B6456D19A876_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:200>
 		return L_20;
 	}
 }
-// Method Definition Index: 75085
+// Method Definition Index: 75078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* DOTweenModuleUnityVersion_AsyncWaitForCompletion_m47D1F5AACF019F8C3233238D5B73EBD325685681 (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15561,7 +14893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 75086
+// Method Definition Index: 75079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* DOTweenModuleUnityVersion_AsyncWaitForRewind_m4B4AD3964B5CBB9F56BB1050E8EF7C0AF414060E (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15597,7 +14929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 75087
+// Method Definition Index: 75080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* DOTweenModuleUnityVersion_AsyncWaitForKill_m4CE6BA6CDF93365F4D14CE2909C7F7FF6B332928 (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15633,7 +14965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_4;
 	}
 }
-// Method Definition Index: 75088
+// Method Definition Index: 75081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* DOTweenModuleUnityVersion_AsyncWaitForElapsedLoops_m08434CDEC811346692A3795B1736C8499E391277 (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, int32_t ___1_elapsedLoops, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15671,7 +15003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_5;
 	}
 }
-// Method Definition Index: 75089
+// Method Definition Index: 75082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* DOTweenModuleUnityVersion_AsyncWaitForPosition_mA1767089E7840940CEB85BEAF15FBC02CE56D487 (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, float ___1_position, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15709,7 +15041,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		return L_5;
 	}
 }
-// Method Definition Index: 75090
+// Method Definition Index: 75083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* DOTweenModuleUnityVersion_AsyncWaitForStart_m3BAC94C50C109B2795BAA10D582617B3F2F95126 (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15753,7 +15085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75091
+// Method Definition Index: 75084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_mF5EC87634B90C628AE370887DCF280218F814B4C (U3CU3Ec__DisplayClass8_0_t841A32590F7E9B5CE337F1E7576F44ACC997C081* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15761,11 +15093,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_mF5EC8763
 		return;
 	}
 }
-// Method Definition Index: 75092
+// Method Definition Index: 75085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass8_0_U3CDOOffsetU3Eb__0_m0247C66637BE1BC486E9B83E29D9A8C539F0C4C7 (U3CU3Ec__DisplayClass8_0_t841A32590F7E9B5CE337F1E7576F44ACC997C081* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:182>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___target;
 		int32_t L_1 = __this->___propertyID;
 		NullCheck(L_0);
@@ -15774,11 +15105,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_2;
 	}
 }
-// Method Definition Index: 75093
+// Method Definition Index: 75086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CDOOffsetU3Eb__1_m3FB8CA36F894BB6D62D812DF2F13F0714F48945A (U3CU3Ec__DisplayClass8_0_t841A32590F7E9B5CE337F1E7576F44ACC997C081* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:182>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___target;
 		int32_t L_1 = __this->___propertyID;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_x;
@@ -15795,7 +15125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CDOOffsetU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75094
+// Method Definition Index: 75087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m1E2466F9751381E5A3C76E5E2970972957741B9E (U3CU3Ec__DisplayClass9_0_t67C62AE5CAF58BCB265D7E092190857BFBCCEC86* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15803,11 +15133,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m1E2466F9
 		return;
 	}
 }
-// Method Definition Index: 75095
+// Method Definition Index: 75088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 U3CU3Ec__DisplayClass9_0_U3CDOTilingU3Eb__0_m049884D699FDEDD9B8CE44EC9104A8055F7E4DD8 (U3CU3Ec__DisplayClass9_0_t67C62AE5CAF58BCB265D7E092190857BFBCCEC86* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:198>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___target;
 		int32_t L_1 = __this->___propertyID;
 		NullCheck(L_0);
@@ -15816,11 +15145,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_2;
 	}
 }
-// Method Definition Index: 75096
+// Method Definition Index: 75089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CDOTilingU3Eb__1_m5C1495C9398445575DA1139EF2967F0C6535992D (U3CU3Ec__DisplayClass9_0_t67C62AE5CAF58BCB265D7E092190857BFBCCEC86* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:198>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___target;
 		int32_t L_1 = __this->___propertyID;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_x;
@@ -15837,7 +15165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CDOTilingU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75097
+// Method Definition Index: 75090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForCompletionU3Ed__10_MoveNext_m7AE96D202005CC27A2EBEB47057FADA081D6DCDA (U3CAsyncWaitForCompletionU3Ed__10_tC84049D47EAD23B14384BDEF646D532785ECBF0E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15870,7 +15198,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForCompletionU3Ed__10_MoveNe
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:218>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_2 = __this->___t;
 			NullCheck(L_2);
 			bool L_3;
@@ -15881,7 +15208,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForCompletionU3Ed__10_MoveNe
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:219>
 			int32_t L_4;
 			L_4 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 			if ((((int32_t)L_4) <= ((int32_t)0)))
@@ -15890,20 +15216,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForCompletionU3Ed__10_MoveNe
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:219>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_5 = __this->___t;
 			Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_5, NULL);
 		}
 
 IL_002a_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:220>
 			goto IL_00bc;
 		}
 
 IL_002f_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:222>
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB L_6;
 			L_6 = Task_Yield_m27EE257EF53788244C5B2E874C514C24C693F9B1(NULL);
@@ -15950,7 +15273,6 @@ IL_0082_1:
 
 IL_0089_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:222>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_15 = __this->___t;
 			NullCheck(L_15);
 			bool L_16;
@@ -16000,7 +15322,6 @@ CATCH_00a5:
 
 IL_00bc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:223>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_22 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -16019,7 +15340,7 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForCompletionU3Ed__10_MoveNext_m7AE96D202005CC
 	_thisAdjusted = reinterpret_cast<U3CAsyncWaitForCompletionU3Ed__10_tC84049D47EAD23B14384BDEF646D532785ECBF0E*>(__this + _offset);
 	U3CAsyncWaitForCompletionU3Ed__10_MoveNext_m7AE96D202005CC27A2EBEB47057FADA081D6DCDA(_thisAdjusted, method);
 }
-// Method Definition Index: 75098
+// Method Definition Index: 75091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForCompletionU3Ed__10_SetStateMachine_m6240E5A12BCFEF8EA8588C4C18B3BB48BBA71FBB (U3CAsyncWaitForCompletionU3Ed__10_tC84049D47EAD23B14384BDEF646D532785ECBF0E* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16051,7 +15372,7 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForCompletionU3Ed__10_SetStateMachine_m6240E5A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75099
+// Method Definition Index: 75092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForElapsedLoopsU3Ed__13_MoveNext_mF44348C1C974B48E1B0F6FE03AD1F713A4A6F8A2 (U3CAsyncWaitForElapsedLoopsU3Ed__13_tC7B431C2393096ACD1A6BA0EAFEA84EE62DAF825* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16084,7 +15405,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForElapsedLoopsU3Ed__13_Move
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:261>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_2 = __this->___t;
 			NullCheck(L_2);
 			bool L_3;
@@ -16095,7 +15415,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForElapsedLoopsU3Ed__13_Move
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:262>
 			int32_t L_4;
 			L_4 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 			if ((((int32_t)L_4) <= ((int32_t)0)))
@@ -16104,20 +15423,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForElapsedLoopsU3Ed__13_Move
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:262>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_5 = __this->___t;
 			Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_5, NULL);
 		}
 
 IL_002a_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:263>
 			goto IL_00c2;
 		}
 
 IL_002f_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:265>
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB L_6;
 			L_6 = Task_Yield_m27EE257EF53788244C5B2E874C514C24C693F9B1(NULL);
@@ -16164,7 +15480,6 @@ IL_0082_1:
 
 IL_0089_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:265>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_15 = __this->___t;
 			NullCheck(L_15);
 			bool L_16;
@@ -16215,7 +15530,6 @@ CATCH_00ab:
 
 IL_00c2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:266>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_23 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -16234,7 +15548,7 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForElapsedLoopsU3Ed__13_MoveNext_mF44348C1C974
 	_thisAdjusted = reinterpret_cast<U3CAsyncWaitForElapsedLoopsU3Ed__13_tC7B431C2393096ACD1A6BA0EAFEA84EE62DAF825*>(__this + _offset);
 	U3CAsyncWaitForElapsedLoopsU3Ed__13_MoveNext_mF44348C1C974B48E1B0F6FE03AD1F713A4A6F8A2(_thisAdjusted, method);
 }
-// Method Definition Index: 75100
+// Method Definition Index: 75093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForElapsedLoopsU3Ed__13_SetStateMachine_m4D5053D74FA671E83FA48E11A3EE5C6534F995AB (U3CAsyncWaitForElapsedLoopsU3Ed__13_tC7B431C2393096ACD1A6BA0EAFEA84EE62DAF825* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16266,7 +15580,7 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForElapsedLoopsU3Ed__13_SetStateMachine_m4D505
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75101
+// Method Definition Index: 75094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForKillU3Ed__12_MoveNext_mC10BB60238B855C88268AEE7DA0D7E8CF59AC885 (U3CAsyncWaitForKillU3Ed__12_t6EA9E2438625431E39D01AB7EEBB4501D6B5E54E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16299,7 +15613,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForKillU3Ed__12_MoveNext_mC1
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:246>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_2 = __this->___t;
 			NullCheck(L_2);
 			bool L_3;
@@ -16310,7 +15623,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForKillU3Ed__12_MoveNext_mC1
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:247>
 			int32_t L_4;
 			L_4 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 			if ((((int32_t)L_4) <= ((int32_t)0)))
@@ -16319,20 +15631,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForKillU3Ed__12_MoveNext_mC1
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:247>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_5 = __this->___t;
 			Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_5, NULL);
 		}
 
 IL_002a_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:248>
 			goto IL_00af;
 		}
 
 IL_002f_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:250>
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB L_6;
 			L_6 = Task_Yield_m27EE257EF53788244C5B2E874C514C24C693F9B1(NULL);
@@ -16379,7 +15688,6 @@ IL_0082_1:
 
 IL_0089_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:250>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_15 = __this->___t;
 			NullCheck(L_15);
 			bool L_16;
@@ -16418,7 +15726,6 @@ CATCH_0098:
 
 IL_00af:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:251>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_20 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -16437,7 +15744,7 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForKillU3Ed__12_MoveNext_mC10BB60238B855C88268
 	_thisAdjusted = reinterpret_cast<U3CAsyncWaitForKillU3Ed__12_t6EA9E2438625431E39D01AB7EEBB4501D6B5E54E*>(__this + _offset);
 	U3CAsyncWaitForKillU3Ed__12_MoveNext_mC10BB60238B855C88268AEE7DA0D7E8CF59AC885(_thisAdjusted, method);
 }
-// Method Definition Index: 75102
+// Method Definition Index: 75095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForKillU3Ed__12_SetStateMachine_m7BC3B905F4C08F129E4E6DFD12DDA73E5756DD0B (U3CAsyncWaitForKillU3Ed__12_t6EA9E2438625431E39D01AB7EEBB4501D6B5E54E* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16469,7 +15776,7 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForKillU3Ed__12_SetStateMachine_m7BC3B905F4C08
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75103
+// Method Definition Index: 75096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForPositionU3Ed__14_MoveNext_mB726C581B4A8055414678A86C800C4A0525E5121 (U3CAsyncWaitForPositionU3Ed__14_tA6006769EC53BBEBA0665ECA79096B606FDA8A4A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16502,7 +15809,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForPositionU3Ed__14_MoveNext
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:277>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_2 = __this->___t;
 			NullCheck(L_2);
 			bool L_3;
@@ -16513,7 +15819,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForPositionU3Ed__14_MoveNext
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:278>
 			int32_t L_4;
 			L_4 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 			if ((((int32_t)L_4) <= ((int32_t)0)))
@@ -16522,20 +15827,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForPositionU3Ed__14_MoveNext
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:278>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_5 = __this->___t;
 			Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_5, NULL);
 		}
 
 IL_002a_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:279>
 			goto IL_00d7;
 		}
 
 IL_002f_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:281>
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB L_6;
 			L_6 = Task_Yield_m27EE257EF53788244C5B2E874C514C24C693F9B1(NULL);
@@ -16582,7 +15884,6 @@ IL_0085_1:
 
 IL_008c_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:281>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_15 = __this->___t;
 			NullCheck(L_15);
 			bool L_16;
@@ -16637,7 +15938,6 @@ CATCH_00c0:
 
 IL_00d7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:282>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_25 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -16656,7 +15956,7 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForPositionU3Ed__14_MoveNext_mB726C581B4A80554
 	_thisAdjusted = reinterpret_cast<U3CAsyncWaitForPositionU3Ed__14_tA6006769EC53BBEBA0665ECA79096B606FDA8A4A*>(__this + _offset);
 	U3CAsyncWaitForPositionU3Ed__14_MoveNext_mB726C581B4A8055414678A86C800C4A0525E5121(_thisAdjusted, method);
 }
-// Method Definition Index: 75104
+// Method Definition Index: 75097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForPositionU3Ed__14_SetStateMachine_m060A3B894F6700B46D57FD2443F396C7C9CC7111 (U3CAsyncWaitForPositionU3Ed__14_tA6006769EC53BBEBA0665ECA79096B606FDA8A4A* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16688,7 +15988,7 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForPositionU3Ed__14_SetStateMachine_m060A3B894
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75105
+// Method Definition Index: 75098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForRewindU3Ed__11_MoveNext_m5E01823C6DBEFF1763AD6606972918D90935D340 (U3CAsyncWaitForRewindU3Ed__11_tC8D7C20224797881A037D09DA8079ECCC3E518FE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16721,7 +16021,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForRewindU3Ed__11_MoveNext_m
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:232>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_2 = __this->___t;
 			NullCheck(L_2);
 			bool L_3;
@@ -16732,7 +16031,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForRewindU3Ed__11_MoveNext_m
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:233>
 			int32_t L_4;
 			L_4 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 			if ((((int32_t)L_4) <= ((int32_t)0)))
@@ -16741,20 +16039,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForRewindU3Ed__11_MoveNext_m
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:233>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_5 = __this->___t;
 			Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_5, NULL);
 		}
 
 IL_002a_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:234>
 			goto IL_00e3;
 		}
 
 IL_002f_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:236>
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB L_6;
 			L_6 = Task_Yield_m27EE257EF53788244C5B2E874C514C24C693F9B1(NULL);
@@ -16801,7 +16096,6 @@ IL_0085_1:
 
 IL_008c_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:236>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_15 = __this->___t;
 			NullCheck(L_15);
 			bool L_16;
@@ -16865,7 +16159,6 @@ CATCH_00cc:
 
 IL_00e3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:237>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_26 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -16884,7 +16177,7 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForRewindU3Ed__11_MoveNext_m5E01823C6DBEFF1763
 	_thisAdjusted = reinterpret_cast<U3CAsyncWaitForRewindU3Ed__11_tC8D7C20224797881A037D09DA8079ECCC3E518FE*>(__this + _offset);
 	U3CAsyncWaitForRewindU3Ed__11_MoveNext_m5E01823C6DBEFF1763AD6606972918D90935D340(_thisAdjusted, method);
 }
-// Method Definition Index: 75106
+// Method Definition Index: 75099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForRewindU3Ed__11_SetStateMachine_m3F25AF370573B0A32A25D5D01483AF62C16AD5C3 (U3CAsyncWaitForRewindU3Ed__11_tC8D7C20224797881A037D09DA8079ECCC3E518FE* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16916,7 +16209,7 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForRewindU3Ed__11_SetStateMachine_m3F25AF37057
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75107
+// Method Definition Index: 75100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForStartU3Ed__15_MoveNext_mDBD2BBC1B727D4C915B0E2AB910330411086BC12 (U3CAsyncWaitForStartU3Ed__15_tB4B1CE199FE822B67BCF87301159986D9D50961B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16949,7 +16242,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForStartU3Ed__15_MoveNext_mD
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:291>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_2 = __this->___t;
 			NullCheck(L_2);
 			bool L_3;
@@ -16960,7 +16252,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForStartU3Ed__15_MoveNext_mD
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:292>
 			int32_t L_4;
 			L_4 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 			if ((((int32_t)L_4) <= ((int32_t)0)))
@@ -16969,20 +16260,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForStartU3Ed__15_MoveNext_mD
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:292>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_5 = __this->___t;
 			Debugger_LogInvalidTween_mEC44C60EC29E4EE401EFE473B01A209D79F3A83F(L_5, NULL);
 		}
 
 IL_002a_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:293>
 			goto IL_00bc;
 		}
 
 IL_002f_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:295>
 			il2cpp_codegen_runtime_class_init_inline(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var);
 			YieldAwaitable_tFEA898DB9022A953958C3CF531E1477D135D3DAB L_6;
 			L_6 = Task_Yield_m27EE257EF53788244C5B2E874C514C24C693F9B1(NULL);
@@ -17029,7 +16317,6 @@ IL_0082_1:
 
 IL_0089_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:295>
 			Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_15 = __this->___t;
 			NullCheck(L_15);
 			bool L_16;
@@ -17080,7 +16367,6 @@ CATCH_00a5:
 
 IL_00bc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:296>
 		__this->___U3CU3E1__state = ((int32_t)-2);
 		AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* L_22 = (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06*)(&__this->___U3CU3Et__builder);
 		il2cpp_codegen_runtime_class_init_inline(AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_il2cpp_TypeInfo_var);
@@ -17099,7 +16385,7 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForStartU3Ed__15_MoveNext_mDBD2BBC1B727D4C915B
 	_thisAdjusted = reinterpret_cast<U3CAsyncWaitForStartU3Ed__15_tB4B1CE199FE822B67BCF87301159986D9D50961B*>(__this + _offset);
 	U3CAsyncWaitForStartU3Ed__15_MoveNext_mDBD2BBC1B727D4C915B0E2AB910330411086BC12(_thisAdjusted, method);
 }
-// Method Definition Index: 75108
+// Method Definition Index: 75101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAsyncWaitForStartU3Ed__15_SetStateMachine_m3B0B96BE14F355F5A0AF74DD42C7774158140A41 (U3CAsyncWaitForStartU3Ed__15_tB4B1CE199FE822B67BCF87301159986D9D50961B* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17139,11 +16425,10 @@ IL2CPP_EXTERN_C  void U3CAsyncWaitForStartU3Ed__15_SetStateMachine_m3B0B96BE14F3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75109
+// Method Definition Index: 75102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WaitForCompletion_get_keepWaiting_mD2C729ECA6B6F6BE57B718492953D588237F743D (WaitForCompletion_tC84400E0FA4E28B95AA56DF28973D5FFDA16AFA0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:316>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = __this->___t;
 		NullCheck(L_0);
 		bool L_1;
@@ -17165,17 +16450,14 @@ IL_001c:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 75110
+// Method Definition Index: 75103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForCompletion__ctor_mE85B7CC8B7FE6A2AE84DB8210249A61018118C4D (WaitForCompletion_tC84400E0FA4E28B95AA56DF28973D5FFDA16AFA0* __this, Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_tween, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:319>
 		CustomYieldInstruction__ctor_mB64531EC09E871EF60BFAC16918A774C977C7B50(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:321>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_tween;
 		__this->___t = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___t), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:322>
 		return;
 	}
 }
@@ -17187,11 +16469,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForCompletion__ctor_mE85B7CC8B7FE6A2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75111
+// Method Definition Index: 75104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WaitForRewind_get_keepWaiting_mF46CA00D1A5FDF140C0C027C4109C7373245A16C (WaitForRewind_t2ABB006386A81D361C36B476044786442726743D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:328>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = __this->___t;
 		NullCheck(L_0);
 		bool L_1;
@@ -17232,17 +16513,14 @@ IL_003e:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 75112
+// Method Definition Index: 75105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForRewind__ctor_mD79A34DBDAC1B30FBEBD36A8D749EC81935520B2 (WaitForRewind_t2ABB006386A81D361C36B476044786442726743D* __this, Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_tween, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:331>
 		CustomYieldInstruction__ctor_mB64531EC09E871EF60BFAC16918A774C977C7B50(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:333>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_tween;
 		__this->___t = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___t), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:334>
 		return;
 	}
 }
@@ -17254,11 +16532,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForRewind__ctor_mD79A34DBDAC1B30FBEB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75113
+// Method Definition Index: 75106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WaitForKill_get_keepWaiting_m4C085E03853426F4D4F5C312334101AE9BA75E3F (WaitForKill_t532BDFE32D7C3892E01BF80054F95A9A5C1C24DE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:340>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = __this->___t;
 		NullCheck(L_0);
 		bool L_1;
@@ -17266,17 +16543,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WaitForKill_get_keepWaiting_m4C085E03853
 		return L_1;
 	}
 }
-// Method Definition Index: 75114
+// Method Definition Index: 75107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForKill__ctor_m75C2D3D54DBBBB35DE297B947C08C982CABF1BAF (WaitForKill_t532BDFE32D7C3892E01BF80054F95A9A5C1C24DE* __this, Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_tween, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:343>
 		CustomYieldInstruction__ctor_mB64531EC09E871EF60BFAC16918A774C977C7B50(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:345>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_tween;
 		__this->___t = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___t), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:346>
 		return;
 	}
 }
@@ -17288,11 +16562,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForKill__ctor_m75C2D3D54DBBBB35DE297
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75115
+// Method Definition Index: 75108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WaitForElapsedLoops_get_keepWaiting_mC2A906DBE9A06B7697041B76EC7C6AF58F928D6C (WaitForElapsedLoops_t24C0691B408798B4BE5CCC92DC8B4D40430717BC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:352>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = __this->___t;
 		NullCheck(L_0);
 		bool L_1;
@@ -17315,20 +16588,16 @@ IL_0021:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 75116
+// Method Definition Index: 75109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForElapsedLoops__ctor_mA0E7D5A115AB56AD618E24B320476B81B9CAEC7A (WaitForElapsedLoops_t24C0691B408798B4BE5CCC92DC8B4D40430717BC* __this, Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_tween, int32_t ___1_elapsedLoops, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:356>
 		CustomYieldInstruction__ctor_mB64531EC09E871EF60BFAC16918A774C977C7B50(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:358>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_tween;
 		__this->___t = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___t), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:359>
 		int32_t L_1 = ___1_elapsedLoops;
 		__this->___elapsedLoops = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:360>
 		return;
 	}
 }
@@ -17340,11 +16609,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForElapsedLoops__ctor_mA0E7D5A115AB5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75117
+// Method Definition Index: 75110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WaitForPosition_get_keepWaiting_mA71AB7B7C269AB062BB6AF9CDF42E0F54EA6549F (WaitForPosition_t302B4F4C6FC89426E08DDC65543F45785B20B84B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:366>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = __this->___t;
 		NullCheck(L_0);
 		bool L_1;
@@ -17371,20 +16639,16 @@ IL_0030:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 75118
+// Method Definition Index: 75111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForPosition__ctor_mB6CCFCE59F142931CF19AC3BA4FE5CAFF1CBA4AD (WaitForPosition_t302B4F4C6FC89426E08DDC65543F45785B20B84B* __this, Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_tween, float ___1_position, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:370>
 		CustomYieldInstruction__ctor_mB64531EC09E871EF60BFAC16918A774C977C7B50(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:372>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_tween;
 		__this->___t = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___t), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:373>
 		float L_1 = ___1_position;
 		__this->___position = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:374>
 		return;
 	}
 }
@@ -17396,11 +16660,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForPosition__ctor_mB6CCFCE59F142931C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75119
+// Method Definition Index: 75112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WaitForStart_get_keepWaiting_mA0B7858981A2CEDE516D5F2C5133629C6D537E0B (WaitForStart_t4448F8E46F59EE599CA8DCEF52FC706221093F30* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:380>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = __this->___t;
 		NullCheck(L_0);
 		bool L_1;
@@ -17423,17 +16686,14 @@ IL_001c:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 75120
+// Method Definition Index: 75113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForStart__ctor_m3AEC2F6E37815ED0D94C2FA5F3B784456C6E49D1 (WaitForStart_t4448F8E46F59EE599CA8DCEF52FC706221093F30* __this, Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___0_tween, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:383>
 		CustomYieldInstruction__ctor_mB64531EC09E871EF60BFAC16918A774C977C7B50(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:385>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ___0_tween;
 		__this->___t = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___t), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs:386>
 		return;
 	}
 }
@@ -17445,7 +16705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForStart__ctor_m3AEC2F6E37815ED0D94C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75121
+// Method Definition Index: 75114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenModuleUtils_Init_m8FD2F0DFE3D768ECE332A27B64ED208ED53568D5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17457,7 +16717,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenModuleUtils_Init_m8FD2F0DFE3D768E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:40>
 		bool L_0 = ((DOTweenModuleUtils_t5554865584F951A4A4E5DD282E6EBC60F5CEC6E9_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenModuleUtils_t5554865584F951A4A4E5DD282E6EBC60F5CEC6E9_il2cpp_TypeInfo_var))->____initialized;
 		if (!L_0)
 		{
@@ -17465,23 +16724,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenModuleUtils_Init_m8FD2F0DFE3D768E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:40>
 		return;
 	}
 
 IL_0008:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:42>
 		((DOTweenModuleUtils_t5554865584F951A4A4E5DD282E6EBC60F5CEC6E9_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenModuleUtils_t5554865584F951A4A4E5DD282E6EBC60F5CEC6E9_il2cpp_TypeInfo_var))->____initialized = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:43>
 		Action_4_t9AF66ACF00E5AEB0F9B4A06FAEFEA18B2F266BDB* L_1 = (Action_4_t9AF66ACF00E5AEB0F9B4A06FAEFEA18B2F266BDB*)il2cpp_codegen_object_new(Action_4_t9AF66ACF00E5AEB0F9B4A06FAEFEA18B2F266BDB_il2cpp_TypeInfo_var);
 		Action_4__ctor_mE887FA5D76A46664CDCF21964B144098A77B4DD5(L_1, NULL, (intptr_t)((void*)Physics_SetOrientationOnPath_mC2C4E6FA124458E00765F647C3E824CC31A4696D_RuntimeMethod_var), NULL);
 		DOTweenExternalCommand_add_SetOrientationOnPath_mBD8B37B1978CBE4534F9B8868C734F5C0A2B2804(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 75122
+// Method Definition Index: 75115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenModuleUtils_Preserver_m6DD0C54BCF6FBA75AA80562BFBEDF89F7A224189 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17492,13 +16747,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenModuleUtils_Preserver_m6DD0C54BCF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:60>
 		AppDomain_tFF7010567CBABAEEA7BB19835234D6485E16AD5F* L_0;
 		L_0 = AppDomain_get_CurrentDomain_m38D86FD149C2C62AD0FAB0159D70ECB13D841667(NULL);
 		NullCheck(L_0);
 		AssemblyU5BU5D_t97B7B4E3FD4DA4944A4BFAA4DC484EA7D990B339* L_1;
 		L_1 = AppDomain_GetAssemblies_m8EE862747CADACB8CC0BDDBD8CA7DAD7BD9D9249(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:61>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_3;
@@ -17506,7 +16759,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenModuleUtils_Preserver_m6DD0C54BCF
 		NullCheck(L_3);
 		MethodInfo_t* L_4;
 		L_4 = Type_GetMethod_m66AD062187F19497DBCA900823B0C268322DC231(L_3, _stringLiteral0D1BA8C0E521925077224DB11A6C93FB8E930E14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:62>
 		return;
 	}
 }
@@ -17518,7 +16770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenModuleUtils_Preserver_m6DD0C54BCF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75123
+// Method Definition Index: 75116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics_SetOrientationOnPath_mC2C4E6FA124458E00765F647C3E824CC31A4696D (PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A ___0_options, Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* ___1_t, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_newRot, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_trans, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17528,7 +16780,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics_SetOrientationOnPath_mC2C4E6FA12
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:91>
 		PathOptions_t76F1CBAC082454349D530B799121EB15BFA4CB3A L_0 = ___0_options;
 		bool L_1 = L_0.___isRigidbody;
 		if (!L_1)
@@ -17537,7 +16788,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics_SetOrientationOnPath_mC2C4E6FA12
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:91>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_2 = ___1_t;
 		NullCheck(L_2);
 		RuntimeObject* L_3 = L_2->___target;
@@ -17549,16 +16799,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Physics_SetOrientationOnPath_mC2C4E6FA12
 
 IL_001a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:92>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___3_trans;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___2_newRot;
 		NullCheck(L_5);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:96>
 		return;
 	}
 }
-// Method Definition Index: 75124
+// Method Definition Index: 75117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_HasRigidbody2D_m80204646E4EEA6187F16FE74B1608D54DC0EFA00 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17569,7 +16817,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_HasRigidbody2D_m80204646E4EEA618
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:102>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = ___0_target;
 		NullCheck(L_0);
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_1;
@@ -17580,7 +16827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_HasRigidbody2D_m80204646E4EEA618
 		return L_2;
 	}
 }
-// Method Definition Index: 75125
+// Method Definition Index: 75118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_HasRigidbody_m81595D61A93C148222BD16F87F82F465286457B8 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17591,7 +16838,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_HasRigidbody_m81595D61A93C148222
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:119>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = ___0_target;
 		NullCheck(L_0);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_1;
@@ -17602,7 +16848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_HasRigidbody_m81595D61A93C148222
 		return L_2;
 	}
 }
-// Method Definition Index: 75126
+// Method Definition Index: 75119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* Physics_CreateDOTweenPathTween_m9AA6DE226F6876ACF693B7254E3DB5773E7651E0 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ___0_target, bool ___1_tweenRigidbody, bool ___2_isLocal, Path_t6EC35555EF601CAFED947AC467DEBA7C1496A0C3* ___3_path, float ___4_duration, int32_t ___5_pathMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17621,11 +16867,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 	TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* G_B11_0 = NULL;
 	TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* G_B16_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:132>
 		V_0 = (TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:133>
 		V_1 = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:135>
 		bool L_0 = ___1_tweenRigidbody;
 		if (!L_0)
 		{
@@ -17633,13 +16876,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:136>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_1 = ___0_target;
 		NullCheck(L_1);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_2;
 		L_2 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(L_1, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		V_2 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:137>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -17650,11 +16891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t4911E6704673AA7505D10A9D0B0D98
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:138>
 		V_1 = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:139>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:140>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:141>
 		bool L_5 = ___2_isLocal;
 		if (L_5)
 		{
@@ -17690,7 +16927,6 @@ IL_0034:
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:146>
 		bool L_16 = V_1;
 		bool L_17 = ___1_tweenRigidbody;
 		if (!((int32_t)(((((int32_t)L_16) == ((int32_t)0))? 1 : 0)&(int32_t)L_17)))
@@ -17699,13 +16935,11 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:147>
 		MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* L_18 = ___0_target;
 		NullCheck(L_18);
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_19;
 		L_19 = Component_GetComponent_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_m0712B7A9DBBAE2C319B4B03394E7731B86FACBF2(L_18, Component_GetComponent_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_m0712B7A9DBBAE2C319B4B03394E7731B86FACBF2_RuntimeMethod_var);
 		V_3 = L_19;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:148>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_20 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -17716,11 +16950,7 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:149>
 		V_1 = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:150>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:151>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:152>
 		bool L_22 = ___2_isLocal;
 		if (L_22)
 		{
@@ -17756,7 +16986,6 @@ IL_006a:
 
 IL_006b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:156>
 		bool L_33 = V_1;
 		if (L_33)
 		{
@@ -17764,9 +16993,6 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:157>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:158>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:159>
 		bool L_34 = ___2_isLocal;
 		if (L_34)
 		{
@@ -17808,7 +17034,6 @@ IL_0093:
 
 IL_0094:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs:161>
 		TweenerCore_3_t4911E6704673AA7505D10A9D0B0D989CEC689DCA* L_47 = V_0;
 		return L_47;
 	}
@@ -17821,7 +17046,7 @@ IL_0094:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75127
+// Method Definition Index: 75120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_add_OnReset_mA8F5741736259C46628FC55869998F518051D4C1 (Action_1_tCC79B69913E1B9EB7A4149F303443EE7ACEBA898* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17864,7 +17089,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 75128
+// Method Definition Index: 75121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_remove_OnReset_mAE32F1B7F1B2497982F03D1E04FC2D60B0FB58FC (Action_1_tCC79B69913E1B9EB7A4149F303443EE7ACEBA898* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17907,7 +17132,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 75129
+// Method Definition Index: 75122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_Dispatch_OnReset_m502D1D6A50C88AB144971DE59485CE3E3439085C (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* ___0_anim, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17917,7 +17142,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_Dispatch_OnReset_m502D1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:64>
 		Action_1_tCC79B69913E1B9EB7A4149F303443EE7ACEBA898* L_0 = ((DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9_il2cpp_TypeInfo_var))->___OnReset;
 		if (!L_0)
 		{
@@ -17925,7 +17149,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_Dispatch_OnReset_m502D1
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:64>
 		Action_1_tCC79B69913E1B9EB7A4149F303443EE7ACEBA898* L_1 = ((DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9_il2cpp_TypeInfo_var))->___OnReset;
 		DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* L_2 = ___0_anim;
 		NullCheck(L_1);
@@ -17934,15 +17157,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_Dispatch_OnReset_m502D1
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 75130
+// Method Definition Index: 75123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_Awake_m5A2F45736E953494BAD492FF36EED788F8AD4656 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:119>
 		bool L_0 = __this->___isActive;
 		if (!L_0)
 		{
@@ -17959,13 +17180,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_Awake_m5A2F45736E953494
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:119>
 		return;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:121>
 		int32_t L_2 = __this->___animationType;
 		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
 		{
@@ -17982,24 +17201,20 @@ IL_0011:
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:124>
 		bool L_4 = __this->___autoPlay;
 		DOTweenAnimation_CreateTween_m37D8464836DD351105D3C1CAAE6A3EC4D9641473(__this, (bool)0, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:125>
 		__this->____tweenAutoGenerationCalled = (bool)1;
 	}
 
 IL_0036:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:127>
 		return;
 	}
 }
-// Method Definition Index: 75131
+// Method Definition Index: 75124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_Start_mEE5D784A65EE9DCD56E55542181CF33F6B1A4BED (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:131>
 		bool L_0 = __this->____tweenAutoGenerationCalled;
 		if (L_0)
 		{
@@ -18023,36 +17238,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_Start_mEE5D784A65EE9DCD
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:131>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:133>
 		bool L_3 = __this->___autoPlay;
 		DOTweenAnimation_CreateTween_m37D8464836DD351105D3C1CAAE6A3EC4D9641473(__this, (bool)0, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:134>
 		__this->____tweenAutoGenerationCalled = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:135>
 		return;
 	}
 }
-// Method Definition Index: 75132
+// Method Definition Index: 75125
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_Reset_mE401C717944D3566EFF81FA6147D22F5599E2287 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:139>
 		DOTweenAnimation_Dispatch_OnReset_m502D1D6A50C88AB144971DE59485CE3E3439085C(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:140>
 		return;
 	}
 }
-// Method Definition Index: 75133
+// Method Definition Index: 75126
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_OnDestroy_mD2017B5DEEC60E62BACD32FCDC61B9225F7A45DC (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:144>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		if (!L_0)
 		{
@@ -18070,25 +17278,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_OnDestroy_mD2017B5DEEC6
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:144>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_3 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		TweenExtensions_Kill_mFFDE4DE45D8A91C357ABFF2F8FA95D412924F466(L_3, (bool)0, NULL);
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:145>
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)(Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:146>
 		return;
 	}
 }
-// Method Definition Index: 75134
+// Method Definition Index: 75127
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_RewindThenRecreateTween_mF16E31C78ED354794F520261F633DC672FEFB0B8 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:153>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		if (!L_0)
 		{
@@ -18106,24 +17310,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_RewindThenRecreateTween
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:153>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_3 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		TweenExtensions_Rewind_m0ECE9F671C1A1BE35270FD24F9AC81DC5645DAF1(L_3, (bool)1, NULL);
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:154>
 		DOTweenAnimation_CreateTween_m37D8464836DD351105D3C1CAAE6A3EC4D9641473(__this, (bool)1, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:155>
 		return;
 	}
 }
-// Method Definition Index: 75135
+// Method Definition Index: 75128
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_RewindThenRecreateTweenAndPlay_m6BC576C22A119E108A993514982662B37B378564 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:161>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		if (!L_0)
 		{
@@ -18141,40 +17341,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_RewindThenRecreateTween
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:161>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_3 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		TweenExtensions_Rewind_m0ECE9F671C1A1BE35270FD24F9AC81DC5645DAF1(L_3, (bool)1, NULL);
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:162>
 		DOTweenAnimation_CreateTween_m37D8464836DD351105D3C1CAAE6A3EC4D9641473(__this, (bool)1, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:163>
 		return;
 	}
 }
-// Method Definition Index: 75136
+// Method Definition Index: 75129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_RecreateTween_m43DCD8FAB45E8E773A53457CBCA1BBFFFC04D374 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:168>
 		DOTweenAnimation_CreateTween_m37D8464836DD351105D3C1CAAE6A3EC4D9641473(__this, (bool)1, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:168>
 		return;
 	}
 }
-// Method Definition Index: 75137
+// Method Definition Index: 75130
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_RecreateTweenAndPlay_mF20D8A828A8F317E293E97A6AFD24C646B45AA52 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:173>
 		DOTweenAnimation_CreateTween_m37D8464836DD351105D3C1CAAE6A3EC4D9641473(__this, (bool)1, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:173>
 		return;
 	}
 }
-// Method Definition Index: 75138
+// Method Definition Index: 75131
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_CreateTween_m37D8464836DD351105D3C1CAAE6A3EC4D9641473 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, bool ___0_regenerateIfExists, bool ___1_andPlay, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18251,7 +17444,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_CreateTween_m37D8464836
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* G_B52_1 = NULL;
 	DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* G_B52_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:184>
 		bool L_0 = __this->___isValid;
 		if (L_0)
 		{
@@ -18259,7 +17451,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_CreateTween_m37D8464836
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:185>
 		bool L_1 = ___0_regenerateIfExists;
 		if (!L_1)
 		{
@@ -18267,7 +17458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_CreateTween_m37D8464836
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:186>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_2);
@@ -18283,13 +17473,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_CreateTween_m37D8464836
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:188>
 		return;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:190>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_6 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		if (!L_6)
 		{
@@ -18297,7 +17485,6 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:191>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_7 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		NullCheck(L_7);
 		bool L_8;
@@ -18308,7 +17495,6 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:192>
 		bool L_9 = ___0_regenerateIfExists;
 		if (!L_9)
 		{
@@ -18316,7 +17502,6 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:192>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_10 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		TweenExtensions_Kill_mFFDE4DE45D8A91C357ABFF2F8FA95D412924F466(L_10, (bool)0, NULL);
 		goto IL_0053;
@@ -18324,24 +17509,20 @@ IL_002c:
 
 IL_0052:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:193>
 		return;
 	}
 
 IL_0053:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:195>
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)(Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL);
 	}
 
 IL_005a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:203>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = DOTweenAnimation_GetTweenGO_mDF43174309BC150372D175C32F9819011D787F38(__this, NULL);
 		V_0 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:204>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_12 = __this->___target;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -18364,7 +17545,6 @@ IL_005a:
 
 IL_0078:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:205>
 		bool L_16 = __this->___targetIsSelf;
 		if (!L_16)
 		{
@@ -18382,7 +17562,6 @@ IL_0078:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:207>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
 		L_19 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_19);
@@ -18399,7 +17578,6 @@ IL_0078:
 
 IL_00af:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:210>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
 		L_23 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_23);
@@ -18411,13 +17589,11 @@ IL_00af:
 		L_26 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_25, L_26, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:212>
 		return;
 	}
 
 IL_00d0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:215>
 		int32_t L_27 = __this->___forcedTargetType;
 		if (!L_27)
 		{
@@ -18425,14 +17601,12 @@ IL_00d0:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:215>
 		int32_t L_28 = __this->___forcedTargetType;
 		__this->___targetType = L_28;
 	}
 
 IL_00e4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:216>
 		int32_t L_29 = __this->___targetType;
 		if (L_29)
 		{
@@ -18440,7 +17614,6 @@ IL_00e4:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:218>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_30 = __this->___target;
 		NullCheck(L_30);
 		Type_t* L_31;
@@ -18452,7 +17625,6 @@ IL_00e4:
 
 IL_0102:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:221>
 		int32_t L_33 = __this->___animationType;
 		V_2 = L_33;
 		int32_t L_34 = V_2;
@@ -18558,7 +17730,6 @@ IL_0102:
 
 IL_0170:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:225>
 		bool L_35 = __this->___useTargetAsV3;
 		if (!L_35)
 		{
@@ -18566,9 +17737,7 @@ IL_0170:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:226>
 		__this->___isRelative = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:227>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36 = __this->___endValueTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_37;
@@ -18579,7 +17748,6 @@ IL_0170:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:228>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38;
 		L_38 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_38);
@@ -18591,7 +17759,6 @@ IL_0170:
 		L_41 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_40, L_41, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:229>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
 		L_42 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___endValueV3 = L_42;
@@ -18600,7 +17767,6 @@ IL_0170:
 
 IL_01c0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:232>
 		int32_t L_43 = __this->___targetType;
 		if ((!(((uint32_t)L_43) == ((uint32_t)5))))
 		{
@@ -18608,10 +17774,8 @@ IL_01c0:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:233>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44 = __this->___endValueTransform;
 		V_3 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_44, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:234>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_45 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_46;
@@ -18622,7 +17786,6 @@ IL_01c0:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:235>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_47;
 		L_47 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_47);
@@ -18634,7 +17797,6 @@ IL_01c0:
 		L_50 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_49, L_50, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:236>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
 		L_51 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___endValueV3 = L_51;
@@ -18643,10 +17805,8 @@ IL_01c0:
 
 IL_020e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:238>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_52 = __this->___target;
 		V_4 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_52, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:239>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_53 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_54;
@@ -18657,7 +17817,6 @@ IL_020e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:240>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55;
 		L_55 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_55);
@@ -18674,7 +17833,6 @@ IL_020e:
 
 IL_0247:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:243>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_59 = V_3;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_60 = V_4;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_61;
@@ -18687,7 +17845,6 @@ IL_0247:
 
 IL_025c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:248>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_63 = __this->___endValueTransform;
 		NullCheck(L_63);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64;
@@ -18697,7 +17854,6 @@ IL_025c:
 
 IL_026d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:251>
 		int32_t L_65 = __this->___targetType;
 		V_5 = L_65;
 		int32_t L_66 = V_5;
@@ -18739,7 +17895,6 @@ IL_026d:
 
 IL_029f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:253>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_67 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_68 = __this->___endValueV3;
 		float L_69 = __this->___duration;
@@ -18748,13 +17903,11 @@ IL_029f:
 		L_71 = ShortcutExtensions_DOMove_m82274FDC0216A91A1FAF16844805D06BF9A287FF(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_67, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), L_68, L_69, L_70, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_71;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_71);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:254>
 		goto IL_0ba1;
 	}
 
 IL_02cc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:257>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_72 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_73 = __this->___endValueV3;
 		float L_74 = __this->___duration;
@@ -18763,13 +17916,11 @@ IL_02cc:
 		L_76 = DOTweenModuleUI_DOAnchorPos3D_mBFA28183F6CBCCD444AF47AA85A0272E8D1CAA48(((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)CastclassSealed((RuntimeObject*)L_72, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var)), L_73, L_74, L_75, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_76;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_76);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:261>
 		goto IL_0ba1;
 	}
 
 IL_02f9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:264>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_77 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78 = __this->___endValueV3;
 		float L_79 = __this->___duration;
@@ -18778,13 +17929,11 @@ IL_02f9:
 		L_81 = DOTweenModulePhysics_DOMove_m5B66A39F2C06E19EDFA4D9D79B8CEDD1B2C1AE9C(((Rigidbody_t268697F5A994213ED97393309870968BC1C7393C*)CastclassClass((RuntimeObject*)L_77, Rigidbody_t268697F5A994213ED97393309870968BC1C7393C_il2cpp_TypeInfo_var)), L_78, L_79, L_80, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_81;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_81);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:268>
 		goto IL_0ba1;
 	}
 
 IL_0326:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:271>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_82 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_83 = __this->___endValueV3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_84;
@@ -18795,13 +17944,11 @@ IL_0326:
 		L_87 = DOTweenModulePhysics2D_DOMove_m6A74D57E65B6F8E119164B18F17D3ED7BB8B6B44(((Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*)CastclassSealed((RuntimeObject*)L_82, Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_il2cpp_TypeInfo_var)), L_84, L_85, L_86, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_87;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_87);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:275>
 		goto IL_0ba1;
 	}
 
 IL_0358:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:279>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_88 = V_0;
 		NullCheck(L_88);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_89;
@@ -18813,13 +17960,11 @@ IL_0358:
 		L_93 = ShortcutExtensions_DOLocalMove_m22F3EB581DADB5A3FC59B69F7F6F05A86F8E8348(L_89, L_90, L_91, L_92, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_93;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_93);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:280>
 		goto IL_0ba1;
 	}
 
 IL_0380:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:282>
 		int32_t L_94 = __this->___targetType;
 		V_5 = L_94;
 		int32_t L_95 = V_5;
@@ -18849,7 +17994,6 @@ IL_0380:
 
 IL_03a6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:284>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_96 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97 = __this->___endValueV3;
 		float L_98 = __this->___duration;
@@ -18858,13 +18002,11 @@ IL_03a6:
 		L_100 = ShortcutExtensions_DORotate_mA2804C1A3E4780383111262752CC7056BBC7D470(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_96, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), L_97, L_98, L_99, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_100;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_100);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:285>
 		goto IL_0ba1;
 	}
 
 IL_03d3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:288>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_101 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_102 = __this->___endValueV3;
 		float L_103 = __this->___duration;
@@ -18873,13 +18015,11 @@ IL_03d3:
 		L_105 = DOTweenModulePhysics_DORotate_m65EA16E432A1B477A5A696EF95257FE812C948D6(((Rigidbody_t268697F5A994213ED97393309870968BC1C7393C*)CastclassClass((RuntimeObject*)L_101, Rigidbody_t268697F5A994213ED97393309870968BC1C7393C_il2cpp_TypeInfo_var)), L_102, L_103, L_104, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_105;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_105);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:292>
 		goto IL_0ba1;
 	}
 
 IL_0400:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:295>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_106 = __this->___target;
 		float L_107 = __this->___endValueFloat;
 		float L_108 = __this->___duration;
@@ -18887,13 +18027,11 @@ IL_0400:
 		L_109 = DOTweenModulePhysics2D_DORotate_m914F5F01CD6972EE0FCBA60FBC4AB340E647DC5E(((Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F*)CastclassSealed((RuntimeObject*)L_106, Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_il2cpp_TypeInfo_var)), L_107, L_108, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_109;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_109);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:299>
 		goto IL_0ba1;
 	}
 
 IL_0427:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:303>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_110 = V_0;
 		NullCheck(L_110);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_111;
@@ -18905,15 +18043,12 @@ IL_0427:
 		L_115 = ShortcutExtensions_DOLocalRotate_m6EB8F37963023C6B157C60013B98D2B612816DA4(L_111, L_112, L_113, L_114, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_115;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_115);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:304>
 		goto IL_0ba1;
 	}
 
 IL_044f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:306>
 		int32_t L_116 = __this->___targetType;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:316>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_117 = V_0;
 		NullCheck(L_117);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_118;
@@ -18957,13 +18092,11 @@ IL_0484:
 		NullCheck(G_B48_2);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)G_B48_2)->___tween = L_126;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)G_B48_2)->___tween), (void*)L_126);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:317>
 		goto IL_0ba1;
 	}
 
 IL_0499:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:322>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_127 = __this->___target;
 		bool L_128 = __this->___optionalBool0;
 		if (L_128)
@@ -19003,13 +18136,11 @@ IL_04c6:
 		NullCheck(G_B52_2);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)G_B52_2)->___tween = L_134;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)G_B52_2)->___tween), (void*)L_134);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:323>
 		goto IL_0ba1;
 	}
 
 IL_04dc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:325>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_135 = __this->___target;
 		float L_136 = __this->___endValueFloat;
 		float L_137 = __this->___duration;
@@ -19017,15 +18148,12 @@ IL_04dc:
 		L_138 = DOTweenModuleUI_DOFillAmount_mF99B81AA5E4A001FD8DEB2C7F6056271802D153D(((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E*)CastclassClass((RuntimeObject*)L_135, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var)), L_136, L_137, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_138;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_138);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:326>
 		goto IL_0ba1;
 	}
 
 IL_0503:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:329>
 		__this->___isRelative = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:330>
 		int32_t L_139 = __this->___targetType;
 		V_5 = L_139;
 		int32_t L_140 = V_5;
@@ -19091,7 +18219,6 @@ IL_0503:
 
 IL_0554:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:332>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_141 = __this->___target;
 		NullCheck(((Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF*)CastclassClass((RuntimeObject*)L_141, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_il2cpp_TypeInfo_var)));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_142;
@@ -19102,13 +18229,11 @@ IL_0554:
 		L_145 = ShortcutExtensions_DOColor_m7770E3969D58563343B129139B857669312EFAA9(L_142, L_143, L_144, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_145;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_145);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:333>
 		goto IL_0ba1;
 	}
 
 IL_0580:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:335>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_146 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_147 = __this->___endValueColor;
 		float L_148 = __this->___duration;
@@ -19116,13 +18241,11 @@ IL_0580:
 		L_149 = ShortcutExtensions_DOColor_mAC2C2C38A8C15064D70E6B39F5735A09DDA0D581(((Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3*)CastclassSealed((RuntimeObject*)L_146, Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_il2cpp_TypeInfo_var)), L_147, L_148, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_149;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_149);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:336>
 		goto IL_0ba1;
 	}
 
 IL_05a7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:339>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_150 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_151 = __this->___endValueColor;
 		float L_152 = __this->___duration;
@@ -19130,13 +18253,11 @@ IL_05a7:
 		L_153 = DOTweenModuleSprite_DOColor_m6E59DCD8638072DF9AA02645F45A4367CE903FF3(((SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)CastclassSealed((RuntimeObject*)L_150, SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_il2cpp_TypeInfo_var)), L_151, L_152, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_153;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_153);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:340>
 		goto IL_0ba1;
 	}
 
 IL_05ce:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:344>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_154 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_155 = __this->___endValueColor;
 		float L_156 = __this->___duration;
@@ -19144,13 +18265,11 @@ IL_05ce:
 		L_157 = DOTweenModuleUI_DOColor_m961875592E62912276F701C48C3C3C3DDB4E7341(((Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931*)CastclassClass((RuntimeObject*)L_154, Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_il2cpp_TypeInfo_var)), L_155, L_156, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_157;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_157);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:345>
 		goto IL_0ba1;
 	}
 
 IL_05f5:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:347>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_158 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_159 = __this->___endValueColor;
 		float L_160 = __this->___duration;
@@ -19158,13 +18277,11 @@ IL_05f5:
 		L_161 = DOTweenModuleUI_DOColor_mAF96B607A774C0B0D912E56C3C11A87E4F093440(((Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)CastclassClass((RuntimeObject*)L_158, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_il2cpp_TypeInfo_var)), L_159, L_160, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_161;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_161);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:348>
 		goto IL_0ba1;
 	}
 
 IL_061c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:360>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_162 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_163 = __this->___endValueColor;
 		float L_164 = __this->___duration;
@@ -19172,13 +18289,11 @@ IL_061c:
 		L_165 = ShortcutExtensionsTMPText_DOColor_m1342DF5D433D3CE55BE32FD99C9D9CE2ACA3AC48(((TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957*)CastclassClass((RuntimeObject*)L_162, TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_il2cpp_TypeInfo_var)), L_163, L_164, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_165;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_165);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:361>
 		goto IL_0ba1;
 	}
 
 IL_0643:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:363>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_166 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_167 = __this->___endValueColor;
 		float L_168 = __this->___duration;
@@ -19186,15 +18301,12 @@ IL_0643:
 		L_169 = ShortcutExtensionsTMPText_DOColor_m1342DF5D433D3CE55BE32FD99C9D9CE2ACA3AC48(((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E*)CastclassClass((RuntimeObject*)L_166, TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var)), L_167, L_168, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_169;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_169);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:364>
 		goto IL_0ba1;
 	}
 
 IL_066a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:369>
 		__this->___isRelative = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:370>
 		int32_t L_170 = __this->___targetType;
 		V_5 = L_170;
 		int32_t L_171 = V_5;
@@ -19264,7 +18376,6 @@ IL_066a:
 
 IL_06bf:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:372>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_172 = __this->___target;
 		NullCheck(((Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF*)CastclassClass((RuntimeObject*)L_172, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_il2cpp_TypeInfo_var)));
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_173;
@@ -19275,13 +18386,11 @@ IL_06bf:
 		L_176 = ShortcutExtensions_DOFade_m1C499FE6483845A6BBE9C4EB80D11062C9859FC8(L_173, L_174, L_175, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_176;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_176);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:373>
 		goto IL_0ba1;
 	}
 
 IL_06eb:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:375>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_177 = __this->___target;
 		float L_178 = __this->___endValueFloat;
 		float L_179 = __this->___duration;
@@ -19289,13 +18398,11 @@ IL_06eb:
 		L_180 = ShortcutExtensions_DOIntensity_m27397BA48763F123CFEE2F08D1B68C536BD1AE12(((Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3*)CastclassSealed((RuntimeObject*)L_177, Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_il2cpp_TypeInfo_var)), L_178, L_179, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_180;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_180);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:376>
 		goto IL_0ba1;
 	}
 
 IL_0712:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:379>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_181 = __this->___target;
 		float L_182 = __this->___endValueFloat;
 		float L_183 = __this->___duration;
@@ -19303,13 +18410,11 @@ IL_0712:
 		L_184 = DOTweenModuleSprite_DOFade_m6AE51AD4E4655B3A03EE59353450C611725E6D1A(((SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*)CastclassSealed((RuntimeObject*)L_181, SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_il2cpp_TypeInfo_var)), L_182, L_183, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_184;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_184);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:380>
 		goto IL_0ba1;
 	}
 
 IL_0739:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:384>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_185 = __this->___target;
 		float L_186 = __this->___endValueFloat;
 		float L_187 = __this->___duration;
@@ -19317,13 +18422,11 @@ IL_0739:
 		L_188 = DOTweenModuleUI_DOFade_mE2E3C2482CD1D3B81C2F4B0EA4E95CF2CC10CC21(((Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931*)CastclassClass((RuntimeObject*)L_185, Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_il2cpp_TypeInfo_var)), L_186, L_187, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_188;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_188);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:385>
 		goto IL_0ba1;
 	}
 
 IL_0760:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:387>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_189 = __this->___target;
 		float L_190 = __this->___endValueFloat;
 		float L_191 = __this->___duration;
@@ -19331,13 +18434,11 @@ IL_0760:
 		L_192 = DOTweenModuleUI_DOFade_m5AD3262DBFA4B713B61D3F2203B2930562A3B54D(((Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62*)CastclassClass((RuntimeObject*)L_189, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_il2cpp_TypeInfo_var)), L_190, L_191, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_192;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_192);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:388>
 		goto IL_0ba1;
 	}
 
 IL_0787:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:390>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_193 = __this->___target;
 		float L_194 = __this->___endValueFloat;
 		float L_195 = __this->___duration;
@@ -19345,13 +18446,11 @@ IL_0787:
 		L_196 = DOTweenModuleUI_DOFade_mA073F33862AA7BEF33842B8200D0E79E046D114E(((CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094*)CastclassSealed((RuntimeObject*)L_193, CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_il2cpp_TypeInfo_var)), L_194, L_195, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_196;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_196);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:391>
 		goto IL_0ba1;
 	}
 
 IL_07ae:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:403>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_197 = __this->___target;
 		float L_198 = __this->___endValueFloat;
 		float L_199 = __this->___duration;
@@ -19359,13 +18458,11 @@ IL_07ae:
 		L_200 = ShortcutExtensionsTMPText_DOFade_m907E30E289D058381D72C6A6F5C6B3140BC05809(((TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957*)CastclassClass((RuntimeObject*)L_197, TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_il2cpp_TypeInfo_var)), L_198, L_199, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_200;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_200);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:404>
 		goto IL_0ba1;
 	}
 
 IL_07d5:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:406>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_201 = __this->___target;
 		float L_202 = __this->___endValueFloat;
 		float L_203 = __this->___duration;
@@ -19373,13 +18470,11 @@ IL_07d5:
 		L_204 = ShortcutExtensionsTMPText_DOFade_m907E30E289D058381D72C6A6F5C6B3140BC05809(((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E*)CastclassClass((RuntimeObject*)L_201, TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var)), L_202, L_203, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_204;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_204);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:407>
 		goto IL_0ba1;
 	}
 
 IL_07fc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:413>
 		int32_t L_205 = __this->___targetType;
 		if ((!(((uint32_t)L_205) == ((uint32_t)((int32_t)10)))))
 		{
@@ -19387,7 +18482,6 @@ IL_07fc:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:415>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_206 = __this->___target;
 		String_t* L_207 = __this->___endValueString;
 		float L_208 = __this->___duration;
@@ -19402,7 +18496,6 @@ IL_07fc:
 
 IL_083a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:427>
 		int32_t L_213 = __this->___targetType;
 		V_5 = L_213;
 		int32_t L_214 = V_5;
@@ -19419,7 +18512,6 @@ IL_083a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:429>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_216 = __this->___target;
 		String_t* L_217 = __this->___endValueString;
 		float L_218 = __this->___duration;
@@ -19430,13 +18522,11 @@ IL_083a:
 		L_222 = ShortcutExtensionsTMPText_DOText_mB97D83D095692DEB420B61DE036B344269735AEC(((TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957*)CastclassClass((RuntimeObject*)L_216, TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_il2cpp_TypeInfo_var)), L_217, L_218, L_219, L_220, L_221, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_222;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_222);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:430>
 		goto IL_0ba1;
 	}
 
 IL_088a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:432>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_223 = __this->___target;
 		String_t* L_224 = __this->___endValueString;
 		float L_225 = __this->___duration;
@@ -19447,13 +18537,11 @@ IL_088a:
 		L_229 = ShortcutExtensionsTMPText_DOText_mB97D83D095692DEB420B61DE036B344269735AEC(((TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E*)CastclassClass((RuntimeObject*)L_223, TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E_il2cpp_TypeInfo_var)), L_224, L_225, L_226, L_227, L_228, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_229;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_229);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:433>
 		goto IL_0ba1;
 	}
 
 IL_08c3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:438>
 		int32_t L_230 = __this->___targetType;
 		V_5 = L_230;
 		int32_t L_231 = V_5;
@@ -19470,7 +18558,6 @@ IL_08c3:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:440>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_233 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_234 = __this->___endValueV3;
 		float L_235 = __this->___duration;
@@ -19481,13 +18568,11 @@ IL_08c3:
 		L_239 = ShortcutExtensions_DOPunchPosition_mD022015ABB94942EE909F7F8E0F3660D52FA3D9E(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_233, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), L_234, L_235, L_236, L_237, L_238, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_239;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_239);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:441>
 		goto IL_0ba1;
 	}
 
 IL_0912:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:444>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_240 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_241 = __this->___endValueV3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_242;
@@ -19500,13 +18585,11 @@ IL_0912:
 		L_247 = DOTweenModuleUI_DOPunchAnchorPos_mCE5DF2A8B462E813FBB84C4DBC5697848D1C2B45(((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)CastclassSealed((RuntimeObject*)L_240, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var)), L_242, L_243, L_244, L_245, L_246, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_247;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_247);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:445>
 		goto IL_0ba1;
 	}
 
 IL_0950:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:450>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_248 = V_0;
 		NullCheck(L_248);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_249;
@@ -19519,13 +18602,11 @@ IL_0950:
 		L_254 = ShortcutExtensions_DOPunchScale_mD7D825D1761F0264BC1D00027B79330844400B9A(L_249, L_250, L_251, L_252, L_253, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_254;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_254);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:451>
 		goto IL_0ba1;
 	}
 
 IL_097e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:453>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_255 = V_0;
 		NullCheck(L_255);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_256;
@@ -19538,13 +18619,11 @@ IL_097e:
 		L_261 = ShortcutExtensions_DOPunchRotation_mDC55C1F23E2C17A4E9D4BF5BB787BB1DE98D7AC4(L_256, L_257, L_258, L_259, L_260, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_261;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_261);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:454>
 		goto IL_0ba1;
 	}
 
 IL_09ac:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:456>
 		int32_t L_262 = __this->___targetType;
 		V_5 = L_262;
 		int32_t L_263 = V_5;
@@ -19561,7 +18640,6 @@ IL_09ac:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:458>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_265 = __this->___target;
 		float L_266 = __this->___duration;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_267 = __this->___endValueV3;
@@ -19574,13 +18652,11 @@ IL_09ac:
 		L_273 = ShortcutExtensions_DOShakePosition_m13612BE4565D5755BF5F4AD92827925CDEBD821C(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_265, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), L_266, L_267, L_268, L_269, L_270, L_271, L_272, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_273;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_273);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:459>
 		goto IL_0ba1;
 	}
 
 IL_0a07:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:462>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_274 = __this->___target;
 		float L_275 = __this->___duration;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_276 = __this->___endValueV3;
@@ -19595,13 +18671,11 @@ IL_0a07:
 		L_283 = DOTweenModuleUI_DOShakeAnchorPos_m919C4BA7526A3CEA6FF8F4CF669FB7681E2893BB(((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)CastclassSealed((RuntimeObject*)L_274, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var)), L_275, L_277, L_278, L_279, L_280, L_281, L_282, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_283;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_283);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:463>
 		goto IL_0ba1;
 	}
 
 IL_0a51:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:468>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_284 = V_0;
 		NullCheck(L_284);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_285;
@@ -19616,13 +18690,11 @@ IL_0a51:
 		L_292 = ShortcutExtensions_DOShakeScale_m89D5B0734EA7D724637547C2A14DA5865A1A77DF(L_285, L_286, L_287, L_288, L_289, L_290, L_291, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_292;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_292);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:469>
 		goto IL_0ba1;
 	}
 
 IL_0a8b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:471>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_293 = V_0;
 		NullCheck(L_293);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_294;
@@ -19637,13 +18709,11 @@ IL_0a8b:
 		L_301 = ShortcutExtensions_DOShakeRotation_m6292F37F5BAC8EA3EAA8BD3B5507E65E5D9CE729(L_294, L_295, L_296, L_297, L_298, L_299, L_300, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_301;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_301);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:472>
 		goto IL_0ba1;
 	}
 
 IL_0ac5:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:474>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_302 = __this->___target;
 		float L_303 = __this->___endValueFloat;
 		float L_304 = __this->___duration;
@@ -19651,13 +18721,11 @@ IL_0ac5:
 		L_305 = ShortcutExtensions_DOAspect_mE9ECE416D6C7FD3BDE1DB73DFBCAA738589062E2(((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)CastclassSealed((RuntimeObject*)L_302, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var)), L_303, L_304, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_305;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_305);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:475>
 		goto IL_0ba1;
 	}
 
 IL_0aec:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:477>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_306 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_307 = __this->___endValueColor;
 		float L_308 = __this->___duration;
@@ -19665,13 +18733,11 @@ IL_0aec:
 		L_309 = ShortcutExtensions_DOColor_mC438262691549AA19473BFC4777A39E4DF995E03(((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)CastclassSealed((RuntimeObject*)L_306, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var)), L_307, L_308, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_309;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_309);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:478>
 		goto IL_0ba1;
 	}
 
 IL_0b13:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:480>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_310 = __this->___target;
 		float L_311 = __this->___endValueFloat;
 		float L_312 = __this->___duration;
@@ -19679,13 +18745,11 @@ IL_0b13:
 		L_313 = ShortcutExtensions_DOFieldOfView_mDF8F791F7D4672A51988CE4F3434A589F0F7F62D(((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)CastclassSealed((RuntimeObject*)L_310, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var)), L_311, L_312, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_313;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_313);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:481>
 		goto IL_0ba1;
 	}
 
 IL_0b37:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:483>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_314 = __this->___target;
 		float L_315 = __this->___endValueFloat;
 		float L_316 = __this->___duration;
@@ -19693,13 +18757,11 @@ IL_0b37:
 		L_317 = ShortcutExtensions_DOOrthoSize_mE96037CC51B44CB1B04CF436779EAF60BF6C0CD3(((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)CastclassSealed((RuntimeObject*)L_314, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var)), L_315, L_316, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_317;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_317);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:484>
 		goto IL_0ba1;
 	}
 
 IL_0b5b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:486>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_318 = __this->___target;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_319 = __this->___endValueRect;
 		float L_320 = __this->___duration;
@@ -19707,13 +18769,11 @@ IL_0b5b:
 		L_321 = ShortcutExtensions_DOPixelRect_m30CEF5D00DEFB324BB8514B95CF0328929274598(((Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*)CastclassSealed((RuntimeObject*)L_318, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_il2cpp_TypeInfo_var)), L_319, L_320, NULL);
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = L_321;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)L_321);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:487>
 		goto IL_0ba1;
 	}
 
 IL_0b7f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:489>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_322 = __this->___target;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_323 = __this->___endValueRect;
 		float L_324 = __this->___duration;
@@ -19725,7 +18785,6 @@ IL_0b7f:
 
 IL_0ba1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:493>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_326 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		if (L_326)
 		{
@@ -19733,13 +18792,11 @@ IL_0ba1:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:493>
 		return;
 	}
 
 IL_0baa:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:497>
 		bool L_327 = __this->___isFrom;
 		if (!L_327)
 		{
@@ -19747,7 +18804,6 @@ IL_0baa:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:498>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_328 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		bool L_329 = __this->___isRelative;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_330;
@@ -19757,7 +18813,6 @@ IL_0baa:
 
 IL_0bcb:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:500>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_331 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		bool L_332 = __this->___isRelative;
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_333;
@@ -19766,12 +18821,9 @@ IL_0bcb:
 
 IL_0bdd:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:502>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_334;
 		L_334 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		V_1 = L_334;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:503>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:504>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_335 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_336 = V_1;
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_337;
@@ -19790,7 +18842,6 @@ IL_0bdd:
 		TweenCallback__ctor_m68CC9304423CBDE43001F9B1413B5DAAF70DB621(L_345, __this, (intptr_t)((void*)DOTweenAnimation_U3CCreateTweenU3Eb__55_0_mC29663ED1B179FC37F44ECA2656EB2A571F2D4AA_RuntimeMethod_var), NULL);
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_346;
 		L_346 = TweenSettingsExtensions_OnKill_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_mBBA1302CE258A2BE2EDB4EAB0282A0F7E57A574F(L_344, L_345, TweenSettingsExtensions_OnKill_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_mBBA1302CE258A2BE2EDB4EAB0282A0F7E57A574F_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:505>
 		bool L_347 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___isSpeedBased;
 		if (!L_347)
 		{
@@ -19798,7 +18849,6 @@ IL_0bdd:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:505>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_348 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_349;
 		L_349 = TweenSettingsExtensions_SetSpeedBased_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_mD6EF9BB4F327508610878B8B6DB2D16BBB5A7188(L_348, TweenSettingsExtensions_SetSpeedBased_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_mD6EF9BB4F327508610878B8B6DB2D16BBB5A7188_RuntimeMethod_var);
@@ -19806,7 +18856,6 @@ IL_0bdd:
 
 IL_0c3d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:506>
 		int32_t L_350 = __this->___easeType;
 		if ((!(((uint32_t)L_350) == ((uint32_t)((int32_t)37)))))
 		{
@@ -19814,7 +18863,6 @@ IL_0c3d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:506>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_351 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_352 = __this->___easeCurve;
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_353;
@@ -19824,7 +18872,6 @@ IL_0c3d:
 
 IL_0c5b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:507>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_354 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		int32_t L_355 = __this->___easeType;
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_356;
@@ -19833,7 +18880,6 @@ IL_0c5b:
 
 IL_0c6d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:508>
 		String_t* L_357 = __this->___id;
 		bool L_358;
 		L_358 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_357, NULL);
@@ -19843,7 +18889,6 @@ IL_0c6d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:508>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_359 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		String_t* L_360 = __this->___id;
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_361;
@@ -19852,12 +18897,10 @@ IL_0c6d:
 
 IL_0c8c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:509>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_362 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		bool L_363 = __this->___isIndependentUpdate;
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_364;
 		L_364 = TweenSettingsExtensions_SetUpdate_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_mC3077CF17652F227E5720D80251A7B8238090CF8(L_362, L_363, TweenSettingsExtensions_SetUpdate_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_mC3077CF17652F227E5720D80251A7B8238090CF8_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:511>
 		bool L_365 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___hasOnStart;
 		if (!L_365)
 		{
@@ -19865,7 +18908,6 @@ IL_0c8c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:512>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_366 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onStart;
 		if (!L_366)
 		{
@@ -19873,7 +18915,6 @@ IL_0c8c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:512>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_367 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_368 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onStart;
 		TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* L_369 = (TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24*)il2cpp_codegen_object_new(TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24_il2cpp_TypeInfo_var);
@@ -19885,14 +18926,12 @@ IL_0c8c:
 
 IL_0ccd:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:513>
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onStart = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onStart), (void*)(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL);
 	}
 
 IL_0cd4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:514>
 		bool L_371 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___hasOnPlay;
 		if (!L_371)
 		{
@@ -19900,7 +18939,6 @@ IL_0cd4:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:515>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_372 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onPlay;
 		if (!L_372)
 		{
@@ -19908,7 +18946,6 @@ IL_0cd4:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:515>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_373 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_374 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onPlay;
 		TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* L_375 = (TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24*)il2cpp_codegen_object_new(TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24_il2cpp_TypeInfo_var);
@@ -19920,14 +18957,12 @@ IL_0cd4:
 
 IL_0d03:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:516>
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onPlay = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onPlay), (void*)(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL);
 	}
 
 IL_0d0a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:517>
 		bool L_377 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___hasOnUpdate;
 		if (!L_377)
 		{
@@ -19935,7 +18970,6 @@ IL_0d0a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:518>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_378 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onUpdate;
 		if (!L_378)
 		{
@@ -19943,7 +18977,6 @@ IL_0d0a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:518>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_379 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_380 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onUpdate;
 		TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* L_381 = (TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24*)il2cpp_codegen_object_new(TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24_il2cpp_TypeInfo_var);
@@ -19955,14 +18988,12 @@ IL_0d0a:
 
 IL_0d39:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:519>
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onUpdate = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onUpdate), (void*)(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL);
 	}
 
 IL_0d40:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:520>
 		bool L_383 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___hasOnStepComplete;
 		if (!L_383)
 		{
@@ -19970,7 +19001,6 @@ IL_0d40:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:521>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_384 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onStepComplete;
 		if (!L_384)
 		{
@@ -19978,7 +19008,6 @@ IL_0d40:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:521>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_385 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_386 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onStepComplete;
 		TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* L_387 = (TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24*)il2cpp_codegen_object_new(TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24_il2cpp_TypeInfo_var);
@@ -19990,14 +19019,12 @@ IL_0d40:
 
 IL_0d6f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:522>
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onStepComplete = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onStepComplete), (void*)(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL);
 	}
 
 IL_0d76:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:523>
 		bool L_389 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___hasOnComplete;
 		if (!L_389)
 		{
@@ -20005,7 +19032,6 @@ IL_0d76:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:524>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_390 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onComplete;
 		if (!L_390)
 		{
@@ -20013,7 +19039,6 @@ IL_0d76:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:524>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_391 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_392 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onComplete;
 		TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* L_393 = (TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24*)il2cpp_codegen_object_new(TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24_il2cpp_TypeInfo_var);
@@ -20025,14 +19050,12 @@ IL_0d76:
 
 IL_0da5:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:525>
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onComplete = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onComplete), (void*)(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL);
 	}
 
 IL_0dac:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:526>
 		bool L_395 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___hasOnRewind;
 		if (!L_395)
 		{
@@ -20040,7 +19063,6 @@ IL_0dac:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:527>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_396 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onRewind;
 		if (!L_396)
 		{
@@ -20048,7 +19070,6 @@ IL_0dac:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:527>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_397 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_398 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onRewind;
 		TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24* L_399 = (TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24*)il2cpp_codegen_object_new(TweenCallback_t7C8B8A38E7B30905FF1B83C943256EF23617BB24_il2cpp_TypeInfo_var);
@@ -20060,14 +19081,12 @@ IL_0dac:
 
 IL_0ddb:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:528>
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onRewind = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onRewind), (void*)(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)NULL);
 	}
 
 IL_0de2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:530>
 		bool L_401 = ___1_andPlay;
 		if (!L_401)
 		{
@@ -20075,7 +19094,6 @@ IL_0de2:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:530>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_402 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_403;
 		L_403 = TweenExtensions_Play_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_mCD6CAE712476C0289135EE4E2113770DFB882C79(L_402, TweenExtensions_Play_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_mCD6CAE712476C0289135EE4E2113770DFB882C79_RuntimeMethod_var);
@@ -20084,7 +19102,6 @@ IL_0de2:
 
 IL_0df3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:531>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_404 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_405;
 		L_405 = TweenExtensions_Pause_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_m67DE92D56689877B5E346FE6239B6DEF7BB63685(L_404, TweenExtensions_Pause_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_m67DE92D56689877B5E346FE6239B6DEF7BB63685_RuntimeMethod_var);
@@ -20092,7 +19109,6 @@ IL_0df3:
 
 IL_0dff:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:533>
 		bool L_406 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___hasOnTweenCreated;
 		if (!L_406)
 		{
@@ -20107,7 +19123,6 @@ IL_0dff:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:533>
 		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_408 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___onTweenCreated;
 		NullCheck(L_408);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_408, NULL);
@@ -20115,11 +19130,10 @@ IL_0dff:
 
 IL_0e1a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:534>
 		return;
 	}
 }
-// Method Definition Index: 75139
+// Method Definition Index: 75132
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* DOTweenAnimation_GetTweens_m72B45D0B5DC11B3FE7F0ADAF345ABE4A31D90833 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20136,14 +19150,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3
 	int32_t V_2 = 0;
 	DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* V_3 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:550>
 		List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* L_0 = (List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD*)il2cpp_codegen_object_new(List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD_il2cpp_TypeInfo_var);
 		List_1__ctor_mEDBC45510C70567B8263CF690D19D50EF22235D8(L_0, List_1__ctor_mEDBC45510C70567B8263CF690D19D50EF22235D8_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:551>
 		DOTweenAnimationU5BU5D_t27D840C65ADB1A27FAA7874BCAC055D1FD7961F4* L_1;
 		L_1 = Component_GetComponents_TisDOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9_mBE22A6F08A7C39C128EEBA5884A560FA678B3333(__this, Component_GetComponents_TisDOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9_mBE22A6F08A7C39C128EEBA5884A560FA678B3333_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:552>
 		V_1 = L_1;
 		V_2 = 0;
 		goto IL_003a;
@@ -20151,14 +19162,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3
 
 IL_0011:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:552>
 		DOTweenAnimationU5BU5D_t27D840C65ADB1A27FAA7874BCAC055D1FD7961F4* L_2 = V_1;
 		int32_t L_3 = V_2;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_3 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:553>
 		DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* L_6 = V_3;
 		NullCheck(L_6);
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_7 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)L_6)->___tween;
@@ -20180,7 +19189,6 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:553>
 		List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* L_11 = V_0;
 		DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* L_12 = V_3;
 		NullCheck(L_12);
@@ -20197,7 +19205,6 @@ IL_0036:
 
 IL_003a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:552>
 		int32_t L_15 = V_2;
 		DOTweenAnimationU5BU5D_t27D840C65ADB1A27FAA7874BCAC055D1FD7961F4* L_16 = V_1;
 		NullCheck(L_16);
@@ -20207,12 +19214,11 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:555>
 		List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* L_17 = V_0;
 		return L_17;
 	}
 }
-// Method Definition Index: 75140
+// Method Definition Index: 75133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_SetAnimationTarget_m902E4D948730398EC59BF68ED3670DA28F4C7345 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* ___0_tweenTarget, bool ___1_useTweenTargetGameObjectForGroupOperations, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20223,14 +19229,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_SetAnimationTarget_m902
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:573>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_0 = __this->___target;
 		NullCheck(L_0);
 		Type_t* L_1;
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		int32_t L_2;
 		L_2 = DOTweenAnimation_TypeToDOTargetType_m15E19090315002396417BA530BCB3450914B519F(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:574>
 		int32_t L_3 = __this->___targetType;
 		if ((((int32_t)L_2) == ((int32_t)L_3)))
 		{
@@ -20238,34 +19242,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_SetAnimationTarget_m902
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:575>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralC2702D9E80DE46EB93B5096879A1DA0332C4970B, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:576>
 		return;
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:578>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_4 = ___0_tweenTarget;
 		__this->___target = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___target), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:579>
 		Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* L_5 = __this->___target;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		__this->___targetGO = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetGO), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:580>
 		bool L_7 = ___1_useTweenTargetGameObjectForGroupOperations;
 		__this->___tweenTargetIsTargetGO = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:581>
 		return;
 	}
 }
-// Method Definition Index: 75141
+// Method Definition Index: 75134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlay_m404032EAB118EBBFBF65F3A975E04B3A59C407AC (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20275,17 +19273,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlay_m404032EAB118EBB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:590>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_Play_m466F46F9DF6585E17C595438BA15147319540DC4(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:591>
 		return;
 	}
 }
-// Method Definition Index: 75142
+// Method Definition Index: 75135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayBackwards_m28B62919A803EE87FDF72C013294176078553A83 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20295,17 +19291,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayBackwards_m28B629
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:598>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_PlayBackwards_m3709E26071CCE5CB368584477DF2FC9A8B9D052B(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:599>
 		return;
 	}
 }
-// Method Definition Index: 75143
+// Method Definition Index: 75136
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayForward_mA152942BA1264751895AC1FB8D8716F4A8066964 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20315,17 +19309,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayForward_mA152942B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:606>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_PlayForward_m4F27092024989DEB74466D9D9C370D5FA6621DCF(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:607>
 		return;
 	}
 }
-// Method Definition Index: 75144
+// Method Definition Index: 75137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPause_m0373908CB11AD693FE23DD7735532D6CD116EFA5 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20335,17 +19327,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPause_m0373908CB11AD6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:614>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_Pause_m498BECFBBC8FBD76425B8AE1F38E2ECC9AE296D4(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:615>
 		return;
 	}
 }
-// Method Definition Index: 75145
+// Method Definition Index: 75138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOTogglePause_m5348CFC134E384E4D64EAE6ADC8CF2DAC95C4869 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20355,17 +19345,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOTogglePause_m5348CFC1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:622>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_TogglePause_m8CE7CA00FE30F3C926F34362E2DE67A161536598(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:623>
 		return;
 	}
 }
-// Method Definition Index: 75146
+// Method Definition Index: 75139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORewind_m59758817F07694487F36D556DD3C075346B03989 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20378,16 +19366,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORewind_m59758817F0769
 	int32_t V_1 = 0;
 	Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* V_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:630>
 		__this->____playCount = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:632>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		DOTweenAnimationU5BU5D_t27D840C65ADB1A27FAA7874BCAC055D1FD7961F4* L_1;
 		L_1 = GameObject_GetComponents_TisDOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9_m17B8DA6463936B4B1E9E756FD0F8974B7F860057(L_0, GameObject_GetComponents_TisDOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9_m17B8DA6463936B4B1E9E756FD0F8974B7F860057_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:633>
 		DOTweenAnimationU5BU5D_t27D840C65ADB1A27FAA7874BCAC055D1FD7961F4* L_2 = V_0;
 		NullCheck(L_2);
 		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_2)->max_length)), 1));
@@ -20396,7 +19381,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORewind_m59758817F0769
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:634>
 		DOTweenAnimationU5BU5D_t27D840C65ADB1A27FAA7874BCAC055D1FD7961F4* L_3 = V_0;
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
@@ -20405,7 +19389,6 @@ IL_001b:
 		NullCheck(L_6);
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_7 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)L_6)->___tween;
 		V_2 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:635>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_8 = V_2;
 		if (!L_8)
 		{
@@ -20422,7 +19405,6 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:635>
 		DOTweenAnimationU5BU5D_t27D840C65ADB1A27FAA7874BCAC055D1FD7961F4* L_11 = V_0;
 		int32_t L_12 = V_1;
 		NullCheck(L_11);
@@ -20435,14 +19417,12 @@ IL_001b:
 
 IL_003d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:633>
 		int32_t L_16 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_16, 1));
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:633>
 		int32_t L_17 = V_1;
 		if ((((int32_t)L_17) > ((int32_t)(-1))))
 		{
@@ -20450,21 +19430,18 @@ IL_0041:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:638>
 		return;
 	}
 }
-// Method Definition Index: 75147
+// Method Definition Index: 75140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORestart_m4AB0A91DF102E0D643DADE7D915CB147AE57D44B (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:644>
 		VirtualActionInvoker1< bool >::Invoke(11, __this, (bool)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:644>
 		return;
 	}
 }
-// Method Definition Index: 75148
+// Method Definition Index: 75141
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORestart_mCAB0990689AB762A9B8A9BDE208BA1E8D138520C (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, bool ___0_fromHere, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20474,9 +19451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORestart_mCAB0990689AB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:652>
 		__this->____playCount = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:653>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_0 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		if (L_0)
 		{
@@ -20484,7 +19459,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORestart_mCAB0990689AB
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:654>
 		int32_t L_1;
 		L_1 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_1) <= ((int32_t)1)))
@@ -20493,20 +19467,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORestart_mCAB0990689AB
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:654>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_2 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		Debugger_LogNullTween_m9C6A433A68F2C3DFCDFF127434135F8BBC116740(L_2, NULL);
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:654>
 		return;
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:656>
 		bool L_3 = ___0_fromHere;
 		if (!L_3)
 		{
@@ -20521,23 +19492,20 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:656>
 		DOTweenAnimation_ReEvaluateRelativeTween_m23AF3B509234313AE3E2A9657E2CC5997AD323C7(__this, NULL);
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:657>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_6;
 		L_6 = DOTween_Restart_mEE2F85FC8741BBCE7C1E76C143B3DCE5B9C78DEF(L_5, (bool)1, (-1.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:658>
 		return;
 	}
 }
-// Method Definition Index: 75149
+// Method Definition Index: 75142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOComplete_m26F8261306361C2B5E795B73CADE12A8894710BF (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20547,39 +19515,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOComplete_m26F82613063
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:665>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_Complete_m12E2987F7D42218DCCE051E2FDB803E75FD8BA91(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:666>
 		return;
 	}
 }
-// Method Definition Index: 75150
+// Method Definition Index: 75143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOGotoAndPause_m1C40A5295D92FA0A3E793E8912F0E1CB8B5C862D (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, float ___0_time, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:673>
 		float L_0 = ___0_time;
 		DOTweenAnimation_DOGoto_m46A96A3F1E72F8359E2CD8E9E49C319EF5160586(__this, L_0, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:673>
 		return;
 	}
 }
-// Method Definition Index: 75151
+// Method Definition Index: 75144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOGotoAndPlay_m0AA0F9F01AB8593181E5FB53601C59E8E22D8B9A (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, float ___0_time, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:679>
 		float L_0 = ___0_time;
 		DOTweenAnimation_DOGoto_m46A96A3F1E72F8359E2CD8E9E49C319EF5160586(__this, L_0, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:679>
 		return;
 	}
 }
-// Method Definition Index: 75152
+// Method Definition Index: 75145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOGoto_m46A96A3F1E72F8359E2CD8E9E49C319EF5160586 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, float ___0_time, bool ___1_andPlay, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20597,30 +19559,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOGoto_m46A96A3F1E72F83
 	int32_t V_0 = 0;
 	String_t* G_B4_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:682>
 		List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* L_0 = __this->____tmpTweens;
 		NullCheck(L_0);
 		List_1_Clear_m4FD8F1B0F4046DDB686DFA548E05E9785B37E5CD_inline(L_0, List_1_Clear_m4FD8F1B0F4046DDB686DFA548E05E9785B37E5CD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:683>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* L_2 = __this->____tmpTweens;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* L_3;
 		L_3 = DOTween_TweensByTarget_m1F6174B35FA2489CBDFAFF39A71187EC02908A72(L_1, (bool)0, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:684>
 		List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* L_4 = __this->____tmpTweens;
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = List_1_get_Count_mC6DE57FD9317CDF2656593BE1927AEAA5646A447_inline(L_4, List_1_get_Count_mC6DE57FD9317CDF2656593BE1927AEAA5646A447_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:685>
 		if (L_5)
 		{
 			goto IL_004c;
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:686>
 		bool L_6 = ___1_andPlay;
 		if (L_6)
 		{
@@ -20647,14 +19604,12 @@ IL_003a:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:688>
 		V_0 = 0;
 		goto IL_0067;
 	}
 
 IL_0050:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:689>
 		List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* L_8 = __this->____tmpTweens;
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
@@ -20663,14 +19618,12 @@ IL_0050:
 		float L_11 = ___0_time;
 		bool L_12 = ___1_andPlay;
 		TweenExtensions_Goto_m0256CB1AA2FAB6786021BF3322D737AE4D37B2FC(L_10, L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:688>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0067:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:688>
 		int32_t L_14 = V_0;
 		List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* L_15 = __this->____tmpTweens;
 		NullCheck(L_15);
@@ -20684,15 +19637,13 @@ IL_0067:
 
 IL_0075:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:692>
 		List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* L_17 = __this->____tmpTweens;
 		NullCheck(L_17);
 		List_1_Clear_m4FD8F1B0F4046DDB686DFA548E05E9785B37E5CD_inline(L_17, List_1_Clear_m4FD8F1B0F4046DDB686DFA548E05E9785B37E5CD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:693>
 		return;
 	}
 }
-// Method Definition Index: 75153
+// Method Definition Index: 75146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOKill_mE596789184B6317AAEB7C7C11E31014BF43D40C7 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20702,20 +19653,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOKill_mE596789184B6317
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:700>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_Kill_mAB4C96CE1F1BCF25E5347AE0FC295D064EA53FB2(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:701>
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)(Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:702>
 		return;
 	}
 }
-// Method Definition Index: 75154
+// Method Definition Index: 75147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayById_m12D97C7EF5521A499512B6F730DC850E96CB9575 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20725,18 +19673,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayById_m12D97C7EF55
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:711>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		String_t* L_1 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = DOTween_Play_mEFD3A1E3CC218D3916032325F2E119C2004D9473(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:712>
 		return;
 	}
 }
-// Method Definition Index: 75155
+// Method Definition Index: 75148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayAllById_m78E04FBAA4F91F516CD6EF97D4F33D633087DF4F (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20746,16 +19692,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayAllById_m78E04FBA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:718>
 		String_t* L_0 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_Play_m466F46F9DF6585E17C595438BA15147319540DC4(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:719>
 		return;
 	}
 }
-// Method Definition Index: 75156
+// Method Definition Index: 75149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPauseAllById_m521B9C4119FA1F6AC6F8E28952AA89EB9BC43BAD (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20765,16 +19709,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPauseAllById_m521B9C4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:726>
 		String_t* L_0 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_Pause_m498BECFBBC8FBD76425B8AE1F38E2ECC9AE296D4(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:727>
 		return;
 	}
 }
-// Method Definition Index: 75157
+// Method Definition Index: 75150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayBackwardsById_m092989EC8744A4F4383D1F664A9F32BAF78C50AF (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20784,18 +19726,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayBackwardsById_m09
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:734>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		String_t* L_1 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = DOTween_PlayBackwards_mC4FB110A49C220C2B5FE768989D133F0F8721FA7(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:735>
 		return;
 	}
 }
-// Method Definition Index: 75158
+// Method Definition Index: 75151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayBackwardsAllById_m7C27AFED81EEA8B8629A7D276E377760CEECE79E (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20805,16 +19745,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayBackwardsAllById_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:741>
 		String_t* L_0 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_PlayBackwards_m3709E26071CCE5CB368584477DF2FC9A8B9D052B(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:742>
 		return;
 	}
 }
-// Method Definition Index: 75159
+// Method Definition Index: 75152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayForwardById_m76C5756941FBE7DE791B9753FD3F0851D0AC9529 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20824,18 +19762,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayForwardById_m76C5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:749>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		String_t* L_1 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = DOTween_PlayForward_mC1FF85BCF9DC773A3E4FA3DC12377D1F9E1BADD4(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:750>
 		return;
 	}
 }
-// Method Definition Index: 75160
+// Method Definition Index: 75153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayForwardAllById_m655297832660471E1C91A695B9B9AD8E29069A80 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20845,16 +19781,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayForwardAllById_m6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:756>
 		String_t* L_0 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_PlayForward_m4F27092024989DEB74466D9D9C370D5FA6621DCF(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:757>
 		return;
 	}
 }
-// Method Definition Index: 75161
+// Method Definition Index: 75154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayNext_m73E38E99F8700E05203AF52600AAC0F59147B30D (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20868,7 +19802,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayNext_m73E38E99F87
 	DOTweenAnimationU5BU5D_t27D840C65ADB1A27FAA7874BCAC055D1FD7961F4* V_0 = NULL;
 	DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:764>
 		DOTweenAnimationU5BU5D_t27D840C65ADB1A27FAA7874BCAC055D1FD7961F4* L_0;
 		L_0 = Component_GetComponents_TisDOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9_mBE22A6F08A7C39C128EEBA5884A560FA678B3333(__this, Component_GetComponents_TisDOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9_mBE22A6F08A7C39C128EEBA5884A560FA678B3333_RuntimeMethod_var);
 		V_0 = L_0;
@@ -20877,17 +19810,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOPlayNext_m73E38E99F87
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:766>
 		int32_t L_1 = __this->____playCount;
 		__this->____playCount = ((int32_t)il2cpp_codegen_add(L_1, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:767>
 		DOTweenAnimationU5BU5D_t27D840C65ADB1A27FAA7874BCAC055D1FD7961F4* L_2 = V_0;
 		int32_t L_3 = __this->____playCount;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_1 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:768>
 		DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* L_6 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -20941,19 +19871,16 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:769>
 		DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* L_19 = V_1;
 		NullCheck(L_19);
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_20 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)L_19)->___tween;
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_21;
 		L_21 = TweenExtensions_Play_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_mCD6CAE712476C0289135EE4E2113770DFB882C79(L_20, TweenExtensions_Play_TisTween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C_mCD6CAE712476C0289135EE4E2113770DFB882C79_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:770>
 		return;
 	}
 
 IL_0065:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:765>
 		int32_t L_22 = __this->____playCount;
 		DOTweenAnimationU5BU5D_t27D840C65ADB1A27FAA7874BCAC055D1FD7961F4* L_23 = V_0;
 		NullCheck(L_23);
@@ -20963,11 +19890,10 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:773>
 		return;
 	}
 }
-// Method Definition Index: 75162
+// Method Definition Index: 75155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORewindAndPlayNext_m462F1FE5A33CED8A07535F5777CD7F1AA90C4E48 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20977,21 +19903,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORewindAndPlayNext_m46
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:781>
 		__this->____playCount = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:782>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_Rewind_m5C4020E9007FAAF719C1BE01CE440EBB39193619(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:783>
 		DOTweenAnimation_DOPlayNext_m73E38E99F8700E05203AF52600AAC0F59147B30D(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:784>
 		return;
 	}
 }
-// Method Definition Index: 75163
+// Method Definition Index: 75156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORewindAllById_m1F3F3C40A945A9F27ABB32090961D4518BA01C2C (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21001,18 +19923,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORewindAllById_m1F3F3C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:791>
 		__this->____playCount = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:792>
 		String_t* L_0 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_Rewind_m5C4020E9007FAAF719C1BE01CE440EBB39193619(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:793>
 		return;
 	}
 }
-// Method Definition Index: 75164
+// Method Definition Index: 75157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORestartById_m1F30DC4E8D4DB44FFE3ACEF871443ACA26EBDC75 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21022,20 +19941,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORestartById_m1F30DC4E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:800>
 		__this->____playCount = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:801>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		String_t* L_1 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = DOTween_Restart_m89E03C91814831E13EA36751C4A8471CF41FA249(L_0, L_1, (bool)1, (-1.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:802>
 		return;
 	}
 }
-// Method Definition Index: 75165
+// Method Definition Index: 75158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORestartAllById_m64AA94F735F90651E0FC436DCC83B19ACA942D2E (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21045,18 +19961,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DORestartAllById_m64AA9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:808>
 		__this->____playCount = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:809>
 		String_t* L_0 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_Restart_mEE2F85FC8741BBCE7C1E76C143B3DCE5B9C78DEF(L_0, (bool)1, (-1.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:810>
 		return;
 	}
 }
-// Method Definition Index: 75166
+// Method Definition Index: 75159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOKillById_m070FA86681DF86FE4264528BBE1C58AF3160C22C (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21066,18 +19979,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOKillById_m070FA86681D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:817>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537(__this, NULL);
 		String_t* L_1 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = DOTween_Kill_m53573B76803A245F23AFAC2AB22995FDA4A9235A(L_0, L_1, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:818>
 		return;
 	}
 }
-// Method Definition Index: 75167
+// Method Definition Index: 75160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOKillAllById_mEB3D14607970F91DEDB6A870A7759D574E4B8F73 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, String_t* ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21087,16 +19998,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_DOKillAllById_mEB3D1460
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:824>
 		String_t* L_0 = ___0_id;
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = DOTween_Kill_mAB4C96CE1F1BCF25E5347AE0FC295D064EA53FB2(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:825>
 		return;
 	}
 }
-// Method Definition Index: 75168
+// Method Definition Index: 75161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenAnimation_TypeToDOTargetType_m15E19090315002396417BA530BCB3450914B519F (Type_t* ___0_t, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21115,19 +20024,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenAnimation_TypeToDOTargetType_m
 	String_t* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:833>
 		Type_t* L_0 = ___0_t;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_0);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:834>
 		String_t* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = String_LastIndexOf_m8923DBD89F2B3E5A34190B038B48F402E0C17E40(L_2, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:835>
 		int32_t L_4 = V_1;
 		if ((((int32_t)L_4) == ((int32_t)(-1))))
 		{
@@ -21135,7 +20041,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenAnimation_TypeToDOTargetType_m
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:835>
 		String_t* L_5 = V_0;
 		int32_t L_6 = V_1;
 		NullCheck(L_5);
@@ -21146,7 +20051,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DOTweenAnimation_TypeToDOTargetType_m
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:836>
 		String_t* L_8 = V_0;
 		NullCheck(L_8);
 		int32_t L_9;
@@ -21166,13 +20070,11 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:836>
 		V_0 = _stringLiteral8CCF95ED19A7C10C7DD800A4E0C960CACFE7FF1C;
 	}
 
 IL_0042:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:845>
 		String_t* L_12 = V_0;
 		bool L_13;
 		L_13 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_12, _stringLiteral95736F87FFB47A6CBA1FAEFC7529C2A3F3EE5E7A, NULL);
@@ -21193,13 +20095,11 @@ IL_0042:
 
 IL_005c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:845>
 		V_0 = _stringLiteralD8EA9923B74BD243E764B8F9D62174B9D637CB97;
 	}
 
 IL_0062:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:847>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_16 = { reinterpret_cast<intptr_t> (TargetType_t2657DCDB4CC1ADC1973E89DF76ED40441B97E161_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_17;
@@ -21211,7 +20111,7 @@ IL_0062:
 		return ((*(int32_t*)UnBox(L_19, TargetType_t2657DCDB4CC1ADC1973E89DF76ED40441B97E161_il2cpp_TypeInfo_var)));
 	}
 }
-// Method Definition Index: 75169
+// Method Definition Index: 75162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* DOTweenAnimation_CreateEditorPreview_mC9FC6CE29107384E390C42E9AABDC713259C8593 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21221,7 +20121,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE798
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:856>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -21231,25 +20130,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE798
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:856>
 		return (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:859>
 		bool L_1 = __this->___autoPlay;
 		DOTweenAnimation_CreateTween_m37D8464836DD351105D3C1CAAE6A3EC4D9641473(__this, (bool)1, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:860>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_2 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		return L_2;
 	}
 }
-// Method Definition Index: 75170
+// Method Definition Index: 75163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* DOTweenAnimation_GetTweenGO_mDF43174309BC150372D175C32F9819011D787F38 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:875>
 		bool L_0 = __this->___targetIsSelf;
 		if (L_0)
 		{
@@ -21268,11 +20163,10 @@ IL_000f:
 		return L_2;
 	}
 }
-// Method Definition Index: 75171
+// Method Definition Index: 75164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* DOTweenAnimation_GetTweenTarget_m4972A775D1EA82AF0CEF2251B8919EA7039E7537 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:883>
 		bool L_0 = __this->___targetIsSelf;
 		if (L_0)
 		{
@@ -21298,7 +20192,7 @@ IL_0017:
 		return L_3;
 	}
 }
-// Method Definition Index: 75172
+// Method Definition Index: 75165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_ReEvaluateRelativeTween_m23AF3B509234313AE3E2A9657E2CC5997AD323C7 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21313,11 +20207,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_ReEvaluateRelativeTween
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:889>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = DOTweenAnimation_GetTweenGO_mDF43174309BC150372D175C32F9819011D787F38(__this, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:890>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -21328,7 +20220,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_ReEvaluateRelativeTween
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:891>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_3);
@@ -21340,13 +20231,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_ReEvaluateRelativeTween
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:892>
 		return;
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:894>
 		int32_t L_7 = __this->___animationType;
 		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
 		{
@@ -21354,7 +20243,6 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:895>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_8 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = V_0;
 		NullCheck(L_9);
@@ -21376,7 +20264,6 @@ IL_0031:
 
 IL_0068:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:896>
 		int32_t L_17 = __this->___animationType;
 		if ((!(((uint32_t)L_17) == ((uint32_t)2))))
 		{
@@ -21384,7 +20271,6 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:897>
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_18 = ((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = V_0;
 		NullCheck(L_19);
@@ -21405,11 +20291,10 @@ IL_0068:
 
 IL_009e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:899>
 		return;
 	}
 }
-// Method Definition Index: 75173
+// Method Definition Index: 75166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation__ctor_mA3F7CBFE6A98CAEF4059B593C245E8B6D2F1CFF0 (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21423,15 +20308,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation__ctor_mA3F7CBFE6A98CAEF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:68>
 		__this->___targetIsSelf = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:71>
 		__this->___tweenTargetIsTargetGO = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:74>
 		__this->___duration = (1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:75>
 		__this->___easeType = 6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:76>
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_0 = (KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3*)SZArrayNew(KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var, (uint32_t)2);
 		KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3* L_1 = L_0;
 		Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 L_2;
@@ -21449,35 +20329,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation__ctor_mA3F7CBFE6A98CAEF
 		AnimationCurve__ctor_mEABC98C03805713354D61E50D9340766BD5B717E(L_5, L_3, NULL);
 		__this->___easeCurve = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___easeCurve), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:78>
 		__this->___loops = 1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:79>
 		__this->___id = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___id), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:83>
 		__this->___autoKill = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:84>
 		__this->___autoGenerate = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:86>
 		__this->___isActive = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:92>
 		__this->___autoPlay = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:98>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_6), (1.0f), (1.0f), (1.0f), (1.0f), NULL);
 		__this->___endValueColor = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:99>
 		__this->___endValueString = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___endValueString), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:100>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_7;
 		memset((&L_7), 0, sizeof(L_7));
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_7), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
 		__this->___endValueRect = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:112>
 		__this->____playCount = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:113>
 		List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD* L_8 = (List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD*)il2cpp_codegen_object_new(List_1_tDA2C18E15C40590123A37DABB6D0D9AEB77A3BBD_il2cpp_TypeInfo_var);
 		List_1__ctor_mEDBC45510C70567B8263CF690D19D50EF22235D8(L_8, List_1__ctor_mEDBC45510C70567B8263CF690D19D50EF22235D8_RuntimeMethod_var);
 		__this->____tmpTweens = L_8;
@@ -21486,11 +20355,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation__ctor_mA3F7CBFE6A98CAEF
 		return;
 	}
 }
-// Method Definition Index: 75174
+// Method Definition Index: 75167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_U3CCreateTweenU3Eb__55_0_mC29663ED1B179FC37F44ECA2656EB2A571F2D4AA (DOTweenAnimation_tC7C40A3875051711721AE7E6BC3DDD5EF22AD8F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs:504>
 		((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween = (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((ABSAnimationComponent_t9F4FA691DC061D111BE0D991B3460910B31B6B7C*)__this)->___tween), (void*)(Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL);
 		return;
@@ -21528,7 +20396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenAnimation_U3CCreateTweenU3Eb__55_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75176
+// Method Definition Index: 75169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenProShortcuts__cctor_mB5D4F77E7578688BA434DE03F61A80F240CC85AB (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21538,14 +20406,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenProShortcuts__cctor_mB5D4F77E7578
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:18>
 		SpiralPlugin_t0EC3955D810AAED4713FA63AAEACDA66063B604E* L_0 = (SpiralPlugin_t0EC3955D810AAED4713FA63AAEACDA66063B604E*)il2cpp_codegen_object_new(SpiralPlugin_t0EC3955D810AAED4713FA63AAEACDA66063B604E_il2cpp_TypeInfo_var);
 		SpiralPlugin__ctor_m9ACFE0F9B14BBBD77A9570420667150892067033(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 75177
+// Method Definition Index: 75170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenProShortcuts_DOSpiral_mBB6B961D53DD13CE5727CEA20BC179F5F1FE282D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, float ___1_duration, Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE ___2_axis, int32_t ___3_mode, float ___4_speed, float ___5_frequency, float ___6_depth, bool ___7_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21581,7 +20447,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:39>
 		float L_3 = ___4_speed;
 		bool L_4;
 		L_4 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline(L_3, (0.0f), NULL);
@@ -21591,13 +20456,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:39>
 		___4_speed = (1.0f);
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:40>
 		bool L_5;
 		L_5 = Nullable_1_get_HasValue_m6B76086B0E863AB1D634FD03E30154F230070435_inline((&___2_axis), Nullable_1_get_HasValue_m6B76086B0E863AB1D634FD03E30154F230070435_RuntimeMethod_var);
 		if (!L_5)
@@ -21657,7 +20520,6 @@ IL_0058:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:40>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
 		Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2((&___2_axis), L_13, Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
@@ -21665,8 +20527,6 @@ IL_005a:
 
 IL_0066:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:42>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(SpiralPlugin_t0EC3955D810AAED4713FA63AAEACDA66063B604E_il2cpp_TypeInfo_var);
 		ABSTweenPlugin_3_tF7CEB9BBF8FF28D2F3BBF9DB950849DCA238F80C* L_14;
 		L_14 = SpiralPlugin_Get_mEF40CC56A5043E8122C572AFCBC224BA925BC326(NULL);
@@ -21687,41 +20547,35 @@ IL_0066:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = L_22->___target;
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_24;
 		L_24 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B_m593D7B49993413FC2357476183683A34122E55B6(L_21, L_23, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B_m593D7B49993413FC2357476183683A34122E55B6_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:45>
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_25 = L_24;
 		NullCheck(L_25);
 		SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D* L_26 = (SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D*)(&L_25->___plugOptions);
 		int32_t L_27 = ___3_mode;
 		L_26->___mode = L_27;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:46>
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_28 = L_25;
 		NullCheck(L_28);
 		SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D* L_29 = (SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D*)(&L_28->___plugOptions);
 		float L_30 = ___4_speed;
 		L_29->___speed = L_30;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:47>
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_31 = L_28;
 		NullCheck(L_31);
 		SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D* L_32 = (SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D*)(&L_31->___plugOptions);
 		float L_33 = ___5_frequency;
 		L_32->___frequency = L_33;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:48>
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_34 = L_31;
 		NullCheck(L_34);
 		SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D* L_35 = (SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D*)(&L_34->___plugOptions);
 		float L_36 = ___6_depth;
 		L_35->___depth = L_36;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:49>
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_37 = L_34;
 		NullCheck(L_37);
 		SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D* L_38 = (SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D*)(&L_37->___plugOptions);
 		bool L_39 = ___7_snapping;
 		L_38->___snapping = L_39;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:50>
 		return L_37;
 	}
 }
-// Method Definition Index: 75178
+// Method Definition Index: 75171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenProShortcuts_DOSpiral_mD1B212D21905AC2EE0D4BA1F24604DAA44D65B1E (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_target, float ___1_duration, Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE ___2_axis, int32_t ___3_mode, float ___4_speed, float ___5_frequency, float ___6_depth, bool ___7_snapping, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21757,7 +20611,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:71>
 		float L_3 = ___4_speed;
 		bool L_4;
 		L_4 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline(L_3, (0.0f), NULL);
@@ -21767,13 +20620,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:71>
 		___4_speed = (1.0f);
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:72>
 		bool L_5;
 		L_5 = Nullable_1_get_HasValue_m6B76086B0E863AB1D634FD03E30154F230070435_inline((&___2_axis), Nullable_1_get_HasValue_m6B76086B0E863AB1D634FD03E30154F230070435_RuntimeMethod_var);
 		if (!L_5)
@@ -21833,7 +20684,6 @@ IL_0058:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:72>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
 		Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2((&___2_axis), L_13, Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
@@ -21841,8 +20691,6 @@ IL_005a:
 
 IL_0066:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:74>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:75>
 		il2cpp_codegen_runtime_class_init_inline(SpiralPlugin_t0EC3955D810AAED4713FA63AAEACDA66063B604E_il2cpp_TypeInfo_var);
 		ABSTweenPlugin_3_tF7CEB9BBF8FF28D2F3BBF9DB950849DCA238F80C* L_14;
 		L_14 = SpiralPlugin_Get_mEF40CC56A5043E8122C572AFCBC224BA925BC326(NULL);
@@ -21865,37 +20713,31 @@ IL_0066:
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_24 = L_23->___target;
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_25;
 		L_25 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B_m593D7B49993413FC2357476183683A34122E55B6(L_22, L_24, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B_m593D7B49993413FC2357476183683A34122E55B6_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:77>
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_26 = L_25;
 		NullCheck(L_26);
 		SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D* L_27 = (SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D*)(&L_26->___plugOptions);
 		int32_t L_28 = ___3_mode;
 		L_27->___mode = L_28;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:78>
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_29 = L_26;
 		NullCheck(L_29);
 		SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D* L_30 = (SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D*)(&L_29->___plugOptions);
 		float L_31 = ___4_speed;
 		L_30->___speed = L_31;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:79>
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_32 = L_29;
 		NullCheck(L_32);
 		SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D* L_33 = (SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D*)(&L_32->___plugOptions);
 		float L_34 = ___5_frequency;
 		L_33->___frequency = L_34;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:80>
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_35 = L_32;
 		NullCheck(L_35);
 		SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D* L_36 = (SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D*)(&L_35->___plugOptions);
 		float L_37 = ___6_depth;
 		L_36->___depth = L_37;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:81>
 		TweenerCore_3_tE784F67C453B80BE098F39F499AD7BE5D4F1657B* L_38 = L_35;
 		NullCheck(L_38);
 		SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D* L_39 = (SpiralOptions_t4D382379BCA86778126603AE4412B2C6D8DB3F1D*)(&L_38->___plugOptions);
 		bool L_40 = ___7_snapping;
 		L_39->___snapping = L_40;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:82>
 		return L_38;
 	}
 }
@@ -21907,7 +20749,7 @@ IL_0066:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75179
+// Method Definition Index: 75172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_mADA95A56850C09B62E886A9438E5959ACFE782A4 (U3CU3Ec__DisplayClass1_0_t5BB5698F4D129F0142EB8B9165489AD7B248DAAB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21915,11 +20757,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_mADA95A56
 		return;
 	}
 }
-// Method Definition Index: 75180
+// Method Definition Index: 75173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass1_0_U3CDOSpiralU3Eb__0_m712CB5D59B45F2FF3023A9C8772B55099EC4436C (U3CU3Ec__DisplayClass1_0_t5BB5698F4D129F0142EB8B9165489AD7B248DAAB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:42>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -21927,11 +20768,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 75181
+// Method Definition Index: 75174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CDOSpiralU3Eb__1_m0F83BC8B95F0E610CC06BD323AF0EA3A7F1EF405 (U3CU3Ec__DisplayClass1_0_t5BB5698F4D129F0142EB8B9165489AD7B248DAAB* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:42>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___target;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -21947,7 +20787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CDOSpiralU3Eb
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75182
+// Method Definition Index: 75175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_mD18FFCA0D468681B299C2F09E602FF6619E4F74D (U3CU3Ec__DisplayClass2_0_t870FA1A5B4634130DD0C826F0A1A364BA11E09D8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -21955,11 +20795,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_mD18FFCA0
 		return;
 	}
 }
-// Method Definition Index: 75183
+// Method Definition Index: 75176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass2_0_U3CDOSpiralU3Eb__0_m7179D74055A097F51CA14CBAE2FE92B941A4A543 (U3CU3Ec__DisplayClass2_0_t870FA1A5B4634130DD0C826F0A1A364BA11E09D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs:74>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___target;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -21983,7 +20822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75184
+// Method Definition Index: 75177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* ShortcutExtensionsTMPText_DOColor_m1342DF5D433D3CE55BE32FD99C9D9CE2ACA3AC48 (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22008,7 +20847,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:40>
 		U3CU3Ec__DisplayClass0_0_tE14D7E7A879ED518C9F5E76C023D9A761C04B728* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass0_0_U3CDOColorU3Eb__0_mD909979486F9A0E6857F76C1FEE225EF74E802B5_RuntimeMethod_var), NULL);
@@ -22020,18 +20858,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_To_mA1EBEAF49DD682B626CB60B4C53B7069F7933339(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:41>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass0_0_tE14D7E7A879ED518C9F5E76C023D9A761C04B728* L_11 = V_0;
 		NullCheck(L_11);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:42>
 		return L_10;
 	}
 }
-// Method Definition Index: 75185
+// Method Definition Index: 75178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* ShortcutExtensionsTMPText_DOFaceColor_m33DEBCEA67579EF96358131485A4FC752FCF21C8 (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22056,7 +20892,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:50>
 		U3CU3Ec__DisplayClass1_0_tC19DEF3A33510CDA99E16A1F7A7808BDDD634E5B* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass1_0_U3CDOFaceColorU3Eb__0_mC05DA7D1887AF548B8D8B0C691C01FEBD978A363_RuntimeMethod_var), NULL);
@@ -22070,18 +20905,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10;
 		L_10 = DOTween_To_mA1EBEAF49DD682B626CB60B4C53B7069F7933339(L_4, L_6, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:51>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_11 = L_10;
 		U3CU3Ec__DisplayClass1_0_tC19DEF3A33510CDA99E16A1F7A7808BDDD634E5B* L_12 = V_0;
 		NullCheck(L_12);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = L_12->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_14;
 		L_14 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_11, L_13, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:52>
 		return L_11;
 	}
 }
-// Method Definition Index: 75186
+// Method Definition Index: 75179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* ShortcutExtensionsTMPText_DOOutlineColor_mE061BD21CB289C17F35E8DDA681C8E687BE89CD3 (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22106,7 +20939,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:60>
 		U3CU3Ec__DisplayClass2_0_t24B42CA89DA798F109A694A0E493F298FFF3F187* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass2_0_U3CDOOutlineColorU3Eb__0_mCE83E201DFA594BEB2593A6E4C5276F9BD84E9DC_RuntimeMethod_var), NULL);
@@ -22120,18 +20952,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10;
 		L_10 = DOTween_To_mA1EBEAF49DD682B626CB60B4C53B7069F7933339(L_4, L_6, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:61>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_11 = L_10;
 		U3CU3Ec__DisplayClass2_0_t24B42CA89DA798F109A694A0E493F298FFF3F187* L_12 = V_0;
 		NullCheck(L_12);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = L_12->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_14;
 		L_14 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_11, L_13, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:62>
 		return L_11;
 	}
 }
-// Method Definition Index: 75187
+// Method Definition Index: 75180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* ShortcutExtensionsTMPText_DOGlowColor_mAC1426BACC173C6212681B16B7402D2C8E2C6F3E (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, bool ___3_useSharedMaterial, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22143,9 +20973,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 	}
 	TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:71>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:72>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:73>
 		bool L_0 = ___3_useSharedMaterial;
 		if (L_0)
 		{
@@ -22180,16 +21007,14 @@ IL_0017:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:74>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_11 = G_B3_0;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12 = ___0_target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_11, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:75>
 		return L_11;
 	}
 }
-// Method Definition Index: 75188
+// Method Definition Index: 75181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* ShortcutExtensionsTMPText_DOFade_m907E30E289D058381D72C6A6F5C6B3140BC05809 (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22214,7 +21039,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:83>
 		U3CU3Ec__DisplayClass4_0_t3E8AB1010177D64F6B44D77AB69AD3F663E83B9F* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass4_0_U3CDOFadeU3Eb__0_m0089D80B79D12467E00CBA3889E7AFE54CB0BE78_RuntimeMethod_var), NULL);
@@ -22226,18 +21050,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_ToAlpha_m93AB0EDCF2956A0DD806D9537799F2727CA5E7C1(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:84>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass4_0_t3E8AB1010177D64F6B44D77AB69AD3F663E83B9F* L_11 = V_0;
 		NullCheck(L_11);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:85>
 		return L_10;
 	}
 }
-// Method Definition Index: 75189
+// Method Definition Index: 75182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* ShortcutExtensionsTMPText_DOFaceFade_m77A93A18986DC547F55AB27D1D22AA6A57A7B08E (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22262,7 +21084,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:93>
 		U3CU3Ec__DisplayClass5_0_t16F9EB8E1A94CE955CE6B70A186FA984CBED6C68* L_3 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_4 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3CDOFaceFadeU3Eb__0_mFC1170E2BE75E499A0E2A6AF7365C6DFF52BE12C_RuntimeMethod_var), NULL);
@@ -22274,18 +21095,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_9;
 		L_9 = DOTween_ToAlpha_m93AB0EDCF2956A0DD806D9537799F2727CA5E7C1(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:94>
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_10 = L_9;
 		U3CU3Ec__DisplayClass5_0_t16F9EB8E1A94CE955CE6B70A186FA984CBED6C68* L_11 = V_0;
 		NullCheck(L_11);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12 = L_11->___target;
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3_mD27623FACC7C328BD7538BCC8936E001F91CBA83_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:95>
 		return L_10;
 	}
 }
-// Method Definition Index: 75190
+// Method Definition Index: 75183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* ShortcutExtensionsTMPText_DOScale_m2AF83B6C921E5155EDA4BEC4E5E7B6134C71C4E0 (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22307,7 +21126,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		U3CU3Ec__DisplayClass6_0_t2BEDF304D8CCFF964012AF23DBF00C6D27C448BA* L_0 = (U3CU3Ec__DisplayClass6_0_t2BEDF304D8CCFF964012AF23DBF00C6D27C448BA*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass6_0_t2BEDF304D8CCFF964012AF23DBF00C6D27C448BA_il2cpp_TypeInfo_var);
 		U3CU3Ec__DisplayClass6_0__ctor_m4A940E75859FD6FC3C09C73E023388F7AF19AC46(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:107>
 		U3CU3Ec__DisplayClass6_0_t2BEDF304D8CCFF964012AF23DBF00C6D27C448BA* L_1 = V_0;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = ___0_target;
 		NullCheck(L_2);
@@ -22316,12 +21134,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		NullCheck(L_1);
 		L_1->___trans = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___trans), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:108>
 		float L_4 = ___1_endValue;
 		float L_5 = ___1_endValue;
 		float L_6 = ___1_endValue;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), L_4, L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:109>
 		U3CU3Ec__DisplayClass6_0_t2BEDF304D8CCFF964012AF23DBF00C6D27C448BA* L_7 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_8 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_8, L_7, (intptr_t)((void*)U3CU3Ec__DisplayClass6_0_U3CDOScaleU3Eb__0_m88357A70F7E2263A9D921E7A669D791BDA4FE57D_RuntimeMethod_var), NULL);
@@ -22333,16 +21149,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_13;
 		L_13 = DOTween_To_m29FF04132DD76AFF686CF5DBCCD84CB6105A2DB8(L_8, L_10, L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:110>
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_14 = L_13;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15 = ___0_target;
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_16;
 		L_16 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_mA961948C0215BFB1350EBB68B4D0E372AC42B0E9(L_14, L_15, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77_mA961948C0215BFB1350EBB68B4D0E372AC42B0E9_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:111>
 		return L_14;
 	}
 }
-// Method Definition Index: 75191
+// Method Definition Index: 75184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* ShortcutExtensionsTMPText_DOCounter_m932AB2A8531683E91C2F3D408EC279962B630B0D (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, int32_t ___1_fromValue, int32_t ___2_endValue, float ___3_duration, bool ___4_addThousandsSeparator, CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___5_culture, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22378,12 +21192,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394
 		bool L_4 = ___4_addThousandsSeparator;
 		NullCheck(L_3);
 		L_3->___addThousandsSeparator = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:125>
 		U3CU3Ec__DisplayClass7_0_tAA862F5F3581F76011BDECCD532F300CFC53EE00* L_5 = V_0;
 		int32_t L_6 = ___1_fromValue;
 		NullCheck(L_5);
 		L_5->___v = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:126>
 		U3CU3Ec__DisplayClass7_0_tAA862F5F3581F76011BDECCD532F300CFC53EE00* L_7 = V_0;
 		U3CU3Ec__DisplayClass7_0_tAA862F5F3581F76011BDECCD532F300CFC53EE00* L_8 = V_0;
 		NullCheck(L_8);
@@ -22427,12 +21239,6 @@ IL_0033:
 		NullCheck(G_B4_1);
 		G_B4_1->___cInfo = G_B4_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B4_1->___cInfo), (void*)G_B4_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:127>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:128>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:129>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:130>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:131>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:132>
 		U3CU3Ec__DisplayClass7_0_tAA862F5F3581F76011BDECCD532F300CFC53EE00* L_13 = V_0;
 		DOGetter_1_t126D20ADA2999ECC8E5336D1EDE57C560F53784B* L_14 = (DOGetter_1_t126D20ADA2999ECC8E5336D1EDE57C560F53784B*)il2cpp_codegen_object_new(DOGetter_1_t126D20ADA2999ECC8E5336D1EDE57C560F53784B_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m5586C4AB5126DB0C5D2BDB10005E502A150C7710(L_14, L_13, (intptr_t)((void*)U3CU3Ec__DisplayClass7_0_U3CDOCounterU3Eb__0_mD04BA85B1DEF2D1386780843E7AC8BBD70175B7A_RuntimeMethod_var), NULL);
@@ -22444,18 +21250,16 @@ IL_0033:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* L_19;
 		L_19 = DOTween_To_mE00A5CA8947AD59966A2CFE3810F1FEEC83E157B(L_14, L_16, L_17, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:133>
 		TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* L_20 = L_19;
 		U3CU3Ec__DisplayClass7_0_tAA862F5F3581F76011BDECCD532F300CFC53EE00* L_21 = V_0;
 		NullCheck(L_21);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_22 = L_21->___target;
 		TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* L_23;
 		L_23 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C_m82894E84FCB9577C2BA36B22C720E143E6AAA5E1(L_20, L_22, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C_m82894E84FCB9577C2BA36B22C720E143E6AAA5E1_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:134>
 		return L_20;
 	}
 }
-// Method Definition Index: 75192
+// Method Definition Index: 75185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* ShortcutExtensionsTMPText_DOFontSize_mEFF48A9A1CB33E1666A1295F26EFEC06A5D1E2D7 (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22480,7 +21284,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:142>
 		U3CU3Ec__DisplayClass8_0_t904F354BADB832307A9E4512DE32B3F1F1C24AF2* L_3 = V_0;
 		DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03* L_4 = (DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03*)il2cpp_codegen_object_new(DOGetter_1_tE8B39477E96408653D0242624F4D7E48ABFD1B03_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mD5E79861254E8BFB1618B3AB0B9755D18F553CFA(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass8_0_U3CDOFontSizeU3Eb__0_m33C59EC9DCA913625B4251086C2B5FAE90E5BE96_RuntimeMethod_var), NULL);
@@ -22492,18 +21295,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D81
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_9;
 		L_9 = DOTween_To_m9C9EBC0FB6CF94364DD4FF85C476D8EE0A7FF4B1(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:143>
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_10 = L_9;
 		U3CU3Ec__DisplayClass8_0_t904F354BADB832307A9E4512DE32B3F1F1C24AF2* L_11 = V_0;
 		NullCheck(L_11);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12 = L_11->___target;
 		TweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t88CA32E51F4E95E6907CE2C6FD5D8122059AC2C1_mA243607C4C4547BCED17CDE4E9E424AE2B7D2AA5_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:144>
 		return L_10;
 	}
 }
-// Method Definition Index: 75193
+// Method Definition Index: 75186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* ShortcutExtensionsTMPText_DOMaxVisibleCharacters_m9EB1121FDAAAFCB20FD10AD86A39D583A8C62C8E (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, int32_t ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22528,7 +21329,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:152>
 		U3CU3Ec__DisplayClass9_0_tBE3BEF49CFDB17B732D91885EDA86155BEA489D7* L_3 = V_0;
 		DOGetter_1_t126D20ADA2999ECC8E5336D1EDE57C560F53784B* L_4 = (DOGetter_1_t126D20ADA2999ECC8E5336D1EDE57C560F53784B*)il2cpp_codegen_object_new(DOGetter_1_t126D20ADA2999ECC8E5336D1EDE57C560F53784B_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m5586C4AB5126DB0C5D2BDB10005E502A150C7710(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass9_0_U3CDOMaxVisibleCharactersU3Eb__0_m92EDF200A91BF5B40FCD9ED45E2F71CDF1AE14F6_RuntimeMethod_var), NULL);
@@ -22540,18 +21340,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* L_9;
 		L_9 = DOTween_To_mE00A5CA8947AD59966A2CFE3810F1FEEC83E157B(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:153>
 		TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* L_10 = L_9;
 		U3CU3Ec__DisplayClass9_0_tBE3BEF49CFDB17B732D91885EDA86155BEA489D7* L_11 = V_0;
 		NullCheck(L_11);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12 = L_11->___target;
 		TweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C* L_13;
 		L_13 = TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C_m82894E84FCB9577C2BA36B22C720E143E6AAA5E1(L_10, L_12, TweenSettingsExtensions_SetTarget_TisTweenerCore_3_t9535EBAA281A1D58F2F4C103D11394072D85754C_m82894E84FCB9577C2BA36B22C720E143E6AAA5E1_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:154>
 		return L_10;
 	}
 }
-// Method Definition Index: 75194
+// Method Definition Index: 75187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t390910F1CE8B4737AA72FEED470399C8DBE1AF8B* ShortcutExtensionsTMPText_DOText_mB97D83D095692DEB420B61DE036B344269735AEC (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, String_t* ___1_endValue, float ___2_duration, bool ___3_richTextEnabled, int32_t ___4_scrambleMode, String_t* ___5_scrambleChars, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22576,7 +21374,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t390910F1CE8B4737AA72FEED470399
 		NullCheck(L_1);
 		L_1->___target = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___target), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:168>
 		U3CU3Ec__DisplayClass10_0_t66BEA54EB5FAC5CEF5D4B78CC8D43062D252798C* L_3 = V_0;
 		DOGetter_1_t65A2B66606014CD7EFBA1D8DDD1273F57511D146* L_4 = (DOGetter_1_t65A2B66606014CD7EFBA1D8DDD1273F57511D146*)il2cpp_codegen_object_new(DOGetter_1_t65A2B66606014CD7EFBA1D8DDD1273F57511D146_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_mC8C03B65352C1426F2985D1516464D9A6E48D1EC(L_4, L_3, (intptr_t)((void*)U3CU3Ec__DisplayClass10_0_U3CDOTextU3Eb__0_mBBDE9CC379D54B4750E6AFA505BD0AA285D764DD_RuntimeMethod_var), NULL);
@@ -22588,8 +21385,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t390910F1CE8B4737AA72FEED470399
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t390910F1CE8B4737AA72FEED470399C8DBE1AF8B* L_9;
 		L_9 = DOTween_To_mA4E61D06204BD01537C08EEB9ED148C18ABC75ED(L_4, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:169>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:170>
 		TweenerCore_3_t390910F1CE8B4737AA72FEED470399C8DBE1AF8B* L_10 = L_9;
 		bool L_11 = ___3_richTextEnabled;
 		int32_t L_12 = ___4_scrambleMode;
@@ -22601,7 +21396,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t390910F1CE8B4737AA72FEED470399
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_16 = L_15->___target;
 		Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* L_17;
 		L_17 = TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273(L_14, L_16, TweenSettingsExtensions_SetTarget_TisTweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140_m0BD4EC3CF03134447DFCBD733FC34CB1A965A273_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:171>
 		return L_10;
 	}
 }
@@ -22613,7 +21407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t390910F1CE8B4737AA72FEED470399
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75195
+// Method Definition Index: 75188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_mFFEC6F9AE5EE6F56A6BD345C5AC027A0063609FC (U3CU3Ec__DisplayClass0_0_tE14D7E7A879ED518C9F5E76C023D9A761C04B728* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22621,11 +21415,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0__ctor_mFFEC6F9A
 		return;
 	}
 }
-// Method Definition Index: 75196
+// Method Definition Index: 75189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass0_0_U3CDOColorU3Eb__0_mD909979486F9A0E6857F76C1FEE225EF74E802B5 (U3CU3Ec__DisplayClass0_0_tE14D7E7A879ED518C9F5E76C023D9A761C04B728* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:40>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -22633,11 +21426,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 75197
+// Method Definition Index: 75190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0_U3CDOColorU3Eb__1_m843346232A0E8BEE0A398334A0CEF50F1167F274 (U3CU3Ec__DisplayClass0_0_tE14D7E7A879ED518C9F5E76C023D9A761C04B728* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:40>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -22653,7 +21445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass0_0_U3CDOColorU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75198
+// Method Definition Index: 75191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m2C95D53A775E614AAB1A77F81D9B2ACAA738B339 (U3CU3Ec__DisplayClass10_0_t66BEA54EB5FAC5CEF5D4B78CC8D43062D252798C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22661,11 +21453,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0__ctor_m2C95D53
 		return;
 	}
 }
-// Method Definition Index: 75199
+// Method Definition Index: 75192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec__DisplayClass10_0_U3CDOTextU3Eb__0_mBBDE9CC379D54B4750E6AFA505BD0AA285D764DD (U3CU3Ec__DisplayClass10_0_t66BEA54EB5FAC5CEF5D4B78CC8D43062D252798C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:168>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -22673,11 +21464,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* U3CU3Ec__DisplayClass10_0_U3CDOText
 		return L_1;
 	}
 }
-// Method Definition Index: 75200
+// Method Definition Index: 75193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CDOTextU3Eb__1_mEDEEDBF23FF29CB183627DDFC4A42D25832707D9 (U3CU3Ec__DisplayClass10_0_t66BEA54EB5FAC5CEF5D4B78CC8D43062D252798C* __this, String_t* ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:168>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		String_t* L_1 = ___0_x;
 		NullCheck(L_0);
@@ -22693,7 +21483,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass10_0_U3CDOTextU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75201
+// Method Definition Index: 75194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m9706DC720CC4233B3A162EF2E9CC43005E18B579 (U3CU3Ec__DisplayClass1_0_tC19DEF3A33510CDA99E16A1F7A7808BDDD634E5B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22701,11 +21491,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0__ctor_m9706DC72
 		return;
 	}
 }
-// Method Definition Index: 75202
+// Method Definition Index: 75195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass1_0_U3CDOFaceColorU3Eb__0_mC05DA7D1887AF548B8D8B0C691C01FEBD978A363 (U3CU3Ec__DisplayClass1_0_tC19DEF3A33510CDA99E16A1F7A7808BDDD634E5B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:50>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1;
@@ -22715,11 +21504,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_2;
 	}
 }
-// Method Definition Index: 75203
+// Method Definition Index: 75196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CDOFaceColorU3Eb__1_mDD106378DAC2C2FBB847B351BE6DB6A2145B352F (U3CU3Ec__DisplayClass1_0_tC19DEF3A33510CDA99E16A1F7A7808BDDD634E5B* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:50>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2;
@@ -22737,7 +21525,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass1_0_U3CDOFaceColorU
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75204
+// Method Definition Index: 75197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_mCA11EE1BBC5AEEB0D149A79D6328092072AB8EF6 (U3CU3Ec__DisplayClass2_0_t24B42CA89DA798F109A694A0E493F298FFF3F187* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22745,11 +21533,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0__ctor_mCA11EE1B
 		return;
 	}
 }
-// Method Definition Index: 75205
+// Method Definition Index: 75198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass2_0_U3CDOOutlineColorU3Eb__0_mCE83E201DFA594BEB2593A6E4C5276F9BD84E9DC (U3CU3Ec__DisplayClass2_0_t24B42CA89DA798F109A694A0E493F298FFF3F187* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:60>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1;
@@ -22759,11 +21546,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_2;
 	}
 }
-// Method Definition Index: 75206
+// Method Definition Index: 75199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CDOOutlineColorU3Eb__1_m3A0D2E0A5C5F225E58990C722E20E5CA216F927D (U3CU3Ec__DisplayClass2_0_t24B42CA89DA798F109A694A0E493F298FFF3F187* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:60>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2;
@@ -22781,7 +21567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CDOOutlineCol
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75207
+// Method Definition Index: 75200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_mB2885068E525995CC3646D0D9B2C6C843DF29355 (U3CU3Ec__DisplayClass4_0_t3E8AB1010177D64F6B44D77AB69AD3F663E83B9F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22789,11 +21575,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_mB2885068
 		return;
 	}
 }
-// Method Definition Index: 75208
+// Method Definition Index: 75201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass4_0_U3CDOFadeU3Eb__0_m0089D80B79D12467E00CBA3889E7AFE54CB0BE78 (U3CU3Ec__DisplayClass4_0_t3E8AB1010177D64F6B44D77AB69AD3F663E83B9F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:83>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
@@ -22801,11 +21586,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 75209
+// Method Definition Index: 75202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOFadeU3Eb__1_m998C7CA102C3320E9E9B6E469B23BB22A54188AA (U3CU3Ec__DisplayClass4_0_t3E8AB1010177D64F6B44D77AB69AD3F663E83B9F* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:83>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		NullCheck(L_0);
@@ -22821,7 +21605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CDOFadeU3Eb__
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75210
+// Method Definition Index: 75203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m3F3C16C4DDBCDB0A72602FD38A3E5A3A311572FE (U3CU3Ec__DisplayClass5_0_t16F9EB8E1A94CE955CE6B70A186FA984CBED6C68* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22829,11 +21613,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m3F3C16C4
 		return;
 	}
 }
-// Method Definition Index: 75211
+// Method Definition Index: 75204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass5_0_U3CDOFaceFadeU3Eb__0_mFC1170E2BE75E499A0E2A6AF7365C6DFF52BE12C (U3CU3Ec__DisplayClass5_0_t16F9EB8E1A94CE955CE6B70A186FA984CBED6C68* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:93>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		NullCheck(L_0);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_1;
@@ -22843,11 +21626,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_2;
 	}
 }
-// Method Definition Index: 75212
+// Method Definition Index: 75205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CDOFaceFadeU3Eb__1_m73B76103852421FC1BE04D549BCF57D540140DAC (U3CU3Ec__DisplayClass5_0_t16F9EB8E1A94CE955CE6B70A186FA984CBED6C68* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:93>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___0_x;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_2;
@@ -22865,7 +21647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CDOFaceFadeU3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75213
+// Method Definition Index: 75206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m4A940E75859FD6FC3C09C73E023388F7AF19AC46 (U3CU3Ec__DisplayClass6_0_t2BEDF304D8CCFF964012AF23DBF00C6D27C448BA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22873,11 +21655,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_m4A940E75
 		return;
 	}
 }
-// Method Definition Index: 75214
+// Method Definition Index: 75207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass6_0_U3CDOScaleU3Eb__0_m88357A70F7E2263A9D921E7A669D791BDA4FE57D (U3CU3Ec__DisplayClass6_0_t2BEDF304D8CCFF964012AF23DBF00C6D27C448BA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:109>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___trans;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -22885,11 +21666,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 75215
+// Method Definition Index: 75208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CDOScaleU3Eb__1_m819F8FBB9220784C3D08E84C8B7085FCE3B77B2E (U3CU3Ec__DisplayClass6_0_t2BEDF304D8CCFF964012AF23DBF00C6D27C448BA* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:109>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___trans;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_x;
 		NullCheck(L_0);
@@ -22905,7 +21685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CDOScaleU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75216
+// Method Definition Index: 75209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_m9D73A1126FA73BE22D54A9A75818CDE806E6E039 (U3CU3Ec__DisplayClass7_0_tAA862F5F3581F76011BDECCD532F300CFC53EE00* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22913,16 +21693,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_m9D73A112
 		return;
 	}
 }
-// Method Definition Index: 75217
+// Method Definition Index: 75210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass7_0_U3CDOCounterU3Eb__0_mD04BA85B1DEF2D1386780843E7AC8BBD70175B7A (U3CU3Ec__DisplayClass7_0_tAA862F5F3581F76011BDECCD532F300CFC53EE00* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:127>
 		int32_t L_0 = __this->___v;
 		return L_0;
 	}
 }
-// Method Definition Index: 75218
+// Method Definition Index: 75211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3CDOCounterU3Eb__1_m921F34B825D39FF7DED49361985BB79D133F2782 (U3CU3Ec__DisplayClass7_0_tAA862F5F3581F76011BDECCD532F300CFC53EE00* __this, int32_t ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22936,12 +21715,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3CDOCounterU3E
 	String_t* G_B3_0 = NULL;
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:128>
 		int32_t L_0 = ___0_x;
 		__this->___v = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:129>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:130>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:131>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___target;
 		bool L_2 = __this->___addThousandsSeparator;
 		if (L_2)
@@ -22974,7 +21749,6 @@ IL_0038:
 	{
 		NullCheck(G_B3_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, G_B3_1, G_B3_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:132>
 		return;
 	}
 }
@@ -22986,7 +21760,7 @@ IL_0038:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75219
+// Method Definition Index: 75212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_mB411B2BC706A1B5024CFE78766DEC6D591EAFA52 (U3CU3Ec__DisplayClass8_0_t904F354BADB832307A9E4512DE32B3F1F1C24AF2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22994,11 +21768,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_mB411B2BC
 		return;
 	}
 }
-// Method Definition Index: 75220
+// Method Definition Index: 75213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass8_0_U3CDOFontSizeU3Eb__0_m33C59EC9DCA913625B4251086C2B5FAE90E5BE96 (U3CU3Ec__DisplayClass8_0_t904F354BADB832307A9E4512DE32B3F1F1C24AF2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:142>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		NullCheck(L_0);
 		float L_1;
@@ -23006,11 +21779,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float U3CU3Ec__DisplayClass8_0_U3CDOFontSizeU
 		return L_1;
 	}
 }
-// Method Definition Index: 75221
+// Method Definition Index: 75214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CDOFontSizeU3Eb__1_m8B0437F97EEBF73156FB50C211BAF542FB9FAC77 (U3CU3Ec__DisplayClass8_0_t904F354BADB832307A9E4512DE32B3F1F1C24AF2* __this, float ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:142>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		float L_1 = ___0_x;
 		NullCheck(L_0);
@@ -23026,7 +21798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CDOFontSizeU3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75222
+// Method Definition Index: 75215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m630D3919CCFBB31C6247879D8D4FA7AAD9FF0D6A (U3CU3Ec__DisplayClass9_0_tBE3BEF49CFDB17B732D91885EDA86155BEA489D7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23034,11 +21806,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m630D3919
 		return;
 	}
 }
-// Method Definition Index: 75223
+// Method Definition Index: 75216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass9_0_U3CDOMaxVisibleCharactersU3Eb__0_m92EDF200A91BF5B40FCD9ED45E2F71CDF1AE14F6 (U3CU3Ec__DisplayClass9_0_tBE3BEF49CFDB17B732D91885EDA86155BEA489D7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:152>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -23046,11 +21817,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass9_0_U3CDOMaxVisi
 		return L_1;
 	}
 }
-// Method Definition Index: 75224
+// Method Definition Index: 75217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CDOMaxVisibleCharactersU3Eb__1_mFA4AA616BFB77E52FA3FD0D0CF5045FE401FFAD3 (U3CU3Ec__DisplayClass9_0_tBE3BEF49CFDB17B732D91885EDA86155BEA489D7* __this, int32_t ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:152>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___target;
 		int32_t L_1 = ___0_x;
 		NullCheck(L_0);
@@ -23066,47 +21836,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3CDOMaxVisible
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75225
+// Method Definition Index: 75218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:197>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___U3CtargetU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75226
+// Method Definition Index: 75219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_set_target_mC9393140D64FBCAA18D664338B61EA9C5D11CDA0 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:197>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = ___0_value;
 		__this->___U3CtargetU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtargetU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75227
+// Method Definition Index: 75220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* DOTweenTMPAnimator_get_textInfo_mAA123F3C17044974AA8939E42703055795916188 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:198>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_0 = __this->___U3CtextInfoU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75228
+// Method Definition Index: 75221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_set_textInfo_mA10881B2578BACB91D1BEA975877250FEE309A91 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:198>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_0 = ___0_value;
 		__this->___U3CtextInfoU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextInfoU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75229
+// Method Definition Index: 75222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator__ctor_m2EB30BEA0F2D91E0CFCBC7A0CD7FE2297FA707BA (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23130,14 +21896,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator__ctor_m2EB30BEA0F2D91
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:199>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_0 = (List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD*)il2cpp_codegen_object_new(List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD_il2cpp_TypeInfo_var);
 		List_1__ctor_m14054BC7DE83B9A59F360D2DEAF641952F48B1B6(L_0, List_1__ctor_m14054BC7DE83B9A59F360D2DEAF641952F48B1B6_RuntimeMethod_var);
 		__this->____charTransforms = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____charTransforms), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:211>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:213>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = ___0_target;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -23148,15 +21911,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator__ctor_m2EB30BEA0F2D91
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:214>
 		Debugger_LogError_mBAD7F720F13F12B84A27F564F83F00B66EEE6B9E(_stringLiteral492EB4EEE4EE4BAF509ECF3F0A3CB6B1543726FC, (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:215>
 		return;
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:217>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = ___0_target;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
@@ -23170,15 +21930,12 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:218>
 		Debugger_LogError_mBAD7F720F13F12B84A27F564F83F00B66EEE6B9E(_stringLiteral7EA98F4FF54DE6FC50D1F5539AD2AF401DF30E16, (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:219>
 		return;
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:222>
 		il2cpp_codegen_runtime_class_init_inline(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var);
 		Dictionary_2_tDC2DB168C23D3A6A612BE9A9492FD23181B44978* L_6 = ((DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var))->____targetToAnimator;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7 = ___0_target;
@@ -23191,7 +21948,6 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:223>
 		int32_t L_9;
 		L_9 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_9) < ((int32_t)2)))
@@ -23200,11 +21956,6 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:224>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:225>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:226>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:227>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:228>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_10 = ___0_target;
 		String_t* L_11;
 		L_11 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralE7DF27C81E67B19DD4B73529B7FFAD903794E4C7, L_10, NULL);
@@ -23213,7 +21964,6 @@ IL_003f:
 
 IL_0064:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:230>
 		il2cpp_codegen_runtime_class_init_inline(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var);
 		Dictionary_2_tDC2DB168C23D3A6A612BE9A9492FD23181B44978* L_12 = ((DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var))->____targetToAnimator;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = ___0_target;
@@ -23222,7 +21972,6 @@ IL_0064:
 		L_14 = Dictionary_2_get_Item_mEB2C807E658BB120E547C032A3D96DF3BFC09631(L_12, L_13, Dictionary_2_get_Item_mEB2C807E658BB120E547C032A3D96DF3BFC09631_RuntimeMethod_var);
 		NullCheck(L_14);
 		DOTweenTMPAnimator_Dispose_mD71C3F9AC5D27D21388CB559F9B2C134929559E3(L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:231>
 		Dictionary_2_tDC2DB168C23D3A6A612BE9A9492FD23181B44978* L_15 = ((DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var))->____targetToAnimator;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_16 = ___0_target;
 		NullCheck(L_15);
@@ -23232,29 +21981,24 @@ IL_0064:
 
 IL_0080:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:234>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_18 = ___0_target;
 		DOTweenTMPAnimator_set_target_mC9393140D64FBCAA18D664338B61EA9C5D11CDA0_inline(__this, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:235>
 		il2cpp_codegen_runtime_class_init_inline(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var);
 		Dictionary_2_tDC2DB168C23D3A6A612BE9A9492FD23181B44978* L_19 = ((DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var))->____targetToAnimator;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_20 = ___0_target;
 		NullCheck(L_19);
 		Dictionary_2_Add_m1E7B6B4335C368363EB25167E2800DF683215724(L_19, L_20, __this, Dictionary_2_Add_m1E7B6B4335C368363EB25167E2800DF683215724_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:236>
 		DOTweenTMPAnimator_Refresh_m1EB230F9B6A52CB6800D957A4CBAD6ECE9592B3C(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:238>
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_21 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT;
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_22 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_22, __this, (intptr_t)((void*)DOTweenTMPAnimator_OnTextChanged_mC12AA917AD32DEA4D6348D75025ADA91E00323AC_RuntimeMethod_var), NULL);
 		NullCheck(L_21);
 		FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6(L_21, L_22, FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:239>
 		return;
 	}
 }
-// Method Definition Index: 75230
+// Method Definition Index: 75223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_DisposeInstanceFor_m27183574662A0C0846E94BBA6C18134DA1F4001D (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23267,7 +22011,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_DisposeInstanceFor_m2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:246>
 		il2cpp_codegen_runtime_class_init_inline(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var);
 		Dictionary_2_tDC2DB168C23D3A6A612BE9A9492FD23181B44978* L_0 = ((DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var))->____targetToAnimator;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = ___0_target;
@@ -23280,13 +22023,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_DisposeInstanceFor_m2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:246>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:247>
 		il2cpp_codegen_runtime_class_init_inline(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var);
 		Dictionary_2_tDC2DB168C23D3A6A612BE9A9492FD23181B44978* L_3 = ((DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var))->____targetToAnimator;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = ___0_target;
@@ -23295,17 +22036,15 @@ IL_000e:
 		L_5 = Dictionary_2_get_Item_mEB2C807E658BB120E547C032A3D96DF3BFC09631(L_3, L_4, Dictionary_2_get_Item_mEB2C807E658BB120E547C032A3D96DF3BFC09631_RuntimeMethod_var);
 		NullCheck(L_5);
 		DOTweenTMPAnimator_Dispose_mD71C3F9AC5D27D21388CB559F9B2C134929559E3(L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:248>
 		Dictionary_2_tDC2DB168C23D3A6A612BE9A9492FD23181B44978* L_6 = ((DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var))->____targetToAnimator;
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7 = ___0_target;
 		NullCheck(L_6);
 		bool L_8;
 		L_8 = Dictionary_2_Remove_mA3EF7E12B9A5C96EA7EC86EFF29D8943BAB95C36(L_6, L_7, Dictionary_2_Remove_mA3EF7E12B9A5C96EA7EC86EFF29D8943BAB95C36_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:249>
 		return;
 	}
 }
-// Method Definition Index: 75231
+// Method Definition Index: 75224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_Dispose_mD71C3F9AC5D27D21388CB559F9B2C134929559E3 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23319,29 +22058,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_Dispose_mD71C3F9AC5D2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:256>
 		DOTweenTMPAnimator_set_target_mC9393140D64FBCAA18D664338B61EA9C5D11CDA0_inline(__this, (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:257>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_0 = __this->____charTransforms;
 		NullCheck(L_0);
 		List_1_Clear_m26DBFB2204450ADC27E2637B08D63AC8973E3FB7_inline(L_0, List_1_Clear_m26DBFB2204450ADC27E2637B08D63AC8973E3FB7_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:258>
 		DOTweenTMPAnimator_set_textInfo_mA10881B2578BACB91D1BEA975877250FEE309A91_inline(__this, (TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:259>
 		__this->____cachedMeshInfos = (TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedMeshInfos), (void*)(TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:260>
 		il2cpp_codegen_runtime_class_init_inline(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var);
 		FastAction_1_tE50C6A692DF85AB55BE3160B659FA7DF19DFA005* L_1 = ((TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_StaticFields*)il2cpp_codegen_static_fields_for(TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var))->___TEXT_CHANGED_EVENT;
 		Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A* L_2 = (Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A*)il2cpp_codegen_object_new(Action_1_t7F8A08D55E64F30F0E9A4213699C99903459421A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m95478636F075134CA2998E22B214611472600983(L_2, __this, (intptr_t)((void*)DOTweenTMPAnimator_OnTextChanged_mC12AA917AD32DEA4D6348D75025ADA91E00323AC_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F(L_1, L_2, FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:261>
 		return;
 	}
 }
-// Method Definition Index: 75232
+// Method Definition Index: 75225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_Refresh_m1EB230F9B6A52CB6800D957A4CBAD6ECE9592B3C (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23361,21 +22094,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_Refresh_m1EB230F9B6A5
 	memset((&V_3), 0, sizeof(V_3));
 	int32_t V_4 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:268>
 		__this->____ignoreTextChangedEvent = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:269>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0;
 		L_0 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker2< bool, bool >::Invoke(106, L_0, (bool)1, (bool)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:270>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1;
 		L_1 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		NullCheck(L_1);
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_2;
 		L_2 = TMP_Text_get_textInfo_mA24C606B8EA51436E4AA3B9D6DCDFA7A8995E10E(L_1, NULL);
 		DOTweenTMPAnimator_set_textInfo_mA10881B2578BACB91D1BEA975877250FEE309A91_inline(__this, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:271>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_3;
 		L_3 = DOTweenTMPAnimator_get_textInfo_mAA123F3C17044974AA8939E42703055795916188_inline(__this, NULL);
 		NullCheck(L_3);
@@ -23383,19 +22112,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_Refresh_m1EB230F9B6A5
 		L_4 = TMP_TextInfo_CopyMeshInfoVertexData_mF66E2F8821470E68D95FEB53D456CFA86241C0CA(L_3, NULL);
 		__this->____cachedMeshInfos = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedMeshInfos), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:272>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_5;
 		L_5 = DOTweenTMPAnimator_get_textInfo_mAA123F3C17044974AA8939E42703055795916188_inline(__this, NULL);
 		NullCheck(L_5);
 		int32_t L_6 = L_5->___characterCount;
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:273>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_7 = __this->____charTransforms;
 		NullCheck(L_7);
 		int32_t L_8;
 		L_8 = List_1_get_Count_m1F0C670CBE37E00CF1F4B61CA29730B5B463F211_inline(L_7, List_1_get_Count_m1F0C670CBE37E00CF1F4B61CA29730B5B463F211_RuntimeMethod_var);
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:274>
 		int32_t L_9 = V_1;
 		int32_t L_10 = V_0;
 		if ((((int32_t)L_9) <= ((int32_t)L_10)))
@@ -23404,55 +22130,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_Refresh_m1EB230F9B6A5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:275>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_11 = __this->____charTransforms;
 		int32_t L_12 = V_0;
 		int32_t L_13 = V_1;
 		int32_t L_14 = V_0;
 		NullCheck(L_11);
 		List_1_RemoveRange_m01B1FA220ED260FD238B67F536EBB006561012BB(L_11, L_12, ((int32_t)il2cpp_codegen_subtract(L_13, L_14)), List_1_RemoveRange_m01B1FA220ED260FD238B67F536EBB006561012BB_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:276>
 		int32_t L_15 = V_0;
 		V_1 = L_15;
 	}
 
 IL_0063:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:278>
 		V_2 = 0;
 		goto IL_009f;
 	}
 
 IL_0067:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:279>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_16 = __this->____charTransforms;
 		int32_t L_17 = V_2;
 		NullCheck(L_16);
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_18;
 		L_18 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_16, L_17, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_3 = L_18;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:280>
 		CharTransform_ResetTransformationData_mD9C57EDE2CB89AA9E2A9579C049711C0181AF9F4((&V_3), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:281>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_19;
 		L_19 = DOTweenTMPAnimator_get_textInfo_mAA123F3C17044974AA8939E42703055795916188_inline(__this, NULL);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_20 = __this->____cachedMeshInfos;
 		CharTransform_Refresh_m0384D72BEFC9114E8A0361CC553E8F4D15219B30((&V_3), L_19, L_20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:282>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_21 = __this->____charTransforms;
 		int32_t L_22 = V_2;
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_23 = V_3;
 		NullCheck(L_21);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_21, L_22, L_23, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:278>
 		int32_t L_24 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 	}
 
 IL_009f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:278>
 		int32_t L_25 = V_2;
 		int32_t L_26 = V_1;
 		if ((((int32_t)L_25) < ((int32_t)L_26)))
@@ -23461,7 +22178,6 @@ IL_009f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:284>
 		int32_t L_27 = V_1;
 		V_4 = L_27;
 		goto IL_00cc;
@@ -23469,7 +22185,6 @@ IL_009f:
 
 IL_00a8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:284>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_28 = __this->____charTransforms;
 		int32_t L_29 = V_4;
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_30;
@@ -23480,14 +22195,12 @@ IL_00a8:
 		CharTransform__ctor_mD4454207267D4E9B1F38C11FEE8366B5E864B338((&L_32), L_29, L_30, L_31, NULL);
 		NullCheck(L_28);
 		List_1_Add_m38F50E1AB82D3925785B2EEEFA7E72E97C3C982C_inline(L_28, L_32, List_1_Add_m38F50E1AB82D3925785B2EEEFA7E72E97C3C982C_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:284>
 		int32_t L_33 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_33, 1));
 	}
 
 IL_00cc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:284>
 		int32_t L_34 = V_4;
 		int32_t L_35 = V_0;
 		if ((((int32_t)L_34) < ((int32_t)L_35)))
@@ -23496,13 +22209,11 @@ IL_00cc:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:285>
 		__this->____ignoreTextChangedEvent = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:286>
 		return;
 	}
 }
-// Method Definition Index: 75233
+// Method Definition Index: 75226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_Reset_mDF2D31D515686188F8995FCE4A86D9B90B5C75F2 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23517,20 +22228,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_Reset_mDF2D31D5156861
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:293>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_0 = __this->____charTransforms;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_m1F0C670CBE37E00CF1F4B61CA29730B5B463F211_inline(L_0, List_1_get_Count_m1F0C670CBE37E00CF1F4B61CA29730B5B463F211_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:294>
 		V_1 = 0;
 		goto IL_003f;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:294>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_2 = __this->____charTransforms;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -23545,14 +22253,12 @@ IL_0010:
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_7 = L_6->___meshInfo;
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_8 = __this->____cachedMeshInfos;
 		CharTransform_ResetAll_m039FC911C41EF9E433983E0FD7AB63B7A3DED2F3((&V_2), L_5, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:294>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:294>
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_0;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -23561,11 +22267,10 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:295>
 		return;
 	}
 }
-// Method Definition Index: 75234
+// Method Definition Index: 75227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_OnTextChanged_mC12AA917AD32DEA4D6348D75025ADA91E00323AC (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23575,7 +22280,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_OnTextChanged_mC12AA9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:299>
 		bool L_0 = __this->____ignoreTextChangedEvent;
 		if (L_0)
 		{
@@ -23608,19 +22312,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_OnTextChanged_mC12AA9
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:299>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:300>
 		DOTweenTMPAnimator_Refresh_m1EB230F9B6A52CB6800D957A4CBAD6ECE9592B3C(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:301>
 		return;
 	}
 }
-// Method Definition Index: 75235
+// Method Definition Index: 75228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, bool ___1_isTween, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23632,7 +22333,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DOTweenTMPAnimator_ValidateChar_mBC9B4A2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:305>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_0;
 		L_0 = DOTweenTMPAnimator_get_textInfo_mAA123F3C17044974AA8939E42703055795916188_inline(__this, NULL);
 		NullCheck(L_0);
@@ -23644,20 +22344,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DOTweenTMPAnimator_ValidateChar_mBC9B4A2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:306>
 		int32_t L_3 = ___0_charIndex;
 		int32_t L_4 = L_3;
 		RuntimeObject* L_5 = Box(il2cpp_defaults.int32_class, &L_4);
 		String_t* L_6;
 		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral4D543BD2075E8FA9B61BAE54ABC859848A843E4E, L_5, NULL);
 		Debugger_LogError_mBAD7F720F13F12B84A27F564F83F00B66EEE6B9E(L_6, (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:307>
 		return (bool)0;
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:309>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_7;
 		L_7 = DOTweenTMPAnimator_get_textInfo_mAA123F3C17044974AA8939E42703055795916188_inline(__this, NULL);
 		NullCheck(L_7);
@@ -23671,7 +22368,6 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:310>
 		int32_t L_11;
 		L_11 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_11) <= ((int32_t)1)))
@@ -23680,7 +22376,6 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:311>
 		bool L_12 = ___1_isTween;
 		if (!L_12)
 		{
@@ -23688,10 +22383,6 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:312>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:313>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:314>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:315>
 		int32_t L_13 = ___0_charIndex;
 		int32_t L_14 = L_13;
 		RuntimeObject* L_15 = Box(il2cpp_defaults.int32_class, &L_14);
@@ -23703,7 +22394,6 @@ IL_0026:
 
 IL_0060:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:317>
 		int32_t L_17 = ___0_charIndex;
 		int32_t L_18 = L_17;
 		RuntimeObject* L_19 = Box(il2cpp_defaults.int32_class, &L_18);
@@ -23714,17 +22404,15 @@ IL_0060:
 
 IL_0075:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:320>
 		return (bool)0;
 	}
 
 IL_0077:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:322>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 75236
+// Method Definition Index: 75229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DOTweenTMPAnimator_ValidateSpan_m9D5F27A9AB040114A0AF0DC637BA57EAA6F91969 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_fromCharIndex, int32_t ___1_toCharIndex, int32_t* ___2_firstVisibleCharIndex, int32_t* ___3_lastVisibleCharIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23739,19 +22427,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DOTweenTMPAnimator_ValidateSpan_m9D5F27A
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:327>
 		int32_t* L_0 = ___2_firstVisibleCharIndex;
 		*((int32_t*)L_0) = (int32_t)(-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:328>
 		int32_t* L_1 = ___3_lastVisibleCharIndex;
 		*((int32_t*)L_1) = (int32_t)(-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:329>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_2;
 		L_2 = DOTweenTMPAnimator_get_textInfo_mAA123F3C17044974AA8939E42703055795916188_inline(__this, NULL);
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___characterCount;
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:330>
 		int32_t L_4 = ___0_fromCharIndex;
 		int32_t L_5 = V_0;
 		if ((((int32_t)L_4) < ((int32_t)L_5)))
@@ -23760,13 +22444,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DOTweenTMPAnimator_ValidateSpan_m9D5F27A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:330>
 		return (bool)0;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:331>
 		int32_t L_6 = ___1_toCharIndex;
 		int32_t L_7 = V_0;
 		if ((((int32_t)L_6) < ((int32_t)L_7)))
@@ -23775,14 +22457,12 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:331>
 		int32_t L_8 = V_0;
 		___1_toCharIndex = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:332>
 		int32_t L_9 = ___0_fromCharIndex;
 		V_1 = L_9;
 		goto IL_0045;
@@ -23790,7 +22470,6 @@ IL_0022:
 
 IL_0026:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:333>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_10 = __this->____charTransforms;
 		int32_t L_11 = V_1;
 		NullCheck(L_10);
@@ -23805,24 +22484,20 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:334>
 		int32_t* L_14 = ___2_firstVisibleCharIndex;
 		int32_t L_15 = V_1;
 		*((int32_t*)L_14) = (int32_t)L_15;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:335>
 		goto IL_004b;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:332>
 		int32_t L_16 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_0045:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:332>
 		int32_t L_17 = V_1;
 		int32_t L_18 = ___1_toCharIndex;
 		if ((((int32_t)L_17) < ((int32_t)((int32_t)il2cpp_codegen_add(L_18, 1)))))
@@ -23833,7 +22508,6 @@ IL_0045:
 
 IL_004b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:337>
 		int32_t* L_19 = ___2_firstVisibleCharIndex;
 		int32_t L_20 = *((int32_t*)L_19);
 		if ((!(((uint32_t)L_20) == ((uint32_t)(-1)))))
@@ -23842,13 +22516,11 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:337>
 		return (bool)0;
 	}
 
 IL_0052:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:338>
 		int32_t L_21 = ___1_toCharIndex;
 		V_3 = L_21;
 		goto IL_0076;
@@ -23856,7 +22528,6 @@ IL_0052:
 
 IL_0056:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:339>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_22 = __this->____charTransforms;
 		int32_t L_23 = V_3;
 		NullCheck(L_22);
@@ -23871,24 +22542,20 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:340>
 		int32_t* L_26 = ___3_lastVisibleCharIndex;
 		int32_t L_27 = V_3;
 		*((int32_t*)L_26) = (int32_t)L_27;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:341>
 		goto IL_007d;
 	}
 
 IL_0072:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:338>
 		int32_t L_28 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_28, 1));
 	}
 
 IL_0076:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:338>
 		int32_t L_29 = V_3;
 		int32_t* L_30 = ___2_firstVisibleCharIndex;
 		int32_t L_31 = *((int32_t*)L_30);
@@ -23900,7 +22567,6 @@ IL_0076:
 
 IL_007d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:343>
 		int32_t* L_32 = ___3_lastVisibleCharIndex;
 		int32_t L_33 = *((int32_t*)L_32);
 		if ((!(((uint32_t)L_33) == ((uint32_t)(-1)))))
@@ -23909,17 +22575,15 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:343>
 		return (bool)0;
 	}
 
 IL_0085:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:344>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 75237
+// Method Definition Index: 75230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SkewSpanX_mBB8FA19DB78D6C99E1B604FC6031EBEC3C5E0950 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_fromCharIndex, int32_t ___1_toCharIndex, float ___2_skewFactor, bool ___3_skewTop, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23934,7 +22598,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SkewSpanX_mBB8FA19DB7
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:359>
 		int32_t L_0 = ___0_fromCharIndex;
 		int32_t L_1 = ___1_toCharIndex;
 		bool L_2;
@@ -23945,13 +22608,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SkewSpanX_mBB8FA19DB7
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:359>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:360>
 		int32_t L_3 = V_0;
 		V_2 = L_3;
 		goto IL_004d;
@@ -23959,7 +22620,6 @@ IL_000f:
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:361>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_4 = __this->____charTransforms;
 		int32_t L_5 = V_2;
 		NullCheck(L_4);
@@ -23974,7 +22634,6 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:362>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_8 = __this->____charTransforms;
 		int32_t L_9 = V_2;
 		NullCheck(L_8);
@@ -23983,7 +22642,6 @@ IL_0013:
 		V_3 = L_10;
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_11;
 		L_11 = CharTransform_GetVertices_mA39F57132658B5C014476633535454690F9DE93D((&V_3), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:363>
 		int32_t L_12 = V_2;
 		float L_13 = ___2_skewFactor;
 		bool L_14 = ___3_skewTop;
@@ -23993,14 +22651,12 @@ IL_0013:
 
 IL_0049:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:360>
 		int32_t L_16 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:360>
 		int32_t L_17 = V_2;
 		int32_t L_18 = V_1;
 		if ((((int32_t)L_17) < ((int32_t)((int32_t)il2cpp_codegen_add(L_18, 1)))))
@@ -24009,11 +22665,10 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:365>
 		return;
 	}
 }
-// Method Definition Index: 75238
+// Method Definition Index: 75231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SkewSpanY_m0BF2A573F91B8D8DFD6DF39278A2D369EC2F3AD6 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_fromCharIndex, int32_t ___1_toCharIndex, float ___2_skewFactor, int32_t ___3_mode, bool ___4_skewRight, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24051,7 +22706,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SkewSpanY_m0BF2A573F9
 	float G_B17_0 = 0.0f;
 	float G_B16_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:380>
 		int32_t L_0 = ___0_fromCharIndex;
 		int32_t L_1 = ___1_toCharIndex;
 		bool L_2;
@@ -24062,13 +22716,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SkewSpanY_m0BF2A573F9
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:380>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:381>
 		int32_t L_3 = ___3_mode;
 		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
 		{
@@ -24076,7 +22728,6 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:382>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_4 = __this->____charTransforms;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
@@ -24086,7 +22737,6 @@ IL_000f:
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_7;
 		L_7 = CharTransform_GetVertices_mA39F57132658B5C014476633535454690F9DE93D((&V_9), NULL);
 		V_5 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:383>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_8 = __this->____charTransforms;
 		int32_t L_9 = V_1;
 		NullCheck(L_8);
@@ -24096,7 +22746,6 @@ IL_000f:
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_11;
 		L_11 = CharTransform_GetVertices_mA39F57132658B5C014476633535454690F9DE93D((&V_9), NULL);
 		V_6 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:384>
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_12 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = L_12.___bottomRight;
 		float L_14 = L_13.___x;
@@ -24106,7 +22755,6 @@ IL_000f:
 		float L_18;
 		L_18 = fabsf(((float)il2cpp_codegen_subtract(L_14, L_17)));
 		V_7 = L_18;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:385>
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_19 = V_6;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = L_19.___topRight;
 		float L_21 = L_20.___y;
@@ -24115,10 +22763,8 @@ IL_000f:
 		float L_24 = L_23.___y;
 		float L_25;
 		L_25 = fabsf(((float)il2cpp_codegen_subtract(L_21, L_24)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:386>
 		float L_26 = V_7;
 		V_8 = ((float)(L_25/L_26));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:387>
 		float L_27 = ___2_skewFactor;
 		float L_28 = V_8;
 		___2_skewFactor = ((float)il2cpp_codegen_multiply(L_27, L_28));
@@ -24126,13 +22772,9 @@ IL_000f:
 
 IL_008b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:389>
 		V_2 = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:390>
 		il2cpp_codegen_initobj((&V_3), sizeof(CharVertices_t1E106A12ECED72454F616393B690FE3292473154));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:391>
 		V_4 = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:392>
 		bool L_29 = ___4_skewRight;
 		if (!L_29)
 		{
@@ -24140,7 +22782,6 @@ IL_008b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:393>
 		int32_t L_30 = V_0;
 		V_10 = L_30;
 		goto IL_0179;
@@ -24148,7 +22789,6 @@ IL_008b:
 
 IL_00af:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:394>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_31 = __this->____charTransforms;
 		int32_t L_32 = V_10;
 		NullCheck(L_31);
@@ -24163,7 +22803,6 @@ IL_00af:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:395>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_35 = __this->____charTransforms;
 		int32_t L_36 = V_10;
 		NullCheck(L_35);
@@ -24173,13 +22812,11 @@ IL_00af:
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_38;
 		L_38 = CharTransform_GetVertices_mA39F57132658B5C014476633535454690F9DE93D((&V_9), NULL);
 		V_11 = L_38;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:396>
 		int32_t L_39 = V_10;
 		float L_40 = ___2_skewFactor;
 		bool L_41 = ___4_skewRight;
 		float L_42;
 		L_42 = DOTweenTMPAnimator_SkewCharY_mB0EA10AD52AAFE159E9E99B36DB3CF8F884E02E9(__this, L_39, L_40, L_41, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:397>
 		int32_t L_43 = V_10;
 		int32_t L_44 = V_0;
 		if ((((int32_t)L_43) <= ((int32_t)L_44)))
@@ -24190,7 +22827,6 @@ IL_00af:
 		G_B8_0 = L_42;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:398>
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_45 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = L_45.___bottomLeft;
 		float L_47 = L_46.___x;
@@ -24200,7 +22836,6 @@ IL_00af:
 		float L_51;
 		L_51 = fabsf(((float)il2cpp_codegen_subtract(L_47, L_50)));
 		V_12 = L_51;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:399>
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_52 = V_11;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = L_52.___bottomLeft;
 		float L_54 = L_53.___x;
@@ -24210,14 +22845,12 @@ IL_00af:
 		float L_58;
 		L_58 = fabsf(((float)il2cpp_codegen_subtract(L_54, L_57)));
 		V_13 = L_58;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:400>
 		float L_59 = V_2;
 		float L_60 = V_4;
 		float L_61 = V_4;
 		float L_62 = V_13;
 		float L_63 = V_12;
 		V_2 = ((float)il2cpp_codegen_add(L_59, ((float)il2cpp_codegen_add(L_60, ((float)(((float)il2cpp_codegen_multiply(L_61, L_62))/L_63))))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:401>
 		int32_t L_64 = V_10;
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_65 = __this->____charTransforms;
 		int32_t L_66 = V_10;
@@ -24236,23 +22869,19 @@ IL_00af:
 
 IL_016e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:403>
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_72 = V_11;
 		V_3 = L_72;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:404>
 		V_4 = G_B9_0;
 	}
 
 IL_0173:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:393>
 		int32_t L_73 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_73, 1));
 	}
 
 IL_0179:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:393>
 		int32_t L_74 = V_10;
 		int32_t L_75 = V_1;
 		if ((((int32_t)L_74) < ((int32_t)((int32_t)il2cpp_codegen_add(L_75, 1)))))
@@ -24266,7 +22895,6 @@ IL_0179:
 
 IL_0184:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:407>
 		int32_t L_76 = V_1;
 		V_14 = L_76;
 		goto IL_0256;
@@ -24274,7 +22902,6 @@ IL_0184:
 
 IL_018c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:408>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_77 = __this->____charTransforms;
 		int32_t L_78 = V_14;
 		NullCheck(L_77);
@@ -24289,7 +22916,6 @@ IL_018c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:409>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_81 = __this->____charTransforms;
 		int32_t L_82 = V_14;
 		NullCheck(L_81);
@@ -24299,13 +22925,11 @@ IL_018c:
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_84;
 		L_84 = CharTransform_GetVertices_mA39F57132658B5C014476633535454690F9DE93D((&V_9), NULL);
 		V_15 = L_84;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:410>
 		int32_t L_85 = V_14;
 		float L_86 = ___2_skewFactor;
 		bool L_87 = ___4_skewRight;
 		float L_88;
 		L_88 = DOTweenTMPAnimator_SkewCharY_mB0EA10AD52AAFE159E9E99B36DB3CF8F884E02E9(__this, L_85, L_86, L_87, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:411>
 		int32_t L_89 = V_14;
 		int32_t L_90 = V_1;
 		if ((((int32_t)L_89) >= ((int32_t)L_90)))
@@ -24316,7 +22940,6 @@ IL_018c:
 		G_B16_0 = L_88;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:412>
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_91 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92 = L_91.___bottomLeft;
 		float L_93 = L_92.___x;
@@ -24326,7 +22949,6 @@ IL_018c:
 		float L_97;
 		L_97 = fabsf(((float)il2cpp_codegen_subtract(L_93, L_96)));
 		V_16 = L_97;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:413>
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_98 = V_15;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_99 = L_98.___bottomRight;
 		float L_100 = L_99.___x;
@@ -24336,14 +22958,12 @@ IL_018c:
 		float L_104;
 		L_104 = fabsf(((float)il2cpp_codegen_subtract(L_100, L_103)));
 		V_17 = L_104;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:414>
 		float L_105 = V_2;
 		float L_106 = V_4;
 		float L_107 = V_4;
 		float L_108 = V_17;
 		float L_109 = V_16;
 		V_2 = ((float)il2cpp_codegen_add(L_105, ((float)il2cpp_codegen_add(L_106, ((float)(((float)il2cpp_codegen_multiply(L_107, L_108))/L_109))))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:415>
 		int32_t L_110 = V_14;
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_111 = __this->____charTransforms;
 		int32_t L_112 = V_14;
@@ -24362,23 +22982,19 @@ IL_018c:
 
 IL_024b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:417>
 		CharVertices_t1E106A12ECED72454F616393B690FE3292473154 L_118 = V_15;
 		V_3 = L_118;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:418>
 		V_4 = G_B17_0;
 	}
 
 IL_0250:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:407>
 		int32_t L_119 = V_14;
 		V_14 = ((int32_t)il2cpp_codegen_subtract(L_119, 1));
 	}
 
 IL_0256:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:407>
 		int32_t L_120 = V_14;
 		int32_t L_121 = V_0;
 		if ((((int32_t)L_120) > ((int32_t)((int32_t)il2cpp_codegen_subtract(L_121, 1)))))
@@ -24387,11 +23003,10 @@ IL_0256:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:421>
 		return;
 	}
 }
-// Method Definition Index: 75239
+// Method Definition Index: 75232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F DOTweenTMPAnimator_GetCharColor_m984EB26523EE847B425395E39D035722C32F612D (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24403,7 +23018,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:433>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -24413,7 +23027,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:433>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		L_2 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		return L_2;
@@ -24421,7 +23034,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:434>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_3 = __this->____charTransforms;
 		int32_t L_4 = ___0_charIndex;
 		NullCheck(L_3);
@@ -24439,7 +23051,7 @@ IL_0010:
 		return L_9;
 	}
 }
-// Method Definition Index: 75240
+// Method Definition Index: 75233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 DOTweenTMPAnimator_GetCharOffset_mC4B3C77E785A6CD34C8F83C16E79A81A2B3773BD (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24449,7 +23061,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:443>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -24459,7 +23070,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:443>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_2;
@@ -24467,7 +23077,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:444>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_3 = __this->____charTransforms;
 		int32_t L_4 = ___0_charIndex;
 		NullCheck(L_3);
@@ -24477,7 +23086,7 @@ IL_0010:
 		return L_6;
 	}
 }
-// Method Definition Index: 75241
+// Method Definition Index: 75234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 DOTweenTMPAnimator_GetCharRotation_mEA8E09092D2EDEBF1E26DC9C2A244814F01936E7 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24489,7 +23098,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:453>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -24499,7 +23107,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:453>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_2;
@@ -24507,7 +23114,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:454>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_3 = __this->____charTransforms;
 		int32_t L_4 = ___0_charIndex;
 		NullCheck(L_3);
@@ -24520,7 +23126,7 @@ IL_0010:
 		return L_7;
 	}
 }
-// Method Definition Index: 75242
+// Method Definition Index: 75235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 DOTweenTMPAnimator_GetCharScale_mE3ED21BBB579AE98AA0B638AEEE5D330C4DD84DC (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24530,7 +23136,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:463>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -24540,7 +23145,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:463>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_2;
@@ -24548,7 +23152,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:464>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_3 = __this->____charTransforms;
 		int32_t L_4 = ___0_charIndex;
 		NullCheck(L_3);
@@ -24558,7 +23161,7 @@ IL_0010:
 		return L_6;
 	}
 }
-// Method Definition Index: 75243
+// Method Definition Index: 75236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharColor_mB102E07CDF333488C92FEBCF91E9186E23928CD0 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___1_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24571,7 +23174,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharColor_mB102E07
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:479>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -24581,20 +23183,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharColor_mB102E07
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:479>
 		return;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:480>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_2 = __this->____charTransforms;
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_4;
 		L_4 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_2, L_3, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:481>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
 		L_5 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_6 = ___1_color;
@@ -24603,17 +23202,15 @@ IL_000b:
 		NullCheck(L_7);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_8 = L_7->___meshInfo;
 		CharTransform_UpdateColor_mA2BFFFFF412146862CBC748A404C2A95AC97D857((&V_0), L_5, L_6, L_8, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:482>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_9 = __this->____charTransforms;
 		int32_t L_10 = ___0_charIndex;
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_11 = V_0;
 		NullCheck(L_9);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_9, L_10, L_11, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:483>
 		return;
 	}
 }
-// Method Definition Index: 75244
+// Method Definition Index: 75237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharOffset_mF19E91A0F022AF66836649E51B834AB61C4D15FD (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_offset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24626,7 +23223,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharOffset_mF19E91
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:493>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -24636,20 +23232,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharOffset_mF19E91
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:493>
 		return;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:494>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_2 = __this->____charTransforms;
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_4;
 		L_4 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_2, L_3, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:495>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
 		L_5 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_offset;
@@ -24659,17 +23252,15 @@ IL_000b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = L_9.___scale;
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_11 = __this->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_6, L_8, L_10, L_11, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:496>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_12 = __this->____charTransforms;
 		int32_t L_13 = ___0_charIndex;
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_14 = V_0;
 		NullCheck(L_12);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_12, L_13, L_14, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:497>
 		return;
 	}
 }
-// Method Definition Index: 75245
+// Method Definition Index: 75238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharRotation_m4EFA57A9F081CD1FB249D583EA4D47EDB0AF4AB6 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rotation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24682,7 +23273,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharRotation_m4EFA
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:507>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -24692,20 +23282,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharRotation_m4EFA
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:507>
 		return;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:508>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_2 = __this->____charTransforms;
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_4;
 		L_4 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_2, L_3, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:509>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
 		L_5 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_6 = V_0;
@@ -24717,17 +23304,15 @@ IL_000b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = L_10.___scale;
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_12 = __this->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_7, L_9, L_11, L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:510>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_13 = __this->____charTransforms;
 		int32_t L_14 = ___0_charIndex;
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_15 = V_0;
 		NullCheck(L_13);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_13, L_14, L_15, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:511>
 		return;
 	}
 }
-// Method Definition Index: 75246
+// Method Definition Index: 75239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharScale_m2F08FB60998ADDAD5150BAA63FDFB1479FC8446A (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_scale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24740,7 +23325,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharScale_m2F08FB6
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:521>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -24750,20 +23334,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_SetCharScale_m2F08FB6
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:521>
 		return;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:522>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_2 = __this->____charTransforms;
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_4;
 		L_4 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_2, L_3, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:523>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
 		L_5 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_6 = V_0;
@@ -24773,17 +23354,15 @@ IL_000b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_scale;
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_11 = __this->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_7, L_9, L_10, L_11, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:524>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_12 = __this->____charTransforms;
 		int32_t L_13 = ___0_charIndex;
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_14 = V_0;
 		NullCheck(L_12);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_12, L_13, L_14, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:525>
 		return;
 	}
 }
-// Method Definition Index: 75247
+// Method Definition Index: 75240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_ShiftCharVertices_mAB6EF1865E184FEF2FA3A6EC143D3589F2056283 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_topLeftShift, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_topRightShift, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_bottomLeftShift, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___4_bottomRightShift, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24796,7 +23375,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_ShiftCharVertices_mAB
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:538>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -24806,20 +23384,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_ShiftCharVertices_mAB
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:538>
 		return;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:539>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_2 = __this->____charTransforms;
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_4;
 		L_4 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_2, L_3, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:540>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
 		L_5 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_topLeftShift;
@@ -24827,17 +23402,15 @@ IL_000b:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___3_bottomLeftShift;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___4_bottomRightShift;
 		CharTransform_ShiftVertices_mD60C35E7D9324EEB1E6C8E64298BDC207894B901((&V_0), L_5, L_6, L_7, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:541>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_10 = __this->____charTransforms;
 		int32_t L_11 = ___0_charIndex;
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_12 = V_0;
 		NullCheck(L_10);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_10, L_11, L_12, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:542>
 		return;
 	}
 }
-// Method Definition Index: 75248
+// Method Definition Index: 75241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DOTweenTMPAnimator_SkewCharX_m5D2EFFFF901724703D5626727A5DBB4F1F389DB9 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, float ___1_skewFactor, bool ___2_skewTop, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24852,7 +23425,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DOTweenTMPAnimator_SkewCharX_m5D2EFFFF9
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:552>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -24862,23 +23434,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DOTweenTMPAnimator_SkewCharX_m5D2EFFFF9
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:552>
 		return (0.0f);
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:553>
 		float L_2 = ___1_skewFactor;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_0), L_2, (0.0f), (0.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:554>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_3 = __this->____charTransforms;
 		int32_t L_4 = ___0_charIndex;
 		NullCheck(L_3);
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_5;
 		L_5 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_3, L_4, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_1 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:555>
 		bool L_6 = ___2_skewTop;
 		if (!L_6)
 		{
@@ -24886,7 +23454,6 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:555>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7;
 		L_7 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_0;
@@ -24901,7 +23468,6 @@ IL_0010:
 
 IL_004d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:556>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12;
 		L_12 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
@@ -24915,18 +23481,16 @@ IL_004d:
 
 IL_0066:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:557>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_17 = __this->____charTransforms;
 		int32_t L_18 = ___0_charIndex;
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_19 = V_1;
 		NullCheck(L_17);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_17, L_18, L_19, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:558>
 		float L_20 = ___1_skewFactor;
 		return L_20;
 	}
 }
-// Method Definition Index: 75249
+// Method Definition Index: 75242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DOTweenTMPAnimator_SkewCharY_mB0EA10AD52AAFE159E9E99B36DB3CF8F884E02E9 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, float ___1_skewFactor, bool ___2_skewRight, bool ___3_fixedSkew, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24943,7 +23507,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DOTweenTMPAnimator_SkewCharY_mB0EA10AD5
 	memset((&V_2), 0, sizeof(V_2));
 	float G_B5_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:571>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -24953,13 +23516,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DOTweenTMPAnimator_SkewCharY_mB0EA10AD5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:571>
 		return (0.0f);
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:572>
 		bool L_2 = ___3_fixedSkew;
 		if (L_2)
 		{
@@ -24988,17 +23549,14 @@ IL_002e:
 IL_002f:
 	{
 		V_0 = G_B5_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:573>
 		float L_9 = V_0;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), (0.0f), L_9, (0.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:574>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_10 = __this->____charTransforms;
 		int32_t L_11 = ___0_charIndex;
 		NullCheck(L_10);
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_12;
 		L_12 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_10, L_11, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_2 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:575>
 		bool L_13 = ___2_skewRight;
 		if (!L_13)
 		{
@@ -25006,7 +23564,6 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:575>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14;
 		L_14 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
@@ -25021,7 +23578,6 @@ IL_002f:
 
 IL_006d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:576>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_19;
 		L_19 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_1;
@@ -25035,18 +23591,16 @@ IL_006d:
 
 IL_0086:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:577>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_24 = __this->____charTransforms;
 		int32_t L_25 = ___0_charIndex;
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_26 = V_2;
 		NullCheck(L_24);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_24, L_25, L_26, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:578>
 		float L_27 = V_0;
 		return L_27;
 	}
 }
-// Method Definition Index: 75250
+// Method Definition Index: 75243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_ResetVerticesShift_m1D675F3DF83E15C24EC5F3B1F93CDA75B28F0325 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25059,7 +23613,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_ResetVerticesShift_m1
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:588>
 		int32_t L_0 = ___0_charIndex;
 		bool L_1;
 		L_1 = DOTweenTMPAnimator_ValidateChar_mBC9B4A2CAB184EE5FF4F573E1811BD0BBB713E3F(__this, L_0, (bool)1, NULL);
@@ -25069,34 +23622,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_ResetVerticesShift_m1
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:588>
 		return;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:589>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_2 = __this->____charTransforms;
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_4;
 		L_4 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_2, L_3, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:590>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
 		L_5 = DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline(__this, NULL);
 		CharTransform_ResetVerticesShift_m684118918795B18382E3B9456AE2A4DDD4C7323E((&V_0), L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:591>
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_6 = __this->____charTransforms;
 		int32_t L_7 = ___0_charIndex;
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_8 = V_0;
 		NullCheck(L_6);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_6, L_7, L_8, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:592>
 		return;
 	}
 }
-// Method Definition Index: 75251
+// Method Definition Index: 75244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenTMPAnimator_DOFadeChar_m5FE36C0913860BA6161B4781124BC25EF6DF4570 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25123,7 +23671,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		L_2->___charIndex = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:604>
 		U3CU3Ec__DisplayClass34_0_t09656E8593E5C6344F4AE7D0D93A8DDE574CB429* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___charIndex;
@@ -25135,15 +23682,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:604>
 		return (TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3*)NULL;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:605>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:606>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:607>
 		U3CU3Ec__DisplayClass34_0_t09656E8593E5C6344F4AE7D0D93A8DDE574CB429* L_7 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_8 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_8, L_7, (intptr_t)((void*)U3CU3Ec__DisplayClass34_0_U3CDOFadeCharU3Eb__0_m65D863BE31BCC1A5AF582FDC228BAD6D8E4A0342_RuntimeMethod_var), NULL);
@@ -25155,11 +23698,10 @@ IL_0025:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = DOTween_ToAlpha_m93AB0EDCF2956A0DD806D9537799F2727CA5E7C1(L_8, L_10, L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:608>
 		return L_13;
 	}
 }
-// Method Definition Index: 75252
+// Method Definition Index: 75245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* DOTweenTMPAnimator_DOColorChar_m314DB4E6D5762170955B81E3BBBA57D587647731 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25186,7 +23728,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		L_2->___charIndex = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:617>
 		U3CU3Ec__DisplayClass35_0_tF822D07EEE46DD84F61E72B6926065FE5329C453* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___charIndex;
@@ -25198,15 +23739,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tC0593021331EF2AF46590E2184F512
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:617>
 		return (TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3*)NULL;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:618>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:619>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:620>
 		U3CU3Ec__DisplayClass35_0_tF822D07EEE46DD84F61E72B6926065FE5329C453* L_7 = V_0;
 		DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95* L_8 = (DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95*)il2cpp_codegen_object_new(DOGetter_1_t4DFFF7454A1BCD259676FED36CCF2114E34B5B95_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m7ABE4FFF2BF8792E4DA3957B81F6BD369634F5F3(L_8, L_7, (intptr_t)((void*)U3CU3Ec__DisplayClass35_0_U3CDOColorCharU3Eb__0_m90D95A636581CA31C79C29B950DBC617D40909C4_RuntimeMethod_var), NULL);
@@ -25218,11 +23755,10 @@ IL_0025:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tC0593021331EF2AF46590E2184F512C0D38FD4C3* L_13;
 		L_13 = DOTween_To_mA1EBEAF49DD682B626CB60B4C53B7069F7933339(L_8, L_10, L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:621>
 		return L_13;
 	}
 }
-// Method Definition Index: 75253
+// Method Definition Index: 75246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* DOTweenTMPAnimator_DOOffsetChar_m299C964D67006BED1DCDFB4E89DB0DDDEB9B22EE (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25249,7 +23785,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		L_2->___charIndex = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:630>
 		U3CU3Ec__DisplayClass36_0_t0F0255D2D37CFDD4B19AB446DFCA9D4C4DB28031* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___charIndex;
@@ -25261,17 +23796,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:630>
 		return (TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77*)NULL;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:631>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:632>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:633>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:634>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:635>
 		U3CU3Ec__DisplayClass36_0_t0F0255D2D37CFDD4B19AB446DFCA9D4C4DB28031* L_7 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_8 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_8, L_7, (intptr_t)((void*)U3CU3Ec__DisplayClass36_0_U3CDOOffsetCharU3Eb__0_m0F969B53A3FF423103D62A7BE9312476A42E7C63_RuntimeMethod_var), NULL);
@@ -25283,11 +23812,10 @@ IL_0025:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_13;
 		L_13 = DOTween_To_m29FF04132DD76AFF686CF5DBCCD84CB6105A2DB8(L_8, L_10, L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:636>
 		return L_13;
 	}
 }
-// Method Definition Index: 75254
+// Method Definition Index: 75247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* DOTweenTMPAnimator_DORotateChar_mF5032A53CE3BF969842A45F90D4C963BE542FA5A (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_endValue, float ___2_duration, int32_t ___3_mode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25314,7 +23842,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t392C54729BB024F5802F8E205C5836
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		L_2->___charIndex = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:646>
 		U3CU3Ec__DisplayClass37_0_tEE63B4E7F1084F4A16F88E2D8B794E69E0AA121D* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___charIndex;
@@ -25326,17 +23853,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_t392C54729BB024F5802F8E205C5836
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:646>
 		return (TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3*)NULL;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:647>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:648>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:649>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:650>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:651>
 		U3CU3Ec__DisplayClass37_0_tEE63B4E7F1084F4A16F88E2D8B794E69E0AA121D* L_7 = V_0;
 		DOGetter_1_tB89DD12456B8E79576BB70E1CA6DF899686410D3* L_8 = (DOGetter_1_tB89DD12456B8E79576BB70E1CA6DF899686410D3*)il2cpp_codegen_object_new(DOGetter_1_tB89DD12456B8E79576BB70E1CA6DF899686410D3_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m51479DFF391AD5DCBF44F595E1F6A5855A6C09E4(L_8, L_7, (intptr_t)((void*)U3CU3Ec__DisplayClass37_0_U3CDORotateCharU3Eb__0_mADC24EAC04CCF00015FDBD71973EB3BD41E4C9FA_RuntimeMethod_var), NULL);
@@ -25348,21 +23869,18 @@ IL_0025:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* L_13;
 		L_13 = DOTween_To_m7A731ADF3CCD5C4439F8710B2CD16BC6CEB051D0(L_8, L_10, L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:652>
 		TweenerCore_3_t392C54729BB024F5802F8E205C583653C4E886E3* L_14 = L_13;
 		NullCheck(L_14);
 		QuaternionOptions_t1B83700718F7417854E4B6FB0E1726E183F69718* L_15 = (QuaternionOptions_t1B83700718F7417854E4B6FB0E1726E183F69718*)(&L_14->___plugOptions);
 		int32_t L_16 = ___3_mode;
 		L_15->___rotateMode = L_16;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:653>
 		return L_14;
 	}
 }
-// Method Definition Index: 75255
+// Method Definition Index: 75248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* DOTweenTMPAnimator_DOScaleChar_mA12B3E1E2AC2D88F4536EABC19591F57F44AC25F (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, float ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:662>
 		int32_t L_0 = ___0_charIndex;
 		float L_1 = ___1_endValue;
 		float L_2 = ___1_endValue;
@@ -25376,7 +23894,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		return L_6;
 	}
 }
-// Method Definition Index: 75256
+// Method Definition Index: 75249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* DOTweenTMPAnimator_DOScaleChar_m7D5D75E7F7FD41E94F5FC4697F2C221331B97372 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_endValue, float ___2_duration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25403,7 +23921,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		L_2->___charIndex = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:670>
 		U3CU3Ec__DisplayClass39_0_t90DE4730EC2C2A967665AB5A76AE8DEF888FE07C* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___charIndex;
@@ -25415,17 +23932,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:670>
 		return (TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77*)NULL;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:671>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:672>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:673>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:674>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:675>
 		U3CU3Ec__DisplayClass39_0_t90DE4730EC2C2A967665AB5A76AE8DEF888FE07C* L_7 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_8 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_8, L_7, (intptr_t)((void*)U3CU3Ec__DisplayClass39_0_U3CDOScaleCharU3Eb__0_mD95342D2C7D410038AD6E16410D1302B0E7FF96C_RuntimeMethod_var), NULL);
@@ -25437,11 +23948,10 @@ IL_0025:
 		il2cpp_codegen_runtime_class_init_inline(DOTween_t96369E1D40ABE93A56308F57DEA6B04219C66D13_il2cpp_TypeInfo_var);
 		TweenerCore_3_tCD82DFC45FB71C681FA8659EA63A7D7D16BFFE77* L_13;
 		L_13 = DOTween_To_m29FF04132DD76AFF686CF5DBCCD84CB6105A2DB8(L_8, L_10, L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:676>
 		return L_13;
 	}
 }
-// Method Definition Index: 75257
+// Method Definition Index: 75250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenTMPAnimator_DOPunchCharOffset_mE904567E3486D4800AE4033EF256A6D6918B71CF (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_punch, float ___2_duration, int32_t ___3_vibrato, float ___4_elasticity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25470,7 +23980,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		L_2->___charIndex = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:690>
 		U3CU3Ec__DisplayClass40_0_t3F3D54559BB8044DDB614F8D4AD84FBBB2043C96* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___charIndex;
@@ -25482,13 +23991,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:690>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:691>
 		float L_7 = ___2_duration;
 		if ((!(((float)L_7) <= ((float)(0.0f)))))
 		{
@@ -25496,7 +24003,6 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:692>
 		int32_t L_8;
 		L_8 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_8) <= ((int32_t)0)))
@@ -25505,24 +24011,17 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:692>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral40E222F25BCA4559884A50A00854C58F04B4E215, NULL);
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:693>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:695>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:696>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:697>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:698>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:699>
 		U3CU3Ec__DisplayClass40_0_t3F3D54559BB8044DDB614F8D4AD84FBBB2043C96* L_9 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_10 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass40_0_U3CDOPunchCharOffsetU3Eb__0_mE2BB6D969E330A3A77C60085E134998FCD7A0DB4_RuntimeMethod_var), NULL);
@@ -25539,7 +24038,7 @@ IL_0041:
 		return L_17;
 	}
 }
-// Method Definition Index: 75258
+// Method Definition Index: 75251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenTMPAnimator_DOPunchCharRotation_m66A22DFF087AF24AAE2E4F701AD35D9338EFBF4F (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_punch, float ___2_duration, int32_t ___3_vibrato, float ___4_elasticity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25568,7 +24067,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		L_2->___charIndex = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:713>
 		U3CU3Ec__DisplayClass41_0_tC76E532D1100C91B394F62DAEB4717C22E80740D* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___charIndex;
@@ -25580,13 +24078,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:713>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:714>
 		float L_7 = ___2_duration;
 		if ((!(((float)L_7) <= ((float)(0.0f)))))
 		{
@@ -25594,7 +24090,6 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:715>
 		int32_t L_8;
 		L_8 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_8) <= ((int32_t)0)))
@@ -25603,24 +24098,17 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:715>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral40E222F25BCA4559884A50A00854C58F04B4E215, NULL);
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:716>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:718>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:719>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:720>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:721>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:722>
 		U3CU3Ec__DisplayClass41_0_tC76E532D1100C91B394F62DAEB4717C22E80740D* L_9 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_10 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass41_0_U3CDOPunchCharRotationU3Eb__0_m862ECD68FA8EA084A40ACA70B968AE81FE2FE48E_RuntimeMethod_var), NULL);
@@ -25637,11 +24125,10 @@ IL_0041:
 		return L_17;
 	}
 }
-// Method Definition Index: 75259
+// Method Definition Index: 75252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenTMPAnimator_DOPunchCharScale_m91E0A3D8F1D1E8DE843C1C409853578F360C6F02 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, float ___1_punch, float ___2_duration, int32_t ___3_vibrato, float ___4_elasticity, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:736>
 		int32_t L_0 = ___0_charIndex;
 		float L_1 = ___1_punch;
 		float L_2 = ___1_punch;
@@ -25657,7 +24144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_8;
 	}
 }
-// Method Definition Index: 75260
+// Method Definition Index: 75253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenTMPAnimator_DOPunchCharScale_m66E97D46AA9DB066489FFBBA6F520306CD76FAEE (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_punch, float ___2_duration, int32_t ___3_vibrato, float ___4_elasticity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25686,7 +24173,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		L_2->___charIndex = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:749>
 		U3CU3Ec__DisplayClass43_0_tB4484EAA82F768AF1743E93B4D534B7DC03994DE* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___charIndex;
@@ -25698,13 +24184,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:749>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:750>
 		float L_7 = ___2_duration;
 		if ((!(((float)L_7) <= ((float)(0.0f)))))
 		{
@@ -25712,7 +24196,6 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:751>
 		int32_t L_8;
 		L_8 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_8) <= ((int32_t)0)))
@@ -25721,24 +24204,17 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:751>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral40E222F25BCA4559884A50A00854C58F04B4E215, NULL);
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:752>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:754>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:755>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:756>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:757>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:758>
 		U3CU3Ec__DisplayClass43_0_tB4484EAA82F768AF1743E93B4D534B7DC03994DE* L_9 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_10 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass43_0_U3CDOPunchCharScaleU3Eb__0_m2D2E53BDAD4C9CA46159AE6BCB08921D0B296F2D_RuntimeMethod_var), NULL);
@@ -25755,11 +24231,10 @@ IL_0041:
 		return L_17;
 	}
 }
-// Method Definition Index: 75261
+// Method Definition Index: 75254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenTMPAnimator_DOShakeCharOffset_m7F76149B4C7E35BD725356DEABC6F7F0C81554A2 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, float ___1_duration, float ___2_strength, int32_t ___3_vibrato, float ___4_randomness, bool ___5_fadeOut, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:771>
 		int32_t L_0 = ___0_charIndex;
 		float L_1 = ___1_duration;
 		float L_2 = ___2_strength;
@@ -25776,7 +24251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_9;
 	}
 }
-// Method Definition Index: 75262
+// Method Definition Index: 75255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenTMPAnimator_DOShakeCharOffset_m0CFB5EF51A474425D58C6C3D679FF853640DB79E (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, float ___1_duration, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_strength, int32_t ___3_vibrato, float ___4_randomness, bool ___5_fadeOut, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25805,7 +24280,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		L_2->___charIndex = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:783>
 		U3CU3Ec__DisplayClass45_0_t660813CEEC780742F4D5C16C90A393DA173A0B5D* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___charIndex;
@@ -25817,13 +24291,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:783>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:784>
 		float L_7 = ___1_duration;
 		if ((!(((float)L_7) <= ((float)(0.0f)))))
 		{
@@ -25831,7 +24303,6 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:785>
 		int32_t L_8;
 		L_8 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_8) <= ((int32_t)0)))
@@ -25840,24 +24311,17 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:785>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral40E222F25BCA4559884A50A00854C58F04B4E215, NULL);
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:786>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:788>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:789>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:790>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:791>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:792>
 		U3CU3Ec__DisplayClass45_0_t660813CEEC780742F4D5C16C90A393DA173A0B5D* L_9 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_10 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass45_0_U3CDOShakeCharOffsetU3Eb__0_mFDE8069D76ACC0264AE54265B50BE35F6A033B2B_RuntimeMethod_var), NULL);
@@ -25875,7 +24339,7 @@ IL_0041:
 		return L_18;
 	}
 }
-// Method Definition Index: 75263
+// Method Definition Index: 75256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenTMPAnimator_DOShakeCharRotation_mA164A6AA392FB98DF975B67E141180D5B8B0BFDF (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, float ___1_duration, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_strength, int32_t ___3_vibrato, float ___4_randomness, bool ___5_fadeOut, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25904,7 +24368,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		L_2->___charIndex = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:805>
 		U3CU3Ec__DisplayClass46_0_t0638BCEEA72649977FD877A709BD683AB85AD129* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___charIndex;
@@ -25916,13 +24379,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:805>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:806>
 		float L_7 = ___1_duration;
 		if ((!(((float)L_7) <= ((float)(0.0f)))))
 		{
@@ -25930,7 +24391,6 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:807>
 		int32_t L_8;
 		L_8 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_8) <= ((int32_t)0)))
@@ -25939,24 +24399,17 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:807>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral40E222F25BCA4559884A50A00854C58F04B4E215, NULL);
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:808>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:810>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:811>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:812>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:813>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:814>
 		U3CU3Ec__DisplayClass46_0_t0638BCEEA72649977FD877A709BD683AB85AD129* L_9 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_10 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass46_0_U3CDOShakeCharRotationU3Eb__0_mC41D01CC00372332340A801E2C1CE5932A63CC19_RuntimeMethod_var), NULL);
@@ -25974,11 +24427,10 @@ IL_0041:
 		return L_18;
 	}
 }
-// Method Definition Index: 75264
+// Method Definition Index: 75257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenTMPAnimator_DOShakeCharScale_m757FB6E1F3FD15DB9C2F295D1D25BA313263DF78 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, float ___1_duration, float ___2_strength, int32_t ___3_vibrato, float ___4_randomness, bool ___5_fadeOut, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:827>
 		int32_t L_0 = ___0_charIndex;
 		float L_1 = ___1_duration;
 		float L_2 = ___2_strength;
@@ -25995,7 +24447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		return L_9;
 	}
 }
-// Method Definition Index: 75265
+// Method Definition Index: 75258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140* DOTweenTMPAnimator_DOShakeCharScale_mE1BBB629A2F983E7C2C1F7DA79B0384CA4777E39 (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, int32_t ___0_charIndex, float ___1_duration, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_strength, int32_t ___3_vibrato, float ___4_randomness, bool ___5_fadeOut, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26024,7 +24476,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		int32_t L_3 = ___0_charIndex;
 		NullCheck(L_2);
 		L_2->___charIndex = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:839>
 		U3CU3Ec__DisplayClass48_0_t88EECD72E0A5A5BFDCDA6B3548B9E3BD722F5222* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___charIndex;
@@ -26036,13 +24487,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:839>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:840>
 		float L_7 = ___1_duration;
 		if ((!(((float)L_7) <= ((float)(0.0f)))))
 		{
@@ -26050,7 +24499,6 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:841>
 		int32_t L_8;
 		L_8 = Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline(NULL);
 		if ((((int32_t)L_8) <= ((int32_t)0)))
@@ -26059,24 +24507,17 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:841>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral40E222F25BCA4559884A50A00854C58F04B4E215, NULL);
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:842>
 		return (Tweener_tD38633F1A42EDF47A73CE3BF1894D946E830E140*)NULL;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:844>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:845>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:846>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:847>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:848>
 		U3CU3Ec__DisplayClass48_0_t88EECD72E0A5A5BFDCDA6B3548B9E3BD722F5222* L_9 = V_0;
 		DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338* L_10 = (DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338*)il2cpp_codegen_object_new(DOGetter_1_t709462C08281F3AA5DFEF36CAF91404B1004C338_il2cpp_TypeInfo_var);
 		DOGetter_1__ctor_m59C11B3FE64C69454BE28721314FD6189629F27E(L_10, L_9, (intptr_t)((void*)U3CU3Ec__DisplayClass48_0_U3CDOShakeCharScaleU3Eb__0_mFC72963020C5BA697DCD96DC6CBE28A364B2DB47_RuntimeMethod_var), NULL);
@@ -26094,7 +24535,7 @@ IL_0041:
 		return L_18;
 	}
 }
-// Method Definition Index: 75266
+// Method Definition Index: 75259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator__cctor_m97608424F293F6E5B507AFD2FDF436CE1E8714CC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26106,7 +24547,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator__cctor_m97608424F293F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:194>
 		Dictionary_2_tDC2DB168C23D3A6A612BE9A9492FD23181B44978* L_0 = (Dictionary_2_tDC2DB168C23D3A6A612BE9A9492FD23181B44978*)il2cpp_codegen_object_new(Dictionary_2_tDC2DB168C23D3A6A612BE9A9492FD23181B44978_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mC36FBC53EF9E1FE6D1BA93321B0FC798D673C3E7(L_0, Dictionary_2__ctor_mC36FBC53EF9E1FE6D1BA93321B0FC798D673C3E7_RuntimeMethod_var);
 		((DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_StaticFields*)il2cpp_codegen_static_fields_for(DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7_il2cpp_TypeInfo_var))->____targetToAnimator = L_0;
@@ -26122,23 +24562,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DOTweenTMPAnimator__cctor_m97608424F293F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75267
+// Method Definition Index: 75260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharVertices__ctor_mCBBF285612E5301C4CA25ADFEA1FB7B8C0CC25AE (CharVertices_t1E106A12ECED72454F616393B690FE3292473154* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_bottomLeft, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_topLeft, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_topRight, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_bottomRight, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:861>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_bottomLeft;
 		__this->___bottomLeft = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:862>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_topLeft;
 		__this->___topLeft = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:863>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___2_topRight;
 		__this->___topRight = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:864>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___3_bottomRight;
 		__this->___bottomRight = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:865>
 		return;
 	}
 }
@@ -26215,11 +24650,10 @@ IL2CPP_EXTERN_C void CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3_mar
 IL2CPP_EXTERN_C void CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3_marshal_com_cleanup(CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 75268
+// Method Definition Index: 75261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharTransform_get_isVisible_m4F562BFB1D033A2F1AA81B6A50DBEEB0DF4E91D1 (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:875>
 		bool L_0 = __this->___U3CisVisibleU3Ek__BackingField;
 		return L_0;
 	}
@@ -26233,11 +24667,10 @@ IL2CPP_EXTERN_C  bool CharTransform_get_isVisible_m4F562BFB1D033A2F1AA81B6A50DBE
 	_returnValue = CharTransform_get_isVisible_m4F562BFB1D033A2F1AA81B6A50DBEEB0DF4E91D1_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 75269
+// Method Definition Index: 75262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_set_isVisible_m736C2A4DC666930DB651A49059A23C25C0BD3F26 (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:875>
 		bool L_0 = ___0_value;
 		__this->___U3CisVisibleU3Ek__BackingField = L_0;
 		return;
@@ -26250,32 +24683,25 @@ IL2CPP_EXTERN_C  void CharTransform_set_isVisible_m736C2A4DC666930DB651A49059A23
 	_thisAdjusted = reinterpret_cast<CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3*>(__this + _offset);
 	CharTransform_set_isVisible_m736C2A4DC666930DB651A49059A23C25C0BD3F26_inline(_thisAdjusted, ___0_value, method);
 }
-// Method Definition Index: 75270
+// Method Definition Index: 75263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform__ctor_mD4454207267D4E9B1F38C11FEE8366B5E864B338 (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, int32_t ___0_charIndex, TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___1_textInfo, TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* ___2_cachedMeshInfos, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:884>
 		il2cpp_codegen_initobj(__this, sizeof(CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:886>
 		int32_t L_0 = ___0_charIndex;
 		__this->___charIndex = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:887>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___offset = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:888>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
 		L_2 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		__this->___rotation = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:889>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		__this->___scale = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:890>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_4 = ___1_textInfo;
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_5 = ___2_cachedMeshInfos;
 		CharTransform_Refresh_m0384D72BEFC9114E8A0361CC553E8F4D15219B30(__this, L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:891>
 		return;
 	}
 }
@@ -26286,7 +24712,7 @@ IL2CPP_EXTERN_C  void CharTransform__ctor_mD4454207267D4E9B1F38C11FEE8366B5E864B
 	_thisAdjusted = reinterpret_cast<CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3*>(__this + _offset);
 	CharTransform__ctor_mD4454207267D4E9B1F38C11FEE8366B5E864B338(_thisAdjusted, ___0_charIndex, ___1_textInfo, ___2_cachedMeshInfos, method);
 }
-// Method Definition Index: 75271
+// Method Definition Index: 75264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_Refresh_m0384D72BEFC9114E8A0361CC553E8F4D15219B30 (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___0_textInfo, TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* ___1_cachedMeshInfos, const RuntimeMethod* method) 
 {
 	TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 V_0;
@@ -26303,7 +24729,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_Refresh_m0384D72BEFC9114E8
 	memset((&G_B6_0), 0, sizeof(G_B6_0));
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:895>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_0 = ___0_textInfo;
 		NullCheck(L_0);
 		TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* L_1 = L_0->___characterInfo;
@@ -26312,11 +24737,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_Refresh_m0384D72BEFC9114E8
 		int32_t L_3 = L_2;
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:896>
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_5 = V_0;
 		Il2CppChar L_6 = L_5.___character;
 		V_1 = (bool)((((int32_t)L_6) == ((int32_t)((int32_t)32)))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:897>
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_7 = V_0;
 		bool L_8 = L_7.___isVisible;
 		if (!L_8)
@@ -26342,15 +24765,12 @@ IL_002c:
 IL_002d:
 	{
 		CharTransform_set_isVisible_m736C2A4DC666930DB651A49059A23C25C0BD3F26_inline(G_B3_1, (bool)G_B3_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:898>
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_10 = V_0;
 		int32_t L_11 = L_10.___materialReferenceIndex;
 		__this->____matIndex = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:899>
 		TMP_CharacterInfo_t8B8FF32D6AACE251F2E7835AA5BC6608D535D9F8 L_12 = V_0;
 		int32_t L_13 = L_12.___vertexIndex;
 		__this->____firstVertexIndex = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:900>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_14 = ___0_textInfo;
 		NullCheck(L_14);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_15 = L_14->___meshInfo;
@@ -26384,15 +24804,11 @@ IL_002d:
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____meshInfo))->___material), (void*)NULL);
 		#endif
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:901>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_19 = ___1_cachedMeshInfos;
 		int32_t L_20 = __this->____matIndex;
 		NullCheck(L_19);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_21 = ((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->___vertices;
 		V_2 = L_21;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:902>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:903>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:904>
 		bool L_22 = V_1;
 		if (L_22)
 		{
@@ -26432,7 +24848,6 @@ IL_00a2:
 IL_00a7:
 	{
 		G_B6_1->____charMidBaselineOffset = G_B6_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:905>
 		return;
 	}
 }
@@ -26443,19 +24858,16 @@ IL2CPP_EXTERN_C  void CharTransform_Refresh_m0384D72BEFC9114E8A0361CC553E8F4D152
 	_thisAdjusted = reinterpret_cast<CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3*>(__this + _offset);
 	CharTransform_Refresh_m0384D72BEFC9114E8A0361CC553E8F4D15219B30(_thisAdjusted, ___0_textInfo, ___1_cachedMeshInfos, method);
 }
-// Method Definition Index: 75272
+// Method Definition Index: 75265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetAll_m039FC911C41EF9E433983E0FD7AB63B7A3DED2F3 (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* ___1_meshInfos, TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* ___2_cachedMeshInfos, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:909>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = ___0_target;
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_1 = ___2_cachedMeshInfos;
 		CharTransform_ResetGeometry_m9C5E05B19CFC04D39999302C10AAAA2FA362BB2C(__this, L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:910>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = ___0_target;
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_3 = ___1_meshInfos;
 		CharTransform_ResetColors_m7B16E391D34AE5D51BF9EDE2CABC56433E058049(__this, L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:911>
 		return;
 	}
 }
@@ -26466,25 +24878,21 @@ IL2CPP_EXTERN_C  void CharTransform_ResetAll_m039FC911C41EF9E433983E0FD7AB63B7A3
 	_thisAdjusted = reinterpret_cast<CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3*>(__this + _offset);
 	CharTransform_ResetAll_m039FC911C41EF9E433983E0FD7AB63B7A3DED2F3(_thisAdjusted, ___0_target, ___1_meshInfos, ___2_cachedMeshInfos, method);
 }
-// Method Definition Index: 75273
+// Method Definition Index: 75266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetTransformationData_mD9C57EDE2CB89AA9E2A9579C049711C0181AF9F4 (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:915>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___offset = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:916>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		__this->___rotation = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:917>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		__this->___scale = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:918>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3;
@@ -26500,7 +24908,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetTransformationData_mD
 		__this->____topRightShift = L_8;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
 		__this->____topLeftShift = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:919>
 		return;
 	}
 }
@@ -26511,23 +24918,19 @@ IL2CPP_EXTERN_C  void CharTransform_ResetTransformationData_mD9C57EDE2CB89AA9E2A
 	_thisAdjusted = reinterpret_cast<CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3*>(__this + _offset);
 	CharTransform_ResetTransformationData_mD9C57EDE2CB89AA9E2A9579C049711C0181AF9F4(_thisAdjusted, method);
 }
-// Method Definition Index: 75274
+// Method Definition Index: 75267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetGeometry_m9C5E05B19CFC04D39999302C10AAAA2FA362BB2C (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* ___1_cachedMeshInfos, const RuntimeMethod* method) 
 {
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:923>
 		CharTransform_ResetTransformationData_mD9C57EDE2CB89AA9E2A9579C049711C0181AF9F4(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:924>
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_0 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = L_0->___vertices;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:925>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_2 = ___1_cachedMeshInfos;
 		int32_t L_3 = __this->____matIndex;
 		NullCheck(L_2);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_4 = ((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)))->___vertices;
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:926>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_5 = L_1;
 		int32_t L_6 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_7 = V_0;
@@ -26537,7 +24940,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetGeometry_m9C5E05B19CF
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		NullCheck(L_5);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:927>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_11 = L_5;
 		int32_t L_12 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_13 = V_0;
@@ -26547,7 +24949,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetGeometry_m9C5E05B19CF
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
 		NullCheck(L_11);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_12, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_16);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:928>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_17 = L_11;
 		int32_t L_18 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_19 = V_0;
@@ -26557,7 +24958,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetGeometry_m9C5E05B19CF
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
 		NullCheck(L_17);
 		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_18, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_22);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:929>
 		int32_t L_23 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_24 = V_0;
 		int32_t L_25 = __this->____firstVertexIndex;
@@ -26566,21 +24966,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetGeometry_m9C5E05B19CF
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
 		NullCheck(L_17);
 		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_23, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_27);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:930>
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_28 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_29 = L_28->___mesh;
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_30 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_31 = L_30->___vertices;
 		NullCheck(L_29);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_29, L_31, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:931>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_32 = ___0_target;
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_33 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_34 = L_33->___mesh;
 		int32_t L_35 = __this->____matIndex;
 		NullCheck(L_32);
 		VirtualActionInvoker2< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, int32_t >::Invoke(107, L_32, L_34, L_35);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:932>
 		return;
 	}
 }
@@ -26591,24 +24988,21 @@ IL2CPP_EXTERN_C  void CharTransform_ResetGeometry_m9C5E05B19CFC04D39999302C10AAA
 	_thisAdjusted = reinterpret_cast<CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3*>(__this + _offset);
 	CharTransform_ResetGeometry_m9C5E05B19CFC04D39999302C10AAAA2FA362BB2C(_thisAdjusted, ___0_target, ___1_cachedMeshInfos, method);
 }
-// Method Definition Index: 75275
+// Method Definition Index: 75268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetColors_m7B16E391D34AE5D51BF9EDE2CABC56433E058049 (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* ___1_meshInfos, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:936>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = ___0_target;
 		NullCheck(L_0);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_0);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:937>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_2 = ___1_meshInfos;
 		int32_t L_3 = __this->____matIndex;
 		NullCheck(L_2);
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_4 = ((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)))->___colors32;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:938>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_5 = L_4;
 		int32_t L_6 = __this->____firstVertexIndex;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = V_0;
@@ -26616,7 +25010,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetColors_m7B16E391D34AE
 		L_8 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_7, NULL);
 		NullCheck(L_5);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:939>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_9 = L_5;
 		int32_t L_10 = __this->____firstVertexIndex;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = V_0;
@@ -26624,7 +25017,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetColors_m7B16E391D34AE
 		L_12 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_11, NULL);
 		NullCheck(L_9);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_10, 1))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_12);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:940>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_13 = L_9;
 		int32_t L_14 = __this->____firstVertexIndex;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15 = V_0;
@@ -26632,18 +25024,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetColors_m7B16E391D34AE
 		L_16 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_15, NULL);
 		NullCheck(L_13);
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_14, 2))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_16);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:941>
 		int32_t L_17 = __this->____firstVertexIndex;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = V_0;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_19;
 		L_19 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_18, NULL);
 		NullCheck(L_13);
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_17, 3))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_19);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:942>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_20 = ___0_target;
 		NullCheck(L_20);
 		VirtualActionInvoker1< int32_t >::Invoke(108, L_20, ((int32_t)16));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:943>
 		return;
 	}
 }
@@ -26654,11 +25043,10 @@ IL2CPP_EXTERN_C  void CharTransform_ResetColors_m7B16E391D34AE5D51BF9EDE2CABC564
 	_thisAdjusted = reinterpret_cast<CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3*>(__this + _offset);
 	CharTransform_ResetColors_m7B16E391D34AE5D51BF9EDE2CABC56433E058049(_thisAdjusted, ___0_target, ___1_meshInfos, method);
 }
-// Method Definition Index: 75276
+// Method Definition Index: 75269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B CharTransform_GetColor_mA5DFD1359D2B295D655849443B67A0366C71C18A (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* ___0_meshInfos, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:947>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_0 = ___0_meshInfos;
 		int32_t L_1 = __this->____matIndex;
 		NullCheck(L_0);
@@ -26679,14 +25067,10 @@ IL2CPP_EXTERN_C  Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B CharTransform
 	_returnValue = CharTransform_GetColor_mA5DFD1359D2B295D655849443B67A0366C71C18A(_thisAdjusted, ___0_meshInfos, method);
 	return _returnValue;
 }
-// Method Definition Index: 75277
+// Method Definition Index: 75270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharVertices_t1E106A12ECED72454F616393B690FE3292473154 CharTransform_GetVertices_mA39F57132658B5C014476633535454690F9DE93D (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:952>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:953>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:954>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:955>
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_0 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = L_0->___vertices;
 		int32_t L_2 = __this->____firstVertexIndex;
@@ -26726,44 +25110,37 @@ IL2CPP_EXTERN_C  CharVertices_t1E106A12ECED72454F616393B690FE3292473154 CharTran
 	_returnValue = CharTransform_GetVertices_mA39F57132658B5C014476633535454690F9DE93D(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 75278
+// Method Definition Index: 75271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_UpdateAlpha_m2B56F698CF4EE54A4DB6AC2BA35E3CB2ED8D9CC6 (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_alphaColor, TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* ___2_meshInfos, bool ___3_apply, const RuntimeMethod* method) 
 {
 	uint8_t V_0 = 0x0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:960>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___1_alphaColor;
 		float L_1 = L_0.___a;
 		V_0 = (uint8_t)il2cpp_codegen_cast_floating_point<uint8_t, int32_t, float>(((float)il2cpp_codegen_multiply(L_1, (255.0f))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:961>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_2 = ___2_meshInfos;
 		int32_t L_3 = __this->____matIndex;
 		NullCheck(L_2);
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_4 = ((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3)))->___colors32;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:962>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_5 = L_4;
 		int32_t L_6 = __this->____firstVertexIndex;
 		NullCheck(L_5);
 		uint8_t L_7 = V_0;
 		((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___a = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:963>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_8 = L_5;
 		int32_t L_9 = __this->____firstVertexIndex;
 		NullCheck(L_8);
 		uint8_t L_10 = V_0;
 		((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_9, 1)))))->___a = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:964>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_11 = L_8;
 		int32_t L_12 = __this->____firstVertexIndex;
 		NullCheck(L_11);
 		uint8_t L_13 = V_0;
 		((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_12, 2)))))->___a = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:965>
 		int32_t L_14 = __this->____firstVertexIndex;
 		NullCheck(L_11);
 		uint8_t L_15 = V_0;
 		((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_14, 3)))))->___a = L_15;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:966>
 		bool L_16 = ___3_apply;
 		if (!L_16)
 		{
@@ -26771,7 +25148,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_UpdateAlpha_m2B56F698CF4EE
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:966>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_17 = ___0_target;
 		NullCheck(L_17);
 		VirtualActionInvoker1< int32_t >::Invoke(108, L_17, ((int32_t)16));
@@ -26779,7 +25155,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_UpdateAlpha_m2B56F698CF4EE
 
 IL_0078:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:967>
 		return;
 	}
 }
@@ -26790,39 +25165,33 @@ IL2CPP_EXTERN_C  void CharTransform_UpdateAlpha_m2B56F698CF4EE54A4DB6AC2BA35E3CB
 	_thisAdjusted = reinterpret_cast<CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3*>(__this + _offset);
 	CharTransform_UpdateAlpha_m2B56F698CF4EE54A4DB6AC2BA35E3CB2ED8D9CC6(_thisAdjusted, ___0_target, ___1_alphaColor, ___2_meshInfos, ___3_apply, method);
 }
-// Method Definition Index: 75279
+// Method Definition Index: 75272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_UpdateColor_mA2BFFFFF412146862CBC748A404C2A95AC97D857 (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___1_color, TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* ___2_meshInfos, bool ___3_apply, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:971>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_0 = ___2_meshInfos;
 		int32_t L_1 = __this->____matIndex;
 		NullCheck(L_0);
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_2 = ((L_0)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1)))->___colors32;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:972>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_3 = L_2;
 		int32_t L_4 = __this->____firstVertexIndex;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_5 = ___1_color;
 		NullCheck(L_3);
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(L_4), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:973>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_6 = L_3;
 		int32_t L_7 = __this->____firstVertexIndex;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_8 = ___1_color;
 		NullCheck(L_6);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_7, 1))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:974>
 		Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* L_9 = L_6;
 		int32_t L_10 = __this->____firstVertexIndex;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_11 = ___1_color;
 		NullCheck(L_9);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_10, 2))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_11);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:975>
 		int32_t L_12 = __this->____firstVertexIndex;
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_13 = ___1_color;
 		NullCheck(L_9);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_12, 3))), (Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B)L_13);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:976>
 		bool L_14 = ___3_apply;
 		if (!L_14)
 		{
@@ -26830,7 +25199,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_UpdateColor_mA2BFFFFF41214
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:976>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15 = ___0_target;
 		NullCheck(L_15);
 		VirtualActionInvoker1< int32_t >::Invoke(108, L_15, ((int32_t)16));
@@ -26838,7 +25206,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_UpdateColor_mA2BFFFFF41214
 
 IL_0056:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:977>
 		return;
 	}
 }
@@ -26849,7 +25216,7 @@ IL2CPP_EXTERN_C  void CharTransform_UpdateColor_mA2BFFFFF412146862CBC748A404C2A9
 	_thisAdjusted = reinterpret_cast<CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3*>(__this + _offset);
 	CharTransform_UpdateColor_mA2BFFFFF412146862CBC748A404C2A95AC97D857(_thisAdjusted, ___0_target, ___1_color, ___2_meshInfos, ___3_apply, method);
 }
-// Method Definition Index: 75280
+// Method Definition Index: 75273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2 (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_offset, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_scale, TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* ___4_cachedMeshInfos, bool ___5_apply, const RuntimeMethod* method) 
 {
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_0 = NULL;
@@ -26857,16 +25224,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_UpdateGeometry_m895F6B5D56
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:981>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_offset;
 		__this->___offset = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:982>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___2_rotation;
 		__this->___rotation = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:983>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___3_scale;
 		__this->___scale = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:985>
 		bool L_3 = ___5_apply;
 		if (L_3)
 		{
@@ -26874,23 +25237,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_UpdateGeometry_m895F6B5D56
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:985>
 		return;
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:987>
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_4 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_5 = L_4->___vertices;
 		V_0 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:988>
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_6 = ___4_cachedMeshInfos;
 		int32_t L_7 = __this->____matIndex;
 		NullCheck(L_6);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_8 = ((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_7)))->___vertices;
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:989>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_9 = V_0;
 		int32_t L_10 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_11 = V_1;
@@ -26903,7 +25262,6 @@ IL_001b:
 		L_16 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_14, L_15, NULL);
 		NullCheck(L_9);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_16);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:990>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_17 = V_0;
 		int32_t L_18 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_19 = V_1;
@@ -26916,7 +25274,6 @@ IL_001b:
 		L_24 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_22, L_23, NULL);
 		NullCheck(L_17);
 		(L_17)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_18, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_24);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:991>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_25 = V_0;
 		int32_t L_26 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_27 = V_1;
@@ -26929,7 +25286,6 @@ IL_001b:
 		L_32 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_30, L_31, NULL);
 		NullCheck(L_25);
 		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_26, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_32);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:992>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_33 = V_0;
 		int32_t L_34 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_35 = V_1;
@@ -26942,15 +25298,12 @@ IL_001b:
 		L_40 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_38, L_39, NULL);
 		NullCheck(L_33);
 		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_34, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_40);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:993>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = __this->___offset;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42 = __this->___rotation;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = __this->___scale;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_44;
 		L_44 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_41, L_42, L_43, NULL);
 		V_2 = L_44;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:994>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:995>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_45 = V_0;
 		int32_t L_46 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_47 = V_0;
@@ -26968,8 +25321,6 @@ IL_001b:
 		L_55 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_53, L_54, NULL);
 		NullCheck(L_45);
 		(L_45)->SetAt(static_cast<il2cpp_array_size_t>(L_46), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_55);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:996>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:997>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_56 = V_0;
 		int32_t L_57 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_58 = V_0;
@@ -26987,8 +25338,6 @@ IL_001b:
 		L_66 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_64, L_65, NULL);
 		NullCheck(L_56);
 		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_57, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_66);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:998>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:999>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_67 = V_0;
 		int32_t L_68 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_69 = V_0;
@@ -27006,8 +25355,6 @@ IL_001b:
 		L_77 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_75, L_76, NULL);
 		NullCheck(L_67);
 		(L_67)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_68, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_77);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1000>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1001>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_78 = V_0;
 		int32_t L_79 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_80 = V_0;
@@ -27025,21 +25372,18 @@ IL_001b:
 		L_88 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_86, L_87, NULL);
 		NullCheck(L_78);
 		(L_78)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_79, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_88);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1002>
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_89 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_90 = L_89->___mesh;
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_91 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_92 = L_91->___vertices;
 		NullCheck(L_90);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_90, L_92, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1003>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_93 = ___0_target;
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_94 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_95 = L_94->___mesh;
 		int32_t L_96 = __this->____matIndex;
 		NullCheck(L_93);
 		VirtualActionInvoker2< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, int32_t >::Invoke(107, L_93, L_95, L_96);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1004>
 		return;
 	}
 }
@@ -27050,40 +25394,34 @@ IL2CPP_EXTERN_C  void CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7E
 	_thisAdjusted = reinterpret_cast<CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3*>(__this + _offset);
 	CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2(_thisAdjusted, ___0_target, ___1_offset, ___2_rotation, ___3_scale, ___4_cachedMeshInfos, ___5_apply, method);
 }
-// Method Definition Index: 75281
+// Method Definition Index: 75274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ShiftVertices_mD60C35E7D9324EEB1E6C8E64298BDC207894B901 (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_topLeftShift, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_topRightShift, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_bottomLeftShift, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___4_bottomRightShift, const RuntimeMethod* method) 
 {
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1008>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->____topLeftShift;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_topLeftShift;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_0, L_1, NULL);
 		__this->____topLeftShift = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1009>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->____topRightShift;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___2_topRightShift;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3, L_4, NULL);
 		__this->____topRightShift = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1010>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = __this->____bottomLeftShift;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___3_bottomLeftShift;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_6, L_7, NULL);
 		__this->____bottomLeftShift = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1011>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = __this->____bottomRightShift;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___4_bottomRightShift;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_9, L_10, NULL);
 		__this->____bottomRightShift = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1012>
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_12 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_13 = L_12->___vertices;
 		V_0 = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1013>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_14 = V_0;
 		int32_t L_15 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_16 = V_0;
@@ -27096,7 +25434,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ShiftVertices_mD60C35E7D93
 		L_21 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_19, L_20, NULL);
 		NullCheck(L_14);
 		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(L_15), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_21);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1014>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_22 = V_0;
 		int32_t L_23 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_24 = V_0;
@@ -27109,7 +25446,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ShiftVertices_mD60C35E7D93
 		L_29 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_27, L_28, NULL);
 		NullCheck(L_22);
 		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_23, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_29);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1015>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_30 = V_0;
 		int32_t L_31 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_32 = V_0;
@@ -27122,7 +25458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ShiftVertices_mD60C35E7D93
 		L_37 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_35, L_36, NULL);
 		NullCheck(L_30);
 		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_31, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_37);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1016>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_38 = V_0;
 		int32_t L_39 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_40 = V_0;
@@ -27135,21 +25470,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ShiftVertices_mD60C35E7D93
 		L_45 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_43, L_44, NULL);
 		NullCheck(L_38);
 		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_39, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_45);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1017>
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_46 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_47 = L_46->___mesh;
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_48 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_49 = L_48->___vertices;
 		NullCheck(L_47);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_47, L_49, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1018>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_50 = ___0_target;
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_51 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_52 = L_51->___mesh;
 		int32_t L_53 = __this->____matIndex;
 		NullCheck(L_50);
 		VirtualActionInvoker2< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, int32_t >::Invoke(107, L_50, L_52, L_53);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1019>
 		return;
 	}
 }
@@ -27160,18 +25492,16 @@ IL2CPP_EXTERN_C  void CharTransform_ShiftVertices_mD60C35E7D9324EEB1E6C8E64298BD
 	_thisAdjusted = reinterpret_cast<CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3*>(__this + _offset);
 	CharTransform_ShiftVertices_mD60C35E7D9324EEB1E6C8E64298BDC207894B901(_thisAdjusted, ___0_target, ___1_topLeftShift, ___2_topRightShift, ___3_bottomLeftShift, ___4_bottomRightShift, method);
 }
-// Method Definition Index: 75282
+// Method Definition Index: 75275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetVerticesShift_m684118918795B18382E3B9456AE2A4DDD4C7323E (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_target, const RuntimeMethod* method) 
 {
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_0 = NULL;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1023>
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_0 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = L_0->___vertices;
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1024>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = V_0;
 		int32_t L_3 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_4 = V_0;
@@ -27184,7 +25514,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetVerticesShift_m684118
 		L_9 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_7, L_8, NULL);
 		NullCheck(L_2);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(L_3), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_9);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1025>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_10 = V_0;
 		int32_t L_11 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_12 = V_0;
@@ -27197,7 +25526,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetVerticesShift_m684118
 		L_17 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_15, L_16, NULL);
 		NullCheck(L_10);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_11, 1))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_17);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1026>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_18 = V_0;
 		int32_t L_19 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_20 = V_0;
@@ -27210,7 +25538,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetVerticesShift_m684118
 		L_25 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_23, L_24, NULL);
 		NullCheck(L_18);
 		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_19, 2))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_25);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1027>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_26 = V_0;
 		int32_t L_27 = __this->____firstVertexIndex;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_28 = V_0;
@@ -27223,21 +25550,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetVerticesShift_m684118
 		L_33 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_31, L_32, NULL);
 		NullCheck(L_26);
 		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_27, 3))), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_33);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1028>
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_34 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_35 = L_34->___mesh;
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_36 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_37 = L_36->___vertices;
 		NullCheck(L_35);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_35, L_37, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1029>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_38 = ___0_target;
 		TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B* L_39 = (TMP_MeshInfo_t320C52212E9D672EBB5F5C18C3E0700AA33DD76B*)(&__this->____meshInfo);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_40 = L_39->___mesh;
 		int32_t L_41 = __this->____matIndex;
 		NullCheck(L_38);
 		VirtualActionInvoker2< Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, int32_t >::Invoke(107, L_38, L_40, L_41);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1030>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
 		L_42 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = L_42;
@@ -27253,7 +25577,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharTransform_ResetVerticesShift_m684118
 		__this->____topRightShift = L_47;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = V_1;
 		__this->____topLeftShift = L_48;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:1031>
 		return;
 	}
 }
@@ -27272,7 +25595,7 @@ IL2CPP_EXTERN_C  void CharTransform_ResetVerticesShift_m684118918795B18382E3B945
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75283
+// Method Definition Index: 75276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0__ctor_mA25851FA3313187F6AB81ADD677B88F18BB96C40 (U3CU3Ec__DisplayClass34_0_t09656E8593E5C6344F4AE7D0D93A8DDE574CB429* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27280,7 +25603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0__ctor_mA25851F
 		return;
 	}
 }
-// Method Definition Index: 75284
+// Method Definition Index: 75277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass34_0_U3CDOFadeCharU3Eb__0_m65D863BE31BCC1A5AF582FDC228BAD6D8E4A0342 (U3CU3Ec__DisplayClass34_0_t09656E8593E5C6344F4AE7D0D93A8DDE574CB429* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27292,7 +25615,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:605>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -27314,7 +25636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_8;
 	}
 }
-// Method Definition Index: 75285
+// Method Definition Index: 75278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CDOFadeCharU3Eb__1_mE8E8597D4F53B4E04355E27861D8B7F85CB1880D (U3CU3Ec__DisplayClass34_0_t09656E8593E5C6344F4AE7D0D93A8DDE574CB429* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27326,7 +25648,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CDOFadeCharU
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:606>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -27347,7 +25668,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CDOFadeCharU
 		NullCheck(L_8);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_9 = L_8->___meshInfo;
 		CharTransform_UpdateAlpha_m2B56F698CF4EE54A4DB6AC2BA35E3CB2ED8D9CC6((&V_0), L_5, L_6, L_9, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:607>
 		return;
 	}
 }
@@ -27359,7 +25679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CDOFadeCharU
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75286
+// Method Definition Index: 75279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_mD83C14FF258D99330CD8C3702364E565E4C8F5B8 (U3CU3Ec__DisplayClass35_0_tF822D07EEE46DD84F61E72B6926065FE5329C453* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27367,7 +25687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_mD83C14F
 		return;
 	}
 }
-// Method Definition Index: 75287
+// Method Definition Index: 75280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F U3CU3Ec__DisplayClass35_0_U3CDOColorCharU3Eb__0_m90D95A636581CA31C79C29B950DBC617D40909C4 (U3CU3Ec__DisplayClass35_0_tF822D07EEE46DD84F61E72B6926065FE5329C453* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27379,7 +25699,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:618>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -27401,7 +25720,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_8;
 	}
 }
-// Method Definition Index: 75288
+// Method Definition Index: 75281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CDOColorCharU3Eb__1_m4B7F75E37189356F688C2DC3C0365C05A74124FF (U3CU3Ec__DisplayClass35_0_tF822D07EEE46DD84F61E72B6926065FE5329C453* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27413,7 +25732,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CDOColorChar
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:619>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -27436,7 +25754,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CDOColorChar
 		NullCheck(L_9);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_10 = L_9->___meshInfo;
 		CharTransform_UpdateColor_mA2BFFFFF412146862CBC748A404C2A95AC97D857((&V_0), L_5, L_7, L_10, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:620>
 		return;
 	}
 }
@@ -27448,7 +25765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CDOColorChar
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75289
+// Method Definition Index: 75282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0__ctor_m7038B32A3B81A54058CBDB279D574245AAA0D83A (U3CU3Ec__DisplayClass36_0_t0F0255D2D37CFDD4B19AB446DFCA9D4C4DB28031* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27456,7 +25773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0__ctor_m7038B32
 		return;
 	}
 }
-// Method Definition Index: 75290
+// Method Definition Index: 75283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass36_0_U3CDOOffsetCharU3Eb__0_m0F969B53A3FF423103D62A7BE9312476A42E7C63 (U3CU3Ec__DisplayClass36_0_t0F0255D2D37CFDD4B19AB446DFCA9D4C4DB28031* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27466,7 +25783,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:631>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -27478,7 +25794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_4;
 	}
 }
-// Method Definition Index: 75291
+// Method Definition Index: 75284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CDOOffsetCharU3Eb__1_m6C0D4F6443BBEB97B65035C0E941147EDAF4638E (U3CU3Ec__DisplayClass36_0_t0F0255D2D37CFDD4B19AB446DFCA9D4C4DB28031* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27491,7 +25807,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CDOOffsetCha
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:632>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -27500,7 +25815,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CDOOffsetCha
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_3;
 		L_3 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_1, L_2, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:633>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
@@ -27514,7 +25828,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CDOOffsetCha
 		NullCheck(L_11);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_12 = L_11->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_6, L_8, L_10, L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:634>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_13 = __this->___U3CU3E4__this;
 		NullCheck(L_13);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_14 = L_13->____charTransforms;
@@ -27522,7 +25835,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CDOOffsetCha
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_16 = V_0;
 		NullCheck(L_14);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_14, L_15, L_16, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:635>
 		return;
 	}
 }
@@ -27534,7 +25846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CDOOffsetCha
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75292
+// Method Definition Index: 75285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0__ctor_mD0A049E116222E5FB5B1C4DCA3EFABCD0C4A3443 (U3CU3Ec__DisplayClass37_0_tEE63B4E7F1084F4A16F88E2D8B794E69E0AA121D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27542,7 +25854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0__ctor_mD0A049E
 		return;
 	}
 }
-// Method Definition Index: 75293
+// Method Definition Index: 75286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 U3CU3Ec__DisplayClass37_0_U3CDORotateCharU3Eb__0_mADC24EAC04CCF00015FDBD71973EB3BD41E4C9FA (U3CU3Ec__DisplayClass37_0_tEE63B4E7F1084F4A16F88E2D8B794E69E0AA121D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27552,7 +25864,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:647>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -27564,7 +25875,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		return L_4;
 	}
 }
-// Method Definition Index: 75294
+// Method Definition Index: 75287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0_U3CDORotateCharU3Eb__1_mF913E42E2F085C951B6113AF15E1BF762A190A11 (U3CU3Ec__DisplayClass37_0_tEE63B4E7F1084F4A16F88E2D8B794E69E0AA121D* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27577,7 +25888,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0_U3CDORotateCha
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:648>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -27586,7 +25896,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0_U3CDORotateCha
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_3;
 		L_3 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_1, L_2, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:649>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
@@ -27600,7 +25909,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0_U3CDORotateCha
 		NullCheck(L_11);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_12 = L_11->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_7, L_8, L_10, L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:650>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_13 = __this->___U3CU3E4__this;
 		NullCheck(L_13);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_14 = L_13->____charTransforms;
@@ -27608,7 +25916,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0_U3CDORotateCha
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_16 = V_0;
 		NullCheck(L_14);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_14, L_15, L_16, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:651>
 		return;
 	}
 }
@@ -27642,7 +25949,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 71434
+// Method Definition Index: 71427
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Tween_get_isRelative_mC31C34D21C3953F9AA7F25C0429BEBE45D2DBAE2_inline (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27773,7 +26080,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_16;
 	}
 }
-// Method Definition Index: 71740
+// Method Definition Index: 71733
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Debugger_get_logPriority_m7AC0D46AE0BA9AC3ED1ED50AD20734033D16D0AC_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27861,7 +26168,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_8;
 	}
 }
-// Method Definition Index: 69165
+// Method Definition Index: 69158
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Shadow_get_effectColor_m6E7751BB8792C85BE9DAD0D133D787317D9CF59B_inline (Shadow_tCAA59FE9D6B0DC6DCC505E8E22D8D3C05BE6DE95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27870,7 +26177,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED02
 		return L_0;
 	}
 }
-// Method Definition Index: 69167
+// Method Definition Index: 69160
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Shadow_get_effectDistance_mA87EB50066AFEBC13C69D27376E50033930FA58F_inline (Shadow_tCAA59FE9D6B0DC6DCC505E8E22D8D3C05BE6DE95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27879,7 +26186,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 68151
+// Method Definition Index: 68144
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Image_get_fillAmount_mDEE52490D07124E21E7CB36718A5E3714D8B9788_inline (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27888,7 +26195,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Image_get_fillAmount_mDEE52
 		return L_0;
 	}
 }
-// Method Definition Index: 71436
+// Method Definition Index: 71429
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Tween_get_active_mD4253DD1A64623E342282E139081B787935A3E5E_inline (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27896,7 +26203,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Tween_get_active_mD4253DD1A6
 		return L_0;
 	}
 }
-// Method Definition Index: 71443
+// Method Definition Index: 71436
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Tween_get_position_mF8A2FF9C0DA291DEC595AC8C00E2E096A009B5A8_inline (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27904,7 +26211,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Tween_get_position_mF8A2FF9
 		return L_0;
 	}
 }
-// Method Definition Index: 71441
+// Method Definition Index: 71434
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Tween_get_playedOnce_mDA42B6964058549DB8BBC9217DBBB2F0EB67A335_inline (Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28121,7 +26428,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color32_t73C5004937BF5BB8AD55323D
 		return L_16;
 	}
 }
-// Method Definition Index: 61111
+// Method Definition Index: 61104
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TMP_Text_get_fontSize_m13A8365A56EA2B726EAD826B4A69C8918A528731_inline (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28130,7 +26437,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TMP_Text_get_fontSize_m13A8
 		return L_0;
 	}
 }
-// Method Definition Index: 61194
+// Method Definition Index: 61187
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TMP_Text_get_maxVisibleCharacters_mF695995258B5013340B8C026B2A0FA643D5FD302_inline (TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28139,51 +26446,46 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TMP_Text_get_maxVisibleCh
 		return L_0;
 	}
 }
-// Method Definition Index: 75226
+// Method Definition Index: 75219
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_set_target_mC9393140D64FBCAA18D664338B61EA9C5D11CDA0_inline (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:197>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = ___0_value;
 		__this->___U3CtargetU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtargetU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75228
+// Method Definition Index: 75221
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DOTweenTMPAnimator_set_textInfo_mA10881B2578BACB91D1BEA975877250FEE309A91_inline (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:198>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_0 = ___0_value;
 		__this->___U3CtextInfoU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CtextInfoU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75225
+// Method Definition Index: 75218
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:197>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___U3CtargetU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75227
+// Method Definition Index: 75220
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* DOTweenTMPAnimator_get_textInfo_mAA123F3C17044974AA8939E42703055795916188_inline (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:198>
 		TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* L_0 = __this->___U3CtextInfoU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75268
+// Method Definition Index: 75261
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CharTransform_get_isVisible_m4F562BFB1D033A2F1AA81B6A50DBEEB0DF4E91D1_inline (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:875>
 		bool L_0 = __this->___U3CisVisibleU3Ek__BackingField;
 		return L_0;
 	}
@@ -28226,11 +26528,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_2;
 	}
 }
-// Method Definition Index: 75269
+// Method Definition Index: 75262
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CharTransform_set_isVisible_m736C2A4DC666930DB651A49059A23C25C0BD3F26_inline (CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:875>
 		bool L_0 = ___0_value;
 		__this->___U3CisVisibleU3Ek__BackingField = L_0;
 		return;

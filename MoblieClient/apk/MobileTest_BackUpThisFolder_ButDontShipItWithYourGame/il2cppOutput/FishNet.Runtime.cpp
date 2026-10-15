@@ -3530,7 +3530,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BaseChannel_get_PacketsInQueue_m2E766
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:11>
 		Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_0 = __this->___OutgoingQueue;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -3549,18 +3548,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseChannel__ctor_m0BC73E850239E9A91C4B1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:9>
 		Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_0 = (Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE*)il2cpp_codegen_object_new(Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE_il2cpp_TypeInfo_var);
 		Queue_1__ctor_mD09DE773BE83D35C861B7B3C4F747DBADE4617B7(L_0, ((int32_t)64), Queue_1__ctor_mD09DE773BE83D35C861B7B3C4F747DBADE4617B7_RuntimeMethod_var);
 		__this->___OutgoingQueue = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___OutgoingQueue), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:13>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:15>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_1 = ___0_peer;
 		__this->___Peer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Peer), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:16>
 		return;
 	}
 }
@@ -3576,7 +3571,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseChannel_AddToQueue_m52915209F44E15B6
 	Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* V_0 = NULL;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:20>
 		Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_0 = __this->___OutgoingQueue;
 		V_0 = L_0;
 		V_1 = (bool)0;
@@ -3609,12 +3603,10 @@ IL_0028:
 		{
 			Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_3 = V_0;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:22>
 			Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_4 = __this->___OutgoingQueue;
 			NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = ___0_packet;
 			NullCheck(L_4);
 			Queue_1_Enqueue_mE1E3CD074641B4EC107717F32C6E58E393CAB0DE(L_4, L_5, Queue_1_Enqueue_mE1E3CD074641B4EC107717F32C6E58E393CAB0DE_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:23>
 			goto IL_0029;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -3625,9 +3617,7 @@ IL_0028:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:24>
 		BaseChannel_AddToPeerChannelSendQueue_m13B3ECD33FEC7354967CF04A6D3CD838BBEEC379(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:25>
 		return;
 	}
 }
@@ -3635,7 +3625,6 @@ IL_0029:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseChannel_AddToPeerChannelSendQueue_m13B3ECD33FEC7354967CF04A6D3CD838BBEEC379 (BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:29>
 		int32_t* L_0 = (int32_t*)(&__this->____isAddedToPeerChannelSendQueue);
 		int32_t L_1;
 		L_1 = Interlocked_CompareExchange_mB06E8737D3DA41F9FFBC38A6D0583D515EFB5717(L_0, 1, 0, NULL);
@@ -3645,7 +3634,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseChannel_AddToPeerChannelSendQueue_m1
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:31>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = __this->___Peer;
 		NullCheck(L_2);
 		NetPeer_AddToReliableChannelSendQueue_m33D81D9A2E42DC84EC1D662FD0C76FCBC79A3DE4(L_2, __this, NULL);
@@ -3653,7 +3641,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseChannel_AddToPeerChannelSendQueue_m1
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:33>
 		return;
 	}
 }
@@ -3663,10 +3650,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BaseChannel_SendAndCheckQueue_m6661C5B48
 	bool G_B2_0 = false;
 	bool G_B1_0 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:37>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(4, __this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:38>
 		bool L_1 = L_0;
 		if (L_1)
 		{
@@ -3676,7 +3661,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BaseChannel_SendAndCheckQueue_m6661C5B48
 		G_B1_0 = L_1;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:39>
 		int32_t* L_2 = (int32_t*)(&__this->____isAddedToPeerChannelSendQueue);
 		int32_t L_3;
 		L_3 = Interlocked_Exchange_m5810F59A9EF49D8003BA76D95398854254A091DF(L_2, 0, NULL);
@@ -3685,7 +3669,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BaseChannel_SendAndCheckQueue_m6661C5B48
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/BaseChannel.cs:41>
 		return G_B2_0;
 	}
 }
@@ -3709,7 +3692,6 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* ConnectionRequest_get_Data_m5C95765E1275E411090CD344C1939C9D70E03FA0 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:19>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_0 = __this->___InternalPacket;
 		NullCheck(L_0);
 		NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_1 = L_0->___Data;
@@ -3720,7 +3702,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetDataReader_tD55989DE95B2220F4CF225BADBA925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConnectionRequest_get_Result_m6ABA7CD15A38496193427FF21251FEFF6A18B520 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:20>
 		int32_t L_0 = __this->___U3CResultU3Ek__BackingField;
 		return L_0;
 	}
@@ -3729,7 +3710,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConnectionRequest_get_Result_m6ABA7CD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_set_Result_m5A19AAA946341A2EF22F0763D8EA45DE526BB9E3 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:20>
 		int32_t L_0 = ___0_value;
 		__this->___U3CResultU3Ek__BackingField = L_0;
 		return;
@@ -3739,7 +3719,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_set_Result_m5A19AAA946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_UpdateRequest_mE86B045443A084F5C13061397E47D942107B0F20 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* ___0_connectRequest, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:27>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_0 = ___0_connectRequest;
 		NullCheck(L_0);
 		int64_t L_1 = L_0->___ConnectionTime;
@@ -3752,13 +3731,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_UpdateRequest_mE86B045
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:28>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:30>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_4 = ___0_connectRequest;
 		NullCheck(L_4);
 		int64_t L_5 = L_4->___ConnectionTime;
@@ -3783,17 +3760,14 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:31>
 		return;
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:33>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_12 = ___0_connectRequest;
 		__this->___InternalPacket = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InternalPacket), (void*)L_12);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:34>
 		return;
 	}
 }
@@ -3801,7 +3775,6 @@ IL_003b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConnectionRequest_TryActivate_m8F66971FFA17C31CDD5ADBAC00749B602DA496DF (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:38>
 		int32_t* L_0 = (int32_t*)(&__this->____used);
 		int32_t L_1;
 		L_1 = Interlocked_CompareExchange_mB06E8737D3DA41F9FFBC38A6D0583D515EFB5717(L_0, 1, 0, NULL);
@@ -3812,21 +3785,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConnectionRequest_TryActivate_m8F66971FF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest__ctor_mE2A78906334E858FAD280815CEB693995EBD0BB0 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___0_remoteEndPoint, NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* ___1_requestPacket, NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* ___2_listener, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:41>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:43>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_0 = ___1_requestPacket;
 		__this->___InternalPacket = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InternalPacket), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:44>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_1 = ___0_remoteEndPoint;
 		__this->___RemoteEndPoint = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RemoteEndPoint), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:45>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_2 = ___2_listener;
 		__this->____listener = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____listener), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:46>
 		return;
 	}
 }
@@ -3835,7 +3803,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:50>
 		bool L_0;
 		L_0 = ConnectionRequest_TryActivate_m8F66971FFA17C31CDD5ADBAC00749B602DA496DF(__this, NULL);
 		if (L_0)
@@ -3844,7 +3811,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:51>
 		return (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL;
 	}
 
@@ -3854,7 +3820,6 @@ IL_000a:
 	try
 	{
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:54>
 			NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_1;
 			L_1 = ConnectionRequest_get_Data_m5C95765E1275E411090CD344C1939C9D70E03FA0(__this, NULL);
 			NullCheck(L_1);
@@ -3869,13 +3834,11 @@ IL_000a:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:55>
 			ConnectionRequest_set_Result_m5A19AAA946341A2EF22F0763D8EA45DE526BB9E3_inline(__this, 1, NULL);
 		}
 
 IL_0025_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:56>
 			goto IL_0034;
 		}
 	}
@@ -3892,18 +3855,14 @@ IL_0025_1:
 CATCH_0027:
 	{
 		RuntimeObject* L_5 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:57>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:59>
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 		NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral69EE3BCBB30FA8DEC9DEC0C3ACF8A2EE6DFB2F55)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:60>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0034;
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:61>
 		int32_t L_6;
 		L_6 = ConnectionRequest_get_Result_m6ABA7CD15A38496193427FF21251FEFF6A18B520_inline(__this, NULL);
 		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
@@ -3912,7 +3871,6 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:62>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_7 = __this->____listener;
 		NullCheck(L_7);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_8;
@@ -3922,14 +3880,11 @@ IL_0034:
 
 IL_004d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:64>
 		ConnectionRequest_set_Result_m5A19AAA946341A2EF22F0763D8EA45DE526BB9E3_inline(__this, 2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:65>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_9 = __this->____listener;
 		NullCheck(L_9);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_10;
 		L_10 = NetManager_OnConnectionSolved_mD2B038AF08CA7B2BFCA65B6F09F04666E4A1669C(L_9, __this, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, 0, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:66>
 		return (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL;
 	}
 }
@@ -3937,7 +3892,6 @@ IL_004d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ConnectionRequest_Accept_mC323BCB370F5A9C00F3450C44CA0D4EF67AEDDC1 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:75>
 		bool L_0;
 		L_0 = ConnectionRequest_TryActivate_m8F66971FFA17C31CDD5ADBAC00749B602DA496DF(__this, NULL);
 		if (L_0)
@@ -3946,15 +3900,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:76>
 		return (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:77>
 		ConnectionRequest_set_Result_m5A19AAA946341A2EF22F0763D8EA45DE526BB9E3_inline(__this, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:78>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_1 = __this->____listener;
 		NullCheck(L_1);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2;
@@ -3970,7 +3921,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_Reject_m44B7D892B3E423
 	int32_t G_B5_0 = 0;
 	ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* G_B5_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:83>
 		bool L_0;
 		L_0 = ConnectionRequest_TryActivate_m8F66971FFA17C31CDD5ADBAC00749B602DA496DF(__this, NULL);
 		if (L_0)
@@ -3979,13 +3929,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_Reject_m44B7D892B3E423
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:84>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:85>
 		bool L_1 = ___3_force;
 		if (L_1)
 		{
@@ -4010,7 +3958,6 @@ IL_0012:
 	{
 		NullCheck(G_B5_1);
 		ConnectionRequest_set_Result_m5A19AAA946341A2EF22F0763D8EA45DE526BB9E3_inline(G_B5_1, G_B5_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:86>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_2 = __this->____listener;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___0_rejectData;
 		int32_t L_4 = ___1_start;
@@ -4018,7 +3965,6 @@ IL_0012:
 		NullCheck(L_2);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_6;
 		L_6 = NetManager_OnConnectionSolved_mD2B038AF08CA7B2BFCA65B6F09F04666E4A1669C(L_2, __this, L_3, L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:87>
 		return;
 	}
 }
@@ -4026,12 +3972,10 @@ IL_0012:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_Reject_m35C2495CE70F841BAF7DC06F9D47A8C526810643 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_rejectData, int32_t ___1_start, int32_t ___2_length, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:91>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_rejectData;
 		int32_t L_1 = ___1_start;
 		int32_t L_2 = ___2_length;
 		ConnectionRequest_Reject_m44B7D892B3E423E624547E787D2CE8BBDECAD89E(__this, L_0, L_1, L_2, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:92>
 		return;
 	}
 }
@@ -4039,12 +3983,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_Reject_m35C2495CE70F84
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_RejectForce_m8C224324847602423FAC214C019056C7989292E2 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_rejectData, int32_t ___1_start, int32_t ___2_length, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:96>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_rejectData;
 		int32_t L_1 = ___1_start;
 		int32_t L_2 = ___2_length;
 		ConnectionRequest_Reject_m44B7D892B3E423E624547E787D2CE8BBDECAD89E(__this, L_0, L_1, L_2, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:97>
 		return;
 	}
 }
@@ -4052,9 +3994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_RejectForce_m8C2243248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_RejectForce_mECFF80DB8E7C5A360A900073A90D0F14C81E8F9D (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:101>
 		ConnectionRequest_Reject_m44B7D892B3E423E624547E787D2CE8BBDECAD89E(__this, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, 0, 0, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:102>
 		return;
 	}
 }
@@ -4062,12 +4002,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_RejectForce_mECFF80DB8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_RejectForce_mCEDA2BFF6771553154788158BEE4C41806D16F03 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_rejectData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:106>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_rejectData;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_rejectData;
 		NullCheck(L_1);
 		ConnectionRequest_Reject_m44B7D892B3E423E624547E787D2CE8BBDECAD89E(__this, L_0, 0, ((int32_t)(((RuntimeArray*)L_1)->max_length)), (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:107>
 		return;
 	}
 }
@@ -4075,7 +4013,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_RejectForce_mCEDA2BFF6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_RejectForce_mF565F595FF4D729FF3D69DE76289FE9D10FDE226 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_rejectData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:111>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___0_rejectData;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
@@ -4085,7 +4022,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_RejectForce_mF565F595F
 		int32_t L_3;
 		L_3 = NetDataWriter_get_Length_mC213D6934BF8FFAA5225907F85879EB05040B7A4_inline(L_2, NULL);
 		ConnectionRequest_Reject_m44B7D892B3E423E624547E787D2CE8BBDECAD89E(__this, L_1, 0, L_3, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:112>
 		return;
 	}
 }
@@ -4093,9 +4029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_RejectForce_mF565F595F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_Reject_m9C325A858714958B3C81008B0EFEA9EC496B6682 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:116>
 		ConnectionRequest_Reject_m44B7D892B3E423E624547E787D2CE8BBDECAD89E(__this, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, 0, 0, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:117>
 		return;
 	}
 }
@@ -4103,12 +4037,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_Reject_m9C325A85871495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_Reject_m291C92BBC33AECB5F188B836A3C87396208C58E4 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_rejectData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:121>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_rejectData;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_rejectData;
 		NullCheck(L_1);
 		ConnectionRequest_Reject_m44B7D892B3E423E624547E787D2CE8BBDECAD89E(__this, L_0, 0, ((int32_t)(((RuntimeArray*)L_1)->max_length)), (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:122>
 		return;
 	}
 }
@@ -4116,7 +4048,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_Reject_m291C92BBC33AEC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_Reject_m7FECCAF91346998ABCFB918E48ADF7196D689238 (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_rejectData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:126>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___0_rejectData;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
@@ -4126,7 +4057,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConnectionRequest_Reject_m7FECCAF9134699
 		int32_t L_3;
 		L_3 = NetDataWriter_get_Length_mC213D6934BF8FFAA5225907F85879EB05040B7A4_inline(L_2, NULL);
 		ConnectionRequest_Reject_m44B7D892B3E423E624547E787D2CE8BBDECAD89E(__this, L_1, 0, L_3, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:127>
 		return;
 	}
 }
@@ -5080,10 +5010,8 @@ IL_0007:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearPeerConnectedEvent_mA98F2B7E8DF965F777EE0B2A345CE1BD03340258 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:171>
 		__this->___PeerConnectedEvent = (OnPeerConnected_t1C921B698F08FBB41A0E8DA94D1E8DA88979D359*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___PeerConnectedEvent), (void*)(OnPeerConnected_t1C921B698F08FBB41A0E8DA94D1E8DA88979D359*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:172>
 		return;
 	}
 }
@@ -5091,10 +5019,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearPeerConnected
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearPeerDisconnectedEvent_m55803CD7CF78CA14AC07518FF0DA57FCDFD08077 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:176>
 		__this->___PeerDisconnectedEvent = (OnPeerDisconnected_tC4978E3992E6CAE31620367E382D196B92CAE8B6*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___PeerDisconnectedEvent), (void*)(OnPeerDisconnected_tC4978E3992E6CAE31620367E382D196B92CAE8B6*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:177>
 		return;
 	}
 }
@@ -5102,10 +5028,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearPeerDisconnec
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearNetworkErrorEvent_mE6C2E777F0E9C1F6C2A3BDA53877B94CDEF21046 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:181>
 		__this->___NetworkErrorEvent = (OnNetworkError_tFFAE03B84FFE48CB059A28FCB2EAE3523ABBE01F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___NetworkErrorEvent), (void*)(OnNetworkError_tFFAE03B84FFE48CB059A28FCB2EAE3523ABBE01F*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:182>
 		return;
 	}
 }
@@ -5113,10 +5037,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearNetworkErrorE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearNetworkReceiveEvent_m8A6C2AB0D3882313AA13B210C7899D93C38B9AA0 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:186>
 		__this->___NetworkReceiveEvent = (OnNetworkReceive_t8B1D5A2C0B2538B1AC6618F9D49E0E2CC45C0BF7*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___NetworkReceiveEvent), (void*)(OnNetworkReceive_t8B1D5A2C0B2538B1AC6618F9D49E0E2CC45C0BF7*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:187>
 		return;
 	}
 }
@@ -5124,10 +5046,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearNetworkReceiv
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearNetworkReceiveUnconnectedEvent_m5E2A7243F588F896ADBD7658F991C6B297B10521 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:191>
 		__this->___NetworkReceiveUnconnectedEvent = (OnNetworkReceiveUnconnected_t94D18EA793F4CD8953532876DF3DE500284C03F3*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___NetworkReceiveUnconnectedEvent), (void*)(OnNetworkReceiveUnconnected_t94D18EA793F4CD8953532876DF3DE500284C03F3*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:192>
 		return;
 	}
 }
@@ -5135,10 +5055,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearNetworkReceiv
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearNetworkLatencyUpdateEvent_mD5A79338C6CB31B81F14DE3B1CE23196EF011C3B (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:196>
 		__this->___NetworkLatencyUpdateEvent = (OnNetworkLatencyUpdate_t72429AF4B1C56D3DA72463DBF3116B143704E59D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___NetworkLatencyUpdateEvent), (void*)(OnNetworkLatencyUpdate_t72429AF4B1C56D3DA72463DBF3116B143704E59D*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:197>
 		return;
 	}
 }
@@ -5146,10 +5064,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearNetworkLatenc
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearConnectionRequestEvent_m5EAA6BFFC8742C29E942411F706BF262F5E51367 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:201>
 		__this->___ConnectionRequestEvent = (OnConnectionRequest_t1CCD5013714A13B11FCCA670C38D751AAD87B2BD*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ConnectionRequestEvent), (void*)(OnConnectionRequest_t1CCD5013714A13B11FCCA670C38D751AAD87B2BD*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:202>
 		return;
 	}
 }
@@ -5157,10 +5073,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearConnectionReq
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearDeliveryEvent_mDB784BDA901C2DDAF6FD329AAE8F292B92D86BCF (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:206>
 		__this->___DeliveryEvent = (OnDeliveryEvent_t31862E5F4CBDD3F0B406414956DC236ECFA4B3E7*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DeliveryEvent), (void*)(OnDeliveryEvent_t31862E5F4CBDD3F0B406414956DC236ECFA4B3E7*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:207>
 		return;
 	}
 }
@@ -5168,10 +5082,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearDeliveryEvent
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearNtpResponseEvent_m0B093EFDBD881235F4BC21A0BA1C3B10793C3A89 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:211>
 		__this->___NtpResponseEvent = (OnNtpResponseEvent_t983D757A40AC686F454EFC5192B3400795F1A978*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___NtpResponseEvent), (void*)(OnNtpResponseEvent_t983D757A40AC686F454EFC5192B3400795F1A978*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:212>
 		return;
 	}
 }
@@ -5179,10 +5091,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearNtpResponseEv
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearPeerAddressChangedEvent_m925FAA65C9FFD7EE773330E3D7B5CF622ABF754B (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:216>
 		__this->___PeerAddressChangedEvent = (OnPeerAddressChangedEvent_tD1087F88A5012AD1E23C8FF360651B4314E0F86B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___PeerAddressChangedEvent), (void*)(OnPeerAddressChangedEvent_tD1087F88A5012AD1E23C8FF360651B4314E0F86B*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:217>
 		return;
 	}
 }
@@ -5190,7 +5100,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_ClearPeerAddressCh
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEventListener_OnPeerConnected_m8D754E20899C51740FF21AA8D8D28EC5F3F03385 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:221>
 		OnPeerConnected_t1C921B698F08FBB41A0E8DA94D1E8DA88979D359* L_0 = __this->___PeerConnectedEvent;
 		if (!L_0)
 		{
@@ -5198,7 +5107,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:222>
 		OnPeerConnected_t1C921B698F08FBB41A0E8DA94D1E8DA88979D359* L_1 = __this->___PeerConnectedEvent;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = ___0_peer;
 		NullCheck(L_1);
@@ -5207,7 +5115,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:223>
 		return;
 	}
 }
@@ -5215,7 +5122,6 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEventListener_OnPeerDisconnected_m630D4685F1C233ADB573EDF092E621D43CFB4B16 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, DisconnectInfo_tC0C7AA06DB896F09A5196F9783C662650416B1BB ___1_disconnectInfo, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:227>
 		OnPeerDisconnected_tC4978E3992E6CAE31620367E382D196B92CAE8B6* L_0 = __this->___PeerDisconnectedEvent;
 		if (!L_0)
 		{
@@ -5223,7 +5129,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:228>
 		OnPeerDisconnected_tC4978E3992E6CAE31620367E382D196B92CAE8B6* L_1 = __this->___PeerDisconnectedEvent;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = ___0_peer;
 		DisconnectInfo_tC0C7AA06DB896F09A5196F9783C662650416B1BB L_3 = ___1_disconnectInfo;
@@ -5233,7 +5138,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:229>
 		return;
 	}
 }
@@ -5241,7 +5145,6 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEventListener_OnNetworkError_m9C18B2E4EA7DC08317452986C29415EC76F8ECEC (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___0_endPoint, int32_t ___1_socketErrorCode, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:233>
 		OnNetworkError_tFFAE03B84FFE48CB059A28FCB2EAE3523ABBE01F* L_0 = __this->___NetworkErrorEvent;
 		if (!L_0)
 		{
@@ -5249,7 +5152,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:234>
 		OnNetworkError_tFFAE03B84FFE48CB059A28FCB2EAE3523ABBE01F* L_1 = __this->___NetworkErrorEvent;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_2 = ___0_endPoint;
 		int32_t L_3 = ___1_socketErrorCode;
@@ -5259,7 +5161,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:235>
 		return;
 	}
 }
@@ -5267,7 +5168,6 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEventListener_OnNetworkReceive_mA290BB518E567A2C424B797DAB6D5F8873DDECD7 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* ___1_reader, uint8_t ___2_channelNumber, uint8_t ___3_deliveryMethod, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:239>
 		OnNetworkReceive_t8B1D5A2C0B2538B1AC6618F9D49E0E2CC45C0BF7* L_0 = __this->___NetworkReceiveEvent;
 		if (!L_0)
 		{
@@ -5275,7 +5175,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:240>
 		OnNetworkReceive_t8B1D5A2C0B2538B1AC6618F9D49E0E2CC45C0BF7* L_1 = __this->___NetworkReceiveEvent;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = ___0_peer;
 		NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* L_3 = ___1_reader;
@@ -5287,7 +5186,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:241>
 		return;
 	}
 }
@@ -5295,7 +5193,6 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected_m1A80ED0EC4803C3027B509577D5C97A8D375B332 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___0_remoteEndPoint, NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* ___1_reader, int32_t ___2_messageType, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:245>
 		OnNetworkReceiveUnconnected_t94D18EA793F4CD8953532876DF3DE500284C03F3* L_0 = __this->___NetworkReceiveUnconnectedEvent;
 		if (!L_0)
 		{
@@ -5303,7 +5200,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:246>
 		OnNetworkReceiveUnconnected_t94D18EA793F4CD8953532876DF3DE500284C03F3* L_1 = __this->___NetworkReceiveUnconnectedEvent;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_2 = ___0_remoteEndPoint;
 		NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* L_3 = ___1_reader;
@@ -5314,7 +5210,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:247>
 		return;
 	}
 }
@@ -5322,7 +5217,6 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEventListener_OnNetworkLatencyUpdate_m7BD7C4519A93E83C392F0905DAF9F0715095262B (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, int32_t ___1_latency, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:251>
 		OnNetworkLatencyUpdate_t72429AF4B1C56D3DA72463DBF3116B143704E59D* L_0 = __this->___NetworkLatencyUpdateEvent;
 		if (!L_0)
 		{
@@ -5330,7 +5224,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:252>
 		OnNetworkLatencyUpdate_t72429AF4B1C56D3DA72463DBF3116B143704E59D* L_1 = __this->___NetworkLatencyUpdateEvent;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = ___0_peer;
 		int32_t L_3 = ___1_latency;
@@ -5340,7 +5233,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:253>
 		return;
 	}
 }
@@ -5348,7 +5240,6 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEventListener_OnConnectionRequest_mC903E8ACCA4ABB6BE79A3B7819442F684589761A (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* ___0_request, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:257>
 		OnConnectionRequest_t1CCD5013714A13B11FCCA670C38D751AAD87B2BD* L_0 = __this->___ConnectionRequestEvent;
 		if (!L_0)
 		{
@@ -5356,7 +5247,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:258>
 		OnConnectionRequest_t1CCD5013714A13B11FCCA670C38D751AAD87B2BD* L_1 = __this->___ConnectionRequestEvent;
 		ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_2 = ___0_request;
 		NullCheck(L_1);
@@ -5365,7 +5255,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INetEve
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:259>
 		return;
 	}
 }
@@ -5373,7 +5262,6 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_IDeliveryEventListener_OnMessageDelivered_mC7E21D69BA224FFD79FF1E251E9B5D3730618659 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, RuntimeObject* ___1_userData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:263>
 		OnDeliveryEvent_t31862E5F4CBDD3F0B406414956DC236ECFA4B3E7* L_0 = __this->___DeliveryEvent;
 		if (!L_0)
 		{
@@ -5381,7 +5269,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_IDelive
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:264>
 		OnDeliveryEvent_t31862E5F4CBDD3F0B406414956DC236ECFA4B3E7* L_1 = __this->___DeliveryEvent;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = ___0_peer;
 		RuntimeObject* L_3 = ___1_userData;
@@ -5391,7 +5278,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_IDelive
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:265>
 		return;
 	}
 }
@@ -5399,7 +5285,6 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INtpEventListener_OnNtpResponse_m54D849898BDC9F9BACD92BEE496D1D5A5D2F6773 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, NtpPacket_t31D1E27638022957CC944E0FA83A17D128E3BB20* ___0_packet, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:269>
 		OnNtpResponseEvent_t983D757A40AC686F454EFC5192B3400795F1A978* L_0 = __this->___NtpResponseEvent;
 		if (!L_0)
 		{
@@ -5407,7 +5292,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INtpEve
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:270>
 		OnNtpResponseEvent_t983D757A40AC686F454EFC5192B3400795F1A978* L_1 = __this->___NtpResponseEvent;
 		NtpPacket_t31D1E27638022957CC944E0FA83A17D128E3BB20* L_2 = ___0_packet;
 		NullCheck(L_1);
@@ -5416,7 +5300,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_INtpEve
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:271>
 		return;
 	}
 }
@@ -5424,7 +5307,6 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_IPeerAddressChangedListener_OnPeerAddressChanged_mFB576D5AC102FFC4E879271314C978637D93F414 (EventBasedNetListener_t615A9DCA1BA7F1E2E4A089A895D688D3D5FC66D8* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___1_previousAddress, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:275>
 		OnPeerAddressChangedEvent_tD1087F88A5012AD1E23C8FF360651B4314E0F86B* L_0 = __this->___PeerAddressChangedEvent;
 		if (!L_0)
 		{
@@ -5432,7 +5314,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_IPeerAd
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:276>
 		OnPeerAddressChangedEvent_tD1087F88A5012AD1E23C8FF360651B4314E0F86B* L_1 = __this->___PeerAddressChangedEvent;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = ___0_peer;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_3 = ___1_previousAddress;
@@ -5442,7 +5323,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNetListener_LiteNetLib_IPeerAd
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/INetEventListener.cs:277>
 		return;
 	}
 }
@@ -6710,26 +6590,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnPeerAddressChangedEvent_EndInvoke_mD21
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetConnectRequestPacket__ctor_m0D4C2FBADDE20C1ED42606FCB2828C0457235C89 (NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* __this, int64_t ___0_connectionTime, uint8_t ___1_connectionNumber, int32_t ___2_localId, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___3_targetAddress, NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* ___4_data, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:16>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:18>
 		int64_t L_0 = ___0_connectionTime;
 		__this->___ConnectionTime = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:19>
 		uint8_t L_1 = ___1_connectionNumber;
 		__this->___ConnectionNumber = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:20>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___3_targetAddress;
 		__this->___TargetAddress = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TargetAddress), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:21>
 		NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_3 = ___4_data;
 		__this->___Data = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Data), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:22>
 		int32_t L_4 = ___2_localId;
 		__this->___PeerId = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:23>
 		return;
 	}
 }
@@ -6737,7 +6610,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetConnectRequestPacket__ctor_m0D4C2FBAD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetConnectRequestPacket_GetProtocolId_mE63E48263779DB6E22479DC93A09D030291A2025 (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* ___0_packet, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:27>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0->___RawData;
@@ -6763,7 +6635,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetConnectRequestPacket_t2602DB311B2C1E452986
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_3 = NULL;
 	NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* V_4 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:32>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		NullCheck(L_0);
 		uint8_t L_1;
@@ -6774,27 +6645,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetConnectRequestPacket_t2602DB311B2C1E452986
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:33>
 		return (NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312*)NULL;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:36>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = ___0_packet;
 		NullCheck(L_2);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = L_2->___RawData;
 		int64_t L_4;
 		L_4 = BitConverter_ToInt64_mA375995608A3E81761CCA7776461290AC5B262F0(L_3, 5, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:39>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = ___0_packet;
 		NullCheck(L_5);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = L_5->___RawData;
 		int32_t L_7;
 		L_7 = BitConverter_ToInt32_m259B4E62995575B80C4086347C867EB3C8D7DAB3(L_6, ((int32_t)13), NULL);
 		V_1 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:42>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_8 = ___0_packet;
 		NullCheck(L_8);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = L_8->___RawData;
@@ -6802,7 +6669,6 @@ IL_000b:
 		int32_t L_10 = ((int32_t)17);
 		uint8_t L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_2 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:43>
 		int32_t L_12 = V_2;
 		if ((((int32_t)L_12) == ((int32_t)((int32_t)16))))
 		{
@@ -6817,28 +6683,23 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:44>
 		return (NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312*)NULL;
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:45>
 		int32_t L_14 = V_2;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_14);
 		V_3 = L_15;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:46>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_16 = ___0_packet;
 		NullCheck(L_16);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_17 = L_16->___RawData;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = V_3;
 		int32_t L_19 = V_2;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_17, ((int32_t)18), (RuntimeArray*)L_18, 0, L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:49>
 		NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_20 = (NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F*)il2cpp_codegen_object_new(NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F_il2cpp_TypeInfo_var);
 		NetDataReader__ctor_m69288FBE0359AB295262CFC5044065D21E7FBE5C(L_20, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, 0, 0, NULL);
 		V_4 = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:50>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_21 = ___0_packet;
 		NullCheck(L_21);
 		int32_t L_22 = L_21->___Size;
@@ -6849,7 +6710,6 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:51>
 		NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_24 = V_4;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_25 = ___0_packet;
 		NullCheck(L_25);
@@ -6864,7 +6724,6 @@ IL_003c:
 
 IL_0080:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:53>
 		int64_t L_30 = V_0;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_31 = ___0_packet;
 		NullCheck(L_31);
@@ -6890,7 +6749,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:59>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___0_connectData;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -6902,24 +6760,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_4 = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)il2cpp_codegen_object_new(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		NetPacket__ctor_mDD2AECA14661B0E3643D6EDD548B3038F16C6540(L_4, 5, ((int32_t)il2cpp_codegen_add(L_1, L_3)), NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:62>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = V_0;
 		NullCheck(L_5);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = L_5->___RawData;
 		FastBitConverter_GetBytes_m1C2FD6095C3E82F066F46C0A13D55B7576247409(L_6, 1, ((int32_t)13), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:63>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_7 = V_0;
 		NullCheck(L_7);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = L_7->___RawData;
 		int64_t L_9 = ___2_connectTime;
 		FastBitConverter_GetBytes_mC1089948C762EA2B4B4C0ACA34EB274B90028EA0(L_8, 5, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:64>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_10 = V_0;
 		NullCheck(L_10);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = L_10->___RawData;
 		int32_t L_12 = ___3_localId;
 		FastBitConverter_GetBytes_m1C2FD6095C3E82F066F46C0A13D55B7576247409(L_11, ((int32_t)13), L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:65>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_13 = V_0;
 		NullCheck(L_13);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = L_13->___RawData;
@@ -6929,14 +6783,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		L_16 = SocketAddress_get_Size_mBBA7758844EE6209A287989E0DBAE534C9A21A11_inline(L_15, NULL);
 		NullCheck(L_14);
 		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (uint8_t)((int32_t)(uint8_t)L_16));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:66>
 		V_1 = 0;
 		goto IL_0067;
 	}
 
 IL_0051:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:67>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_17 = V_0;
 		NullCheck(L_17);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = L_17->___RawData;
@@ -6948,14 +6800,12 @@ IL_0051:
 		L_22 = SocketAddress_get_Item_mFF97A6A1AF0D8AB36C662282C477B5DBAFD10FBD(L_20, L_21, NULL);
 		NullCheck(L_18);
 		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(((int32_t)18), L_19))), (uint8_t)L_22);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:66>
 		int32_t L_23 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_23, 1));
 	}
 
 IL_0067:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:66>
 		int32_t L_24 = V_1;
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_25 = ___1_addressBytes;
 		NullCheck(L_25);
@@ -6967,7 +6817,6 @@ IL_0067:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:68>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_27 = ___0_connectData;
 		NullCheck(L_27);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28;
@@ -6984,7 +6833,6 @@ IL_0067:
 		int32_t L_34;
 		L_34 = NetDataWriter_get_Length_mC213D6934BF8FFAA5225907F85879EB05040B7A4_inline(L_33, NULL);
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_28, 0, (RuntimeArray*)L_30, ((int32_t)il2cpp_codegen_add(((int32_t)18), L_32)), L_34, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:69>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_35 = V_0;
 		return L_35;
 	}
@@ -7001,21 +6849,15 @@ IL_0067:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetConnectAcceptPacket__ctor_m32DAF583797B3C0EA684479A932B05F498F33D78 (NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92* __this, int64_t ___0_connectionTime, uint8_t ___1_connectionNumber, int32_t ___2_peerId, bool ___3_peerNetworkChanged, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:81>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:83>
 		int64_t L_0 = ___0_connectionTime;
 		__this->___ConnectionTime = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:84>
 		uint8_t L_1 = ___1_connectionNumber;
 		__this->___ConnectionNumber = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:85>
 		int32_t L_2 = ___2_peerId;
 		__this->___PeerId = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:86>
 		bool L_3 = ___3_peerNetworkChanged;
 		__this->___PeerNetworkChanged = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:87>
 		return;
 	}
 }
@@ -7033,7 +6875,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetConnectAcceptPacket_t8659D4525CCF6ADA8132F
 	uint8_t V_2 = 0x0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:91>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___Size;
@@ -7043,20 +6884,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetConnectAcceptPacket_t8659D4525CCF6ADA8132F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:92>
 		return (NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92*)NULL;
 	}
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:94>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = ___0_packet;
 		NullCheck(L_2);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = L_2->___RawData;
 		int64_t L_4;
 		L_4 = BitConverter_ToInt64_mA375995608A3E81761CCA7776461290AC5B262F0(L_3, 1, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:97>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = ___0_packet;
 		NullCheck(L_5);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = L_5->___RawData;
@@ -7064,7 +6902,6 @@ IL_000c:
 		int32_t L_7 = ((int32_t)9);
 		uint8_t L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:98>
 		uint8_t L_9 = V_1;
 		if ((((int32_t)L_9) < ((int32_t)4)))
 		{
@@ -7072,13 +6909,11 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:99>
 		return (NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92*)NULL;
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:102>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_10 = ___0_packet;
 		NullCheck(L_10);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = L_10->___RawData;
@@ -7086,7 +6921,6 @@ IL_0029:
 		int32_t L_12 = ((int32_t)10);
 		uint8_t L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
 		V_2 = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:103>
 		uint8_t L_14 = V_2;
 		if ((((int32_t)L_14) <= ((int32_t)1)))
 		{
@@ -7094,20 +6928,17 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:104>
 		return (NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92*)NULL;
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:107>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_15 = ___0_packet;
 		NullCheck(L_15);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = L_15->___RawData;
 		int32_t L_17;
 		L_17 = BitConverter_ToInt32_m259B4E62995575B80C4086347C867EB3C8D7DAB3(L_16, ((int32_t)11), NULL);
 		V_3 = L_17;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:108>
 		int32_t L_18 = V_3;
 		if ((((int32_t)L_18) >= ((int32_t)0)))
 		{
@@ -7115,13 +6946,11 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:109>
 		return (NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92*)NULL;
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:111>
 		int64_t L_19 = V_0;
 		uint8_t L_20 = V_1;
 		int32_t L_21 = V_3;
@@ -7141,29 +6970,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:116>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)il2cpp_codegen_object_new(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		NetPacket__ctor_mDD2AECA14661B0E3643D6EDD548B3038F16C6540(L_0, 6, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:117>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_1 = L_0;
 		NullCheck(L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = L_1->___RawData;
 		int64_t L_3 = ___0_connectTime;
 		FastBitConverter_GetBytes_mC1089948C762EA2B4B4C0ACA34EB274B90028EA0(L_2, 1, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:118>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_4 = L_1;
 		NullCheck(L_4);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = L_4->___RawData;
 		uint8_t L_6 = ___1_connectNum;
 		NullCheck(L_5);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (uint8_t)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:119>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_7 = L_4;
 		NullCheck(L_7);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = L_7->___RawData;
 		int32_t L_9 = ___2_localPeerId;
 		FastBitConverter_GetBytes_m1C2FD6095C3E82F066F46C0A13D55B7576247409(L_8, ((int32_t)11), L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:120>
 		return L_7;
 	}
 }
@@ -7177,10 +7001,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:125>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)il2cpp_codegen_object_new(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		NetPacket__ctor_mDD2AECA14661B0E3643D6EDD548B3038F16C6540(L_0, ((int32_t)14), ((int32_t)14), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:126>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_1 = L_0;
 		NullCheck(L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = L_1->___RawData;
@@ -7189,7 +7011,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		int64_t L_4;
 		L_4 = NetPeer_get_ConnectTime_mC237C46C7C07E203D76A7E6A04F9B4593B12A4ED_inline(L_3, NULL);
 		FastBitConverter_GetBytes_mC1089948C762EA2B4B4C0ACA34EB274B90028EA0(L_2, 1, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:127>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = L_1;
 		NullCheck(L_5);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = L_5->___RawData;
@@ -7199,13 +7020,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		L_8 = NetPeer_get_ConnectionNum_mA2DEE6191C2A6C4725F9BDF5A046B5E8722C552E_inline(L_7, NULL);
 		NullCheck(L_6);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (uint8_t)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:128>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_9 = L_5;
 		NullCheck(L_9);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = L_9->___RawData;
 		NullCheck(L_10);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (uint8_t)1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:129>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_11 = L_9;
 		NullCheck(L_11);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = L_11->___RawData;
@@ -7214,7 +7033,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		int32_t L_14;
 		L_14 = NetPeer_get_RemoteId_mDBCAD936AA189A70B4BC3925BE55FA13DE879ED6_inline(L_13, NULL);
 		FastBitConverter_GetBytes_m1C2FD6095C3E82F066F46C0A13D55B7576247409(L_12, ((int32_t)11), L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/InternalPackets.cs:130>
 		return L_11;
 	}
 }
@@ -7410,7 +7228,6 @@ IL_0007:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNatPunchListener_LiteNetLib_INatPunchListener_OnNatIntroductionRequest_m11DD4E1508E8ABCF27DE9394E1B2F56BB7B7E401 (EventBasedNatPunchListener_t9E6FBC2331ADEF5C0ECC1339B12B54DE373CD9D5* __this, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___0_localEndPoint, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___1_remoteEndPoint, String_t* ___2_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:32>
 		OnNatIntroductionRequest_tD328F2F6873B99C2EB84606D0AD546E72E308390* L_0 = __this->___NatIntroductionRequest;
 		if (!L_0)
 		{
@@ -7418,7 +7235,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNatPunchListener_LiteNetLib_IN
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:33>
 		OnNatIntroductionRequest_tD328F2F6873B99C2EB84606D0AD546E72E308390* L_1 = __this->___NatIntroductionRequest;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_2 = ___0_localEndPoint;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_3 = ___1_remoteEndPoint;
@@ -7429,7 +7245,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNatPunchListener_LiteNetLib_IN
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:34>
 		return;
 	}
 }
@@ -7437,7 +7252,6 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNatPunchListener_LiteNetLib_INatPunchListener_OnNatIntroductionSuccess_mDD65A8631FE2BB0020CA169336C78466BB244DD6 (EventBasedNatPunchListener_t9E6FBC2331ADEF5C0ECC1339B12B54DE373CD9D5* __this, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___0_targetEndPoint, int32_t ___1_type, String_t* ___2_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:38>
 		OnNatIntroductionSuccess_tE08B727B60F7C332ADC4559D9FF6C3643F8E9E03* L_0 = __this->___NatIntroductionSuccess;
 		if (!L_0)
 		{
@@ -7445,7 +7259,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNatPunchListener_LiteNetLib_IN
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:39>
 		OnNatIntroductionSuccess_tE08B727B60F7C332ADC4559D9FF6C3643F8E9E03* L_1 = __this->___NatIntroductionSuccess;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_2 = ___0_targetEndPoint;
 		int32_t L_3 = ___1_type;
@@ -7456,7 +7269,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBasedNatPunchListener_LiteNetLib_IN
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:40>
 		return;
 	}
 }
@@ -7753,56 +7565,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule__ctor_m4DB51BD11EA3144BB2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:124>
 		ConcurrentQueue_1_tE9364FF154119753632480BC0EE40BAD6994E88F* L_0 = (ConcurrentQueue_1_tE9364FF154119753632480BC0EE40BAD6994E88F*)il2cpp_codegen_object_new(ConcurrentQueue_1_tE9364FF154119753632480BC0EE40BAD6994E88F_il2cpp_TypeInfo_var);
 		ConcurrentQueue_1__ctor_m051E4CE9ECE05E9EC6186E2DB6985A8BB9B01819(L_0, ConcurrentQueue_1__ctor_m051E4CE9ECE05E9EC6186E2DB6985A8BB9B01819_RuntimeMethod_var);
 		__this->____requestEvents = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____requestEvents), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:125>
 		ConcurrentQueue_1_t81C213CE038EDC94E506A47DC7F62B16952F7089* L_1 = (ConcurrentQueue_1_t81C213CE038EDC94E506A47DC7F62B16952F7089*)il2cpp_codegen_object_new(ConcurrentQueue_1_t81C213CE038EDC94E506A47DC7F62B16952F7089_il2cpp_TypeInfo_var);
 		ConcurrentQueue_1__ctor_m52E775EED4262C40D51D0C230F437DF13E45A6A4(L_1, ConcurrentQueue_1__ctor_m52E775EED4262C40D51D0C230F437DF13E45A6A4_RuntimeMethod_var);
 		__this->____successEvents = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____successEvents), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:126>
 		NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_2 = (NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F*)il2cpp_codegen_object_new(NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F_il2cpp_TypeInfo_var);
 		NetDataReader__ctor_m57D0955A784468ECE91877BD2A176FB092D6D5C3(L_2, NULL);
 		__this->____cacheReader = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cacheReader), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:127>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_3 = (NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C*)il2cpp_codegen_object_new(NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C_il2cpp_TypeInfo_var);
 		NetDataWriter__ctor_mDF95C2A81D0FE5EB7CA0290F45E925CD51DD241E(L_3, NULL);
 		__this->____cacheWriter = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cacheWriter), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:128>
 		NetPacketProcessor_t50860C21252746EF3F269B4FBEC51D464019E5D1* L_4 = (NetPacketProcessor_t50860C21252746EF3F269B4FBEC51D464019E5D1*)il2cpp_codegen_object_new(NetPacketProcessor_t50860C21252746EF3F269B4FBEC51D464019E5D1_il2cpp_TypeInfo_var);
 		NetPacketProcessor__ctor_m73AAB94F924F5AB8D01262CC147E9DC61CBAAB64(L_4, ((int32_t)256), NULL);
 		__this->____netPacketProcessor = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____netPacketProcessor), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:136>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:138>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_5 = ___0_socket;
 		__this->____socket = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____socket), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:139>
 		NetPacketProcessor_t50860C21252746EF3F269B4FBEC51D464019E5D1* L_6 = __this->____netPacketProcessor;
 		Action_1_tFE1F5D9ACFBD92118EC09158AE4C63EAFF1628FC* L_7 = (Action_1_tFE1F5D9ACFBD92118EC09158AE4C63EAFF1628FC*)il2cpp_codegen_object_new(Action_1_tFE1F5D9ACFBD92118EC09158AE4C63EAFF1628FC_il2cpp_TypeInfo_var);
 		Action_1__ctor_m04EBD70E4966840EC5D361B49C791A07157F688E(L_7, __this, (intptr_t)((void*)NatPunchModule_OnNatIntroductionResponse_mAE8A953F8B0ADB99D1A7792FBFE217EB098D1B96_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
 		NetPacketProcessor_SubscribeReusable_TisNatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0_mD09BBD5BBEB7AD9D17952E769E71FCC500B84C69(L_6, L_7, NetPacketProcessor_SubscribeReusable_TisNatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0_mD09BBD5BBEB7AD9D17952E769E71FCC500B84C69_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:140>
 		NetPacketProcessor_t50860C21252746EF3F269B4FBEC51D464019E5D1* L_8 = __this->____netPacketProcessor;
 		Action_2_tFAEFFA31E05B0C9E2E816FB2A0FBD3DED96C30E3* L_9 = (Action_2_tFAEFFA31E05B0C9E2E816FB2A0FBD3DED96C30E3*)il2cpp_codegen_object_new(Action_2_tFAEFFA31E05B0C9E2E816FB2A0FBD3DED96C30E3_il2cpp_TypeInfo_var);
 		Action_2__ctor_m15A7032CBAB95F4282E444015502C25A370577CF(L_9, __this, (intptr_t)((void*)NatPunchModule_OnNatIntroductionRequest_mD41C75228725EA80168A346F5845A857FF4FB982_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		NetPacketProcessor_SubscribeReusable_TisNatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169_TisIPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_mF5C364ABA22DD89CAF8A1344BC698D6C505A934D(L_8, L_9, NetPacketProcessor_SubscribeReusable_TisNatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169_TisIPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_mF5C364ABA22DD89CAF8A1344BC698D6C505A934D_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:141>
 		NetPacketProcessor_t50860C21252746EF3F269B4FBEC51D464019E5D1* L_10 = __this->____netPacketProcessor;
 		Action_2_t365515998859F72E165B217182016949A14DFED9* L_11 = (Action_2_t365515998859F72E165B217182016949A14DFED9*)il2cpp_codegen_object_new(Action_2_t365515998859F72E165B217182016949A14DFED9_il2cpp_TypeInfo_var);
 		Action_2__ctor_m8D79A7AAFE814614C1192AA58719837B51DD591D(L_11, __this, (intptr_t)((void*)NatPunchModule_OnNatPunch_m8700CFDF76E7E4D7967D95A4B81317FF72F913E8_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
 		NetPacketProcessor_SubscribeReusable_TisNatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766_TisIPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_mFAF7AAB3279EB22EAED12A56739AD60632EB9FF1(L_10, L_11, NetPacketProcessor_SubscribeReusable_TisNatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766_TisIPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_mFAF7AAB3279EB22EAED12A56739AD60632EB9FF1_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:142>
 		return;
 	}
 }
@@ -7812,7 +7613,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_ProcessMessage_m0BAF622D2
 	NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* V_0 = NULL;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:146>
 		NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_0 = __this->____cacheReader;
 		V_0 = L_0;
 		V_1 = (bool)0;
@@ -7845,7 +7645,6 @@ IL_0046:
 		{
 			NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_3 = V_0;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:148>
 			NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_4 = __this->____cacheReader;
 			NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = ___1_packet;
 			NullCheck(L_5);
@@ -7855,13 +7654,11 @@ IL_0046:
 			int32_t L_8 = L_7->___Size;
 			NullCheck(L_4);
 			NetDataReader_SetSource_m40FD71ED5DAF2C8B0BDACD8F0FF9CC88D9644FD4(L_4, L_6, 1, L_8, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:149>
 			NetPacketProcessor_t50860C21252746EF3F269B4FBEC51D464019E5D1* L_9 = __this->____netPacketProcessor;
 			NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_10 = __this->____cacheReader;
 			IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_11 = ___0_senderEndPoint;
 			NullCheck(L_9);
 			NetPacketProcessor_ReadAllPackets_m4C4D3D6B0AB4720C7FCF667513D9EF0E44B13FD1(L_9, L_10, L_11, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:150>
 			goto IL_0047;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -7872,7 +7669,6 @@ IL_0046:
 
 IL_0047:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:151>
 		return;
 	}
 }
@@ -7880,11 +7676,9 @@ IL_0047:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_Init_mD318FB4C6851EFD2C5289A2336724B4FDDA923F0 (NatPunchModule_t42CB23F25623954C5C4E5A14BFA39492A6B44A57* __this, RuntimeObject* ___0_listener, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:155>
 		RuntimeObject* L_0 = ___0_listener;
 		__this->____natPunchListener = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____natPunchListener), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:156>
 		return;
 	}
 }
@@ -7900,10 +7694,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_NatIntroduce_m335FF465A58
 	}
 	NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:172>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:173>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:174>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:175>
 		NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* L_0 = (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0*)il2cpp_codegen_object_new(NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0_il2cpp_TypeInfo_var);
 		NatIntroduceResponsePacket__ctor_m73A4339AB4D0703DA20480A96F5073F5D4764CBF(L_0, NULL);
 		NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* L_1 = L_0;
@@ -7911,35 +7701,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_NatIntroduce_m335FF465A58
 		NullCheck(L_1);
 		NatIntroduceResponsePacket_set_Token_m9BAAB6885DB9A775ED7DB597D27A686518C97B85_inline(L_1, L_2, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:178>
 		NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* L_3 = V_0;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_4 = ___0_hostInternal;
 		NullCheck(L_3);
 		NatIntroduceResponsePacket_set_Internal_m783AABA1FFF0AA6DCD03E38FBD191CF2E7F9711D_inline(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:179>
 		NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* L_5 = V_0;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_6 = ___1_hostExternal;
 		NullCheck(L_5);
 		NatIntroduceResponsePacket_set_External_m6AEA177F2C8946ED1732659D51D42A3328AB17CA_inline(L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:180>
 		NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* L_7 = V_0;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_8 = ___3_clientExternal;
 		NatPunchModule_Send_TisNatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0_mCCAEAD1E1BE694E87C18CB200AAA258EFCF8C2DB(__this, L_7, L_8, NatPunchModule_Send_TisNatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0_mCCAEAD1E1BE694E87C18CB200AAA258EFCF8C2DB_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:183>
 		NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* L_9 = V_0;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_10 = ___2_clientInternal;
 		NullCheck(L_9);
 		NatIntroduceResponsePacket_set_Internal_m783AABA1FFF0AA6DCD03E38FBD191CF2E7F9711D_inline(L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:184>
 		NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* L_11 = V_0;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_12 = ___3_clientExternal;
 		NullCheck(L_11);
 		NatIntroduceResponsePacket_set_External_m6AEA177F2C8946ED1732659D51D42A3328AB17CA_inline(L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:185>
 		NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* L_13 = V_0;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_14 = ___1_hostExternal;
 		NatPunchModule_Send_TisNatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0_mCCAEAD1E1BE694E87C18CB200AAA258EFCF8C2DB(__this, L_13, L_14, NatPunchModule_Send_TisNatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0_mCCAEAD1E1BE694E87C18CB200AAA258EFCF8C2DB_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:186>
 		return;
 	}
 }
@@ -7961,7 +7744,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_PollEvents_mC5CB1FCEEF849
 	RequestEventData_t32CA2309ADF61E4989AA837DBA8C37E43BEFA73A V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:190>
 		bool L_0 = __this->___UnsyncedEvents;
 		if (!L_0)
 		{
@@ -7969,13 +7751,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_PollEvents_mC5CB1FCEEF849
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:191>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:193>
 		RuntimeObject* L_1 = __this->____natPunchListener;
 		if (!L_1)
 		{
@@ -8005,13 +7785,11 @@ IL_0009:
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:194>
 		return;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:196>
 		ConcurrentQueue_1_t81C213CE038EDC94E506A47DC7F62B16952F7089* L_6 = __this->____successEvents;
 		NullCheck(L_6);
 		bool L_7;
@@ -8022,7 +7800,6 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:198>
 		RuntimeObject* L_8 = __this->____natPunchListener;
 		SuccessEventData_tF3F1F5E28D471D294BBF6851F6D06F3835744253 L_9 = V_0;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_10 = L_9.___TargetEndPoint;
@@ -8032,13 +7809,11 @@ IL_002c:
 		String_t* L_14 = L_13.___Token;
 		NullCheck(L_8);
 		InterfaceActionInvoker3< IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*, int32_t, String_t* >::Invoke(1, INatPunchListener_t253EFF6C72F1564DDE964E091A9710C142EE32D2_il2cpp_TypeInfo_var, L_8, L_10, L_12, L_14);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:199>
 		goto IL_002c;
 	}
 
 IL_005a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:201>
 		ConcurrentQueue_1_tE9364FF154119753632480BC0EE40BAD6994E88F* L_15 = __this->____requestEvents;
 		NullCheck(L_15);
 		bool L_16;
@@ -8049,7 +7824,6 @@ IL_005a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:203>
 		RuntimeObject* L_17 = __this->____natPunchListener;
 		RequestEventData_t32CA2309ADF61E4989AA837DBA8C37E43BEFA73A L_18 = V_1;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_19 = L_18.___LocalEndPoint;
@@ -8059,13 +7833,11 @@ IL_005a:
 		String_t* L_23 = L_22.___Token;
 		NullCheck(L_17);
 		InterfaceActionInvoker3< IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*, String_t* >::Invoke(0, INatPunchListener_t253EFF6C72F1564DDE964E091A9710C142EE32D2_il2cpp_TypeInfo_var, L_17, L_19, L_21, L_23);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:204>
 		goto IL_005a;
 	}
 
 IL_0088:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:205>
 		return;
 	}
 }
@@ -8079,7 +7851,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_SendNatIntroduceRequest_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:209>
 		String_t* L_0 = ___0_host;
 		int32_t L_1 = ___1_port;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
@@ -8087,7 +7858,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_SendNatIntroduceRequest_m
 		L_2 = NetUtils_MakeEndPoint_mB593605B5D566EDF67C11C7D5BC1219815BCC0E0(L_0, L_1, NULL);
 		String_t* L_3 = ___2_additionalInfo;
 		NatPunchModule_SendNatIntroduceRequest_m1F5CDA0671DCE45A92E8C081D8E66FEB846FDCAE(__this, L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:210>
 		return;
 	}
 }
@@ -8104,12 +7874,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_SendNatIntroduceRequest_m
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:215>
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		String_t* L_0;
 		L_0 = NetUtils_GetLocalIp_m23883FD562488DE05D23D161A4F78FE10943D45E(1, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:216>
 		String_t* L_1 = V_0;
 		bool L_2;
 		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
@@ -8131,7 +7899,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_SendNatIntroduceRequest_m
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:218>
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		String_t* L_5;
 		L_5 = NetUtils_GetLocalIp_m23883FD562488DE05D23D161A4F78FE10943D45E(2, NULL);
@@ -8140,11 +7907,6 @@ IL_0019:
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:221>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:222>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:223>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:224>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:225>
 		NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* L_6 = (NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169*)il2cpp_codegen_object_new(NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169_il2cpp_TypeInfo_var);
 		NatIntroduceRequestPacket__ctor_m754F108B9A9BE735C9978DE61769345A9B179499(L_6, NULL);
 		NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* L_7 = L_6;
@@ -8164,7 +7926,6 @@ IL_0020:
 		NatIntroduceRequestPacket_set_Token_m8932A1D2A69BF07C66E8F7405B3E29CEC084E540_inline(L_12, L_13, NULL);
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_14 = ___0_masterServerEndPoint;
 		NatPunchModule_Send_TisNatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169_mAF3A6103C9A804E8FABA4766249A2FD83BF4D9E0(__this, L_12, L_14, NatPunchModule_Send_TisNatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169_mAF3A6103C9A804E8FABA4766249A2FD83BF4D9E0_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:226>
 		return;
 	}
 }
@@ -8181,7 +7942,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_OnNatIntroductionRequest_
 	RequestEventData_t32CA2309ADF61E4989AA837DBA8C37E43BEFA73A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:231>
 		bool L_0 = __this->___UnsyncedEvents;
 		if (!L_0)
 		{
@@ -8189,7 +7949,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_OnNatIntroductionRequest_
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:233>
 		RuntimeObject* L_1 = __this->____natPunchListener;
 		NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* L_2 = ___0_req;
 		NullCheck(L_2);
@@ -8207,12 +7966,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_OnNatIntroductionRequest_
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:237>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:238>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:239>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:240>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:241>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:242>
 		ConcurrentQueue_1_tE9364FF154119753632480BC0EE40BAD6994E88F* L_7 = __this->____requestEvents;
 		il2cpp_codegen_initobj((&V_0), sizeof(RequestEventData_t32CA2309ADF61E4989AA837DBA8C37E43BEFA73A));
 		NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* L_8 = ___0_req;
@@ -8233,7 +7986,6 @@ IL_0021:
 		RequestEventData_t32CA2309ADF61E4989AA837DBA8C37E43BEFA73A L_13 = V_0;
 		NullCheck(L_7);
 		ConcurrentQueue_1_Enqueue_m4DE8639A0154389A61029C0139188D82FC188DEC(L_7, L_13, ConcurrentQueue_1_Enqueue_m4DE8639A0154389A61029C0139188D82FC188DEC_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:244>
 		return;
 	}
 }
@@ -8250,7 +8002,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_OnNatIntroductionResponse
 	}
 	NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:252>
 		NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* L_0 = (NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766*)il2cpp_codegen_object_new(NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766_il2cpp_TypeInfo_var);
 		NatPunchPacket__ctor_m246E00909D20B34B85A9893A224054863816E3AC(L_0, NULL);
 		NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* L_1 = L_0;
@@ -8261,18 +8012,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_OnNatIntroductionResponse
 		NullCheck(L_1);
 		NatPunchPacket_set_Token_mBD869AB5821619BE84D06BC030D384A3B6198131_inline(L_1, L_3, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:253>
 		NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* L_4 = V_0;
 		NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* L_5 = ___0_req;
 		NullCheck(L_5);
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_6;
 		L_6 = NatIntroduceResponsePacket_get_Internal_mBFA1371577CD76D7FEEE5E9C4BE164FDEEE6616E_inline(L_5, NULL);
 		NatPunchModule_Send_TisNatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766_mA2BE6AC0734E33C46D87728A1126DEC683F6E3DD(__this, L_4, L_6, NatPunchModule_Send_TisNatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766_mA2BE6AC0734E33C46D87728A1126DEC683F6E3DD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:257>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_7 = __this->____socket;
 		NullCheck(L_7);
 		NetManager_set_Ttl_m9B9B57D4D46EC669B2A85F4D3404791BD4F2FC64(L_7, (int16_t)2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:258>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_8 = __this->____socket;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = L_9;
@@ -8285,22 +8033,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_OnNatIntroductionResponse
 		NullCheck(L_8);
 		int32_t L_13;
 		L_13 = NetManager_SendRaw_m247B73817A3ABFB7782DE7CBB36011A270012FB8(L_8, L_10, 0, 1, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:261>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_14 = __this->____socket;
 		NullCheck(L_14);
 		NetManager_set_Ttl_m9B9B57D4D46EC669B2A85F4D3404791BD4F2FC64(L_14, (int16_t)((int32_t)255), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:262>
 		NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* L_15 = V_0;
 		NullCheck(L_15);
 		NatPunchPacket_set_IsExternal_mA74D15BEF3FAE845DCCE39D75F157901CCFAA9EB_inline(L_15, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:263>
 		NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* L_16 = V_0;
 		NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* L_17 = ___0_req;
 		NullCheck(L_17);
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_18;
 		L_18 = NatIntroduceResponsePacket_get_External_mBFAD158A23DCEA3974D8770254DAC7EE553BF41B_inline(L_17, NULL);
 		NatPunchModule_Send_TisNatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766_mA2BE6AC0734E33C46D87728A1126DEC683F6E3DD(__this, L_16, L_18, NatPunchModule_Send_TisNatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766_mA2BE6AC0734E33C46D87728A1126DEC683F6E3DD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:265>
 		return;
 	}
 }
@@ -8331,7 +8075,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_OnNatPunch_m8700CFDF76E7E
 	SuccessEventData_tF3F1F5E28D471D294BBF6851F6D06F3835744253* G_B8_1 = NULL;
 	ConcurrentQueue_1_t81C213CE038EDC94E506A47DC7F62B16952F7089* G_B8_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:274>
 		bool L_0 = __this->___UnsyncedEvents;
 		if (!L_0)
 		{
@@ -8339,7 +8082,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchModule_OnNatPunch_m8700CFDF76E7E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:276>
 		RuntimeObject* L_1 = __this->____natPunchListener;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_2 = ___1_senderEndPoint;
 		NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* L_3 = ___0_req;
@@ -8382,12 +8124,6 @@ IL_001b:
 
 IL_0027:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:280>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:281>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:282>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:283>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:284>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:285>
 		ConcurrentQueue_1_t81C213CE038EDC94E506A47DC7F62B16952F7089* L_7 = __this->____successEvents;
 		il2cpp_codegen_initobj((&V_0), sizeof(SuccessEventData_tF3F1F5E28D471D294BBF6851F6D06F3835744253));
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_8 = ___1_senderEndPoint;
@@ -8432,7 +8168,6 @@ IL_004b:
 		SuccessEventData_tF3F1F5E28D471D294BBF6851F6D06F3835744253 L_13 = V_0;
 		NullCheck(G_B8_2);
 		ConcurrentQueue_1_Enqueue_mF4AFB9048A2004C7143ED7E30CE07C0FBFD5C1A8(G_B8_2, L_13, ConcurrentQueue_1_Enqueue_mF4AFB9048A2004C7143ED7E30CE07C0FBFD5C1A8_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:287>
 		return;
 	}
 }
@@ -8572,8 +8307,6 @@ IL2CPP_EXTERN_C void SuccessEventData_tF3F1F5E28D471D294BBF6851F6D06F3835744253_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* NatIntroduceRequestPacket_get_Internal_mC9310F1415D3E6AC2C2D4E901CE3A9BD8F19918F (NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:66>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:67>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = __this->___U3CInternalU3Ek__BackingField;
 		return L_0;
 	}
@@ -8582,8 +8315,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatIntroduceRequestPacket_set_Internal_mD60B608DD663C06DA73AA63024DE591A97401653 (NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* __this, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:68>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:69>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = ___0_value;
 		__this->___U3CInternalU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CInternalU3Ek__BackingField), (void*)L_0);
@@ -8594,8 +8325,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatIntroduceRequestPacket_set_Internal_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NatIntroduceRequestPacket_get_Token_m48B11872FE2E7235636B9110008883792FD02A9D (NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:73>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:74>
 		String_t* L_0 = __this->___U3CTokenU3Ek__BackingField;
 		return L_0;
 	}
@@ -8604,8 +8333,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NatIntroduceRequestPacket_get_Token
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatIntroduceRequestPacket_set_Token_m8932A1D2A69BF07C66E8F7405B3E29CEC084E540 (NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:75>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:76>
 		String_t* L_0 = ___0_value;
 		__this->___U3CTokenU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenU3Ek__BackingField), (void*)L_0);
@@ -8632,8 +8359,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatIntroduceRequestPacket__ctor_m754F108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* NatIntroduceResponsePacket_get_Internal_mBFA1371577CD76D7FEEE5E9C4BE164FDEEE6616E (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:84>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:85>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = __this->___U3CInternalU3Ek__BackingField;
 		return L_0;
 	}
@@ -8642,8 +8367,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket_set_Internal_m783AABA1FFF0AA6DCD03E38FBD191CF2E7F9711D (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:86>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:87>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = ___0_value;
 		__this->___U3CInternalU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CInternalU3Ek__BackingField), (void*)L_0);
@@ -8654,8 +8377,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket_set_Internal_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* NatIntroduceResponsePacket_get_External_mBFAD158A23DCEA3974D8770254DAC7EE553BF41B (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:91>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:92>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = __this->___U3CExternalU3Ek__BackingField;
 		return L_0;
 	}
@@ -8664,8 +8385,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket_set_External_m6AEA177F2C8946ED1732659D51D42A3328AB17CA (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:93>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:94>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = ___0_value;
 		__this->___U3CExternalU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExternalU3Ek__BackingField), (void*)L_0);
@@ -8676,8 +8395,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket_set_External_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NatIntroduceResponsePacket_get_Token_mCA1313F5E3D6CB238A3C5DD9E131704120C2B945 (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:98>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:99>
 		String_t* L_0 = __this->___U3CTokenU3Ek__BackingField;
 		return L_0;
 	}
@@ -8686,8 +8403,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NatIntroduceResponsePacket_get_Toke
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket_set_Token_m9BAAB6885DB9A775ED7DB597D27A686518C97B85 (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:100>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:101>
 		String_t* L_0 = ___0_value;
 		__this->___U3CTokenU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenU3Ek__BackingField), (void*)L_0);
@@ -8714,8 +8429,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket__ctor_m73A433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NatPunchPacket_get_Token_mCF744BD06B97DF194A3DF8E4C74DE713DA3EB1AC (NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:109>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:110>
 		String_t* L_0 = __this->___U3CTokenU3Ek__BackingField;
 		return L_0;
 	}
@@ -8724,8 +8437,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NatPunchPacket_get_Token_mCF744BD06
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchPacket_set_Token_mBD869AB5821619BE84D06BC030D384A3B6198131 (NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:111>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:112>
 		String_t* L_0 = ___0_value;
 		__this->___U3CTokenU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenU3Ek__BackingField), (void*)L_0);
@@ -8736,8 +8447,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchPacket_set_Token_mBD869AB5821619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NatPunchPacket_get_IsExternal_m17E7F47EB16B528CDFD07446F7EB87F3F4318E5C (NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:116>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:117>
 		bool L_0 = __this->___U3CIsExternalU3Ek__BackingField;
 		return L_0;
 	}
@@ -8746,8 +8455,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NatPunchPacket_get_IsExternal_m17E7F47EB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NatPunchPacket_set_IsExternal_mA74D15BEF3FAE845DCCE39D75F157901CCFAA9EB (NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:118>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:119>
 		bool L_0 = ___0_value;
 		__this->___U3CIsExternalU3Ek__BackingField = L_0;
 		return;
@@ -8784,55 +8491,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSocket__cctor_m7F3E26B581C8529D3F5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:34>
 		((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___IsSupported = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:35>
 		((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___UnixMode = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:40>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:41>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:42>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:43>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:44>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:45>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:46>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:47>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:48>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:49>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:50>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:51>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:52>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:53>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:54>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:55>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:56>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:57>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:58>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:59>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:60>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:61>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:62>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:63>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:64>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:65>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:66>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:67>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:68>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:69>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:70>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:71>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:72>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:73>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:74>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:75>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:76>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:77>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:78>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:79>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:80>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:81>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:82>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:83>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:84>
 		Dictionary_2_t4B3D522D4E430AF7A19123D48C05CDE836396E88* L_0 = (Dictionary_2_t4B3D522D4E430AF7A19123D48C05CDE836396E88*)il2cpp_codegen_object_new(Dictionary_2_t4B3D522D4E430AF7A19123D48C05CDE836396E88_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m69990DBA5A95AB58FBF8437CFFC5539B11653311(L_0, Dictionary_2__ctor_m69990DBA5A95AB58FBF8437CFFC5539B11653311_RuntimeMethod_var);
 		Dictionary_2_t4B3D522D4E430AF7A19123D48C05CDE836396E88* L_1 = L_0;
@@ -8963,7 +8623,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSocket__cctor_m7F3E26B581C8529D3F5
 		Dictionary_2_Add_m019A4D42A22E566B26EF29C0583BFF8BCA4AC03E(L_42, 0, 0, Dictionary_2_Add_m019A4D42A22E566B26EF29C0583BFF8BCA4AC03E_RuntimeMethod_var);
 		((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___NativeErrorToSocketError = L_42;
 		Il2CppCodeGenWriteBarrier((void**)(&((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___NativeErrorToSocketError), (void*)L_42);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:88>
 		il2cpp_codegen_runtime_class_init_inline(OSPlatform_t8D6BF4B4756716D5B2694BCA813A49AE0227B9F9_il2cpp_TypeInfo_var);
 		OSPlatform_t8D6BF4B4756716D5B2694BCA813A49AE0227B9F9 L_43;
 		L_43 = OSPlatform_get_Linux_m8A7C3AB166C3C5441333F957D76FFB56FE0E7185_inline(NULL);
@@ -8976,16 +8635,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeSocket__cctor_m7F3E26B581C8529D3F5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:90>
 		((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___IsSupported = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:91>
 		((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___UnixMode = (bool)1;
 		return;
 	}
 
 IL_024b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:93>
 		il2cpp_codegen_runtime_class_init_inline(OSPlatform_t8D6BF4B4756716D5B2694BCA813A49AE0227B9F9_il2cpp_TypeInfo_var);
 		OSPlatform_t8D6BF4B4756716D5B2694BCA813A49AE0227B9F9 L_45;
 		L_45 = OSPlatform_get_Windows_m3FF642FF47E422E750B397689E25F0DD1F1C7B8E_inline(NULL);
@@ -8998,13 +8654,11 @@ IL_024b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:95>
 		((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___IsSupported = (bool)1;
 	}
 
 IL_025d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:97>
 		return;
 	}
 }
@@ -9018,7 +8672,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeSocket_RecvFrom_m37C59F030EBA3A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:101>
 		il2cpp_codegen_runtime_class_init_inline(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var);
 		bool L_0 = ((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___UnixMode;
 		if (L_0)
@@ -9059,7 +8712,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeSocket_SendTo_m858708DF1B587BDD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:106>
 		il2cpp_codegen_runtime_class_init_inline(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var);
 		bool L_0 = ((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___UnixMode;
 		if (L_0)
@@ -9104,12 +8756,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeSocket_GetSocketError_mC92F4922
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:111>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = Marshal_GetLastWin32Error_mCD7EBA7503BF36F46DB58D98E96101FB67684379(NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:112>
 		il2cpp_codegen_runtime_class_init_inline(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var);
 		bool L_1 = ((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___UnixMode;
 		if (!L_1)
@@ -9118,7 +8768,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeSocket_GetSocketError_mC92F4922
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:113>
 		il2cpp_codegen_runtime_class_init_inline(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var);
 		Dictionary_2_t4B3D522D4E430AF7A19123D48C05CDE836396E88* L_2 = ((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___NativeErrorToSocketError;
 		int32_t L_3 = V_0;
@@ -9142,7 +8791,6 @@ IL_001e:
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:114>
 		int32_t L_6 = V_0;
 		return (int32_t)(L_6);
 	}
@@ -9162,12 +8810,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SocketException_t6D10102A62EA871BD31748E026A3
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:119>
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = Marshal_GetLastWin32Error_mCD7EBA7503BF36F46DB58D98E96101FB67684379(NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:120>
 		il2cpp_codegen_runtime_class_init_inline(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var);
 		bool L_1 = ((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___UnixMode;
 		if (!L_1)
@@ -9176,7 +8822,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SocketException_t6D10102A62EA871BD31748E026A3
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:121>
 		il2cpp_codegen_runtime_class_init_inline(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var);
 		Dictionary_2_t4B3D522D4E430AF7A19123D48C05CDE836396E88* L_2 = ((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___NativeErrorToSocketError;
 		int32_t L_3 = V_0;
@@ -9204,7 +8849,6 @@ IL_0023:
 
 IL_002a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:122>
 		int32_t L_8 = V_0;
 		SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_9 = (SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*)il2cpp_codegen_object_new(SocketException_t6D10102A62EA871BD31748E026A372DB6804083B_il2cpp_TypeInfo_var);
 		SocketException__ctor_mC09AA11941DA13359416179634B151A3FE2B9A64(L_9, L_8, NULL);
@@ -9222,7 +8866,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t NativeSocket_GetNativeAddressFamily_m
 	}
 	int32_t G_B5_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NativeSocket.cs:127>
 		il2cpp_codegen_runtime_class_init_inline(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var);
 		bool L_0 = ((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___UnixMode;
 		if (L_0)
@@ -9464,23 +9107,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetConstants__cctor_m570C3C86617F5BFE5E5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:51>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:52>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:53>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:54>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:55>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:56>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:57>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:58>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:59>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:60>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)7);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t9D72FB75EE6B37D23CEC8F13434464913ADCED0C____D79537A2F838755D540F3ECC461338CA43D2B18AEA28361726B8A7882AE00D99_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___PossibleMtu = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___PossibleMtu), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:63>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___PossibleMtu;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___PossibleMtu;
 		NullCheck(L_4);
@@ -9488,7 +9120,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetConstants__cctor_m570C3C86617F5BFE5E5
 		int32_t L_5 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_4)->max_length)), 1));
 		int32_t L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___MaxPacketSize = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetConstants.cs:64>
 		int32_t L_7 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___MaxPacketSize;
 		((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___MaxUnreliableDataSize = ((int32_t)il2cpp_codegen_subtract(L_7, 1));
 		return;
@@ -9506,10 +9137,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetConstants__cctor_m570C3C86617F5BFE5E5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidPacketException__ctor_mA1B12746D96F143EDB35B3BFA6E12EC1241227F2 (InvalidPacketException_tCDE642531D11CCC7A3FB3B045449B4061556A303* __this, String_t* ___0_message, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:8>
 		String_t* L_0 = ___0_message;
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:8>
 		return;
 	}
 }
@@ -9525,10 +9154,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidPacketException__ctor_mA1B12746D9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TooBigPacketException__ctor_mCC842F1B8116BE24EAC8CBE0899FCDBFC2CC1B7C (TooBigPacketException_tBF90B9CA26AFD572CFDD84A1FF690C88B21F4A81* __this, String_t* ___0_message, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:13>
 		String_t* L_0 = ___0_message;
 		InvalidPacketException__ctor_mA1B12746D96F143EDB35B3BFA6E12EC1241227F2(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:13>
 		return;
 	}
 }
@@ -9562,7 +9189,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetDebug_WriteLogic_m6A3DBA6B043B453B31D
 	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		RuntimeObject* L_0 = ((NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_StaticFields*)il2cpp_codegen_static_fields_for(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var))->___DebugLogLock;
 		V_0 = L_0;
@@ -9597,7 +9223,6 @@ IL_003d:
 			{
 				RuntimeObject* L_3 = V_0;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:45>
 				il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 				RuntimeObject* L_4 = ((NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_StaticFields*)il2cpp_codegen_static_fields_for(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var))->___Logger;
 				if (L_4)
@@ -9606,7 +9231,6 @@ IL_003d:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:48>
 				String_t* L_5 = ___1_str;
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = ___2_args;
 				String_t* L_7;
@@ -9618,7 +9242,6 @@ IL_003d:
 
 IL_0025_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:55>
 				il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 				RuntimeObject* L_8 = ((NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_StaticFields*)il2cpp_codegen_static_fields_for(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var))->___Logger;
 				int32_t L_9 = ___0_logLevel;
@@ -9626,7 +9249,6 @@ IL_0025_1:
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = ___2_args;
 				NullCheck(L_8);
 				InterfaceActionInvoker3< int32_t, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* >::Invoke(0, INetLogger_tE07BCBF25B576EFC7996432D7743CCE5EE449B41_il2cpp_TypeInfo_var, L_8, L_9, L_10, L_11);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:57>
 				goto IL_003e;
 			}
 		}
@@ -9638,7 +9260,6 @@ IL_0025_1:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:58>
 		return;
 	}
 }
@@ -9653,13 +9274,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetDebug_Write_mBD420E3C40A8771F26DB92C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:63>
 		String_t* L_0 = ___0_str;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteLogic_m6A3DBA6B043B453B31D4D0DBE71AE8A9D2F4FD11(2, L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:64>
 		return;
 	}
 }
@@ -9674,14 +9293,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetDebug_Write_m00702F6B4258405E2AEBBE47
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:69>
 		int32_t L_0 = ___0_level;
 		String_t* L_1 = ___1_str;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2;
 		L_2 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteLogic_m6A3DBA6B043B453B31D4D0DBE71AE8A9D2F4FD11(L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:70>
 		return;
 	}
 }
@@ -9696,13 +9313,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetDebug_WriteForce_m90689938254492CE283
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:76>
 		String_t* L_0 = ___0_str;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteLogic_m6A3DBA6B043B453B31D4D0DBE71AE8A9D2F4FD11(2, L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:77>
 		return;
 	}
 }
@@ -9717,14 +9332,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetDebug_WriteForce_m332F3D69C1D7F9DC0BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:83>
 		int32_t L_0 = ___0_level;
 		String_t* L_1 = ___1_str;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2;
 		L_2 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteLogic_m6A3DBA6B043B453B31D4D0DBE71AE8A9D2F4FD11(L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:84>
 		return;
 	}
 }
@@ -9739,13 +9352,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetDebug_WriteError_m6601C39A9D05722DE54
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:88>
 		String_t* L_0 = ___0_str;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteLogic_m6A3DBA6B043B453B31D4D0DBE71AE8A9D2F4FD11(1, L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:89>
 		return;
 	}
 }
@@ -9760,10 +9371,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetDebug__cctor_mDF83E72572E347A65A4DB78
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:38>
 		((NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_StaticFields*)il2cpp_codegen_static_fields_for(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var))->___Logger = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_StaticFields*)il2cpp_codegen_static_fields_for(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var))->___Logger), (void*)(RuntimeObject*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetDebug.cs:39>
 		RuntimeObject* L_0 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_0, NULL);
 		((NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_StaticFields*)il2cpp_codegen_static_fields_for(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var))->___DebugLogLock = L_0;
@@ -9793,7 +9402,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_HashSetGetPrime_m10E341F89
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:24>
 		il2cpp_codegen_runtime_class_init_inline(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = ((NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_StaticFields*)il2cpp_codegen_static_fields_for(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var))->___Primes;
 		V_0 = L_0;
@@ -9803,14 +9411,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_HashSetGetPrime_m10E341F89
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:24>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		int32_t L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:26>
 		int32_t L_5 = V_2;
 		int32_t L_6 = ___0_min;
 		if ((((int32_t)L_5) < ((int32_t)L_6)))
@@ -9819,7 +9425,6 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:27>
 		int32_t L_7 = V_2;
 		return L_7;
 	}
@@ -9832,7 +9437,6 @@ IL_0014:
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:24>
 		int32_t L_9 = V_1;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = V_0;
 		NullCheck(L_10);
@@ -9842,7 +9446,6 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:31>
 		int32_t L_11 = ___0_min;
 		V_3 = ((int32_t)(L_11|1));
 		goto IL_003a;
@@ -9850,7 +9453,6 @@ IL_0018:
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:33>
 		int32_t L_12 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -9868,21 +9470,18 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:34>
 		int32_t L_15 = V_3;
 		return L_15;
 	}
 
 IL_0036:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:31>
 		int32_t L_16 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_16, 2));
 	}
 
 IL_003a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:31>
 		int32_t L_17 = V_3;
 		if ((((int32_t)L_17) < ((int32_t)((int32_t)2147483647LL))))
 		{
@@ -9890,7 +9489,6 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:36>
 		int32_t L_18 = ___0_min;
 		return L_18;
 	}
@@ -9905,15 +9503,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ClearPeerSet_m95C7766A24BF783
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:72>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_0 = __this->____peersLock;
 		NullCheck(L_0);
 		ReaderWriterLockSlim_EnterWriteLock_mB07CEB326AB495488982834C444FA8E7CE70A8BA(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:73>
 		il2cpp_codegen_memory_barrier();
 		__this->____headPeer = (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____headPeer), (void*)(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:74>
 		int32_t L_1 = __this->____lastIndex;
 		if ((((int32_t)L_1) <= ((int32_t)0)))
 		{
@@ -9921,34 +9516,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ClearPeerSet_m95C7766A24BF783
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:76>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_2 = __this->____slots;
 		int32_t L_3 = __this->____lastIndex;
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_2, 0, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:77>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = __this->____buckets;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = __this->____buckets;
 		NullCheck(L_5);
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_4, 0, ((int32_t)(((RuntimeArray*)L_5)->max_length)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:78>
 		__this->____lastIndex = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:79>
 		__this->____count = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:80>
 		__this->____freeList = (-1);
 	}
 
 IL_0058:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:82>
 		NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928* L_6 = (NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928*)(NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928*)SZArrayNew(NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928_il2cpp_TypeInfo_var, (uint32_t)((int32_t)32));
 		__this->____peersArray = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____peersArray), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:83>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_7 = __this->____peersLock;
 		NullCheck(L_7);
 		ReaderWriterLockSlim_ExitWriteLock_m84F7F58C2B3552C5B32744FB06004CACDFCE57E6(L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:84>
 		return;
 	}
 }
@@ -9958,7 +9545,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_ContainsPeer_m21269EC96DBAAD0
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:88>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->____buckets;
 		if (!L_0)
 		{
@@ -9966,13 +9552,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_ContainsPeer_m21269EC96DBAAD0
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:90>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_1 = ___0_item;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_1);
 		V_0 = ((int32_t)(L_2&((int32_t)2147483647LL)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:91>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = __this->____buckets;
 		int32_t L_4 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = __this->____buckets;
@@ -9986,7 +9570,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_ContainsPeer_m21269EC96DBAAD0
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:93>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_8 = __this->____slots;
 		int32_t L_9 = V_1;
 		NullCheck(L_8);
@@ -10012,13 +9595,11 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:94>
 		return (bool)1;
 	}
 
 IL_005a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:91>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_17 = __this->____slots;
 		int32_t L_18 = V_1;
 		NullCheck(L_17);
@@ -10028,7 +9609,6 @@ IL_005a:
 
 IL_006c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:91>
 		int32_t L_20 = V_1;
 		if ((((int32_t)L_20) >= ((int32_t)0)))
 		{
@@ -10038,7 +9618,6 @@ IL_006c:
 
 IL_0070:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:97>
 		return (bool)0;
 	}
 }
@@ -10046,7 +9625,6 @@ IL_0070:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* NetManager_GetPeerById_m4673F243BE9D15E5D5718F727FD8FAB7F57A8C7F (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, int32_t ___0_id, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:107>
 		int32_t L_0 = ___0_id;
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
@@ -10082,14 +9660,12 @@ IL_0011:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_TryGetPeerById_m7AE3174BA3B1798FCBDCCD9C4AC446E67B5E38D1 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, int32_t ___0_id, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53** ___1_peer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:118>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53** L_0 = ___1_peer;
 		int32_t L_1 = ___0_id;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2;
 		L_2 = NetManager_GetPeerById_m4673F243BE9D15E5D5718F727FD8FAB7F57A8C7F(__this, L_1, NULL);
 		*((RuntimeObject**)L_0) = (RuntimeObject*)L_2;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:119>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53** L_3 = ___1_peer;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_4 = *((NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53**)L_3);
 		return (bool)((!(((RuntimeObject*)(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)L_4) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
@@ -10106,11 +9682,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_AddPeer_mE33BC3D84A3806B20EB9
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:124>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_0 = __this->____peersLock;
 		NullCheck(L_0);
 		ReaderWriterLockSlim_EnterWriteLock_mB07CEB326AB495488982834C444FA8E7CE70A8BA(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:125>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_1 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
 		if (!L_1)
@@ -10119,7 +9693,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_AddPeer_mE33BC3D84A3806B20EB9
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:127>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = ___0_peer;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_3 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
@@ -10127,7 +9700,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_AddPeer_mE33BC3D84A3806B20EB9
 		il2cpp_codegen_memory_barrier();
 		L_2->___NextPeer = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___NextPeer), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:128>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_4 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_5 = ___0_peer;
@@ -10138,16 +9710,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_AddPeer_mE33BC3D84A3806B20EB9
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:130>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_6 = ___0_peer;
 		il2cpp_codegen_memory_barrier();
 		__this->____headPeer = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____headPeer), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:131>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_7 = ___0_peer;
 		bool L_8;
 		L_8 = NetManager_AddPeerToSet_m53E32C3A6BD4F34E215972B9418643D398785810(__this, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:132>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_9 = ___0_peer;
 		NullCheck(L_9);
 		int32_t L_10 = L_9->___Id;
@@ -10159,7 +9728,6 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:134>
 		NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928* L_12 = __this->____peersArray;
 		NullCheck(L_12);
 		V_0 = ((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_12)->max_length)), 2));
@@ -10168,14 +9736,12 @@ IL_0033:
 
 IL_0061:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:136>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_multiply(L_13, 2));
 	}
 
 IL_0065:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:135>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_14 = ___0_peer;
 		NullCheck(L_14);
 		int32_t L_15 = L_14->___Id;
@@ -10186,7 +9752,6 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:137>
 		NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928** L_17 = (NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928**)(&__this->____peersArray);
 		int32_t L_18 = V_0;
 		Array_Resize_TisNetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53_m590F65F1C21BEC08957E8B8071162A5C9385EDFC(L_17, L_18, Array_Resize_TisNetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53_m590F65F1C21BEC08957E8B8071162A5C9385EDFC_RuntimeMethod_var);
@@ -10194,7 +9759,6 @@ IL_0065:
 
 IL_007a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:139>
 		NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928* L_19 = __this->____peersArray;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_20 = ___0_peer;
 		NullCheck(L_20);
@@ -10203,11 +9767,9 @@ IL_007a:
 		NullCheck(L_19);
 		ArrayElementTypeCheck (L_19, L_22);
 		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(L_21), (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)L_22);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:140>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_23 = __this->____peersLock;
 		NullCheck(L_23);
 		ReaderWriterLockSlim_ExitWriteLock_m84F7F58C2B3552C5B32744FB06004CACDFCE57E6(L_23, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:141>
 		return;
 	}
 }
@@ -10215,18 +9777,14 @@ IL_007a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_RemovePeer_mB19EC5F9129E28336F151D641E97D078289E8DC0 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:145>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_0 = __this->____peersLock;
 		NullCheck(L_0);
 		ReaderWriterLockSlim_EnterWriteLock_mB07CEB326AB495488982834C444FA8E7CE70A8BA(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:146>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_1 = ___0_peer;
 		NetManager_RemovePeerInternal_m34A8FBC3B34C4743E220659D5FF9E24935D8B58D(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:147>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_2 = __this->____peersLock;
 		NullCheck(L_2);
 		ReaderWriterLockSlim_ExitWriteLock_m84F7F58C2B3552C5B32744FB06004CACDFCE57E6(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:148>
 		return;
 	}
 }
@@ -10240,7 +9798,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_RemovePeerInternal_m34A8FBC3B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:152>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_peer;
 		bool L_1;
 		L_1 = NetManager_RemovePeerFromSet_m00622F309934669B884C2119A1A4D637794C2BC3(__this, L_0, NULL);
@@ -10250,13 +9807,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_RemovePeerInternal_m34A8FBC3B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:153>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:154>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = ___0_peer;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_3 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
@@ -10266,7 +9821,6 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:155>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_4 = ___0_peer;
 		NullCheck(L_4);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_5 = L_4->___NextPeer;
@@ -10278,7 +9832,6 @@ IL_000a:
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:157>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_6 = ___0_peer;
 		NullCheck(L_6);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_7 = L_6->___PrevPeer;
@@ -10288,7 +9841,6 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:158>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_8 = ___0_peer;
 		NullCheck(L_8);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_9 = L_8->___PrevPeer;
@@ -10304,7 +9856,6 @@ IL_0025:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:159>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_12 = ___0_peer;
 		NullCheck(L_12);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_13 = L_12->___NextPeer;
@@ -10315,7 +9866,6 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:160>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_14 = ___0_peer;
 		NullCheck(L_14);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_15 = L_14->___NextPeer;
@@ -10330,12 +9880,10 @@ IL_0042:
 
 IL_005f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:161>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_18 = ___0_peer;
 		NullCheck(L_18);
 		L_18->___PrevPeer = (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_18->___PrevPeer), (void*)(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:163>
 		NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928* L_19 = __this->____peersArray;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_20 = ___0_peer;
 		NullCheck(L_20);
@@ -10343,14 +9891,12 @@ IL_005f:
 		NullCheck(L_19);
 		ArrayElementTypeCheck (L_19, NULL);
 		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(L_21), (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:164>
 		ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3* L_22 = __this->____peerIds;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_23 = ___0_peer;
 		NullCheck(L_23);
 		int32_t L_24 = L_23->___Id;
 		NullCheck(L_22);
 		ConcurrentQueue_1_Enqueue_m8A58C324804C45BFA1CAF8AD9DAF4582344E37D3(L_22, L_24, ConcurrentQueue_1_Enqueue_m8A58C324804C45BFA1CAF8AD9DAF4582344E37D3_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:165>
 		return;
 	}
 }
@@ -10362,7 +9908,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_RemovePeerFromSet_m00622F3099
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:169>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->____buckets;
 		if (L_0)
 		{
@@ -10370,13 +9915,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_RemovePeerFromSet_m00622F3099
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:170>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:171>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_1 = ___0_peer;
 		if (L_1)
 		{
@@ -10384,26 +9927,21 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:172>
 		return (bool)0;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:173>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = ___0_peer;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_2);
 		V_0 = ((int32_t)(L_3&((int32_t)2147483647LL)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:174>
 		int32_t L_4 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = __this->____buckets;
 		NullCheck(L_5);
 		V_1 = ((int32_t)(L_4%((int32_t)(((RuntimeArray*)L_5)->max_length))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:175>
 		V_2 = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:176>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = __this->____buckets;
 		int32_t L_7 = V_1;
 		NullCheck(L_6);
@@ -10415,7 +9953,6 @@ IL_000f:
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:178>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_10 = __this->____slots;
 		int32_t L_11 = V_3;
 		NullCheck(L_10);
@@ -10441,7 +9978,6 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:180>
 		int32_t L_19 = V_2;
 		if ((((int32_t)L_19) >= ((int32_t)0)))
 		{
@@ -10449,7 +9985,6 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:181>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = __this->____buckets;
 		int32_t L_21 = V_1;
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_22 = __this->____slots;
@@ -10463,7 +9998,6 @@ IL_0039:
 
 IL_008d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:183>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_25 = __this->____slots;
 		int32_t L_26 = V_2;
 		NullCheck(L_25);
@@ -10476,27 +10010,22 @@ IL_008d:
 
 IL_00af:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:184>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_30 = __this->____slots;
 		int32_t L_31 = V_3;
 		NullCheck(L_30);
 		((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)))->___HashCode = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:185>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_32 = __this->____slots;
 		int32_t L_33 = V_3;
 		NullCheck(L_32);
 		((L_32)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_33)))->___Value = (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_32)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_33)))->___Value), (void*)(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:186>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_34 = __this->____slots;
 		int32_t L_35 = V_3;
 		NullCheck(L_34);
 		int32_t L_36 = __this->____freeList;
 		((L_34)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_35)))->___Next = L_36;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:188>
 		int32_t L_37 = __this->____count;
 		__this->____count = ((int32_t)il2cpp_codegen_subtract(L_37, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:189>
 		int32_t L_38 = __this->____count;
 		if (L_38)
 		{
@@ -10504,32 +10033,26 @@ IL_00af:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:191>
 		__this->____lastIndex = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:192>
 		__this->____freeList = (-1);
 		goto IL_0117;
 	}
 
 IL_0110:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:196>
 		int32_t L_39 = V_3;
 		__this->____freeList = L_39;
 	}
 
 IL_0117:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:198>
 		return (bool)1;
 	}
 
 IL_0119:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:176>
 		int32_t L_40 = V_3;
 		V_2 = L_40;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:176>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_41 = __this->____slots;
 		int32_t L_42 = V_3;
 		NullCheck(L_41);
@@ -10539,7 +10062,6 @@ IL_0119:
 
 IL_012d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:176>
 		int32_t L_44 = V_3;
 		if ((((int32_t)L_44) >= ((int32_t)0)))
 		{
@@ -10547,7 +10069,6 @@ IL_012d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:201>
 		return (bool)0;
 	}
 }
@@ -10557,7 +10078,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_TryGetPeer_m1EA321E4A12D677AC
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:206>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->____buckets;
 		if (!L_0)
 		{
@@ -10565,17 +10085,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_TryGetPeer_m1EA321E4A12D677AC
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:212>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_1 = ___0_endPoint;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_1);
 		V_0 = ((int32_t)(L_2&((int32_t)2147483647LL)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:214>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_3 = __this->____peersLock;
 		NullCheck(L_3);
 		ReaderWriterLockSlim_EnterReadLock_m010CB4F0FC253BB5EC9BE8D54EBB5C4FDA778C39(L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:215>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = __this->____buckets;
 		int32_t L_5 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = __this->____buckets;
@@ -10589,7 +10106,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_TryGetPeer_m1EA321E4A12D677AC
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:217>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_9 = __this->____slots;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
@@ -10615,7 +10131,6 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:219>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53** L_18 = ___1_actualValue;
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_19 = __this->____slots;
 		int32_t L_20 = V_1;
@@ -10623,17 +10138,14 @@ IL_0039:
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_21 = ((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_20)))->___Value;
 		*((RuntimeObject**)L_18) = (RuntimeObject*)L_21;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_18, (void*)(RuntimeObject*)L_21);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:220>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_22 = __this->____peersLock;
 		NullCheck(L_22);
 		ReaderWriterLockSlim_ExitReadLock_m49891BB1D1FA606B9EBD354D575D7F1ECBD53E87(L_22, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:221>
 		return (bool)1;
 	}
 
 IL_0086:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:215>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_23 = __this->____slots;
 		int32_t L_24 = V_1;
 		NullCheck(L_23);
@@ -10643,7 +10155,6 @@ IL_0086:
 
 IL_0098:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:215>
 		int32_t L_26 = V_1;
 		if ((((int32_t)L_26) >= ((int32_t)0)))
 		{
@@ -10651,7 +10162,6 @@ IL_0098:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:224>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_27 = __this->____peersLock;
 		NullCheck(L_27);
 		ReaderWriterLockSlim_ExitReadLock_m49891BB1D1FA606B9EBD354D575D7F1ECBD53E87(L_27, NULL);
@@ -10659,11 +10169,9 @@ IL_0098:
 
 IL_00a7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:226>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53** L_28 = ___1_actualValue;
 		*((RuntimeObject**)L_28) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_28, (void*)(RuntimeObject*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:227>
 		return (bool)0;
 	}
 }
@@ -10673,7 +10181,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_TryGetPeer_m729F64C1FD9202B46
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:233>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->____buckets;
 		if (!L_0)
 		{
@@ -10681,17 +10188,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_TryGetPeer_m729F64C1FD9202B46
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:235>
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_1 = ___0_saddr;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_1);
 		V_0 = ((int32_t)(L_2&((int32_t)2147483647LL)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:236>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_3 = __this->____peersLock;
 		NullCheck(L_3);
 		ReaderWriterLockSlim_EnterReadLock_m010CB4F0FC253BB5EC9BE8D54EBB5C4FDA778C39(L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:237>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = __this->____buckets;
 		int32_t L_5 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = __this->____buckets;
@@ -10705,7 +10209,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_TryGetPeer_m729F64C1FD9202B46
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:239>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_9 = __this->____slots;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
@@ -10734,7 +10237,6 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:241>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53** L_19 = ___1_actualValue;
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_20 = __this->____slots;
 		int32_t L_21 = V_1;
@@ -10742,17 +10244,14 @@ IL_0039:
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_22 = ((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->___Value;
 		*((RuntimeObject**)L_19) = (RuntimeObject*)L_22;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_19, (void*)(RuntimeObject*)L_22);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:242>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_23 = __this->____peersLock;
 		NullCheck(L_23);
 		ReaderWriterLockSlim_ExitReadLock_m49891BB1D1FA606B9EBD354D575D7F1ECBD53E87(L_23, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:243>
 		return (bool)1;
 	}
 
 IL_008b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:237>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_24 = __this->____slots;
 		int32_t L_25 = V_1;
 		NullCheck(L_24);
@@ -10762,7 +10261,6 @@ IL_008b:
 
 IL_009d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:237>
 		int32_t L_27 = V_1;
 		if ((((int32_t)L_27) >= ((int32_t)0)))
 		{
@@ -10770,7 +10268,6 @@ IL_009d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:246>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_28 = __this->____peersLock;
 		NullCheck(L_28);
 		ReaderWriterLockSlim_ExitReadLock_m49891BB1D1FA606B9EBD354D575D7F1ECBD53E87(L_28, NULL);
@@ -10778,11 +10275,9 @@ IL_009d:
 
 IL_00ac:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:248>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53** L_29 = ___1_actualValue;
 		*((RuntimeObject**)L_29) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_29, (void*)(RuntimeObject*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:249>
 		return (bool)0;
 	}
 }
@@ -10808,7 +10303,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_AddPeerToSet_m53E32C3A6BD4F34
 	int32_t V_8 = 0;
 	int32_t G_B15_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:254>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->____buckets;
 		if (L_0)
 		{
@@ -10816,17 +10310,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_AddPeerToSet_m53E32C3A6BD4F34
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:256>
 		il2cpp_codegen_runtime_class_init_inline(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = NetManager_HashSetGetPrime_m10E341F892CD4386BAB64289A60D9CF72DBD1A26(0, NULL);
 		V_3 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:257>
 		int32_t L_2 = V_3;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)L_2);
 		__this->____buckets = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____buckets), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:258>
 		int32_t L_4 = V_3;
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_5 = (SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA*)(SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA*)SZArrayNew(SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA_il2cpp_TypeInfo_var, (uint32_t)L_4);
 		__this->____slots = L_5;
@@ -10835,18 +10326,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_AddPeerToSet_m53E32C3A6BD4F34
 
 IL_0027:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:261>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_6 = ___0_value;
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(2, L_6);
 		V_0 = ((int32_t)(L_7&((int32_t)2147483647LL)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:262>
 		int32_t L_8 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_9 = __this->____buckets;
 		NullCheck(L_9);
 		V_1 = ((int32_t)(L_8%((int32_t)(((RuntimeArray*)L_9)->max_length))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:263>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = __this->____buckets;
 		int32_t L_11 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = __this->____buckets;
@@ -10860,7 +10348,6 @@ IL_0027:
 
 IL_0056:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:265>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_15 = __this->____slots;
 		int32_t L_16 = V_4;
 		NullCheck(L_15);
@@ -10886,13 +10373,11 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:266>
 		return (bool)0;
 	}
 
 IL_0087:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:263>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_24 = __this->____slots;
 		int32_t L_25 = V_4;
 		NullCheck(L_24);
@@ -10902,7 +10387,6 @@ IL_0087:
 
 IL_009b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:263>
 		int32_t L_27 = V_4;
 		if ((((int32_t)L_27) >= ((int32_t)0)))
 		{
@@ -10910,7 +10394,6 @@ IL_009b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:270>
 		int32_t L_28 = __this->____freeList;
 		if ((((int32_t)L_28) < ((int32_t)0)))
 		{
@@ -10918,10 +10401,8 @@ IL_009b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:272>
 		int32_t L_29 = __this->____freeList;
 		V_2 = L_29;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:273>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_30 = __this->____slots;
 		int32_t L_31 = V_2;
 		NullCheck(L_30);
@@ -10932,7 +10413,6 @@ IL_009b:
 
 IL_00cc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:277>
 		int32_t L_33 = __this->____lastIndex;
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_34 = __this->____slots;
 		NullCheck(L_34);
@@ -10942,10 +10422,8 @@ IL_00cc:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:280>
 		int32_t L_35 = __this->____count;
 		V_5 = ((int32_t)il2cpp_codegen_multiply(2, L_35));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:281>
 		int32_t L_36 = V_5;
 		if ((!(((uint32_t)L_36) > ((uint32_t)((int32_t)2147483587)))))
 		{
@@ -10978,35 +10456,29 @@ IL_0108:
 IL_010d:
 	{
 		V_5 = G_B15_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:284>
 		int32_t L_40 = V_5;
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_41 = (SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA*)(SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA*)SZArrayNew(SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA_il2cpp_TypeInfo_var, (uint32_t)L_40);
 		V_6 = L_41;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:285>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_42 = __this->____slots;
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_43 = V_6;
 		int32_t L_44 = __this->____lastIndex;
 		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_42, 0, (RuntimeArray*)L_43, 0, L_44, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:286>
 		int32_t L_45 = V_5;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_46 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)L_45);
 		__this->____buckets = L_46;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____buckets), (void*)L_46);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:287>
 		V_7 = 0;
 		goto IL_017e;
 	}
 
 IL_013f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:289>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_47 = V_6;
 		int32_t L_48 = V_7;
 		NullCheck(L_47);
 		int32_t L_49 = ((L_47)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_48)))->___HashCode;
 		int32_t L_50 = V_5;
 		V_8 = ((int32_t)(L_49%L_50));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:290>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_51 = V_6;
 		int32_t L_52 = V_7;
 		NullCheck(L_51);
@@ -11016,20 +10488,17 @@ IL_013f:
 		int32_t L_55 = L_54;
 		int32_t L_56 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
 		((L_51)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_52)))->___Next = ((int32_t)il2cpp_codegen_subtract(L_56, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:291>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_57 = __this->____buckets;
 		int32_t L_58 = V_8;
 		int32_t L_59 = V_7;
 		NullCheck(L_57);
 		(L_57)->SetAt(static_cast<il2cpp_array_size_t>(L_58), (int32_t)((int32_t)il2cpp_codegen_add(L_59, 1)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:287>
 		int32_t L_60 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_60, 1));
 	}
 
 IL_017e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:287>
 		int32_t L_61 = V_7;
 		int32_t L_62 = __this->____lastIndex;
 		if ((((int32_t)L_61) < ((int32_t)L_62)))
@@ -11038,11 +10507,9 @@ IL_017e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:293>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_63 = V_6;
 		__this->____slots = L_63;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____slots), (void*)L_63);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:295>
 		int32_t L_64 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_65 = __this->____buckets;
 		NullCheck(L_65);
@@ -11051,30 +10518,25 @@ IL_017e:
 
 IL_019b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:297>
 		int32_t L_66 = __this->____lastIndex;
 		V_2 = L_66;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:298>
 		int32_t L_67 = __this->____lastIndex;
 		__this->____lastIndex = ((int32_t)il2cpp_codegen_add(L_67, 1));
 	}
 
 IL_01b0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:300>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_68 = __this->____slots;
 		int32_t L_69 = V_2;
 		NullCheck(L_68);
 		int32_t L_70 = V_0;
 		((L_68)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_69)))->___HashCode = L_70;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:301>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_71 = __this->____slots;
 		int32_t L_72 = V_2;
 		NullCheck(L_71);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_73 = ___0_value;
 		((L_71)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_72)))->___Value = L_73;
 		Il2CppCodeGenWriteBarrier((void**)(&((L_71)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_72)))->___Value), (void*)L_73);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:302>
 		SlotU5BU5D_t60F3163A24E0D9D6016D9BF89A34D138620C99DA* L_74 = __this->____slots;
 		int32_t L_75 = V_2;
 		NullCheck(L_74);
@@ -11084,16 +10546,13 @@ IL_01b0:
 		int32_t L_78 = L_77;
 		int32_t L_79 = (L_76)->GetAt(static_cast<il2cpp_array_size_t>(L_78));
 		((L_74)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_75)))->___Next = ((int32_t)il2cpp_codegen_subtract(L_79, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:303>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_80 = __this->____buckets;
 		int32_t L_81 = V_1;
 		int32_t L_82 = V_2;
 		NullCheck(L_80);
 		(L_80)->SetAt(static_cast<il2cpp_array_size_t>(L_81), (int32_t)((int32_t)il2cpp_codegen_add(L_82, 1)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:304>
 		int32_t L_83 = __this->____count;
 		__this->____count = ((int32_t)il2cpp_codegen_add(L_83, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:306>
 		return (bool)1;
 	}
 }
@@ -11101,7 +10560,6 @@ IL_01b0:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_get_PoolCount_m016AF943FA620B3907ECB2AC6E8C0B305D88CEEB (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:13>
 		int32_t L_0 = __this->___U3CPoolCountU3Ek__BackingField;
 		return L_0;
 	}
@@ -11110,7 +10568,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_get_PoolCount_m016AF943FA6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_set_PoolCount_m640EF82933014F7D21D16B8AFDF44829CF5C1199 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:13>
 		int32_t L_0 = ___0_value;
 		__this->___U3CPoolCountU3Ek__BackingField = L_0;
 		return;
@@ -11128,24 +10585,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 	int32_t V_0 = 0;
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:17>
 		uint8_t L_0 = ___0_property;
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = NetPacket_GetHeaderSize_m3EAFEE7F1813A006E5FBE79E29AC0D330E7321A2(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:18>
 		int32_t L_2 = ___3_length;
 		int32_t L_3 = V_0;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_4;
 		L_4 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(__this, ((int32_t)il2cpp_codegen_add(L_2, L_3)), NULL);
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:19>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = V_1;
 		uint8_t L_6 = ___0_property;
 		NullCheck(L_5);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:20>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7 = ___1_data;
 		int32_t L_8 = ___2_start;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_9 = V_1;
@@ -11154,7 +10607,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		int32_t L_11 = V_0;
 		int32_t L_12 = ___3_length;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_7, L_8, (RuntimeArray*)L_10, L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:21>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_13 = V_1;
 		return L_13;
 	}
@@ -11169,7 +10621,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:27>
 		int32_t L_0 = ___1_size;
 		uint8_t L_1 = ___0_property;
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
@@ -11177,12 +10628,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		L_2 = NetPacket_GetHeaderSize_m3EAFEE7F1813A006E5FBE79E29AC0D330E7321A2(L_1, NULL);
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3;
 		L_3 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(__this, ((int32_t)il2cpp_codegen_add(L_0, L_2)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:28>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_4 = L_3;
 		uint8_t L_5 = ___0_property;
 		NullCheck(L_4);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:29>
 		return L_4;
 	}
 }
@@ -11196,19 +10645,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:34>
 		uint8_t L_0 = ___0_property;
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = NetPacket_GetHeaderSize_m3EAFEE7F1813A006E5FBE79E29AC0D330E7321A2(L_0, NULL);
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2;
 		L_2 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:35>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3 = L_2;
 		uint8_t L_4 = ___0_property;
 		NullCheck(L_3);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:36>
 		return L_3;
 	}
 }
@@ -11229,7 +10675,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_3 = NULL;
 	int32_t V_4 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:41>
 		int32_t L_0 = ___0_size;
 		il2cpp_codegen_runtime_class_init_inline(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___MaxPacketSize;
@@ -11239,7 +10684,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:42>
 		int32_t L_2 = ___0_size;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3 = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)il2cpp_codegen_object_new(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		NetPacket__ctor_m67D5F78728FCF2652A26D4750CD91CD9DBAF6FC0(L_3, L_2, NULL);
@@ -11248,7 +10692,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C2
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:45>
 		RuntimeObject* L_4 = __this->____poolLock;
 		V_1 = L_4;
 		V_2 = (bool)0;
@@ -11282,10 +10725,8 @@ IL_0061:
 			{
 				RuntimeObject* L_7 = V_1;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_7, (&V_2), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:47>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_8 = __this->____poolHead;
 				V_0 = L_8;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:48>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_9 = V_0;
 				if (L_9)
 				{
@@ -11293,7 +10734,6 @@ IL_0061:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:49>
 				int32_t L_10 = ___0_size;
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_11 = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)il2cpp_codegen_object_new(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 				NetPacket__ctor_m67D5F78728FCF2652A26D4750CD91CD9DBAF6FC0(L_11, L_10, NULL);
@@ -11303,19 +10743,16 @@ IL_0061:
 
 IL_0033_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:51>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_12 = __this->____poolHead;
 				NullCheck(L_12);
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_13 = L_12->___Next;
 				__this->____poolHead = L_13;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->____poolHead), (void*)L_13);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:52>
 				int32_t L_14;
 				L_14 = NetManager_get_PoolCount_m016AF943FA620B3907ECB2AC6E8C0B305D88CEEB_inline(__this, NULL);
 				V_4 = L_14;
 				int32_t L_15 = V_4;
 				NetManager_set_PoolCount_m640EF82933014F7D21D16B8AFDF44829CF5C1199_inline(__this, ((int32_t)il2cpp_codegen_subtract(L_15, 1)), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:53>
 				goto IL_0062;
 			}
 		}
@@ -11327,12 +10764,10 @@ IL_0033_1:
 
 IL_0062:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:55>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_16 = V_0;
 		int32_t L_17 = ___0_size;
 		NullCheck(L_16);
 		L_16->___Size = L_17;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:56>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_18 = V_0;
 		NullCheck(L_18);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19 = L_18->___RawData;
@@ -11344,7 +10779,6 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:57>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_21 = V_0;
 		int32_t L_22 = ___0_size;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_22);
@@ -11355,14 +10789,12 @@ IL_0062:
 
 IL_0080:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:58>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_24 = V_0;
 		return L_24;
 	}
 
 IL_0082:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:59>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_25 = V_3;
 		return L_25;
 	}
@@ -11380,7 +10812,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_PoolRecycle_m590A485A523235A7
 	bool V_1 = false;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:63>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0->___RawData;
@@ -11404,19 +10835,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_PoolRecycle_m590A485A523235A7
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:66>
 		return;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:70>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = ___0_packet;
 		NullCheck(L_5);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = L_5->___RawData;
 		NullCheck(L_6);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (uint8_t)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:71>
 		RuntimeObject* L_7 = __this->____poolLock;
 		V_0 = L_7;
 		V_1 = (bool)0;
@@ -11449,23 +10877,19 @@ IL_0066:
 		{
 			RuntimeObject* L_10 = V_0;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_10, (&V_1), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:73>
 			NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_11 = ___0_packet;
 			NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_12 = __this->____poolHead;
 			NullCheck(L_11);
 			L_11->___Next = L_12;
 			Il2CppCodeGenWriteBarrier((void**)(&L_11->___Next), (void*)L_12);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:74>
 			NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_13 = ___0_packet;
 			__this->____poolHead = L_13;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____poolHead), (void*)L_13);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:75>
 			int32_t L_14;
 			L_14 = NetManager_get_PoolCount_m016AF943FA620B3907ECB2AC6E8C0B305D88CEEB_inline(__this, NULL);
 			V_2 = L_14;
 			int32_t L_15 = V_2;
 			NetManager_set_PoolCount_m640EF82933014F7D21D16B8AFDF44829CF5C1199_inline(__this, ((int32_t)il2cpp_codegen_add(L_15, 1)), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:76>
 			goto IL_0067;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -11476,7 +10900,6 @@ IL_0066:
 
 IL_0067:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:77>
 		return;
 	}
 }
@@ -11484,7 +10907,6 @@ IL_0067:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t NetManager_get_Ttl_m9F42368C5D84AB1382785A4036B7474DBC2722E4 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:43>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_0 = __this->____udpSocketv4;
 		NullCheck(L_0);
 		int16_t L_1;
@@ -11496,12 +10918,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t NetManager_get_Ttl_m9F42368C5D84AB138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_set_Ttl_m9B9B57D4D46EC669B2A85F4D3404791BD4F2FC64 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, int16_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:49>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_0 = __this->____udpSocketv4;
 		int16_t L_1 = ___0_value;
 		NullCheck(L_0);
 		Socket_set_Ttl_m181E7794B74DEB52091B3D0CDDB745717B2A4F67(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:51>
 		return;
 	}
 }
@@ -11520,32 +10940,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager__cctor_m8CD10323E069F8FF63266
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:13>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:14>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:15>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:16>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:17>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:18>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:19>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:20>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)72));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t9D72FB75EE6B37D23CEC8F13434464913ADCED0C____74BCD6ED20AF2231F2BB1CDE814C5F4FF48E54BAC46029EEF90DDF4A208E2B20_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		((NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_StaticFields*)il2cpp_codegen_static_fields_for(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var))->___Primes = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_StaticFields*)il2cpp_codegen_static_fields_for(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var))->___Primes), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:31>
 		il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_3;
 		L_3 = IPAddress_Parse_mF946F1810061D91C5A1A96FF9968F07138F3CE23(_stringLiteral5486305FD2AB390DB38D4EE1F93074A684EDAF0F, NULL);
 		((NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_StaticFields*)il2cpp_codegen_static_fields_for(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var))->___MulticastAddressV6 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_StaticFields*)il2cpp_codegen_static_fields_for(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var))->___MulticastAddressV6), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:62>
 		il2cpp_codegen_runtime_class_init_inline(Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = Socket_get_OSSupportsIPv6_mDF10C5F623BBCBB218599E9C4B1AE3E7EE2AB2CB(NULL);
 		((NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_StaticFields*)il2cpp_codegen_static_fields_for(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var))->___IPv6Support = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:64>
 		return;
 	}
 }
@@ -11561,7 +10970,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_ProcessError_m11B6519567F5D86
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:68>
 		SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_0 = ___0_ex;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -11671,21 +11079,17 @@ IL_0055:
 
 IL_006f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:71>
 		__this->___NotConnected = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:72>
 		return (bool)1;
 	}
 
 IL_0078:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:76>
 		return (bool)1;
 	}
 
 IL_007a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:85>
 		SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_14 = ___0_ex;
 		NullCheck(L_14);
 		int32_t L_15;
@@ -11697,7 +11101,6 @@ IL_007a:
 		L_19 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral7B3C7E8130D1BF6705EFAAA4A72196B92A79769A, L_17, L_18, NULL);
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:86>
 		SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_20 = ___0_ex;
 		NullCheck(L_20);
 		int32_t L_21;
@@ -11707,7 +11110,6 @@ IL_007a:
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:89>
 		return (bool)0;
 	}
 }
@@ -11727,20 +11129,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ManualReceive_m8D579593A8C991
 	try
 	{
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:97>
 			V_0 = 0;
 			goto IL_0015_1;
 		}
 
 IL_0004_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:100>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_0 = ___0_socket;
 			NetManager_ReceiveFrom_mD2921FE8C8CA3C1C67A40FE213A0D572F7A0F722(__this, L_0, (&___1_bufferEndPoint), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:101>
 			int32_t L_1 = V_0;
 			V_0 = ((int32_t)il2cpp_codegen_add(L_1, 1));
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:102>
 			int32_t L_2 = V_0;
 			int32_t L_3 = ___2_maxReceive;
 			if ((((int32_t)L_2) == ((int32_t)L_3)))
@@ -11751,7 +11149,6 @@ IL_0004_1:
 
 IL_0015_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:98>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_4 = ___0_socket;
 			NullCheck(L_4);
 			int32_t L_5;
@@ -11764,7 +11161,6 @@ IL_0015_1:
 
 IL_001e_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:105>
 			goto IL_004d;
 		}
 	}
@@ -11791,13 +11187,10 @@ IL_001e_1:
 CATCH_0020:
 	{
 		SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_6 = ((SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:106>
 		V_1 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:108>
 		SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_7 = V_1;
 		bool L_8;
 		L_8 = NetManager_ProcessError_m11B6519567F5D8652AC8BD1C3EF445BFE865B393(__this, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:109>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_004d;
 	}
@@ -11805,8 +11198,6 @@ CATCH_0020:
 CATCH_002b:
 	{
 		ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_9 = ((ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)IL2CPP_GET_ACTIVE_EXCEPTION(ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:110>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:110>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_004d;
 	}
@@ -11815,9 +11206,7 @@ CATCH_002e:
 	{
 		{
 			Exception_t* L_10 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:111>
 			V_2 = L_10;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:114>
 			Exception_t* L_11 = V_2;
 			Exception_t* L_12 = L_11;
 			if (L_12)
@@ -11850,7 +11239,6 @@ IL_0041:
 			L_14 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B9_1, G_B9_0, NULL);
 			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 			NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_14, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:115>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_004d;
 		}
@@ -11858,7 +11246,6 @@ IL_0041:
 
 IL_004d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:116>
 		return;
 	}
 }
@@ -11908,13 +11295,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_NativeReceiveLogic_m089CE53E3
 	{
 		(&V_0)->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this), (void*)__this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:120>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_0 = __this->____udpSocketv4;
 		NullCheck(L_0);
 		intptr_t L_1;
 		L_1 = Socket_get_Handle_mBF42AC5E9403C23BE532F17EE337BF9F150A0256(L_0, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:121>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_2 = __this->____udpSocketv6;
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_3 = L_2;
 		if (L_3)
@@ -11940,30 +11325,23 @@ IL_0025:
 IL_002a:
 	{
 		V_2 = G_B3_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:122>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
 		V_3 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:123>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)28));
 		V_4 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:124>
 		il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_7 = ((IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var))->___Any;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_8 = (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)il2cpp_codegen_object_new(IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var);
 		IPEndPoint__ctor_m902C98F9E3F36B20B3C2E030AA91B62E2BC7A85A(L_8, L_7, 0, NULL);
 		(&V_0)->___tempEndPoint = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___tempEndPoint), (void*)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:125>
 		List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33* L_9 = (List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33*)il2cpp_codegen_object_new(List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33_il2cpp_TypeInfo_var);
 		List_1__ctor_m563C0AA1BF5ED1D8C83561F40D4DAFE0BFC28D4D(L_9, 2, List_1__ctor_m563C0AA1BF5ED1D8C83561F40D4DAFE0BFC28D4D_RuntimeMethod_var);
 		V_5 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:126>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_10 = __this->____udpSocketv4;
 		V_6 = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:127>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_11 = __this->____udpSocketv6;
 		V_7 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:128>
 		il2cpp_codegen_runtime_class_init_inline(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var);
 		int32_t L_12 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___MaxPacketSize;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_13;
@@ -11979,7 +11357,6 @@ IL_007d:
 	try
 	{
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:134>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_14 = V_7;
 			if (L_14)
 			{
@@ -11987,7 +11364,6 @@ IL_007d:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:136>
 			intptr_t L_15 = V_1;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = V_3;
 			bool L_17;
@@ -11998,21 +11374,17 @@ IL_007d:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:137>
 			goto IL_015a;
 		}
 
 IL_0093_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:138>
 			goto IL_014f;
 		}
 
 IL_0098_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:140>
 			V_8 = (bool)0;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:141>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_18 = V_6;
 			NullCheck(L_18);
 			int32_t L_19;
@@ -12036,7 +11408,6 @@ IL_0098_1:
 
 IL_00af_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:143>
 			intptr_t L_23 = V_1;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_24 = V_3;
 			bool L_25;
@@ -12047,19 +11418,16 @@ IL_00af_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:144>
 			goto IL_015a;
 		}
 
 IL_00c0_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:145>
 			V_8 = (bool)1;
 		}
 
 IL_00c3_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:147>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_26 = V_7;
 			NullCheck(L_26);
 			int32_t L_27;
@@ -12083,7 +11451,6 @@ IL_00c3_1:
 
 IL_00d7_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:149>
 			intptr_t L_31 = V_2;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_32 = V_4;
 			bool L_33;
@@ -12094,23 +11461,19 @@ IL_00d7_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:150>
 			goto IL_015a;
 		}
 
 IL_00e6_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:151>
 			V_8 = (bool)1;
 		}
 
 IL_00e9_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:154>
 			List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33* L_34 = V_5;
 			NullCheck(L_34);
 			List_1_Clear_mC3C1201EBFA6F9BE389DCB9A90FD02BB61E9F9C3_inline(L_34, List_1_Clear_mC3C1201EBFA6F9BE389DCB9A90FD02BB61E9F9C3_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:156>
 			bool L_35 = V_8;
 			if (!L_35)
 			{
@@ -12118,27 +11481,22 @@ IL_00e9_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:157>
 			goto IL_014f;
 		}
 
 IL_00f6_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:159>
 			List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33* L_36 = V_5;
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_37 = V_6;
 			NullCheck(L_36);
 			List_1_Add_m766CAC2890FE0BDC8A2020694EEB53A0CE736BAC_inline(L_36, L_37, List_1_Add_m766CAC2890FE0BDC8A2020694EEB53A0CE736BAC_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:160>
 			List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33* L_38 = V_5;
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_39 = V_7;
 			NullCheck(L_38);
 			List_1_Add_m766CAC2890FE0BDC8A2020694EEB53A0CE736BAC_inline(L_38, L_39, List_1_Add_m766CAC2890FE0BDC8A2020694EEB53A0CE736BAC_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:162>
 			List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33* L_40 = V_5;
 			il2cpp_codegen_runtime_class_init_inline(Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E_il2cpp_TypeInfo_var);
 			Socket_Select_m423D6A63786F14B3B4A61944752F7C564E263F7B(L_40, (RuntimeObject*)NULL, (RuntimeObject*)NULL, ((int32_t)500000), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:163>
 			goto IL_014f;
 		}
 	}
@@ -12171,9 +11529,7 @@ CATCH_0118:
 	{
 		{
 			SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_41 = ((SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*));;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:164>
 			V_9 = L_41;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:166>
 			SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_42 = V_9;
 			bool L_43;
 			L_43 = NetManager_ProcessError_m11B6519567F5D8652AC8BD1C3EF445BFE865B393(__this, L_42, NULL);
@@ -12183,14 +11539,12 @@ CATCH_0118:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:167>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_015a;
 		}
 
 IL_0126:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:168>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_014f;
 		}
@@ -12199,8 +11553,6 @@ IL_0126:
 CATCH_0128:
 	{
 		ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_44 = ((ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)IL2CPP_GET_ACTIVE_EXCEPTION(ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:169>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:172>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_015a;
 	}
@@ -12208,8 +11560,6 @@ CATCH_0128:
 CATCH_012b:
 	{
 		ThreadAbortException_tCA1833E5D49782387EDF3BDCBDB90597B273F3C4* L_45 = ((ThreadAbortException_tCA1833E5D49782387EDF3BDCBDB90597B273F3C4*)IL2CPP_GET_ACTIVE_EXCEPTION(ThreadAbortException_tCA1833E5D49782387EDF3BDCBDB90597B273F3C4*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:174>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:177>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_015a;
 	}
@@ -12218,9 +11568,7 @@ CATCH_012e:
 	{
 		{
 			Exception_t* L_46 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:179>
 			V_10 = L_46;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:182>
 			Exception_t* L_47 = V_10;
 			Exception_t* L_48 = L_47;
 			if (L_48)
@@ -12253,7 +11601,6 @@ IL_0143:
 			L_50 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B30_1, G_B30_0, NULL);
 			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 			NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_50, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:183>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_014f;
 		}
@@ -12261,7 +11608,6 @@ IL_0143:
 
 IL_014f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:130>
 		bool L_51;
 		L_51 = NetManager_get_IsRunning_mB0E5575B653966435F22860934AACCE763E44204_inline(__this, NULL);
 		if (L_51)
@@ -12272,7 +11618,6 @@ IL_014f:
 
 IL_015a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:233>
 		return;
 	}
 }
@@ -12288,13 +11633,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ReceiveFrom_mD2921FE8C8CA3C1C
 	}
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:237>
 		il2cpp_codegen_runtime_class_init_inline(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___MaxPacketSize;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_1;
 		L_1 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:243>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = V_0;
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_3 = ___0_s;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_4 = V_0;
@@ -12307,12 +11650,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ReceiveFrom_mD2921FE8C8CA3C1C
 		L_8 = Socket_ReceiveFrom_m780282028E62CDD6021E3B8917656AC820878E6E(L_3, L_5, 0, L_6, 0, L_7, NULL);
 		NullCheck(L_2);
 		L_2->___Size = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:244>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_9 = V_0;
 		EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564** L_10 = ___1_bufferEndPoint;
 		EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564* L_11 = *((EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564**)L_10);
 		NetManager_OnMessageReceived_mD3B75666CA180500D48BC19FC2B2DB625A42313A(__this, L_9, ((IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)CastclassClass((RuntimeObject*)L_11, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:246>
 		return;
 	}
 }
@@ -12348,25 +11689,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ReceiveLogic_m7E9BF7EFF3431D0
 	String_t* G_B25_0 = NULL;
 	String_t* G_B25_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:250>
 		il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_0 = ((IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var))->___Any;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_1 = (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)il2cpp_codegen_object_new(IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var);
 		IPEndPoint__ctor_m902C98F9E3F36B20B3C2E030AA91B62E2BC7A85A(L_1, L_0, 0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:251>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_2 = ((IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var))->___IPv6Any;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_3 = (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)il2cpp_codegen_object_new(IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var);
 		IPEndPoint__ctor_m902C98F9E3F36B20B3C2E030AA91B62E2BC7A85A(L_3, L_2, 0, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:252>
 		List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33* L_4 = (List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33*)il2cpp_codegen_object_new(List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33_il2cpp_TypeInfo_var);
 		List_1__ctor_m563C0AA1BF5ED1D8C83561F40D4DAFE0BFC28D4D(L_4, 2, List_1__ctor_m563C0AA1BF5ED1D8C83561F40D4DAFE0BFC28D4D_RuntimeMethod_var);
 		V_2 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:253>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_5 = __this->____udpSocketv4;
 		V_3 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:254>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_6 = __this->____udpSocketv6;
 		V_4 = L_6;
 		goto IL_00ff;
@@ -12378,7 +11714,6 @@ IL_0033:
 	try
 	{
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:261>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_7 = V_4;
 			if (L_7)
 			{
@@ -12386,7 +11721,6 @@ IL_0033:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:263>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_8 = V_3;
 			NullCheck(L_8);
 			int32_t L_9;
@@ -12407,13 +11741,11 @@ IL_0033:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:264>
 			goto IL_00ff;
 		}
 
 IL_0053_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:265>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_12 = V_3;
 			NetManager_ReceiveFrom_mD2921FE8C8CA3C1C67A40FE213A0D572F7A0F722(__this, L_12, (&V_0), NULL);
 			goto IL_00c6_1;
@@ -12421,9 +11753,7 @@ IL_0053_1:
 
 IL_005e_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:269>
 			V_5 = (bool)0;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:270>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_13 = V_3;
 			NullCheck(L_13);
 			int32_t L_14;
@@ -12447,16 +11777,13 @@ IL_005e_1:
 
 IL_0072_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:272>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_18 = V_3;
 			NetManager_ReceiveFrom_mD2921FE8C8CA3C1C67A40FE213A0D572F7A0F722(__this, L_18, (&V_0), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:273>
 			V_5 = (bool)1;
 		}
 
 IL_007e_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:275>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_19 = V_4;
 			NullCheck(L_19);
 			int32_t L_20;
@@ -12480,20 +11807,16 @@ IL_007e_1:
 
 IL_0091_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:277>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_24 = V_4;
 			NetManager_ReceiveFrom_mD2921FE8C8CA3C1C67A40FE213A0D572F7A0F722(__this, L_24, (&V_1), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:278>
 			V_5 = (bool)1;
 		}
 
 IL_009e_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:281>
 			List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33* L_25 = V_2;
 			NullCheck(L_25);
 			List_1_Clear_mC3C1201EBFA6F9BE389DCB9A90FD02BB61E9F9C3_inline(L_25, List_1_Clear_mC3C1201EBFA6F9BE389DCB9A90FD02BB61E9F9C3_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:283>
 			bool L_26 = V_5;
 			if (!L_26)
 			{
@@ -12501,23 +11824,19 @@ IL_009e_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:284>
 			goto IL_00ff;
 		}
 
 IL_00aa_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:286>
 			List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33* L_27 = V_2;
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_28 = V_3;
 			NullCheck(L_27);
 			List_1_Add_m766CAC2890FE0BDC8A2020694EEB53A0CE736BAC_inline(L_27, L_28, List_1_Add_m766CAC2890FE0BDC8A2020694EEB53A0CE736BAC_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:287>
 			List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33* L_29 = V_2;
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_30 = V_4;
 			NullCheck(L_29);
 			List_1_Add_m766CAC2890FE0BDC8A2020694EEB53A0CE736BAC_inline(L_29, L_30, List_1_Add_m766CAC2890FE0BDC8A2020694EEB53A0CE736BAC_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:288>
 			List_1_tEDC97D1161B5E5686A9483E0CC69A6B948C50B33* L_31 = V_2;
 			il2cpp_codegen_runtime_class_init_inline(Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E_il2cpp_TypeInfo_var);
 			Socket_Select_m423D6A63786F14B3B4A61944752F7C564E263F7B(L_31, (RuntimeObject*)NULL, (RuntimeObject*)NULL, ((int32_t)500000), NULL);
@@ -12525,7 +11844,6 @@ IL_00aa_1:
 
 IL_00c6_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:291>
 			goto IL_00ff;
 		}
 	}
@@ -12558,9 +11876,7 @@ CATCH_00c8:
 	{
 		{
 			SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_32 = ((SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*));;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:292>
 			V_6 = L_32;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:294>
 			SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_33 = V_6;
 			bool L_34;
 			L_34 = NetManager_ProcessError_m11B6519567F5D8652AC8BD1C3EF445BFE865B393(__this, L_33, NULL);
@@ -12570,14 +11886,12 @@ CATCH_00c8:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:295>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_010a;
 		}
 
 IL_00d6:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:296>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_00ff;
 		}
@@ -12586,8 +11900,6 @@ IL_00d6:
 CATCH_00d8:
 	{
 		ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB* L_35 = ((ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*)IL2CPP_GET_ACTIVE_EXCEPTION(ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:297>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:300>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_010a;
 	}
@@ -12595,8 +11907,6 @@ CATCH_00d8:
 CATCH_00db:
 	{
 		ThreadAbortException_tCA1833E5D49782387EDF3BDCBDB90597B273F3C4* L_36 = ((ThreadAbortException_tCA1833E5D49782387EDF3BDCBDB90597B273F3C4*)IL2CPP_GET_ACTIVE_EXCEPTION(ThreadAbortException_tCA1833E5D49782387EDF3BDCBDB90597B273F3C4*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:302>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:305>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_010a;
 	}
@@ -12605,9 +11915,7 @@ CATCH_00de:
 	{
 		{
 			Exception_t* L_37 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:307>
 			V_7 = L_37;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:310>
 			Exception_t* L_38 = V_7;
 			Exception_t* L_39 = L_38;
 			if (L_39)
@@ -12640,7 +11948,6 @@ IL_00f3:
 			L_41 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B25_1, G_B25_0, NULL);
 			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 			NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_41, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:311>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_00ff;
 		}
@@ -12648,7 +11955,6 @@ IL_00f3:
 
 IL_00ff:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:256>
 		bool L_42;
 		L_42 = NetManager_get_IsRunning_mB0E5575B653966435F22860934AACCE763E44204_inline(__this, NULL);
 		if (L_42)
@@ -12659,7 +11965,6 @@ IL_00ff:
 
 IL_010a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:313>
 		return;
 	}
 }
@@ -12690,7 +11995,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_Start_m1329492757CE0C9DC39452
 	int32_t G_B6_0 = 0;
 	NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:324>
 		bool L_0;
 		L_0 = NetManager_get_IsRunning_mB0E5575B653966435F22860934AACCE763E44204_inline(__this, NULL);
 		if (!L_0)
@@ -12706,18 +12010,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_Start_m1329492757CE0C9DC39452
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:325>
 		return (bool)0;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:327>
 		__this->___NotConnected = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:328>
 		bool L_2 = ___3_manualMode;
 		__this->____manualMode = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:329>
 		bool L_3 = __this->___UseNativeSockets;
 		if (!L_3)
 		{
@@ -12744,12 +12044,10 @@ IL_0032:
 	{
 		NullCheck(G_B6_1);
 		G_B6_1->___UseNativeSockets = (bool)G_B6_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:330>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_5 = (Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E*)il2cpp_codegen_object_new(Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E_il2cpp_TypeInfo_var);
 		Socket__ctor_m35F1F4B4872E251867DA16460F06E903A30E4595(L_5, 2, 2, ((int32_t)17), NULL);
 		__this->____udpSocketv4 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____udpSocketv4), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:331>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_6 = __this->____udpSocketv4;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_7 = ___0_addressIPv4;
 		int32_t L_8 = ___2_port;
@@ -12763,13 +12061,11 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:332>
 		return (bool)0;
 	}
 
 IL_005d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:334>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_11 = __this->____udpSocketv4;
 		NullCheck(L_11);
 		EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564* L_12;
@@ -12778,7 +12074,6 @@ IL_005d:
 		int32_t L_13;
 		L_13 = IPEndPoint_get_Port_mFBE1AF1C9CC7E68A46BF46AD3869CC9DC01CF429_inline(((IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)CastclassClass((RuntimeObject*)L_12, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var)), NULL);
 		NetManager_set_LocalPort_mA77793D1E7F08FDA775A24D391D77485B17971AE_inline(__this, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:337>
 		bool L_14 = __this->____useSocketFix;
 		if (!L_14)
 		{
@@ -12793,7 +12088,6 @@ IL_005d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:338>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_16 = ___0_addressIPv4;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_17 = ___1_addressIPv6;
 		int32_t L_18 = ___2_port;
@@ -12806,9 +12100,7 @@ IL_005d:
 
 IL_0099:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:341>
 		NetManager_set_IsRunning_m73AE9FD7D1C491D86B43FA586E138EEC10BDFDDD_inline(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:342>
 		bool L_21 = __this->____manualMode;
 		if (!L_21)
 		{
@@ -12816,7 +12108,6 @@ IL_0099:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:344>
 		il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_22 = ((IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var))->___Any;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_23 = (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)il2cpp_codegen_object_new(IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var);
@@ -12827,7 +12118,6 @@ IL_0099:
 
 IL_00b9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:348>
 		il2cpp_codegen_runtime_class_init_inline(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var);
 		bool L_24 = ((NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_StaticFields*)il2cpp_codegen_static_fields_for(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var))->___IPv6Support;
 		if (!L_24)
@@ -12843,12 +12133,10 @@ IL_00b9:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:350>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_26 = (Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E*)il2cpp_codegen_object_new(Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E_il2cpp_TypeInfo_var);
 		Socket__ctor_m35F1F4B4872E251867DA16460F06E903A30E4595(L_26, ((int32_t)23), 2, ((int32_t)17), NULL);
 		__this->____udpSocketv6 = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____udpSocketv6), (void*)L_26);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:352>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_27 = __this->____udpSocketv6;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_28 = ___1_addressIPv6;
 		int32_t L_29;
@@ -12863,7 +12151,6 @@ IL_00b9:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:354>
 		bool L_32 = __this->____manualMode;
 		if (!L_32)
 		{
@@ -12871,7 +12158,6 @@ IL_00b9:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:355>
 		il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_33 = ((IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var))->___IPv6Any;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_34 = (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)il2cpp_codegen_object_new(IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var);
@@ -12883,14 +12169,12 @@ IL_00b9:
 
 IL_010d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:359>
 		__this->____udpSocketv6 = (Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____udpSocketv6), (void*)(Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E*)NULL);
 	}
 
 IL_0114:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:363>
 		bool L_35 = ___3_manualMode;
 		if (L_35)
 		{
@@ -12898,11 +12182,9 @@ IL_0114:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:365>
 		ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_36 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
 		ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_36, __this, (intptr_t)((void*)NetManager_ReceiveLogic_m7E9BF7EFF3431D0734F77A4E1F5728DEB23087E0_RuntimeMethod_var), NULL);
 		V_0 = L_36;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:366>
 		bool L_37 = __this->___UseNativeSockets;
 		if (!L_37)
 		{
@@ -12910,7 +12192,6 @@ IL_0114:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:367>
 		ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_38 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
 		ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_38, __this, (intptr_t)((void*)NetManager_NativeReceiveLogic_m089CE53E3C25CE20D35755732131E3EF16769BD7_RuntimeMethod_var), NULL);
 		V_0 = L_38;
@@ -12918,11 +12199,6 @@ IL_0114:
 
 IL_013d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:368>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:369>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:370>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:371>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:372>
 		ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_39 = V_0;
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_40 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
 		Thread__ctor_m1FA23A179DF4F5B659689D6FA40DE903086212E2(L_40, L_39, NULL);
@@ -12940,11 +12216,9 @@ IL_013d:
 		Thread_set_IsBackground_m45F00BD4C46F9B8A7C46A20A170B22BABB8FBA30(L_46, (bool)1, NULL);
 		__this->____receiveThread = L_46;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____receiveThread), (void*)L_46);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:373>
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_47 = __this->____receiveThread;
 		NullCheck(L_47);
 		Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_47, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:374>
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_48 = __this->____logicThread;
 		if (L_48)
 		{
@@ -12952,7 +12226,6 @@ IL_013d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:376>
 		ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2* L_49 = (ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2*)il2cpp_codegen_object_new(ThreadStart_t7662D98F1793EDE90192D7304D1C3C44119328A2_il2cpp_TypeInfo_var);
 		ThreadStart__ctor_m35CE51F76358F20E4A0C8F2963C3AE14E5FF7E71(L_49, __this, (intptr_t)((void*)NetManager_UpdateLogic_m7B569551ECC36E9AB7D43276380AF68A70A0690B_RuntimeMethod_var), NULL);
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_50 = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)il2cpp_codegen_object_new(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F_il2cpp_TypeInfo_var);
@@ -12965,7 +12238,6 @@ IL_013d:
 		Thread_set_IsBackground_m45F00BD4C46F9B8A7C46A20A170B22BABB8FBA30(L_52, (bool)1, NULL);
 		__this->____logicThread = L_52;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____logicThread), (void*)L_52);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:377>
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_53 = __this->____logicThread;
 		NullCheck(L_53);
 		Thread_Start_m2230799AA331CA9ACEF49D5500281D0C1A9F72FA(L_53, NULL);
@@ -12973,7 +12245,6 @@ IL_013d:
 
 IL_01b2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:381>
 		return (bool)1;
 	}
 }
@@ -12996,27 +12267,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_BindSocket_m044465D65243F0D5C
 	bool V_5 = false;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 2> __active_exceptions;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:387>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_0 = ___0_socket;
 		NullCheck(L_0);
 		Socket_set_ReceiveTimeout_m64104AED8D1B18294EB55BDA58DC291A4BEEAD9B(L_0, ((int32_t)500), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:388>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_1 = ___0_socket;
 		NullCheck(L_1);
 		Socket_set_SendTimeout_m3C8E026F2961EBB32E1EA7B66657DE53E8A60679(L_1, ((int32_t)500), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:389>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_2 = ___0_socket;
 		NullCheck(L_2);
 		Socket_set_ReceiveBufferSize_mFCBD973C71C5E4883D3E3C6E822652373ED9CCD6(L_2, ((int32_t)1048576), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:390>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_3 = ___0_socket;
 		NullCheck(L_3);
 		Socket_set_SendBufferSize_mBFC47E7A4581A220FBFE8B113CE828EFD7F4EF33(L_3, ((int32_t)1048576), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:391>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_4 = ___0_socket;
 		NullCheck(L_4);
 		Socket_set_Blocking_mAE329D3DA788B19FDDC6B773F5B0A1C31FBE9A7B(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:393>
 		il2cpp_codegen_runtime_class_init_inline(OSPlatform_t8D6BF4B4756716D5B2694BCA813A49AE0227B9F9_il2cpp_TypeInfo_var);
 		OSPlatform_t8D6BF4B4756716D5B2694BCA813A49AE0227B9F9 L_5;
 		L_5 = OSPlatform_get_Windows_m3FF642FF47E422E750B397689E25F0DD1F1C7B8E_inline(NULL);
@@ -13030,13 +12295,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_BindSocket_m044465D65243F0D5C
 	}
 	try
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:397>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_7 = ___0_socket;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)1);
 		NullCheck(L_7);
 		int32_t L_9;
 		L_9 = Socket_IOControl_mFB46E7CECA515C5FCCDCE0377727025E49241080(L_7, ((int32_t)-1744830452), L_8, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:398>
 		goto IL_0057;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -13052,8 +12315,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_BindSocket_m044465D65243F0D5C
 CATCH_0054:
 	{
 		RuntimeObject* L_10 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:399>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:402>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0057;
 	}
@@ -13063,22 +12324,18 @@ IL_0057:
 	}
 	try
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:407>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_11 = ___0_socket;
 		bool L_12 = __this->___ReuseAddress;
 		NullCheck(L_11);
 		Socket_set_ExclusiveAddressUse_m3F9A655F123086A025AD1736933B0754A5A6DF7F(L_11, (bool)((((int32_t)L_12) == ((int32_t)0))? 1 : 0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:408>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_13 = ___0_socket;
 		bool L_14 = __this->___ReuseAddress;
 		NullCheck(L_13);
 		Socket_SetSocketOption_mE47F5DEEA190E45317AEEE6F1506940CB8E943A1(L_13, ((int32_t)65535), 4, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:409>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_15 = ___0_socket;
 		bool L_16 = __this->___DontRoute;
 		NullCheck(L_15);
 		Socket_SetSocketOption_mE47F5DEEA190E45317AEEE6F1506940CB8E943A1(L_15, ((int32_t)65535), ((int32_t)16), L_16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:410>
 		goto IL_0091;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -13094,15 +12351,12 @@ IL_0057:
 CATCH_008e:
 	{
 		RuntimeObject* L_17 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:411>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:414>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0091;
 	}
 
 IL_0091:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:415>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_18 = ___1_ep;
 		NullCheck(L_18);
 		int32_t L_19;
@@ -13113,16 +12367,13 @@ IL_0091:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:417>
 		NetManager_set_Ttl_m9B9B57D4D46EC669B2A85F4D3404791BD4F2FC64(__this, (int16_t)((int32_t)255), NULL);
 	}
 	try
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:421>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_20 = ___0_socket;
 		NullCheck(L_20);
 		Socket_set_EnableBroadcast_m8C25D9941F2D9BD40277F8D3395400993F4CF1CF(L_20, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:422>
 		goto IL_00cb;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -13138,9 +12389,7 @@ IL_0091:
 CATCH_00ae:
 	{
 		SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_21 = ((SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:423>
 		V_0 = L_21;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:425>
 		SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_22 = V_0;
 		NullCheck(L_22);
 		int32_t L_23;
@@ -13151,14 +12400,12 @@ CATCH_00ae:
 		L_26 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral19CFC720389256CE284BB852E13BDB48224B840F)), L_25, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 		NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_26, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:426>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00cb;
 	}
 
 IL_00cb:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:428>
 		il2cpp_codegen_runtime_class_init_inline(OSPlatform_t8D6BF4B4756716D5B2694BCA813A49AE0227B9F9_il2cpp_TypeInfo_var);
 		OSPlatform_t8D6BF4B4756716D5B2694BCA813A49AE0227B9F9 L_27;
 		L_27 = OSPlatform_get_OSX_m3618C7AE4705A5980128252AF2FD065694C048F2_inline(NULL);
@@ -13172,11 +12419,9 @@ IL_00cb:
 	}
 	try
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:432>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_29 = ___0_socket;
 		NullCheck(L_29);
 		Socket_set_DontFragment_mCF6F7D2735A7FD4E327617826C62ED015001DFF6(L_29, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:433>
 		goto IL_00fd;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -13192,9 +12437,7 @@ IL_00cb:
 CATCH_00e0:
 	{
 		SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_30 = ((SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:434>
 		V_1 = L_30;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:436>
 		SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_31 = V_1;
 		NullCheck(L_31);
 		int32_t L_32;
@@ -13205,7 +12448,6 @@ CATCH_00e0:
 		L_35 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE246E702789502BB6581EC616DB67856E46BFF26)), L_34, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 		NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_35, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:437>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00fd;
 	}
@@ -13215,17 +12457,14 @@ IL_00fd:
 	}
 	try
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:443>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_36 = ___0_socket;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_37 = ___1_ep;
 		NullCheck(L_36);
 		Socket_Bind_m137559EBA78A72ED4ADF8B56F5C535CE638165AA(L_36, L_37, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:447>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_38 = ___1_ep;
 		NullCheck(L_38);
 		int32_t L_39;
 		L_39 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_38);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:460>
 		goto IL_0194;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -13242,9 +12481,7 @@ CATCH_0114:
 	{
 		{
 			SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_40 = ((SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*));;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:461>
 			V_2 = L_40;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:463>
 			SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_41 = V_2;
 			NullCheck(L_41);
 			int32_t L_42;
@@ -13264,7 +12501,6 @@ CATCH_0114:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:467>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_45 = ___0_socket;
 			NullCheck(L_45);
 			int32_t L_46;
@@ -13276,16 +12512,13 @@ CATCH_0114:
 		}
 		try
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:472>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_47 = ___0_socket;
 			NullCheck(L_47);
 			Socket_set_DualMode_m08152574129C01AC8941AAB43752C3CD1525C193(L_47, (bool)0, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:473>
 			Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_48 = ___0_socket;
 			IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_49 = ___1_ep;
 			NullCheck(L_48);
 			Socket_Bind_m137559EBA78A72ED4ADF8B56F5C535CE638165AA(L_48, L_49, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:474>
 			goto IL_016a;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -13301,9 +12534,7 @@ CATCH_0114:
 CATCH_0146:
 		{
 			SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_50 = ((SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*));;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:475>
 			V_4 = L_50;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:478>
 			SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_51 = V_4;
 			SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_52 = V_4;
 			NullCheck(L_52);
@@ -13315,7 +12546,6 @@ CATCH_0146:
 			L_56 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral017221BEF045A541084C808DB03B1A82115AE841)), L_51, L_55, NULL);
 			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 			NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_56, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:479>
 			V_5 = (bool)0;
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0196;
@@ -13323,7 +12553,6 @@ CATCH_0146:
 
 IL_016a:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:481>
 			V_5 = (bool)1;
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0196;
@@ -13331,7 +12560,6 @@ IL_016a:
 
 IL_016f:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:486>
 			V_5 = (bool)1;
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0196;
@@ -13339,7 +12567,6 @@ IL_016f:
 
 IL_0174:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:488>
 			SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_57 = V_2;
 			SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_58 = V_2;
 			NullCheck(L_58);
@@ -13351,7 +12578,6 @@ IL_0174:
 			L_62 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral017221BEF045A541084C808DB03B1A82115AE841)), L_57, L_61, NULL);
 			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 			NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_62, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:489>
 			V_5 = (bool)0;
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_0196;
@@ -13360,13 +12586,11 @@ IL_0174:
 
 IL_0194:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:491>
 		return (bool)1;
 	}
 
 IL_0196:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:492>
 		bool L_63 = V_5;
 		return L_63;
 	}
@@ -13375,7 +12599,6 @@ IL_0196:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_SendRawAndRecycle_m80EA360EBE6014357839479E1AFA7E9D0FB8536E (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* ___0_packet, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___1_remoteEndPoint, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:496>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0->___RawData;
@@ -13385,10 +12608,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_SendRawAndRecycle_m80EA360
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_4 = ___1_remoteEndPoint;
 		int32_t L_5;
 		L_5 = NetManager_SendRaw_m247B73817A3ABFB7782DE7CBB36011A270012FB8(__this, L_1, 0, L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:497>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_6 = ___0_packet;
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(__this, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:498>
 		return L_5;
 	}
 }
@@ -13396,7 +12617,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_SendRawAndRecycle_m80EA360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_SendRaw_m21171611BC8856EA8D13FCC0972CCFCE0F7F6AFF (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* ___0_packet, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___1_remoteEndPoint, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:503>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0->___RawData;
@@ -13440,7 +12660,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_SendRaw_m247B73817A3ABFB77
 	NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* G_B33_1 = NULL;
 	NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* G_B33_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:508>
 		bool L_0;
 		L_0 = NetManager_get_IsRunning_mB0E5575B653966435F22860934AACCE763E44204_inline(__this, NULL);
 		if (L_0)
@@ -13449,15 +12668,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_SendRaw_m247B73817A3ABFB77
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:509>
 		return 0;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:511>
 		V_0 = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:512>
 		PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* L_1 = __this->____extraPacketLayer;
 		if (!L_1)
 		{
@@ -13465,7 +12681,6 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:514>
 		int32_t L_2 = ___2_length;
 		PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* L_3 = __this->____extraPacketLayer;
 		NullCheck(L_3);
@@ -13473,7 +12688,6 @@ IL_000a:
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5;
 		L_5 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(__this, ((int32_t)il2cpp_codegen_add(L_2, L_4)), NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:515>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = ___0_message;
 		int32_t L_7 = ___1_start;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_8 = V_0;
@@ -13481,16 +12695,13 @@ IL_000a:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = L_8->___RawData;
 		int32_t L_10 = ___2_length;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_6, L_7, (RuntimeArray*)L_9, 0, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:516>
 		___1_start = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:517>
 		PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* L_11 = __this->____extraPacketLayer;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_12 = V_0;
 		NullCheck(L_12);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** L_13 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**)(&L_12->___RawData);
 		NullCheck(L_11);
 		VirtualActionInvoker4< IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB**, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**, int32_t*, int32_t* >::Invoke(5, L_11, (&___3_remoteEndPoint), L_13, (&___1_start), (&___2_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:518>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_14 = V_0;
 		NullCheck(L_14);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = L_14->___RawData;
@@ -13499,10 +12710,8 @@ IL_000a:
 
 IL_0059:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:521>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_16 = __this->____udpSocketv4;
 		V_1 = L_16;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:522>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_17 = ___3_remoteEndPoint;
 		NullCheck(L_17);
 		int32_t L_18;
@@ -13521,10 +12730,8 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:524>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_20 = __this->____udpSocketv6;
 		V_1 = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:525>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_21 = V_1;
 		if (L_21)
 		{
@@ -13532,7 +12739,6 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:526>
 		return 0;
 	}
 
@@ -13546,7 +12752,6 @@ IL_007e:
 FINALLY_01e3:
 			{
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:591>
 					NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_22 = V_0;
 					if (!L_22)
 					{
@@ -13554,14 +12759,12 @@ FINALLY_01e3:
 					}
 				}
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:592>
 					NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_23 = V_0;
 					NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(__this, L_23, NULL);
 				}
 
 IL_01ed:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:593>
 					return;
 				}
 			}
@@ -13571,7 +12774,6 @@ IL_01ed:
 			try
 			{
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:532>
 					bool L_24 = __this->___UseNativeSockets;
 					if (!L_24)
 					{
@@ -13599,15 +12801,12 @@ FINALLY_00bf_2:
 					});
 					try
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:535>
 						ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_27 = ___0_message;
 						int32_t L_28 = ___1_start;
 						NullCheck(L_27);
 						V_5 = ((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_28)));
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:536>
 						uint8_t* L_29 = V_5;
 						V_4 = (uint8_t*)((uintptr_t)L_29);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:538>
 						Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_30 = V_1;
 						NullCheck(L_30);
 						intptr_t L_31;
@@ -13635,7 +12834,6 @@ FINALLY_00bf_2:
 
 IL_00c4_2:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:541>
 					int32_t L_39 = V_2;
 					if ((!(((uint32_t)L_39) == ((uint32_t)(-1)))))
 					{
@@ -13643,7 +12841,6 @@ IL_00c4_2:
 					}
 				}
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:542>
 					il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var)));
 					SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_40;
 					L_40 = NativeSocket_GetSocketException_mBECFEE4C7DCD4D7289E44505304A8B94AAD1C09C(NULL);
@@ -13652,7 +12849,6 @@ IL_00c4_2:
 
 IL_00ce_2:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:549>
 					Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_41 = V_1;
 					ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_42 = ___0_message;
 					int32_t L_43 = ___1_start;
@@ -13666,7 +12862,6 @@ IL_00ce_2:
 
 IL_00db_2:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:553>
 					goto IL_01ee;
 				}
 			}
@@ -13689,9 +12884,7 @@ CATCH_00e0_1:
 			{
 				{
 					SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_47 = ((SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*));;
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:554>
 					V_6 = L_47;
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:556>
 					SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_48 = V_6;
 					NullCheck(L_48);
 					int32_t L_49;
@@ -13756,7 +12949,6 @@ IL_0114_1:
 
 IL_0134_1:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:560>
 					V_9 = 0;
 					IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 					goto IL_0216;
@@ -13764,7 +12956,6 @@ IL_0134_1:
 
 IL_013c_1:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:563>
 					V_9 = 0;
 					IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 					goto IL_0216;
@@ -13772,7 +12963,6 @@ IL_013c_1:
 
 IL_0144_1:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:567>
 					bool L_57 = __this->___DisconnectOnUnreachable;
 					if (!L_57)
 					{
@@ -13789,7 +12979,6 @@ IL_0144_1:
 					}
 				}
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:569>
 					NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_60 = V_7;
 					SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_61 = V_6;
 					NullCheck(L_61);
@@ -13830,14 +13019,12 @@ IL_016e_1:
 
 IL_017b_1:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:572>
 					IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_65 = ___3_remoteEndPoint;
 					SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_66 = V_6;
 					NullCheck(L_66);
 					int32_t L_67;
 					L_67 = SocketException_get_SocketErrorCode_m84FB2D308F046A24A1355975F3BF689C988224C6(L_66, NULL);
 					NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, 4, (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL, L_65, L_67, 0, 0, (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL, 4, (uint8_t)0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL, NULL);
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:573>
 					V_9 = (-1);
 					IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 					goto IL_0216;
@@ -13845,14 +13032,12 @@ IL_017b_1:
 
 IL_0198_1:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:576>
 					IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_68 = ___3_remoteEndPoint;
 					SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_69 = V_6;
 					NullCheck(L_69);
 					int32_t L_70;
 					L_70 = SocketException_get_SocketErrorCode_m84FB2D308F046A24A1355975F3BF689C988224C6(L_69, NULL);
 					NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, 4, (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL, L_68, L_70, 0, 0, (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL, 4, (uint8_t)0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL, NULL);
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:577>
 					V_9 = (-1);
 					IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 					goto IL_0216;
@@ -13860,13 +13045,11 @@ IL_0198_1:
 
 IL_01b5_1:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:580>
 					SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_71 = V_6;
 					String_t* L_72;
 					L_72 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6DBC3B38A12663F172AE56DCF15E4366B8A943DC)), L_71, NULL);
 					il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 					NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_72, NULL);
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:581>
 					V_9 = (-1);
 					IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 					goto IL_0216;
@@ -13876,15 +13059,12 @@ IL_01b5_1:
 CATCH_01cb_1:
 			{
 				Exception_t* L_73 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:584>
 				V_10 = L_73;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:586>
 				Exception_t* L_74 = V_10;
 				String_t* L_75;
 				L_75 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6DBC3B38A12663F172AE56DCF15E4366B8A943DC)), L_74, NULL);
 				il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 				NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_75, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:587>
 				V_9 = 0;
 				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 				goto IL_0216;
@@ -13898,7 +13078,6 @@ CATCH_01cb_1:
 
 IL_01ee:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:595>
 		int32_t L_76 = V_2;
 		if ((((int32_t)L_76) > ((int32_t)0)))
 		{
@@ -13906,13 +13085,11 @@ IL_01ee:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:596>
 		return 0;
 	}
 
 IL_01f4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:598>
 		bool L_77 = __this->___EnableStatistics;
 		if (!L_77)
 		{
@@ -13920,11 +13097,9 @@ IL_01f4:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:600>
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_78 = __this->___Statistics;
 		NullCheck(L_78);
 		NetStatistics_IncrementPacketsSent_m1580A96FA23DDFF05F5AA6B104F9650D59EEEBC2(L_78, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:601>
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_79 = __this->___Statistics;
 		int32_t L_80 = ___2_length;
 		NullCheck(L_79);
@@ -13933,14 +13108,12 @@ IL_01f4:
 
 IL_0214:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:604>
 		int32_t L_81 = V_2;
 		return L_81;
 	}
 
 IL_0216:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:605>
 		int32_t L_82 = V_9;
 		return L_82;
 	}
@@ -13949,7 +13122,6 @@ IL_0216:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendBroadcast_mE0727826E2149FE8905D4F6D1F1FAFB46B1CE619 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_writer, int32_t ___1_port, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:609>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___0_writer;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
@@ -13968,7 +13140,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendBroadcast_mE0727826E2149F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendBroadcast_m422F7CC605CAEE69D3FA5D1E931DCED89116BA5A (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_port, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:614>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_data;
 		NullCheck(L_1);
@@ -14002,7 +13173,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendBroadcast_m5C4C7C1B16FD4E
 	Exception_t* V_9 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:619>
 		bool L_0;
 		L_0 = NetManager_get_IsRunning_mB0E5575B653966435F22860934AACCE763E44204_inline(__this, NULL);
 		if (L_0)
@@ -14011,13 +13181,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendBroadcast_m5C4C7C1B16FD4E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:620>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:623>
 		PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* L_1 = __this->____extraPacketLayer;
 		if (!L_1)
 		{
@@ -14025,12 +13193,10 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:625>
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = NetPacket_GetHeaderSize_m3EAFEE7F1813A006E5FBE79E29AC0D330E7321A2(((int32_t)11), NULL);
 		V_3 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:626>
 		int32_t L_3 = V_3;
 		int32_t L_4 = ___2_length;
 		PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* L_5 = __this->____extraPacketLayer;
@@ -14039,11 +13205,9 @@ IL_000a:
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_7;
 		L_7 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(__this, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_3, L_4)), L_6)), NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:627>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_8 = V_0;
 		NullCheck(L_8);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_8, ((int32_t)11), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:628>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = ___0_data;
 		int32_t L_10 = ___1_start;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_11 = V_0;
@@ -14052,15 +13216,11 @@ IL_000a:
 		int32_t L_13 = V_3;
 		int32_t L_14 = ___2_length;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_9, L_10, (RuntimeArray*)L_12, L_13, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:629>
 		V_4 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:630>
 		int32_t L_15 = ___2_length;
 		int32_t L_16 = V_3;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_15, L_16));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:631>
 		V_6 = (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:632>
 		PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* L_17 = __this->____extraPacketLayer;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_18 = V_0;
 		NullCheck(L_18);
@@ -14072,7 +13232,6 @@ IL_000a:
 
 IL_006b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:636>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20 = ___0_data;
 		int32_t L_21 = ___1_start;
 		int32_t L_22 = ___2_length;
@@ -14083,9 +13242,7 @@ IL_006b:
 
 IL_0077:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:639>
 		V_1 = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:640>
 		V_2 = (bool)0;
 	}
 	{
@@ -14094,10 +13251,8 @@ IL_0077:
 
 FINALLY_011a:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:664>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_24 = V_0;
 				NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(__this, L_24, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:665>
 				return;
 			}
 		});
@@ -14106,7 +13261,6 @@ FINALLY_011a:
 			try
 			{
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:643>
 					Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_25 = __this->____udpSocketv4;
 					NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_26 = V_0;
 					NullCheck(L_26);
@@ -14123,7 +13277,6 @@ FINALLY_011a:
 					int32_t L_33;
 					L_33 = Socket_SendTo_m07A6D82F7ABD61B6B9C87931035FCF793AA3D6F6(L_25, L_27, 0, L_29, 0, L_32, NULL);
 					V_1 = (bool)((((int32_t)L_33) > ((int32_t)0))? 1 : 0);
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:645>
 					Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_34 = __this->____udpSocketv6;
 					if (!L_34)
 					{
@@ -14131,7 +13284,6 @@ FINALLY_011a:
 					}
 				}
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:647>
 					Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_35 = __this->____udpSocketv6;
 					NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_36 = V_0;
 					NullCheck(L_36);
@@ -14152,7 +13304,6 @@ FINALLY_011a:
 
 IL_00d5_2:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:649>
 					goto IL_0122;
 				}
 			}
@@ -14175,9 +13326,7 @@ CATCH_00d7_1:
 			{
 				{
 					SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_44 = ((SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*)IL2CPP_GET_ACTIVE_EXCEPTION(SocketException_t6D10102A62EA871BD31748E026A372DB6804083B*));;
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:650>
 					V_7 = L_44;
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:652>
 					SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_45 = V_7;
 					NullCheck(L_45);
 					int32_t L_46;
@@ -14188,7 +13337,6 @@ CATCH_00d7_1:
 					}
 				}
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:653>
 					bool L_47 = V_1;
 					V_8 = L_47;
 					IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
@@ -14197,13 +13345,11 @@ CATCH_00d7_1:
 
 IL_00ec_1:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:654>
 					SocketException_t6D10102A62EA871BD31748E026A372DB6804083B* L_48 = V_7;
 					String_t* L_49;
 					L_49 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDA33EECB2F85A52D304F3055D9327284D3FBB727)), L_48, NULL);
 					il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 					NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_49, NULL);
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:655>
 					bool L_50 = V_1;
 					V_8 = L_50;
 					IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
@@ -14214,15 +13360,12 @@ IL_00ec_1:
 CATCH_0102_1:
 			{
 				Exception_t* L_51 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:657>
 				V_9 = L_51;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:659>
 				Exception_t* L_52 = V_9;
 				String_t* L_53;
 				L_53 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDA33EECB2F85A52D304F3055D9327284D3FBB727)), L_52, NULL);
 				il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 				NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_53, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:660>
 				bool L_54 = V_1;
 				V_8 = L_54;
 				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
@@ -14237,7 +13380,6 @@ CATCH_0102_1:
 
 IL_0122:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:667>
 		bool L_55 = V_1;
 		bool L_56 = V_2;
 		return (bool)((int32_t)((int32_t)L_55|(int32_t)L_56));
@@ -14245,7 +13387,6 @@ IL_0122:
 
 IL_0126:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:668>
 		bool L_57 = V_8;
 		return L_57;
 	}
@@ -14258,9 +13399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CloseSocket_mC0E1795A17A50964
 	Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* G_B5_0 = NULL;
 	Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* G_B4_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:672>
 		NetManager_set_IsRunning_m73AE9FD7D1C491D86B43FA586E138EEC10BDFDDD_inline(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:673>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_0 = __this->____udpSocketv4;
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_1 = L_0;
 		if (L_1)
@@ -14282,7 +13421,6 @@ IL_0013:
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:674>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_2 = __this->____udpSocketv6;
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_3 = L_2;
 		if (L_3)
@@ -14304,13 +13442,10 @@ IL_0024:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:675>
 		__this->____udpSocketv4 = (Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____udpSocketv4), (void*)(Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:676>
 		__this->____udpSocketv6 = (Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____udpSocketv6), (void*)(Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:677>
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_4 = __this->____receiveThread;
 		if (!L_4)
 		{
@@ -14327,7 +13462,6 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:678>
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_7 = __this->____receiveThread;
 		NullCheck(L_7);
 		Thread_Join_mB756581AAF5EB028081256E0517892BC8867779F(L_7, NULL);
@@ -14335,10 +13469,8 @@ IL_0029:
 
 IL_0057:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:679>
 		__this->____receiveThread = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____receiveThread), (void*)(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:680>
 		return;
 	}
 }
@@ -14346,7 +13478,6 @@ IL_0057:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_get_IsRunning_mB0E5575B653966435F22860934AACCE763E44204 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:247>
 		bool L_0 = __this->___U3CIsRunningU3Ek__BackingField;
 		return L_0;
 	}
@@ -14355,7 +13486,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_get_IsRunning_mB0E5575B653966
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_set_IsRunning_m73AE9FD7D1C491D86B43FA586E138EEC10BDFDDD (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:247>
 		bool L_0 = ___0_value;
 		__this->___U3CIsRunningU3Ek__BackingField = L_0;
 		return;
@@ -14365,7 +13495,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_set_IsRunning_m73AE9FD7D1C491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_get_LocalPort_m4BB40165C936B146DF5D5BAF44ADF719164B4281 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:251>
 		int32_t L_0 = __this->___U3CLocalPortU3Ek__BackingField;
 		return L_0;
 	}
@@ -14374,7 +13503,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_get_LocalPort_m4BB40165C93
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_set_LocalPort_mA77793D1E7F08FDA775A24D391D77485B17971AE (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:251>
 		int32_t L_0 = ___0_value;
 		__this->___U3CLocalPortU3Ek__BackingField = L_0;
 		return;
@@ -14384,7 +13512,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_set_LocalPort_mA77793D1E7F08F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* NetManager_get_FirstPeer_mA8CBA0D67E86BF3383724DC3BCB5F2920F071D45 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:271>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
 		return L_0;
@@ -14394,7 +13521,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetManager_get_ChannelsCount_m6AC579F6A58D76B7EA1D07E6EDBFA10577C6EFCB (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:290>
 		uint8_t L_0 = __this->____channelsCount;
 		return L_0;
 	}
@@ -14403,7 +13529,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetManager_get_ChannelsCount_m6AC579F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_set_ChannelsCount_m0266F1BDC7EB7B08783DBED46D70D371F01E0E2A (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:293>
 		uint8_t L_0 = ___0_value;
 		if ((((int32_t)L_0) < ((int32_t)1)))
 		{
@@ -14420,7 +13545,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_set_ChannelsCount_m0266F1BDC7
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:294>
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_2 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral70FF89D7BC6B3ECAE331166FA99EF42BA430BB8A)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetManager_set_ChannelsCount_m0266F1BDC7EB7B08783DBED46D70D371F01E0E2A_RuntimeMethod_var)));
@@ -14428,10 +13552,8 @@ IL_0009:
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:295>
 		uint8_t L_3 = ___0_value;
 		__this->____channelsCount = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:296>
 		return;
 	}
 }
@@ -14439,10 +13561,8 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* NetManager_get_ConnectedPeerList_mFA0FE158B005C2986D131BF198BF11D953A22648 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:305>
 		List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_0 = __this->____connectedPeerListCache;
 		NetManager_GetPeersNonAlloc_m323AE438F453610E280361D32750B28241CAB9B7(__this, L_0, 4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:306>
 		List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_1 = __this->____connectedPeerListCache;
 		return L_1;
 	}
@@ -14451,7 +13571,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_get_ConnectedPeersCount_mB8EA6209FE2DB230F880F3E01B3AFE88635E7B1B (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:312>
 		int64_t* L_0 = (int64_t*)(&__this->____connectedPeersCount);
 		int64_t L_1;
 		L_1 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_0, NULL);
@@ -14464,7 +13583,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_get_ExtraPacketSizeForLaye
 	PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* G_B2_0 = NULL;
 	PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:313>
 		PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* L_0 = __this->____extraPacketLayer;
 		PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* L_1 = L_0;
 		if (L_1)
@@ -14507,85 +13625,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager__ctor_m3103C9EE68F1721F561DF9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:65>
 		__this->____freeList = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:66>
 		NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928* L_0 = (NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928*)(NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928*)SZArrayNew(NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928_il2cpp_TypeInfo_var, (uint32_t)((int32_t)32));
 		__this->____peersArray = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____peersArray), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:67>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_1 = (ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906*)il2cpp_codegen_object_new(ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906_il2cpp_TypeInfo_var);
 		ReaderWriterLockSlim__ctor_m19E2A503BBF4DF37E4C601EC1E745380EF945F0C(L_1, 0, NULL);
 		__this->____peersLock = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____peersLock), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:8>
 		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
 		__this->____poolLock = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____poolLock), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:12>
 		__this->___PacketPoolSize = ((int32_t)1000);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:136>
 		AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_3 = (AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0*)il2cpp_codegen_object_new(AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0_il2cpp_TypeInfo_var);
 		AutoResetEvent__ctor_mB7C8CD30C5BE11A2C8DB79B27593CF0C5FE82ADE(L_3, (bool)1, NULL);
 		__this->____updateTriggerEvent = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____updateTriggerEvent), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:144>
 		Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_4 = (Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E*)il2cpp_codegen_object_new(Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mCA87B151E947F7FFC1590B705E07FF25536D505A(L_4, Dictionary_2__ctor_mCA87B151E947F7FFC1590B705E07FF25536D505A_RuntimeMethod_var);
 		__this->____requestsDict = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____requestsDict), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:145>
 		ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F* L_5 = (ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F*)il2cpp_codegen_object_new(ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F_il2cpp_TypeInfo_var);
 		ConcurrentDictionary_2__ctor_mADEF67A4A0EE9814BA97C5456D0DD54B6A589C7E(L_5, ConcurrentDictionary_2__ctor_mADEF67A4A0EE9814BA97C5456D0DD54B6A589C7E_RuntimeMethod_var);
 		__this->____ntpRequests = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____ntpRequests), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:147>
 		List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_6 = (List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A*)il2cpp_codegen_object_new(List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A_il2cpp_TypeInfo_var);
 		List_1__ctor_m1EED874EC2F84A4C6E0B06FF83F10EF4BED7E7BC(L_6, List_1__ctor_m1EED874EC2F84A4C6E0B06FF83F10EF4BED7E7BC_RuntimeMethod_var);
 		__this->____connectedPeerListCache = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____connectedPeerListCache), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:150>
 		ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3* L_7 = (ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3*)il2cpp_codegen_object_new(ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3_il2cpp_TypeInfo_var);
 		ConcurrentQueue_1__ctor_m4B7219F4F8B149AAAFBD9FA3354784BC6A0A31B4(L_7, ConcurrentQueue_1__ctor_m4B7219F4F8B149AAAFBD9FA3354784BC6A0A31B4_RuntimeMethod_var);
 		__this->____peerIds = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____peerIds), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:151>
 		__this->____channelsCount = (uint8_t)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:152>
 		RuntimeObject* L_8 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_8, NULL);
 		__this->____eventLock = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____eventLock), (void*)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:168>
 		__this->___UpdateTime = ((int32_t)15);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:172>
 		__this->___PingInterval = ((int32_t)1000);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:177>
 		__this->___DisconnectTimeout = ((int32_t)5000);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:189>
 		__this->___SimulationPacketLossChance = ((int32_t)10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:193>
 		__this->___SimulationMinLatency = ((int32_t)30);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:197>
 		__this->___SimulationMaxLatency = ((int32_t)100);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:217>
 		__this->___ReconnectDelay = ((int32_t)500);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:221>
 		__this->___MaxConnectAttempts = ((int32_t)10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:235>
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_9 = (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5*)il2cpp_codegen_object_new(NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5_il2cpp_TypeInfo_var);
 		NetStatistics__ctor_m2208F650D03B6C717B474509A9CADFAC67325847(L_9, NULL);
 		__this->___Statistics = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Statistics), (void*)L_9);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:259>
 		__this->___IPv6Enabled = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:315>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:317>
 		bool L_10 = ___0_useSocketFix;
 		__this->____useSocketFix = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:318>
 		return;
 	}
 }
@@ -14615,110 +13708,79 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager__ctor_mCBFD3DB28BCE8BB6E90111
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:65>
 		__this->____freeList = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:66>
 		NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928* L_0 = (NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928*)(NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928*)SZArrayNew(NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928_il2cpp_TypeInfo_var, (uint32_t)((int32_t)32));
 		__this->____peersArray = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____peersArray), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:67>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_1 = (ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906*)il2cpp_codegen_object_new(ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906_il2cpp_TypeInfo_var);
 		ReaderWriterLockSlim__ctor_m19E2A503BBF4DF37E4C601EC1E745380EF945F0C(L_1, 0, NULL);
 		__this->____peersLock = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____peersLock), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:8>
 		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
 		__this->____poolLock = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____poolLock), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:12>
 		__this->___PacketPoolSize = ((int32_t)1000);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:136>
 		AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_3 = (AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0*)il2cpp_codegen_object_new(AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0_il2cpp_TypeInfo_var);
 		AutoResetEvent__ctor_mB7C8CD30C5BE11A2C8DB79B27593CF0C5FE82ADE(L_3, (bool)1, NULL);
 		__this->____updateTriggerEvent = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____updateTriggerEvent), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:144>
 		Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_4 = (Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E*)il2cpp_codegen_object_new(Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mCA87B151E947F7FFC1590B705E07FF25536D505A(L_4, Dictionary_2__ctor_mCA87B151E947F7FFC1590B705E07FF25536D505A_RuntimeMethod_var);
 		__this->____requestsDict = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____requestsDict), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:145>
 		ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F* L_5 = (ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F*)il2cpp_codegen_object_new(ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F_il2cpp_TypeInfo_var);
 		ConcurrentDictionary_2__ctor_mADEF67A4A0EE9814BA97C5456D0DD54B6A589C7E(L_5, ConcurrentDictionary_2__ctor_mADEF67A4A0EE9814BA97C5456D0DD54B6A589C7E_RuntimeMethod_var);
 		__this->____ntpRequests = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____ntpRequests), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:147>
 		List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_6 = (List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A*)il2cpp_codegen_object_new(List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A_il2cpp_TypeInfo_var);
 		List_1__ctor_m1EED874EC2F84A4C6E0B06FF83F10EF4BED7E7BC(L_6, List_1__ctor_m1EED874EC2F84A4C6E0B06FF83F10EF4BED7E7BC_RuntimeMethod_var);
 		__this->____connectedPeerListCache = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____connectedPeerListCache), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:150>
 		ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3* L_7 = (ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3*)il2cpp_codegen_object_new(ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3_il2cpp_TypeInfo_var);
 		ConcurrentQueue_1__ctor_m4B7219F4F8B149AAAFBD9FA3354784BC6A0A31B4(L_7, ConcurrentQueue_1__ctor_m4B7219F4F8B149AAAFBD9FA3354784BC6A0A31B4_RuntimeMethod_var);
 		__this->____peerIds = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____peerIds), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:151>
 		__this->____channelsCount = (uint8_t)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:152>
 		RuntimeObject* L_8 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_8, NULL);
 		__this->____eventLock = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____eventLock), (void*)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:168>
 		__this->___UpdateTime = ((int32_t)15);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:172>
 		__this->___PingInterval = ((int32_t)1000);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:177>
 		__this->___DisconnectTimeout = ((int32_t)5000);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:189>
 		__this->___SimulationPacketLossChance = ((int32_t)10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:193>
 		__this->___SimulationMinLatency = ((int32_t)30);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:197>
 		__this->___SimulationMaxLatency = ((int32_t)100);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:217>
 		__this->___ReconnectDelay = ((int32_t)500);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:221>
 		__this->___MaxConnectAttempts = ((int32_t)10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:235>
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_9 = (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5*)il2cpp_codegen_object_new(NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5_il2cpp_TypeInfo_var);
 		NetStatistics__ctor_m2208F650D03B6C717B474509A9CADFAC67325847(L_9, NULL);
 		__this->___Statistics = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Statistics), (void*)L_9);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:259>
 		__this->___IPv6Enabled = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:326>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:328>
 		bool L_10 = ___2_useSocketFix;
 		__this->____useSocketFix = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:333>
 		RuntimeObject* L_11 = ___0_listener;
 		__this->____netEventListener = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____netEventListener), (void*)L_11);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:334>
 		RuntimeObject* L_12 = ___0_listener;
 		__this->____deliveryEventListener = ((RuntimeObject*)IsInst((RuntimeObject*)L_12, IDeliveryEventListener_t914F249A4C8D7E066CD1048D0A35514DAAAE30FA_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____deliveryEventListener), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_12, IDeliveryEventListener_t914F249A4C8D7E066CD1048D0A35514DAAAE30FA_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:335>
 		RuntimeObject* L_13 = ___0_listener;
 		__this->____ntpEventListener = ((RuntimeObject*)IsInst((RuntimeObject*)L_13, INtpEventListener_t977261DFF1F8EEAE723B628304166255293D0FD9_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____ntpEventListener), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_13, INtpEventListener_t977261DFF1F8EEAE723B628304166255293D0FD9_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:336>
 		RuntimeObject* L_14 = ___0_listener;
 		__this->____peerAddressChangedListener = ((RuntimeObject*)IsInst((RuntimeObject*)L_14, IPeerAddressChangedListener_tF752CA42D31C21EECB597910FAB2404838776E4F_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____peerAddressChangedListener), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_14, IPeerAddressChangedListener_tF752CA42D31C21EECB597910FAB2404838776E4F_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:337>
 		NatPunchModule_t42CB23F25623954C5C4E5A14BFA39492A6B44A57* L_15 = (NatPunchModule_t42CB23F25623954C5C4E5A14BFA39492A6B44A57*)il2cpp_codegen_object_new(NatPunchModule_t42CB23F25623954C5C4E5A14BFA39492A6B44A57_il2cpp_TypeInfo_var);
 		NatPunchModule__ctor_m4DB51BD11EA3144BB21B802AB4763C8450675134(L_15, __this, NULL);
 		__this->___NatPunchModule = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___NatPunchModule), (void*)L_15);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:338>
 		PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* L_16 = ___1_extraPacketLayer;
 		__this->____extraPacketLayer = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____extraPacketLayer), (void*)L_16);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:339>
 		return;
 	}
 }
@@ -14726,11 +13788,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager__ctor_mCBFD3DB28BCE8BB6E90111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ConnectionLatencyUpdated_m24840B32EB706D83B7D07589DABBDE86B1120FC7 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_fromPeer, int32_t ___1_latency, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:343>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_fromPeer;
 		int32_t L_1 = ___1_latency;
 		NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, 5, L_0, (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)NULL, 0, L_1, 0, (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL, 4, (uint8_t)0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:344>
 		return;
 	}
 }
@@ -14738,7 +13798,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ConnectionLatencyUpdated_m248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_MessageDelivered_m93D15F04033469E867CFE9631974F7AB5D4CBD94 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_fromPeer, RuntimeObject* ___1_userData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:348>
 		RuntimeObject* L_0 = __this->____deliveryEventListener;
 		if (!L_0)
 		{
@@ -14746,7 +13805,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_MessageDelivered_m93D15F04033
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:349>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_1 = ___0_fromPeer;
 		RuntimeObject* L_2 = ___1_userData;
 		NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, 8, L_1, (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)NULL, 0, 0, 0, (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL, 4, (uint8_t)0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, L_2, NULL);
@@ -14754,7 +13812,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_MessageDelivered_m93D15F04033
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:350>
 		return;
 	}
 }
@@ -14762,13 +13819,11 @@ IL_0019:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeerForce_mBC208C113DF61033CA1F71D2278329076310514B (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, int32_t ___1_reason, int32_t ___2_socketErrorCode, NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* ___3_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:354>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_peer;
 		int32_t L_1 = ___1_reason;
 		int32_t L_2 = ___2_socketErrorCode;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3 = ___3_eventData;
 		NetManager_DisconnectPeer_mF50BF087C1A07FC7838D2F8E306E915C0CD7B103(__this, L_0, L_1, L_2, (bool)1, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, 0, 0, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:355>
 		return;
 	}
 }
@@ -14777,7 +13832,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeer_mF50BF087C1A07
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:359>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_peer;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___4_data;
 		int32_t L_2 = ___5_start;
@@ -14787,7 +13841,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeer_mF50BF087C1A07
 		int32_t L_5;
 		L_5 = NetPeer_Shutdown_m3D2889B30607A49E881609C16C7742AE2B051BCC(L_0, L_1, L_2, L_3, L_4, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:360>
 		int32_t L_6 = V_0;
 		if (L_6)
 		{
@@ -14795,13 +13848,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeer_mF50BF087C1A07
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:361>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:362>
 		int32_t L_7 = V_0;
 		if ((!(((uint32_t)L_7) == ((uint32_t)2))))
 		{
@@ -14809,7 +13860,6 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:363>
 		int64_t* L_8 = (int64_t*)(&__this->____connectedPeersCount);
 		int64_t L_9;
 		L_9 = Interlocked_Decrement_m8C328C0E6824A523B00D2649B55ECB882F105000(L_8, NULL);
@@ -14817,13 +13867,11 @@ IL_0013:
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:364>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_10 = ___0_peer;
 		int32_t L_11 = ___2_socketErrorCode;
 		int32_t L_12 = ___1_reason;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_13 = ___7_eventData;
 		NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, 1, L_10, (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)NULL, L_11, 0, L_12, (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL, 4, (uint8_t)0, L_13, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:365>
 		return;
 	}
 }
@@ -14848,10 +13896,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateEvent_m087A114D553D650F
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* G_B14_1 = NULL;
 	NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* G_B14_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:370>
 		bool L_0 = __this->___UnsyncedEvents;
 		V_1 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:372>
 		int32_t L_1 = ___0_type;
 		if (L_1)
 		{
@@ -14859,7 +13905,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateEvent_m087A114D553D650F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:373>
 		int64_t* L_2 = (int64_t*)(&__this->____connectedPeersCount);
 		int64_t L_3;
 		L_3 = Interlocked_Increment_m12CD643CCD5FCDE95DBC0AB07D09AF696E26F9C0(L_2, NULL);
@@ -14868,7 +13913,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateEvent_m087A114D553D650F
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:374>
 		int32_t L_4 = ___0_type;
 		if ((!(((uint32_t)L_4) == ((uint32_t)8))))
 		{
@@ -14876,14 +13920,12 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:375>
 		bool L_5 = __this->___UnsyncedDeliveryEvent;
 		V_1 = L_5;
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:377>
 		RuntimeObject* L_6 = __this->____eventLock;
 		V_2 = L_6;
 		V_3 = (bool)0;
@@ -14917,10 +13959,8 @@ IL_005e:
 			{
 				RuntimeObject* L_9 = V_2;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_9, (&V_3), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:379>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_10 = __this->____netEventPoolHead;
 				V_0 = L_10;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:380>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_11 = V_0;
 				if (L_11)
 				{
@@ -14928,7 +13968,6 @@ IL_005e:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:381>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_12 = (NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)il2cpp_codegen_object_new(NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283_il2cpp_TypeInfo_var);
 				NetEvent__ctor_m1E84ED6E659853AC5C79A92525091AC05CFA8D0B(L_12, __this, NULL);
 				V_0 = L_12;
@@ -14937,13 +13976,11 @@ IL_005e:
 
 IL_0047_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:383>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_13 = V_0;
 				NullCheck(L_13);
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_14 = L_13->___Next;
 				__this->____netEventPoolHead = L_14;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->____netEventPoolHead), (void*)L_14);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:384>
 				goto IL_005f;
 			}
 		}
@@ -14955,17 +13992,14 @@ IL_0047_1:
 
 IL_005f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:386>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_15 = V_0;
 		NullCheck(L_15);
 		L_15->___Next = (NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_15->___Next), (void*)(NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:387>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_16 = V_0;
 		int32_t L_17 = ___0_type;
 		NullCheck(L_16);
 		L_16->___Type = L_17;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:388>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_18 = V_0;
 		NullCheck(L_18);
 		NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* L_19 = L_18->___DataReader;
@@ -15002,56 +14036,46 @@ IL_0083:
 	{
 		NullCheck(G_B14_2);
 		NetPacketReader_SetSource_m48D3AEF78A7C8068515477B7CCC5A65300D1E3C3(G_B14_2, G_B14_1, G_B14_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:389>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_24 = V_0;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_25 = ___1_peer;
 		NullCheck(L_24);
 		L_24->___Peer = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&L_24->___Peer), (void*)L_25);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:390>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_26 = V_0;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_27 = ___2_remoteEndPoint;
 		NullCheck(L_26);
 		L_26->___RemoteEndPoint = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&L_26->___RemoteEndPoint), (void*)L_27);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:391>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_28 = V_0;
 		int32_t L_29 = ___4_latency;
 		NullCheck(L_28);
 		L_28->___Latency = L_29;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:392>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_30 = V_0;
 		int32_t L_31 = ___3_errorCode;
 		NullCheck(L_30);
 		L_30->___ErrorCode = L_31;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:393>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_32 = V_0;
 		int32_t L_33 = ___5_disconnectReason;
 		NullCheck(L_32);
 		L_32->___DisconnectReason = L_33;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:394>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_34 = V_0;
 		ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_35 = ___6_connectionRequest;
 		NullCheck(L_34);
 		L_34->___ConnectionRequest = L_35;
 		Il2CppCodeGenWriteBarrier((void**)(&L_34->___ConnectionRequest), (void*)L_35);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:395>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_36 = V_0;
 		uint8_t L_37 = ___7_deliveryMethod;
 		NullCheck(L_36);
 		L_36->___DeliveryMethod = L_37;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:396>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_38 = V_0;
 		uint8_t L_39 = ___8_channelNumber;
 		NullCheck(L_38);
 		L_38->___ChannelNumber = L_39;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:397>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_40 = V_0;
 		RuntimeObject* L_41 = ___10_userData;
 		NullCheck(L_40);
 		L_40->___UserData = L_41;
 		Il2CppCodeGenWriteBarrier((void**)(&L_40->___UserData), (void*)L_41);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:399>
 		bool L_42 = V_1;
 		if (L_42)
 		{
@@ -15068,7 +14092,6 @@ IL_0083:
 
 IL_00d9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:401>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_44 = V_0;
 		NetManager_ProcessEvent_mAF359A2774FEFD24A624466C71476F528AB182BE(__this, L_44, NULL);
 		return;
@@ -15076,7 +14099,6 @@ IL_00d9:
 
 IL_00e1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:405>
 		RuntimeObject* L_45 = __this->____eventLock;
 		V_2 = L_45;
 		V_3 = (bool)0;
@@ -15110,7 +14132,6 @@ IL_0121:
 			{
 				RuntimeObject* L_48 = V_2;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_48, (&V_3), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:407>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_49 = __this->____pendingEventTail;
 				if (L_49)
 				{
@@ -15118,7 +14139,6 @@ IL_0121:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:408>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_50 = V_0;
 				__this->____pendingEventHead = L_50;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingEventHead), (void*)L_50);
@@ -15127,7 +14147,6 @@ IL_0121:
 
 IL_0103_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:410>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_51 = __this->____pendingEventTail;
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_52 = V_0;
 				NullCheck(L_51);
@@ -15137,11 +14156,9 @@ IL_0103_1:
 
 IL_010f_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:411>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_53 = V_0;
 				__this->____pendingEventTail = L_53;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingEventTail), (void*)L_53);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:412>
 				goto IL_0122;
 			}
 		}
@@ -15153,7 +14170,6 @@ IL_010f_1:
 
 IL_0122:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:414>
 		return;
 	}
 }
@@ -15177,7 +14193,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ProcessEvent_mAF359A2774FEFD2
 	DisconnectInfo_tC0C7AA06DB896F09A5196F9783C662650416B1BB V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:419>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_0 = ___0_evt;
 		NullCheck(L_0);
 		NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* L_1 = L_0->___DataReader;
@@ -15185,7 +14200,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ProcessEvent_mAF359A2774FEFD2
 		bool L_2;
 		L_2 = NetDataReader_get_IsNull_m3C4B3BF098AF7A1EFFA7EF1E6E8F81441C5F6152(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:420>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_3 = ___0_evt;
 		NullCheck(L_3);
 		int32_t L_4 = L_3->___Type;
@@ -15241,25 +14255,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ProcessEvent_mAF359A2774FEFD2
 
 IL_0046:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:423>
 		RuntimeObject* L_6 = __this->____netEventListener;
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_7 = ___0_evt;
 		NullCheck(L_7);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_8 = L_7->___Peer;
 		NullCheck(L_6);
 		InterfaceActionInvoker1< NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* >::Invoke(0, INetEventListener_tF6F994FCC68B749801FEFC704B9B3484713A2A10_il2cpp_TypeInfo_var, L_6, L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:424>
 		goto IL_0229;
 	}
 
 IL_005c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:426>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:427>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:428>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:429>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:430>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:431>
 		il2cpp_codegen_initobj((&V_4), sizeof(DisconnectInfo_tC0C7AA06DB896F09A5196F9783C662650416B1BB));
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_9 = ___0_evt;
 		NullCheck(L_9);
@@ -15276,7 +14282,6 @@ IL_005c:
 		(&V_4)->___SocketErrorCode = L_14;
 		DisconnectInfo_tC0C7AA06DB896F09A5196F9783C662650416B1BB L_15 = V_4;
 		V_1 = L_15;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:432>
 		RuntimeObject* L_16 = __this->____netEventListener;
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_17 = ___0_evt;
 		NullCheck(L_17);
@@ -15284,18 +14289,15 @@ IL_005c:
 		DisconnectInfo_tC0C7AA06DB896F09A5196F9783C662650416B1BB L_19 = V_1;
 		NullCheck(L_16);
 		InterfaceActionInvoker2< NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*, DisconnectInfo_tC0C7AA06DB896F09A5196F9783C662650416B1BB >::Invoke(1, INetEventListener_tF6F994FCC68B749801FEFC704B9B3484713A2A10_il2cpp_TypeInfo_var, L_16, L_18, L_19);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:433>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_20 = ___0_evt;
 		NullCheck(L_20);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_21 = L_20->___Peer;
 		NetManager_RemovePeer_mB19EC5F9129E28336F151D641E97D078289E8DC0(__this, L_21, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:434>
 		goto IL_0229;
 	}
 
 IL_00b1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:436>
 		RuntimeObject* L_22 = __this->____netEventListener;
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_23 = ___0_evt;
 		NullCheck(L_23);
@@ -15311,13 +14313,11 @@ IL_00b1:
 		uint8_t L_30 = L_29->___DeliveryMethod;
 		NullCheck(L_22);
 		InterfaceActionInvoker4< NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*, NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625*, uint8_t, uint8_t >::Invoke(3, INetEventListener_tF6F994FCC68B749801FEFC704B9B3484713A2A10_il2cpp_TypeInfo_var, L_22, L_24, L_26, L_28, L_30);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:437>
 		goto IL_0229;
 	}
 
 IL_00d9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:439>
 		RuntimeObject* L_31 = __this->____netEventListener;
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_32 = ___0_evt;
 		NullCheck(L_32);
@@ -15327,13 +14327,11 @@ IL_00d9:
 		NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* L_35 = L_34->___DataReader;
 		NullCheck(L_31);
 		InterfaceActionInvoker3< IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*, NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625*, int32_t >::Invoke(4, INetEventListener_tF6F994FCC68B749801FEFC704B9B3484713A2A10_il2cpp_TypeInfo_var, L_31, L_33, L_35, 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:440>
 		goto IL_0229;
 	}
 
 IL_00f6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:442>
 		RuntimeObject* L_36 = __this->____netEventListener;
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_37 = ___0_evt;
 		NullCheck(L_37);
@@ -15343,13 +14341,11 @@ IL_00f6:
 		NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* L_40 = L_39->___DataReader;
 		NullCheck(L_36);
 		InterfaceActionInvoker3< IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*, NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625*, int32_t >::Invoke(4, INetEventListener_tF6F994FCC68B749801FEFC704B9B3484713A2A10_il2cpp_TypeInfo_var, L_36, L_38, L_40, 1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:443>
 		goto IL_0229;
 	}
 
 IL_0113:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:445>
 		RuntimeObject* L_41 = __this->____netEventListener;
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_42 = ___0_evt;
 		NullCheck(L_42);
@@ -15359,18 +14355,15 @@ IL_0113:
 		int32_t L_45 = L_44->___ErrorCode;
 		NullCheck(L_41);
 		InterfaceActionInvoker2< IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*, int32_t >::Invoke(2, INetEventListener_tF6F994FCC68B749801FEFC704B9B3484713A2A10_il2cpp_TypeInfo_var, L_41, L_43, L_45);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:446>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_46 = ___0_evt;
 		NullCheck(L_46);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_47 = L_46->___Peer;
 		NetManager_RemovePeer_mB19EC5F9129E28336F151D641E97D078289E8DC0(__this, L_47, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:447>
 		goto IL_0229;
 	}
 
 IL_013b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:449>
 		RuntimeObject* L_48 = __this->____netEventListener;
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_49 = ___0_evt;
 		NullCheck(L_49);
@@ -15380,26 +14373,22 @@ IL_013b:
 		int32_t L_52 = L_51->___Latency;
 		NullCheck(L_48);
 		InterfaceActionInvoker2< NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*, int32_t >::Invoke(5, INetEventListener_tF6F994FCC68B749801FEFC704B9B3484713A2A10_il2cpp_TypeInfo_var, L_48, L_50, L_52);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:450>
 		goto IL_0229;
 	}
 
 IL_0157:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:452>
 		RuntimeObject* L_53 = __this->____netEventListener;
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_54 = ___0_evt;
 		NullCheck(L_54);
 		ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_55 = L_54->___ConnectionRequest;
 		NullCheck(L_53);
 		InterfaceActionInvoker1< ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* >::Invoke(6, INetEventListener_tF6F994FCC68B749801FEFC704B9B3484713A2A10_il2cpp_TypeInfo_var, L_53, L_55);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:453>
 		goto IL_0229;
 	}
 
 IL_016d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:455>
 		RuntimeObject* L_56 = __this->____deliveryEventListener;
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_57 = ___0_evt;
 		NullCheck(L_57);
@@ -15409,19 +14398,15 @@ IL_016d:
 		RuntimeObject* L_60 = L_59->___UserData;
 		NullCheck(L_56);
 		InterfaceActionInvoker2< NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*, RuntimeObject* >::Invoke(0, IDeliveryEventListener_t914F249A4C8D7E066CD1048D0A35514DAAAE30FA_il2cpp_TypeInfo_var, L_56, L_58, L_60);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:456>
 		goto IL_0229;
 	}
 
 IL_0189:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:458>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_61 = __this->____peersLock;
 		NullCheck(L_61);
 		ReaderWriterLockSlim_EnterUpgradeableReadLock_m2BC6F2E7FDE834363821DAE26B1AAD7DAFE4ECEC(L_61, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:459>
 		V_2 = (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:460>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_62 = ___0_evt;
 		NullCheck(L_62);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_63 = L_62->___Peer;
@@ -15433,17 +14418,14 @@ IL_0189:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:462>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_65 = __this->____peersLock;
 		NullCheck(L_65);
 		ReaderWriterLockSlim_EnterWriteLock_mB07CEB326AB495488982834C444FA8E7CE70A8BA(L_65, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:463>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_66 = ___0_evt;
 		NullCheck(L_66);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_67 = L_66->___Peer;
 		bool L_68;
 		L_68 = NetManager_RemovePeerFromSet_m00622F309934669B884C2119A1A4D637794C2BC3(__this, L_67, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:464>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_69 = ___0_evt;
 		NullCheck(L_69);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_70 = L_69->___Peer;
@@ -15459,7 +14441,6 @@ IL_0189:
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_75 = (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)il2cpp_codegen_object_new(IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var);
 		IPEndPoint__ctor_m902C98F9E3F36B20B3C2E030AA91B62E2BC7A85A(L_75, L_71, L_74, NULL);
 		V_2 = L_75;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:465>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_76 = ___0_evt;
 		NullCheck(L_76);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_77 = L_76->___Peer;
@@ -15468,13 +14449,11 @@ IL_0189:
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_79 = L_78->___RemoteEndPoint;
 		NullCheck(L_77);
 		NetPeer_FinishEndPointChange_mF5A8F55249C32F80CBA05E652DE7D1E6CD444B1E(L_77, L_79, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:466>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_80 = ___0_evt;
 		NullCheck(L_80);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_81 = L_80->___Peer;
 		bool L_82;
 		L_82 = NetManager_AddPeerToSet_m53E32C3A6BD4F34E215972B9418643D398785810(__this, L_81, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:467>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_83 = __this->____peersLock;
 		NullCheck(L_83);
 		ReaderWriterLockSlim_ExitWriteLock_m84F7F58C2B3552C5B32744FB06004CACDFCE57E6(L_83, NULL);
@@ -15482,11 +14461,9 @@ IL_0189:
 
 IL_0201:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:469>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_84 = __this->____peersLock;
 		NullCheck(L_84);
 		ReaderWriterLockSlim_ExitUpgradeableReadLock_m70E125A9542852AC8E908571F9EB86670E2CFEEA(L_84, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:470>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_85 = V_2;
 		if (!L_85)
 		{
@@ -15501,7 +14478,6 @@ IL_0201:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:471>
 		RuntimeObject* L_87 = __this->____peerAddressChangedListener;
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_88 = ___0_evt;
 		NullCheck(L_88);
@@ -15513,7 +14489,6 @@ IL_0201:
 
 IL_0229:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:475>
 		bool L_91 = V_0;
 		if (!L_91)
 		{
@@ -15521,7 +14496,6 @@ IL_0229:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:476>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_92 = ___0_evt;
 		NetManager_RecycleEvent_mCC74B17C28F35F415F7AC6E1F82B0B365C81F19F(__this, L_92, NULL);
 		return;
@@ -15529,7 +14503,6 @@ IL_0229:
 
 IL_0234:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:477>
 		bool L_93 = __this->___AutoRecycle;
 		if (!L_93)
 		{
@@ -15537,7 +14510,6 @@ IL_0234:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:478>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_94 = ___0_evt;
 		NullCheck(L_94);
 		NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* L_95 = L_94->___DataReader;
@@ -15547,7 +14519,6 @@ IL_0234:
 
 IL_0247:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:479>
 		return;
 	}
 }
@@ -15557,26 +14528,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_RecycleEvent_mCC74B17C28F35F4
 	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:483>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_0 = ___0_evt;
 		NullCheck(L_0);
 		L_0->___Peer = (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___Peer), (void*)(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:484>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_1 = ___0_evt;
 		NullCheck(L_1);
 		L_1->___ErrorCode = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:485>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_2 = ___0_evt;
 		NullCheck(L_2);
 		L_2->___RemoteEndPoint = (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___RemoteEndPoint), (void*)(IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:486>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_3 = ___0_evt;
 		NullCheck(L_3);
 		L_3->___ConnectionRequest = (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___ConnectionRequest), (void*)(ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:487>
 		RuntimeObject* L_4 = __this->____eventLock;
 		V_0 = L_4;
 		V_1 = (bool)0;
@@ -15609,17 +14575,14 @@ IL_004b:
 		{
 			RuntimeObject* L_7 = V_0;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_7, (&V_1), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:489>
 			NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_8 = ___0_evt;
 			NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_9 = __this->____netEventPoolHead;
 			NullCheck(L_8);
 			L_8->___Next = L_9;
 			Il2CppCodeGenWriteBarrier((void**)(&L_8->___Next), (void*)L_9);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:490>
 			NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_10 = ___0_evt;
 			__this->____netEventPoolHead = L_10;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____netEventPoolHead), (void*)L_10);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:491>
 			goto IL_004c;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -15630,7 +14593,6 @@ IL_004b:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:492>
 		return;
 	}
 }
@@ -15665,15 +14627,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_UpdateLogic_m7B569551ECC36E9A
 	String_t* G_B24_0 = NULL;
 	String_t* G_B24_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:497>
 		List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_0 = (List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A*)il2cpp_codegen_object_new(List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A_il2cpp_TypeInfo_var);
 		List_1__ctor_m1EED874EC2F84A4C6E0B06FF83F10EF4BED7E7BC(L_0, List_1__ctor_m1EED874EC2F84A4C6E0B06FF83F10EF4BED7E7BC_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:498>
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_1 = (Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043*)il2cpp_codegen_object_new(Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043_il2cpp_TypeInfo_var);
 		Stopwatch__ctor_mAFE6B2F45CF1C3469EF6D5307972BC098B473D0A(L_1, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:499>
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_2 = V_1;
 		NullCheck(L_2);
 		Stopwatch_Start_m35906A38C7D336CF9DD35854C7E170D762A55915(L_2, NULL);
@@ -15686,13 +14645,11 @@ IL_0017:
 	try
 	{
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:506>
 			Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_3 = V_1;
 			NullCheck(L_3);
 			int64_t L_4;
 			L_4 = Stopwatch_get_ElapsedMilliseconds_m8D8E60ADEB47D008C06D8E57D28D41EAE07AECBF(L_3, NULL);
 			V_2 = ((int32_t)L_4);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:507>
 			int32_t L_5 = V_2;
 			if ((((int32_t)L_5) <= ((int32_t)0)))
 			{
@@ -15713,11 +14670,9 @@ IL_0027_1:
 IL_0028_1:
 		{
 			V_2 = G_B5_0;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:508>
 			Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_7 = V_1;
 			NullCheck(L_7);
 			Stopwatch_Restart_m9CE82CCD811EE12C2E4FDFF708B5529D1CE6DA58(L_7, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:510>
 			NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_8 = __this->____headPeer;
 			il2cpp_codegen_memory_barrier();
 			V_4 = L_8;
@@ -15726,7 +14681,6 @@ IL_0028_1:
 
 IL_003b_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:512>
 			NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_9 = V_4;
 			NullCheck(L_9);
 			uint8_t L_10;
@@ -15748,7 +14702,6 @@ IL_003b_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:514>
 			List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_14 = V_0;
 			NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_15 = V_4;
 			NullCheck(L_14);
@@ -15758,7 +14711,6 @@ IL_003b_1:
 
 IL_005f_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:518>
 			NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_16 = V_4;
 			int32_t L_17 = V_2;
 			NullCheck(L_16);
@@ -15767,7 +14719,6 @@ IL_005f_1:
 
 IL_0067_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:510>
 			NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_18 = V_4;
 			NullCheck(L_18);
 			NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_19 = L_18->___NextPeer;
@@ -15777,7 +14728,6 @@ IL_0067_1:
 
 IL_0072_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:510>
 			NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_20 = V_4;
 			if (L_20)
 			{
@@ -15785,7 +14735,6 @@ IL_0072_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:522>
 			List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_21 = V_0;
 			NullCheck(L_21);
 			int32_t L_22;
@@ -15796,32 +14745,27 @@ IL_0072_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:524>
 			ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_23 = __this->____peersLock;
 			NullCheck(L_23);
 			ReaderWriterLockSlim_EnterWriteLock_mB07CEB326AB495488982834C444FA8E7CE70A8BA(L_23, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:525>
 			V_5 = 0;
 			goto IL_00a3_1;
 		}
 
 IL_008f_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:526>
 			List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_24 = V_0;
 			int32_t L_25 = V_5;
 			NullCheck(L_24);
 			NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_26;
 			L_26 = List_1_get_Item_m864E57F727966E3C550131F9E2FF696042C05A9C(L_24, L_25, List_1_get_Item_m864E57F727966E3C550131F9E2FF696042C05A9C_RuntimeMethod_var);
 			NetManager_RemovePeerInternal_m34A8FBC3B34C4743E220659D5FF9E24935D8B58D(__this, L_26, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:525>
 			int32_t L_27 = V_5;
 			V_5 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 		}
 
 IL_00a3_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:525>
 			int32_t L_28 = V_5;
 			List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_29 = V_0;
 			NullCheck(L_29);
@@ -15833,11 +14777,9 @@ IL_00a3_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:527>
 			ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_31 = __this->____peersLock;
 			NullCheck(L_31);
 			ReaderWriterLockSlim_ExitWriteLock_m84F7F58C2B3552C5B32744FB06004CACDFCE57E6(L_31, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:528>
 			List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_32 = V_0;
 			NullCheck(L_32);
 			List_1_Clear_m87D30AD7639F45772F7E62715898C711652264AF_inline(L_32, List_1_Clear_m87D30AD7639F45772F7E62715898C711652264AF_RuntimeMethod_var);
@@ -15845,17 +14787,14 @@ IL_00a3_1:
 
 IL_00be_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:531>
 			int32_t L_33 = V_2;
 			NetManager_ProcessNtpRequests_m7F6F600D6E7188844D4DC5CAB654B76E2A2462DB(__this, L_33, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:533>
 			int32_t L_34 = __this->___UpdateTime;
 			Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_35 = V_1;
 			NullCheck(L_35);
 			int64_t L_36;
 			L_36 = Stopwatch_get_ElapsedMilliseconds_m8D8E60ADEB47D008C06D8E57D28D41EAE07AECBF(L_35, NULL);
 			V_3 = ((int32_t)il2cpp_codegen_subtract(L_34, ((int32_t)L_36)));
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:534>
 			int32_t L_37 = V_3;
 			if ((((int32_t)L_37) <= ((int32_t)0)))
 			{
@@ -15863,7 +14802,6 @@ IL_00be_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:535>
 			AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_38 = __this->____updateTriggerEvent;
 			int32_t L_39 = V_3;
 			NullCheck(L_38);
@@ -15873,7 +14811,6 @@ IL_00be_1:
 
 IL_00e5_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:536>
 			goto IL_010b;
 		}
 	}
@@ -15895,8 +14832,6 @@ IL_00e5_1:
 CATCH_00e7:
 	{
 		ThreadAbortException_tCA1833E5D49782387EDF3BDCBDB90597B273F3C4* L_41 = ((ThreadAbortException_tCA1833E5D49782387EDF3BDCBDB90597B273F3C4*)IL2CPP_GET_ACTIVE_EXCEPTION(ThreadAbortException_tCA1833E5D49782387EDF3BDCBDB90597B273F3C4*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:537>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:539>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_011c;
 	}
@@ -15905,9 +14840,7 @@ CATCH_00ea:
 	{
 		{
 			Exception_t* L_42 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:541>
 			V_6 = L_42;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:543>
 			Exception_t* L_43 = V_6;
 			Exception_t* L_44 = L_43;
 			if (L_44)
@@ -15940,7 +14873,6 @@ IL_00ff:
 			L_46 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B24_1, G_B24_0, NULL);
 			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var)));
 			NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_46, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:544>
 			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 			goto IL_010b;
 		}
@@ -15948,7 +14880,6 @@ IL_00ff:
 
 IL_010b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:501>
 		bool L_47;
 		L_47 = NetManager_get_IsRunning_mB0E5575B653966435F22860934AACCE763E44204_inline(__this, NULL);
 		if (L_47)
@@ -15957,7 +14888,6 @@ IL_010b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:546>
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_48 = V_1;
 		NullCheck(L_48);
 		Stopwatch_Stop_m8F2A2EFD9D7D5B4180A5E5379E5443864618D7DC(L_48, NULL);
@@ -15965,7 +14895,6 @@ IL_010b:
 
 IL_011c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:547>
 		return;
 	}
 }
@@ -15973,7 +14902,6 @@ IL_011c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ProcessDelayedPackets_m550533926ED02A4957F531F25A5B59A8854C9EDB (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:571>
 		return;
 	}
 }
@@ -16008,9 +14936,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ProcessNtpRequests_m7F6F600D6
 	IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* V_4 = NULL;
 	NtpRequest_t2157924EA468EFAC6F1F8BB9DF2220CC9BBC4FE7* V_5 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:575>
 		V_0 = (List_1_t795244976F29D111A17237A89D0064EF85FBC5AC*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:576>
 		ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F* L_0 = __this->____ntpRequests;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -16050,13 +14976,11 @@ IL_0062:
 
 IL_0010_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:576>
 				RuntimeObject* L_4 = V_1;
 				NullCheck(L_4);
 				KeyValuePair_2_tCC7AB4035605B2C4E192929C4BEAA4E7368882DF L_5;
 				L_5 = InterfaceFuncInvoker0< KeyValuePair_2_tCC7AB4035605B2C4E192929C4BEAA4E7368882DF >::Invoke(0, IEnumerator_1_t3E258E808A06E61C4F28C2E767571275854089AF_il2cpp_TypeInfo_var, L_4);
 				V_2 = L_5;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:578>
 				NtpRequest_t2157924EA468EFAC6F1F8BB9DF2220CC9BBC4FE7* L_6;
 				L_6 = KeyValuePair_2_get_Value_mB84AF1658FACAEAB17412A452229B24FE285D1EA_inline((&V_2), KeyValuePair_2_get_Value_mB84AF1658FACAEAB17412A452229B24FE285D1EA_RuntimeMethod_var);
 				Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_7 = __this->____udpSocketv4;
@@ -16064,7 +14988,6 @@ IL_0010_1:
 				NullCheck(L_6);
 				bool L_9;
 				L_9 = NtpRequest_Send_mB0792A47B8AAA622AA13D8AC4B671E600EF1DA56(L_6, L_7, L_8, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:579>
 				NtpRequest_t2157924EA468EFAC6F1F8BB9DF2220CC9BBC4FE7* L_10;
 				L_10 = KeyValuePair_2_get_Value_mB84AF1658FACAEAB17412A452229B24FE285D1EA_inline((&V_2), KeyValuePair_2_get_Value_mB84AF1658FACAEAB17412A452229B24FE285D1EA_RuntimeMethod_var);
 				NullCheck(L_10);
@@ -16076,7 +14999,6 @@ IL_0010_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:581>
 				List_1_t795244976F29D111A17237A89D0064EF85FBC5AC* L_12 = V_0;
 				if (L_12)
 				{
@@ -16084,7 +15006,6 @@ IL_0010_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:582>
 				List_1_t795244976F29D111A17237A89D0064EF85FBC5AC* L_13 = (List_1_t795244976F29D111A17237A89D0064EF85FBC5AC*)il2cpp_codegen_object_new(List_1_t795244976F29D111A17237A89D0064EF85FBC5AC_il2cpp_TypeInfo_var);
 				List_1__ctor_mA55AC5A99EF0520A01380E2C5C72BDC2A193A234(L_13, List_1__ctor_mA55AC5A99EF0520A01380E2C5C72BDC2A193A234_RuntimeMethod_var);
 				V_0 = L_13;
@@ -16092,7 +15013,6 @@ IL_0010_1:
 
 IL_0042_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:583>
 				List_1_t795244976F29D111A17237A89D0064EF85FBC5AC* L_14 = V_0;
 				IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_15;
 				L_15 = KeyValuePair_2_get_Key_m6D9D3C0AC8FA1033FEAE9C931869212ABACFEBEC_inline((&V_2), KeyValuePair_2_get_Key_m6D9D3C0AC8FA1033FEAE9C931869212ABACFEBEC_RuntimeMethod_var);
@@ -16102,7 +15022,6 @@ IL_0042_1:
 
 IL_004f_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:576>
 				RuntimeObject* L_16 = V_1;
 				NullCheck(L_16);
 				bool L_17;
@@ -16124,7 +15043,6 @@ IL_004f_1:
 
 IL_0063:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:587>
 		List_1_t795244976F29D111A17237A89D0064EF85FBC5AC* L_18 = V_0;
 		if (!L_18)
 		{
@@ -16132,7 +15050,6 @@ IL_0063:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:589>
 		List_1_t795244976F29D111A17237A89D0064EF85FBC5AC* L_19 = V_0;
 		NullCheck(L_19);
 		Enumerator_t84BA4BC505C453DEEE23676D3E3563E1E7E1EE85 L_20;
@@ -16157,11 +15074,9 @@ FINALLY_0093:
 
 IL_006f_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:589>
 				IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_21;
 				L_21 = Enumerator_get_Current_mAA9A1D3D580F0A8D0036C7E8848CAB148DD80DC6_inline((&V_3), Enumerator_get_Current_mAA9A1D3D580F0A8D0036C7E8848CAB148DD80DC6_RuntimeMethod_var);
 				V_4 = L_21;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:591>
 				ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F* L_22 = __this->____ntpRequests;
 				IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_23 = V_4;
 				NullCheck(L_22);
@@ -16171,7 +15086,6 @@ IL_006f_1:
 
 IL_0088_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:589>
 				bool L_25;
 				L_25 = Enumerator_MoveNext_m5020CAD6D2F61FD755EF2B89B56555F5EEFB7788((&V_3), Enumerator_MoveNext_m5020CAD6D2F61FD755EF2B89B56555F5EEFB7788_RuntimeMethod_var);
 				if (L_25)
@@ -16191,7 +15105,6 @@ IL_0088_1:
 
 IL_00a1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:594>
 		return;
 	}
 }
@@ -16200,7 +15113,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ManualUpdate_mAD6441C528F8C01
 {
 	NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:602>
 		bool L_0 = __this->____manualMode;
 		if (L_0)
 		{
@@ -16208,13 +15120,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ManualUpdate_mAD6441C528F8C01
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:603>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:605>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_1 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
 		V_0 = L_1;
@@ -16223,7 +15133,6 @@ IL_0009:
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:607>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = V_0;
 		NullCheck(L_2);
 		uint8_t L_3;
@@ -16245,7 +15154,6 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:609>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_7 = V_0;
 		NetManager_RemovePeerInternal_m34A8FBC3B34C4743E220659D5FF9E24935D8B58D(__this, L_7, NULL);
 		goto IL_003c;
@@ -16253,7 +15161,6 @@ IL_0014:
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:613>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_8 = V_0;
 		int32_t L_9 = ___0_elapsedMilliseconds;
 		NullCheck(L_8);
@@ -16262,7 +15169,6 @@ IL_0035:
 
 IL_003c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:605>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_10 = V_0;
 		NullCheck(L_10);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_11 = L_10->___NextPeer;
@@ -16272,7 +15178,6 @@ IL_003c:
 
 IL_0045:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:605>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_12 = V_0;
 		if (L_12)
 		{
@@ -16280,10 +15185,8 @@ IL_0045:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:616>
 		int32_t L_13 = ___0_elapsedMilliseconds;
 		NetManager_ProcessNtpRequests_m7F6F600D6E7188844D4DC5CAB654B76E2A2462DB(__this, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:617>
 		return;
 	}
 }
@@ -16305,9 +15208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 	Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* V_2 = NULL;
 	bool V_3 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:621>
 		V_0 = (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:623>
 		ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_0 = ___0_request;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -16318,7 +15219,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:626>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___1_rejectData;
 		if (!L_2)
 		{
@@ -16333,12 +15233,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:628>
 		int32_t L_4 = ___3_length;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5;
 		L_5 = NetManager_PoolGetWithProperty_m692E254009ED5835C17B91E5E5C23131489FB49F(__this, 7, L_4, NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:629>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_6 = V_1;
 		ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_7 = ___0_request;
 		NullCheck(L_7);
@@ -16347,7 +15245,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 		uint8_t L_9 = L_8->___ConnectionNumber;
 		NullCheck(L_6);
 		NetPacket_set_ConnectionNumber_m6D8CD109E3C47CAF82CB52B067D73D40A60C9AE7(L_6, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:630>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_10 = V_1;
 		NullCheck(L_10);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = L_10->___RawData;
@@ -16357,7 +15254,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 		NullCheck(L_13);
 		int64_t L_14 = L_13->___ConnectionTime;
 		FastBitConverter_GetBytes_mC1089948C762EA2B4B4C0ACA34EB274B90028EA0(L_11, 1, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:631>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_15 = V_1;
 		NullCheck(L_15);
 		int32_t L_16 = L_15->___Size;
@@ -16372,7 +15268,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:632>
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(_stringLiteral5A401139EEBA19CC84098468667026B6CE83B245, NULL);
 		goto IL_0074;
@@ -16380,7 +15275,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 
 IL_0063:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:634>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20 = ___1_rejectData;
 		int32_t L_21 = ___2_start;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_22 = V_1;
@@ -16392,7 +15286,6 @@ IL_0063:
 
 IL_0074:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:635>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_25 = V_1;
 		ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_26 = ___0_request;
 		NullCheck(L_26);
@@ -16403,7 +15296,6 @@ IL_0074:
 
 IL_0082:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:637>
 		Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_29 = __this->____requestsDict;
 		V_2 = L_29;
 		V_3 = (bool)0;
@@ -16436,7 +15328,6 @@ IL_00b3:
 		{
 			Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_32 = V_2;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_32, (&V_3), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:639>
 			Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_33 = __this->____requestsDict;
 			ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_34 = ___0_request;
 			NullCheck(L_34);
@@ -16444,7 +15335,6 @@ IL_00b3:
 			NullCheck(L_33);
 			bool L_36;
 			L_36 = Dictionary_2_Remove_m8D778438C6C71EC66B3FBA70A06D72F8244BB4E3(L_33, L_35, Dictionary_2_Remove_m8D778438C6C71EC66B3FBA70A06D72F8244BB4E3_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:640>
 			goto IL_014e;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -16455,7 +15345,6 @@ IL_00b3:
 
 IL_00b4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:644>
 		Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_37 = __this->____requestsDict;
 		V_2 = L_37;
 		V_3 = (bool)0;
@@ -16489,7 +15378,6 @@ IL_014d:
 			{
 				Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_40 = V_2;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_40, (&V_3), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:646>
 				ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_41 = ___0_request;
 				NullCheck(L_41);
 				IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_42 = L_41->___RemoteEndPoint;
@@ -16501,7 +15389,6 @@ IL_014d:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:650>
 				ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_44 = ___0_request;
 				NullCheck(L_44);
 				int32_t L_45;
@@ -16512,7 +15399,6 @@ IL_014d:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:652>
 				ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_46 = ___0_request;
 				NullCheck(L_46);
 				IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_47 = L_46->___RemoteEndPoint;
@@ -16521,7 +15407,6 @@ IL_014d:
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_49 = (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)il2cpp_codegen_object_new(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53_il2cpp_TypeInfo_var);
 				NetPeer__ctor_m5BAD885E5E3B34B4E0236064F96030AD637AB99B(L_49, __this, L_47, L_48, NULL);
 				V_0 = L_49;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:653>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_50 = V_0;
 				ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_51 = ___0_request;
 				NullCheck(L_51);
@@ -16531,7 +15416,6 @@ IL_014d:
 				int32_t L_55 = ___3_length;
 				NullCheck(L_50);
 				NetPeer_Reject_m722AD842153003C82CBE73FACB6FEA7FC5A76817(L_50, L_52, L_53, L_54, L_55, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:654>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_56 = V_0;
 				NetManager_AddPeer_mE33BC3D84A3806B20EB9071357ECBDEAB0818C25(__this, L_56, NULL);
 				goto IL_0130_1;
@@ -16539,24 +15423,20 @@ IL_014d:
 
 IL_010a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:659>
 				ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_57 = ___0_request;
 				int32_t L_58;
 				L_58 = NetManager_GetNextPeerId_mA5203CD2E510BB34E8DB816CB83212F6DEF839E8(__this, NULL);
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_59 = (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)il2cpp_codegen_object_new(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53_il2cpp_TypeInfo_var);
 				NetPeer__ctor_m00A480219538FF4FCF524FC41A8B5FEDBF6B610D(L_59, __this, L_57, L_58, NULL);
 				V_0 = L_59;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:660>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_60 = V_0;
 				NetManager_AddPeer_mE33BC3D84A3806B20EB9071357ECBDEAB0818C25(__this, L_60, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:661>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_61 = V_0;
 				NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, 0, L_61, (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)NULL, 0, 0, 0, (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL, 4, (uint8_t)0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL, NULL);
 			}
 
 IL_0130_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:664>
 				Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_62 = __this->____requestsDict;
 				ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_63 = ___0_request;
 				NullCheck(L_63);
@@ -16564,7 +15444,6 @@ IL_0130_1:
 				NullCheck(L_62);
 				bool L_65;
 				L_65 = Dictionary_2_Remove_m8D778438C6C71EC66B3FBA70A06D72F8244BB4E3(L_62, L_64, Dictionary_2_Remove_m8D778438C6C71EC66B3FBA70A06D72F8244BB4E3_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:665>
 				goto IL_014e;
 			}
 		}
@@ -16576,7 +15455,6 @@ IL_0130_1:
 
 IL_014e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:668>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_66 = V_0;
 		return L_66;
 	}
@@ -16597,7 +15475,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_GetNextPeerId_mA5203CD2E51
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:680>
 		ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3* L_0 = __this->____peerIds;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -16608,32 +15485,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_GetNextPeerId_mA5203CD2E51
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:684>
 		int32_t L_2 = __this->____nextPeerId;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(((int32_t)5000), ((int32_t)il2cpp_codegen_subtract(((int32_t)2147483647LL), L_2)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:686>
 		if (((int64_t)L_3))
 		{
 			goto IL_002d;
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:689>
 		return 0;
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:692>
 		V_1 = 0;
 		goto IL_0051;
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:693>
 		ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3* L_4 = __this->____peerIds;
 		int32_t L_5 = __this->____nextPeerId;
 		V_2 = L_5;
@@ -16642,14 +15514,12 @@ IL_0031:
 		int32_t L_7 = V_2;
 		NullCheck(L_4);
 		ConcurrentQueue_1_Enqueue_m8A58C324804C45BFA1CAF8AD9DAF4582344E37D3(L_4, L_7, ConcurrentQueue_1_Enqueue_m8A58C324804C45BFA1CAF8AD9DAF4582344E37D3_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:692>
 		int32_t L_8 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_0051:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:692>
 		int32_t L_9 = V_1;
 		if ((((int32_t)L_9) < ((int32_t)((int32_t)5000))))
 		{
@@ -16659,7 +15529,6 @@ IL_0051:
 
 IL_0059:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:696>
 		ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3* L_10 = __this->____peerIds;
 		NullCheck(L_10);
 		bool L_11;
@@ -16700,7 +15569,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ProcessConnectRequest_m19B831
 	Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* V_2 = NULL;
 	bool V_3 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:702>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___1_netPeer;
 		if (!L_0)
 		{
@@ -16708,7 +15576,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ProcessConnectRequest_m19B831
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:704>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_1 = ___1_netPeer;
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_2 = ___2_connRequest;
 		NullCheck(L_1);
@@ -16738,38 +15605,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_ProcessConnectRequest_m19B831
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:710>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_5 = ___1_netPeer;
 		NetManager_DisconnectPeerForce_mBC208C113DF61033CA1F71D2278329076310514B(__this, L_5, ((int32_t)9), 0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:711>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_6 = ___1_netPeer;
 		NetManager_RemovePeer_mB19EC5F9129E28336F151D641E97D078289E8DC0(__this, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:713>
 		goto IL_004f;
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:715>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_7 = ___1_netPeer;
 		NetManager_RemovePeer_mB19EC5F9129E28336F151D641E97D078289E8DC0(__this, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:717>
 		goto IL_004f;
 	}
 
 IL_003d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:719>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_8 = ___1_netPeer;
 		NetManager_DisconnectPeerForce_mBC208C113DF61033CA1F71D2278329076310514B(__this, L_8, ((int32_t)10), 0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:720>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_9 = ___1_netPeer;
 		NetManager_RemovePeer_mB19EC5F9129E28336F151D641E97D078289E8DC0(__this, L_9, NULL);
 	}
 
 IL_004f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:729>
 		int32_t L_10 = V_1;
 		if ((((int32_t)L_10) == ((int32_t)1)))
 		{
@@ -16777,7 +15636,6 @@ IL_004f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:730>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_11 = ___2_connRequest;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_12 = ___1_netPeer;
 		NullCheck(L_12);
@@ -16789,7 +15647,6 @@ IL_004f:
 
 IL_0064:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:739>
 		Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_14 = __this->____requestsDict;
 		V_2 = L_14;
 		V_3 = (bool)0;
@@ -16823,7 +15680,6 @@ IL_00af:
 			{
 				Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_17 = V_2;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_17, (&V_3), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:741>
 				Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_18 = __this->____requestsDict;
 				IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_19 = ___0_remoteEndPoint;
 				NullCheck(L_18);
@@ -16835,30 +15691,25 @@ IL_00af:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:743>
 				ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_21 = V_0;
 				NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_22 = ___2_connRequest;
 				NullCheck(L_21);
 				ConnectionRequest_UpdateRequest_mE86B045443A084F5C13061397E47D942107B0F20(L_21, L_22, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:744>
 				goto IL_00c1;
 			}
 
 IL_008e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:746>
 				IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_23 = ___0_remoteEndPoint;
 				NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_24 = ___2_connRequest;
 				ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_25 = (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)il2cpp_codegen_object_new(ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845_il2cpp_TypeInfo_var);
 				ConnectionRequest__ctor_mE2A78906334E858FAD280815CEB693995EBD0BB0(L_25, L_23, L_24, __this, NULL);
 				V_0 = L_25;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:747>
 				Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_26 = __this->____requestsDict;
 				IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_27 = ___0_remoteEndPoint;
 				ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_28 = V_0;
 				NullCheck(L_26);
 				Dictionary_2_Add_mF88BD6BCCD753C80CCBF837ACCD33DF3A0FD39CC(L_26, L_27, L_28, Dictionary_2_Add_mF88BD6BCCD753C80CCBF837ACCD33DF3A0FD39CC_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:748>
 				goto IL_00b0;
 			}
 		}
@@ -16870,14 +15721,12 @@ IL_008e_1:
 
 IL_00b0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:750>
 		ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_29 = V_0;
 		NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, 7, (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL, (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)NULL, 0, 0, 0, L_29, 4, (uint8_t)0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL, NULL);
 	}
 
 IL_00c1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:751>
 		return;
 	}
 }
@@ -16926,7 +15775,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_OnMessageReceived_mD3B75666CA
 	NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* G_B81_1 = NULL;
 	NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* G_B81_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:755>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___Size;
@@ -16936,21 +15784,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_OnMessageReceived_mD3B75666CA
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:757>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = ___0_packet;
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(__this, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:758>
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:792>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3 = ___0_packet;
 		NullCheck(L_3);
 		int32_t L_4 = L_3->___Size;
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:793>
 		bool L_5 = __this->___EnableStatistics;
 		if (!L_5)
 		{
@@ -16958,11 +15802,9 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:795>
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_6 = __this->___Statistics;
 		NullCheck(L_6);
 		NetStatistics_IncrementPacketsReceived_m5ED106525ED4122A034C11B655CAF906EDB45543(L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:796>
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_7 = __this->___Statistics;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
@@ -16971,7 +15813,6 @@ IL_0010:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:799>
 		ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F* L_9 = __this->____ntpRequests;
 		NullCheck(L_9);
 		int32_t L_10;
@@ -16993,7 +15834,6 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:801>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_14 = ___0_packet;
 		NullCheck(L_14);
 		int32_t L_15 = L_14->___Size;
@@ -17003,19 +15843,16 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:804>
 		return;
 	}
 
 IL_0063:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:807>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_16 = ___0_packet;
 		NullCheck(L_16);
 		int32_t L_17 = L_16->___Size;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_17);
 		V_4 = L_18;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:808>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_19 = ___0_packet;
 		NullCheck(L_19);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20 = L_19->___RawData;
@@ -17024,7 +15861,6 @@ IL_0063:
 		NullCheck(L_22);
 		int32_t L_23 = L_22->___Size;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_20, 0, (RuntimeArray*)L_21, 0, L_23, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:809>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_24 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_25;
@@ -17036,11 +15872,9 @@ IL_0063:
 	}
 	try
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:812>
 		NtpPacket_t31D1E27638022957CC944E0FA83A17D128E3BB20* L_27 = V_5;
 		NullCheck(L_27);
 		NtpPacket_ValidateReply_m5243B8147A162F028FF5A2868BC69D3FE80EFF5D(L_27, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:813>
 		goto IL_00a2;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -17056,17 +15890,13 @@ IL_0063:
 CATCH_009c:
 	{
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_28 = ((InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)IL2CPP_GET_ACTIVE_EXCEPTION(InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:814>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:817>
 		V_5 = (NtpPacket_t31D1E27638022957CC944E0FA83A17D128E3BB20*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:818>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00a2;
 	}
 
 IL_00a2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:820>
 		NtpPacket_t31D1E27638022957CC944E0FA83A17D128E3BB20* L_29 = V_5;
 		if (!L_29)
 		{
@@ -17074,13 +15904,11 @@ IL_00a2:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:822>
 		ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F* L_30 = __this->____ntpRequests;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_31 = ___1_remoteEndPoint;
 		NullCheck(L_30);
 		bool L_32;
 		L_32 = ConcurrentDictionary_2_TryRemove_m6EED3FDC773161FE9E087D8FC75AD4C73D814501(L_30, L_31, (&V_6), ConcurrentDictionary_2_TryRemove_m6EED3FDC773161FE9E087D8FC75AD4C73D814501_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:823>
 		RuntimeObject* L_33 = __this->____ntpEventListener;
 		RuntimeObject* L_34 = L_33;
 		if (L_34)
@@ -17103,13 +15931,11 @@ IL_00c0:
 
 IL_00c7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:825>
 		return;
 	}
 
 IL_00c8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:828>
 		PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* L_36 = __this->____extraPacketLayer;
 		if (!L_36)
 		{
@@ -17117,7 +15943,6 @@ IL_00c8:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:830>
 		PacketLayerBase_t5A16F72F8293FCD9E18EA1713F3538A6099DEB09* L_37 = __this->____extraPacketLayer;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_38 = ___0_packet;
 		NullCheck(L_38);
@@ -17127,7 +15952,6 @@ IL_00c8:
 		int32_t* L_41 = (int32_t*)(&L_40->___Size);
 		NullCheck(L_37);
 		VirtualActionInvoker3< IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB**, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**, int32_t* >::Invoke(4, L_37, (&___1_remoteEndPoint), L_39, L_41);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:831>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_42 = ___0_packet;
 		NullCheck(L_42);
 		int32_t L_43 = L_42->___Size;
@@ -17137,13 +15961,11 @@ IL_00c8:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:832>
 		return;
 	}
 
 IL_00f2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:835>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_44 = ___0_packet;
 		NullCheck(L_44);
 		bool L_45;
@@ -17154,19 +15976,15 @@ IL_00f2:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:837>
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(_stringLiteral6BAFCA0A6AC8F67EFCB2BD03F47315F96B9616F0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:838>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_46 = ___0_packet;
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(__this, L_46, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:839>
 		return;
 	}
 
 IL_010c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:842>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_47 = ___0_packet;
 		NullCheck(L_47);
 		uint8_t L_48;
@@ -17217,7 +16035,6 @@ IL_0125:
 
 IL_0133:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:846>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_54 = ___0_packet;
 		int32_t L_55;
 		L_55 = NetConnectRequestPacket_GetProtocolId_mE63E48263779DB6E22479DC93A09D030291A2025(L_54, NULL);
@@ -17227,19 +16044,16 @@ IL_0133:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:848>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_56;
 		L_56 = NetManager_PoolGetWithProperty_m83E20C6EFA0971D3372F5509DFA91C8FA33F4E79(__this, ((int32_t)15), NULL);
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_57 = ___1_remoteEndPoint;
 		int32_t L_58;
 		L_58 = NetManager_SendRawAndRecycle_m80EA360EBE6014357839479E1AFA7E9D0FB8536E(__this, L_56, L_57, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:849>
 		return;
 	}
 
 IL_014e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:854>
 		bool L_59 = __this->___BroadcastReceiveEnabled;
 		if (L_59)
 		{
@@ -17247,23 +16061,19 @@ IL_014e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:855>
 		return;
 	}
 
 IL_0157:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:856>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_60 = ___1_remoteEndPoint;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_61 = ___0_packet;
 		NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, 6, (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL, L_60, 0, 0, 0, (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL, 4, (uint8_t)0, L_61, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:857>
 		return;
 	}
 
 IL_0169:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:859>
 		bool L_62 = __this->___UnconnectedMessagesEnabled;
 		if (L_62)
 		{
@@ -17271,23 +16081,19 @@ IL_0169:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:860>
 		return;
 	}
 
 IL_0172:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:861>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_63 = ___1_remoteEndPoint;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_64 = ___0_packet;
 		NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, 3, (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL, L_63, 0, 0, 0, (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL, 4, (uint8_t)0, L_64, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:862>
 		return;
 	}
 
 IL_0184:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:864>
 		bool L_65 = __this->___NatPunchEnabled;
 		if (!L_65)
 		{
@@ -17295,7 +16101,6 @@ IL_0184:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:865>
 		NatPunchModule_t42CB23F25623954C5C4E5A14BFA39492A6B44A57* L_66 = __this->___NatPunchModule;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_67 = ___1_remoteEndPoint;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_68 = ___0_packet;
@@ -17305,13 +16110,11 @@ IL_0184:
 
 IL_0199:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:866>
 		return;
 	}
 
 IL_019a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:870>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_69 = ___1_remoteEndPoint;
 		V_3 = ((NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)IsInstClass((RuntimeObject*)L_69, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53_il2cpp_TypeInfo_var));
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_70 = V_3;
@@ -17336,7 +16139,6 @@ IL_01af:
 IL_01b0:
 	{
 		V_2 = (bool)G_B42_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:872>
 		bool L_73 = V_2;
 		if (!L_73)
 		{
@@ -17351,13 +16153,11 @@ IL_01b0:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:874>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_75 = V_3;
 		NullCheck(L_75);
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_76 = L_75->___Statistics;
 		NullCheck(L_76);
 		NetStatistics_IncrementPacketsReceived_m5ED106525ED4122A034C11B655CAF906EDB45543(L_76, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:875>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_77 = V_3;
 		NullCheck(L_77);
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_78 = L_77->___Statistics;
@@ -17368,7 +16168,6 @@ IL_01b0:
 
 IL_01d4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:878>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_80 = ___0_packet;
 		NullCheck(L_80);
 		uint8_t L_81;
@@ -17411,12 +16210,10 @@ IL_01d4:
 
 IL_0205:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:881>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_85 = ___0_packet;
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_86;
 		L_86 = NetConnectRequestPacket_FromData_mA3E5448F5385F7A8DF602160F1BD109924DD11CC(L_85, NULL);
 		V_8 = L_86;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:882>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_87 = V_8;
 		if (!L_87)
 		{
@@ -17424,18 +16221,15 @@ IL_0205:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:883>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_88 = ___1_remoteEndPoint;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_89 = V_3;
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_90 = V_8;
 		NetManager_ProcessConnectRequest_m19B831A94BB44041AC08A4D43282A599D8910D4D(__this, L_88, L_89, L_90, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:884>
 		return;
 	}
 
 IL_021f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:886>
 		bool L_91 = V_2;
 		if (!L_91)
 		{
@@ -17443,7 +16237,6 @@ IL_021f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:888>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_92 = V_3;
 		NullCheck(L_92);
 		uint8_t L_93;
@@ -17454,13 +16247,11 @@ IL_021f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:889>
 		return;
 	}
 
 IL_022c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:890>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_94 = ___0_packet;
 		NullCheck(L_94);
 		int32_t L_95 = L_94->___Size;
@@ -17470,11 +16261,9 @@ IL_022c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:894>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_96 = V_3;
 		NullCheck(L_96);
 		NetPeer_ResetMtu_mC130F5F38BAC5BDC64D144771810A6B81F2DD93D(L_96, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:895>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_97 = V_3;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_98;
 		L_98 = NetConnectAcceptPacket_MakeNetworkChanged_mB9F981248C3C801124C3E03B30A93438990E6C1C(L_97, NULL);
@@ -17486,7 +16275,6 @@ IL_022c:
 
 IL_024a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:898>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_101 = ___0_packet;
 		NullCheck(L_101);
 		int32_t L_102 = L_101->___Size;
@@ -17508,7 +16296,6 @@ IL_024a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:901>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_107 = V_3;
 		NetManager_DisconnectPeerForce_mBC208C113DF61033CA1F71D2278329076310514B(__this, L_107, ((int32_t)11), 0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL);
 		return;
@@ -17516,7 +16303,6 @@ IL_024a:
 
 IL_0270:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:904>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_108 = ___0_packet;
 		NullCheck(L_108);
 		int32_t L_109 = L_108->___Size;
@@ -17526,9 +16312,7 @@ IL_0270:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:907>
 		V_10 = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:909>
 		bool L_110 = __this->___AllowPeerAddressChange;
 		if (!L_110)
 		{
@@ -17536,12 +16320,10 @@ IL_0270:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:912>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_111 = ___0_packet;
 		NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92* L_112;
 		L_112 = NetConnectAcceptPacket_FromData_m7ED35C58330063701CAB9B78D9BE75D143AF68C4(L_111, NULL);
 		V_11 = L_112;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:913>
 		NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92* L_113 = V_11;
 		if (!L_113)
 		{
@@ -17569,11 +16351,9 @@ IL_0270:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:915>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_119 = __this->____peersLock;
 		NullCheck(L_119);
 		ReaderWriterLockSlim_EnterUpgradeableReadLock_m2BC6F2E7FDE834363821DAE26B1AAD7DAFE4ECEC(L_119, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:916>
 		NetPeerU5BU5D_t38187BEC3BFA7CD6F5F29BD6D1B99249D2DEE928* L_120 = __this->____peersArray;
 		NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92* L_121 = V_11;
 		NullCheck(L_121);
@@ -17582,11 +16362,9 @@ IL_0270:
 		int32_t L_123 = L_122;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_124 = (L_120)->GetAt(static_cast<il2cpp_array_size_t>(L_123));
 		V_12 = L_124;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:917>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_125 = __this->____peersLock;
 		NullCheck(L_125);
 		ReaderWriterLockSlim_ExitUpgradeableReadLock_m70E125A9542852AC8E908571F9EB86670E2CFEEA(L_125, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:918>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_126 = V_12;
 		if (!L_126)
 		{
@@ -17620,7 +16398,6 @@ IL_0270:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:920>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_135 = V_12;
 		NullCheck(L_135);
 		uint8_t L_136;
@@ -17631,11 +16408,9 @@ IL_0270:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:922>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_137 = V_12;
 		NullCheck(L_137);
 		NetPeer_InitiateEndPointChange_m0547A919B0F862E491E733B834ED462737EAFD41(L_137, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:923>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_138 = V_12;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_139 = ___1_remoteEndPoint;
 		NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, ((int32_t)9), L_138, L_139, 0, 0, 0, (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL, 4, (uint8_t)0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL, NULL);
@@ -17643,16 +16418,13 @@ IL_0270:
 
 IL_0324:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:926>
 		V_10 = (bool)1;
 	}
 
 IL_0327:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:931>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_140 = ___0_packet;
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(__this, L_140, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:934>
 		bool L_141 = V_10;
 		if (L_141)
 		{
@@ -17660,28 +16432,23 @@ IL_0327:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:936>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_142;
 		L_142 = NetManager_PoolGetWithProperty_m692E254009ED5835C17B91E5E5C23131489FB49F(__this, ((int32_t)14), 1, NULL);
 		V_13 = L_142;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:937>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_143 = V_13;
 		NullCheck(L_143);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_144 = L_143->___RawData;
 		NullCheck(L_144);
 		(L_144)->SetAt(static_cast<il2cpp_array_size_t>(1), (uint8_t)1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:938>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_145 = V_13;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_146 = ___1_remoteEndPoint;
 		int32_t L_147;
 		L_147 = NetManager_SendRawAndRecycle_m80EA360EBE6014357839479E1AFA7E9D0FB8536E(__this, L_145, L_146, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:941>
 		return;
 	}
 
 IL_0355:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:943>
 		bool L_148 = V_2;
 		if (!L_148)
 		{
@@ -17699,16 +16466,13 @@ IL_0355:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:944>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_151 = V_3;
 		NetManager_DisconnectPeerForce_mBC208C113DF61033CA1F71D2278329076310514B(__this, L_151, 7, 0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:945>
 		return;
 	}
 
 IL_0372:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:947>
 		bool L_152 = V_2;
 		if (!L_152)
 		{
@@ -17716,14 +16480,12 @@ IL_0372:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:949>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_153 = V_3;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_154 = ___0_packet;
 		NullCheck(L_153);
 		int32_t L_155;
 		L_155 = NetPeer_ProcessDisconnect_mA2228CC68B1B5146150C81895185CDD1829B4B41(L_153, L_154, NULL);
 		V_14 = L_155;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:950>
 		int32_t L_156 = V_14;
 		if (L_156)
 		{
@@ -17731,16 +16493,13 @@ IL_0372:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:952>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_157 = ___0_packet;
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(__this, L_157, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:953>
 		return;
 	}
 
 IL_038a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:955>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_158 = V_3;
 		int32_t L_159 = V_14;
 		if ((((int32_t)L_159) == ((int32_t)2)))
@@ -17776,26 +16535,22 @@ IL_0395:
 
 IL_039e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:959>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_161 = ___0_packet;
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(__this, L_161, NULL);
 	}
 
 IL_03a5:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:962>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_162;
 		L_162 = NetManager_PoolGetWithProperty_m83E20C6EFA0971D3372F5509DFA91C8FA33F4E79(__this, ((int32_t)13), NULL);
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_163 = ___1_remoteEndPoint;
 		int32_t L_164;
 		L_164 = NetManager_SendRawAndRecycle_m80EA360EBE6014357839479E1AFA7E9D0FB8536E(__this, L_162, L_163, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:963>
 		return;
 	}
 
 IL_03b6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:965>
 		bool L_165 = V_2;
 		if (L_165)
 		{
@@ -17803,18 +16558,15 @@ IL_03b6:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:966>
 		return;
 	}
 
 IL_03ba:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:967>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_166 = ___0_packet;
 		NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92* L_167;
 		L_167 = NetConnectAcceptPacket_FromData_m7ED35C58330063701CAB9B78D9BE75D143AF68C4(L_166, NULL);
 		V_9 = L_167;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:968>
 		NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92* L_168 = V_9;
 		if (!L_168)
 		{
@@ -17833,16 +16585,13 @@ IL_03ba:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:969>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_172 = V_3;
 		NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, 0, L_172, (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)NULL, 0, 0, 0, (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL, 4, (uint8_t)0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:970>
 		return;
 	}
 
 IL_03e2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:972>
 		bool L_173 = V_2;
 		if (!L_173)
 		{
@@ -17850,7 +16599,6 @@ IL_03e2:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:973>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_174 = V_3;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_175 = ___0_packet;
 		NullCheck(L_174);
@@ -17860,7 +16608,6 @@ IL_03e2:
 
 IL_03ed:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:975>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_176;
 		L_176 = NetManager_PoolGetWithProperty_m83E20C6EFA0971D3372F5509DFA91C8FA33F4E79(__this, ((int32_t)14), NULL);
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_177 = ___1_remoteEndPoint;
@@ -17870,7 +16617,6 @@ IL_03ed:
 
 IL_03fd:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:978>
 		return;
 	}
 }
@@ -17887,7 +16633,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateReceiveEvent_mF5E7B2744
 	RuntimeObject* V_1 = NULL;
 	bool V_2 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:984>
 		bool L_0 = __this->___UnsyncedEvents;
 		if (L_0)
 		{
@@ -17911,7 +16656,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateReceiveEvent_mF5E7B2744
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:986>
 		RuntimeObject* L_3 = __this->____eventLock;
 		V_1 = L_3;
 		V_2 = (bool)0;
@@ -17945,10 +16689,8 @@ IL_0053:
 			{
 				RuntimeObject* L_6 = V_1;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_6, (&V_2), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:988>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_7 = __this->____netEventPoolHead;
 				V_0 = L_7;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:989>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_8 = V_0;
 				if (L_8)
 				{
@@ -17956,7 +16698,6 @@ IL_0053:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:990>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_9 = (NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)il2cpp_codegen_object_new(NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283_il2cpp_TypeInfo_var);
 				NetEvent__ctor_m1E84ED6E659853AC5C79A92525091AC05CFA8D0B(L_9, __this, NULL);
 				V_0 = L_9;
@@ -17965,13 +16706,11 @@ IL_0053:
 
 IL_003c_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:992>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_10 = V_0;
 				NullCheck(L_10);
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_11 = L_10->___Next;
 				__this->____netEventPoolHead = L_11;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->____netEventPoolHead), (void*)L_11);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:993>
 				goto IL_0054;
 			}
 		}
@@ -17983,16 +16722,13 @@ IL_003c_1:
 
 IL_0054:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:994>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_12 = V_0;
 		NullCheck(L_12);
 		L_12->___Next = (NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_12->___Next), (void*)(NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:995>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_13 = V_0;
 		NullCheck(L_13);
 		L_13->___Type = 2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:996>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_14 = V_0;
 		NullCheck(L_14);
 		NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* L_15 = L_14->___DataReader;
@@ -18000,23 +16736,19 @@ IL_0054:
 		int32_t L_17 = ___3_headerSize;
 		NullCheck(L_15);
 		NetPacketReader_SetSource_m48D3AEF78A7C8068515477B7CCC5A65300D1E3C3(L_15, L_16, L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:997>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_18 = V_0;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_19 = ___4_fromPeer;
 		NullCheck(L_18);
 		L_18->___Peer = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&L_18->___Peer), (void*)L_19);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:998>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_20 = V_0;
 		uint8_t L_21 = ___1_method;
 		NullCheck(L_20);
 		L_20->___DeliveryMethod = L_21;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:999>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_22 = V_0;
 		uint8_t L_23 = ___2_channelNumber;
 		NullCheck(L_22);
 		L_22->___ChannelNumber = L_23;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1000>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_24 = V_0;
 		NetManager_ProcessEvent_mAF359A2774FEFD24A624466C71476F528AB182BE(__this, L_24, NULL);
 		return;
@@ -18024,7 +16756,6 @@ IL_0054:
 
 IL_008e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1004>
 		RuntimeObject* L_25 = __this->____eventLock;
 		V_1 = L_25;
 		V_2 = (bool)0;
@@ -18058,10 +16789,8 @@ IL_011f:
 			{
 				RuntimeObject* L_28 = V_1;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_28, (&V_2), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1006>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_29 = __this->____netEventPoolHead;
 				V_0 = L_29;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1007>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_30 = V_0;
 				if (L_30)
 				{
@@ -18069,7 +16798,6 @@ IL_011f:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1008>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_31 = (NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)il2cpp_codegen_object_new(NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283_il2cpp_TypeInfo_var);
 				NetEvent__ctor_m1E84ED6E659853AC5C79A92525091AC05CFA8D0B(L_31, __this, NULL);
 				V_0 = L_31;
@@ -18078,7 +16806,6 @@ IL_011f:
 
 IL_00b2_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1010>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_32 = V_0;
 				NullCheck(L_32);
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_33 = L_32->___Next;
@@ -18088,16 +16815,13 @@ IL_00b2_1:
 
 IL_00be_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1012>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_34 = V_0;
 				NullCheck(L_34);
 				L_34->___Next = (NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL;
 				Il2CppCodeGenWriteBarrier((void**)(&L_34->___Next), (void*)(NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1013>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_35 = V_0;
 				NullCheck(L_35);
 				L_35->___Type = 2;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1014>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_36 = V_0;
 				NullCheck(L_36);
 				NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* L_37 = L_36->___DataReader;
@@ -18105,23 +16829,19 @@ IL_00be_1:
 				int32_t L_39 = ___3_headerSize;
 				NullCheck(L_37);
 				NetPacketReader_SetSource_m48D3AEF78A7C8068515477B7CCC5A65300D1E3C3(L_37, L_38, L_39, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1015>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_40 = V_0;
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_41 = ___4_fromPeer;
 				NullCheck(L_40);
 				L_40->___Peer = L_41;
 				Il2CppCodeGenWriteBarrier((void**)(&L_40->___Peer), (void*)L_41);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1016>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_42 = V_0;
 				uint8_t L_43 = ___1_method;
 				NullCheck(L_42);
 				L_42->___DeliveryMethod = L_43;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1017>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_44 = V_0;
 				uint8_t L_45 = ___2_channelNumber;
 				NullCheck(L_44);
 				L_44->___ChannelNumber = L_45;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1019>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_46 = __this->____pendingEventTail;
 				if (L_46)
 				{
@@ -18129,7 +16849,6 @@ IL_00be_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1020>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_47 = V_0;
 				__this->____pendingEventHead = L_47;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingEventHead), (void*)L_47);
@@ -18138,7 +16857,6 @@ IL_00be_1:
 
 IL_0101_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1022>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_48 = __this->____pendingEventTail;
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_49 = V_0;
 				NullCheck(L_48);
@@ -18148,11 +16866,9 @@ IL_0101_1:
 
 IL_010d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1023>
 				NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_50 = V_0;
 				__this->____pendingEventTail = L_50;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingEventTail), (void*)L_50);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1024>
 				goto IL_0120;
 			}
 		}
@@ -18164,7 +16880,6 @@ IL_010d_1:
 
 IL_0120:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1026>
 		return;
 	}
 }
@@ -18172,7 +16887,6 @@ IL_0120:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mA6B46BAE4A1DAD622F1DDF99E298EBF2FF8FC24D (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_writer, uint8_t ___1_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1035>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___0_writer;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
@@ -18183,7 +16897,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mA6B46BAE4A1DAD622F
 		L_3 = NetDataWriter_get_Length_mC213D6934BF8FFAA5225907F85879EB05040B7A4_inline(L_2, NULL);
 		uint8_t L_4 = ___1_options;
 		NetManager_SendToAll_mDDC1A1790C286E9751DE8F8F6F4D260ADC77EAE7(__this, L_1, 0, L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1036>
 		return;
 	}
 }
@@ -18191,13 +16904,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mA6B46BAE4A1DAD622F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m28F8F81F5ED7BA344FDDB57DA2C26756A300E8C8 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, uint8_t ___1_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1045>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_data;
 		NullCheck(L_1);
 		uint8_t L_2 = ___1_options;
 		NetManager_SendToAll_mDDC1A1790C286E9751DE8F8F6F4D260ADC77EAE7(__this, L_0, 0, ((int32_t)(((RuntimeArray*)L_1)->max_length)), L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1046>
 		return;
 	}
 }
@@ -18205,13 +16916,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m28F8F81F5ED7BA344F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mDDC1A1790C286E9751DE8F8F6F4D260ADC77EAE7 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_start, int32_t ___2_length, uint8_t ___3_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1057>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		int32_t L_1 = ___1_start;
 		int32_t L_2 = ___2_length;
 		uint8_t L_3 = ___3_options;
 		NetManager_SendToAll_m78C5586FD976FAC0B358BD6F438E2B1F615BAF3B(__this, L_0, L_1, L_2, (uint8_t)0, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1058>
 		return;
 	}
 }
@@ -18219,7 +16928,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mDDC1A1790C286E9751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m1C9C4557E0C3DC7B59F88F90421D5A72FFEEB547 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_writer, uint8_t ___1_channelNumber, uint8_t ___2_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1068>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___0_writer;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
@@ -18231,7 +16939,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m1C9C4557E0C3DC7B59
 		uint8_t L_4 = ___1_channelNumber;
 		uint8_t L_5 = ___2_options;
 		NetManager_SendToAll_m78C5586FD976FAC0B358BD6F438E2B1F615BAF3B(__this, L_1, 0, L_3, L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1069>
 		return;
 	}
 }
@@ -18239,14 +16946,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m1C9C4557E0C3DC7B59
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m95389AC724168D1EAF8DD838DEA9065861AF810D (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, uint8_t ___1_channelNumber, uint8_t ___2_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1079>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_data;
 		NullCheck(L_1);
 		uint8_t L_2 = ___1_channelNumber;
 		uint8_t L_3 = ___2_options;
 		NetManager_SendToAll_m78C5586FD976FAC0B358BD6F438E2B1F615BAF3B(__this, L_0, 0, ((int32_t)(((RuntimeArray*)L_1)->max_length)), L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1080>
 		return;
 	}
 }
@@ -18260,22 +16965,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m78C5586FD976FAC0B3
 
 FINALLY_0031:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1100>
 				ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_0 = __this->____peersLock;
 				NullCheck(L_0);
 				ReaderWriterLockSlim_ExitReadLock_m49891BB1D1FA606B9EBD354D575D7F1ECBD53E87(L_0, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1101>
 				return;
 			}
 		});
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1094>
 				ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_1 = __this->____peersLock;
 				NullCheck(L_1);
 				ReaderWriterLockSlim_EnterReadLock_m010CB4F0FC253BB5EC9BE8D54EBB5C4FDA778C39(L_1, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1095>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = __this->____headPeer;
 				il2cpp_codegen_memory_barrier();
 				V_0 = L_2;
@@ -18284,7 +16985,6 @@ FINALLY_0031:
 
 IL_0016_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1096>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_3 = V_0;
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = ___0_data;
 				int32_t L_5 = ___1_start;
@@ -18293,7 +16993,6 @@ IL_0016_1:
 				uint8_t L_8 = ___4_options;
 				NullCheck(L_3);
 				NetPeer_Send_mAF39C07EDE05505CF8E18F2B5E794FF13FBE2D06(L_3, L_4, L_5, L_6, L_7, L_8, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1095>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_9 = V_0;
 				NullCheck(L_9);
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_10 = L_9->___NextPeer;
@@ -18303,7 +17002,6 @@ IL_0016_1:
 
 IL_002c_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1095>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_11 = V_0;
 				if (L_11)
 				{
@@ -18311,7 +17009,6 @@ IL_002c_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1097>
 				goto IL_003d;
 			}
 		}
@@ -18323,7 +17020,6 @@ IL_002c_1:
 
 IL_003d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1102>
 		return;
 	}
 }
@@ -18331,7 +17027,6 @@ IL_003d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mDD898DE3AB60DCBFEEAD79C8F0AD73EA0BE11102 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_writer, uint8_t ___1_options, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___2_excludePeer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1112>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___0_writer;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
@@ -18343,7 +17038,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mDD898DE3AB60DCBFEE
 		uint8_t L_4 = ___1_options;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_5 = ___2_excludePeer;
 		NetManager_SendToAll_m7F3E37E85EA597847F7998174E7DC2C0CBBB2CF8(__this, L_1, 0, L_3, (uint8_t)0, L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1113>
 		return;
 	}
 }
@@ -18351,14 +17045,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mDD898DE3AB60DCBFEE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m4A5585FAC0EEB08D84F555FFC4DB0A4B20A33848 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, uint8_t ___1_options, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___2_excludePeer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1123>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_data;
 		NullCheck(L_1);
 		uint8_t L_2 = ___1_options;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_3 = ___2_excludePeer;
 		NetManager_SendToAll_m7F3E37E85EA597847F7998174E7DC2C0CBBB2CF8(__this, L_0, 0, ((int32_t)(((RuntimeArray*)L_1)->max_length)), (uint8_t)0, L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1124>
 		return;
 	}
 }
@@ -18366,14 +17058,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m4A5585FAC0EEB08D84
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mFE73384A64E1549C248191343CC6377C305776D2 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_start, int32_t ___2_length, uint8_t ___3_options, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___4_excludePeer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1136>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		int32_t L_1 = ___1_start;
 		int32_t L_2 = ___2_length;
 		uint8_t L_3 = ___3_options;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_4 = ___4_excludePeer;
 		NetManager_SendToAll_m7F3E37E85EA597847F7998174E7DC2C0CBBB2CF8(__this, L_0, L_1, L_2, (uint8_t)0, L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1137>
 		return;
 	}
 }
@@ -18381,7 +17071,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mFE73384A64E1549C24
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m77B4B00070EA61A0CDC5C73A610A591BB293A305 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_writer, uint8_t ___1_channelNumber, uint8_t ___2_options, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___3_excludePeer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1148>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___0_writer;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
@@ -18394,7 +17083,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m77B4B00070EA61A0CD
 		uint8_t L_5 = ___2_options;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_6 = ___3_excludePeer;
 		NetManager_SendToAll_m7F3E37E85EA597847F7998174E7DC2C0CBBB2CF8(__this, L_1, 0, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1149>
 		return;
 	}
 }
@@ -18402,7 +17090,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m77B4B00070EA61A0CD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m553BD66E3214EF1CD1C529FDD2E704031E80DC18 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, uint8_t ___1_channelNumber, uint8_t ___2_options, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___3_excludePeer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1160>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_data;
 		NullCheck(L_1);
@@ -18410,7 +17097,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m553BD66E3214EF1CD1
 		uint8_t L_3 = ___2_options;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_4 = ___3_excludePeer;
 		NetManager_SendToAll_m7F3E37E85EA597847F7998174E7DC2C0CBBB2CF8(__this, L_0, 0, ((int32_t)(((RuntimeArray*)L_1)->max_length)), L_2, L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1161>
 		return;
 	}
 }
@@ -18424,22 +17110,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m7F3E37E85EA597847F
 
 FINALLY_0036:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1185>
 				ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_0 = __this->____peersLock;
 				NullCheck(L_0);
 				ReaderWriterLockSlim_ExitReadLock_m49891BB1D1FA606B9EBD354D575D7F1ECBD53E87(L_0, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1186>
 				return;
 			}
 		});
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1176>
 				ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_1 = __this->____peersLock;
 				NullCheck(L_1);
 				ReaderWriterLockSlim_EnterReadLock_m010CB4F0FC253BB5EC9BE8D54EBB5C4FDA778C39(L_1, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1177>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = __this->____headPeer;
 				il2cpp_codegen_memory_barrier();
 				V_0 = L_2;
@@ -18448,7 +17130,6 @@ FINALLY_0036:
 
 IL_0016_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1179>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_3 = V_0;
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_4 = ___5_excludePeer;
 				if ((((RuntimeObject*)(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)L_3) == ((RuntimeObject*)(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)L_4)))
@@ -18457,7 +17138,6 @@ IL_0016_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1180>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_5 = V_0;
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = ___0_data;
 				int32_t L_7 = ___1_start;
@@ -18470,7 +17150,6 @@ IL_0016_1:
 
 IL_0028_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1177>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_11 = V_0;
 				NullCheck(L_11);
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_12 = L_11->___NextPeer;
@@ -18480,7 +17159,6 @@ IL_0028_1:
 
 IL_0031_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1177>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_13 = V_0;
 				if (L_13)
 				{
@@ -18488,7 +17166,6 @@ IL_0031_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1182>
 				goto IL_0042;
 			}
 		}
@@ -18500,7 +17177,6 @@ IL_0031_1:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1187>
 		return;
 	}
 }
@@ -18508,11 +17184,9 @@ IL_0042:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m26C63ADE2B450FB3331A8DE725B4E0C942ED96FD (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___0_data, uint8_t ___1_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1197>
 		ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D L_0 = ___0_data;
 		uint8_t L_1 = ___1_options;
 		NetManager_SendToAll_mE6C93F508AAF9650314025988FA2091BC8D97A69(__this, L_0, (uint8_t)0, L_1, (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1198>
 		return;
 	}
 }
@@ -18520,12 +17194,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_m26C63ADE2B450FB333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mA9E286DE44D0C4F48CBE6C584EC68953C2C46327 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___0_data, uint8_t ___1_options, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___2_excludePeer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1208>
 		ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D L_0 = ___0_data;
 		uint8_t L_1 = ___1_options;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = ___2_excludePeer;
 		NetManager_SendToAll_mE6C93F508AAF9650314025988FA2091BC8D97A69(__this, L_0, (uint8_t)0, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1209>
 		return;
 	}
 }
@@ -18539,22 +17211,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_SendToAll_mE6C93F508AAF965031
 
 FINALLY_0032:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1231>
 				ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_0 = __this->____peersLock;
 				NullCheck(L_0);
 				ReaderWriterLockSlim_ExitReadLock_m49891BB1D1FA606B9EBD354D575D7F1ECBD53E87(L_0, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1232>
 				return;
 			}
 		});
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1222>
 				ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_1 = __this->____peersLock;
 				NullCheck(L_1);
 				ReaderWriterLockSlim_EnterReadLock_m010CB4F0FC253BB5EC9BE8D54EBB5C4FDA778C39(L_1, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1223>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = __this->____headPeer;
 				il2cpp_codegen_memory_barrier();
 				V_0 = L_2;
@@ -18563,7 +17231,6 @@ FINALLY_0032:
 
 IL_0016_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1225>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_3 = V_0;
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_4 = ___3_excludePeer;
 				if ((((RuntimeObject*)(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)L_3) == ((RuntimeObject*)(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)L_4)))
@@ -18572,7 +17239,6 @@ IL_0016_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1226>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_5 = V_0;
 				ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D L_6 = ___0_data;
 				uint8_t L_7 = ___1_channelNumber;
@@ -18583,7 +17249,6 @@ IL_0016_1:
 
 IL_0024_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1223>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_9 = V_0;
 				NullCheck(L_9);
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_10 = L_9->___NextPeer;
@@ -18593,7 +17258,6 @@ IL_0024_1:
 
 IL_002d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1223>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_11 = V_0;
 				if (L_11)
 				{
@@ -18601,7 +17265,6 @@ IL_002d_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1228>
 				goto IL_003e;
 			}
 		}
@@ -18613,7 +17276,6 @@ IL_002d_1:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1233>
 		return;
 	}
 }
@@ -18632,23 +17294,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendUnconnectedMessage_m1CE99
 	int32_t V_0 = 0;
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1243>
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = NetPacket_GetHeaderSize_m3EAFEE7F1813A006E5FBE79E29AC0D330E7321A2(8, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1244>
 		int32_t L_1;
 		L_1 = ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_inline((&___0_message), ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_RuntimeMethod_var);
 		int32_t L_2 = V_0;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3;
 		L_3 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(__this, ((int32_t)il2cpp_codegen_add(L_1, L_2)), NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1245>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_4 = V_1;
 		NullCheck(L_4);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_4, 8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1246>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = V_1;
 		NullCheck(L_5);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = L_5->___RawData;
@@ -18659,7 +17317,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendUnconnectedMessage_m1CE99
 		memset((&L_9), 0, sizeof(L_9));
 		Span_1__ctor_m698EC79E2E44AFF16BA096D0861CFB129FBF8218_inline((&L_9), L_6, L_7, L_8, Span_1__ctor_m698EC79E2E44AFF16BA096D0861CFB129FBF8218_RuntimeMethod_var);
 		ReadOnlySpan_1_CopyTo_m8144AA3941DF7B7C2C665680221977E1D15D1462((&___0_message), L_9, ReadOnlySpan_1_CopyTo_m8144AA3941DF7B7C2C665680221977E1D15D1462_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1247>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_10 = V_1;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_11 = ___1_remoteEndPoint;
 		int32_t L_12;
@@ -18671,7 +17328,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendUnconnectedMessage_m1CE99
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_Start_mCF7A9F0CE4B61CD678CCD6EE63E345F39F92AD4D (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1256>
 		bool L_0;
 		L_0 = NetManager_Start_m28CFA689423FD185141FD5192E487226A8FB9881(__this, 0, NULL);
 		return L_0;
@@ -18681,7 +17337,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_Start_mCF7A9F0CE4B61CD678CCD6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_Start_m810A3D9CB978C34B34F460706161E6642157E7C8 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* ___0_addressIPv4, IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* ___1_addressIPv6, int32_t ___2_port, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1267>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_0 = ___0_addressIPv4;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_1 = ___1_addressIPv6;
 		int32_t L_2 = ___2_port;
@@ -18702,18 +17357,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_Start_mA4ED05796AC532A485E68C
 	IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* V_0 = NULL;
 	IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1278>
 		String_t* L_0 = ___0_addressIPv4;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_1;
 		L_1 = NetUtils_ResolveAddress_mF1DF093253C3E01DF33B309E9555B3DC2D2BBA98(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1279>
 		String_t* L_2 = ___1_addressIPv6;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_3;
 		L_3 = NetUtils_ResolveAddress_mF1DF093253C3E01DF33B309E9555B3DC2D2BBA98(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1280>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_4 = V_0;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_5 = V_1;
 		int32_t L_6 = ___2_port;
@@ -18732,7 +17384,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_Start_m28CFA689423FD185141FD5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1289>
 		il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_0 = ((IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var))->___Any;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_1 = ((IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var))->___IPv6Any;
@@ -18746,7 +17397,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_Start_m28CFA689423FD185141FD5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_StartInManualMode_m36D400B5DA09CDBB603C260C9BA447A16A735E1B (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* ___0_addressIPv4, IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* ___1_addressIPv6, int32_t ___2_port, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1303>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_0 = ___0_addressIPv4;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_1 = ___1_addressIPv6;
 		int32_t L_2 = ___2_port;
@@ -18767,18 +17417,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_StartInManualMode_m070415B29E
 	IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* V_0 = NULL;
 	IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1317>
 		String_t* L_0 = ___0_addressIPv4;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_1;
 		L_1 = NetUtils_ResolveAddress_mF1DF093253C3E01DF33B309E9555B3DC2D2BBA98(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1318>
 		String_t* L_2 = ___1_addressIPv6;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_3;
 		L_3 = NetUtils_ResolveAddress_mF1DF093253C3E01DF33B309E9555B3DC2D2BBA98(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1319>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_4 = V_0;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_5 = V_1;
 		int32_t L_6 = ___2_port;
@@ -18797,7 +17444,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_StartInManualMode_mAA46B2242A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1331>
 		il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_0 = ((IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var))->___Any;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_1 = ((IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var))->___IPv6Any;
@@ -18811,7 +17457,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_StartInManualMode_mAA46B2242A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendUnconnectedMessage_m00719A6B906AD18743057DD8D0210888D55F6B56 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_message, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___1_remoteEndPoint, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1342>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_message;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_message;
 		NullCheck(L_1);
@@ -18832,14 +17477,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendUnconnectedMessage_mFA54A
 	}
 	IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1356>
 		String_t* L_0 = ___1_address;
 		int32_t L_1 = ___2_port;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_2;
 		L_2 = NetUtils_MakeEndPoint_mB593605B5D566EDF67C11C7D5BC1219815BCC0E0(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1358>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_3 = ___0_writer;
 		NullCheck(L_3);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
@@ -18858,7 +17501,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendUnconnectedMessage_mFA54A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendUnconnectedMessage_m9CB3DEB22CB9CCD9EDEB6325696A4FEC2FB64165 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_writer, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___1_remoteEndPoint, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1369>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___0_writer;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
@@ -18878,14 +17520,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendUnconnectedMessage_m9FDBA
 {
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1383>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_message;
 		int32_t L_1 = ___1_start;
 		int32_t L_2 = ___2_length;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3;
 		L_3 = NetManager_PoolGetWithData_mB0053C9D549D37106E7B89FE77E901AEC85A98C7(__this, 8, L_0, L_1, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1384>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_4 = V_0;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_5 = ___3_remoteEndPoint;
 		int32_t L_6;
@@ -18897,12 +17537,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_SendUnconnectedMessage_m9FDBA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_TriggerUpdate_m30C1499A86501F155760E32F4B69DD40F8AE3AC4 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1392>
 		AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_0 = __this->____updateTriggerEvent;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = EventWaitHandle_Set_mDF98D67F214714A9590DF82A1C51D3D851281E4D(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1393>
 		return;
 	}
 }
@@ -18914,7 +17552,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_PollEvents_m97CCEE174A7BAA087
 	RuntimeObject* V_2 = NULL;
 	bool V_3 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1403>
 		bool L_0 = __this->____manualMode;
 		if (!L_0)
 		{
@@ -18922,7 +17559,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_PollEvents_m97CCEE174A7BAA087
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1405>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_1 = __this->____udpSocketv4;
 		if (!L_1)
 		{
@@ -18930,7 +17566,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_PollEvents_m97CCEE174A7BAA087
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1406>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_2 = __this->____udpSocketv4;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_3 = __this->____bufferEndPointv4;
 		int32_t L_4 = ___0_maxProcessedEvents;
@@ -18939,7 +17574,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_PollEvents_m97CCEE174A7BAA087
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1407>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_5 = __this->____udpSocketv6;
 		if (!L_5)
 		{
@@ -18955,7 +17589,6 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1408>
 		Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* L_8 = __this->____udpSocketv6;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_9 = __this->____bufferEndPointv6;
 		int32_t L_10 = ___0_maxProcessedEvents;
@@ -18964,13 +17597,11 @@ IL_0023:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1410>
 		return;
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1412>
 		bool L_11 = __this->___UnsyncedEvents;
 		if (!L_11)
 		{
@@ -18978,13 +17609,11 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1413>
 		return;
 	}
 
 IL_0056:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1415>
 		RuntimeObject* L_12 = __this->____eventLock;
 		V_2 = L_12;
 		V_3 = (bool)0;
@@ -19017,16 +17646,12 @@ IL_0087:
 		{
 			RuntimeObject* L_15 = V_2;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_15, (&V_3), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1417>
 			NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_16 = __this->____pendingEventHead;
 			V_0 = L_16;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1418>
 			__this->____pendingEventHead = (NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingEventHead), (void*)(NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1419>
 			__this->____pendingEventTail = (NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL;
 			Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingEventTail), (void*)(NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1420>
 			goto IL_0088;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -19037,26 +17662,20 @@ IL_0087:
 
 IL_0088:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1422>
 		V_1 = 0;
 		goto IL_00a2;
 	}
 
 IL_008c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1425>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_17 = V_0;
 		NullCheck(L_17);
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_18 = L_17->___Next;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1426>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_19 = V_0;
 		NetManager_ProcessEvent_mAF359A2774FEFD24A624466C71476F528AB182BE(__this, L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1427>
 		V_0 = L_18;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1428>
 		int32_t L_20 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_20, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1429>
 		int32_t L_21 = V_1;
 		int32_t L_22 = ___0_maxProcessedEvents;
 		if ((((int32_t)L_21) == ((int32_t)L_22)))
@@ -19067,7 +17686,6 @@ IL_008c:
 
 IL_00a2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1423>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_23 = V_0;
 		if (L_23)
 		{
@@ -19077,7 +17695,6 @@ IL_00a2:
 
 IL_00a5:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1432>
 		return;
 	}
 }
@@ -19091,7 +17708,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1444>
 		String_t* L_0 = ___0_address;
 		int32_t L_1 = ___1_port;
 		String_t* L_2 = ___2_key;
@@ -19117,14 +17733,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	try
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1460>
 		String_t* L_0 = ___0_address;
 		int32_t L_1 = ___1_port;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_2;
 		L_2 = NetUtils_MakeEndPoint_mB593605B5D566EDF67C11C7D5BC1219815BCC0E0(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1461>
 		goto IL_0020;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -19140,10 +17754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 CATCH_000a:
 	{
 		RuntimeObject* L_3 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1462>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1464>
 		NetManager_CreateEvent_m087A114D553D650F611089BEFD69F67B4B894EEF(__this, 1, (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL, (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*)NULL, 0, 0, 8, (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845*)NULL, 4, (uint8_t)0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1465>
 		V_1 = (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL;
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0029;
@@ -19151,7 +17762,6 @@ CATCH_000a:
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1467>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_4 = V_0;
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_5 = ___2_connectionData;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_6;
@@ -19161,7 +17771,6 @@ IL_0020:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1468>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_7 = V_1;
 		return L_7;
 	}
@@ -19176,7 +17785,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1479>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = ___0_target;
 		String_t* L_1 = ___1_key;
 		il2cpp_codegen_runtime_class_init_inline(NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C_il2cpp_TypeInfo_var);
@@ -19204,7 +17812,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 	NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* V_4 = NULL;
 	uint8_t V_5 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1491>
 		bool L_0;
 		L_0 = NetManager_get_IsRunning_mB0E5575B653966435F22860934AACCE763E44204_inline(__this, NULL);
 		if (L_0)
@@ -19213,7 +17820,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1492>
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_1 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9C3B87CEAADB16FDAAE14648602227F9B9BE17C4)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetManager_Connect_mCFF0D62656DC5A0537DADD2103AAA0971D9F8528_RuntimeMethod_var)));
@@ -19221,7 +17827,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9F
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1494>
 		Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_2 = __this->____requestsDict;
 		V_0 = L_2;
 		V_1 = (bool)0;
@@ -19255,7 +17860,6 @@ IL_0093:
 			{
 				Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_5 = V_0;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_5, (&V_1), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1496>
 				Dictionary_2_t0784BD81B366EBED7A309938146D55EC8FB8098E* L_6 = __this->____requestsDict;
 				IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_7 = ___0_target;
 				NullCheck(L_6);
@@ -19267,16 +17871,13 @@ IL_0093:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1497>
 				V_4 = (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL;
 				goto IL_0094;
 			}
 
 IL_0037_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1499>
 				V_2 = (uint8_t)0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1500>
 				IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_9 = ___0_target;
 				bool L_10;
 				L_10 = NetManager_TryGetPeer_m1EA321E4A12D677ACEA0962FC943313F710CC617(__this, L_9, (&V_3), NULL);
@@ -19286,7 +17887,6 @@ IL_0037_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1502>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_11 = V_3;
 				NullCheck(L_11);
 				uint8_t L_12;
@@ -19308,7 +17908,6 @@ IL_0037_1:
 
 IL_0056_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1507>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_15 = V_3;
 				V_4 = L_15;
 				goto IL_0094;
@@ -19316,20 +17915,17 @@ IL_0056_1:
 
 IL_005b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1510>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_16 = V_3;
 				NullCheck(L_16);
 				uint8_t L_17;
 				L_17 = NetPeer_get_ConnectionNum_mA2DEE6191C2A6C4725F9BDF5A046B5E8722C552E_inline(L_16, NULL);
 				V_2 = (uint8_t)((int32_t)(uint8_t)((int32_t)(((int32_t)il2cpp_codegen_add((int32_t)L_17, 1))%4)));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1511>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_18 = V_3;
 				NetManager_RemovePeer_mB19EC5F9129E28336F151D641E97D078289E8DC0(__this, L_18, NULL);
 			}
 
 IL_006e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1516>
 				IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_19 = ___0_target;
 				int32_t L_20;
 				L_20 = NetManager_GetNextPeerId_mA5203CD2E510BB34E8DB816CB83212F6DEF839E8(__this, NULL);
@@ -19338,10 +17934,8 @@ IL_006e_1:
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_23 = (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)il2cpp_codegen_object_new(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53_il2cpp_TypeInfo_var);
 				NetPeer__ctor_mE088E6B92A3E15073D91DBD24380C57CD9B25711(L_23, __this, L_19, L_20, L_21, L_22, NULL);
 				V_3 = L_23;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1517>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_24 = V_3;
 				NetManager_AddPeer_mE33BC3D84A3806B20EB9071357ECBDEAB0818C25(__this, L_24, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1518>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_25 = V_3;
 				V_4 = L_25;
 				goto IL_0094;
@@ -19355,7 +17949,6 @@ IL_006e_1:
 
 IL_0094:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1520>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_26 = V_4;
 		return L_26;
 	}
@@ -19364,9 +17957,7 @@ IL_0094:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_Stop_m1FC3BB553590719FE7C5A370FA382B4007E6C765 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1527>
 		NetManager_Stop_mA4F4569413625D88A9429714805B866453C11337(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1528>
 		return;
 	}
 }
@@ -19382,7 +17973,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_Stop_mA4F4569413625D88A942971
 	}
 	NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1536>
 		bool L_0;
 		L_0 = NetManager_get_IsRunning_mB0E5575B653966435F22860934AACCE763E44204_inline(__this, NULL);
 		if (L_0)
@@ -19391,13 +17981,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_Stop_mA4F4569413625D88A942971
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1537>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1541>
 		bool L_1 = __this->____useSocketFix;
 		if (!L_1)
 		{
@@ -19405,18 +17993,15 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1543>
 		PausedSocketFix_t3738B1685259AF632E4D4C33AAAA616C3A9BBFF4* L_2 = __this->____pausedSocketFix;
 		NullCheck(L_2);
 		PausedSocketFix_Deinitialize_m32D50352AED7F3789373F55026AC3C58A2FFA210(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1544>
 		__this->____pausedSocketFix = (PausedSocketFix_t3738B1685259AF632E4D4C33AAAA616C3A9BBFF4*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pausedSocketFix), (void*)(PausedSocketFix_t3738B1685259AF632E4D4C33AAAA616C3A9BBFF4*)NULL);
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1549>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_3 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
 		V_0 = L_3;
@@ -19425,13 +18010,11 @@ IL_0023:
 
 IL_002e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1550>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_4 = V_0;
 		bool L_5 = ___0_sendDisconnectMessages;
 		NullCheck(L_4);
 		int32_t L_6;
 		L_6 = NetPeer_Shutdown_m3D2889B30607A49E881609C16C7742AE2B051BCC(L_4, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, 0, 0, (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1549>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_7 = V_0;
 		NullCheck(L_7);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_8 = L_7->___NextPeer;
@@ -19441,7 +18024,6 @@ IL_002e:
 
 IL_0045:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1549>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_9 = V_0;
 		if (L_9)
 		{
@@ -19449,14 +18031,11 @@ IL_0045:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1553>
 		NetManager_CloseSocket_mC0E1795A17A50964ED30C1E829B2709E4CB63468(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1554>
 		AutoResetEvent_t7F792F3F7AD11BEF7B411E771D98E5266A8CE7C0* L_10 = __this->____updateTriggerEvent;
 		NullCheck(L_10);
 		bool L_11;
 		L_11 = EventWaitHandle_Set_mDF98D67F214714A9590DF82A1C51D3D851281E4D(L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1555>
 		bool L_12 = __this->____manualMode;
 		if (L_12)
 		{
@@ -19464,35 +18043,26 @@ IL_0045:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1557>
 		Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F* L_13 = __this->____logicThread;
 		NullCheck(L_13);
 		Thread_Join_mB756581AAF5EB028081256E0517892BC8867779F(L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1558>
 		__this->____logicThread = (Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____logicThread), (void*)(Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F*)NULL);
 	}
 
 IL_0074:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1562>
 		NetManager_ClearPeerSet_m95C7766A24BF78373124D97727D0EF68A6523205(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1563>
 		ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3* L_14 = (ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3*)il2cpp_codegen_object_new(ConcurrentQueue_1_t6FE7C5B14EF45A6ACF51B75FAF61BC8AC5B2E5C3_il2cpp_TypeInfo_var);
 		ConcurrentQueue_1__ctor_m4B7219F4F8B149AAAFBD9FA3354784BC6A0A31B4(L_14, ConcurrentQueue_1__ctor_m4B7219F4F8B149AAAFBD9FA3354784BC6A0A31B4_RuntimeMethod_var);
 		__this->____peerIds = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____peerIds), (void*)L_14);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1564>
 		__this->____nextPeerId = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1571>
 		__this->____connectedPeersCount = ((int64_t)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1572>
 		__this->____pendingEventHead = (NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingEventHead), (void*)(NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1573>
 		__this->____pendingEventTail = (NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingEventTail), (void*)(NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1574>
 		return;
 	}
 }
@@ -19502,13 +18072,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_GetPeersCount_m4970CC22475
 	int32_t V_0 = 0;
 	NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1583>
 		V_0 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1584>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_0 = __this->____peersLock;
 		NullCheck(L_0);
 		ReaderWriterLockSlim_EnterReadLock_m010CB4F0FC253BB5EC9BE8D54EBB5C4FDA778C39(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1585>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_1 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
 		V_1 = L_1;
@@ -19517,7 +18084,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetManager_GetPeersCount_m4970CC22475
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1587>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = V_1;
 		NullCheck(L_2);
 		uint8_t L_3;
@@ -19529,14 +18095,12 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1588>
 		int32_t L_5 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1585>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_6 = V_1;
 		NullCheck(L_6);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_7 = L_6->___NextPeer;
@@ -19546,7 +18110,6 @@ IL_0026:
 
 IL_002f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1585>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_8 = V_1;
 		if (L_8)
 		{
@@ -19554,11 +18117,9 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1590>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_9 = __this->____peersLock;
 		NullCheck(L_9);
 		ReaderWriterLockSlim_ExitReadLock_m49891BB1D1FA606B9EBD354D575D7F1ECBD53E87(L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1591>
 		int32_t L_10 = V_0;
 		return L_10;
 	}
@@ -19575,15 +18136,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_GetPeersNonAlloc_m323AE438F45
 	}
 	NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1601>
 		List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_0 = ___0_peers;
 		NullCheck(L_0);
 		List_1_Clear_m87D30AD7639F45772F7E62715898C711652264AF_inline(L_0, List_1_Clear_m87D30AD7639F45772F7E62715898C711652264AF_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1602>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_1 = __this->____peersLock;
 		NullCheck(L_1);
 		ReaderWriterLockSlim_EnterReadLock_m010CB4F0FC253BB5EC9BE8D54EBB5C4FDA778C39(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1603>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
 		V_0 = L_2;
@@ -19592,7 +18150,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_GetPeersNonAlloc_m323AE438F45
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1605>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_3 = V_0;
 		NullCheck(L_3);
 		uint8_t L_4;
@@ -19604,7 +18161,6 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1606>
 		List_1_t3A10D11E22DD9FCD43719D83283B5CF926E7AF5A* L_6 = ___0_peers;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_7 = V_0;
 		NullCheck(L_6);
@@ -19613,7 +18169,6 @@ IL_001c:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1603>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_8 = V_0;
 		NullCheck(L_8);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_9 = L_8->___NextPeer;
@@ -19623,7 +18178,6 @@ IL_002d:
 
 IL_0036:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1603>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_10 = V_0;
 		if (L_10)
 		{
@@ -19631,11 +18185,9 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1608>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_11 = __this->____peersLock;
 		NullCheck(L_11);
 		ReaderWriterLockSlim_ExitReadLock_m49891BB1D1FA606B9EBD354D575D7F1ECBD53E87(L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1609>
 		return;
 	}
 }
@@ -19643,9 +18195,7 @@ IL_0036:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectAll_m86FE11FFECDBD7E7FCF86DB192B8C25F7526AE25 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1616>
 		NetManager_DisconnectAll_m474478E53AE3289404BA4E7B5B43E5F22983099A(__this, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, 0, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1617>
 		return;
 	}
 }
@@ -19654,11 +18204,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectAll_m474478E53AE328
 {
 	NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1628>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_0 = __this->____peersLock;
 		NullCheck(L_0);
 		ReaderWriterLockSlim_EnterReadLock_m010CB4F0FC253BB5EC9BE8D54EBB5C4FDA778C39(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1629>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_1 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
 		V_0 = L_1;
@@ -19667,13 +18215,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectAll_m474478E53AE328
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1631>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_2 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___0_data;
 		int32_t L_4 = ___1_start;
 		int32_t L_5 = ___2_count;
 		NetManager_DisconnectPeer_mF50BF087C1A07FC7838D2F8E306E915C0CD7B103(__this, L_2, 5, 0, (bool)0, L_3, L_4, L_5, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1629>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_6 = V_0;
 		NullCheck(L_6);
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_7 = L_6->___NextPeer;
@@ -19683,7 +18229,6 @@ IL_0016:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1629>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_8 = V_0;
 		if (L_8)
 		{
@@ -19691,11 +18236,9 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1633>
 		ReaderWriterLockSlim_t3BF29C18C9FC0EE07209EDD54D938EA473FB3906* L_9 = __this->____peersLock;
 		NullCheck(L_9);
 		ReaderWriterLockSlim_ExitReadLock_m49891BB1D1FA606B9EBD354D575D7F1ECBD53E87(L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1634>
 		return;
 	}
 }
@@ -19703,10 +18246,8 @@ IL_002d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeerForce_m28680B1B20D8C98018A860EE2BD3828F22212338 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1642>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_peer;
 		NetManager_DisconnectPeerForce_mBC208C113DF61033CA1F71D2278329076310514B(__this, L_0, 5, 0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1643>
 		return;
 	}
 }
@@ -19714,10 +18255,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeerForce_m28680B1B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeer_m5072F34CFF631E49A9845E64566F149FF1BEDBE1 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1651>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_peer;
 		NetManager_DisconnectPeer_m9922F3ED5A6301A4DE6204476B7D0D86AB2559B5(__this, L_0, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, 0, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1652>
 		return;
 	}
 }
@@ -19725,13 +18264,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeer_m5072F34CFF631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeer_mC5F70EE39FA43907921BA3FBD28196FC8C9BB244 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_data, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1661>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_peer;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___1_data;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___1_data;
 		NullCheck(L_2);
 		NetManager_DisconnectPeer_m9922F3ED5A6301A4DE6204476B7D0D86AB2559B5(__this, L_0, L_1, 0, ((int32_t)(((RuntimeArray*)L_2)->max_length)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1662>
 		return;
 	}
 }
@@ -19739,7 +18276,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeer_mC5F70EE39FA43
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeer_m4F7034AF1E34942E0445901C088E3B85405FD97B (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___1_writer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1671>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_peer;
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_1 = ___1_writer;
 		NullCheck(L_1);
@@ -19750,7 +18286,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeer_m4F7034AF1E349
 		int32_t L_4;
 		L_4 = NetDataWriter_get_Length_mC213D6934BF8FFAA5225907F85879EB05040B7A4_inline(L_3, NULL);
 		NetManager_DisconnectPeer_m9922F3ED5A6301A4DE6204476B7D0D86AB2559B5(__this, L_0, L_2, 0, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1672>
 		return;
 	}
 }
@@ -19758,13 +18293,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeer_m4F7034AF1E349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_DisconnectPeer_m9922F3ED5A6301A4DE6204476B7D0D86AB2559B5 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_peer, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_data, int32_t ___2_start, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1683>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_peer;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___1_data;
 		int32_t L_2 = ___2_start;
 		int32_t L_3 = ___3_count;
 		NetManager_DisconnectPeer_mF50BF087C1A07FC7838D2F8E306E915C0CD7B103(__this, L_0, 5, 0, (bool)0, L_1, L_2, L_3, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1684>
 		return;
 	}
 }
@@ -19779,7 +18312,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateNtpRequest_mB1D6F013A52
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1692>
 		ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F* L_0 = __this->____ntpRequests;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_1 = ___0_endPoint;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_2 = ___0_endPoint;
@@ -19788,7 +18320,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateNtpRequest_mB1D6F013A52
 		NullCheck(L_0);
 		bool L_4;
 		L_4 = ConcurrentDictionary_2_TryAdd_m0307CAB13FEB9C4EB1B22A305A614EFBFF3B1E9E(L_0, L_1, L_3, ConcurrentDictionary_2_TryAdd_m0307CAB13FEB9C4EB1B22A305A614EFBFF3B1E9E_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1693>
 		return;
 	}
 }
@@ -19805,14 +18336,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateNtpRequest_m92B71856652
 	}
 	IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1702>
 		String_t* L_0 = ___0_ntpServerAddress;
 		int32_t L_1 = ___1_port;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_2;
 		L_2 = NetUtils_MakeEndPoint_mB593605B5D566EDF67C11C7D5BC1219815BCC0E0(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1703>
 		ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F* L_3 = __this->____ntpRequests;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_4 = V_0;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_5 = V_0;
@@ -19821,7 +18350,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateNtpRequest_m92B71856652
 		NullCheck(L_3);
 		bool L_7;
 		L_7 = ConcurrentDictionary_2_TryAdd_m0307CAB13FEB9C4EB1B22A305A614EFBFF3B1E9E(L_3, L_4, L_6, ConcurrentDictionary_2_TryAdd_m0307CAB13FEB9C4EB1B22A305A614EFBFF3B1E9E_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1704>
 		return;
 	}
 }
@@ -19838,13 +18366,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateNtpRequest_mA0FBEDC5058
 	}
 	IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1712>
 		String_t* L_0 = ___0_ntpServerAddress;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_1;
 		L_1 = NetUtils_MakeEndPoint_mB593605B5D566EDF67C11C7D5BC1219815BCC0E0(L_0, ((int32_t)123), NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1713>
 		ConcurrentDictionary_2_t3FBF4E002FA6BE77D8013873A6536C31F3342E3F* L_2 = __this->____ntpRequests;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_3 = V_0;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_4 = V_0;
@@ -19853,7 +18379,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateNtpRequest_mA0FBEDC5058
 		NullCheck(L_2);
 		bool L_6;
 		L_6 = ConcurrentDictionary_2_TryAdd_m0307CAB13FEB9C4EB1B22A305A614EFBFF3B1E9E(L_2, L_3, L_5, ConcurrentDictionary_2_TryAdd_m0307CAB13FEB9C4EB1B22A305A614EFBFF3B1E9E_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1714>
 		return;
 	}
 }
@@ -19861,7 +18386,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetManager_CreateNtpRequest_mA0FBEDC5058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE NetManager_GetEnumerator_m7A03F29AFDBC18B6B4B3DC854CE671759C654849 (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1718>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
 		NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE L_1;
@@ -19880,7 +18404,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NetManager_System_Collections_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1723>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
 		NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE L_1;
@@ -19901,7 +18424,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NetManager_System_Collections_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:1728>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = __this->____headPeer;
 		il2cpp_codegen_memory_barrier();
 		NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE L_1;
@@ -19924,7 +18446,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_U3CHashSetGetPrimeU3Eg__IsPri
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:40>
 		int32_t L_0 = ___0_candidate;
 		if (!((int32_t)(L_0&1)))
 		{
@@ -19932,20 +18453,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_U3CHashSetGetPrimeU3Eg__IsPri
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:42>
 		int32_t L_1 = ___0_candidate;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_2;
 		L_2 = sqrt(((double)L_1));
 		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:43>
 		V_1 = 3;
 		goto IL_001d;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:45>
 		int32_t L_3 = ___0_candidate;
 		int32_t L_4 = V_1;
 		if (((int32_t)(L_3%L_4)))
@@ -19954,20 +18472,17 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:46>
 		return (bool)0;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:43>
 		int32_t L_5 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_5, 2));
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:43>
 		int32_t L_6 = V_1;
 		int32_t L_7 = V_0;
 		if ((((int32_t)L_6) <= ((int32_t)L_7)))
@@ -19976,13 +18491,11 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:48>
 		return (bool)1;
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.HashSet.cs:50>
 		int32_t L_8 = ___0_candidate;
 		return (bool)((((int32_t)L_8) == ((int32_t)2))? 1 : 0);
 	}
@@ -20007,11 +18520,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_U3CNativeReceiveLogicU3Eg__Na
 	uint32_t V_3 = 0;
 	int64_t V_4 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:188>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___1_address;
 		NullCheck(L_0);
 		V_0 = ((int32_t)(((RuntimeArray*)L_0)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:189>
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_1 = ___2_p;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = L_1->___packet;
 		intptr_t L_3 = ___0_s;
@@ -20027,7 +18538,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_U3CNativeReceiveLogicU3Eg__Na
 		L_9 = NativeSocket_RecvFrom_m37C59F030EBA3A9ABE180C179A275548306FA17D(L_3, L_6, L_7, L_8, (&V_0), NULL);
 		NullCheck(L_2);
 		L_2->___Size = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:190>
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_10 = ___2_p;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_11 = L_10->___packet;
 		NullCheck(L_11);
@@ -20038,13 +18548,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetManager_U3CNativeReceiveLogicU3Eg__Na
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:191>
 		return (bool)1;
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:193>
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_13 = ___2_p;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_14 = L_13->___packet;
 		NullCheck(L_14);
@@ -20055,7 +18563,6 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:196>
 		il2cpp_codegen_runtime_class_init_inline(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var);
 		int32_t L_16;
 		L_16 = NativeSocket_GetSocketError_mC92F4922FB70210F43F9C175474755093050EA9A(NULL);
@@ -20068,7 +18575,6 @@ IL_0037:
 
 IL_0059:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:201>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19 = ___1_address;
 		NullCheck(L_19);
 		int32_t L_20 = 1;
@@ -20078,7 +18584,6 @@ IL_0059:
 		int32_t L_23 = 0;
 		uint8_t L_24 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
 		V_1 = ((int16_t)((int32_t)(((int32_t)((int32_t)L_21<<8))|(int32_t)L_24)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:202>
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_25 = ___2_p;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_26 = L_25->___tempEndPoint;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_27 = ___1_address;
@@ -20091,7 +18596,6 @@ IL_0059:
 		uint8_t L_32 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
 		NullCheck(L_26);
 		IPEndPoint_set_Port_m863E796C26AFF6CEACC4A8381E1B9CA2B78F41C4(L_26, ((int32_t)(uint16_t)((int32_t)(((int32_t)((int32_t)L_29<<8))|(int32_t)L_32))), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:203>
 		il2cpp_codegen_runtime_class_init_inline(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var);
 		bool L_33 = ((NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_StaticFields*)il2cpp_codegen_static_fields_for(NativeSocket_t571883F3917FE8FBC070A7F68FACDCB6AE16CABD_il2cpp_TypeInfo_var))->___UnixMode;
 		if (!L_33)
@@ -20126,7 +18630,6 @@ IL_0085:
 
 IL_0091:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:205>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_37 = ___1_address;
 		NullCheck(L_37);
 		int32_t L_38 = ((int32_t)27);
@@ -20144,7 +18647,6 @@ IL_0091:
 		int32_t L_47 = ((int32_t)24);
 		uint8_t L_48 = (L_46)->GetAt(static_cast<il2cpp_array_size_t>(L_47));
 		V_3 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)((int32_t)L_39<<((int32_t)24))), ((int32_t)((int32_t)L_42<<((int32_t)16))))), ((int32_t)((int32_t)L_45<<8)))), (int32_t)L_48));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:207>
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_49 = ___2_p;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_50 = L_49->___tempEndPoint;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_51 = ___1_address;
@@ -20161,7 +18663,6 @@ IL_0091:
 
 IL_00ca:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:216>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_55 = ___1_address;
 		NullCheck(L_55);
 		int32_t L_56 = 4;
@@ -20179,7 +18680,6 @@ IL_00ca:
 		int32_t L_65 = 7;
 		uint8_t L_66 = (L_64)->GetAt(static_cast<il2cpp_array_size_t>(L_65));
 		V_4 = ((int64_t)(uint64_t)((uint32_t)((int32_t)(((int32_t)(((int32_t)(((int32_t)((int32_t)L_57&((int32_t)255)))|((int32_t)(((int32_t)((int32_t)L_60<<8))&((int32_t)65280)))))|((int32_t)(((int32_t)((int32_t)L_63<<((int32_t)16)))&((int32_t)16711680)))))|((int32_t)((int32_t)L_66<<((int32_t)24)))))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:217>
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_67 = ___2_p;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_68 = L_67->___tempEndPoint;
 		int64_t L_69 = V_4;
@@ -20191,7 +18691,6 @@ IL_00ca:
 
 IL_0108:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:220>
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_71 = ___2_p;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_72 = L_71->___tempEndPoint;
 		bool L_73;
@@ -20202,7 +18701,6 @@ IL_0108:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:223>
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_74 = ___2_p;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_75 = L_74->___packet;
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_76 = V_2;
@@ -20212,13 +18710,11 @@ IL_0108:
 
 IL_0127:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:227>
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_77 = ___2_p;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_78 = L_77->___packet;
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_79 = ___2_p;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_80 = L_79->___tempEndPoint;
 		NetManager_OnMessageReceived_mD3B75666CA180500D48BC19FC2B2DB625A42313A(__this, L_78, L_80, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:228>
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_81 = ___2_p;
 		il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_82 = ((IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var))->___Any;
@@ -20230,7 +18726,6 @@ IL_0127:
 
 IL_014a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:230>
 		U3CU3Ec__DisplayClass55_0_t3D8FE586D0D83666E6302AA2EDBBDFB99BF399D3* L_84 = ___2_p;
 		il2cpp_codegen_runtime_class_init_inline(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var);
 		int32_t L_85 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___MaxPacketSize;
@@ -20238,7 +18733,6 @@ IL_014a:
 		L_86 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(__this, L_85, NULL);
 		L_84->___packet = L_86;
 		Il2CppCodeGenWriteBarrier((void**)(&L_84->___packet), (void*)L_86);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.Socket.cs:231>
 		return (bool)1;
 	}
 }
@@ -20370,13 +18864,10 @@ IL2CPP_EXTERN_C void NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeerEnumerator__ctor_mA4F8CB3995A4F9818670610F315AFC81D3EFAFE4 (NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_p, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:101>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_p;
 		__this->____initialPeer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____initialPeer), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:102>
 		NetPeerEnumerator_set_Current_m6B18A33A66D69E23EF870C5878E2CCF3A1EE0D15_inline(__this, (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:103>
 		return;
 	}
 }
@@ -20391,7 +18882,6 @@ IL2CPP_EXTERN_C  void NetPeerEnumerator__ctor_mA4F8CB3995A4F9818670610F315AFC81D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeerEnumerator_Dispose_m6590B80ABC387C6CD926E85FF5A14406D094B1C0 (NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:105>
 		return;
 	}
 }
@@ -20410,7 +18900,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetPeerEnumerator_MoveNext_m79E1837140A0
 	NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* G_B3_0 = NULL;
 	NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:109>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0;
 		L_0 = NetPeerEnumerator_get_Current_m459A823E66D9F8FBF4BCF764D7114C45353B110A_inline(__this, NULL);
 		if (!L_0)
@@ -20441,7 +18930,6 @@ IL_0018:
 IL_001e:
 	{
 		NetPeerEnumerator_set_Current_m6B18A33A66D69E23EF870C5878E2CCF3A1EE0D15_inline(G_B3_1, G_B3_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:110>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_4;
 		L_4 = NetPeerEnumerator_get_Current_m459A823E66D9F8FBF4BCF764D7114C45353B110A_inline(__this, NULL);
 		return (bool)((!(((RuntimeObject*)(NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*)L_4) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
@@ -20460,7 +18948,6 @@ IL2CPP_EXTERN_C  bool NetPeerEnumerator_MoveNext_m79E1837140A070AE6105999557F765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeerEnumerator_Reset_mD660800107671C9508DD99F70CF50A256597ED37 (NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:115>
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetPeerEnumerator_Reset_mD660800107671C9508DD99F70CF50A256597ED37_RuntimeMethod_var)));
@@ -20477,7 +18964,6 @@ IL2CPP_EXTERN_C  void NetPeerEnumerator_Reset_mD660800107671C9508DD99F70CF50A256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* NetPeerEnumerator_get_Current_m459A823E66D9F8FBF4BCF764D7114C45353B110A (NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:118>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = __this->___U3CCurrentU3Ek__BackingField;
 		return L_0;
 	}
@@ -20495,7 +18981,6 @@ IL2CPP_EXTERN_C  NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* NetPeerEnume
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeerEnumerator_set_Current_m6B18A33A66D69E23EF870C5878E2CCF3A1EE0D15 (NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:118>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_value;
 		__this->___U3CCurrentU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentU3Ek__BackingField), (void*)L_0);
@@ -20513,7 +18998,6 @@ IL2CPP_EXTERN_C  void NetPeerEnumerator_set_Current_m6B18A33A66D69E23EF870C5878E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NetPeerEnumerator_System_Collections_IEnumerator_get_Current_m13712D58295F786BAA8CF82F0B6082E35281A719 (NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:119>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0;
 		L_0 = NetPeerEnumerator_get_Current_m459A823E66D9F8FBF4BCF764D7114C45353B110A_inline(__this, NULL);
 		return L_0;
@@ -20548,17 +19032,13 @@ IL2CPP_EXTERN_C  RuntimeObject* NetPeerEnumerator_System_Collections_IEnumerator
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacketReader__ctor_mE2058C8BE68F2BC939D4971F54FB5238C9ACC583 (NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* __this, NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* ___0_manager, NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* ___1_evt, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:23>
 		NetDataReader__ctor_m57D0955A784468ECE91877BD2A176FB092D6D5C3(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:25>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_0 = ___0_manager;
 		__this->____manager = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____manager), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:26>
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_1 = ___1_evt;
 		__this->____evt = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____evt), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:27>
 		return;
 	}
 }
@@ -20566,7 +19046,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacketReader__ctor_mE2058C8BE68F2BC93
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacketReader_SetSource_m48D3AEF78A7C8068515477B7CCC5A65300D1E3C3 (NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* __this, NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* ___0_packet, int32_t ___1_headerSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:31>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		if (L_0)
 		{
@@ -20574,17 +19053,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacketReader_SetSource_m48D3AEF78A7C8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:32>
 		return;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:33>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_1 = ___0_packet;
 		__this->____packet = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____packet), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:34>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = ___0_packet;
 		NullCheck(L_2);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = L_2->___RawData;
@@ -20593,7 +19069,6 @@ IL_0004:
 		NullCheck(L_5);
 		int32_t L_6 = L_5->___Size;
 		NetDataReader_SetSource_m40FD71ED5DAF2C8B0BDACD8F0FF9CC88D9644FD4(__this, L_3, L_4, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:35>
 		return;
 	}
 }
@@ -20601,9 +19076,7 @@ IL_0004:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacketReader_RecycleInternal_m386D14B1D6F807B9CC5D604234EE19444EF9C650 (NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:39>
 		NetDataReader_Clear_mBAFB4FF5604D6A8252E741102EAE9D8AC555DEF3(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:40>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = __this->____packet;
 		if (!L_0)
 		{
@@ -20611,7 +19084,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacketReader_RecycleInternal_m386D14B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:41>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_1 = __this->____manager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = __this->____packet;
 		NullCheck(L_1);
@@ -20620,15 +19092,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacketReader_RecycleInternal_m386D14B
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:42>
 		__this->____packet = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____packet), (void*)(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:43>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_3 = __this->____manager;
 		NetEvent_t6AC4EEBEE718B394F7E434F8DA017D7AAD241283* L_4 = __this->____evt;
 		NullCheck(L_3);
 		NetManager_RecycleEvent_mCC74B17C28F35F415F7AC6E1F82B0B365C81F19F(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:44>
 		return;
 	}
 }
@@ -20636,7 +19105,6 @@ IL_001f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacketReader_Recycle_m29793C8E91375770DDB267479B8D9A4B219A68F6 (NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:48>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_0 = __this->____manager;
 		NullCheck(L_0);
 		bool L_1 = L_0->___AutoRecycle;
@@ -20646,15 +19114,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacketReader_Recycle_m29793C8E9137577
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:49>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:50>
 		NetPacketReader_RecycleInternal_m386D14B1D6F807B9CC5D604234EE19444EF9C650(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:51>
 		return;
 	}
 }
@@ -20676,15 +19141,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetEvent__ctor_m1E84ED6E659853AC5C79A925
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:84>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:86>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_0 = ___0_manager;
 		NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625* L_1 = (NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625*)il2cpp_codegen_object_new(NetPacketReader_tECA37800B3E59FA9F478A920E60E8272CBC09625_il2cpp_TypeInfo_var);
 		NetPacketReader__ctor_mE2058C8BE68F2BC939D4971F54FB5238C9ACC583(L_1, L_0, __this, NULL);
 		__this->___DataReader = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DataReader), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:87>
 		return;
 	}
 }
@@ -20727,7 +19189,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket__cctor_m9AF1F2A947A334DB79D53D
 	int32_t V_0 = 0;
 	uint8_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:30>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (PacketProperty_t244C665150199E2CAED79CF8A3AE8477229AFA62_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -20739,21 +19200,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket__cctor_m9AF1F2A947A334DB79D53D
 		int32_t L_3;
 		L_3 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_2, NULL);
 		((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___PropertiesCount = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:35>
 		int32_t L_4 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___PropertiesCount;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5;
 		L_5 = NetUtils_AllocatePinnedUninitializedArray_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m48E78CE1199C5EF09A60B8C054A29516BA06EC6F(L_4, NetUtils_AllocatePinnedUninitializedArray_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m48E78CE1199C5EF09A60B8C054A29516BA06EC6F_RuntimeMethod_var);
 		((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:36>
 		V_0 = 0;
 		goto IL_00a1;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:38>
 		int32_t L_6 = V_0;
 		V_1 = ((int32_t)(uint8_t)L_6);
 		uint8_t L_7 = V_1;
@@ -20795,73 +19253,60 @@ IL_002c:
 
 IL_0055:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:42>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes;
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_9), (int32_t)4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:43>
 		goto IL_009d;
 	}
 
 IL_005f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:45>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes;
 		int32_t L_11 = V_0;
 		NullCheck(L_10);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (int32_t)3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:46>
 		goto IL_009d;
 	}
 
 IL_0069:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:48>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes;
 		int32_t L_13 = V_0;
 		NullCheck(L_12);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (int32_t)((int32_t)18));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:49>
 		goto IL_009d;
 	}
 
 IL_0074:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:51>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_14 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes;
 		int32_t L_15 = V_0;
 		NullCheck(L_14);
 		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(L_15), (int32_t)((int32_t)15));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:52>
 		goto IL_009d;
 	}
 
 IL_007f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:54>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes;
 		int32_t L_17 = V_0;
 		NullCheck(L_16);
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(L_17), (int32_t)((int32_t)9));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:55>
 		goto IL_009d;
 	}
 
 IL_008a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:57>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_18 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes;
 		int32_t L_19 = V_0;
 		NullCheck(L_18);
 		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (int32_t)((int32_t)11));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:58>
 		goto IL_009d;
 	}
 
 IL_0095:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:60>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes;
 		int32_t L_21 = V_0;
 		NullCheck(L_20);
@@ -20870,14 +19315,12 @@ IL_0095:
 
 IL_009d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:36>
 		int32_t L_22 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_22, 1));
 	}
 
 IL_00a1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:36>
 		int32_t L_23 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_24 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes;
 		NullCheck(L_24);
@@ -20887,7 +19330,6 @@ IL_00a1:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:64>
 		return;
 	}
 }
@@ -20895,7 +19337,6 @@ IL_00a1:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetPacket_get_Property_mCA9E14C6BD5ACCE0E96B3D024F6F92063FC3174C (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:69>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
@@ -20907,7 +19348,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetPacket_get_Property_mCA9E14C6BD5AC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0 (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:70>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = __this->___RawData;
 		NullCheck(L_1);
@@ -20923,7 +19363,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_Property_mD2E445931084D202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetPacket_get_ConnectionNumber_m86A3BD7C43EB6E193129106C1568538C5D48D25F (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:74>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
@@ -20935,7 +19374,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetPacket_get_ConnectionNumber_m86A3B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_ConnectionNumber_m6D8CD109E3C47CAF82CB52B067D73D40A60C9AE7 (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:75>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = __this->___RawData;
 		NullCheck(L_1);
@@ -20951,7 +19389,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_ConnectionNumber_m6D8CD109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t NetPacket_get_Sequence_m64311962292576CC978333B498ED6533CF62412B (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:79>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		uint16_t L_1;
 		L_1 = BitConverter_ToUInt16_m1B08C19B8743A604FBC3807C22A831BD8DA5819D(L_0, 1, NULL);
@@ -20962,7 +19399,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t NetPacket_get_Sequence_m643119622925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_Sequence_mF625DB3AB0CAF8A4C4DEB600EA3D918D3E2762CC (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:80>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		uint16_t L_1 = ___0_value;
 		FastBitConverter_GetBytes_m941495BB9AA9F9D345B331C53ADC39650043645A(L_0, 1, L_1, NULL);
@@ -20973,7 +19409,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_Sequence_mF625DB3AB0CAF8A4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetPacket_get_IsFragmented_m54566DC927A90A6B5D09A81D53708ACF310A8D7D (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:82>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
@@ -20985,13 +19420,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetPacket_get_IsFragmented_m54566DC927A9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_MarkFragmented_mB4914E313C7942F54D1B11D401D50CAC71367964 (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:86>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		NullCheck(L_0);
 		uint8_t* L_1 = ((L_0)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)));
 		int32_t L_2 = *((uint8_t*)L_1);
 		*((int8_t*)L_1) = (int8_t)((int32_t)(uint8_t)((int32_t)(L_2|((int32_t)128))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:87>
 		return;
 	}
 }
@@ -20999,7 +19432,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_MarkFragmented_mB4914E313C7942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetPacket_get_ChannelId_mB1BF2046043B12C12585E2F5EBB1097E60C08948 (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:91>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		NullCheck(L_0);
 		int32_t L_1 = 3;
@@ -21011,7 +19443,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetPacket_get_ChannelId_mB1BF2046043B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_ChannelId_m579B611690004EED83E6B361B888822068FAC44E (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:92>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		uint8_t L_1 = ___0_value;
 		NullCheck(L_0);
@@ -21023,7 +19454,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_ChannelId_m579B611690004EE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t NetPacket_get_FragmentId_m9415D62C0CDA114CFD4CA6F03AF69505C5B23DE1 (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:96>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		uint16_t L_1;
 		L_1 = BitConverter_ToUInt16_m1B08C19B8743A604FBC3807C22A831BD8DA5819D(L_0, 4, NULL);
@@ -21034,7 +19464,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t NetPacket_get_FragmentId_m9415D62C0C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_FragmentId_m7946BBD554FF4348FCA976006F7408959BDCB37B (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:97>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		uint16_t L_1 = ___0_value;
 		FastBitConverter_GetBytes_m941495BB9AA9F9D345B331C53ADC39650043645A(L_0, 4, L_1, NULL);
@@ -21045,7 +19474,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_FragmentId_m7946BBD554FF43
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t NetPacket_get_FragmentPart_mECAC6E70C2582291117AEB8F594A162C20634024 (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:101>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		uint16_t L_1;
 		L_1 = BitConverter_ToUInt16_m1B08C19B8743A604FBC3807C22A831BD8DA5819D(L_0, 6, NULL);
@@ -21056,7 +19484,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t NetPacket_get_FragmentPart_mECAC6E70
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_FragmentPart_m0E1C389E5076C67CF3EC083EA820D7C055A21CF7 (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:102>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		uint16_t L_1 = ___0_value;
 		FastBitConverter_GetBytes_m941495BB9AA9F9D345B331C53ADC39650043645A(L_0, 6, L_1, NULL);
@@ -21067,7 +19494,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_FragmentPart_m0E1C389E5076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t NetPacket_get_FragmentsTotal_mA086A09BB8641F287B0EE0BB31BA416169F93E03 (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:106>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		uint16_t L_1;
 		L_1 = BitConverter_ToUInt16_m1B08C19B8743A604FBC3807C22A831BD8DA5819D(L_0, 8, NULL);
@@ -21078,7 +19504,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t NetPacket_get_FragmentsTotal_mA086A0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket_set_FragmentsTotal_m1A23C4F1D7D8936B3D7009D9CAAE6B3240957A91 (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:107>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		uint16_t L_1 = ___0_value;
 		FastBitConverter_GetBytes_m941495BB9AA9F9D345B331C53ADC39650043645A(L_0, 8, L_1, NULL);
@@ -21095,17 +19520,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket__ctor_m67D5F78728FCF2652A26D47
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:120>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:122>
 		int32_t L_0 = ___0_size;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		__this->___RawData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RawData), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:123>
 		int32_t L_2 = ___0_size;
 		__this->___Size = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:124>
 		return;
 	}
 }
@@ -21120,27 +19541,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPacket__ctor_mDD2AECA14661B0E3643D6ED
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:126>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:128>
 		int32_t L_0 = ___1_size;
 		uint8_t L_1 = ___0_property;
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = NetPacket_GetHeaderSize_m3EAFEE7F1813A006E5FBE79E29AC0D330E7321A2(L_1, NULL);
 		___1_size = ((int32_t)il2cpp_codegen_add(L_0, L_2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:129>
 		int32_t L_3 = ___1_size;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_3);
 		__this->___RawData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RawData), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:130>
 		uint8_t L_5 = ___0_property;
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(__this, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:131>
 		int32_t L_6 = ___1_size;
 		__this->___Size = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:132>
 		return;
 	}
 }
@@ -21154,7 +19569,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPacket_GetHeaderSize_m3EAFEE7F1813
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:136>
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes;
 		uint8_t L_1 = ___0_property;
@@ -21174,7 +19588,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPacket_GetHeaderSize_m41063A2C1CB4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = __this->___RawData;
@@ -21200,13 +19613,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetPacket_Verify_m9E04E468AA17E636120C7F
 	int32_t V_1 = 0;
 	bool V_2 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:146>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___RawData;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
 		uint8_t L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
 		V_0 = (uint8_t)((int32_t)(uint8_t)((int32_t)((int32_t)L_2&((int32_t)31))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:147>
 		uint8_t L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		int32_t L_4 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___PropertiesCount;
@@ -21216,13 +19627,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetPacket_Verify_m9E04E468AA17E636120C7F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:148>
 		return (bool)0;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:149>
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = ((NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_StaticFields*)il2cpp_codegen_static_fields_for(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var))->___HeaderSizes;
 		uint8_t L_6 = V_0;
@@ -21230,13 +19639,11 @@ IL_0017:
 		uint8_t L_7 = L_6;
 		int32_t L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:150>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = __this->___RawData;
 		NullCheck(L_9);
 		int32_t L_10 = 0;
 		uint8_t L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_2 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_11&((int32_t)128)))) <= ((uint32_t)0)))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:151>
 		int32_t L_12 = __this->___Size;
 		int32_t L_13 = V_1;
 		if ((((int32_t)L_12) < ((int32_t)L_13)))
@@ -21277,7 +19684,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Span_1_tDADAC65069DFE6B57C458109115ECD795ED39
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPacket.cs:155>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_p;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0->___RawData;
@@ -21334,7 +19740,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Span_1_tDADAC65069DFE6B57C458109115ECD795ED39
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetPeer_get_ConnectionNum_mA2DEE6191C2A6C4725F9BDF5A046B5E8722C552E (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:69>
 		uint8_t L_0 = __this->____connectNum;
 		return L_0;
 	}
@@ -21343,25 +19748,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetPeer_get_ConnectionNum_mA2DEE6191C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_ConnectionNum_m130899E431166FC0449DEFFCEC3D8EDBC8EFEFF5 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:72>
 		uint8_t L_0 = ___0_value;
 		__this->____connectNum = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:73>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_1 = __this->____mergeData;
 		uint8_t L_2 = ___0_value;
 		NullCheck(L_1);
 		NetPacket_set_ConnectionNumber_m6D8CD109E3C47CAF82CB52B067D73D40A60C9AE7(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:74>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3 = __this->____pingPacket;
 		uint8_t L_4 = ___0_value;
 		NullCheck(L_3);
 		NetPacket_set_ConnectionNumber_m6D8CD109E3C47CAF82CB52B067D73D40A60C9AE7(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:75>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = __this->____pongPacket;
 		uint8_t L_6 = ___0_value;
 		NullCheck(L_5);
 		NetPacket_set_ConnectionNumber_m6D8CD109E3C47CAF82CB52B067D73D40A60C9AE7(L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:76>
 		return;
 	}
 }
@@ -21369,7 +19769,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_ConnectionNum_m130899E431166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:129>
 		uint8_t L_0 = __this->___U3CConnectionStateU3Ek__BackingField;
 		return L_0;
 	}
@@ -21378,7 +19777,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t NetPeer_get_ConnectionState_mAFE854B3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:129>
 		uint8_t L_0 = ___0_value;
 		__this->___U3CConnectionStateU3Ek__BackingField = L_0;
 		return;
@@ -21388,7 +19786,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_ConnectionState_m933C21B681D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetPeer_get_ConnectTime_mC237C46C7C07E203D76A7E6A04F9B4593B12A4ED (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:133>
 		int64_t L_0 = __this->___U3CConnectTimeU3Ek__BackingField;
 		return L_0;
 	}
@@ -21397,7 +19794,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetPeer_get_ConnectTime_mC237C46C7C07
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_ConnectTime_mEE8228EF7FAB660999EE8F0480BBFBC0DF156140 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:133>
 		int64_t L_0 = ___0_value;
 		__this->___U3CConnectTimeU3Ek__BackingField = L_0;
 		return;
@@ -21407,7 +19803,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_ConnectTime_mEE8228EF7FAB660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_get_RemoteId_mDBCAD936AA189A70B4BC3925BE55FA13DE879ED6 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:141>
 		int32_t L_0 = __this->___U3CRemoteIdU3Ek__BackingField;
 		return L_0;
 	}
@@ -21416,7 +19811,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_get_RemoteId_mDBCAD936AA189A7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_RemoteId_m30DD7E8FE977EE6E0662B536EEC663916D079CD1 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:141>
 		int32_t L_0 = ___0_value;
 		__this->___U3CRemoteIdU3Ek__BackingField = L_0;
 		return;
@@ -21426,7 +19820,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_RemoteId_m30DD7E8FE977EE6E06
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_get_Ping_m6A0E7B5CD843CC1DB4AF587E47DD620FCD3E350C (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:145>
 		int32_t L_0;
 		L_0 = NetPeer_get_RoundTripTime_mF75C894728100864AE99107DC46F988E723FFFE8_inline(__this, NULL);
 		return ((int32_t)(L_0/2));
@@ -21436,7 +19829,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_get_Ping_m6A0E7B5CD843CC1DB4A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_get_RoundTripTime_mF75C894728100864AE99107DC46F988E723FFFE8 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:149>
 		int32_t L_0 = __this->___U3CRoundTripTimeU3Ek__BackingField;
 		return L_0;
 	}
@@ -21445,7 +19837,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_get_RoundTripTime_mF75C894728
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_RoundTripTime_m28E1EC9C1A7F874D7D3906BDD95090C309DDF917 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:149>
 		int32_t L_0 = ___0_value;
 		__this->___U3CRoundTripTimeU3Ek__BackingField = L_0;
 		return;
@@ -21455,7 +19846,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_RoundTripTime_m28E1EC9C1A7F8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_get_Mtu_m22C3D3FF9C2F73861DB6FDAB8548BE248B558BBF (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:153>
 		int32_t L_0 = __this->___U3CMtuU3Ek__BackingField;
 		return L_0;
 	}
@@ -21464,7 +19854,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_get_Mtu_m22C3D3FF9C2F73861DB6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_Mtu_m4853077EA78457D6754AC5746936C7D9862C30A4 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:153>
 		int32_t L_0 = ___0_value;
 		__this->___U3CMtuU3Ek__BackingField = L_0;
 		return;
@@ -21474,7 +19863,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_Mtu_m4853077EA78457D6754AC57
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetPeer_get_RemoteTimeDelta_m33CC64A835B86BE01BD2F7A06F9D59B9E1FEBF33 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:158>
 		int64_t L_0 = __this->___U3CRemoteTimeDeltaU3Ek__BackingField;
 		return L_0;
 	}
@@ -21483,7 +19871,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetPeer_get_RemoteTimeDelta_m33CC64A8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_RemoteTimeDelta_m68EC852C286D80C1B5C8C8E8FFDC21C1097406F4 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:158>
 		int64_t L_0 = ___0_value;
 		__this->___U3CRemoteTimeDeltaU3Ek__BackingField = L_0;
 		return;
@@ -21501,7 +19888,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:162>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0;
 		L_0 = DateTime_get_UtcNow_m06B6E9995FE16846A0F71EC9DB23E90BE2C5F9FA(NULL);
@@ -21520,7 +19906,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_get_TimeSinceLastPacket_mB3E3B511BFDCA8D8A3158A3A170B50D9217A52A9 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:166>
 		int32_t L_0 = __this->____timeSinceLastPacket;
 		return L_0;
 	}
@@ -21529,7 +19914,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_get_TimeSinceLastPacket_mB3E3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NetPeer_get_ResendDelay_m54DBE5D1CEA6BE9168F7A6FF7CF1B9A865803017 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:167>
 		double L_0 = __this->___U3CResendDelayU3Ek__BackingField;
 		return L_0;
 	}
@@ -21538,7 +19922,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NetPeer_get_ResendDelay_m54DBE5D1CEA6B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_ResendDelay_m0D6DA7A42081C1F087921058CADB9A6A628914CF (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:167>
 		double L_0 = ___0_value;
 		__this->___U3CResendDelayU3Ek__BackingField = L_0;
 		return;
@@ -21548,7 +19931,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_set_ResendDelay_m0D6DA7A42081C1F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* NetPeer_Serialize_mC100B2E39A836B284A02E95381158919FCC06CD5 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:186>
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_0 = __this->____cachedSocketAddr;
 		return L_0;
 	}
@@ -21557,7 +19939,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SocketAddress_tAB4BC630E51E2241E607F4070DA1AE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_GetHashCode_m1CC30C2CCAF70EA814CE115EC1C719FFC8D48279 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:192>
 		int32_t L_0 = __this->____cachedHashCode;
 		return L_0;
 	}
@@ -21588,24 +19969,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer__ctor_m5BAD885E5E3B34B4E0236064F
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:60>
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_0 = (Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043*)il2cpp_codegen_object_new(Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043_il2cpp_TypeInfo_var);
 		Stopwatch__ctor_mAFE6B2F45CF1C3469EF6D5307972BC098B473D0A(L_0, NULL);
 		__this->____pingTimer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pingTimer), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:64>
 		RuntimeObject* L_1 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_1, NULL);
 		__this->____shutdownLock = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____shutdownLock), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:91>
 		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
 		__this->____mtuMutex = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____mtuMutex), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:167>
 		__this->___U3CResendDelayU3Ek__BackingField = (27.0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:196>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_3 = ___1_remoteEndPoint;
 		NullCheck(L_3);
 		il2cpp_codegen_runtime_class_init_inline(IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var);
@@ -21616,24 +19992,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer__ctor_m5BAD885E5E3B34B4E0236064F
 		int32_t L_6;
 		L_6 = IPEndPoint_get_Port_mFBE1AF1C9CC7E68A46BF46AD3869CC9DC01CF429_inline(L_5, NULL);
 		IPEndPoint__ctor_m902C98F9E3F36B20B3C2E030AA91B62E2BC7A85A(__this, L_4, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:198>
 		int32_t L_7 = ___2_id;
 		__this->___Id = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:199>
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_8 = (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5*)il2cpp_codegen_object_new(NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5_il2cpp_TypeInfo_var);
 		NetStatistics__ctor_m2208F650D03B6C717B474509A9CADFAC67325847(L_8, NULL);
 		__this->___Statistics = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Statistics), (void*)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:200>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_9 = ___0_netManager;
 		__this->___NetManager = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___NetManager), (void*)L_9);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:202>
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_10;
 		L_10 = IPEndPoint_Serialize_m4495698C21946D39519728ADC8D4FB9860B52DD5(__this, NULL);
 		__this->____cachedSocketAddr = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedSocketAddr), (void*)L_10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:203>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_11 = __this->___NetManager;
 		NullCheck(L_11);
 		bool L_12 = L_11->___UseNativeSockets;
@@ -21643,7 +20014,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer__ctor_m5BAD885E5E3B34B4E0236064F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:205>
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_13 = __this->____cachedSocketAddr;
 		NullCheck(L_13);
 		int32_t L_14;
@@ -21651,14 +20021,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer__ctor_m5BAD885E5E3B34B4E0236064F
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_14);
 		__this->___NativeAddress = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___NativeAddress), (void*)L_15);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:206>
 		V_0 = 0;
 		goto IL_00a6;
 	}
 
 IL_008e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:207>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = __this->___NativeAddress;
 		int32_t L_17 = V_0;
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_18 = __this->____cachedSocketAddr;
@@ -21668,14 +20036,12 @@ IL_008e:
 		L_20 = SocketAddress_get_Item_mFF97A6A1AF0D8AB36C662282C477B5DBAFD10FBD(L_18, L_19, NULL);
 		NullCheck(L_16);
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(L_17), (uint8_t)L_20);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:206>
 		int32_t L_21 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_21, 1));
 	}
 
 IL_00a6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:206>
 		int32_t L_22 = V_0;
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_23 = __this->____cachedSocketAddr;
 		NullCheck(L_23);
@@ -21689,28 +20055,22 @@ IL_00a6:
 
 IL_00b4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:212>
 		il2cpp_codegen_runtime_class_init_inline(IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB_il2cpp_TypeInfo_var);
 		int32_t L_25;
 		L_25 = IPEndPoint_GetHashCode_m888B6D706296BF20224488C4909807D26655E4F3(__this, NULL);
 		__this->____cachedHashCode = L_25;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:215>
 		NetPeer_ResetMtu_mC130F5F38BAC5BDC64D144771810A6B81F2DD93D(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:217>
 		NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D_inline(__this, 4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:218>
 		il2cpp_codegen_runtime_class_init_inline(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var);
 		int32_t L_26 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___MaxPacketSize;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_27 = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)il2cpp_codegen_object_new(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		NetPacket__ctor_mDD2AECA14661B0E3643D6EDD548B3038F16C6540(L_27, ((int32_t)12), L_26, NULL);
 		__this->____mergeData = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____mergeData), (void*)L_27);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:219>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_28 = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)il2cpp_codegen_object_new(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		NetPacket__ctor_mDD2AECA14661B0E3643D6EDD548B3038F16C6540(L_28, 4, 0, NULL);
 		__this->____pongPacket = L_28;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pongPacket), (void*)L_28);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:220>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_29 = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)il2cpp_codegen_object_new(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		NetPacket__ctor_mDD2AECA14661B0E3643D6EDD548B3038F16C6540(L_29, 3, 0, NULL);
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_30 = L_29;
@@ -21718,22 +20078,18 @@ IL_00b4:
 		NetPacket_set_Sequence_mF625DB3AB0CAF8A4C4DEB600EA3D918D3E2762CC(L_30, (uint16_t)1, NULL);
 		__this->____pingPacket = L_30;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pingPacket), (void*)L_30);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:222>
 		Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_31 = (Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE*)il2cpp_codegen_object_new(Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE_il2cpp_TypeInfo_var);
 		Queue_1__ctor_mBF03286C9247F29C75FF4BF9B3670E9757E5E7D1(L_31, Queue_1__ctor_mBF03286C9247F29C75FF4BF9B3670E9757E5E7D1_RuntimeMethod_var);
 		__this->____unreliableChannel = L_31;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____unreliableChannel), (void*)L_31);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:223>
 		Dictionary_2_tBA8F9DF90E6C2E8A5EA9903D234F592F9E433976* L_32 = (Dictionary_2_tBA8F9DF90E6C2E8A5EA9903D234F592F9E433976*)il2cpp_codegen_object_new(Dictionary_2_tBA8F9DF90E6C2E8A5EA9903D234F592F9E433976_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m5E3A68E7F4B163508CC9AAD6AB8E9ACBA8FA9B4B(L_32, Dictionary_2__ctor_m5E3A68E7F4B163508CC9AAD6AB8E9ACBA8FA9B4B_RuntimeMethod_var);
 		__this->____holdedFragments = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____holdedFragments), (void*)L_32);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:224>
 		Dictionary_2_tA7395733826D49EAFAAFD65320953B6D32A24EA4* L_33 = (Dictionary_2_tA7395733826D49EAFAAFD65320953B6D32A24EA4*)il2cpp_codegen_object_new(Dictionary_2_tA7395733826D49EAFAAFD65320953B6D32A24EA4_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mF7A85F2BA076CDBD9F33D92DD17B557D04615F8F(L_33, Dictionary_2__ctor_mF7A85F2BA076CDBD9F33D92DD17B557D04615F8F_RuntimeMethod_var);
 		__this->____deliveredFragments = L_33;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____deliveredFragments), (void*)L_33);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:226>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_34 = ___0_netManager;
 		NullCheck(L_34);
 		uint8_t L_35;
@@ -21741,12 +20097,10 @@ IL_00b4:
 		BaseChannelU5BU5D_t7BC3018748044C1083384FC5AB122225F5C9DD01* L_36 = (BaseChannelU5BU5D_t7BC3018748044C1083384FC5AB122225F5C9DD01*)(BaseChannelU5BU5D_t7BC3018748044C1083384FC5AB122225F5C9DD01*)SZArrayNew(BaseChannelU5BU5D_t7BC3018748044C1083384FC5AB122225F5C9DD01_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_35, 4)));
 		__this->____channels = L_36;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____channels), (void*)L_36);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:227>
 		ConcurrentQueue_1_t2378C093C0E40264C0BFFB5F624AF61E8372FA38* L_37 = (ConcurrentQueue_1_t2378C093C0E40264C0BFFB5F624AF61E8372FA38*)il2cpp_codegen_object_new(ConcurrentQueue_1_t2378C093C0E40264C0BFFB5F624AF61E8372FA38_il2cpp_TypeInfo_var);
 		ConcurrentQueue_1__ctor_m29FF9024B93660B383961DEFCAA908CC49DE35D5(L_37, ConcurrentQueue_1__ctor_m29FF9024B93660B383961DEFCAA908CC49DE35D5_RuntimeMethod_var);
 		__this->____channelSendQueue = L_37;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____channelSendQueue), (void*)L_37);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:228>
 		return;
 	}
 }
@@ -21754,11 +20108,8 @@ IL_00b4:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_InitiateEndPointChange_m0547A919B0F862E491E733B834ED462737EAFD41 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:232>
 		NetPeer_ResetMtu_mC130F5F38BAC5BDC64D144771810A6B81F2DD93D(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:233>
 		NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D_inline(__this, ((int32_t)32), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:234>
 		return;
 	}
 }
@@ -21773,7 +20124,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_FinishEndPointChange_mF5A8F55249
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:238>
 		uint8_t L_0;
 		L_0 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 		if ((((int32_t)L_0) == ((int32_t)((int32_t)32))))
@@ -21782,27 +20132,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_FinishEndPointChange_mF5A8F55249
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:239>
 		return;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:240>
 		NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D_inline(__this, 4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:242>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_1 = ___0_newEndPoint;
 		NullCheck(L_1);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_2;
 		L_2 = IPEndPoint_get_Address_m72F783CB76E10E9DBDF680CCC1DAAED201BABB1C_inline(L_1, NULL);
 		IPEndPoint_set_Address_m48F0D8096D02B90890E453ECF1616B78BB97CF63_inline(__this, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:243>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_3 = ___0_newEndPoint;
 		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = IPEndPoint_get_Port_mFBE1AF1C9CC7E68A46BF46AD3869CC9DC01CF429_inline(L_3, NULL);
 		IPEndPoint_set_Port_m863E796C26AFF6CEACC4A8381E1B9CA2B78F41C4(__this, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:245>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_5 = __this->___NetManager;
 		NullCheck(L_5);
 		bool L_6 = L_5->___UseNativeSockets;
@@ -21812,7 +20157,6 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:247>
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_7 = __this->____cachedSocketAddr;
 		NullCheck(L_7);
 		int32_t L_8;
@@ -21820,14 +20164,12 @@ IL_000b:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_8);
 		__this->___NativeAddress = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___NativeAddress), (void*)L_9);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:248>
 		V_0 = 0;
 		goto IL_0069;
 	}
 
 IL_0051:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:249>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = __this->___NativeAddress;
 		int32_t L_11 = V_0;
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_12 = __this->____cachedSocketAddr;
@@ -21837,14 +20179,12 @@ IL_0051:
 		L_14 = SocketAddress_get_Item_mFF97A6A1AF0D8AB36C662282C477B5DBAFD10FBD(L_12, L_13, NULL);
 		NullCheck(L_10);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (uint8_t)L_14);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:248>
 		int32_t L_15 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
 IL_0069:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:248>
 		int32_t L_16 = V_0;
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_17 = __this->____cachedSocketAddr;
 		NullCheck(L_17);
@@ -21858,16 +20198,13 @@ IL_0069:
 
 IL_0077:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:251>
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_19;
 		L_19 = IPEndPoint_Serialize_m4495698C21946D39519728ADC8D4FB9860B52DD5(__this, NULL);
 		__this->____cachedSocketAddr = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedSocketAddr), (void*)L_19);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:255>
 		int32_t L_20;
 		L_20 = IPEndPoint_GetHashCode_m888B6D706296BF20224488C4909807D26655E4F3(__this, NULL);
 		__this->____cachedHashCode = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:257>
 		return;
 	}
 }
@@ -21875,9 +20212,7 @@ IL_0077:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_ResetMtu_mC130F5F38BAC5BDC64D144771810A6B81F2DD93D (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:261>
 		__this->____finishMtu = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:262>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_0 = __this->___NetManager;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___MtuOverride;
@@ -21887,7 +20222,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_ResetMtu_mC130F5F38BAC5BDC64D144
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:263>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_2 = __this->___NetManager;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___MtuOverride;
@@ -21897,7 +20231,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_ResetMtu_mC130F5F38BAC5BDC64D144
 
 IL_0027:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:264>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_4 = __this->___NetManager;
 		NullCheck(L_4);
 		bool L_5 = L_4->___UseSafeMtu;
@@ -21907,16 +20240,13 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:265>
 		NetPeer_SetMtu_m8B62DAA106F3B53D10EBCA212B24DD56F2861F8B(__this, 0, NULL);
 		return;
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:267>
 		NetPeer_SetMtu_m8B62DAA106F3B53D10EBCA212B24DD56F2861F8B(__this, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:268>
 		return;
 	}
 }
@@ -21930,10 +20260,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SetMtu_m8B62DAA106F3B53D10EBCA21
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:272>
 		int32_t L_0 = ___0_mtuIdx;
 		__this->____mtuIdx = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:273>
 		il2cpp_codegen_runtime_class_init_inline(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___PossibleMtu;
 		int32_t L_2 = ___0_mtuIdx;
@@ -21945,7 +20273,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SetMtu_m8B62DAA106F3B53D10EBCA21
 		int32_t L_6;
 		L_6 = NetManager_get_ExtraPacketSizeForLayer_m018FF6D08F0E89A1CC1844C6AC3E889D8AD27C02(L_5, NULL);
 		NetPeer_set_Mtu_m4853077EA78457D6754AC5746936C7D9862C30A4_inline(__this, ((int32_t)il2cpp_codegen_subtract(L_4, L_6)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:274>
 		return;
 	}
 }
@@ -21953,12 +20280,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SetMtu_m8B62DAA106F3B53D10EBCA21
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_OverrideMtu_m745661DF2429032ADA693CD48D4CABF28A1D1AB3 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int32_t ___0_mtuValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:278>
 		int32_t L_0 = ___0_mtuValue;
 		NetPeer_set_Mtu_m4853077EA78457D6754AC5746936C7D9862C30A4_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:279>
 		__this->____finishMtu = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:280>
 		return;
 	}
 }
@@ -21978,7 +20302,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_GetPacketsCountInReliableQueu
 	int32_t G_B3_0 = 0;
 	int32_t G_B3_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:290>
 		uint8_t L_0 = ___0_channelNumber;
 		bool L_1 = ___1_ordered;
 		if (L_1)
@@ -22003,14 +20326,12 @@ IL_0009:
 IL_000a:
 	{
 		V_0 = ((int32_t)il2cpp_codegen_add(G_B3_1, G_B3_0));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:291>
 		BaseChannelU5BU5D_t7BC3018748044C1083384FC5AB122225F5C9DD01* L_2 = __this->____channels;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_1 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:292>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_6 = V_1;
 		if (L_6)
 		{
@@ -22036,18 +20357,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79
 	int32_t V_0 = 0;
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:304>
 		int32_t L_0;
 		L_0 = NetPeer_get_Mtu_m22C3D3FF9C2F73861DB6FDAB8548BE248B558BBF_inline(__this, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:305>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_1 = __this->___NetManager;
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3;
 		L_3 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(L_1, L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:306>
 		uint8_t L_4 = ___0_deliveryMethod;
 		if ((!(((uint32_t)L_4) == ((uint32_t)4))))
 		{
@@ -22055,11 +20373,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:308>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = V_1;
 		NullCheck(L_5);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_5, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:309>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_6 = V_1;
 		int32_t L_7 = V_0;
 		PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79F7BFA6FDE L_8;
@@ -22070,11 +20386,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79
 
 IL_0028:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:313>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_9 = V_1;
 		NullCheck(L_9);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_9, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:314>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_10 = V_1;
 		int32_t L_11 = V_0;
 		uint8_t L_12 = ___1_channelNumber;
@@ -22097,7 +20411,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendPooledPacket_m2E8640F00D0716
 	Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* V_0 = NULL;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:325>
 		uint8_t L_0;
 		L_0 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 		if ((((int32_t)L_0) == ((int32_t)4)))
@@ -22106,13 +20419,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendPooledPacket_m2E8640F00D0716
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:326>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:327>
 		PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79F7BFA6FDE L_1 = ___0_packet;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = L_1.____packet;
 		PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79F7BFA6FDE L_3 = ___0_packet;
@@ -22120,7 +20431,6 @@ IL_000a:
 		int32_t L_5 = ___1_userDataSize;
 		NullCheck(L_2);
 		L_2->___Size = ((int32_t)il2cpp_codegen_add(L_4, L_5));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:328>
 		PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79F7BFA6FDE L_6 = ___0_packet;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_7 = L_6.____packet;
 		NullCheck(L_7);
@@ -22132,7 +20442,6 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:330>
 		PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79F7BFA6FDE L_9 = ___0_packet;
 		uint8_t L_10 = L_9.____channelNumber;
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_11;
@@ -22146,7 +20455,6 @@ IL_000a:
 
 IL_0043:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:334>
 		Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_14 = __this->____unreliableChannel;
 		V_0 = L_14;
 		V_1 = (bool)0;
@@ -22179,13 +20487,11 @@ IL_0070:
 		{
 			Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_17 = V_0;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_17, (&V_1), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:336>
 			Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_18 = __this->____unreliableChannel;
 			PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79F7BFA6FDE L_19 = ___0_packet;
 			NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_20 = L_19.____packet;
 			NullCheck(L_18);
 			Queue_1_Enqueue_mE1E3CD074641B4EC107717F32C6E58E393CAB0DE(L_18, L_20, Queue_1_Enqueue_mE1E3CD074641B4EC107717F32C6E58E393CAB0DE_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:337>
 			goto IL_0071;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -22196,7 +20502,6 @@ IL_0070:
 
 IL_0071:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:339>
 		return;
 	}
 }
@@ -22214,14 +20519,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseChannel_t37414836FD02E6E3977F222B0F868A86
 	BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* V_1 = NULL;
 	uint8_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:343>
 		BaseChannelU5BU5D_t7BC3018748044C1083384FC5AB122225F5C9DD01* L_0 = __this->____channels;
 		uint8_t L_1 = ___0_idx;
 		NullCheck(L_0);
 		uint8_t L_2 = L_1;
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:344>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_4 = V_0;
 		if (!L_4)
 		{
@@ -22229,14 +20532,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseChannel_t37414836FD02E6E3977F222B0F868A86
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:345>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_5 = V_0;
 		return L_5;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:346>
 		uint8_t L_6 = ___0_idx;
 		V_2 = ((int32_t)(uint8_t)((int32_t)((int32_t)L_6%4)));
 		uint8_t L_7 = V_2;
@@ -22266,40 +20567,33 @@ IL_000e:
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:349>
 		uint8_t L_8 = ___0_idx;
 		ReliableChannel_t3CA28669150161647F8C84F863A0CFEE43E228E5* L_9 = (ReliableChannel_t3CA28669150161647F8C84F863A0CFEE43E228E5*)il2cpp_codegen_object_new(ReliableChannel_t3CA28669150161647F8C84F863A0CFEE43E228E5_il2cpp_TypeInfo_var);
 		ReliableChannel__ctor_mC779E18A75E06BD2497176C3B7804A3D78FB2727(L_9, __this, (bool)0, L_8, NULL);
 		V_0 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:350>
 		goto IL_0055;
 	}
 
 IL_0036:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:352>
 		uint8_t L_10 = ___0_idx;
 		SequencedChannel_tEEE18B41347278B613CEE5F26C2D5EAD2E35800D* L_11 = (SequencedChannel_tEEE18B41347278B613CEE5F26C2D5EAD2E35800D*)il2cpp_codegen_object_new(SequencedChannel_tEEE18B41347278B613CEE5F26C2D5EAD2E35800D_il2cpp_TypeInfo_var);
 		SequencedChannel__ctor_m28A7A4B5E5036577729AC6897EF0BACE9C244F04(L_11, __this, (bool)0, L_10, NULL);
 		V_0 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:353>
 		goto IL_0055;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:355>
 		uint8_t L_12 = ___0_idx;
 		ReliableChannel_t3CA28669150161647F8C84F863A0CFEE43E228E5* L_13 = (ReliableChannel_t3CA28669150161647F8C84F863A0CFEE43E228E5*)il2cpp_codegen_object_new(ReliableChannel_t3CA28669150161647F8C84F863A0CFEE43E228E5_il2cpp_TypeInfo_var);
 		ReliableChannel__ctor_mC779E18A75E06BD2497176C3B7804A3D78FB2727(L_13, __this, (bool)1, L_12, NULL);
 		V_0 = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:356>
 		goto IL_0055;
 	}
 
 IL_004c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:358>
 		uint8_t L_14 = ___0_idx;
 		SequencedChannel_tEEE18B41347278B613CEE5F26C2D5EAD2E35800D* L_15 = (SequencedChannel_tEEE18B41347278B613CEE5F26C2D5EAD2E35800D*)il2cpp_codegen_object_new(SequencedChannel_tEEE18B41347278B613CEE5F26C2D5EAD2E35800D_il2cpp_TypeInfo_var);
 		SequencedChannel__ctor_m28A7A4B5E5036577729AC6897EF0BACE9C244F04(L_15, __this, (bool)1, L_14, NULL);
@@ -22308,7 +20602,6 @@ IL_004c:
 
 IL_0055:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:361>
 		BaseChannelU5BU5D_t7BC3018748044C1083384FC5AB122225F5C9DD01* L_16 = __this->____channels;
 		uint8_t L_17 = ___0_idx;
 		NullCheck(L_16);
@@ -22316,7 +20609,6 @@ IL_0055:
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_19;
 		L_19 = InterlockedCompareExchangeImpl<BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*>(((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17))), L_18, (BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)NULL);
 		V_1 = L_19;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:362>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_20 = V_1;
 		if (!L_20)
 		{
@@ -22324,14 +20616,12 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:363>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_21 = V_1;
 		return L_21;
 	}
 
 IL_006e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:365>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_22 = V_0;
 		return L_22;
 	}
@@ -22348,12 +20638,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer__ctor_mE088E6B92A3E15073D91DBD24
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:369>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_0 = ___0_netManager;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_1 = ___1_remoteEndPoint;
 		int32_t L_2 = ___2_id;
 		NetPeer__ctor_m5BAD885E5E3B34B4E0236064F96030AD637AB99B(__this, L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:371>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_3;
 		L_3 = DateTime_get_UtcNow_m06B6E9995FE16846A0F71EC9DB23E90BE2C5F9FA(NULL);
@@ -22361,12 +20649,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer__ctor_mE088E6B92A3E15073D91DBD24
 		int64_t L_4;
 		L_4 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&V_0), NULL);
 		NetPeer_set_ConnectTime_mEE8228EF7FAB660999EE8F0480BBFBC0DF156140_inline(__this, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:372>
 		NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D_inline(__this, 2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:373>
 		uint8_t L_5 = ___3_connectNum;
 		NetPeer_set_ConnectionNum_m130899E431166FC0449DEFFCEC3D8EDBC8EFEFF5(__this, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:376>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_6 = ___4_connectData;
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_7 = ___1_remoteEndPoint;
 		NullCheck(L_7);
@@ -22379,18 +20664,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer__ctor_mE088E6B92A3E15073D91DBD24
 		L_11 = NetConnectRequestPacket_Make_mD275F8190E988ED93892E35E30A0B20CC02C8193(L_6, L_8, L_9, L_10, NULL);
 		__this->____connectRequestPacket = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____connectRequestPacket), (void*)L_11);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:377>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_12 = __this->____connectRequestPacket;
 		uint8_t L_13 = ___3_connectNum;
 		NullCheck(L_12);
 		NetPacket_set_ConnectionNumber_m6D8CD109E3C47CAF82CB52B067D73D40A60C9AE7(L_12, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:380>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_14 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_15 = __this->____connectRequestPacket;
 		NullCheck(L_14);
 		int32_t L_16;
 		L_16 = NetManager_SendRaw_m21171611BC8856EA8D13FCC0972CCFCE0F7F6AFF(L_14, L_15, __this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:383>
 		return;
 	}
 }
@@ -22398,35 +20680,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer__ctor_mE088E6B92A3E15073D91DBD24
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer__ctor_m00A480219538FF4FCF524FC41A8B5FEDBF6B610D (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* ___0_netManager, ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* ___1_request, int32_t ___2_id, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:386>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_0 = ___0_netManager;
 		ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_1 = ___1_request;
 		NullCheck(L_1);
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_2 = L_1->___RemoteEndPoint;
 		int32_t L_3 = ___2_id;
 		NetPeer__ctor_m5BAD885E5E3B34B4E0236064F96030AD637AB99B(__this, L_0, L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:388>
 		ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_4 = ___1_request;
 		NullCheck(L_4);
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_5 = L_4->___InternalPacket;
 		NullCheck(L_5);
 		int64_t L_6 = L_5->___ConnectionTime;
 		NetPeer_set_ConnectTime_mEE8228EF7FAB660999EE8F0480BBFBC0DF156140_inline(__this, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:389>
 		ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_7 = ___1_request;
 		NullCheck(L_7);
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_8 = L_7->___InternalPacket;
 		NullCheck(L_8);
 		uint8_t L_9 = L_8->___ConnectionNumber;
 		NetPeer_set_ConnectionNum_m130899E431166FC0449DEFFCEC3D8EDBC8EFEFF5(__this, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:390>
 		ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* L_10 = ___1_request;
 		NullCheck(L_10);
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_11 = L_10->___InternalPacket;
 		NullCheck(L_11);
 		int32_t L_12 = L_11->___PeerId;
 		NetPeer_set_RemoteId_m30DD7E8FE977EE6E0662B536EEC663916D079CD1_inline(__this, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:393>
 		int64_t L_13;
 		L_13 = NetPeer_get_ConnectTime_mC237C46C7C07E203D76A7E6A04F9B4593B12A4ED_inline(__this, NULL);
 		uint8_t L_14;
@@ -22436,15 +20713,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer__ctor_m00A480219538FF4FCF524FC41
 		L_16 = NetConnectAcceptPacket_Make_m669AE45F30D4CFA52A057C8458C827194C90B515(L_13, L_14, L_15, NULL);
 		__this->____connectAcceptPacket = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____connectAcceptPacket), (void*)L_16);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:396>
 		NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D_inline(__this, 4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:399>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_17 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_18 = __this->____connectAcceptPacket;
 		NullCheck(L_17);
 		int32_t L_19;
 		L_19 = NetManager_SendRaw_m21171611BC8856EA8D13FCC0972CCFCE0F7F6AFF(L_17, L_18, __this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:402>
 		return;
 	}
 }
@@ -22452,23 +20726,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer__ctor_m00A480219538FF4FCF524FC41
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Reject_m722AD842153003C82CBE73FACB6FEA7FC5A76817 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* ___0_requestData, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_data, int32_t ___2_start, int32_t ___3_length, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:407>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_0 = ___0_requestData;
 		NullCheck(L_0);
 		int64_t L_1 = L_0->___ConnectionTime;
 		NetPeer_set_ConnectTime_mEE8228EF7FAB660999EE8F0480BBFBC0DF156140_inline(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:408>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_2 = ___0_requestData;
 		NullCheck(L_2);
 		uint8_t L_3 = L_2->___ConnectionNumber;
 		__this->____connectNum = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:409>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = ___1_data;
 		int32_t L_5 = ___2_start;
 		int32_t L_6 = ___3_length;
 		int32_t L_7;
 		L_7 = NetPeer_Shutdown_m3D2889B30607A49E881609C16C7742AE2B051BCC(__this, L_4, L_5, L_6, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:410>
 		return;
 	}
 }
@@ -22476,7 +20746,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Reject_m722AD842153003C82CBE73FA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetPeer_ProcessConnectAccept_m30E1210E016D0BD0B8D6C8AA9F4603E41C1CA9C4 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92* ___0_packet, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:414>
 		uint8_t L_0;
 		L_0 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 		if ((((int32_t)L_0) == ((int32_t)2)))
@@ -22485,13 +20754,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetPeer_ProcessConnectAccept_m30E1210E01
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:415>
 		return (bool)0;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:418>
 		NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92* L_1 = ___0_packet;
 		NullCheck(L_1);
 		int64_t L_2 = L_1->___ConnectionTime;
@@ -22503,29 +20770,23 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:421>
 		return (bool)0;
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:424>
 		NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92* L_4 = ___0_packet;
 		NullCheck(L_4);
 		uint8_t L_5 = L_4->___ConnectionNumber;
 		NetPeer_set_ConnectionNum_m130899E431166FC0449DEFFCEC3D8EDBC8EFEFF5(__this, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:425>
 		NetConnectAcceptPacket_t8659D4525CCF6ADA8132F97F00B85C0F1C180D92* L_6 = ___0_packet;
 		NullCheck(L_6);
 		int32_t L_7 = L_6->___PeerId;
 		NetPeer_set_RemoteId_m30DD7E8FE977EE6E0662B536EEC663916D079CD1_inline(__this, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:428>
 		int32_t* L_8 = (int32_t*)(&__this->____timeSinceLastPacket);
 		int32_t L_9;
 		L_9 = Interlocked_Exchange_m5810F59A9EF49D8003BA76D95398854254A091DF(L_8, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:429>
 		NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D_inline(__this, 4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:430>
 		return (bool)1;
 	}
 }
@@ -22543,7 +20804,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_GetMaxSinglePacketSize_m03CB2
 	int32_t G_B3_0 = 0;
 	int32_t G_B3_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:440>
 		int32_t L_0;
 		L_0 = NetPeer_get_Mtu_m22C3D3FF9C2F73861DB6FDAB8548BE248B558BBF_inline(__this, NULL);
 		uint8_t L_1 = ___0_options;
@@ -22578,7 +20838,6 @@ IL_000e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_mED32AFA6AB2E8A8AD43F84BEDD52F4D85FB0B10E (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, uint8_t ___1_channelNumber, uint8_t ___2_deliveryMethod, RuntimeObject* ___3_userData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:456>
 		uint8_t L_0 = ___2_deliveryMethod;
 		if ((((int32_t)L_0) == ((int32_t)2)))
 		{
@@ -22593,7 +20852,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_mED32AFA6A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:457>
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_2 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6B2948CB6A792D64EBB4997FCB51DFB25B5686B0)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetPeer_SendWithDeliveryEvent_mED32AFA6AB2E8A8AD43F84BEDD52F4D85FB0B10E_RuntimeMethod_var)));
@@ -22601,7 +20859,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_mED32AFA6A
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:458>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___0_data;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = ___0_data;
 		NullCheck(L_4);
@@ -22609,7 +20866,6 @@ IL_0012:
 		uint8_t L_6 = ___2_deliveryMethod;
 		RuntimeObject* L_7 = ___3_userData;
 		NetPeer_SendInternal_m96EB6C288B10C18575F1FD3AF86E0A2E25D52F44(__this, L_3, 0, ((int32_t)(((RuntimeArray*)L_4)->max_length)), L_5, L_6, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:459>
 		return;
 	}
 }
@@ -22617,7 +20873,6 @@ IL_0012:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_m09DDFCCE222D3149B8D9F134232CE4EAB2199240 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_start, int32_t ___2_length, uint8_t ___3_channelNumber, uint8_t ___4_deliveryMethod, RuntimeObject* ___5_userData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:476>
 		uint8_t L_0 = ___4_deliveryMethod;
 		if ((((int32_t)L_0) == ((int32_t)2)))
 		{
@@ -22632,7 +20887,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_m09DDFCCE2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:477>
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_2 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6B2948CB6A792D64EBB4997FCB51DFB25B5686B0)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetPeer_SendWithDeliveryEvent_m09DDFCCE222D3149B8D9F134232CE4EAB2199240_RuntimeMethod_var)));
@@ -22640,7 +20894,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_m09DDFCCE2
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:478>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___0_data;
 		int32_t L_4 = ___1_start;
 		int32_t L_5 = ___2_length;
@@ -22648,7 +20901,6 @@ IL_0014:
 		uint8_t L_7 = ___4_deliveryMethod;
 		RuntimeObject* L_8 = ___5_userData;
 		NetPeer_SendInternal_m96EB6C288B10C18575F1FD3AF86E0A2E25D52F44(__this, L_3, L_4, L_5, L_6, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:479>
 		return;
 	}
 }
@@ -22656,7 +20908,6 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_mA0ACCC4F2D610845E869E92586B22F8E8F6D24E7 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_dataWriter, uint8_t ___1_channelNumber, uint8_t ___2_deliveryMethod, RuntimeObject* ___3_userData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:494>
 		uint8_t L_0 = ___2_deliveryMethod;
 		if ((((int32_t)L_0) == ((int32_t)2)))
 		{
@@ -22671,7 +20922,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_mA0ACCC4F2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:495>
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_2 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6B2948CB6A792D64EBB4997FCB51DFB25B5686B0)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetPeer_SendWithDeliveryEvent_mA0ACCC4F2D610845E869E92586B22F8E8F6D24E7_RuntimeMethod_var)));
@@ -22679,7 +20929,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_mA0ACCC4F2
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:496>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_3 = ___0_dataWriter;
 		NullCheck(L_3);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
@@ -22692,7 +20941,6 @@ IL_0012:
 		uint8_t L_8 = ___2_deliveryMethod;
 		RuntimeObject* L_9 = ___3_userData;
 		NetPeer_SendInternal_m96EB6C288B10C18575F1FD3AF86E0A2E25D52F44(__this, L_4, 0, L_6, L_7, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:497>
 		return;
 	}
 }
@@ -22700,13 +20948,11 @@ IL_0012:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_m70FFD816EDFEC8B825D2DDF8625103A6F582FCC8 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, uint8_t ___1_deliveryMethod, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:514>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_data;
 		NullCheck(L_1);
 		uint8_t L_2 = ___1_deliveryMethod;
 		NetPeer_SendInternal_m96EB6C288B10C18575F1FD3AF86E0A2E25D52F44(__this, L_0, 0, ((int32_t)(((RuntimeArray*)L_1)->max_length)), (uint8_t)0, L_2, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:515>
 		return;
 	}
 }
@@ -22714,7 +20960,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_m70FFD816EDFEC8B825D2DDF862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_mA6C5391B50147B10F77B2E9535EC002F8E467332 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_dataWriter, uint8_t ___1_deliveryMethod, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:532>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___0_dataWriter;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
@@ -22725,7 +20970,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_mA6C5391B50147B10F77B2E9535
 		L_3 = NetDataWriter_get_Length_mC213D6934BF8FFAA5225907F85879EB05040B7A4_inline(L_2, NULL);
 		uint8_t L_4 = ___1_deliveryMethod;
 		NetPeer_SendInternal_m96EB6C288B10C18575F1FD3AF86E0A2E25D52F44(__this, L_1, 0, L_3, (uint8_t)0, L_4, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:533>
 		return;
 	}
 }
@@ -22733,13 +20977,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_mA6C5391B50147B10F77B2E9535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_m174443F8362D37537F2A5B015BB8447ECF9A5EB3 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_start, int32_t ___2_length, uint8_t ___3_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:552>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		int32_t L_1 = ___1_start;
 		int32_t L_2 = ___2_length;
 		uint8_t L_3 = ___3_options;
 		NetPeer_SendInternal_m96EB6C288B10C18575F1FD3AF86E0A2E25D52F44(__this, L_0, L_1, L_2, (uint8_t)0, L_3, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:553>
 		return;
 	}
 }
@@ -22747,14 +20989,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_m174443F8362D37537F2A5B015B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_mA64EFA424BA7F22483745CCFB90CFC12D44DC574 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, uint8_t ___1_channelNumber, uint8_t ___2_deliveryMethod, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:571>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_data;
 		NullCheck(L_1);
 		uint8_t L_2 = ___1_channelNumber;
 		uint8_t L_3 = ___2_deliveryMethod;
 		NetPeer_SendInternal_m96EB6C288B10C18575F1FD3AF86E0A2E25D52F44(__this, L_0, 0, ((int32_t)(((RuntimeArray*)L_1)->max_length)), L_2, L_3, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:572>
 		return;
 	}
 }
@@ -22762,7 +21002,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_mA64EFA424BA7F22483745CCFB9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_m7B0ADD2294D84A7B950F971893703E6B4356C102 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_dataWriter, uint8_t ___1_channelNumber, uint8_t ___2_deliveryMethod, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:590>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___0_dataWriter;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1;
@@ -22774,7 +21013,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_m7B0ADD2294D84A7B950F971893
 		uint8_t L_4 = ___1_channelNumber;
 		uint8_t L_5 = ___2_deliveryMethod;
 		NetPeer_SendInternal_m96EB6C288B10C18575F1FD3AF86E0A2E25D52F44(__this, L_1, 0, L_3, L_4, L_5, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:591>
 		return;
 	}
 }
@@ -22782,14 +21020,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_m7B0ADD2294D84A7B950F971893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_mAF39C07EDE05505CF8E18F2B5E794FF13FBE2D06 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_start, int32_t ___2_length, uint8_t ___3_channelNumber, uint8_t ___4_deliveryMethod, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:611>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		int32_t L_1 = ___1_start;
 		int32_t L_2 = ___2_length;
 		uint8_t L_3 = ___3_channelNumber;
 		uint8_t L_4 = ___4_deliveryMethod;
 		NetPeer_SendInternal_m96EB6C288B10C18575F1FD3AF86E0A2E25D52F44(__this, L_0, L_1, L_2, L_3, L_4, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:612>
 		return;
 	}
 }
@@ -22824,7 +21060,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendInternal_m96EB6C288B10C18575
 	int32_t G_B13_1 = 0;
 	int32_t G_B19_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:616>
 		uint8_t L_0;
 		L_0 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)4))))
@@ -22844,15 +21079,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendInternal_m96EB6C288B10C18575
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:617>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:621>
 		V_1 = (BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:623>
 		uint8_t L_3 = ___4_deliveryMethod;
 		if ((!(((uint32_t)L_3) == ((uint32_t)4))))
 		{
@@ -22860,16 +21092,13 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:625>
 		V_0 = 0;
 		goto IL_0032;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:629>
 		V_0 = 1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:630>
 		uint8_t L_4 = ___3_channelNumber;
 		uint8_t L_5 = ___4_deliveryMethod;
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_6;
@@ -22879,17 +21108,14 @@ IL_0021:
 
 IL_0032:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:637>
 		uint8_t L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		int32_t L_8;
 		L_8 = NetPacket_GetHeaderSize_m3EAFEE7F1813A006E5FBE79E29AC0D330E7321A2(L_7, NULL);
 		V_2 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:639>
 		int32_t L_9;
 		L_9 = NetPeer_get_Mtu_m22C3D3FF9C2F73861DB6FDAB8548BE248B558BBF_inline(__this, NULL);
 		V_3 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:640>
 		int32_t L_10 = ___2_length;
 		int32_t L_11 = V_2;
 		int32_t L_12 = V_3;
@@ -22899,7 +21125,6 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:643>
 		uint8_t L_13 = ___4_deliveryMethod;
 		if ((((int32_t)L_13) == ((int32_t)2)))
 		{
@@ -22914,7 +21139,6 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:644>
 		int32_t L_15 = V_3;
 		int32_t L_16 = V_2;
 		V_8 = ((int32_t)il2cpp_codegen_subtract(L_15, L_16));
@@ -22929,12 +21153,9 @@ IL_0032:
 
 IL_0073:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:646>
 		int32_t L_20 = V_3;
 		int32_t L_21 = V_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:647>
 		V_5 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_20, L_21)), 6));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:648>
 		int32_t L_22 = ___2_length;
 		int32_t L_23 = V_5;
 		int32_t L_24 = ___2_length;
@@ -22961,7 +21182,6 @@ IL_0087:
 IL_0088:
 	{
 		V_6 = ((int32_t)il2cpp_codegen_add(G_B13_1, G_B13_0));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:657>
 		int32_t L_26 = V_6;
 		if ((((int32_t)L_26) <= ((int32_t)((int32_t)65535))))
 		{
@@ -22969,7 +21189,6 @@ IL_0088:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:658>
 		String_t* L_27;
 		L_27 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_6), NULL);
 		V_9 = (uint16_t)((int32_t)65535);
@@ -22984,19 +21203,16 @@ IL_0088:
 
 IL_00be:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:660>
 		int32_t* L_31 = (int32_t*)(&__this->____fragmentId);
 		int32_t L_32;
 		L_32 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_31, NULL);
 		V_7 = (uint16_t)((int32_t)(uint16_t)L_32);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:662>
 		V_10 = (uint16_t)0;
 		goto IL_0154;
 	}
 
 IL_00d4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:664>
 		int32_t L_33 = ___2_length;
 		int32_t L_34 = V_5;
 		if ((((int32_t)L_33) > ((int32_t)L_34)))
@@ -23019,7 +21235,6 @@ IL_00dc:
 IL_00de:
 	{
 		V_11 = G_B19_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:666>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_37 = __this->___NetManager;
 		int32_t L_38 = V_2;
 		int32_t L_39 = V_11;
@@ -23027,37 +21242,30 @@ IL_00de:
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_40;
 		L_40 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(L_37, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_38, L_39)), 6)), NULL);
 		V_12 = L_40;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:667>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_41 = V_12;
 		uint8_t L_42 = V_0;
 		NullCheck(L_41);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_41, L_42, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:668>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_43 = V_12;
 		RuntimeObject* L_44 = ___5_userData;
 		NullCheck(L_43);
 		L_43->___UserData = L_44;
 		Il2CppCodeGenWriteBarrier((void**)(&L_43->___UserData), (void*)L_44);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:669>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_45 = V_12;
 		uint16_t L_46 = V_7;
 		NullCheck(L_45);
 		NetPacket_set_FragmentId_m7946BBD554FF4348FCA976006F7408959BDCB37B(L_45, L_46, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:670>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_47 = V_12;
 		uint16_t L_48 = V_10;
 		NullCheck(L_47);
 		NetPacket_set_FragmentPart_m0E1C389E5076C67CF3EC083EA820D7C055A21CF7(L_47, L_48, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:671>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_49 = V_12;
 		int32_t L_50 = V_6;
 		NullCheck(L_49);
 		NetPacket_set_FragmentsTotal_m1A23C4F1D7D8936B3D7009D9CAAE6B3240957A91(L_49, (uint16_t)((int32_t)(uint16_t)L_50), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:672>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_51 = V_12;
 		NullCheck(L_51);
 		NetPacket_MarkFragmented_mB4914E313C7942F54D1B11D401D50CAC71367964(L_51, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:674>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_52 = ___0_data;
 		int32_t L_53 = ___1_start;
 		uint16_t L_54 = V_10;
@@ -23067,23 +21275,19 @@ IL_00de:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_57 = L_56->___RawData;
 		int32_t L_58 = V_11;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_52, ((int32_t)il2cpp_codegen_add(L_53, ((int32_t)il2cpp_codegen_multiply((int32_t)L_54, L_55)))), (RuntimeArray*)L_57, ((int32_t)10), L_58, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:675>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_59 = V_1;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_60 = V_12;
 		NullCheck(L_59);
 		BaseChannel_AddToQueue_m52915209F44E15B67508C099FB9E88FF1A5DC1EE(L_59, L_60, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:677>
 		int32_t L_61 = ___2_length;
 		int32_t L_62 = V_11;
 		___2_length = ((int32_t)il2cpp_codegen_subtract(L_61, L_62));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:662>
 		uint16_t L_63 = V_10;
 		V_10 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_63, 1)));
 	}
 
 IL_0154:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:662>
 		uint16_t L_64 = V_10;
 		int32_t L_65 = V_6;
 		if ((((int32_t)L_64) < ((int32_t)L_65)))
@@ -23092,13 +21296,11 @@ IL_0154:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:679>
 		return;
 	}
 
 IL_015e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:683>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_66 = __this->___NetManager;
 		int32_t L_67 = V_2;
 		int32_t L_68 = ___2_length;
@@ -23106,12 +21308,10 @@ IL_015e:
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_69;
 		L_69 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(L_66, ((int32_t)il2cpp_codegen_add(L_67, L_68)), NULL);
 		V_4 = L_69;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:684>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_70 = V_4;
 		uint8_t L_71 = V_0;
 		NullCheck(L_70);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_70, L_71, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:685>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_72 = ___0_data;
 		int32_t L_73 = ___1_start;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_74 = V_4;
@@ -23120,13 +21320,11 @@ IL_015e:
 		int32_t L_76 = V_2;
 		int32_t L_77 = ___2_length;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_72, L_73, (RuntimeArray*)L_75, L_76, L_77, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:686>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_78 = V_4;
 		RuntimeObject* L_79 = ___5_userData;
 		NullCheck(L_78);
 		L_78->___UserData = L_79;
 		Il2CppCodeGenWriteBarrier((void**)(&L_78->___UserData), (void*)L_79);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:688>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_80 = V_1;
 		if (L_80)
 		{
@@ -23134,7 +21332,6 @@ IL_015e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:690>
 		Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_81 = __this->____unreliableChannel;
 		V_13 = L_81;
 		V_14 = (bool)0;
@@ -23167,12 +21364,10 @@ IL_01c0:
 		{
 			Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_84 = V_13;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_84, (&V_14), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:692>
 			Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_85 = __this->____unreliableChannel;
 			NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_86 = V_4;
 			NullCheck(L_85);
 			Queue_1_Enqueue_mE1E3CD074641B4EC107717F32C6E58E393CAB0DE(L_85, L_86, Queue_1_Enqueue_mE1E3CD074641B4EC107717F32C6E58E393CAB0DE_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:693>
 			goto IL_01c9;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -23183,7 +21378,6 @@ IL_01c0:
 
 IL_01c1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:697>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_87 = V_1;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_88 = V_4;
 		NullCheck(L_87);
@@ -23192,7 +21386,6 @@ IL_01c1:
 
 IL_01c9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:699>
 		return;
 	}
 }
@@ -23200,7 +21393,6 @@ IL_01c9:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_mEA1A4749391A00B89BBB580259D17342045D3EDC (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___0_data, uint8_t ___1_channelNumber, uint8_t ___2_deliveryMethod, RuntimeObject* ___3_userData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:715>
 		uint8_t L_0 = ___2_deliveryMethod;
 		if ((((int32_t)L_0) == ((int32_t)2)))
 		{
@@ -23215,7 +21407,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_mEA1A47493
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:716>
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_2 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_2, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6B2948CB6A792D64EBB4997FCB51DFB25B5686B0)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NetPeer_SendWithDeliveryEvent_mEA1A4749391A00B89BBB580259D17342045D3EDC_RuntimeMethod_var)));
@@ -23223,13 +21414,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendWithDeliveryEvent_mEA1A47493
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:717>
 		ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D L_3 = ___0_data;
 		uint8_t L_4 = ___1_channelNumber;
 		uint8_t L_5 = ___2_deliveryMethod;
 		RuntimeObject* L_6 = ___3_userData;
 		NetPeer_SendInternal_m94329CDCC281EA0775C218E186B92D08CF173CF6(__this, L_3, L_4, L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:718>
 		return;
 	}
 }
@@ -23237,11 +21426,9 @@ IL_0012:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_mD895E6068FA51CA7AE3B30BC4677E385B66DA618 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___0_data, uint8_t ___1_deliveryMethod, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:735>
 		ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D L_0 = ___0_data;
 		uint8_t L_1 = ___1_deliveryMethod;
 		NetPeer_SendInternal_m94329CDCC281EA0775C218E186B92D08CF173CF6(__this, L_0, (uint8_t)0, L_1, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:736>
 		return;
 	}
 }
@@ -23249,12 +21436,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_mD895E6068FA51CA7AE3B30BC46
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Send_m9781452FA6C1BFAAFA307FDF338F33300751EC40 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___0_data, uint8_t ___1_channelNumber, uint8_t ___2_deliveryMethod, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:754>
 		ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D L_0 = ___0_data;
 		uint8_t L_1 = ___1_channelNumber;
 		uint8_t L_2 = ___2_deliveryMethod;
 		NetPeer_SendInternal_m94329CDCC281EA0775C218E186B92D08CF173CF6(__this, L_0, L_1, L_2, NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:755>
 		return;
 	}
 }
@@ -23296,7 +21481,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendInternal_m94329CDCC281EA0775
 	int32_t G_B13_1 = 0;
 	int32_t G_B19_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:759>
 		uint8_t L_0;
 		L_0 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)4))))
@@ -23316,15 +21500,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendInternal_m94329CDCC281EA0775
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:760>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:764>
 		V_1 = (BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:766>
 		uint8_t L_3 = ___2_deliveryMethod;
 		if ((!(((uint32_t)L_3) == ((uint32_t)4))))
 		{
@@ -23332,16 +21513,13 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:768>
 		V_0 = 0;
 		goto IL_002e;
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:772>
 		V_0 = 1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:773>
 		uint8_t L_4 = ___1_channelNumber;
 		uint8_t L_5 = ___2_deliveryMethod;
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_6;
@@ -23351,21 +21529,17 @@ IL_001f:
 
 IL_002e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:780>
 		uint8_t L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		int32_t L_8;
 		L_8 = NetPacket_GetHeaderSize_m3EAFEE7F1813A006E5FBE79E29AC0D330E7321A2(L_7, NULL);
 		V_2 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:782>
 		int32_t L_9;
 		L_9 = NetPeer_get_Mtu_m22C3D3FF9C2F73861DB6FDAB8548BE248B558BBF_inline(__this, NULL);
 		V_3 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:783>
 		int32_t L_10;
 		L_10 = ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_inline((&___0_data), ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF63699982_RuntimeMethod_var);
 		V_4 = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:784>
 		int32_t L_11 = V_4;
 		int32_t L_12 = V_2;
 		int32_t L_13 = V_3;
@@ -23375,7 +21549,6 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:787>
 		uint8_t L_14 = ___2_deliveryMethod;
 		if ((((int32_t)L_14) == ((int32_t)2)))
 		{
@@ -23390,7 +21563,6 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:788>
 		int32_t L_16 = V_3;
 		int32_t L_17 = V_2;
 		V_9 = ((int32_t)il2cpp_codegen_subtract(L_16, L_17));
@@ -23405,12 +21577,9 @@ IL_002e:
 
 IL_0077:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:790>
 		int32_t L_21 = V_3;
 		int32_t L_22 = V_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:791>
 		V_6 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_21, L_22)), 6));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:792>
 		int32_t L_23 = V_4;
 		int32_t L_24 = V_6;
 		int32_t L_25 = V_4;
@@ -23437,7 +21606,6 @@ IL_008d:
 IL_008e:
 	{
 		V_7 = ((int32_t)il2cpp_codegen_add(G_B13_1, G_B13_0));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:794>
 		int32_t L_27 = V_7;
 		if ((((int32_t)L_27) <= ((int32_t)((int32_t)65535))))
 		{
@@ -23445,7 +21613,6 @@ IL_008e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:795>
 		String_t* L_28;
 		L_28 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_7), NULL);
 		V_10 = (uint16_t)((int32_t)65535);
@@ -23460,19 +21627,16 @@ IL_008e:
 
 IL_00c4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:797>
 		int32_t* L_32 = (int32_t*)(&__this->____fragmentId);
 		int32_t L_33;
 		L_33 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_32, NULL);
 		V_8 = (uint16_t)((int32_t)(uint16_t)L_33);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:799>
 		V_11 = (uint16_t)0;
 		goto IL_016c;
 	}
 
 IL_00da:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:801>
 		int32_t L_34 = V_4;
 		int32_t L_35 = V_6;
 		if ((((int32_t)L_34) > ((int32_t)L_35)))
@@ -23495,7 +21659,6 @@ IL_00e4:
 IL_00e6:
 	{
 		V_12 = G_B19_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:803>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_38 = __this->___NetManager;
 		int32_t L_39 = V_2;
 		int32_t L_40 = V_12;
@@ -23503,37 +21666,30 @@ IL_00e6:
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_41;
 		L_41 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(L_38, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_39, L_40)), 6)), NULL);
 		V_13 = L_41;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:804>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_42 = V_13;
 		uint8_t L_43 = V_0;
 		NullCheck(L_42);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_42, L_43, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:805>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_44 = V_13;
 		RuntimeObject* L_45 = ___3_userData;
 		NullCheck(L_44);
 		L_44->___UserData = L_45;
 		Il2CppCodeGenWriteBarrier((void**)(&L_44->___UserData), (void*)L_45);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:806>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_46 = V_13;
 		uint16_t L_47 = V_8;
 		NullCheck(L_46);
 		NetPacket_set_FragmentId_m7946BBD554FF4348FCA976006F7408959BDCB37B(L_46, L_47, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:807>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_48 = V_13;
 		uint16_t L_49 = V_11;
 		NullCheck(L_48);
 		NetPacket_set_FragmentPart_m0E1C389E5076C67CF3EC083EA820D7C055A21CF7(L_48, L_49, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:808>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_50 = V_13;
 		int32_t L_51 = V_7;
 		NullCheck(L_50);
 		NetPacket_set_FragmentsTotal_m1A23C4F1D7D8936B3D7009D9CAAE6B3240957A91(L_50, (uint16_t)((int32_t)(uint16_t)L_51), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:809>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_52 = V_13;
 		NullCheck(L_52);
 		NetPacket_MarkFragmented_mB4914E313C7942F54D1B11D401D50CAC71367964(L_52, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:811>
 		uint16_t L_53 = V_11;
 		int32_t L_54 = V_6;
 		int32_t L_55 = V_12;
@@ -23548,23 +21704,19 @@ IL_00e6:
 		memset((&L_60), 0, sizeof(L_60));
 		Span_1__ctor_m698EC79E2E44AFF16BA096D0861CFB129FBF8218_inline((&L_60), L_58, ((int32_t)10), L_59, Span_1__ctor_m698EC79E2E44AFF16BA096D0861CFB129FBF8218_RuntimeMethod_var);
 		ReadOnlySpan_1_CopyTo_m8144AA3941DF7B7C2C665680221977E1D15D1462((&V_14), L_60, ReadOnlySpan_1_CopyTo_m8144AA3941DF7B7C2C665680221977E1D15D1462_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:812>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_61 = V_1;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_62 = V_13;
 		NullCheck(L_61);
 		BaseChannel_AddToQueue_m52915209F44E15B67508C099FB9E88FF1A5DC1EE(L_61, L_62, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:814>
 		int32_t L_63 = V_4;
 		int32_t L_64 = V_12;
 		V_4 = ((int32_t)il2cpp_codegen_subtract(L_63, L_64));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:799>
 		uint16_t L_65 = V_11;
 		V_11 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_65, 1)));
 	}
 
 IL_016c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:799>
 		uint16_t L_66 = V_11;
 		int32_t L_67 = V_7;
 		if ((((int32_t)L_66) < ((int32_t)L_67)))
@@ -23573,13 +21725,11 @@ IL_016c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:816>
 		return;
 	}
 
 IL_0176:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:820>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_68 = __this->___NetManager;
 		int32_t L_69 = V_2;
 		int32_t L_70 = V_4;
@@ -23587,12 +21737,10 @@ IL_0176:
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_71;
 		L_71 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(L_68, ((int32_t)il2cpp_codegen_add(L_69, L_70)), NULL);
 		V_5 = L_71;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:821>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_72 = V_5;
 		uint8_t L_73 = V_0;
 		NullCheck(L_72);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_72, L_73, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:822>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_74 = V_5;
 		NullCheck(L_74);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_75 = L_74->___RawData;
@@ -23602,13 +21750,11 @@ IL_0176:
 		memset((&L_78), 0, sizeof(L_78));
 		Span_1__ctor_m698EC79E2E44AFF16BA096D0861CFB129FBF8218_inline((&L_78), L_75, L_76, L_77, Span_1__ctor_m698EC79E2E44AFF16BA096D0861CFB129FBF8218_RuntimeMethod_var);
 		ReadOnlySpan_1_CopyTo_m8144AA3941DF7B7C2C665680221977E1D15D1462((&___0_data), L_78, ReadOnlySpan_1_CopyTo_m8144AA3941DF7B7C2C665680221977E1D15D1462_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:823>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_79 = V_5;
 		RuntimeObject* L_80 = ___3_userData;
 		NullCheck(L_79);
 		L_79->___UserData = L_80;
 		Il2CppCodeGenWriteBarrier((void**)(&L_79->___UserData), (void*)L_80);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:825>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_81 = V_1;
 		if (L_81)
 		{
@@ -23616,7 +21762,6 @@ IL_0176:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:827>
 		Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_82 = __this->____unreliableChannel;
 		V_15 = L_82;
 		V_16 = (bool)0;
@@ -23649,12 +21794,10 @@ IL_01df:
 		{
 			Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_85 = V_15;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_85, (&V_16), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:829>
 			Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_86 = __this->____unreliableChannel;
 			NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_87 = V_5;
 			NullCheck(L_86);
 			Queue_1_Enqueue_mE1E3CD074641B4EC107717F32C6E58E393CAB0DE(L_86, L_87, Queue_1_Enqueue_mE1E3CD074641B4EC107717F32C6E58E393CAB0DE_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:830>
 			goto IL_01e8;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -23665,7 +21808,6 @@ IL_01df:
 
 IL_01e0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:834>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_88 = V_1;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_89 = V_5;
 		NullCheck(L_88);
@@ -23674,7 +21816,6 @@ IL_01e0:
 
 IL_01e8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:836>
 		return;
 	}
 }
@@ -23682,12 +21823,10 @@ IL_01e8:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Disconnect_mABF5ACEDBA1DF33D4E17BF8EC7FC39AB334B97DE (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:841>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_0 = __this->___NetManager;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_data;
 		NullCheck(L_0);
 		NetManager_DisconnectPeer_mC5F70EE39FA43907921BA3FBD28196FC8C9BB244(L_0, __this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:842>
 		return;
 	}
 }
@@ -23695,12 +21834,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Disconnect_mABF5ACEDBA1DF33D4E17
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Disconnect_m3A7473139AB6AEB98EB14D80E8F10D6FB399BC75 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___0_writer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:846>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_0 = __this->___NetManager;
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_1 = ___0_writer;
 		NullCheck(L_0);
 		NetManager_DisconnectPeer_m4F7034AF1E34942E0445901C088E3B85405FD97B(L_0, __this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:847>
 		return;
 	}
 }
@@ -23708,14 +21845,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Disconnect_m3A7473139AB6AEB98EB1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Disconnect_m2B4201AD636E8A8715D2957978EC3A6275BDDD28 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_start, int32_t ___2_count, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:851>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_0 = __this->___NetManager;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_data;
 		int32_t L_2 = ___1_start;
 		int32_t L_3 = ___2_count;
 		NullCheck(L_0);
 		NetManager_DisconnectPeer_m9922F3ED5A6301A4DE6204476B7D0D86AB2559B5(L_0, __this, L_1, L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:852>
 		return;
 	}
 }
@@ -23723,11 +21858,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Disconnect_m2B4201AD636E8A8715D2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Disconnect_m4A32F09A97BC787A23136EB9496604993A5E6884 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:856>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_0 = __this->___NetManager;
 		NullCheck(L_0);
 		NetManager_DisconnectPeer_m5072F34CFF631E49A9845E64566F149FF1BEDBE1(L_0, __this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:857>
 		return;
 	}
 }
@@ -23735,7 +21868,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Disconnect_m4A32F09A97BC787A2313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_ProcessDisconnect_mA2228CC68B1B5146150C81895185CDD1829B4B41 (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* ___0_packet, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:861>
 		uint8_t L_0;
 		L_0 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 		if ((((int32_t)L_0) == ((int32_t)4)))
@@ -23787,7 +21919,6 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:863>
 		uint8_t L_11;
 		L_11 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 		if ((((int32_t)L_11) == ((int32_t)4)))
@@ -23806,7 +21937,6 @@ IL_0049:
 
 IL_004b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:865>
 		return (int32_t)(0);
 	}
 }
@@ -23820,12 +21950,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_AddToReliableChannelSendQueue_m3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:870>
 		ConcurrentQueue_1_t2378C093C0E40264C0BFFB5F624AF61E8372FA38* L_0 = __this->____channelSendQueue;
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_1 = ___0_channel;
 		NullCheck(L_0);
 		ConcurrentQueue_1_Enqueue_m30CAC83308B31FFE9ECAA4AEC06B77F225FAFA55(L_0, L_1, ConcurrentQueue_1_Enqueue_m30CAC83308B31FFE9ECAA4AEC06B77F225FAFA55_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:871>
 		return;
 	}
 }
@@ -23846,7 +21974,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_Shutdown_m3D2889B30607A49E881
 	int32_t V_3 = 0;
 	int32_t G_B7_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:875>
 		RuntimeObject* L_0 = __this->____shutdownLock;
 		V_0 = L_0;
 		V_1 = (bool)0;
@@ -23880,7 +22007,6 @@ IL_00eb:
 			{
 				RuntimeObject* L_3 = V_0;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:878>
 				uint8_t L_4;
 				L_4 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 				if ((((int32_t)L_4) == ((int32_t)((int32_t)16))))
@@ -23899,14 +22025,12 @@ IL_00eb:
 
 IL_0024_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:880>
 				V_3 = 0;
 				goto IL_00ec;
 			}
 
 IL_002b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:883>
 				uint8_t L_6;
 				L_6 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 				if ((((int32_t)L_6) == ((int32_t)4)))
@@ -23927,7 +22051,6 @@ IL_0037_1:
 IL_0038_1:
 			{
 				V_2 = G_B7_0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:886>
 				bool L_7 = ___3_force;
 				if (!L_7)
 				{
@@ -23935,9 +22058,7 @@ IL_0038_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:888>
 				NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D_inline(__this, ((int32_t)16), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:889>
 				int32_t L_8 = V_2;
 				V_3 = L_8;
 				goto IL_00ec;
@@ -23945,11 +22066,9 @@ IL_0038_1:
 
 IL_004c_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:893>
 				int32_t* L_9 = (int32_t*)(&__this->____timeSinceLastPacket);
 				int32_t L_10;
 				L_10 = Interlocked_Exchange_m5810F59A9EF49D8003BA76D95398854254A091DF(L_9, 0, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:896>
 				int32_t L_11 = ___2_length;
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_12 = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)il2cpp_codegen_object_new(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 				NetPacket__ctor_mDD2AECA14661B0E3643D6EDD548B3038F16C6540(L_12, 7, L_11, NULL);
@@ -23959,14 +22078,12 @@ IL_004c_1:
 				NetPacket_set_ConnectionNumber_m6D8CD109E3C47CAF82CB52B067D73D40A60C9AE7(L_13, L_14, NULL);
 				__this->____shutdownPacket = L_13;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->____shutdownPacket), (void*)L_13);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:897>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_15 = __this->____shutdownPacket;
 				NullCheck(L_15);
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16 = L_15->___RawData;
 				int64_t L_17;
 				L_17 = NetPeer_get_ConnectTime_mC237C46C7C07E203D76A7E6A04F9B4593B12A4ED_inline(__this, NULL);
 				FastBitConverter_GetBytes_mC1089948C762EA2B4B4C0ACA34EB274B90028EA0(L_16, 1, L_17, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:898>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_18 = __this->____shutdownPacket;
 				NullCheck(L_18);
 				int32_t L_19 = L_18->___Size;
@@ -23978,7 +22095,6 @@ IL_004c_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:901>
 				il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 				NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(_stringLiteral429F7B7C5F57A67AC3DBA5618CC1218EC3E0CA23, NULL);
 				goto IL_00c4_1;
@@ -23986,7 +22102,6 @@ IL_004c_1:
 
 IL_00a8_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:903>
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_21 = ___0_data;
 				if (!L_21)
 				{
@@ -24001,7 +22116,6 @@ IL_00a8_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:905>
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = ___0_data;
 				int32_t L_24 = ___1_start;
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_25 = __this->____shutdownPacket;
@@ -24013,15 +22127,12 @@ IL_00a8_1:
 
 IL_00c4_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:907>
 				NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D_inline(__this, 8, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:909>
 				NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_28 = __this->___NetManager;
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_29 = __this->____shutdownPacket;
 				NullCheck(L_28);
 				int32_t L_30;
 				L_30 = NetManager_SendRaw_m21171611BC8856EA8D13FCC0972CCFCE0F7F6AFF(L_28, L_29, __this, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:910>
 				int32_t L_31 = V_2;
 				V_3 = L_31;
 				goto IL_00ec;
@@ -24035,7 +22146,6 @@ IL_00c4_1:
 
 IL_00ec:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:912>
 		int32_t L_32 = V_3;
 		return L_32;
 	}
@@ -24044,22 +22154,17 @@ IL_00ec:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_UpdateRoundTripTime_mCF34F81766E10E8263F2493FB0429C5FA80E506F (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int32_t ___0_roundTripTime, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:916>
 		int32_t L_0 = __this->____rtt;
 		int32_t L_1 = ___0_roundTripTime;
 		__this->____rtt = ((int32_t)il2cpp_codegen_add(L_0, L_1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:917>
 		int32_t L_2 = __this->____rttCount;
 		__this->____rttCount = ((int32_t)il2cpp_codegen_add(L_2, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:918>
 		int32_t L_3 = __this->____rtt;
 		int32_t L_4 = __this->____rttCount;
 		NetPeer_set_RoundTripTime_m28E1EC9C1A7F874D7D3906BDD95090C309DDF917_inline(__this, ((int32_t)(L_3/L_4)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:919>
 		int32_t L_5;
 		L_5 = NetPeer_get_RoundTripTime_mF75C894728100864AE99107DC46F988E723FFFE8_inline(__this, NULL);
 		NetPeer_set_ResendDelay_m0D6DA7A42081C1F087921058CADB9A6A628914CF_inline(__this, ((double)il2cpp_codegen_add((25.0), ((double)il2cpp_codegen_multiply(((double)L_5), (2.1000000000000001))))), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:920>
 		return;
 	}
 }
@@ -24090,7 +22195,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_AddReliablePacket_mCDF2C159BAC2E
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_7 = NULL;
 	int32_t V_8 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:924>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___1_p;
 		NullCheck(L_0);
 		bool L_1;
@@ -24101,19 +22205,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_AddReliablePacket_mCDF2C159BAC2E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:928>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = ___1_p;
 		NullCheck(L_2);
 		uint16_t L_3;
 		L_3 = NetPacket_get_FragmentId_m9415D62C0CDA114CFD4CA6F03AF69505C5B23DE1(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:929>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_4 = ___1_p;
 		NullCheck(L_4);
 		uint8_t L_5;
 		L_5 = NetPacket_get_ChannelId_mB1BF2046043B12C12585E2F5EBB1097E60C08948(L_4, NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:930>
 		Dictionary_2_tBA8F9DF90E6C2E8A5EA9903D234F592F9E433976* L_6 = __this->____holdedFragments;
 		uint16_t L_7 = V_0;
 		NullCheck(L_6);
@@ -24125,11 +22226,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_AddReliablePacket_mCDF2C159BAC2E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:932>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:933>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:934>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:935>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:936>
 		IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222* L_9 = (IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222*)il2cpp_codegen_object_new(IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222_il2cpp_TypeInfo_var);
 		IncomingFragments__ctor_m7877E22F48AC76A5FE289B9E696BB0EDF6630F67(L_9, NULL);
 		IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222* L_10 = L_9;
@@ -24149,7 +22245,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_AddReliablePacket_mCDF2C159BAC2E
 		NullCheck(L_14);
 		L_14->___ChannelId = L_16;
 		V_2 = L_14;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:937>
 		Dictionary_2_tBA8F9DF90E6C2E8A5EA9903D234F592F9E433976* L_17 = __this->____holdedFragments;
 		uint16_t L_18 = V_0;
 		IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222* L_19 = V_2;
@@ -24159,12 +22254,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_AddReliablePacket_mCDF2C159BAC2E
 
 IL_0059:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:941>
 		IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222* L_20 = V_2;
 		NullCheck(L_20);
 		NetPacketU5BU5D_t80BC1BE2E4FE84139284AFC39927F031D13F6F66* L_21 = L_20->___Fragments;
 		V_3 = L_21;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:944>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_22 = ___1_p;
 		NullCheck(L_22);
 		uint16_t L_23;
@@ -24206,21 +22299,17 @@ IL_0059:
 
 IL_0083:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:946>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_34 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_35 = ___1_p;
 		NullCheck(L_34);
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_34, L_35, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:947>
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(_stringLiteralEB6C481FC443015C12A958DAB9F12AA02B6F6984, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:948>
 		return;
 	}
 
 IL_009a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:951>
 		NetPacketU5BU5D_t80BC1BE2E4FE84139284AFC39927F031D13F6F66* L_36 = V_3;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_37 = ___1_p;
 		NullCheck(L_37);
@@ -24229,14 +22318,12 @@ IL_009a:
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_39 = ___1_p;
 		NullCheck(L_36);
 		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(L_38), (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)L_39);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:954>
 		IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222* L_40 = V_2;
 		IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222* L_41 = L_40;
 		NullCheck(L_41);
 		int32_t L_42 = L_41->___ReceivedCount;
 		NullCheck(L_41);
 		L_41->___ReceivedCount = ((int32_t)il2cpp_codegen_add(L_42, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:957>
 		IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222* L_43 = V_2;
 		IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222* L_44 = L_43;
 		NullCheck(L_44);
@@ -24246,7 +22333,6 @@ IL_009a:
 		int32_t L_47 = L_46->___Size;
 		NullCheck(L_44);
 		L_44->___TotalSize = ((int32_t)il2cpp_codegen_add(L_45, ((int32_t)il2cpp_codegen_subtract(L_47, ((int32_t)10)))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:960>
 		IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222* L_48 = V_2;
 		NullCheck(L_48);
 		int32_t L_49 = L_48->___ReceivedCount;
@@ -24258,13 +22344,11 @@ IL_009a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:961>
 		return;
 	}
 
 IL_00d3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:964>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_51 = __this->___NetManager;
 		IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222* L_52 = V_2;
 		NullCheck(L_52);
@@ -24273,28 +22357,23 @@ IL_00d3:
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_54;
 		L_54 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(L_51, L_53, NULL);
 		V_4 = L_54;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:966>
 		V_5 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:967>
 		V_6 = 0;
 		goto IL_01d4;
 	}
 
 IL_00f1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:969>
 		NetPacketU5BU5D_t80BC1BE2E4FE84139284AFC39927F031D13F6F66* L_55 = V_3;
 		int32_t L_56 = V_6;
 		NullCheck(L_55);
 		int32_t L_57 = L_56;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_58 = (L_55)->GetAt(static_cast<il2cpp_array_size_t>(L_57));
 		V_7 = L_58;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:970>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_59 = V_7;
 		NullCheck(L_59);
 		int32_t L_60 = L_59->___Size;
 		V_8 = ((int32_t)il2cpp_codegen_subtract(L_60, ((int32_t)10)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:972>
 		int32_t L_61 = V_5;
 		int32_t L_62 = V_8;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_63 = V_4;
@@ -24307,13 +22386,11 @@ IL_00f1:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:974>
 		Dictionary_2_tBA8F9DF90E6C2E8A5EA9903D234F592F9E433976* L_65 = __this->____holdedFragments;
 		uint16_t L_66 = V_0;
 		NullCheck(L_65);
 		bool L_67;
 		L_67 = Dictionary_2_Remove_m2A129B822059784447D4C3AC235251A40E2EEC17(L_65, L_66, Dictionary_2_Remove_m2A129B822059784447D4C3AC235251A40E2EEC17_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:975>
 		int32_t L_68 = V_5;
 		int32_t L_69 = V_8;
 		int32_t L_70 = ((int32_t)il2cpp_codegen_add(L_68, L_69));
@@ -24333,13 +22410,11 @@ IL_00f1:
 		L_80 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral8D4D60644FFC679A1E8F92BFE7D667C87597D1EF, L_71, L_75, L_79, NULL);
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_80, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:976>
 		return;
 	}
 
 IL_0153:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:978>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_81 = V_7;
 		NullCheck(L_81);
 		int32_t L_82 = L_81->___Size;
@@ -24353,13 +22428,11 @@ IL_0153:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:980>
 		Dictionary_2_tBA8F9DF90E6C2E8A5EA9903D234F592F9E433976* L_85 = __this->____holdedFragments;
 		uint16_t L_86 = V_0;
 		NullCheck(L_85);
 		bool L_87;
 		L_87 = Dictionary_2_Remove_m2A129B822059784447D4C3AC235251A40E2EEC17(L_85, L_86, Dictionary_2_Remove_m2A129B822059784447D4C3AC235251A40E2EEC17_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:981>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_88 = V_7;
 		NullCheck(L_88);
 		int32_t L_89 = L_88->___Size;
@@ -24375,13 +22448,11 @@ IL_0153:
 		L_96 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralB1E5C5C71A92F38799401D86296CBDC15189835B, L_91, L_95, NULL);
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_96, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:982>
 		return;
 	}
 
 IL_019c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:986>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_97 = V_7;
 		NullCheck(L_97);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_98 = L_97->___RawData;
@@ -24391,29 +22462,24 @@ IL_019c:
 		int32_t L_101 = V_5;
 		int32_t L_102 = V_8;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_98, ((int32_t)10), (RuntimeArray*)L_100, L_101, L_102, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:987>
 		int32_t L_103 = V_5;
 		int32_t L_104 = V_8;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_103, L_104));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:990>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_105 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_106 = V_7;
 		NullCheck(L_105);
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_105, L_106, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:991>
 		NetPacketU5BU5D_t80BC1BE2E4FE84139284AFC39927F031D13F6F66* L_107 = V_3;
 		int32_t L_108 = V_6;
 		NullCheck(L_107);
 		ArrayElementTypeCheck (L_107, NULL);
 		(L_107)->SetAt(static_cast<il2cpp_array_size_t>(L_108), (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:967>
 		int32_t L_109 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_109, 1));
 	}
 
 IL_01d4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:967>
 		int32_t L_110 = V_6;
 		IncomingFragments_t56B77B41701776E0903FCBB4644232BF0CEDD222* L_111 = V_2;
 		NullCheck(L_111);
@@ -24424,13 +22490,11 @@ IL_01d4:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:995>
 		Dictionary_2_tBA8F9DF90E6C2E8A5EA9903D234F592F9E433976* L_113 = __this->____holdedFragments;
 		uint16_t L_114 = V_0;
 		NullCheck(L_113);
 		bool L_115;
 		L_115 = Dictionary_2_Remove_m2A129B822059784447D4C3AC235251A40E2EEC17(L_113, L_114, Dictionary_2_Remove_m2A129B822059784447D4C3AC235251A40E2EEC17_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:998>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_116 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_117 = V_4;
 		uint8_t L_118 = ___0_method;
@@ -24442,7 +22506,6 @@ IL_01d4:
 
 IL_0203:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1002>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_120 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_121 = ___1_p;
 		uint8_t L_122 = ___0_method;
@@ -24452,7 +22515,6 @@ IL_0203:
 		L_124 = NetPacket_get_ChannelId_mB1BF2046043B12C12585E2F5EBB1097E60C08948(L_123, NULL);
 		NullCheck(L_120);
 		NetManager_CreateReceiveEvent_mF5E7B2744B168839BDCF35A8065DE03FD5ABBED4(L_120, L_121, L_122, (uint8_t)((int32_t)(uint8_t)((int32_t)((int32_t)L_124/4))), 4, __this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1004>
 		return;
 	}
 }
@@ -24472,7 +22534,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_ProcessMtuPacket_mBB85BCA6940E99
 	RuntimeObject* V_2 = NULL;
 	bool V_3 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1009>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___Size;
@@ -24487,20 +22548,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_ProcessMtuPacket_mBB85BCA6940E99
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1010>
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1013>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = ___0_packet;
 		NullCheck(L_5);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = L_5->___RawData;
 		int32_t L_7;
 		L_7 = BitConverter_ToInt32_m259B4E62995575B80C4086347C867EB3C8D7DAB3(L_6, 1, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1014>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_8 = ___0_packet;
 		NullCheck(L_8);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = L_8->___RawData;
@@ -24510,7 +22568,6 @@ IL_0010:
 		int32_t L_12;
 		L_12 = BitConverter_ToInt32_m259B4E62995575B80C4086347C867EB3C8D7DAB3(L_9, ((int32_t)il2cpp_codegen_subtract(L_11, 4)), NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1015>
 		int32_t L_13 = V_0;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_14 = ___0_packet;
 		NullCheck(L_14);
@@ -24540,7 +22597,6 @@ IL_0010:
 
 IL_0046:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1017>
 		int32_t L_20 = V_0;
 		int32_t L_21 = L_20;
 		RuntimeObject* L_22 = Box(il2cpp_defaults.int32_class, &L_21);
@@ -24556,13 +22612,11 @@ IL_0046:
 		L_30 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralE2E94AA6D1096AC5350F8C4749564A88242A012F, L_22, L_25, L_29, NULL);
 		il2cpp_codegen_runtime_class_init_inline(NetDebug_t2236CFFCC18F94221B7937C11D03A35610CA370A_il2cpp_TypeInfo_var);
 		NetDebug_WriteError_m6601C39A9D05722DE543A53D4E0F4F5F3ED17D99(L_30, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1018>
 		return;
 	}
 
 IL_006d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1021>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_31 = ___0_packet;
 		NullCheck(L_31);
 		uint8_t L_32;
@@ -24573,13 +22627,10 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1023>
 		__this->____mtuCheckAttempts = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1025>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_33 = ___0_packet;
 		NullCheck(L_33);
 		NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_33, ((int32_t)10), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1026>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_34 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_35 = ___0_packet;
 		NullCheck(L_34);
@@ -24590,7 +22641,6 @@ IL_006d:
 
 IL_0095:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1028>
 		int32_t L_37 = V_0;
 		int32_t L_38;
 		L_38 = NetPeer_get_Mtu_m22C3D3FF9C2F73861DB6FDAB8548BE248B558BBF_inline(__this, NULL);
@@ -24607,7 +22657,6 @@ IL_0095:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1031>
 		int32_t L_40 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_41 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___PossibleMtu;
@@ -24625,13 +22674,11 @@ IL_0095:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1032>
 		return;
 	}
 
 IL_00c4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1034>
 		RuntimeObject* L_47 = __this->____mtuMutex;
 		V_2 = L_47;
 		V_3 = (bool)0;
@@ -24664,10 +22711,8 @@ IL_00ee:
 		{
 			RuntimeObject* L_50 = V_2;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_50, (&V_3), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1036>
 			int32_t L_51 = __this->____mtuIdx;
 			NetPeer_SetMtu_m8B62DAA106F3B53D10EBCA212B24DD56F2861F8B(__this, ((int32_t)il2cpp_codegen_add(L_51, 1)), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1037>
 			goto IL_00ef;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -24678,7 +22723,6 @@ IL_00ee:
 
 IL_00ef:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1039>
 		int32_t L_52 = __this->____mtuIdx;
 		il2cpp_codegen_runtime_class_init_inline(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___PossibleMtu;
@@ -24689,13 +22733,11 @@ IL_00ef:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1040>
 		__this->____finishMtu = (bool)1;
 	}
 
 IL_0107:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1041>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_54 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_55 = ___0_packet;
 		NullCheck(L_54);
@@ -24704,7 +22746,6 @@ IL_0107:
 
 IL_0113:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1044>
 		return;
 	}
 }
@@ -24722,7 +22763,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_UpdateMtuLogic_m2A0F6AEC1A6DDB5C
 	int32_t V_2 = 0;
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_3 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1048>
 		bool L_0 = __this->____finishMtu;
 		if (!L_0)
 		{
@@ -24730,17 +22770,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_UpdateMtuLogic_m2A0F6AEC1A6DDB5C
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1049>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1051>
 		int32_t L_1 = __this->____mtuCheckTimer;
 		int32_t L_2 = ___0_deltaTime;
 		__this->____mtuCheckTimer = ((int32_t)il2cpp_codegen_add(L_1, L_2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1052>
 		int32_t L_3 = __this->____mtuCheckTimer;
 		if ((((int32_t)L_3) >= ((int32_t)((int32_t)1000))))
 		{
@@ -24748,18 +22785,14 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1053>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1055>
 		__this->____mtuCheckTimer = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1056>
 		int32_t L_4 = __this->____mtuCheckAttempts;
 		__this->____mtuCheckAttempts = ((int32_t)il2cpp_codegen_add(L_4, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1057>
 		int32_t L_5 = __this->____mtuCheckAttempts;
 		if ((((int32_t)L_5) < ((int32_t)4)))
 		{
@@ -24767,15 +22800,12 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1059>
 		__this->____finishMtu = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1060>
 		return;
 	}
 
 IL_004b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1063>
 		RuntimeObject* L_6 = __this->____mtuMutex;
 		V_0 = L_6;
 		V_1 = (bool)0;
@@ -24809,7 +22839,6 @@ IL_00e2:
 			{
 				RuntimeObject* L_9 = V_0;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_9, (&V_1), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1065>
 				int32_t L_10 = __this->____mtuIdx;
 				il2cpp_codegen_runtime_class_init_inline(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var);
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___PossibleMtu;
@@ -24820,13 +22849,11 @@ IL_00e2:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1066>
 				goto IL_00e3;
 			}
 
 IL_006f_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1069>
 				il2cpp_codegen_runtime_class_init_inline(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var);
 				Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_12 = ((NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_StaticFields*)il2cpp_codegen_static_fields_for(NetConstants_tCDC5F36E83FE4BB6CDAC5D90F68D982FB7477FF9_il2cpp_TypeInfo_var))->___PossibleMtu;
 				int32_t L_13 = __this->____mtuIdx;
@@ -24838,24 +22865,20 @@ IL_006f_1:
 				int32_t L_17;
 				L_17 = NetManager_get_ExtraPacketSizeForLayer_m018FF6D08F0E89A1CC1844C6AC3E889D8AD27C02(L_16, NULL);
 				V_2 = ((int32_t)il2cpp_codegen_subtract(L_15, L_17));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1070>
 				NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_18 = __this->___NetManager;
 				int32_t L_19 = V_2;
 				NullCheck(L_18);
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_20;
 				L_20 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(L_18, L_19, NULL);
 				V_3 = L_20;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1071>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_21 = V_3;
 				NullCheck(L_21);
 				NetPacket_set_Property_mD2E445931084D2021467D56A4FE9394682960FB0(L_21, ((int32_t)9), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1072>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_22 = V_3;
 				NullCheck(L_22);
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = L_22->___RawData;
 				int32_t L_24 = V_2;
 				FastBitConverter_GetBytes_m1C2FD6095C3E82F066F46C0A13D55B7576247409(L_23, 1, L_24, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1073>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_25 = V_3;
 				NullCheck(L_25);
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_26 = L_25->___RawData;
@@ -24864,7 +22887,6 @@ IL_006f_1:
 				int32_t L_28 = L_27->___Size;
 				int32_t L_29 = V_2;
 				FastBitConverter_GetBytes_m1C2FD6095C3E82F066F46C0A13D55B7576247409(L_26, ((int32_t)il2cpp_codegen_subtract(L_28, 4)), L_29, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1076>
 				NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_30 = __this->___NetManager;
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_31 = V_3;
 				NullCheck(L_30);
@@ -24876,13 +22898,11 @@ IL_006f_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1077>
 				__this->____finishMtu = (bool)1;
 			}
 
 IL_00d7_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1078>
 				goto IL_00e3;
 			}
 		}
@@ -24894,7 +22914,6 @@ IL_00d7_1:
 
 IL_00e3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1079>
 		return;
 	}
 }
@@ -24906,7 +22925,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetPeer_ProcessConnectRequest_m457CE2
 	int32_t V_2 = 0;
 	uint8_t V_3 = 0x0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1084>
 		uint8_t L_0;
 		L_0 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 		V_0 = L_0;
@@ -24955,7 +22973,6 @@ IL_0018:
 
 IL_002c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1089>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_6 = ___0_connRequest;
 		NullCheck(L_6);
 		int64_t L_7 = L_6->___ConnectionTime;
@@ -24967,13 +22984,11 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1091>
 		return (int32_t)(1);
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1094>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_9 = ___0_connRequest;
 		NullCheck(L_9);
 		int64_t L_10 = L_9->___ConnectionTime;
@@ -24985,12 +23000,10 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1096>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_12 = ___0_connRequest;
 		NullCheck(L_12);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13 = L_12->___TargetAddress;
 		V_1 = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1097>
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_14 = __this->____cachedSocketAddr;
 		NullCheck(L_14);
 		int32_t L_15;
@@ -25001,14 +23014,12 @@ IL_003c:
 
 IL_0061:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1099>
 		SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* L_16 = __this->____cachedSocketAddr;
 		int32_t L_17 = V_2;
 		NullCheck(L_16);
 		uint8_t L_18;
 		L_18 = SocketAddress_get_Item_mFF97A6A1AF0D8AB36C662282C477B5DBAFD10FBD(L_16, L_17, NULL);
 		V_3 = L_18;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1100>
 		uint8_t L_19 = V_3;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20 = V_1;
 		int32_t L_21 = V_2;
@@ -25021,7 +23032,6 @@ IL_0061:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1102>
 		uint8_t L_24 = V_3;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_25 = V_1;
 		int32_t L_26 = V_2;
@@ -25034,20 +23044,17 @@ IL_0061:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1103>
 		return (int32_t)(1);
 	}
 
 IL_007c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1097>
 		int32_t L_29 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_29, 1));
 	}
 
 IL_0080:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1097>
 		int32_t L_30 = V_2;
 		if ((((int32_t)L_30) >= ((int32_t)0)))
 		{
@@ -25055,13 +23062,11 @@ IL_0080:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1106>
 		goto IL_00c9;
 	}
 
 IL_0086:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1110>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_31 = ___0_connRequest;
 		NullCheck(L_31);
 		int64_t L_32 = L_31->___ConnectionTime;
@@ -25073,7 +23078,6 @@ IL_0086:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1113>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_34 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_35 = __this->____connectAcceptPacket;
 		NullCheck(L_34);
@@ -25084,7 +23088,6 @@ IL_0086:
 
 IL_00a9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1116>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_37 = ___0_connRequest;
 		NullCheck(L_37);
 		int64_t L_38 = L_37->___ConnectionTime;
@@ -25096,13 +23099,11 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1118>
 		return (int32_t)(2);
 	}
 
 IL_00b9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1124>
 		NetConnectRequestPacket_t2602DB311B2C1E452986BC745A7E2BEDAAA5A312* L_40 = ___0_connRequest;
 		NullCheck(L_40);
 		int64_t L_41 = L_40->___ConnectionTime;
@@ -25114,13 +23115,11 @@ IL_00b9:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1125>
 		return (int32_t)(3);
 	}
 
 IL_00c9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1128>
 		return (int32_t)(0);
 	}
 }
@@ -25149,7 +23148,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_ProcessPacket_mE4D5DC53CD955317E
 	BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* G_B29_0 = NULL;
 	BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* G_B26_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1135>
 		uint8_t L_0;
 		L_0 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 		if ((((int32_t)L_0) == ((int32_t)2)))
@@ -25168,18 +23166,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_ProcessPacket_mE4D5DC53CD955317E
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1137>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_2 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3 = ___0_packet;
 		NullCheck(L_2);
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1138>
 		return;
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1140>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_4 = ___0_packet;
 		NullCheck(L_4);
 		uint8_t L_5;
@@ -25190,7 +23185,6 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1142>
 		uint8_t L_6;
 		L_6 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 		if ((!(((uint32_t)L_6) == ((uint32_t)8))))
@@ -25199,24 +23193,20 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1143>
 		NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D_inline(__this, ((int32_t)16), NULL);
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1144>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_7 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_8 = ___0_packet;
 		NullCheck(L_7);
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1145>
 		return;
 	}
 
 IL_0048:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1147>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_9 = ___0_packet;
 		NullCheck(L_9);
 		uint8_t L_10;
@@ -25228,22 +23218,18 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1150>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_12 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_13 = ___0_packet;
 		NullCheck(L_12);
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_12, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1151>
 		return;
 	}
 
 IL_0063:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1153>
 		int32_t* L_14 = (int32_t*)(&__this->____timeSinceLastPacket);
 		int32_t L_15;
 		L_15 = Interlocked_Exchange_m5810F59A9EF49D8003BA76D95398854254A091DF(L_14, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1156>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_16 = ___0_packet;
 		NullCheck(L_16);
 		uint8_t L_17;
@@ -25312,14 +23298,12 @@ IL_0063:
 
 IL_00b6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1159>
 		V_0 = 1;
 		goto IL_0118;
 	}
 
 IL_00ba:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1162>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_19 = ___0_packet;
 		NullCheck(L_19);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20 = L_19->___RawData;
@@ -25327,10 +23311,8 @@ IL_00ba:
 		uint16_t L_22;
 		L_22 = BitConverter_ToUInt16_m1B08C19B8743A604FBC3807C22A831BD8DA5819D(L_20, L_21, NULL);
 		V_3 = L_22;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1163>
 		int32_t L_23 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_23, 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1164>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_24 = ___0_packet;
 		NullCheck(L_24);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_25 = L_24->___RawData;
@@ -25343,14 +23325,12 @@ IL_00ba:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1167>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_28 = __this->___NetManager;
 		uint16_t L_29 = V_3;
 		NullCheck(L_28);
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_30;
 		L_30 = NetManager_PoolGetPacket_mA0B869D278911E938A1A7BE1FBAF474626AD24E3(L_28, L_29, NULL);
 		V_4 = L_30;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1168>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_31 = ___0_packet;
 		NullCheck(L_31);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_32 = L_31->___RawData;
@@ -25360,12 +23340,10 @@ IL_00ba:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_35 = L_34->___RawData;
 		uint16_t L_36 = V_3;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_32, L_33, (RuntimeArray*)L_35, 0, L_36, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1169>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_37 = V_4;
 		uint16_t L_38 = V_3;
 		NullCheck(L_37);
 		L_37->___Size = L_38;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1171>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_39 = V_4;
 		NullCheck(L_39);
 		bool L_40;
@@ -25376,18 +23354,15 @@ IL_00ba:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1174>
 		int32_t L_41 = V_0;
 		uint16_t L_42 = V_3;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_41, (int32_t)L_42));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1175>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_43 = V_4;
 		NetPeer_ProcessPacket_mE4D5DC53CD955317EC535667E6CD54470C64812C(__this, L_43, NULL);
 	}
 
 IL_0118:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1160>
 		int32_t L_44 = V_0;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_45 = ___0_packet;
 		NullCheck(L_45);
@@ -25400,18 +23375,15 @@ IL_0118:
 
 IL_0121:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1177>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_47 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_48 = ___0_packet;
 		NullCheck(L_47);
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_47, L_48, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1178>
 		return;
 	}
 
 IL_012e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1181>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_49 = ___0_packet;
 		NullCheck(L_49);
 		uint16_t L_50;
@@ -25429,7 +23401,6 @@ IL_012e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1184>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_54 = __this->____pongPacket;
 		NullCheck(L_54);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_55 = L_54->___RawData;
@@ -25440,7 +23411,6 @@ IL_012e:
 		int64_t L_57;
 		L_57 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&V_5), NULL);
 		FastBitConverter_GetBytes_mC1089948C762EA2B4B4C0ACA34EB274B90028EA0(L_55, 3, L_57, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1185>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_58 = __this->____pongPacket;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_59 = ___0_packet;
 		NullCheck(L_59);
@@ -25448,7 +23418,6 @@ IL_012e:
 		L_60 = NetPacket_get_Sequence_m64311962292576CC978333B498ED6533CF62412B(L_59, NULL);
 		NullCheck(L_58);
 		NetPacket_set_Sequence_mF625DB3AB0CAF8A4C4DEB600EA3D918D3E2762CC(L_58, L_60, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1186>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_61 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_62 = __this->____pongPacket;
 		NullCheck(L_61);
@@ -25458,18 +23427,15 @@ IL_012e:
 
 IL_018a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1188>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_64 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_65 = ___0_packet;
 		NullCheck(L_64);
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_64, L_65, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1189>
 		return;
 	}
 
 IL_0197:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1193>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_66 = ___0_packet;
 		NullCheck(L_66);
 		uint16_t L_67;
@@ -25484,17 +23450,14 @@ IL_0197:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1195>
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_70 = __this->____pingTimer;
 		NullCheck(L_70);
 		Stopwatch_Stop_m8F2A2EFD9D7D5B4180A5E5379E5443864618D7DC(L_70, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1196>
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_71 = __this->____pingTimer;
 		NullCheck(L_71);
 		int64_t L_72;
 		L_72 = Stopwatch_get_ElapsedMilliseconds_m8D8E60ADEB47D008C06D8E57D28D41EAE07AECBF(L_71, NULL);
 		V_6 = ((int32_t)L_72);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1197>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_73 = ___0_packet;
 		NullCheck(L_73);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_74 = L_73->___RawData;
@@ -25508,10 +23471,8 @@ IL_0197:
 		int64_t L_78;
 		L_78 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&V_5), NULL);
 		NetPeer_set_RemoteTimeDelta_m68EC852C286D80C1B5C8C8E8FFDC21C1097406F4_inline(__this, ((int64_t)il2cpp_codegen_subtract(((int64_t)il2cpp_codegen_add(L_75, ((int64_t)(((int64_t)il2cpp_codegen_multiply(((int64_t)L_76), ((int64_t)((int32_t)10000))))/((int64_t)2))))), L_78)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1198>
 		int32_t L_79 = V_6;
 		NetPeer_UpdateRoundTripTime_mCF34F81766E10E8263F2493FB0429C5FA80E506F(__this, L_79, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1199>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_80 = __this->___NetManager;
 		int32_t L_81 = V_6;
 		NullCheck(L_80);
@@ -25520,18 +23481,15 @@ IL_0197:
 
 IL_020a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1202>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_82 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_83 = ___0_packet;
 		NullCheck(L_82);
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_82, L_83, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1203>
 		return;
 	}
 
 IL_0217:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1207>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_84 = ___0_packet;
 		NullCheck(L_84);
 		uint8_t L_85;
@@ -25544,18 +23502,15 @@ IL_0217:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1209>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_87 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_88 = ___0_packet;
 		NullCheck(L_87);
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_87, L_88, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1210>
 		return;
 	}
 
 IL_0234:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1212>
 		BaseChannelU5BU5D_t7BC3018748044C1083384FC5AB122225F5C9DD01* L_89 = __this->____channels;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_90 = ___0_packet;
 		NullCheck(L_90);
@@ -25601,7 +23556,6 @@ IL_025c:
 IL_025d:
 	{
 		V_1 = G_B29_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1213>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_100 = V_1;
 		if (!L_100)
 		{
@@ -25609,7 +23563,6 @@ IL_025d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1215>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_101 = V_1;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_102 = ___0_packet;
 		NullCheck(L_101);
@@ -25621,38 +23574,31 @@ IL_025d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1216>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_104 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_105 = ___0_packet;
 		NullCheck(L_104);
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_104, L_105, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1218>
 		return;
 	}
 
 IL_0277:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1222>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_106 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_107 = ___0_packet;
 		NullCheck(L_106);
 		NetManager_CreateReceiveEvent_mF5E7B2744B168839BDCF35A8065DE03FD5ABBED4(L_106, L_107, 4, (uint8_t)0, 1, __this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1223>
 		return;
 	}
 
 IL_0288:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1227>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_108 = ___0_packet;
 		NetPeer_ProcessMtuPacket_mBB85BCA6940E9911D4C421ADF52020673C360B40(__this, L_108, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1228>
 		return;
 	}
 
 IL_0290:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1231>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_109 = ___0_packet;
 		NullCheck(L_109);
 		uint8_t L_110;
@@ -25669,7 +23615,6 @@ IL_0290:
 
 IL_02b4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1234>
 		return;
 	}
 }
@@ -25678,7 +23623,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendMerged_mD888FE4FD96E716C1540
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1238>
 		int32_t L_0 = __this->____mergeCount;
 		if (L_0)
 		{
@@ -25686,13 +23630,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendMerged_mD888FE4FD96E716C1540
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1239>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1241>
 		int32_t L_1 = __this->____mergeCount;
 		if ((((int32_t)L_1) <= ((int32_t)1)))
 		{
@@ -25700,7 +23642,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1244>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_2 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3 = __this->____mergeData;
 		NullCheck(L_3);
@@ -25715,7 +23656,6 @@ IL_0009:
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1249>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_7 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_8 = __this->____mergeData;
 		NullCheck(L_8);
@@ -25729,7 +23669,6 @@ IL_0035:
 
 IL_0056:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1252>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_12 = __this->___NetManager;
 		NullCheck(L_12);
 		bool L_13 = L_12->___EnableStatistics;
@@ -25739,11 +23678,9 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1254>
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_14 = __this->___Statistics;
 		NullCheck(L_14);
 		NetStatistics_IncrementPacketsSent_m1580A96FA23DDFF05F5AA6B104F9650D59EEEBC2(L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1255>
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_15 = __this->___Statistics;
 		int32_t L_16 = V_0;
 		NullCheck(L_15);
@@ -25752,11 +23689,8 @@ IL_0056:
 
 IL_007b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1258>
 		__this->____mergePos = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1259>
 		__this->____mergeCount = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1260>
 		return;
 	}
 }
@@ -25766,17 +23700,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendUserData_mF9F28481A16BC9C09D
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1264>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		uint8_t L_1 = __this->____connectNum;
 		NullCheck(L_0);
 		NetPacket_set_ConnectionNumber_m6D8CD109E3C47CAF82CB52B067D73D40A60C9AE7(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1265>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = ___0_packet;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->___Size;
 		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(1, L_3)), 2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1267>
 		int32_t L_4 = V_0;
 		int32_t L_5;
 		L_5 = NetPeer_get_Mtu_m22C3D3FF9C2F73861DB6FDAB8548BE248B558BBF_inline(__this, NULL);
@@ -25786,14 +23717,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendUserData_mF9F28481A16BC9C09D
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1270>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_6 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_7 = ___0_packet;
 		NullCheck(L_6);
 		int32_t L_8;
 		L_8 = NetManager_SendRaw_m21171611BC8856EA8D13FCC0972CCFCE0F7F6AFF(L_6, L_7, __this, NULL);
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1272>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_9 = __this->___NetManager;
 		NullCheck(L_9);
 		bool L_10 = L_9->___EnableStatistics;
@@ -25803,11 +23732,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendUserData_mF9F28481A16BC9C09D
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1274>
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_11 = __this->___Statistics;
 		NullCheck(L_11);
 		NetStatistics_IncrementPacketsSent_m1580A96FA23DDFF05F5AA6B104F9650D59EEEBC2(L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1275>
 		NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_12 = __this->___Statistics;
 		int32_t L_13 = V_1;
 		NullCheck(L_12);
@@ -25816,13 +23743,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_SendUserData_mF9F28481A16BC9C09D
 
 IL_0056:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1278>
 		return;
 	}
 
 IL_0057:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1280>
 		int32_t L_14 = __this->____mergePos;
 		int32_t L_15 = V_0;
 		int32_t L_16;
@@ -25833,13 +23758,11 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1281>
 		NetPeer_SendMerged_mD888FE4FD96E716C1540F8BE84ECDA5109DDEED6(__this, NULL);
 	}
 
 IL_006d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1283>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_17 = __this->____mergeData;
 		NullCheck(L_17);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = L_17->___RawData;
@@ -25848,7 +23771,6 @@ IL_006d:
 		NullCheck(L_20);
 		int32_t L_21 = L_20->___Size;
 		FastBitConverter_GetBytes_m941495BB9AA9F9D345B331C53ADC39650043645A(L_18, ((int32_t)il2cpp_codegen_add(L_19, 1)), (uint16_t)((int32_t)(uint16_t)L_21), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1284>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_22 = ___0_packet;
 		NullCheck(L_22);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = L_22->___RawData;
@@ -25860,16 +23782,13 @@ IL_006d:
 		NullCheck(L_27);
 		int32_t L_28 = L_27->___Size;
 		Buffer_BlockCopy_m2F7BC0C5BA97C500E3F87D5008718F797E02B358((RuntimeArray*)L_23, 0, (RuntimeArray*)L_25, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_26, 1)), 2)), L_28, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1285>
 		int32_t L_29 = __this->____mergePos;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_30 = ___0_packet;
 		NullCheck(L_30);
 		int32_t L_31 = L_30->___Size;
 		__this->____mergePos = ((int32_t)il2cpp_codegen_add(L_29, ((int32_t)il2cpp_codegen_add(L_31, 2))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1286>
 		int32_t L_32 = __this->____mergeCount;
 		__this->____mergeCount = ((int32_t)il2cpp_codegen_add(L_32, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1288>
 		return;
 	}
 }
@@ -25896,12 +23815,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_Update_m002B169587148F28B99D035E
 	int32_t V_7 = 0;
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_8 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1292>
 		int32_t* L_0 = (int32_t*)(&__this->____timeSinceLastPacket);
 		int32_t L_1 = ___0_deltaTime;
 		int32_t L_2;
 		L_2 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1293>
 		uint8_t L_3;
 		L_3 = NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline(__this, NULL);
 		V_1 = L_3;
@@ -25950,7 +23867,6 @@ IL_0028:
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1296>
 		int32_t L_9 = __this->____timeSinceLastPacket;
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_10 = __this->___NetManager;
 		NullCheck(L_10);
@@ -25961,17 +23877,14 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1299>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_12 = __this->___NetManager;
 		NullCheck(L_12);
 		NetManager_DisconnectPeerForce_mBC208C113DF61033CA1F71D2278329076310514B(L_12, __this, 1, 0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1300>
 		return;
 	}
 
 IL_005f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1305>
 		int32_t L_13 = __this->____timeSinceLastPacket;
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_14 = __this->___NetManager;
 		NullCheck(L_14);
@@ -25982,18 +23895,15 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1307>
 		NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D_inline(__this, ((int32_t)16), NULL);
 		return;
 	}
 
 IL_007b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1311>
 		int32_t L_16 = __this->____shutdownTimer;
 		int32_t L_17 = ___0_deltaTime;
 		__this->____shutdownTimer = ((int32_t)il2cpp_codegen_add(L_16, L_17));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1312>
 		int32_t L_18 = __this->____shutdownTimer;
 		if ((((int32_t)L_18) < ((int32_t)((int32_t)300))))
 		{
@@ -26001,9 +23911,7 @@ IL_007b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1314>
 		__this->____shutdownTimer = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1315>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_19 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_20 = __this->____shutdownPacket;
 		NullCheck(L_19);
@@ -26013,17 +23921,14 @@ IL_007b:
 
 IL_00b0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1318>
 		return;
 	}
 
 IL_00b1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1321>
 		int32_t L_22 = __this->____connectTimer;
 		int32_t L_23 = ___0_deltaTime;
 		__this->____connectTimer = ((int32_t)il2cpp_codegen_add(L_22, L_23));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1322>
 		int32_t L_24 = __this->____connectTimer;
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_25 = __this->___NetManager;
 		NullCheck(L_25);
@@ -26034,12 +23939,9 @@ IL_00b1:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1324>
 		__this->____connectTimer = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1325>
 		int32_t L_27 = __this->____connectAttempts;
 		__this->____connectAttempts = ((int32_t)il2cpp_codegen_add(L_27, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1326>
 		int32_t L_28 = __this->____connectAttempts;
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_29 = __this->___NetManager;
 		NullCheck(L_29);
@@ -26050,17 +23952,14 @@ IL_00b1:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1328>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_31 = __this->___NetManager;
 		NullCheck(L_31);
 		NetManager_DisconnectPeerForce_mBC208C113DF61033CA1F71D2278329076310514B(L_31, __this, 0, 0, (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1329>
 		return;
 	}
 
 IL_010a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1333>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_32 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_33 = __this->____connectRequestPacket;
 		NullCheck(L_32);
@@ -26070,23 +23969,19 @@ IL_010a:
 
 IL_011d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1335>
 		return;
 	}
 
 IL_011e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1338>
 		return;
 	}
 
 IL_011f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1342>
 		int32_t L_35 = __this->____pingSendTimer;
 		int32_t L_36 = ___0_deltaTime;
 		__this->____pingSendTimer = ((int32_t)il2cpp_codegen_add(L_35, L_36));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1343>
 		int32_t L_37 = __this->____pingSendTimer;
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_38 = __this->___NetManager;
 		NullCheck(L_38);
@@ -26097,9 +23992,7 @@ IL_011f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1347>
 		__this->____pingSendTimer = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1349>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_40 = __this->____pingPacket;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_41 = L_40;
 		NullCheck(L_41);
@@ -26109,7 +24002,6 @@ IL_011f:
 		uint16_t L_43 = V_2;
 		NullCheck(L_41);
 		NetPacket_set_Sequence_mF625DB3AB0CAF8A4C4DEB600EA3D918D3E2762CC(L_41, (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_43, 1))), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1351>
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_44 = __this->____pingTimer;
 		NullCheck(L_44);
 		bool L_45;
@@ -26120,7 +24012,6 @@ IL_011f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1352>
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_46 = __this->____pingTimer;
 		NullCheck(L_46);
 		int64_t L_47;
@@ -26130,11 +24021,9 @@ IL_011f:
 
 IL_017c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1353>
 		Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* L_48 = __this->____pingTimer;
 		NullCheck(L_48);
 		Stopwatch_Restart_m9CE82CCD811EE12C2E4FDFF708B5529D1CE6DA58(L_48, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1354>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_49 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_50 = __this->____pingPacket;
 		NullCheck(L_49);
@@ -26144,11 +24033,9 @@ IL_017c:
 
 IL_019a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1358>
 		int32_t L_52 = __this->____rttResetTimer;
 		int32_t L_53 = ___0_deltaTime;
 		__this->____rttResetTimer = ((int32_t)il2cpp_codegen_add(L_52, L_53));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1359>
 		int32_t L_54 = __this->____rttResetTimer;
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_55 = __this->___NetManager;
 		NullCheck(L_55);
@@ -26159,22 +24046,17 @@ IL_019a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1361>
 		__this->____rttResetTimer = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1362>
 		int32_t L_57;
 		L_57 = NetPeer_get_RoundTripTime_mF75C894728100864AE99107DC46F988E723FFFE8_inline(__this, NULL);
 		__this->____rtt = L_57;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1363>
 		__this->____rttCount = 1;
 	}
 
 IL_01d7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1366>
 		int32_t L_58 = ___0_deltaTime;
 		NetPeer_UpdateMtuLogic_m2A0F6AEC1A6DDB5CC9E0AE48C2A4D1716EE8A7E4(__this, L_58, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1369>
 		ConcurrentQueue_1_t2378C093C0E40264C0BFFB5F624AF61E8372FA38* L_59 = __this->____channelSendQueue;
 		NullCheck(L_59);
 		int32_t L_60;
@@ -26185,7 +24067,6 @@ IL_01d7:
 
 IL_01ec:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1372>
 		ConcurrentQueue_1_t2378C093C0E40264C0BFFB5F624AF61E8372FA38* L_61 = __this->____channelSendQueue;
 		NullCheck(L_61);
 		bool L_62;
@@ -26196,7 +24077,6 @@ IL_01ec:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1374>
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_63 = V_3;
 		NullCheck(L_63);
 		bool L_64;
@@ -26207,7 +24087,6 @@ IL_01ec:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1377>
 		ConcurrentQueue_1_t2378C093C0E40264C0BFFB5F624AF61E8372FA38* L_65 = __this->____channelSendQueue;
 		BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F* L_66 = V_3;
 		NullCheck(L_65);
@@ -26216,7 +24095,6 @@ IL_01ec:
 
 IL_020f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1370>
 		int32_t L_67 = V_0;
 		int32_t L_68 = L_67;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_68, 1));
@@ -26228,7 +24106,6 @@ IL_020f:
 
 IL_0217:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1381>
 		Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_69 = __this->____unreliableChannel;
 		V_4 = L_69;
 		V_5 = (bool)0;
@@ -26262,41 +24139,34 @@ IL_0278:
 			{
 				Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_72 = V_4;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_72, (&V_5), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1383>
 				Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_73 = __this->____unreliableChannel;
 				NullCheck(L_73);
 				int32_t L_74;
 				L_74 = Queue_1_get_Count_m7A17E593E6E7DE44C27B0EE3A45EDCD9D934A206_inline(L_73, Queue_1_get_Count_m7A17E593E6E7DE44C27B0EE3A45EDCD9D934A206_RuntimeMethod_var);
 				V_6 = L_74;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1384>
 				V_7 = 0;
 				goto IL_0265_1;
 			}
 
 IL_023d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1386>
 				Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_75 = __this->____unreliableChannel;
 				NullCheck(L_75);
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_76;
 				L_76 = Queue_1_Dequeue_m789F59B6BB389673D001D2ADC1B60402E667E092(L_75, Queue_1_Dequeue_m789F59B6BB389673D001D2ADC1B60402E667E092_RuntimeMethod_var);
 				V_8 = L_76;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1387>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_77 = V_8;
 				NetPeer_SendUserData_mF9F28481A16BC9C09DC2B58508C202F3EC785D55(__this, L_77, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1388>
 				NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_78 = __this->___NetManager;
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_79 = V_8;
 				NullCheck(L_78);
 				NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_78, L_79, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1384>
 				int32_t L_80 = V_7;
 				V_7 = ((int32_t)il2cpp_codegen_add(L_80, 1));
 			}
 
 IL_0265_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1384>
 				int32_t L_81 = V_7;
 				int32_t L_82 = V_6;
 				if ((((int32_t)L_81) < ((int32_t)L_82)))
@@ -26305,7 +24175,6 @@ IL_0265_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1390>
 				goto IL_0279;
 			}
 		}
@@ -26317,9 +24186,7 @@ IL_0265_1:
 
 IL_0279:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1392>
 		NetPeer_SendMerged_mD888FE4FD96E716C1540F8BE84ECDA5109DDEED6(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1393>
 		return;
 	}
 }
@@ -26336,7 +24203,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_RecycleAndDeliver_m2C07042AA6EB8
 	}
 	uint16_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1398>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		NullCheck(L_0);
 		RuntimeObject* L_1 = L_0->___UserData;
@@ -26346,7 +24212,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_RecycleAndDeliver_m2C07042AA6EB8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1400>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = ___0_packet;
 		NullCheck(L_2);
 		bool L_3;
@@ -26357,7 +24222,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_RecycleAndDeliver_m2C07042AA6EB8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1402>
 		Dictionary_2_tA7395733826D49EAFAAFD65320953B6D32A24EA4* L_4 = __this->____deliveredFragments;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_5 = ___0_packet;
 		NullCheck(L_5);
@@ -26366,10 +24230,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_RecycleAndDeliver_m2C07042AA6EB8
 		NullCheck(L_4);
 		bool L_7;
 		L_7 = Dictionary_2_TryGetValue_mCB197ECFD9955AA0962D29ACD1873B4D8B08DEBB(L_4, L_6, (&V_0), Dictionary_2_TryGetValue_mCB197ECFD9955AA0962D29ACD1873B4D8B08DEBB_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1403>
 		uint16_t L_8 = V_0;
 		V_0 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_8, 1)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1404>
 		uint16_t L_9 = V_0;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_10 = ___0_packet;
 		NullCheck(L_10);
@@ -26381,14 +24243,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_RecycleAndDeliver_m2C07042AA6EB8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1406>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_12 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_13 = ___0_packet;
 		NullCheck(L_13);
 		RuntimeObject* L_14 = L_13->___UserData;
 		NullCheck(L_12);
 		NetManager_MessageDelivered_m93D15F04033469E867CFE9631974F7AB5D4CBD94(L_12, __this, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1407>
 		Dictionary_2_tA7395733826D49EAFAAFD65320953B6D32A24EA4* L_15 = __this->____deliveredFragments;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_16 = ___0_packet;
 		NullCheck(L_16);
@@ -26402,7 +24262,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetPeer_RecycleAndDeliver_m2C07042AA6EB8
 
 IL_0058:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1411>
 		Dictionary_2_tA7395733826D49EAFAAFD65320953B6D32A24EA4* L_19 = __this->____deliveredFragments;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_20 = ___0_packet;
 		NullCheck(L_20);
@@ -26416,7 +24275,6 @@ IL_0058:
 
 IL_006c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1416>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_23 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_24 = ___0_packet;
 		NullCheck(L_24);
@@ -26427,7 +24285,6 @@ IL_006c:
 
 IL_007e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1418>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_26 = ___0_packet;
 		NullCheck(L_26);
 		L_26->___UserData = NULL;
@@ -26436,12 +24293,10 @@ IL_007e:
 
 IL_0085:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1420>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_27 = __this->___NetManager;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_28 = ___0_packet;
 		NullCheck(L_27);
 		NetManager_PoolRecycle_m590A485A523235A7339D49101ED334E78A6A7D4E(L_27, L_28, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:1421>
 		return;
 	}
 }
@@ -26473,7 +24328,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IncomingFragments__ctor_m7877E22F48AC76A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetStatistics_get_PacketsSent_mAA5D98065979D3E3B183D83407042026715DB31C (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:12>
 		int64_t* L_0 = (int64_t*)(&__this->____packetsSent);
 		int64_t L_1;
 		L_1 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_0, NULL);
@@ -26484,7 +24338,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetStatistics_get_PacketsSent_mAA5D98
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetStatistics_get_PacketsReceived_mFE066CB23198889D8B2D6A02BDF562E7162C23EB (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:13>
 		int64_t* L_0 = (int64_t*)(&__this->____packetsReceived);
 		int64_t L_1;
 		L_1 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_0, NULL);
@@ -26495,7 +24348,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetStatistics_get_PacketsReceived_mFE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetStatistics_get_BytesSent_m823E52210428641F5DC93B187EF6C1DE7BF473A5 (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:14>
 		int64_t* L_0 = (int64_t*)(&__this->____bytesSent);
 		int64_t L_1;
 		L_1 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_0, NULL);
@@ -26506,7 +24358,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetStatistics_get_BytesSent_m823E5221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetStatistics_get_BytesReceived_m66812B5BEB3C5E235F0DB237B15CA079D9C8EFA1 (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:15>
 		int64_t* L_0 = (int64_t*)(&__this->____bytesReceived);
 		int64_t L_1;
 		L_1 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_0, NULL);
@@ -26517,7 +24368,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetStatistics_get_BytesReceived_m6681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetStatistics_get_PacketLoss_mD6F7E220C6BC8615B2B2FE222B50C1C97570F700 (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:16>
 		int64_t* L_0 = (int64_t*)(&__this->____packetLoss);
 		int64_t L_1;
 		L_1 = Interlocked_Read_m5AE4A3AB140FB3DFDEA62768428A26C4062DEACF(L_0, NULL);
@@ -26530,15 +24380,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NetStatistics_get_PacketLossPercent_m
 	int64_t V_0 = 0;
 	int64_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:21>
 		int64_t L_0;
 		L_0 = NetStatistics_get_PacketsSent_mAA5D98065979D3E3B183D83407042026715DB31C(__this, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:21>
 		int64_t L_1;
 		L_1 = NetStatistics_get_PacketLoss_mD6F7E220C6BC8615B2B2FE222B50C1C97570F700(__this, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:23>
 		int64_t L_2 = V_0;
 		if (!L_2)
 		{
@@ -26560,27 +24407,21 @@ IL_0019:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_Reset_m750A8FBC954BB8BE3941FD7C569EB93F674CC9CE (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:29>
 		int64_t* L_0 = (int64_t*)(&__this->____packetsSent);
 		int64_t L_1;
 		L_1 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_0, ((int64_t)0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:30>
 		int64_t* L_2 = (int64_t*)(&__this->____packetsReceived);
 		int64_t L_3;
 		L_3 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_2, ((int64_t)0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:31>
 		int64_t* L_4 = (int64_t*)(&__this->____bytesSent);
 		int64_t L_5;
 		L_5 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_4, ((int64_t)0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:32>
 		int64_t* L_6 = (int64_t*)(&__this->____bytesReceived);
 		int64_t L_7;
 		L_7 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_6, ((int64_t)0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:33>
 		int64_t* L_8 = (int64_t*)(&__this->____packetLoss);
 		int64_t L_9;
 		L_9 = Interlocked_Exchange_m723B7E02F99661E7576E204D8862757E12682961(L_8, ((int64_t)0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:34>
 		return;
 	}
 }
@@ -26588,11 +24429,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_Reset_m750A8FBC954BB8BE394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_IncrementPacketsSent_m1580A96FA23DDFF05F5AA6B104F9650D59EEEBC2 (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:38>
 		int64_t* L_0 = (int64_t*)(&__this->____packetsSent);
 		int64_t L_1;
 		L_1 = Interlocked_Increment_m12CD643CCD5FCDE95DBC0AB07D09AF696E26F9C0(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:39>
 		return;
 	}
 }
@@ -26600,11 +24439,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_IncrementPacketsSent_m1580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_IncrementPacketsReceived_m5ED106525ED4122A034C11B655CAF906EDB45543 (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:43>
 		int64_t* L_0 = (int64_t*)(&__this->____packetsReceived);
 		int64_t L_1;
 		L_1 = Interlocked_Increment_m12CD643CCD5FCDE95DBC0AB07D09AF696E26F9C0(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:44>
 		return;
 	}
 }
@@ -26612,12 +24449,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_IncrementPacketsReceived_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_AddBytesSent_mF40D26961FC0CB1A0437CFE4D098708DF63AE26F (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, int64_t ___0_bytesSent, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:48>
 		int64_t* L_0 = (int64_t*)(&__this->____bytesSent);
 		int64_t L_1 = ___0_bytesSent;
 		int64_t L_2;
 		L_2 = Interlocked_Add_mA249C56CFA55BD18AB381A69C4138FF538A15EA1(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:49>
 		return;
 	}
 }
@@ -26625,12 +24460,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_AddBytesSent_mF40D26961FC0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_AddBytesReceived_m677B60AC5A87E34B0454C15DABB2AC1BFF7A80FA (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, int64_t ___0_bytesReceived, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:53>
 		int64_t* L_0 = (int64_t*)(&__this->____bytesReceived);
 		int64_t L_1 = ___0_bytesReceived;
 		int64_t L_2;
 		L_2 = Interlocked_Add_mA249C56CFA55BD18AB381A69C4138FF538A15EA1(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:54>
 		return;
 	}
 }
@@ -26638,11 +24471,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_AddBytesReceived_m677B60AC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_IncrementPacketLoss_m13E7D67D35BC6DE79298D03DAF5C8733B9A0F23D (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:58>
 		int64_t* L_0 = (int64_t*)(&__this->____packetLoss);
 		int64_t L_1;
 		L_1 = Interlocked_Increment_m12CD643CCD5FCDE95DBC0AB07D09AF696E26F9C0(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:59>
 		return;
 	}
 }
@@ -26650,12 +24481,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_IncrementPacketLoss_m13E7D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetStatistics_AddPacketLoss_mEF777E59FB30FAF17020FFB11DB342076B19F0AB (NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* __this, int64_t ___0_packetLoss, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:63>
 		int64_t* L_0 = (int64_t*)(&__this->____packetLoss);
 		int64_t L_1 = ___0_packetLoss;
 		int64_t L_2;
 		L_2 = Interlocked_Add_mA249C56CFA55BD18AB381A69C4138FF538A15EA1(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:64>
 		return;
 	}
 }
@@ -26670,7 +24499,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NetStatistics_ToString_m1900BFF0801
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetStatistics.cs:68>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = L_0;
 		int64_t L_2;
@@ -26760,7 +24588,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:30>
 		String_t* L_0 = ___0_hostStr;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_1;
@@ -26785,7 +24612,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63
 	}
 	IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:35>
 		String_t* L_0 = ___0_hostStr;
 		bool L_1;
 		L_1 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, _stringLiteral5FC154761871B7293BA5D77E57A16A71359FE4E5, NULL);
@@ -26795,7 +24621,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:36>
 		il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_2 = ((IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var))->___Loopback;
 		return L_2;
@@ -26803,7 +24628,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:38>
 		String_t* L_3 = ___0_hostStr;
 		il2cpp_codegen_runtime_class_init_inline(IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -26814,7 +24638,6 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:40>
 		il2cpp_codegen_runtime_class_init_inline(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var);
 		bool L_5 = ((NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_StaticFields*)il2cpp_codegen_static_fields_for(NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C_il2cpp_TypeInfo_var))->___IPv6Support;
 		if (!L_5)
@@ -26823,7 +24646,6 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:41>
 		String_t* L_6 = ___0_hostStr;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_7;
@@ -26833,7 +24655,6 @@ IL_0013:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:42>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_8 = V_0;
 		if (L_8)
 		{
@@ -26841,7 +24662,6 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:43>
 		String_t* L_9 = ___0_hostStr;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_10;
@@ -26851,7 +24671,6 @@ IL_002d:
 
 IL_0038:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:45>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_11 = V_0;
 		if (L_11)
 		{
@@ -26859,7 +24678,6 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:46>
 		String_t* L_12 = ___0_hostStr;
 		String_t* L_13;
 		L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCDCAEAC0EC16DAB2B94EB8085B3301CCA8654423)), L_12, NULL);
@@ -26870,7 +24688,6 @@ IL_0038:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:48>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_15 = V_0;
 		return L_15;
 	}
@@ -26882,14 +24699,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63
 	int32_t V_1 = 0;
 	IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* V_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:53>
 		String_t* L_0 = ___0_hostStr;
 		IPHostEntry_tAAAEB0F40DB9F28BE601B5FE7DA1D76191C94490* L_1;
 		L_1 = Dns_GetHostEntry_m08417F96132B4230D46BE63C6B36CD984362ED53(L_0, NULL);
 		NullCheck(L_1);
 		IPAddressU5BU5D_t3AEDF3B94746C9023A4549F878AA47F702C9CD0D* L_2;
 		L_2 = IPHostEntry_get_AddressList_m9D14D52EFB41C53C9C4A36D438E1333A99B7AA71_inline(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:54>
 		V_0 = L_2;
 		V_1 = 0;
 		goto IL_0023;
@@ -26897,14 +24712,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:54>
 		IPAddressU5BU5D_t3AEDF3B94746C9023A4549F878AA47F702C9CD0D* L_3 = V_0;
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		V_2 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:56>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_7 = V_2;
 		NullCheck(L_7);
 		int32_t L_8;
@@ -26916,7 +24729,6 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:58>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_10 = V_2;
 		return L_10;
 	}
@@ -26929,7 +24741,6 @@ IL_001f:
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:54>
 		int32_t L_12 = V_1;
 		IPAddressU5BU5D_t3AEDF3B94746C9023A4549F878AA47F702C9CD0D* L_13 = V_0;
 		NullCheck(L_13);
@@ -26939,7 +24750,6 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:61>
 		return (IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484*)NULL;
 	}
 }
@@ -26955,15 +24765,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:71>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:72>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = L_0;
 		int32_t L_2 = ___0_addrType;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		NetUtils_GetLocalIpList_m48F7C30D38D69369B99426F26987E38790849797(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:73>
 		return L_1;
 	}
 }
@@ -26995,25 +24802,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetUtils_GetLocalIpList_m48F7C30D38D6936
 	IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* V_9 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:83>
 		int32_t L_0 = ___1_addrType;
 		V_0 = (bool)((((int32_t)((int32_t)((int32_t)L_0&1))) == ((int32_t)1))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:84>
 		int32_t L_1 = ___1_addrType;
 		V_1 = (bool)((((int32_t)((int32_t)((int32_t)L_1&2))) == ((int32_t)2))? 1 : 0);
 	}
 	try
 	{
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:89>
 			NetworkInterfaceU5BU5D_t62783E27F1C4A989B118CDBBE2FCBE65EE5CA080* L_2;
 			L_2 = NetworkInterface_GetAllNetworkInterfaces_m4E5A4AAEED8B11868BDC8F78975460D9B6F3CD70(NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:90>
 			NetworkInterfaceU5BU5D_t62783E27F1C4A989B118CDBBE2FCBE65EE5CA080* L_3 = L_2;
 			il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 			NetworkSorter_t8B6743F6D728EE1E021E3BA5A2B0374C6A3114D5* L_4 = ((NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_StaticFields*)il2cpp_codegen_static_fields_for(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var))->___NetworkSorter;
 			Array_Sort_TisNetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A_m0BA57599848D258BC402802F1863072E04DCDAEB(L_3, L_4, Array_Sort_TisNetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A_m0BA57599848D258BC402802F1863072E04DCDAEB_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:92>
 			V_2 = L_3;
 			V_3 = 0;
 			goto IL_00b8_1;
@@ -27021,14 +24823,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetUtils_GetLocalIpList_m48F7C30D38D6936
 
 IL_0026_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:92>
 			NetworkInterfaceU5BU5D_t62783E27F1C4A989B118CDBBE2FCBE65EE5CA080* L_5 = V_2;
 			int32_t L_6 = V_3;
 			NullCheck(L_5);
 			int32_t L_7 = L_6;
 			NetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 			V_4 = L_8;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:95>
 			NetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A* L_9 = V_4;
 			NullCheck(L_9);
 			int32_t L_10;
@@ -27049,13 +24849,11 @@ IL_0026_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:98>
 			NetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A* L_13 = V_4;
 			NullCheck(L_13);
 			IPInterfaceProperties_t60A00D504E4F72CAFE4C0AE4DA6A062B44D1512F* L_14;
 			L_14 = VirtualFuncInvoker0< IPInterfaceProperties_t60A00D504E4F72CAFE4C0AE4DA6A062B44D1512F* >::Invoke(5, L_13);
 			V_5 = L_14;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:101>
 			IPInterfaceProperties_t60A00D504E4F72CAFE4C0AE4DA6A062B44D1512F* L_15 = V_5;
 			NullCheck(L_15);
 			GatewayIPAddressInformationCollection_t4D24D7B02E632A5F8DBE65DBFB751C2EC925E817* L_16;
@@ -27069,7 +24867,6 @@ IL_0026_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:104>
 			IPInterfaceProperties_t60A00D504E4F72CAFE4C0AE4DA6A062B44D1512F* L_18 = V_5;
 			NullCheck(L_18);
 			UnicastIPAddressInformationCollection_tB4D61C9127DFB4168CA3855020CCEB59B75C6EDA* L_19;
@@ -27112,17 +24909,14 @@ IL_00b3_1:
 
 IL_0067_2:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:104>
 					RuntimeObject* L_23 = V_6;
 					NullCheck(L_23);
 					UnicastIPAddressInformation_t4ACCADE9FBC1F8243A602439C94301E2C30295F3* L_24;
 					L_24 = InterfaceFuncInvoker0< UnicastIPAddressInformation_t4ACCADE9FBC1F8243A602439C94301E2C30295F3* >::Invoke(0, IEnumerator_1_tA218C3658C89562941B7435E73E48E2EDC26D9BD_il2cpp_TypeInfo_var, L_23);
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:106>
 					NullCheck(L_24);
 					IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_25;
 					L_25 = VirtualFuncInvoker0< IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* >::Invoke(4, L_24);
 					V_7 = L_25;
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:107>
 					bool L_26 = V_0;
 					if (!L_26)
 					{
@@ -27161,7 +24955,6 @@ IL_0082_2:
 
 IL_0090_2:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:108>
 					RuntimeObject* L_32 = ___0_targetList;
 					IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_33 = V_7;
 					NullCheck(L_33);
@@ -27173,7 +24966,6 @@ IL_0090_2:
 
 IL_009d_2:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:104>
 					RuntimeObject* L_35 = V_6;
 					NullCheck(L_35);
 					bool L_36;
@@ -27201,7 +24993,6 @@ IL_00b4_1:
 
 IL_00b8_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:92>
 			int32_t L_38 = V_3;
 			NetworkInterfaceU5BU5D_t62783E27F1C4A989B118CDBBE2FCBE65EE5CA080* L_39 = V_2;
 			NullCheck(L_39);
@@ -27211,7 +25002,6 @@ IL_00b8_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:113>
 			RuntimeObject* L_40 = ___0_targetList;
 			NullCheck(L_40);
 			int32_t L_41;
@@ -27222,7 +25012,6 @@ IL_00b8_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:115>
 			String_t* L_42;
 			L_42 = Dns_GetHostName_m9290C5F9D0B6B8F259D53F30B7A80C4D4FB77083(NULL);
 			IPHostEntry_tAAAEB0F40DB9F28BE601B5FE7DA1D76191C94490* L_43;
@@ -27230,7 +25019,6 @@ IL_00b8_1:
 			NullCheck(L_43);
 			IPAddressU5BU5D_t3AEDF3B94746C9023A4549F878AA47F702C9CD0D* L_44;
 			L_44 = IPHostEntry_get_AddressList_m9D14D52EFB41C53C9C4A36D438E1333A99B7AA71_inline(L_43, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:116>
 			V_8 = L_44;
 			V_3 = 0;
 			goto IL_0110_1;
@@ -27238,14 +25026,12 @@ IL_00b8_1:
 
 IL_00de_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:116>
 			IPAddressU5BU5D_t3AEDF3B94746C9023A4549F878AA47F702C9CD0D* L_45 = V_8;
 			int32_t L_46 = V_3;
 			NullCheck(L_45);
 			int32_t L_47 = L_46;
 			IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_48 = (L_45)->GetAt(static_cast<il2cpp_array_size_t>(L_47));
 			V_9 = L_48;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:118>
 			bool L_49 = V_0;
 			if (!L_49)
 			{
@@ -27284,7 +25070,6 @@ IL_00f1_1:
 
 IL_00ff_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:119>
 			RuntimeObject* L_55 = ___0_targetList;
 			IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_56 = V_9;
 			NullCheck(L_56);
@@ -27302,7 +25087,6 @@ IL_010c_1:
 
 IL_0110_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:116>
 			int32_t L_59 = V_3;
 			IPAddressU5BU5D_t3AEDF3B94746C9023A4549F878AA47F702C9CD0D* L_60 = V_8;
 			NullCheck(L_60);
@@ -27314,7 +25098,6 @@ IL_0110_1:
 
 IL_0117_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:122>
 			goto IL_011c;
 		}
 	}
@@ -27331,15 +25114,12 @@ IL_0117_1:
 CATCH_0119:
 	{
 		RuntimeObject* L_61 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:123>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:126>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_011c;
 	}
 
 IL_011c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:128>
 		RuntimeObject* L_62 = ___0_targetList;
 		NullCheck(L_62);
 		int32_t L_63;
@@ -27350,7 +25130,6 @@ IL_011c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:130>
 		bool L_64 = V_0;
 		if (!L_64)
 		{
@@ -27358,7 +25137,6 @@ IL_011c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:131>
 		RuntimeObject* L_65 = ___0_targetList;
 		NullCheck(L_65);
 		InterfaceActionInvoker1< String_t* >::Invoke(2, ICollection_1_t5C03FBFD5ECBDE4EAB8C4ED582DDFCF702EB5DC7_il2cpp_TypeInfo_var, L_65, _stringLiteral76C3D4024DE9EE847070E35CC5A197DC21F66FEE);
@@ -27366,7 +25144,6 @@ IL_011c:
 
 IL_0132:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:132>
 		bool L_66 = V_1;
 		if (!L_66)
 		{
@@ -27374,7 +25151,6 @@ IL_0132:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:133>
 		RuntimeObject* L_67 = ___0_targetList;
 		NullCheck(L_67);
 		InterfaceActionInvoker1< String_t* >::Invoke(2, ICollection_1_t5C03FBFD5ECBDE4EAB8C4ED582DDFCF702EB5DC7_il2cpp_TypeInfo_var, L_67, _stringLiteral6474EBE79D288AAD27635D1581EA921D28D400BC);
@@ -27382,7 +25158,6 @@ IL_0132:
 
 IL_0140:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:135>
 		return;
 	}
 }
@@ -27403,7 +25178,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NetUtils_GetLocalIp_m23883FD562488D
 	String_t* V_2 = NULL;
 	String_t* G_B4_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:146>
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ((NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_StaticFields*)il2cpp_codegen_static_fields_for(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var))->___IpList;
 		V_0 = L_0;
@@ -27438,16 +25212,13 @@ IL_004f:
 			{
 				List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = V_0;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_3, (&V_1), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:148>
 				il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 				List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_4 = ((NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_StaticFields*)il2cpp_codegen_static_fields_for(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var))->___IpList;
 				NullCheck(L_4);
 				List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_inline(L_4, List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:149>
 				List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_5 = ((NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_StaticFields*)il2cpp_codegen_static_fields_for(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var))->___IpList;
 				int32_t L_6 = ___0_addrType;
 				NetUtils_GetLocalIpList_m48F7C30D38D69369B99426F26987E38790849797(L_5, L_6, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:150>
 				List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_7 = ((NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_StaticFields*)il2cpp_codegen_static_fields_for(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var))->___IpList;
 				NullCheck(L_7);
 				int32_t L_8;
@@ -27487,7 +25258,6 @@ IL_0043_1:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:152>
 		String_t* L_12 = V_2;
 		return L_12;
 	}
@@ -27511,7 +25281,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetUtils_PrintInterfaceInfos_m4BA192A596
 	try
 	{
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:162>
 			NetworkInterfaceU5BU5D_t62783E27F1C4A989B118CDBBE2FCBE65EE5CA080* L_0;
 			L_0 = NetworkInterface_GetAllNetworkInterfaces_m4E5A4AAEED8B11868BDC8F78975460D9B6F3CD70(NULL);
 			V_0 = L_0;
@@ -27521,13 +25290,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetUtils_PrintInterfaceInfos_m4BA192A596
 
 IL_000a_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:162>
 			NetworkInterfaceU5BU5D_t62783E27F1C4A989B118CDBBE2FCBE65EE5CA080* L_1 = V_0;
 			int32_t L_2 = V_1;
 			NullCheck(L_1);
 			int32_t L_3 = L_2;
 			NetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:164>
 			NullCheck(L_4);
 			IPInterfaceProperties_t60A00D504E4F72CAFE4C0AE4DA6A062B44D1512F* L_5;
 			L_5 = VirtualFuncInvoker0< IPInterfaceProperties_t60A00D504E4F72CAFE4C0AE4DA6A062B44D1512F* >::Invoke(5, L_4);
@@ -27572,13 +25339,11 @@ IL_0056_1:
 
 IL_001f_2:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:164>
 					RuntimeObject* L_10 = V_2;
 					NullCheck(L_10);
 					UnicastIPAddressInformation_t4ACCADE9FBC1F8243A602439C94301E2C30295F3* L_11;
 					L_11 = InterfaceFuncInvoker0< UnicastIPAddressInformation_t4ACCADE9FBC1F8243A602439C94301E2C30295F3* >::Invoke(0, IEnumerator_1_tA218C3658C89562941B7435E73E48E2EDC26D9BD_il2cpp_TypeInfo_var, L_10);
 					V_3 = L_11;
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:166>
 					UnicastIPAddressInformation_t4ACCADE9FBC1F8243A602439C94301E2C30295F3* L_12 = V_3;
 					NullCheck(L_12);
 					IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_13;
@@ -27603,7 +25368,6 @@ IL_001f_2:
 
 IL_0043_2:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:164>
 					RuntimeObject* L_18 = V_2;
 					NullCheck(L_18);
 					bool L_19;
@@ -27631,7 +25395,6 @@ IL_0057_1:
 
 IL_005b_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:162>
 			int32_t L_21 = V_1;
 			NetworkInterfaceU5BU5D_t62783E27F1C4A989B118CDBBE2FCBE65EE5CA080* L_22 = V_0;
 			NullCheck(L_22);
@@ -27641,7 +25404,6 @@ IL_005b_1:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:172>
 			goto IL_0066;
 		}
 	}
@@ -27658,15 +25420,12 @@ IL_005b_1:
 CATCH_0063:
 	{
 		Exception_t* L_23 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:173>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:176>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0066;
 	}
 
 IL_0066:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:177>
 		return;
 	}
 }
@@ -27674,7 +25433,6 @@ IL_0066:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetUtils_RelativeSequenceNumber_m62DDFF8A0518A8D74F19A9D4B4A5738770185851 (int32_t ___0_number, int32_t ___1_expected, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:181>
 		int32_t L_0 = ___0_number;
 		int32_t L_1 = ___1_expected;
 		return ((int32_t)il2cpp_codegen_subtract(((int32_t)(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_0, L_1)), ((int32_t)32768))), ((int32_t)16384)))%((int32_t)32768))), ((int32_t)16384)));
@@ -27693,12 +25451,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetUtils__cctor_mA18341228CF61BA3651D033
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:26>
 		NetworkSorter_t8B6743F6D728EE1E021E3BA5A2B0374C6A3114D5* L_0 = (NetworkSorter_t8B6743F6D728EE1E021E3BA5A2B0374C6A3114D5*)il2cpp_codegen_object_new(NetworkSorter_t8B6743F6D728EE1E021E3BA5A2B0374C6A3114D5_il2cpp_TypeInfo_var);
 		NetworkSorter__ctor_m0D3D52AFCB750C28CB6DD7D3B08321F82B7BC416(L_0, NULL);
 		((NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_StaticFields*)il2cpp_codegen_static_fields_for(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var))->___NetworkSorter = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_StaticFields*)il2cpp_codegen_static_fields_for(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var))->___NetworkSorter), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:137>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_1, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		((NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_StaticFields*)il2cpp_codegen_static_fields_for(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var))->___IpList = L_1;
@@ -27751,7 +25507,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NetworkSorter_Compare_m8F913514446901
 	int32_t G_B35_0 = 0;
 	int32_t G_B42_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:201>
 		NetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A* L_0 = ___0_a;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -27787,7 +25542,6 @@ IL_0029:
 
 IL_002a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:203>
 		NetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A* L_6 = ___1_b;
 		NullCheck(L_6);
 		int32_t L_7;
@@ -27830,19 +25584,16 @@ IL_0053:
 IL_0054:
 	{
 		V_0 = (bool)G_B8_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:205>
 		NetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A* L_12 = ___0_a;
 		NullCheck(L_12);
 		int32_t L_13;
 		L_13 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_12);
 		V_1 = (bool)((((int32_t)L_13) == ((int32_t)((int32_t)71)))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:206>
 		NetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A* L_14 = ___1_b;
 		NullCheck(L_14);
 		int32_t L_15;
 		L_15 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_14);
 		V_2 = (bool)((((int32_t)L_15) == ((int32_t)((int32_t)71)))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:208>
 		NetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A* L_16 = ___0_a;
 		NullCheck(L_16);
 		int32_t L_17;
@@ -27909,7 +25660,6 @@ IL_009e:
 IL_009f:
 	{
 		V_3 = (bool)G_B14_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:210>
 		NetworkInterface_t3E7DDFADB8912D0F9D001D1195EBD0FB08B7F47A* L_26 = ___1_b;
 		NullCheck(L_26);
 		int32_t L_27;
@@ -27976,7 +25726,6 @@ IL_00d3:
 IL_00d4:
 	{
 		V_4 = (bool)G_B20_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:212>
 		if (G_B20_1)
 		{
 			goto IL_00e1;
@@ -28003,7 +25752,6 @@ IL_00e1:
 IL_00e2:
 	{
 		V_5 = (bool)G_B24_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:213>
 		bool L_38 = V_0;
 		if (L_38)
 		{
@@ -28031,7 +25779,6 @@ IL_00f1:
 IL_00f2:
 	{
 		V_6 = (bool)G_B28_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:215>
 		bool L_41 = V_3;
 		if (L_41)
 		{
@@ -28077,7 +25824,6 @@ IL_0107:
 IL_0108:
 	{
 		V_7 = G_B35_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:216>
 		bool L_44 = V_4;
 		if (L_44)
 		{
@@ -28123,7 +25869,6 @@ IL_011e:
 IL_011f:
 	{
 		V_8 = G_B42_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetUtils.cs:218>
 		int32_t L_47 = V_7;
 		int32_t L_48 = V_8;
 		if ((((int32_t)L_47) > ((int32_t)L_48)))
@@ -28181,34 +25926,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PausedSocketFix__ctor_mB07905D0B5C786D42
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:15>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:17>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_0 = ___0_netManager;
 		__this->____netManager = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____netManager), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:18>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_1 = ___1_ipv4;
 		__this->____ipv4 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____ipv4), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:19>
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_2 = ___2_ipv6;
 		__this->____ipv6 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____ipv6), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:20>
 		int32_t L_3 = ___3_port;
 		__this->____port = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:21>
 		bool L_4 = ___4_manualMode;
 		__this->____manualMode = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:22>
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_5 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_5, __this, (intptr_t)((void*)PausedSocketFix_Application_focusChanged_m9D21D529C07E4A353179A97ADB79B59B5605D949_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_add_focusChanged_m8C984ECC5D23BE2E395EEAEE58D028F2B95A7E85(L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:23>
 		__this->____initialized = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:24>
 		return;
 	}
 }
@@ -28224,7 +25960,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PausedSocketFix_Deinitialize_m32D50352AE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:28>
 		bool L_0 = __this->____initialized;
 		if (!L_0)
 		{
@@ -28232,7 +25967,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PausedSocketFix_Deinitialize_m32D50352AE
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:29>
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_1 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_1, __this, (intptr_t)((void*)PausedSocketFix_Application_focusChanged_m9D21D529C07E4A353179A97ADB79B59B5605D949_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
@@ -28241,9 +25975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PausedSocketFix_Deinitialize_m32D50352AE
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:30>
 		__this->____initialized = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:31>
 		return;
 	}
 }
@@ -28259,7 +25991,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PausedSocketFix_Application_focusChanged
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:36>
 		bool L_0 = ___0_focused;
 		if (!L_0)
 		{
@@ -28267,7 +25998,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PausedSocketFix_Application_focusChanged
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:39>
 		bool L_1 = __this->____initialized;
 		if (L_1)
 		{
@@ -28275,13 +26005,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PausedSocketFix_Application_focusChanged
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:40>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:42>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_2 = __this->____netManager;
 		NullCheck(L_2);
 		bool L_3;
@@ -28292,13 +26020,11 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:43>
 		return;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:45>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_4 = __this->____netManager;
 		NullCheck(L_4);
 		bool L_5 = L_4->___NotConnected;
@@ -28308,13 +26034,11 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:46>
 		return;
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:49>
 		NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_6 = __this->____netManager;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_7 = __this->____ipv4;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_8 = __this->____ipv6;
@@ -28329,7 +26053,6 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:51>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = L_12;
 		IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* L_14 = __this->____ipv4;
@@ -28363,7 +26086,6 @@ IL_002b:
 
 IL_0093:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PausedSocketFix.cs:54>
 		return;
 	}
 }
@@ -28433,7 +26155,6 @@ IL2CPP_EXTERN_C void PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79F7BFA6FDE_mars
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* PooledPacket_get_Data_m93491C9A6E9C2076BC9124D359B7BAF71FF2E495 (PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79F7BFA6FDE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PooledPacket.cs:18>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = __this->____packet;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0->___RawData;
@@ -28444,28 +26165,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PooledPacket__ctor_mE1E023B046373114E7BFE1AA6BD24AE64409D1F4 (PooledPacket_t382DBABDF52AF2CDF4A2DC1DA2C0D79F7BFA6FDE* __this, NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* ___0_packet, int32_t ___1_maxDataSize, uint8_t ___2_channelNumber, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PooledPacket.cs:22>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		__this->____packet = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PooledPacket.cs:23>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_1 = __this->____packet;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = NetPacket_GetHeaderSize_m41063A2C1CB44E27C8597AF2A59D0EBBD70C545C(L_1, NULL);
 		__this->___UserDataOffset = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PooledPacket.cs:24>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3 = __this->____packet;
 		int32_t L_4 = __this->___UserDataOffset;
 		NullCheck(L_3);
 		L_3->___Size = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PooledPacket.cs:25>
 		int32_t L_5 = ___1_maxDataSize;
 		int32_t L_6 = __this->___UserDataOffset;
 		__this->___MaxUserDataSize = ((int32_t)il2cpp_codegen_subtract(L_5, L_6));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PooledPacket.cs:26>
 		uint8_t L_7 = ___2_channelNumber;
 		__this->____channelNumber = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/PooledPacket.cs:27>
 		return;
 	}
 }
@@ -28491,42 +26206,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReliableChannel__ctor_mC779E18A75E06BD24
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:71>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_peer;
 		BaseChannel__ctor_m0BC73E850239E9A91C4B170A4E7BAA7F73F5E2EE(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:73>
 		uint8_t L_1 = ___2_id;
 		__this->____id = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:74>
 		__this->____windowSize = ((int32_t)64);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:75>
 		bool L_2 = ___1_ordered;
 		__this->____ordered = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:76>
 		int32_t L_3 = __this->____windowSize;
 		PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC* L_4 = (PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC*)(PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC*)SZArrayNew(PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC_il2cpp_TypeInfo_var, (uint32_t)L_3);
 		__this->____pendingPackets = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pendingPackets), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:77>
 		V_0 = 0;
 		goto IL_0048;
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:78>
 		PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC* L_5 = __this->____pendingPackets;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		il2cpp_codegen_initobj(((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6))), sizeof(PendingPacket_t857B6BFBA52BABD888A277FF19F1E7423DD70CAB));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:77>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0048:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:77>
 		int32_t L_8 = V_0;
 		PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC* L_9 = __this->____pendingPackets;
 		NullCheck(L_9);
@@ -28536,7 +26242,6 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:80>
 		bool L_10 = __this->____ordered;
 		if (!L_10)
 		{
@@ -28544,9 +26249,7 @@ IL_0048:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:82>
 		__this->____deliveryMethod = 2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:83>
 		int32_t L_11 = __this->____windowSize;
 		NetPacketU5BU5D_t80BC1BE2E4FE84139284AFC39927F031D13F6F66* L_12 = (NetPacketU5BU5D_t80BC1BE2E4FE84139284AFC39927F031D13F6F66*)(NetPacketU5BU5D_t80BC1BE2E4FE84139284AFC39927F031D13F6F66*)SZArrayNew(NetPacketU5BU5D_t80BC1BE2E4FE84139284AFC39927F031D13F6F66_il2cpp_TypeInfo_var, (uint32_t)L_11);
 		__this->____receivedPackets = L_12;
@@ -28556,9 +26259,7 @@ IL_0048:
 
 IL_0075:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:87>
 		__this->____deliveryMethod = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:88>
 		int32_t L_13 = __this->____windowSize;
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_14 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)L_13);
 		__this->____earlyReceived = L_14;
@@ -28567,15 +26268,10 @@ IL_0075:
 
 IL_008d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:91>
 		__this->____localWindowStart = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:92>
 		__this->____localSeqence = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:93>
 		__this->____remoteSequence = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:94>
 		__this->____remoteWindowStart = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:95>
 		int32_t L_15 = __this->____windowSize;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_16 = (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)il2cpp_codegen_object_new(NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4_il2cpp_TypeInfo_var);
 		NetPacket__ctor_mDD2AECA14661B0E3643D6EDD548B3038F16C6540(L_16, 2, ((int32_t)il2cpp_codegen_add(((int32_t)(((int32_t)il2cpp_codegen_subtract(L_15, 1))/8)), 2)), NULL);
@@ -28585,7 +26281,6 @@ IL_008d:
 		NetPacket_set_ChannelId_m579B611690004EED83E6B361B888822068FAC44E(L_17, L_18, NULL);
 		__this->____outgoingAcks = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____outgoingAcks), (void*)L_17);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:96>
 		return;
 	}
 }
@@ -28608,7 +26303,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReliableChannel_ProcessAck_mA6317CAEB041
 	int32_t V_7 = 0;
 	int32_t V_8 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:101>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___Size;
@@ -28621,26 +26315,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReliableChannel_ProcessAck_mA6317CAEB041
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:104>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:107>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_4 = ___0_packet;
 		NullCheck(L_4);
 		uint16_t L_5;
 		L_5 = NetPacket_get_Sequence_m64311962292576CC978333B498ED6533CF62412B(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:108>
 		int32_t L_6 = __this->____localWindowStart;
 		uint16_t L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		int32_t L_8;
 		L_8 = NetUtils_RelativeSequenceNumber_m62DDFF8A0518A8D74F19A9D4B4A5738770185851(L_6, L_7, NULL);
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:109>
 		uint16_t L_9 = V_0;
 		if ((((int32_t)L_9) >= ((int32_t)((int32_t)32768))))
 		{
@@ -28657,13 +26347,11 @@ IL_0014:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:112>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:116>
 		int32_t L_11 = V_1;
 		int32_t L_12 = __this->____windowSize;
 		if ((((int32_t)L_11) < ((int32_t)L_12)))
@@ -28672,18 +26360,15 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:119>
 		return;
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:122>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_13 = ___0_packet;
 		NullCheck(L_13);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = L_13->___RawData;
 		V_2 = L_14;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:123>
 		PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC* L_15 = __this->____pendingPackets;
 		V_3 = L_15;
 		V_4 = (bool)0;
@@ -28717,7 +26402,6 @@ IL_0136:
 			{
 				PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC* L_18 = V_3;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149((RuntimeObject*)L_18, (&V_4), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:125>
 				int32_t L_19 = __this->____localWindowStart;
 				V_5 = L_19;
 				goto IL_011d_1;
@@ -28725,13 +26409,11 @@ IL_0136:
 
 IL_0065_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:127>
 				int32_t L_20 = V_5;
 				uint16_t L_21 = V_0;
 				il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 				int32_t L_22;
 				L_22 = NetUtils_RelativeSequenceNumber_m62DDFF8A0518A8D74F19A9D4B4A5738770185851(L_20, L_21, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:128>
 				int32_t L_23 = __this->____windowSize;
 				if ((((int32_t)L_22) < ((int32_t)L_23)))
 				{
@@ -28739,23 +26421,18 @@ IL_0065_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:131>
 				goto IL_0137;
 			}
 
 IL_007a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:134>
 				int32_t L_24 = V_5;
 				int32_t L_25 = __this->____windowSize;
 				V_6 = ((int32_t)(L_24%L_25));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:135>
 				int32_t L_26 = V_6;
 				V_7 = ((int32_t)il2cpp_codegen_add(4, ((int32_t)(L_26/8))));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:136>
 				int32_t L_27 = V_6;
 				V_8 = ((int32_t)(L_27%8));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:137>
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28 = V_2;
 				int32_t L_29 = V_7;
 				NullCheck(L_28);
@@ -28768,7 +26445,6 @@ IL_007a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:139>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_33 = ((BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)__this)->___Peer;
 				NullCheck(L_33);
 				NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_34 = L_33->___NetManager;
@@ -28780,13 +26456,11 @@ IL_007a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:141>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_36 = ((BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)__this)->___Peer;
 				NullCheck(L_36);
 				NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_37 = L_36->___Statistics;
 				NullCheck(L_37);
 				NetStatistics_IncrementPacketLoss_m13E7D67D35BC6DE79298D03DAF5C8733B9A0F23D(L_37, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:142>
 				NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_38 = ((BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)__this)->___Peer;
 				NullCheck(L_38);
 				NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* L_39 = L_38->___NetManager;
@@ -28794,13 +26468,11 @@ IL_007a_1:
 				NetStatistics_tA75D460E6800231E1E5D6596DCD4A7DE324CEBA5* L_40 = L_39->___Statistics;
 				NullCheck(L_40);
 				NetStatistics_IncrementPacketLoss_m13E7D67D35BC6DE79298D03DAF5C8733B9A0F23D(L_40, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:147>
 				goto IL_0111_1;
 			}
 
 IL_00da_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:150>
 				int32_t L_41 = V_5;
 				int32_t L_42 = __this->____localWindowStart;
 				if ((!(((uint32_t)L_41) == ((uint32_t)L_42))))
@@ -28809,14 +26481,12 @@ IL_00da_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:153>
 				int32_t L_43 = __this->____localWindowStart;
 				__this->____localWindowStart = ((int32_t)(((int32_t)il2cpp_codegen_add(L_43, 1))%((int32_t)32768)));
 			}
 
 IL_00f8_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:157>
 				PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC* L_44 = __this->____pendingPackets;
 				int32_t L_45 = V_6;
 				NullCheck(L_44);
@@ -28827,14 +26497,12 @@ IL_00f8_1:
 
 IL_0111_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:125>
 				int32_t L_48 = V_5;
 				V_5 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_48, 1))%((int32_t)32768)));
 			}
 
 IL_011d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:125>
 				int32_t L_49 = V_5;
 				int32_t L_50 = __this->____localSeqence;
 				if ((!(((uint32_t)L_49) == ((uint32_t)L_50))))
@@ -28843,7 +26511,6 @@ IL_011d_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:160>
 				goto IL_0137;
 			}
 		}
@@ -28855,7 +26522,6 @@ IL_011d_1:
 
 IL_0137:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:161>
 		return;
 	}
 }
@@ -28883,7 +26549,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ReliableChannel_SendNextPackets_mF4DA58F
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_8 = NULL;
 	int32_t V_9 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:165>
 		bool L_0 = __this->____mustSendAcks;
 		if (!L_0)
 		{
@@ -28891,9 +26556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ReliableChannel_SendNextPackets_mF4DA58F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:167>
 		__this->____mustSendAcks = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:169>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_1 = __this->____outgoingAcks;
 		V_2 = L_1;
 		V_3 = (bool)0;
@@ -28926,12 +26589,10 @@ IL_003c:
 		{
 			NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_4 = V_2;
 			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_4, (&V_3), NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:171>
 			NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_5 = ((BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)__this)->___Peer;
 			NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_6 = __this->____outgoingAcks;
 			NullCheck(L_5);
 			NetPeer_SendUserData_mF9F28481A16BC9C09DC2B58508C202F3EC785D55(L_5, L_6, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:172>
 			goto IL_003d;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -28942,7 +26603,6 @@ IL_003c:
 
 IL_003d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:175>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_7;
 		L_7 = DateTime_get_UtcNow_m06B6E9995FE16846A0F71EC9DB23E90BE2C5F9FA(NULL);
@@ -28950,9 +26610,7 @@ IL_003d:
 		int64_t L_8;
 		L_8 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&V_4), NULL);
 		V_0 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:176>
 		V_1 = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:178>
 		PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC* L_9 = __this->____pendingPackets;
 		V_5 = L_9;
 		V_3 = (bool)0;
@@ -28986,7 +26644,6 @@ IL_015c:
 			{
 				PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC* L_12 = V_5;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149((RuntimeObject*)L_12, (&V_3), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:181>
 				Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_13 = ((BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)__this)->___OutgoingQueue;
 				V_6 = L_13;
 				V_7 = (bool)0;
@@ -29025,13 +26682,11 @@ IL_010b_1:
 
 IL_0077_2:
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:185>
 						int32_t L_17 = __this->____localSeqence;
 						int32_t L_18 = __this->____localWindowStart;
 						il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 						int32_t L_19;
 						L_19 = NetUtils_RelativeSequenceNumber_m62DDFF8A0518A8D74F19A9D4B4A5738770185851(L_17, L_18, NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:186>
 						int32_t L_20 = __this->____windowSize;
 						if ((((int32_t)L_19) < ((int32_t)L_20)))
 						{
@@ -29039,43 +26694,36 @@ IL_0077_2:
 						}
 					}
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:187>
 						goto IL_010c_1;
 					}
 
 IL_0092_2:
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:189>
 						Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_21 = ((BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)__this)->___OutgoingQueue;
 						NullCheck(L_21);
 						NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_22;
 						L_22 = Queue_1_Dequeue_m789F59B6BB389673D001D2ADC1B60402E667E092(L_21, Queue_1_Dequeue_m789F59B6BB389673D001D2ADC1B60402E667E092_RuntimeMethod_var);
 						V_8 = L_22;
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:190>
 						NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_23 = V_8;
 						int32_t L_24 = __this->____localSeqence;
 						NullCheck(L_23);
 						NetPacket_set_Sequence_mF625DB3AB0CAF8A4C4DEB600EA3D918D3E2762CC(L_23, (uint16_t)((int32_t)(uint16_t)L_24), NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:191>
 						NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_25 = V_8;
 						uint8_t L_26 = __this->____id;
 						NullCheck(L_25);
 						NetPacket_set_ChannelId_m579B611690004EED83E6B361B888822068FAC44E(L_25, L_26, NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:192>
 						PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC* L_27 = __this->____pendingPackets;
 						int32_t L_28 = __this->____localSeqence;
 						int32_t L_29 = __this->____windowSize;
 						NullCheck(L_27);
 						NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_30 = V_8;
 						PendingPacket_Init_m83C454F4407C34A0A1E23970454AB43C578A11F5(((L_27)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_28%L_29))))), L_30, NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:193>
 						int32_t L_31 = __this->____localSeqence;
 						__this->____localSeqence = ((int32_t)(((int32_t)il2cpp_codegen_add(L_31, 1))%((int32_t)32768)));
 					}
 
 IL_00ed_2:
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:183>
 						Queue_1_tBA3E506162890A5BF2DB6B95C424099E3A2220CE* L_32 = ((BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)__this)->___OutgoingQueue;
 						NullCheck(L_32);
 						int32_t L_33;
@@ -29086,7 +26734,6 @@ IL_00ed_2:
 						}
 					}
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:195>
 						goto IL_010c_1;
 					}
 				}
@@ -29098,7 +26745,6 @@ IL_00ed_2:
 
 IL_010c_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:198>
 				int32_t L_34 = __this->____localWindowStart;
 				V_9 = L_34;
 				goto IL_0146_1;
@@ -29106,7 +26752,6 @@ IL_010c_1:
 
 IL_0116_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:201>
 				PendingPacketU5BU5D_t70895A364B9FEA75FB23F02768CCF81CE84A1FEC* L_35 = __this->____pendingPackets;
 				int32_t L_36 = V_9;
 				int32_t L_37 = __this->____windowSize;
@@ -29121,20 +26766,17 @@ IL_0116_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:202>
 				V_1 = (bool)1;
 			}
 
 IL_013a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:198>
 				int32_t L_41 = V_9;
 				V_9 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_41, 1))%((int32_t)32768)));
 			}
 
 IL_0146_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:198>
 				int32_t L_42 = V_9;
 				int32_t L_43 = __this->____localSeqence;
 				if ((!(((uint32_t)L_42) == ((uint32_t)L_43))))
@@ -29143,7 +26785,6 @@ IL_0146_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:204>
 				goto IL_015d;
 			}
 		}
@@ -29155,7 +26796,6 @@ IL_0146_1:
 
 IL_015d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:206>
 		bool L_44 = V_1;
 		if (L_44)
 		{
@@ -29202,7 +26842,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ReliableChannel_ProcessPacket_m9B3D82CB8
 	bool V_8 = false;
 	NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* V_9 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:212>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_0 = ___0_packet;
 		NullCheck(L_0);
 		uint8_t L_1;
@@ -29213,22 +26852,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ReliableChannel_ProcessPacket_m9B3D82CB8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:214>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_2 = ___0_packet;
 		ReliableChannel_ProcessAck_mA6317CAEB041CA2F4BEF7E1E51A0CDF8503AF7AB(__this, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:215>
 		return (bool)0;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:217>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_3 = ___0_packet;
 		NullCheck(L_3);
 		uint16_t L_4;
 		L_4 = NetPacket_get_Sequence_m64311962292576CC978333B498ED6533CF62412B(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:218>
 		int32_t L_5 = V_0;
 		if ((((int32_t)L_5) < ((int32_t)((int32_t)32768))))
 		{
@@ -29236,25 +26871,21 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:221>
 		return (bool)0;
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:224>
 		int32_t L_6 = V_0;
 		int32_t L_7 = __this->____remoteWindowStart;
 		il2cpp_codegen_runtime_class_init_inline(NetUtils_t847234BE7E6FDB97006F6B9391E705D7FA098CC5_il2cpp_TypeInfo_var);
 		int32_t L_8;
 		L_8 = NetUtils_RelativeSequenceNumber_m62DDFF8A0518A8D74F19A9D4B4A5738770185851(L_6, L_7, NULL);
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:225>
 		int32_t L_9 = V_0;
 		int32_t L_10 = __this->____remoteSequence;
 		int32_t L_11;
 		L_11 = NetUtils_RelativeSequenceNumber_m62DDFF8A0518A8D74F19A9D4B4A5738770185851(L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:227>
 		int32_t L_12 = __this->____windowSize;
 		if ((((int32_t)L_11) <= ((int32_t)L_12)))
 		{
@@ -29262,13 +26893,11 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:230>
 		return (bool)0;
 	}
 
 IL_0046:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:234>
 		int32_t L_13 = V_1;
 		if ((((int32_t)L_13) >= ((int32_t)0)))
 		{
@@ -29276,13 +26905,11 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:238>
 		return (bool)0;
 	}
 
 IL_004c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:240>
 		int32_t L_14 = V_1;
 		int32_t L_15 = __this->____windowSize;
 		if ((((int32_t)L_14) < ((int32_t)((int32_t)il2cpp_codegen_multiply(L_15, 2)))))
@@ -29291,13 +26918,11 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:244>
 		return (bool)0;
 	}
 
 IL_0059:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:251>
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_16 = __this->____outgoingAcks;
 		V_5 = L_16;
 		V_6 = (bool)0;
@@ -29331,7 +26956,6 @@ IL_0160:
 			{
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_19 = V_5;
 				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_19, (&V_6), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:253>
 				int32_t L_20 = V_1;
 				int32_t L_21 = __this->____windowSize;
 				if ((((int32_t)L_20) < ((int32_t)L_21)))
@@ -29340,12 +26964,10 @@ IL_0160:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:256>
 				int32_t L_22 = __this->____remoteWindowStart;
 				int32_t L_23 = V_1;
 				int32_t L_24 = __this->____windowSize;
 				V_7 = ((int32_t)(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_22, L_23)), L_24)), 1))%((int32_t)32768)));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:257>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_25 = __this->____outgoingAcks;
 				int32_t L_26 = V_7;
 				NullCheck(L_25);
@@ -29355,17 +26977,13 @@ IL_0160:
 
 IL_009f_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:262>
 				int32_t L_27 = __this->____remoteWindowStart;
 				int32_t L_28 = __this->____windowSize;
 				V_2 = ((int32_t)(L_27%L_28));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:263>
 				int32_t L_29 = V_2;
 				V_3 = ((int32_t)il2cpp_codegen_add(4, ((int32_t)(L_29/8))));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:264>
 				int32_t L_30 = V_2;
 				V_4 = ((int32_t)(L_30%8));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:265>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_31 = __this->____outgoingAcks;
 				NullCheck(L_31);
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_32 = L_31->___RawData;
@@ -29375,14 +26993,12 @@ IL_009f_1:
 				int32_t L_35 = *((uint8_t*)L_34);
 				int32_t L_36 = V_4;
 				*((int8_t*)L_34) = (int8_t)((int32_t)(uint8_t)((int32_t)(L_35&((int32_t)(uint8_t)((~((int32_t)(1<<((int32_t)(L_36&((int32_t)31)))))))))));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:266>
 				int32_t L_37 = __this->____remoteWindowStart;
 				__this->____remoteWindowStart = ((int32_t)(((int32_t)il2cpp_codegen_add(L_37, 1))%((int32_t)32768)));
 			}
 
 IL_00eb_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:260>
 				int32_t L_38 = __this->____remoteWindowStart;
 				int32_t L_39 = V_7;
 				if ((!(((uint32_t)L_38) == ((uint32_t)L_39))))
@@ -29393,19 +27009,14 @@ IL_00eb_1:
 
 IL_00f5_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:272>
 				__this->____mustSendAcks = (bool)1;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:274>
 				int32_t L_40 = V_0;
 				int32_t L_41 = __this->____windowSize;
 				V_2 = ((int32_t)(L_40%L_41));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:275>
 				int32_t L_42 = V_2;
 				V_3 = ((int32_t)il2cpp_codegen_add(4, ((int32_t)(L_42/8))));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:276>
 				int32_t L_43 = V_2;
 				V_4 = ((int32_t)(L_43%8));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:277>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_44 = __this->____outgoingAcks;
 				NullCheck(L_44);
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_45 = L_44->___RawData;
@@ -29420,16 +27031,13 @@ IL_00f5_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:281>
 				BaseChannel_AddToPeerChannelSendQueue_m13B3ECD33FEC7354967CF04A6D3CD838BBEEC379(__this, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:282>
 				V_8 = (bool)0;
 				goto IL_026e;
 			}
 
 IL_0135_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:286>
 				NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_50 = __this->____outgoingAcks;
 				NullCheck(L_50);
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_51 = L_50->___RawData;
@@ -29439,7 +27047,6 @@ IL_0135_1:
 				int32_t L_54 = *((uint8_t*)L_53);
 				int32_t L_55 = V_4;
 				*((int8_t*)L_53) = (int8_t)((int32_t)(uint8_t)((int32_t)(L_54|((int32_t)(uint8_t)((int32_t)(1<<((int32_t)(L_55&((int32_t)31)))))))));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:287>
 				goto IL_0161;
 			}
 		}
@@ -29451,9 +27058,7 @@ IL_0135_1:
 
 IL_0161:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:289>
 		BaseChannel_AddToPeerChannelSendQueue_m13B3ECD33FEC7354967CF04A6D3CD838BBEEC379(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:292>
 		int32_t L_56 = V_0;
 		int32_t L_57 = __this->____remoteSequence;
 		if ((!(((uint32_t)L_56) == ((uint32_t)L_57))))
@@ -29462,16 +27067,13 @@ IL_0161:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:295>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_58 = ((BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)__this)->___Peer;
 		uint8_t L_59 = __this->____deliveryMethod;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_60 = ___0_packet;
 		NullCheck(L_58);
 		NetPeer_AddReliablePacket_mCDF2C159BAC2E2F0AD802FE259359FF8606B714C(L_58, L_59, L_60, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:296>
 		int32_t L_61 = __this->____remoteSequence;
 		__this->____remoteSequence = ((int32_t)(((int32_t)il2cpp_codegen_add(L_61, 1))%((int32_t)32768)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:298>
 		bool L_62 = __this->____ordered;
 		if (!L_62)
 		{
@@ -29484,27 +27086,23 @@ IL_0161:
 
 IL_01a6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:304>
 		NetPacketU5BU5D_t80BC1BE2E4FE84139284AFC39927F031D13F6F66* L_63 = __this->____receivedPackets;
 		int32_t L_64 = __this->____remoteSequence;
 		int32_t L_65 = __this->____windowSize;
 		NullCheck(L_63);
 		ArrayElementTypeCheck (L_63, NULL);
 		(L_63)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_64%L_65))), (NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:305>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_66 = ((BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)__this)->___Peer;
 		uint8_t L_67 = __this->____deliveryMethod;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_68 = V_9;
 		NullCheck(L_66);
 		NetPeer_AddReliablePacket_mCDF2C159BAC2E2F0AD802FE259359FF8606B714C(L_66, L_67, L_68, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:306>
 		int32_t L_69 = __this->____remoteSequence;
 		__this->____remoteSequence = ((int32_t)(((int32_t)il2cpp_codegen_add(L_69, 1))%((int32_t)32768)));
 	}
 
 IL_01e2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:301>
 		NetPacketU5BU5D_t80BC1BE2E4FE84139284AFC39927F031D13F6F66* L_70 = __this->____receivedPackets;
 		int32_t L_71 = __this->____remoteSequence;
 		int32_t L_72 = __this->____windowSize;
@@ -29524,20 +27122,17 @@ IL_01e2:
 
 IL_01fd:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:314>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_76 = __this->____earlyReceived;
 		int32_t L_77 = __this->____remoteSequence;
 		int32_t L_78 = __this->____windowSize;
 		NullCheck(L_76);
 		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)(L_77%L_78))), (bool)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:315>
 		int32_t L_79 = __this->____remoteSequence;
 		__this->____remoteSequence = ((int32_t)(((int32_t)il2cpp_codegen_add(L_79, 1))%((int32_t)32768)));
 	}
 
 IL_0226:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:311>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_80 = __this->____earlyReceived;
 		int32_t L_81 = __this->____remoteSequence;
 		int32_t L_82 = __this->____windowSize;
@@ -29552,13 +27147,11 @@ IL_0226:
 
 IL_023c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:318>
 		return (bool)1;
 	}
 
 IL_023e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:322>
 		bool L_85 = __this->____ordered;
 		if (!L_85)
 		{
@@ -29566,7 +27159,6 @@ IL_023e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:324>
 		NetPacketU5BU5D_t80BC1BE2E4FE84139284AFC39927F031D13F6F66* L_86 = __this->____receivedPackets;
 		int32_t L_87 = V_2;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_88 = ___0_packet;
@@ -29577,12 +27169,10 @@ IL_023e:
 
 IL_0251:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:328>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_89 = __this->____earlyReceived;
 		int32_t L_90 = V_2;
 		NullCheck(L_89);
 		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(L_90), (bool)1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:329>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_91 = ((BaseChannel_t37414836FD02E6E3977F222B0F868A86C23E180F*)__this)->___Peer;
 		uint8_t L_92 = __this->____deliveryMethod;
 		NetPacket_t5EE189208D8B6A2417915C0A2F78C6B9C212B1E4* L_93 = ___0_packet;
@@ -29592,13 +27182,11 @@ IL_0251:
 
 IL_026c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:331>
 		return (bool)1;
 	}
 
 IL_026e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ReliableChannel.cs:332>
 		bool L_94 = V_8;
 		return L_94;
 	}
@@ -29610,7 +27198,6 @@ IL_026e:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConnectionRequest_set_Result_m5A19AAA946341A2EF22F0763D8EA45DE526BB9E3_inline (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:20>
 		int32_t L_0 = ___0_value;
 		__this->___U3CResultU3Ek__BackingField = L_0;
 		return;
@@ -29620,7 +27207,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConnectionRequest_set_Result
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ConnectionRequest_get_Result_m6ABA7CD15A38496193427FF21251FEFF6A18B520_inline (ConnectionRequest_tFA541B78F04CB88F4EF9317CD60E220BCD84F845* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/ConnectionRequest.cs:20>
 		int32_t L_0 = __this->___U3CResultU3Ek__BackingField;
 		return L_0;
 	}
@@ -29629,7 +27215,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ConnectionRequest_get_Res
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* NetDataWriter_get_Data_m581E8B2839044A95FC874361CE447396D0C918F5_inline (NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetDataWriter.cs:21>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->____data;
 		return L_0;
 	}
@@ -29638,7 +27223,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetDataWriter_get_Length_mC213D6934BF8FFAA5225907F85879EB05040B7A4_inline (NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetDataWriter.cs:25>
 		int32_t L_0 = __this->____position;
 		return L_0;
 	}
@@ -29703,7 +27287,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnPeerAddressChangedEvent_In
 	typedef void (*FunctionPointerType) (RuntimeObject*, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53*, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_peer, ___1_previousAddress, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 67430
+// Method Definition Index: 67423
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SocketAddress_get_Size_mBBA7758844EE6209A287989E0DBAE534C9A21A11_inline (SocketAddress_tAB4BC630E51E2241E607F4070DA1AEE00B442A03* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29715,7 +27299,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t SocketAddress_get_Size_mB
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t NetPeer_get_ConnectTime_mC237C46C7C07E203D76A7E6A04F9B4593B12A4ED_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:133>
 		int64_t L_0 = __this->___U3CConnectTimeU3Ek__BackingField;
 		return L_0;
 	}
@@ -29724,7 +27307,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t NetPeer_get_ConnectTime_m
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t NetPeer_get_ConnectionNum_mA2DEE6191C2A6C4725F9BDF5A046B5E8722C552E_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:69>
 		uint8_t L_0 = __this->____connectNum;
 		return L_0;
 	}
@@ -29733,7 +27315,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t NetPeer_get_ConnectionNum
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetPeer_get_RemoteId_mDBCAD936AA189A70B4BC3925BE55FA13DE879ED6_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:141>
 		int32_t L_0 = __this->___U3CRemoteIdU3Ek__BackingField;
 		return L_0;
 	}
@@ -29754,8 +27335,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnNatIntroductionSuccess_Inv
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket_set_Token_m9BAAB6885DB9A775ED7DB597D27A686518C97B85_inline (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:100>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:101>
 		String_t* L_0 = ___0_value;
 		__this->___U3CTokenU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenU3Ek__BackingField), (void*)L_0);
@@ -29766,8 +27345,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket_s
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket_set_Internal_m783AABA1FFF0AA6DCD03E38FBD191CF2E7F9711D_inline (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:86>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:87>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = ___0_value;
 		__this->___U3CInternalU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CInternalU3Ek__BackingField), (void*)L_0);
@@ -29778,8 +27355,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket_s
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket_set_External_m6AEA177F2C8946ED1732659D51D42A3328AB17CA_inline (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:93>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:94>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = ___0_value;
 		__this->___U3CExternalU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExternalU3Ek__BackingField), (void*)L_0);
@@ -29790,7 +27365,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatIntroduceResponsePacket_s
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetManager_get_LocalPort_m4BB40165C936B146DF5D5BAF44ADF719164B4281_inline (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:251>
 		int32_t L_0 = __this->___U3CLocalPortU3Ek__BackingField;
 		return L_0;
 	}
@@ -29799,8 +27373,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetManager_get_LocalPort_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatIntroduceRequestPacket_set_Internal_mD60B608DD663C06DA73AA63024DE591A97401653_inline (NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* __this, IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:68>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:69>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = ___0_value;
 		__this->___U3CInternalU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CInternalU3Ek__BackingField), (void*)L_0);
@@ -29811,8 +27383,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatIntroduceRequestPacket_se
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatIntroduceRequestPacket_set_Token_m8932A1D2A69BF07C66E8F7405B3E29CEC084E540_inline (NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:75>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:76>
 		String_t* L_0 = ___0_value;
 		__this->___U3CTokenU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenU3Ek__BackingField), (void*)L_0);
@@ -29823,8 +27393,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatIntroduceRequestPacket_se
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* NatIntroduceRequestPacket_get_Internal_mC9310F1415D3E6AC2C2D4E901CE3A9BD8F19918F_inline (NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:66>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:67>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = __this->___U3CInternalU3Ek__BackingField;
 		return L_0;
 	}
@@ -29833,8 +27401,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NatIntroduceRequestPacket_get_Token_m48B11872FE2E7235636B9110008883792FD02A9D_inline (NatIntroduceRequestPacket_t12C36CC6920A0D46DE5B5B4FC12C7358506D3169* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:73>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:74>
 		String_t* L_0 = __this->___U3CTokenU3Ek__BackingField;
 		return L_0;
 	}
@@ -29843,8 +27409,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NatIntroduceRequestPack
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NatIntroduceResponsePacket_get_Token_mCA1313F5E3D6CB238A3C5DD9E131704120C2B945_inline (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:98>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:99>
 		String_t* L_0 = __this->___U3CTokenU3Ek__BackingField;
 		return L_0;
 	}
@@ -29853,8 +27417,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NatIntroduceResponsePac
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatPunchPacket_set_Token_mBD869AB5821619BE84D06BC030D384A3B6198131_inline (NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:111>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:112>
 		String_t* L_0 = ___0_value;
 		__this->___U3CTokenU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTokenU3Ek__BackingField), (void*)L_0);
@@ -29865,8 +27427,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatPunchPacket_set_Token_mBD
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* NatIntroduceResponsePacket_get_Internal_mBFA1371577CD76D7FEEE5E9C4BE164FDEEE6616E_inline (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:84>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:85>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = __this->___U3CInternalU3Ek__BackingField;
 		return L_0;
 	}
@@ -29875,8 +27435,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* NatIntroduceResponsePacket_get_External_mBFAD158A23DCEA3974D8770254DAC7EE553BF41B_inline (NatIntroduceResponsePacket_t2ED6F7DB1283BFAAFC71AD205BA5B1BCB5FF3BD0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:91>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:92>
 		IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* L_0 = __this->___U3CExternalU3Ek__BackingField;
 		return L_0;
 	}
@@ -29885,8 +27443,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPEndPoint_t2F09CBA7A808B67724B4E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatPunchPacket_set_IsExternal_mA74D15BEF3FAE845DCCE39D75F157901CCFAA9EB_inline (NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:118>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:119>
 		bool L_0 = ___0_value;
 		__this->___U3CIsExternalU3Ek__BackingField = L_0;
 		return;
@@ -29896,8 +27452,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NatPunchPacket_set_IsExterna
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NatPunchPacket_get_IsExternal_m17E7F47EB16B528CDFD07446F7EB87F3F4318E5C_inline (NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:116>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:117>
 		bool L_0 = __this->___U3CIsExternalU3Ek__BackingField;
 		return L_0;
 	}
@@ -29906,8 +27460,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NatPunchPacket_get_IsExterna
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NatPunchPacket_get_Token_mCF744BD06B97DF194A3DF8E4C74DE713DA3EB1AC_inline (NatPunchPacket_t5778E7DB0CC0CC799C7A7F0559D41B59DE6F9766* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:109>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NatPunchModule.cs:110>
 		String_t* L_0 = __this->___U3CTokenU3Ek__BackingField;
 		return L_0;
 	}
@@ -29946,7 +27498,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OSPlatform_t8D6BF4B4756716D5B2694
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetManager_get_PoolCount_m016AF943FA620B3907ECB2AC6E8C0B305D88CEEB_inline (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:13>
 		int32_t L_0 = __this->___U3CPoolCountU3Ek__BackingField;
 		return L_0;
 	}
@@ -29955,7 +27506,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetManager_get_PoolCount_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetManager_set_PoolCount_m640EF82933014F7D21D16B8AFDF44829CF5C1199_inline (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.PacketPool.cs:13>
 		int32_t L_0 = ___0_value;
 		__this->___U3CPoolCountU3Ek__BackingField = L_0;
 		return;
@@ -29965,12 +27515,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetManager_set_PoolCount_m64
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetManager_get_IsRunning_mB0E5575B653966435F22860934AACCE763E44204_inline (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:247>
 		bool L_0 = __this->___U3CIsRunningU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 67408
+// Method Definition Index: 67401
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t IPEndPoint_get_Port_mFBE1AF1C9CC7E68A46BF46AD3869CC9DC01CF429_inline (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29982,7 +27531,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t IPEndPoint_get_Port_mFBE1
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetManager_set_LocalPort_mA77793D1E7F08FDA775A24D391D77485B17971AE_inline (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:251>
 		int32_t L_0 = ___0_value;
 		__this->___U3CLocalPortU3Ek__BackingField = L_0;
 		return;
@@ -29992,7 +27540,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetManager_set_LocalPort_mA7
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetManager_set_IsRunning_m73AE9FD7D1C491D86B43FA586E138EEC10BDFDDD_inline (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:247>
 		bool L_0 = ___0_value;
 		__this->___U3CIsRunningU3Ek__BackingField = L_0;
 		return;
@@ -30013,7 +27560,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OSPlatform_t8D6BF4B4756716D5B2694
 		return L_0;
 	}
 }
-// Method Definition Index: 67572
+// Method Definition Index: 67565
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Socket_get_AddressFamily_m42C390D31345314080EC35356ACFBBFF7E1123E5_inline (Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30021,7 +27568,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Socket_get_AddressFamily_
 		return L_0;
 	}
 }
-// Method Definition Index: 67406
+// Method Definition Index: 67399
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* IPEndPoint_get_Address_m72F783CB76E10E9DBDF680CCC1DAAED201BABB1C_inline (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30033,7 +27580,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPAddress_t2F4486449B0D73FF2D3B36
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t NetPeer_get_ConnectionState_mAFE854B38CD8AADE6F0316C18F76C174718694A2_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:129>
 		uint8_t L_0 = __this->___U3CConnectionStateU3Ek__BackingField;
 		return L_0;
 	}
@@ -30042,12 +27588,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t NetPeer_get_ConnectionSta
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetPeer_get_TimeSinceLastPacket_mB3E3B511BFDCA8D8A3158A3A170B50D9217A52A9_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:166>
 		int32_t L_0 = __this->____timeSinceLastPacket;
 		return L_0;
 	}
 }
-// Method Definition Index: 67407
+// Method Definition Index: 67400
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IPEndPoint_set_Address_m48F0D8096D02B90890E453ECF1616B78BB97CF63_inline (IPEndPoint_t2F09CBA7A808B67724B4E2954EEDC46D910F4ECB* __this, IPAddress_t2F4486449B0D73FF2D3B36A9FE5E9C3F63116484* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -30061,7 +27606,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IPEndPoint_set_Address_m48F0
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeerEnumerator_set_Current_m6B18A33A66D69E23EF870C5878E2CCF3A1EE0D15_inline (NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE* __this, NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:118>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = ___0_value;
 		__this->___U3CCurrentU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrentU3Ek__BackingField), (void*)L_0);
@@ -30072,7 +27616,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeerEnumerator_set_Curren
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* NetPeerEnumerator_get_Current_m459A823E66D9F8FBF4BCF764D7114C45353B110A_inline (NetPeerEnumerator_tEB7387ED1015069C0CA69253D6BBA09A8E3726EE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:118>
 		NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* L_0 = __this->___U3CCurrentU3Ek__BackingField;
 		return L_0;
 	}
@@ -30081,7 +27624,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetPeer_tF3F5C6489DFA85CBF1F75E5B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetPeer_get_RoundTripTime_mF75C894728100864AE99107DC46F988E723FFFE8_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:149>
 		int32_t L_0 = __this->___U3CRoundTripTimeU3Ek__BackingField;
 		return L_0;
 	}
@@ -30090,7 +27632,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetPeer_get_RoundTripTime
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t NetPeer_get_RemoteTimeDelta_m33CC64A835B86BE01BD2F7A06F9D59B9E1FEBF33_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:158>
 		int64_t L_0 = __this->___U3CRemoteTimeDeltaU3Ek__BackingField;
 		return L_0;
 	}
@@ -30099,7 +27640,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t NetPeer_get_RemoteTimeDel
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_ConnectionState_m933C21B681DE7928E6357D7145C4B87FC59FA34D_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:129>
 		uint8_t L_0 = ___0_value;
 		__this->___U3CConnectionStateU3Ek__BackingField = L_0;
 		return;
@@ -30109,7 +27649,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_ConnectionState_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t NetManager_get_ChannelsCount_m6AC579F6A58D76B7EA1D07E6EDBFA10577C6EFCB_inline (NetManager_t9A27593B6356DB8F67C9BB0D764B5C1C3A4BC11C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetManager.cs:290>
 		uint8_t L_0 = __this->____channelsCount;
 		return L_0;
 	}
@@ -30118,7 +27657,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t NetManager_get_ChannelsCo
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_Mtu_m4853077EA78457D6754AC5746936C7D9862C30A4_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:153>
 		int32_t L_0 = ___0_value;
 		__this->___U3CMtuU3Ek__BackingField = L_0;
 		return;
@@ -30128,7 +27666,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_Mtu_m4853077EA78
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetPeer_get_Mtu_m22C3D3FF9C2F73861DB6FDAB8548BE248B558BBF_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:153>
 		int32_t L_0 = __this->___U3CMtuU3Ek__BackingField;
 		return L_0;
 	}
@@ -30137,7 +27674,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetPeer_get_Mtu_m22C3D3FF
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_ConnectTime_mEE8228EF7FAB660999EE8F0480BBFBC0DF156140_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:133>
 		int64_t L_0 = ___0_value;
 		__this->___U3CConnectTimeU3Ek__BackingField = L_0;
 		return;
@@ -30147,7 +27683,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_ConnectTime_mEE8
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_RemoteId_m30DD7E8FE977EE6E0662B536EEC663916D079CD1_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:141>
 		int32_t L_0 = ___0_value;
 		__this->___U3CRemoteIdU3Ek__BackingField = L_0;
 		return;
@@ -30157,7 +27692,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_RemoteId_m30DD7E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_RoundTripTime_m28E1EC9C1A7F874D7D3906BDD95090C309DDF917_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:149>
 		int32_t L_0 = ___0_value;
 		__this->___U3CRoundTripTimeU3Ek__BackingField = L_0;
 		return;
@@ -30167,7 +27701,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_RoundTripTime_m2
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_ResendDelay_m0D6DA7A42081C1F087921058CADB9A6A628914CF_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:167>
 		double L_0 = ___0_value;
 		__this->___U3CResendDelayU3Ek__BackingField = L_0;
 		return;
@@ -30177,13 +27710,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_ResendDelay_m0D6
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetPeer_set_RemoteTimeDelta_m68EC852C286D80C1B5C8C8E8FFDC21C1097406F4_inline (NetPeer_tF3F5C6489DFA85CBF1F75E5BA252E40C8D9FEB53* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/NetPeer.cs:158>
 		int64_t L_0 = ___0_value;
 		__this->___U3CRemoteTimeDeltaU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 67001
+// Method Definition Index: 66994
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Stopwatch_get_IsRunning_mB1C465B7089DFB8A94BF56CC694F5EF72A55E5B6_inline (Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30191,7 +27723,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Stopwatch_get_IsRunning_mB1C
 		return L_0;
 	}
 }
-// Method Definition Index: 67422
+// Method Definition Index: 67415
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IPAddressU5BU5D_t3AEDF3B94746C9023A4549F878AA47F702C9CD0D* IPHostEntry_get_AddressList_m9D14D52EFB41C53C9C4A36D438E1333A99B7AA71_inline (IPHostEntry_tAAAEB0F40DB9F28BE601B5FE7DA1D76191C94490* __this, const RuntimeMethod* method) 
 {
 	{

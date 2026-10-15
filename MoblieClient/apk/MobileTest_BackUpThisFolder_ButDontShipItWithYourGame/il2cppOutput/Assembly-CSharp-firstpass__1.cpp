@@ -1358,7 +1358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75295
+// Method Definition Index: 75288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0__ctor_mEA00D53BE49F9D8BCCD46C5F9A5C8A75EF5D3185 (U3CU3Ec__DisplayClass39_0_t90DE4730EC2C2A967665AB5A76AE8DEF888FE07C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1366,7 +1366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0__ctor_mEA00D53
 		return;
 	}
 }
-// Method Definition Index: 75296
+// Method Definition Index: 75289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass39_0_U3CDOScaleCharU3Eb__0_mD95342D2C7D410038AD6E16410D1302B0E7FF96C (U3CU3Ec__DisplayClass39_0_t90DE4730EC2C2A967665AB5A76AE8DEF888FE07C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1376,7 +1376,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:671>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1388,7 +1387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_4;
 	}
 }
-// Method Definition Index: 75297
+// Method Definition Index: 75290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CDOScaleCharU3Eb__1_m925A3CCE63400F7B5004BE18FE1F2B860C6962BF (U3CU3Ec__DisplayClass39_0_t90DE4730EC2C2A967665AB5A76AE8DEF888FE07C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1401,7 +1400,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CDOScaleChar
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:672>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1410,7 +1408,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CDOScaleChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_3;
 		L_3 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_1, L_2, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:673>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
@@ -1424,7 +1421,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CDOScaleChar
 		NullCheck(L_11);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_12 = L_11->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_7, L_9, L_10, L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:674>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_13 = __this->___U3CU3E4__this;
 		NullCheck(L_13);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_14 = L_13->____charTransforms;
@@ -1432,7 +1428,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CDOScaleChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_16 = V_0;
 		NullCheck(L_14);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_14, L_15, L_16, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:675>
 		return;
 	}
 }
@@ -1444,7 +1439,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CDOScaleChar
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75298
+// Method Definition Index: 75291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0__ctor_mCB2A9C4E7EDFD7B564CDA05EA33BB81E7EEF17ED (U3CU3Ec__DisplayClass40_0_t3F3D54559BB8044DDB614F8D4AD84FBBB2043C96* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1452,7 +1447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0__ctor_mCB2A9C4
 		return;
 	}
 }
-// Method Definition Index: 75299
+// Method Definition Index: 75292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass40_0_U3CDOPunchCharOffsetU3Eb__0_mE2BB6D969E330A3A77C60085E134998FCD7A0DB4 (U3CU3Ec__DisplayClass40_0_t3F3D54559BB8044DDB614F8D4AD84FBBB2043C96* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1462,7 +1457,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:695>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1474,7 +1468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_4;
 	}
 }
-// Method Definition Index: 75300
+// Method Definition Index: 75293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3CDOPunchCharOffsetU3Eb__1_mE96446EF9A5F2ADF197F04DB562A63765A821C95 (U3CU3Ec__DisplayClass40_0_t3F3D54559BB8044DDB614F8D4AD84FBBB2043C96* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1487,7 +1481,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3CDOPunchChar
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:696>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1496,7 +1489,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3CDOPunchChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_3;
 		L_3 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_1, L_2, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:697>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
@@ -1510,7 +1502,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3CDOPunchChar
 		NullCheck(L_11);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_12 = L_11->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_6, L_8, L_10, L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:698>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_13 = __this->___U3CU3E4__this;
 		NullCheck(L_13);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_14 = L_13->____charTransforms;
@@ -1518,7 +1509,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3CDOPunchChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_16 = V_0;
 		NullCheck(L_14);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_14, L_15, L_16, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:699>
 		return;
 	}
 }
@@ -1530,7 +1520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3CDOPunchChar
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75301
+// Method Definition Index: 75294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0__ctor_mBE5A256494FC12410FE2F1067479C75FC5B8AF8C (U3CU3Ec__DisplayClass41_0_tC76E532D1100C91B394F62DAEB4717C22E80740D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1538,7 +1528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0__ctor_mBE5A256
 		return;
 	}
 }
-// Method Definition Index: 75302
+// Method Definition Index: 75295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass41_0_U3CDOPunchCharRotationU3Eb__0_m862ECD68FA8EA084A40ACA70B968AE81FE2FE48E (U3CU3Ec__DisplayClass41_0_tC76E532D1100C91B394F62DAEB4717C22E80740D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1550,7 +1540,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:718>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1565,7 +1554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_5;
 	}
 }
-// Method Definition Index: 75303
+// Method Definition Index: 75296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0_U3CDOPunchCharRotationU3Eb__1_m994B3A3D7D39FD2D5018C013CACBAD047D9EEE52 (U3CU3Ec__DisplayClass41_0_tC76E532D1100C91B394F62DAEB4717C22E80740D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1578,7 +1567,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0_U3CDOPunchChar
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:719>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1587,7 +1575,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0_U3CDOPunchChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_3;
 		L_3 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_1, L_2, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:720>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
@@ -1603,7 +1590,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0_U3CDOPunchChar
 		NullCheck(L_12);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_13 = L_12->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_7, L_9, L_11, L_13, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:721>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_14 = __this->___U3CU3E4__this;
 		NullCheck(L_14);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_15 = L_14->____charTransforms;
@@ -1611,7 +1597,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0_U3CDOPunchChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_17 = V_0;
 		NullCheck(L_15);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_15, L_16, L_17, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:722>
 		return;
 	}
 }
@@ -1623,7 +1608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass41_0_U3CDOPunchChar
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75304
+// Method Definition Index: 75297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass43_0__ctor_m9113EE317A2DB211DB03A8141BAB6EF7F26D349A (U3CU3Ec__DisplayClass43_0_tB4484EAA82F768AF1743E93B4D534B7DC03994DE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1631,7 +1616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass43_0__ctor_m9113EE3
 		return;
 	}
 }
-// Method Definition Index: 75305
+// Method Definition Index: 75298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass43_0_U3CDOPunchCharScaleU3Eb__0_m2D2E53BDAD4C9CA46159AE6BCB08921D0B296F2D (U3CU3Ec__DisplayClass43_0_tB4484EAA82F768AF1743E93B4D534B7DC03994DE* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1641,7 +1626,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:754>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1653,7 +1637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_4;
 	}
 }
-// Method Definition Index: 75306
+// Method Definition Index: 75299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass43_0_U3CDOPunchCharScaleU3Eb__1_mA0CC8C15781E737C064080C3D83322C39FEAE35E (U3CU3Ec__DisplayClass43_0_tB4484EAA82F768AF1743E93B4D534B7DC03994DE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1666,7 +1650,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass43_0_U3CDOPunchChar
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:755>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1675,7 +1658,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass43_0_U3CDOPunchChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_3;
 		L_3 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_1, L_2, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:756>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
@@ -1689,7 +1671,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass43_0_U3CDOPunchChar
 		NullCheck(L_11);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_12 = L_11->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_7, L_9, L_10, L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:757>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_13 = __this->___U3CU3E4__this;
 		NullCheck(L_13);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_14 = L_13->____charTransforms;
@@ -1697,7 +1678,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass43_0_U3CDOPunchChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_16 = V_0;
 		NullCheck(L_14);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_14, L_15, L_16, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:758>
 		return;
 	}
 }
@@ -1709,7 +1689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass43_0_U3CDOPunchChar
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75307
+// Method Definition Index: 75300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_0__ctor_m280A49DB0530E5E5D5C0B4BBE1FEB6E3C72ECC0B (U3CU3Ec__DisplayClass45_0_t660813CEEC780742F4D5C16C90A393DA173A0B5D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1717,7 +1697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_0__ctor_m280A49D
 		return;
 	}
 }
-// Method Definition Index: 75308
+// Method Definition Index: 75301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass45_0_U3CDOShakeCharOffsetU3Eb__0_mFDE8069D76ACC0264AE54265B50BE35F6A033B2B (U3CU3Ec__DisplayClass45_0_t660813CEEC780742F4D5C16C90A393DA173A0B5D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1727,7 +1707,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:788>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1739,7 +1718,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_4;
 	}
 }
-// Method Definition Index: 75309
+// Method Definition Index: 75302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_0_U3CDOShakeCharOffsetU3Eb__1_mCEB18235B483FEC6C04394ABA1D5C51911808A39 (U3CU3Ec__DisplayClass45_0_t660813CEEC780742F4D5C16C90A393DA173A0B5D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1752,7 +1731,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_0_U3CDOShakeChar
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:789>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1761,7 +1739,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_0_U3CDOShakeChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_3;
 		L_3 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_1, L_2, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:790>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
@@ -1775,7 +1752,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_0_U3CDOShakeChar
 		NullCheck(L_11);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_12 = L_11->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_6, L_8, L_10, L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:791>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_13 = __this->___U3CU3E4__this;
 		NullCheck(L_13);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_14 = L_13->____charTransforms;
@@ -1783,7 +1759,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_0_U3CDOShakeChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_16 = V_0;
 		NullCheck(L_14);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_14, L_15, L_16, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:792>
 		return;
 	}
 }
@@ -1795,7 +1770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass45_0_U3CDOShakeChar
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75310
+// Method Definition Index: 75303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0__ctor_m494AF40CFC4D4399B2B35016FD6921E4CAA328E5 (U3CU3Ec__DisplayClass46_0_t0638BCEEA72649977FD877A709BD683AB85AD129* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1803,7 +1778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0__ctor_m494AF40
 		return;
 	}
 }
-// Method Definition Index: 75311
+// Method Definition Index: 75304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass46_0_U3CDOShakeCharRotationU3Eb__0_mC41D01CC00372332340A801E2C1CE5932A63CC19 (U3CU3Ec__DisplayClass46_0_t0638BCEEA72649977FD877A709BD683AB85AD129* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1815,7 +1790,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:810>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1830,7 +1804,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_5;
 	}
 }
-// Method Definition Index: 75312
+// Method Definition Index: 75305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0_U3CDOShakeCharRotationU3Eb__1_m74B36B714175392127A556B2A0914DE9B3D5F539 (U3CU3Ec__DisplayClass46_0_t0638BCEEA72649977FD877A709BD683AB85AD129* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1843,7 +1817,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0_U3CDOShakeChar
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:811>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1852,7 +1825,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0_U3CDOShakeChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_3;
 		L_3 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_1, L_2, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:812>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
@@ -1868,7 +1840,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0_U3CDOShakeChar
 		NullCheck(L_12);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_13 = L_12->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_7, L_9, L_11, L_13, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:813>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_14 = __this->___U3CU3E4__this;
 		NullCheck(L_14);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_15 = L_14->____charTransforms;
@@ -1876,7 +1847,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0_U3CDOShakeChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_17 = V_0;
 		NullCheck(L_15);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_15, L_16, L_17, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:814>
 		return;
 	}
 }
@@ -1888,7 +1858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass46_0_U3CDOShakeChar
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75313
+// Method Definition Index: 75306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass48_0__ctor_m0409DDF6DAC239485F3352F3CFB5F6BF68A8BEB7 (U3CU3Ec__DisplayClass48_0_t88EECD72E0A5A5BFDCDA6B3548B9E3BD722F5222* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1896,7 +1866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass48_0__ctor_m0409DDF
 		return;
 	}
 }
-// Method Definition Index: 75314
+// Method Definition Index: 75307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 U3CU3Ec__DisplayClass48_0_U3CDOShakeCharScaleU3Eb__0_mFC72963020C5BA697DCD96DC6CBE28A364B2DB47 (U3CU3Ec__DisplayClass48_0_t88EECD72E0A5A5BFDCDA6B3548B9E3BD722F5222* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1906,7 +1876,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:844>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1918,7 +1887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_4;
 	}
 }
-// Method Definition Index: 75315
+// Method Definition Index: 75308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass48_0_U3CDOShakeCharScaleU3Eb__1_m128969A36598D2139BCEF8ED699275C6BF51A8AD (U3CU3Ec__DisplayClass48_0_t88EECD72E0A5A5BFDCDA6B3548B9E3BD722F5222* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1931,7 +1900,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass48_0_U3CDOShakeChar
 	CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:845>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_0 = __this->___U3CU3E4__this;
 		NullCheck(L_0);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_1 = L_0->____charTransforms;
@@ -1940,7 +1908,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass48_0_U3CDOShakeChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_3;
 		L_3 = List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561(L_1, L_2, List_1_get_Item_m0A3C4C882B5485D93087C21AE1A2E08C83F48561_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:846>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_4 = __this->___U3CU3E4__this;
 		NullCheck(L_4);
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5;
@@ -1954,7 +1921,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass48_0_U3CDOShakeChar
 		NullCheck(L_11);
 		TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7* L_12 = L_11->____cachedMeshInfos;
 		CharTransform_UpdateGeometry_m895F6B5D56A67532D06B96ACBA7EB47F3C4556A2((&V_0), L_5, L_7, L_9, L_10, L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:847>
 		DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* L_13 = __this->___U3CU3E4__this;
 		NullCheck(L_13);
 		List_1_t7B3F257CF0DCABDD3EED05DC186BFB27773D4FAD* L_14 = L_13->____charTransforms;
@@ -1962,7 +1928,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass48_0_U3CDOShakeChar
 		CharTransform_t261A12D563F1399A48E5924D39CAB027B9023BE3 L_16 = V_0;
 		NullCheck(L_14);
 		List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964(L_14, L_15, L_16, List_1_set_Item_m4BC0A9B1FE82B5B47923AB1E17B21783DE806964_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:848>
 		return;
 	}
 }
@@ -1998,7 +1963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass48_0_U3CDOShakeChar
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75316
+// Method Definition Index: 75309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedComparers___Internal_InitializeOnce_m5AA0D52E223673E880ADE106598C8A8284ECA7F3 (const RuntimeMethod* method) 
 {
 	{
@@ -2013,7 +1978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedComparers___Internal_Initialize
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75317
+// Method Definition Index: 75310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_InitializeOnce_m4E60601B00A1D9754397E69F12F6287256571451 (const RuntimeMethod* method) 
 {
 	{
@@ -2028,7 +1993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_InitializeOn
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75318
+// Method Definition Index: 75311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedReaders___Internal_InitializeOnce_mB56EBFE4BC6BF93D3798D93E9DC4D68F89E488EF (const RuntimeMethod* method) 
 {
 	{
@@ -2038,11 +2003,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedReaders___Internal_InitializeOn
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 75225
+// Method Definition Index: 75218
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* DOTweenTMPAnimator_get_target_mED36C573645C76062A998A7D3BF56079350A6A25_inline (DOTweenTMPAnimator_tB3C23F563B8AC6BD594C93570D96802A3BC746D7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs:197>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___U3CtargetU3Ek__BackingField;
 		return L_0;
 	}

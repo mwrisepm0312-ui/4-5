@@ -3445,7 +3445,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75319
+// Method Definition Index: 75312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t6BFCDFA211B4D083F13D5D26FB28CF868E47308B UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m518B90661097E8CFAFBE62B84F3EE0E479C48323 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3479,7 +3479,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t6BFCDFA211B4D083F13D5D26FB28C
 		return L_6;
 	}
 }
-// Method Definition Index: 75320
+// Method Definition Index: 75313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m615D776B2042F3FEE082E461042F438FCC3B9EF6 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tCE924641BE7B3D109463003D8EF23E2F812A8F2F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3565,7 +3565,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t6BFCDFA211B4D083F13D5D26FB28CF868E47308B_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75321
+// Method Definition Index: 75314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationState__cctor_m7B337D2EDC476A65E39F456E62DB518904F641F3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3578,22 +3578,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationState__cctor_m7B337D2EDC476A6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ApplicationState.cs:22>
 		((ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_il2cpp_TypeInfo_var))->____isQuitting = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ApplicationState.cs:24>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_0, NULL, (intptr_t)((void*)ApplicationState_Application_quitting_m03200B663FE586745ABD2F23D72449E8A3BC9982_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_remove_quitting_m9DC9D4165EDB0FD93AB893655E26BF73566D2C1B(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ApplicationState.cs:25>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, NULL, (intptr_t)((void*)ApplicationState_Application_quitting_m03200B663FE586745ABD2F23D72449E8A3BC9982_RuntimeMethod_var), NULL);
 		Application_add_quitting_m5767AC63F23ABFD5BC3D60710906643BA536CCC5(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ApplicationState.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 75322
+// Method Definition Index: 75315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationState_Application_quitting_m03200B663FE586745ABD2F23D72449E8A3BC9982 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3603,14 +3599,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationState_Application_quitting_m0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ApplicationState.cs:31>
 		il2cpp_codegen_runtime_class_init_inline(ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_il2cpp_TypeInfo_var);
 		((ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_il2cpp_TypeInfo_var))->____isQuitting = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ApplicationState.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 75323
+// Method Definition Index: 75316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ApplicationState_IsQuitting_m14D8FBF40D3737D8AD1AB93AFC8CBD52E8185D69 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3620,13 +3614,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ApplicationState_IsQuitting_m14D8FBF40D3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ApplicationState.cs:47>
 		il2cpp_codegen_runtime_class_init_inline(ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_il2cpp_TypeInfo_var);
 		bool L_0 = ((ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_il2cpp_TypeInfo_var))->____isQuitting;
 		return L_0;
 	}
 }
-// Method Definition Index: 75324
+// Method Definition Index: 75317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ApplicationState_IsPlaying_mFF4006DCCEADA71381FB3EC7FAE12790581C4239 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3636,14 +3629,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ApplicationState_IsPlaying_mFF4006DCCEAD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ApplicationState.cs:60>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 75325
+// Method Definition Index: 75318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationState_Quit_mD93BAC4C3C873E76E1E55CD03A89FB7591505426 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3653,10 +3645,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationState_Quit_mD93BAC4C3C873E76E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ApplicationState.cs:72>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ApplicationState.cs:74>
 		return;
 	}
 }
@@ -3668,7 +3658,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationState_Quit_mD93BAC4C3C873E76E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75332
+// Method Definition Index: 75325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Arrays__cctor_mECDF594C81BBED68E1030578162E398A97B33C56 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3680,12 +3670,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Arrays__cctor_mECDF594C81BBED68E10305781
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Arrays.cs:12>
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_0 = (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8*)il2cpp_codegen_object_new(Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var);
 		Random__ctor_m151183BD4F021499A98B9DE8502DAD4B12DD16AC(L_0, NULL);
 		((Arrays_t586CFF62C78640B28034251F78E8B7B1C6EAAD92_StaticFields*)il2cpp_codegen_static_fields_for(Arrays_t586CFF62C78640B28034251F78E8B7B1C6EAAD92_il2cpp_TypeInfo_var))->____random = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((Arrays_t586CFF62C78640B28034251F78E8B7B1C6EAAD92_StaticFields*)il2cpp_codegen_static_fields_for(Arrays_t586CFF62C78640B28034251F78E8B7B1C6EAAD92_il2cpp_TypeInfo_var))->____random), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Arrays.cs:16>
 		StringBuilder_t* L_1 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_1, NULL);
 		((Arrays_t586CFF62C78640B28034251F78E8B7B1C6EAAD92_StaticFields*)il2cpp_codegen_static_fields_for(Arrays_t586CFF62C78640B28034251F78E8B7B1C6EAAD92_il2cpp_TypeInfo_var))->____stringBuilder = L_1;
@@ -3701,11 +3689,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Arrays__cctor_mECDF594C81BBED68E10305781
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75333
+// Method Definition Index: 75326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Booleans_ToInt_m98D17043F2CB650F87CD4325517E7C50FCB42BB8 (bool ___0_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bools.cs:10>
 		bool L_0 = ___0_b;
 		if (L_0)
 		{
@@ -3729,7 +3716,7 @@ IL_0005:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75334
+// Method Definition Index: 75327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Bytes_Pad_m65F5F064B66370C8AD55524EF8426DE9E73A65F6 (uint8_t ___0_value, int32_t ___1_padding, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3739,7 +3726,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Bytes_Pad_m65F5F064B66370C8AD55524E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bytes.cs:20>
 		uint8_t L_0 = ___0_value;
 		int32_t L_1 = ___1_padding;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
@@ -3748,7 +3734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Bytes_Pad_m65F5F064B66370C8AD55524E
 		return L_2;
 	}
 }
-// Method Definition Index: 75335
+// Method Definition Index: 75328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Bytes_RandomInclusiveRange_m604B05018D02EAC81F3983308388F98F3717C7F2 (uint8_t ___0_minimum, uint8_t ___1_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3758,7 +3744,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Bytes_RandomInclusiveRange_m604B05018
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bytes.cs:29>
 		uint8_t L_0 = ___0_minimum;
 		uint8_t L_1 = ___1_maximum;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
@@ -3767,7 +3752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Bytes_RandomInclusiveRange_m604B05018
 		return (uint8_t)((int32_t)(uint8_t)L_2);
 	}
 }
-// Method Definition Index: 75336
+// Method Definition Index: 75329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Bytes_RandomExclusiveRange_m33BACDB1F45A5069DC1F72821C3229A508C41D5A (uint8_t ___0_minimum, uint8_t ___1_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3777,7 +3762,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Bytes_RandomExclusiveRange_m33BACDB1F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bytes.cs:38>
 		uint8_t L_0 = ___0_minimum;
 		uint8_t L_1 = ___1_maximum;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
@@ -3786,7 +3770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Bytes_RandomExclusiveRange_m33BACDB1F
 		return (uint8_t)((int32_t)(uint8_t)L_2);
 	}
 }
-// Method Definition Index: 75337
+// Method Definition Index: 75330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Bytes_Clamp_mD9D55806F6071F2812A12E23D36B66D8E7DA8236 (uint8_t ___0_value, uint8_t ___1_minimum, uint8_t ___2_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3796,7 +3780,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Bytes_Clamp_mD9D55806F6071F2812A12E23
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bytes.cs:48>
 		uint8_t L_0 = ___0_value;
 		uint8_t L_1 = ___1_minimum;
 		uint8_t L_2 = ___2_maximum;
@@ -3806,11 +3789,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Bytes_Clamp_mD9D55806F6071F2812A12E23
 		return (uint8_t)((int32_t)(uint8_t)L_3);
 	}
 }
-// Method Definition Index: 75338
+// Method Definition Index: 75331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Bytes_Min_m12B5A25D32A31D6D41DCFE3FDB2426C9C53C4CC0 (uint8_t ___0_a, uint8_t ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bytes.cs:54>
 		uint8_t L_0 = ___0_a;
 		uint8_t L_1 = ___1_b;
 		if ((((int32_t)L_0) < ((int32_t)L_1)))
@@ -3829,7 +3811,7 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 75339
+// Method Definition Index: 75332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bytes_ValuesMatch_m8357A9A5AA8E71B115562AE004BB9B2F9053F408 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_values, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3840,7 +3822,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bytes_ValuesMatch_m8357A9A5AA8E71B115562
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bytes.cs:62>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_values;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3848,7 +3829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bytes_ValuesMatch_m8357A9A5AA8E71B115562
 		return L_1;
 	}
 }
-// Method Definition Index: 75340
+// Method Definition Index: 75333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Bytes_ToString_m3A3F1A633C8EA0EB64AFAD6D4762912E977FE6AA (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytes, int32_t ___1_offset, int32_t ___2_count, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3858,7 +3839,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Bytes_ToString_m3A3F1A633C8EA0EB64A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bytes.cs:67>
 		il2cpp_codegen_runtime_class_init_inline(Bytes_tDADB1DCA9BFE1CBA2780CA192C9D83C51C58ABF1_il2cpp_TypeInfo_var);
 		UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE* L_0 = ((Bytes_tDADB1DCA9BFE1CBA2780CA192C9D83C51C58ABF1_StaticFields*)il2cpp_codegen_static_fields_for(Bytes_tDADB1DCA9BFE1CBA2780CA192C9D83C51C58ABF1_il2cpp_TypeInfo_var))->____encoding;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_bytes;
@@ -3870,7 +3850,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Bytes_ToString_m3A3F1A633C8EA0EB64A
 		return L_4;
 	}
 }
-// Method Definition Index: 75341
+// Method Definition Index: 75334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bytes__cctor_mEC9497B2F3050F12152C48406BDF4A03A453AC85 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3881,7 +3861,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bytes__cctor_mEC9497B2F3050F12152C48406B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bytes.cs:14>
 		UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE* L_0 = (UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE*)il2cpp_codegen_object_new(UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE_il2cpp_TypeInfo_var);
 		UTF8Encoding__ctor_m128F4B4A103E718AAB699E2D64011DB13F486726(L_0, (bool)0, (bool)1, NULL);
 		((Bytes_tDADB1DCA9BFE1CBA2780CA192C9D83C51C58ABF1_StaticFields*)il2cpp_codegen_static_fields_for(Bytes_tDADB1DCA9BFE1CBA2780CA192C9D83C51C58ABF1_il2cpp_TypeInfo_var))->____encoding = L_0;
@@ -3905,12 +3884,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Bytes__cctor_mEC9497B2F3050F12152C48406B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75342
+// Method Definition Index: 75335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvaseGroups_SetBlockingType_m772F467E25CDA46863D019EAFA71EF1B3A6781E5 (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___0_group, int32_t ___1_blockingType, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:19>
 		int32_t L_0 = ___1_blockingType;
 		if (L_0)
 		{
@@ -3918,79 +3896,65 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvaseGroups_SetBlockingType_m772F467E2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:20>
 		return;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:22>
 		int32_t L_1 = ___1_blockingType;
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)2))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:23>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_2 = ___0_group;
 		bool L_3 = V_0;
 		NullCheck(L_2);
 		CanvasGroup_set_blocksRaycasts_m6C17F35782D16AE3FC42FCD1A4D68E1C4A4776E0(L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:24>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_4 = ___0_group;
 		bool L_5 = V_0;
 		NullCheck(L_4);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 75343
+// Method Definition Index: 75336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvaseGroups_SetActive_m56AFB78BC9743670B511C8E4C584E68CE53F0886 (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___0_group, int32_t ___1_blockingType, float ___2_alpha, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:34>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = ___0_group;
 		int32_t L_1 = ___1_blockingType;
 		CanvaseGroups_SetBlockingType_m772F467E25CDA46863D019EAFA71EF1B3A6781E5(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:35>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_2 = ___0_group;
 		float L_3 = ___2_alpha;
 		NullCheck(L_2);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 75344
+// Method Definition Index: 75337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvaseGroups_SetActive_m564074480F4A3C0AA9F6482FE4C6BF3598B57564 (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___0_group, float ___1_alpha, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:43>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = ___0_group;
 		CanvaseGroups_SetActive_m43D078FF6B0D2B3FE8C91A4116B1269E8C3126B6(L_0, (bool)1, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:44>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_1 = ___0_group;
 		float L_2 = ___1_alpha;
 		NullCheck(L_1);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:45>
 		return;
 	}
 }
-// Method Definition Index: 75345
+// Method Definition Index: 75338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvaseGroups_SetInactive_m08CDA03917F1EFBC55729AA579DCCD7F39851426 (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___0_group, float ___1_alpha, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:52>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = ___0_group;
 		CanvaseGroups_SetActive_m43D078FF6B0D2B3FE8C91A4116B1269E8C3126B6(L_0, (bool)0, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:53>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_1 = ___0_group;
 		float L_2 = ___1_alpha;
 		NullCheck(L_1);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 75346
+// Method Definition Index: 75339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvaseGroups_SetActive_m43D078FF6B0D2B3FE8C91A4116B1269E8C3126B6 (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___0_group, bool ___1_active, bool ___2_setAlpha, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4000,7 +3964,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvaseGroups_SetActive_m43D078FF6B0D2B3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:61>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = ___0_group;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4011,13 +3974,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvaseGroups_SetActive_m43D078FF6B0D2B3
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:62>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:64>
 		bool L_2 = ___2_setAlpha;
 		if (!L_2)
 		{
@@ -4025,7 +3986,6 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:66>
 		bool L_3 = ___1_active;
 		if (!L_3)
 		{
@@ -4033,7 +3993,6 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:67>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_4 = ___0_group;
 		NullCheck(L_4);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_4, (1.0f), NULL);
@@ -4042,7 +4001,6 @@ IL_000a:
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:69>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_5 = ___0_group;
 		NullCheck(L_5);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_5, (0.0f), NULL);
@@ -4050,21 +4008,18 @@ IL_001d:
 
 IL_0028:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:72>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_6 = ___0_group;
 		bool L_7 = ___1_active;
 		NullCheck(L_6);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_6, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:73>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_8 = ___0_group;
 		bool L_9 = ___1_active;
 		NullCheck(L_8);
 		CanvasGroup_set_blocksRaycasts_m6C17F35782D16AE3FC42FCD1A4D68E1C4A4776E0(L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 75347
+// Method Definition Index: 75340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvaseGroups_SetActive_m2950F833BE4E8C3EBCCE34A159AA497E7B6B28AC (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___0_group, bool ___1_active, float ___2_alpha, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4074,7 +4029,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvaseGroups_SetActive_m2950F833BE4E8C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:81>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = ___0_group;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4085,28 +4039,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvaseGroups_SetActive_m2950F833BE4E8C3
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:82>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:84>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_2 = ___0_group;
 		float L_3 = ___2_alpha;
 		NullCheck(L_2);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:86>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_4 = ___0_group;
 		bool L_5 = ___1_active;
 		NullCheck(L_4);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:87>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_6 = ___0_group;
 		bool L_7 = ___1_active;
 		NullCheck(L_6);
 		CanvasGroup_set_blocksRaycasts_m6C17F35782D16AE3FC42FCD1A4D68E1C4A4776E0(L_6, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/CanvasGroups.cs:88>
 		return;
 	}
 }
@@ -4118,7 +4067,7 @@ IL_000a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75348
+// Method Definition Index: 75341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetBoxOverlapParams_m94F5C42040BE854D64FFCED4B79F70D54A7969F3 (BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* ___0_boxCollider, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_center, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_halfExtents, const RuntimeMethod* method) 
 {
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
@@ -4128,13 +4077,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetBoxOverlapParams_m
 	float V_3 = 0.0f;
 	float V_4 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:10>
 		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_0 = ___0_boxCollider;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:14>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2 = ___1_center;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = V_0;
 		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_4 = ___0_boxCollider;
@@ -4145,35 +4092,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetBoxOverlapParams_m
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_3, L_5, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:16>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = V_0;
 		NullCheck(L_7);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Transform_get_lossyScale_mFF740DA4BE1489C6882CD2F3A37B7321176E5D07(L_7, NULL);
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:18>
 		BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* L_9 = ___0_boxCollider;
 		NullCheck(L_9);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = BoxCollider_get_size_mC1A2DD270B04DFF5961F9F90DC147C271F72258E(L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:20>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = L_10;
 		float L_12 = L_11.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
 		float L_14 = L_13.___x;
 		V_2 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_12, (0.5f))), L_14));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:21>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = L_11;
 		float L_16 = L_15.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_1;
 		float L_18 = L_17.___y;
 		V_3 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_16, (0.5f))), L_18));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:22>
 		float L_19 = L_15.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_1;
 		float L_21 = L_20.___z;
 		V_4 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_19, (0.5f))), L_21));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:24>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_22 = ___2_halfExtents;
 		float L_23 = V_2;
 		float L_24 = V_3;
@@ -4182,11 +4123,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetBoxOverlapParams_m
 		memset((&L_26), 0, sizeof(L_26));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_26), L_23, L_24, L_25, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_22 = L_26;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 75349
+// Method Definition Index: 75342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetCapsuleCastParams_m9C6B7548F25DD5DEDBF9FEDF74E627C21C00082A (CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* ___0_capsuleCollider, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_point1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_point2, float* ___3_radius, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4220,36 +4160,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetCapsuleCastParams_
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B9_1;
 	memset((&G_B9_1), 0, sizeof(G_B9_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:29>
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_0 = ___0_capsuleCollider;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:31>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = V_0;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Transform_get_lossyScale_mFF740DA4BE1489C6882CD2F3A37B7321176E5D07(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:35>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3;
 		float L_5 = L_4.___x;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		float L_6;
 		L_6 = fabsf(L_5);
 		V_1 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:36>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = L_4;
 		float L_8 = L_7.___y;
 		float L_9;
 		L_9 = fabsf(L_8);
 		V_2 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:37>
 		float L_10 = L_7.___z;
 		float L_11;
 		L_11 = fabsf(L_10);
 		V_3 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:43>
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_12 = ___0_capsuleCollider;
 		NullCheck(L_12);
 		int32_t L_13;
@@ -4274,7 +4208,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetCapsuleCastParams_
 
 IL_0044:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:47>
 		float* L_16 = ___3_radius;
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_17 = ___0_capsuleCollider;
 		NullCheck(L_17);
@@ -4286,24 +4219,20 @@ IL_0044:
 		float L_21;
 		L_21 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_19, L_20, NULL);
 		*((float*)L_16) = (float)((float)il2cpp_codegen_multiply(L_18, L_21));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:49>
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_22 = ___0_capsuleCollider;
 		NullCheck(L_22);
 		float L_23;
 		L_23 = CapsuleCollider_get_height_m63A31072F296AEE6222DC9C88704882BB6A54A24(L_22, NULL);
 		float L_24 = V_2;
 		V_4 = ((float)il2cpp_codegen_multiply(L_23, L_24));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:51>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		V_5 = L_25;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:53>
 		goto IL_00ab;
 	}
 
 IL_0067:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:58>
 		float* L_26 = ___3_radius;
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_27 = ___0_capsuleCollider;
 		NullCheck(L_27);
@@ -4315,24 +4244,20 @@ IL_0067:
 		float L_31;
 		L_31 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_29, L_30, NULL);
 		*((float*)L_26) = (float)((float)il2cpp_codegen_multiply(L_28, L_31));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:60>
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_32 = ___0_capsuleCollider;
 		NullCheck(L_32);
 		float L_33;
 		L_33 = CapsuleCollider_get_height_m63A31072F296AEE6222DC9C88704882BB6A54A24(L_32, NULL);
 		float L_34 = V_3;
 		V_4 = ((float)il2cpp_codegen_multiply(L_33, L_34));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:62>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
 		L_35 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
 		V_5 = L_35;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:64>
 		goto IL_00ab;
 	}
 
 IL_008a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:71>
 		float* L_36 = ___3_radius;
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_37 = ___0_capsuleCollider;
 		NullCheck(L_37);
@@ -4344,14 +4269,12 @@ IL_008a:
 		float L_41;
 		L_41 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_39, L_40, NULL);
 		*((float*)L_36) = (float)((float)il2cpp_codegen_multiply(L_38, L_41));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:73>
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_42 = ___0_capsuleCollider;
 		NullCheck(L_42);
 		float L_43;
 		L_43 = CapsuleCollider_get_height_m63A31072F296AEE6222DC9C88704882BB6A54A24(L_42, NULL);
 		float L_44 = V_1;
 		V_4 = ((float)il2cpp_codegen_multiply(L_43, L_44));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:75>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
 		L_45 = Vector3_get_right_mFF573AFBBB2186E7AFA1BA7CA271A78DF67E4EA0_inline(NULL);
 		V_5 = L_45;
@@ -4359,7 +4282,6 @@ IL_008a:
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:81>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46 = V_0;
 		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_47 = ___0_capsuleCollider;
 		NullCheck(L_47);
@@ -4368,7 +4290,6 @@ IL_00ab:
 		NullCheck(L_46);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
 		L_49 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_46, L_48, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:83>
 		float L_50 = V_4;
 		float* L_51 = ___3_radius;
 		float L_52 = *((float*)L_51);
@@ -4406,42 +4327,35 @@ IL_00dd:
 IL_00e2:
 	{
 		V_6 = G_B9_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:87>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = G_B9_1;
 		float L_62 = L_61.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63 = V_6;
 		float L_64 = L_63.___x;
 		V_7 = ((float)il2cpp_codegen_add(L_62, L_64));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:88>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65 = L_61;
 		float L_66 = L_65.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_67 = V_6;
 		float L_68 = L_67.___y;
 		V_8 = ((float)il2cpp_codegen_add(L_66, L_68));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:89>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69 = L_65;
 		float L_70 = L_69.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71 = V_6;
 		float L_72 = L_71.___z;
 		V_9 = ((float)il2cpp_codegen_add(L_70, L_72));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:91>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_73 = L_69;
 		float L_74 = L_73.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75 = V_6;
 		float L_76 = L_75.___x;
 		V_10 = ((float)il2cpp_codegen_subtract(L_74, L_76));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:92>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77 = L_73;
 		float L_78 = L_77.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_79 = V_6;
 		float L_80 = L_79.___y;
 		V_11 = ((float)il2cpp_codegen_subtract(L_78, L_80));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:93>
 		float L_81 = L_77.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82 = V_6;
 		float L_83 = L_82.___z;
 		V_12 = ((float)il2cpp_codegen_subtract(L_81, L_83));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:95>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_84 = ___1_point1;
 		float L_85 = V_7;
 		float L_86 = V_8;
@@ -4450,7 +4364,6 @@ IL_00e2:
 		memset((&L_88), 0, sizeof(L_88));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_88), L_85, L_86, L_87, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_84 = L_88;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:97>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_89 = ___2_point2;
 		float L_90 = V_10;
 		float L_91 = V_11;
@@ -4459,11 +4372,10 @@ IL_00e2:
 		memset((&L_93), 0, sizeof(L_93));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_93), L_90, L_91, L_92, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_89 = L_93;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:98>
 		return;
 	}
 }
-// Method Definition Index: 75350
+// Method Definition Index: 75343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetSphereOverlapParams_mAB81D095077AC77C9FF4E3D89B0FA952014D39C6 (SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* ___0_sphereCollider, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_center, float* ___2_radius, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4477,13 +4389,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetSphereOverlapParam
 	float V_2 = 0.0f;
 	float V_3 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:102>
 		SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* L_0 = ___0_sphereCollider;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:104>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2 = ___1_center;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = V_0;
 		SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* L_4 = ___0_sphereCollider;
@@ -4494,30 +4404,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetSphereOverlapParam
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_3, L_5, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:106>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = V_0;
 		NullCheck(L_7);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
 		L_8 = Transform_get_lossyScale_mFF740DA4BE1489C6882CD2F3A37B7321176E5D07(L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:110>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = L_8;
 		float L_10 = L_9.___x;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		float L_11;
 		L_11 = fabsf(L_10);
 		V_1 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:111>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = L_9;
 		float L_13 = L_12.___y;
 		float L_14;
 		L_14 = fabsf(L_13);
 		V_2 = L_14;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:112>
 		float L_15 = L_12.___z;
 		float L_16;
 		L_16 = fabsf(L_15);
 		V_3 = L_16;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:116>
 		float* L_17 = ___2_radius;
 		SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275* L_18 = ___0_sphereCollider;
 		NullCheck(L_18);
@@ -4531,7 +4436,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetSphereOverlapParam
 		float L_24;
 		L_24 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_22, L_23, NULL);
 		*((float*)L_17) = (float)((float)il2cpp_codegen_multiply(L_19, L_24));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:117>
 		return;
 	}
 }
@@ -4543,7 +4447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColliderExtensions_GetSphereOverlapParam
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75351
+// Method Definition Index: 75344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2DExtensions_GetBox2DOverlapParams_mC48FBF16E273135F6EC9FB9558FB84497B5A23C8 (BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* ___0_boxCollider, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_center, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___2_halfExtents, const RuntimeMethod* method) 
 {
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
@@ -4553,13 +4457,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2DExtensions_GetBox2DOverlapPara
 	float V_3 = 0.0f;
 	float V_4 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:124>
 		BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* L_0 = ___0_boxCollider;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:128>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2 = ___1_center;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = V_0;
 		BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* L_4 = ___0_boxCollider;
@@ -4572,37 +4474,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2DExtensions_GetBox2DOverlapPara
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_3, L_6, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_2 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:130>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = V_0;
 		NullCheck(L_8);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Transform_get_lossyScale_mFF740DA4BE1489C6882CD2F3A37B7321176E5D07(L_8, NULL);
 		V_1 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:132>
 		BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* L_10 = ___0_boxCollider;
 		NullCheck(L_10);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
 		L_11 = BoxCollider2D_get_size_mBB657ADFC58A79CDFDB7478956BBD9032E41D3D1(L_10, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:134>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = L_12;
 		float L_14 = L_13.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_1;
 		float L_16 = L_15.___x;
 		V_2 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_14, (0.5f))), L_16));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:135>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = L_13;
 		float L_18 = L_17.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_1;
 		float L_20 = L_19.___y;
 		V_3 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_18, (0.5f))), L_20));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:136>
 		float L_21 = L_17.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_1;
 		float L_23 = L_22.___z;
 		V_4 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_21, (0.5f))), L_23));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:138>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_24 = ___2_halfExtents;
 		float L_25 = V_2;
 		float L_26 = V_3;
@@ -4611,11 +4507,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2DExtensions_GetBox2DOverlapPara
 		memset((&L_28), 0, sizeof(L_28));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_28), L_25, L_26, L_27, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_24 = L_28;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:139>
 		return;
 	}
 }
-// Method Definition Index: 75352
+// Method Definition Index: 75345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2DExtensions_GetCircleOverlapParams_m5FD16EC79B0FEAC104B46F1B2906D9497CC8C2E2 (CircleCollider2D_t5D665D58EACA966EA4033BCF0EE91E198552E786* ___0_circleCollider, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_center, float* ___2_radius, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4631,13 +4526,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2DExtensions_GetCircleOverlapPar
 	float V_3 = 0.0f;
 	float V_4 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:143>
 		CircleCollider2D_t5D665D58EACA966EA4033BCF0EE91E198552E786* L_0 = ___0_circleCollider;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:144>
 		CircleCollider2D_t5D665D58EACA966EA4033BCF0EE91E198552E786* L_2 = ___0_circleCollider;
 		NullCheck(L_2);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
@@ -4657,7 +4550,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2DExtensions_GetCircleOverlapPar
 		L_10 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_9, NULL);
 		float L_11 = L_10.___z;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), L_4, L_7, L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:145>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_12 = ___1_center;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_1;
@@ -4665,30 +4557,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2DExtensions_GetCircleOverlapPar
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
 		L_15 = Transform_TransformPoint_m05BFF013DB830D7BFE44A007703694AE1062EE44(L_13, L_14, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_12 = L_15;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:147>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = V_0;
 		NullCheck(L_16);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
 		L_17 = Transform_get_lossyScale_mFF740DA4BE1489C6882CD2F3A37B7321176E5D07(L_16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:151>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = L_17;
 		float L_19 = L_18.___x;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		float L_20;
 		L_20 = fabsf(L_19);
 		V_2 = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:152>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = L_18;
 		float L_22 = L_21.___y;
 		float L_23;
 		L_23 = fabsf(L_22);
 		V_3 = L_23;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:153>
 		float L_24 = L_21.___z;
 		float L_25;
 		L_25 = fabsf(L_24);
 		V_4 = L_25;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:157>
 		float* L_26 = ___2_radius;
 		CircleCollider2D_t5D665D58EACA966EA4033BCF0EE91E198552E786* L_27 = ___0_circleCollider;
 		NullCheck(L_27);
@@ -4702,7 +4589,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2DExtensions_GetCircleOverlapPar
 		float L_33;
 		L_33 = Math_Max_mB55ACEA482E7F67E61496C4C7C54FE0BB7BE78EA(L_31, L_32, NULL);
 		*((float*)L_26) = (float)((float)il2cpp_codegen_multiply(L_28, L_33));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Colliders.cs:158>
 		return;
 	}
 }
@@ -4722,7 +4608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider2DExtensions_GetCircleOverlapPar
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75358
+// Method Definition Index: 75351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Disks_WriteToFile_m8B219A8592E5FF929BEFD7AC4BD23D542BA7ED9F (String_t* ___0_text, String_t* ___1_path, bool ___2_formatPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4742,7 +4628,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Disks_WriteToFile_m8B219A8592E5FF929BEFD
 	Exception_t* V_3 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:18>
 		bool L_0 = ___2_formatPath;
 		if (!L_0)
 		{
@@ -4750,7 +4635,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Disks_WriteToFile_m8B219A8592E5FF929BEFD
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:19>
 		String_t* L_1 = ___1_path;
 		String_t* L_2;
 		L_2 = Disks_FormatPlatformPath_m53338F9F4326E5FB1FF1103B192E666EBD532D4B(L_1, NULL);
@@ -4759,7 +4643,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Disks_WriteToFile_m8B219A8592E5FF929BEFD
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:22>
 		String_t* L_3 = ___1_path;
 		String_t* L_4 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		bool L_5;
@@ -4770,10 +4653,8 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:24>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralD2724DD20D997B911554D8FCB554B88353F28A4A, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:25>
 		return;
 	}
 
@@ -4783,13 +4664,11 @@ IL_0023:
 	try
 	{
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:31>
 			String_t* L_6 = ___1_path;
 			il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 			String_t* L_7;
 			L_7 = Path_GetDirectoryName_m428BADBE493A3927B51A13DEF658929B430516F6(L_6, NULL);
 			V_0 = L_7;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:33>
 			String_t* L_8 = V_0;
 			bool L_9;
 			L_9 = Directory_Exists_m3D125E9E88C291CF11113444F961A64DD83AE1C7(L_8, NULL);
@@ -4799,7 +4678,6 @@ IL_0023:
 			}
 		}
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:34>
 			String_t* L_10 = V_0;
 			DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_11;
 			L_11 = Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F(L_10, NULL);
@@ -4807,7 +4685,6 @@ IL_0023:
 
 IL_003a_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:37>
 			String_t* L_12 = ___1_path;
 			FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_13 = (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8*)il2cpp_codegen_object_new(FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_il2cpp_TypeInfo_var);
 			FileStream__ctor_m78499F9BE2BE31DA34F123B4399AA457716BD6E6(L_13, L_12, 2, NULL);
@@ -4841,7 +4718,6 @@ IL_0067_1:
 			try
 			{
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:39>
 					FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_16 = V_1;
 					StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* L_17 = (StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4*)il2cpp_codegen_object_new(StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4_il2cpp_TypeInfo_var);
 					StreamWriter__ctor_m54CE9C47ED974C0589400DA9BC2AB3F7F481595B(L_17, L_16, NULL);
@@ -4874,12 +4750,10 @@ IL_005b_2:
 					});
 					try
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:41>
 						StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* L_20 = V_2;
 						String_t* L_21 = ___0_text;
 						NullCheck(L_20);
 						VirtualActionInvoker1< String_t* >::Invoke(13, L_20, L_21);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:42>
 						goto IL_005c_2;
 					}
 					catch(Il2CppExceptionWrapper& e)
@@ -4890,7 +4764,6 @@ IL_005b_2:
 
 IL_005c_2:
 				{
-					//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:43>
 					goto IL_0068_1;
 				}
 			}
@@ -4902,7 +4775,6 @@ IL_005c_2:
 
 IL_0068_1:
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:44>
 			goto IL_00c8;
 		}
 	}
@@ -4919,9 +4791,7 @@ IL_0068_1:
 CATCH_006a:
 	{
 		Exception_t* L_22 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:45>
 		V_3 = L_22;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:47>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_23 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var)), (uint32_t)((int32_t)10));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = L_23;
 		NullCheck(L_24);
@@ -4967,18 +4837,16 @@ CATCH_006a:
 		L_40 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_38, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_40, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:48>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00c8;
 	}
 
 IL_00c8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:55>
 		return;
 	}
 }
-// Method Definition Index: 75359
+// Method Definition Index: 75352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Disks_FormatPlatformPath_m53338F9F4326E5FB1FF1103B192E666EBD532D4B (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4993,7 +4861,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Disks_FormatPlatformPath_m53338F9F4
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:65>
 		String_t* L_0 = ___0_path;
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		bool L_2;
@@ -5004,20 +4871,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Disks_FormatPlatformPath_m53338F9F4
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:67>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralBD2A208375550A323A5F1C2021F4EEBEE43D90A9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:68>
 		String_t* L_3 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		return L_3;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:71>
 		String_t* L_4 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:74>
 		String_t* L_5 = ___0_path;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		Il2CppChar L_6 = ((Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_StaticFields*)il2cpp_codegen_static_fields_for(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var))->___DirectorySeparatorChar;
@@ -5025,14 +4888,12 @@ IL_001d:
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7;
 		L_7 = String_Split_m9530B73D02054692283BF35C3A27C8F2230946F4(L_5, L_6, 0, NULL);
 		V_1 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:77>
 		V_2 = 0;
 		goto IL_004e;
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:81>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = V_1;
 		NullCheck(L_8);
 		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_8)->max_length))) == ((uint32_t)1))))
@@ -5041,20 +4902,17 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:84>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = V_1;
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
 		int32_t L_11 = L_10;
 		String_t* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_0 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:85>
 		goto IL_0054;
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:92>
 		String_t* L_13 = V_0;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = V_1;
 		int32_t L_15 = V_2;
@@ -5065,14 +4923,12 @@ IL_0040:
 		String_t* L_18;
 		L_18 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_13, L_17, NULL);
 		V_0 = L_18;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:77>
 		int32_t L_19 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_19, 1));
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:77>
 		int32_t L_20 = V_2;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_21 = V_1;
 		NullCheck(L_21);
@@ -5084,7 +4940,6 @@ IL_004e:
 
 IL_0054:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Disks.cs:96>
 		String_t* L_22 = V_0;
 		return L_22;
 	}
@@ -5097,7 +4952,7 @@ IL_0054:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75361
+// Method Definition Index: 75354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enums_ContainsAllocated_mEEFE790EC446CB217A8D488E1191AB66EBE172E1 (Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* ___0_whole, Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* ___1_part, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5108,22 +4963,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enums_ContainsAllocated_mEEFE790EC446CB2
 	}
 	uint64_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs:48>
 		Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* L_0 = ___0_whole;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		uint64_t L_1;
 		L_1 = Convert_ToUInt64_mAED581BDC2A2EC0295EC6FB7C7D525571FEA4A0B(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs:49>
 		Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* L_2 = ___1_part;
 		uint64_t L_3;
 		L_3 = Convert_ToUInt64_mAED581BDC2A2EC0295EC6FB7C7D525571FEA4A0B(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs:51>
 		uint64_t L_4 = V_0;
 		return (bool)((!(((uint64_t)((int64_t)((int64_t)L_1&(int64_t)L_4))) <= ((uint64_t)((int64_t)0))))? 1 : 0);
 	}
 }
-// Method Definition Index: 75362
+// Method Definition Index: 75355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enums_ReverseContains_m91F4D9F744D7D42C1F2EF2C90037DC15933DFBE4 (Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* ___0_whole, Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* ___1_part, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5134,22 +4986,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enums_ReverseContains_m91F4D9F744D7D42C1
 	}
 	uint64_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs:72>
 		Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* L_0 = ___0_whole;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		uint64_t L_1;
 		L_1 = Convert_ToUInt64_mAED581BDC2A2EC0295EC6FB7C7D525571FEA4A0B(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs:73>
 		Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* L_2 = ___1_part;
 		uint64_t L_3;
 		L_3 = Convert_ToUInt64_mAED581BDC2A2EC0295EC6FB7C7D525571FEA4A0B(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs:75>
 		uint64_t L_4 = V_0;
 		return (bool)((!(((uint64_t)((int64_t)((int64_t)L_3&(int64_t)L_4))) <= ((uint64_t)((int64_t)0))))? 1 : 0);
 	}
 }
-// Method Definition Index: 75363
+// Method Definition Index: 75356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enums_Equals_mB30EE0B4FEF53EF1C8847E986EAB3B6B850EB9CE (Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* ___0_value, Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* ___1_target, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5160,26 +5009,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enums_Equals_mB30EE0B4FEF53EF1C8847E986E
 	}
 	uint64_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs:93>
 		Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		uint64_t L_1;
 		L_1 = Convert_ToUInt64_mAED581BDC2A2EC0295EC6FB7C7D525571FEA4A0B(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs:94>
 		Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* L_2 = ___1_target;
 		uint64_t L_3;
 		L_3 = Convert_ToUInt64_mAED581BDC2A2EC0295EC6FB7C7D525571FEA4A0B(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs:96>
 		uint64_t L_4 = V_0;
 		return (bool)((((int64_t)L_1) == ((int64_t)L_4))? 1 : 0);
 	}
 }
-// Method Definition Index: 75364
+// Method Definition Index: 75357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enums_SameType_m1C3A4AB5BFB3C555CF3B6E797877DE0B62255469 (Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* ___0_a, Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Enums.cs:107>
 		Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2* L_0 = ___0_a;
 		NullCheck(L_0);
 		Type_t* L_1;
@@ -5202,11 +5047,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enums_SameType_m1C3A4AB5BFB3C555CF3B6E79
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75366
+// Method Definition Index: 75359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_SetIfOverTolerance_mF70DCA80BEBA0107983BFEEE74D6DFA71BA221EB (float ___0_source, float ___1_tolerance, float ___2_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:21>
 		float L_0 = ___0_source;
 		float L_1 = ___1_tolerance;
 		if ((!(((float)L_0) >= ((float)L_1))))
@@ -5215,23 +5059,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_SetIfOverTolerance_mF70DCA80BEBA
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:22>
 		float L_2 = ___2_value;
 		___0_source = L_2;
 	}
 
 IL_0007:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:24>
 		float L_3 = ___0_source;
 		return L_3;
 	}
 }
-// Method Definition Index: 75367
+// Method Definition Index: 75360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_SetIfUnderTolerance_m80C07FD3E7E466BAC2A6BAD47DCDD4A6871029F1 (float ___0_source, float ___1_tolerance, float ___2_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:35>
 		float L_0 = ___0_source;
 		float L_1 = ___1_tolerance;
 		if ((!(((float)L_0) <= ((float)L_1))))
@@ -5240,74 +5081,63 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_SetIfUnderTolerance_m80C07FD3E7E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:36>
 		float L_2 = ___2_value;
 		___0_source = L_2;
 	}
 
 IL_0007:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:38>
 		float L_3 = ___0_source;
 		return L_3;
 	}
 }
-// Method Definition Index: 75368
+// Method Definition Index: 75361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_TimeRemainingValue_mB5610BC61507AE0438860C90F2A3A413B482A8A8 (float ___0_endTime, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:47>
 		float L_0 = ___0_endTime;
 		float L_1;
 		L_1 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:49>
 		if ((!(((float)((float)il2cpp_codegen_subtract(L_0, L_1))) < ((float)(0.0f)))))
 		{
 			goto IL_0014;
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:50>
 		return (-1.0f);
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:52>
 		float L_2 = ___0_endTime;
 		float L_3;
 		L_3 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		return ((float)il2cpp_codegen_subtract(L_2, L_3));
 	}
 }
-// Method Definition Index: 75369
+// Method Definition Index: 75362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Floats_TimeRemainingValue_m593330C93FAA90BA09ECCD56C8176145AEFB6305 (float ___0_endTime, bool ___1_useFloor, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:61>
 		float L_0 = ___0_endTime;
 		float L_1;
 		L_1 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:63>
 		if ((!(((float)((float)il2cpp_codegen_subtract(L_0, L_1))) < ((float)(0.0f)))))
 		{
 			goto IL_0010;
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:64>
 		return (-1);
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:66>
 		float L_2 = ___0_endTime;
 		float L_3;
 		L_3 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		V_0 = ((float)il2cpp_codegen_subtract(L_2, L_3));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:67>
 		bool L_4 = ___1_useFloor;
 		if (L_4)
 		{
@@ -5329,7 +5159,7 @@ IL_0022:
 		return L_8;
 	}
 }
-// Method Definition Index: 75370
+// Method Definition Index: 75363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Floats_TimeRemainingText_mC3A3231E07A744A6C7D851962827843A0D304D0E (float ___0_value, uint8_t ___1_segments, bool ___2_emptyOnZero, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5349,7 +5179,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Floats_TimeRemainingText_mC3A3231E0
 	int32_t V_3 = 0;
 	String_t* V_4 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:79>
 		bool L_0 = ___2_emptyOnZero;
 		if (!L_0)
 		{
@@ -5364,44 +5193,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Floats_TimeRemainingText_mC3A3231E0
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:80>
 		String_t* L_2 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		return L_2;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:82>
 		float L_3 = ___0_value;
 		int32_t L_4;
 		L_4 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(L_3, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_5;
 		L_5 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(L_4, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:83>
 		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_6;
 		L_6 = TimeSpan_FromSeconds_m4401B50C0CA831134068595C6AF2F1CA92AAF80F(((double)L_5), NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:85>
 		int32_t L_7;
 		L_7 = TimeSpan_get_Hours_m770B4B777A816E051EFDA317C28DA9A4F39D6CFB((&V_0), NULL);
 		int32_t L_8;
 		L_8 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)L_7), NULL);
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:86>
 		int32_t L_9;
 		L_9 = TimeSpan_get_Minutes_m93E37D01CD6DA2DE5B35609D740D322E270B678F((&V_0), NULL);
 		int32_t L_10;
 		L_10 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)L_9), NULL);
 		V_2 = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:87>
 		int32_t L_11;
 		L_11 = TimeSpan_get_Seconds_m8CA21613DC31BD025C5D30D41BAD0ED50827578B((&V_0), NULL);
 		int32_t L_12;
 		L_12 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)L_11), NULL);
 		V_3 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:90>
 		uint8_t L_13 = ___1_segments;
 		if ((!(((uint32_t)L_13) == ((uint32_t)1))))
 		{
@@ -5409,15 +5231,12 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:92>
 		int32_t L_14 = V_3;
 		int32_t L_15 = V_2;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_14, ((int32_t)il2cpp_codegen_multiply(L_15, ((int32_t)60)))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:93>
 		int32_t L_16 = V_3;
 		int32_t L_17 = V_1;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_16, ((int32_t)il2cpp_codegen_multiply(L_17, ((int32_t)3600)))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:94>
 		int32_t L_18 = V_3;
 		int32_t L_19 = L_18;
 		RuntimeObject* L_20 = Box(il2cpp_defaults.int32_class, &L_19);
@@ -5429,7 +5248,6 @@ IL_0011:
 
 IL_0077:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:96>
 		uint8_t L_22 = ___1_segments;
 		if ((!(((uint32_t)L_22) == ((uint32_t)2))))
 		{
@@ -5437,11 +5255,9 @@ IL_0077:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:98>
 		int32_t L_23 = V_2;
 		int32_t L_24 = V_1;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_23, ((int32_t)il2cpp_codegen_multiply(L_24, ((int32_t)60)))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:99>
 		int32_t L_25 = V_2;
 		int32_t L_26 = L_25;
 		RuntimeObject* L_27 = Box(il2cpp_defaults.int32_class, &L_26);
@@ -5456,7 +5272,6 @@ IL_0077:
 
 IL_009c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:103>
 		int32_t L_32 = V_1;
 		int32_t L_33 = L_32;
 		RuntimeObject* L_34 = Box(il2cpp_defaults.int32_class, &L_33);
@@ -5473,12 +5288,11 @@ IL_009c:
 
 IL_00ba:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:106>
 		String_t* L_42 = V_4;
 		return L_42;
 	}
 }
-// Method Definition Index: 75371
+// Method Definition Index: 75364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_RandomInclusiveRange_m7B475B6ED935825A0594E14DFA589F4F4990AFA0 (float ___0_minimum, float ___1_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5491,18 +5305,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_RandomInclusiveRange_m7B475B6ED9
 	double V_0 = 0.0;
 	double V_1 = 0.0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:117>
 		float L_0 = ___0_minimum;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		double L_1;
 		L_1 = Convert_ToDouble_mA0069B20491E14DA829FAD261C279A5143B2FAED(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:118>
 		float L_2 = ___1_maximum;
 		double L_3;
 		L_3 = Convert_ToDouble_mA0069B20491E14DA829FAD261C279A5143B2FAED(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:120>
 		il2cpp_codegen_runtime_class_init_inline(Floats_t54BC254F0C30D7F4D5A75148FE42847BA7143FCA_il2cpp_TypeInfo_var);
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_4 = ((Floats_t54BC254F0C30D7F4D5A75148FE42847BA7143FCA_StaticFields*)il2cpp_codegen_static_fields_for(Floats_t54BC254F0C30D7F4D5A75148FE42847BA7143FCA_il2cpp_TypeInfo_var))->____random;
 		NullCheck(L_4);
@@ -5511,13 +5322,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_RandomInclusiveRange_m7B475B6ED9
 		double L_6 = V_1;
 		double L_7 = V_0;
 		double L_8 = V_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:121>
 		float L_9;
 		L_9 = Convert_ToSingle_mF6ADEF60A6A97E9E7E410D8D15B26F2D5995151E(((double)il2cpp_codegen_add(((double)il2cpp_codegen_multiply(L_5, ((double)il2cpp_codegen_subtract(L_6, L_7)))), L_8)), NULL);
 		return L_9;
 	}
 }
-// Method Definition Index: 75372
+// Method Definition Index: 75365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_Random01_m287C9AE22460508C2B7A93C3AFE6B01E2FD6DE42 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5527,18 +5337,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_Random01_m287C9AE22460508C2B7A93
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:130>
 		il2cpp_codegen_runtime_class_init_inline(Floats_t54BC254F0C30D7F4D5A75148FE42847BA7143FCA_il2cpp_TypeInfo_var);
 		float L_0;
 		L_0 = Floats_RandomInclusiveRange_m7B475B6ED935825A0594E14DFA589F4F4990AFA0((0.0f), (1.0f), NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 75373
+// Method Definition Index: 75366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Floats_Near_m1AED76AC38E814FBA475C78427FAE7669C84D788 (float ___0_a, float ___1_b, float ___2_tolerance, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:141>
 		float L_0 = ___0_a;
 		float L_1 = ___1_b;
 		float L_2;
@@ -5547,16 +5355,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Floats_Near_m1AED76AC38E814FBA475C78427F
 		return (bool)((((int32_t)((!(((float)L_2) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 75374
+// Method Definition Index: 75367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_Clamp_mCBD7AA021841BC3EBC47AFC9332B794342686CE9 (float ___0_value, float ___1_min, float ___2_max, bool* ___3_clamped, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:154>
 		bool* L_0 = ___3_clamped;
 		float L_1 = ___0_value;
 		float L_2 = ___1_min;
 		*((int8_t*)L_0) = (int8_t)((((float)L_1) < ((float)L_2))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:155>
 		bool* L_3 = ___3_clamped;
 		int32_t L_4 = *((uint8_t*)L_3);
 		if (!L_4)
@@ -5565,19 +5371,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_Clamp_mCBD7AA021841BC3EBC47AFC93
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:156>
 		float L_5 = ___1_min;
 		return L_5;
 	}
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:158>
 		bool* L_6 = ___3_clamped;
 		float L_7 = ___0_value;
 		float L_8 = ___1_min;
 		*((int8_t*)L_6) = (int8_t)((((float)L_7) > ((float)L_8))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:159>
 		bool* L_9 = ___3_clamped;
 		int32_t L_10 = *((uint8_t*)L_9);
 		if (!L_10)
@@ -5586,22 +5389,19 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:160>
 		float L_11 = ___2_max;
 		return L_11;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:162>
 		bool* L_12 = ___3_clamped;
 		*((int8_t*)L_12) = (int8_t)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:163>
 		float L_13 = ___0_value;
 		return L_13;
 	}
 }
-// Method Definition Index: 75375
+// Method Definition Index: 75368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_Variance_m087C168F59A2ADBFA9DE335780B211E527B759DE (float ___0_source, float ___1_variance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5612,20 +5412,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_Variance_m087C168F59A2ADBFA9DE33
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:174>
 		float L_0 = ___1_variance;
 		float L_1 = ___1_variance;
 		il2cpp_codegen_runtime_class_init_inline(Floats_t54BC254F0C30D7F4D5A75148FE42847BA7143FCA_il2cpp_TypeInfo_var);
 		float L_2;
 		L_2 = Floats_RandomInclusiveRange_m7B475B6ED935825A0594E14DFA589F4F4990AFA0(((float)il2cpp_codegen_subtract((1.0f), L_0)), ((float)il2cpp_codegen_add((1.0f), L_1)), NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:175>
 		float L_3 = ___0_source;
 		float L_4 = V_0;
 		return ((float)il2cpp_codegen_multiply(L_3, L_4));
 	}
 }
-// Method Definition Index: 75376
+// Method Definition Index: 75369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Floats_Variance_m49F373FC50ECD3057EFA23267EC5D49FBDBA6571 (float ___0_source, float ___1_variance, float* ___2_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5636,27 +5434,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Floats_Variance_m49F373FC50ECD3057EFA232
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:186>
 		float L_0 = ___1_variance;
 		float L_1 = ___1_variance;
 		il2cpp_codegen_runtime_class_init_inline(Floats_t54BC254F0C30D7F4D5A75148FE42847BA7143FCA_il2cpp_TypeInfo_var);
 		float L_2;
 		L_2 = Floats_RandomInclusiveRange_m7B475B6ED935825A0594E14DFA589F4F4990AFA0(((float)il2cpp_codegen_subtract((1.0f), L_0)), ((float)il2cpp_codegen_add((1.0f), L_1)), NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:187>
 		float* L_3 = ___2_result;
 		float L_4 = ___0_source;
 		float L_5 = V_0;
 		*((float*)L_3) = (float)((float)il2cpp_codegen_multiply(L_4, L_5));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:188>
 		return;
 	}
 }
-// Method Definition Index: 75377
+// Method Definition Index: 75370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_PreciseSign_mD00D779C1A78A5DE35D462C5FE7881B81633D0B8 (float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:197>
 		float L_0 = ___0_value;
 		if ((!(((float)L_0) == ((float)(0.0f)))))
 		{
@@ -5664,24 +5458,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_PreciseSign_mD00D779C1A78A5DE35D
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:198>
 		return (0.0f);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:200>
 		float L_1 = ___0_value;
 		float L_2;
 		L_2 = Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline(L_1, NULL);
 		return L_2;
 	}
 }
-// Method Definition Index: 75378
+// Method Definition Index: 75371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Floats_InRange_mC3F0B9AFE7AFC38E71481ECD4585A3A447990BB1 (float ___0_source, float ___1_rangeMin, float ___2_rangeMax, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:212>
 		float L_0 = ___0_source;
 		float L_1 = ___1_rangeMin;
 		if ((!(((float)L_0) >= ((float)L_1))))
@@ -5700,7 +5491,7 @@ IL_000c:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 75379
+// Method Definition Index: 75372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_RandomlyFlip_m58972E424C014AFFD44EC67A5EC51F33A1584437 (float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5710,7 +5501,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_RandomlyFlip_m58972E424C014AFFD4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:222>
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = Ints_RandomInclusiveRange_mCAD43967ADE3D9E3F06CB36A00DA61E1EC7CD165(0, 1, NULL);
@@ -5720,21 +5510,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Floats_RandomlyFlip_m58972E424C014AFFD4
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:223>
 		float L_1 = ___0_value;
 		return L_1;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:225>
 		float L_2 = ___0_value;
 		float L_3 = ((float)il2cpp_codegen_multiply(L_2, (-1.0f)));
 		___0_value = L_3;
 		return L_3;
 	}
 }
-// Method Definition Index: 75380
+// Method Definition Index: 75373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Floats__cctor_m95C6F7738B5D741DDAC9FBD97635E2E54763DEEB (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5745,7 +5533,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Floats__cctor_m95C6F7738B5D741DDAC9FBD97
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Floats.cs:11>
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_0 = (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8*)il2cpp_codegen_object_new(Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var);
 		Random__ctor_m151183BD4F021499A98B9DE8502DAD4B12DD16AC(L_0, NULL);
 		((Floats_t54BC254F0C30D7F4D5A75148FE42847BA7143FCA_StaticFields*)il2cpp_codegen_static_fields_for(Floats_t54BC254F0C30D7F4D5A75148FE42847BA7143FCA_il2cpp_TypeInfo_var))->____random = L_0;
@@ -5761,7 +5548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Floats__cctor_m95C6F7738B5D741DDAC9FBD97
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75381
+// Method Definition Index: 75374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guids__cctor_mEB6376B88F864F2FF00D931894F3CC46030D9FCC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5772,7 +5559,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guids__cctor_mEB6376B88F864F2FF00D931894
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Guids.cs:8>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16));
 		((Guids_tC30DA2BFE385A8DBC83BD9224309A6C31DDE9380_StaticFields*)il2cpp_codegen_static_fields_for(Guids_tC30DA2BFE385A8DBC83BD9224309A6C31DDE9380_il2cpp_TypeInfo_var))->___Buffer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((Guids_tC30DA2BFE385A8DBC83BD9224309A6C31DDE9380_StaticFields*)il2cpp_codegen_static_fields_for(Guids_tC30DA2BFE385A8DBC83BD9224309A6C31DDE9380_il2cpp_TypeInfo_var))->___Buffer), (void*)L_0);
@@ -5795,60 +5581,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guids__cctor_mEB6376B88F864F2FF00D931894
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75385
+// Method Definition Index: 75378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Hashing_GetStableHashU16_m88BF96CC7DC012318213DA73071E0E2D5C57E983 (String_t* ___0_txt, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:21>
 		String_t* L_0 = ___0_txt;
 		uint32_t L_1;
 		L_1 = Hashing_GetStableHashU32_m401FAE346226B5872FB9117BA0A0644E3DB15925(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:23>
 		uint32_t L_2 = V_0;
 		uint32_t L_3 = V_0;
 		return (uint16_t)((int32_t)(uint16_t)((int32_t)(((int32_t)((uint32_t)L_2>>((int32_t)16)))^(int32_t)L_3)));
 	}
 }
-// Method Definition Index: 75386
+// Method Definition Index: 75379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Hashing_GetStableHashU32_m401FAE346226B5872FB9117BA0A0644E3DB15925 (String_t* ___0_txt, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
 	int32_t V_1 = 0;
 	uint32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:39>
 		V_0 = ((int32_t)-2128831035);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:40>
 		V_1 = 0;
 		goto IL_0022;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:42>
 		String_t* L_0 = ___0_txt;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
 		Il2CppChar L_2;
 		L_2 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_0, L_1, NULL);
 		V_2 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:43>
 		uint32_t L_3 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_3, ((int32_t)16777619)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:44>
 		uint32_t L_4 = V_0;
 		uint32_t L_5 = V_2;
 		V_0 = ((int32_t)((int32_t)L_4^(int32_t)L_5));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:40>
 		int32_t L_6 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:40>
 		int32_t L_7 = V_1;
 		String_t* L_8 = ___0_txt;
 		NullCheck(L_8);
@@ -5860,49 +5637,41 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:46>
 		uint32_t L_10 = V_0;
 		return L_10;
 	}
 }
-// Method Definition Index: 75387
+// Method Definition Index: 75380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Hashing_GetStableHashU64_m9F330384CA1EF12DF934D526861B792EA8E342E7 (String_t* ___0_txt, const RuntimeMethod* method) 
 {
 	uint64_t V_0 = 0;
 	int32_t V_1 = 0;
 	uint64_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:63>
 		V_0 = ((int64_t)-3750763034362895579LL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:64>
 		V_1 = 0;
 		goto IL_002b;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:66>
 		String_t* L_0 = ___0_txt;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
 		Il2CppChar L_2;
 		L_2 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_0, L_1, NULL);
 		V_2 = ((int64_t)(uint64_t)((uint32_t)L_2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:67>
 		uint64_t L_3 = V_0;
 		V_0 = ((int64_t)il2cpp_codegen_multiply((int64_t)L_3, ((int64_t)1099511628211LL)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:68>
 		uint64_t L_4 = V_0;
 		uint64_t L_5 = V_2;
 		V_0 = ((int64_t)((int64_t)L_4^(int64_t)L_5));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:64>
 		int32_t L_6 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:64>
 		int32_t L_7 = V_1;
 		String_t* L_8 = ___0_txt;
 		NullCheck(L_8);
@@ -5914,7 +5683,6 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Hashing.cs:70>
 		uint64_t L_10 = V_0;
 		return L_10;
 	}
@@ -5927,7 +5695,7 @@ IL_002b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75388
+// Method Definition Index: 75381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* IOs_GetDirectoryFiles_mB9CE02C325DFD7116455832C8DB2AD9C1BA1C6DE (String_t* ___0_startingPath, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___1_excludedPaths, bool ___2_recursive, String_t* ___3_extension, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5956,7 +5724,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 	int32_t V_7 = 0;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_8 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:18>
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = ___1_excludedPaths;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -5967,18 +5734,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:20>
 		String_t* L_2 = ___0_startingPath;
 		String_t* L_3 = ___3_extension;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4;
 		L_4 = Directory_GetFiles_mC195B04DA9630D79180C0E85AFFFF9FEF0DB49B9(L_2, L_3, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:21>
 		return L_4;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:24>
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_5 = ___1_excludedPaths;
 		String_t* L_6 = ___0_startingPath;
 		NullCheck(L_5);
@@ -5990,14 +5754,12 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:25>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)0);
 		return L_8;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:28>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_9 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_9, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_10 = L_9;
@@ -6005,7 +5767,6 @@ IL_0021:
 		NullCheck(L_10);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_10, L_11, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		V_0 = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:30>
 		bool L_12 = ___2_recursive;
 		if (!L_12)
 		{
@@ -6013,14 +5774,12 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:33>
 		V_3 = 0;
 		goto IL_0079;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:35>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_13 = V_0;
 		int32_t L_14 = V_3;
 		NullCheck(L_13);
@@ -6029,21 +5788,18 @@ IL_0035:
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16;
 		L_16 = Directory_GetDirectories_m948EF8037D5EED27E9DB610ADBC3438502CD2A5F(L_15, _stringLiteralE280D065A824A791F8305234D3E093FC9A5A90C7, 0, NULL);
 		V_4 = L_16;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:36>
 		V_5 = 0;
 		goto IL_006d;
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:38>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = V_4;
 		int32_t L_18 = V_5;
 		NullCheck(L_17);
 		int32_t L_19 = L_18;
 		String_t* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
 		V_6 = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:40>
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_21 = ___1_excludedPaths;
 		String_t* L_22 = V_6;
 		NullCheck(L_21);
@@ -6055,7 +5811,6 @@ IL_004e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:41>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_24 = V_0;
 		String_t* L_25 = V_6;
 		NullCheck(L_24);
@@ -6064,14 +5819,12 @@ IL_004e:
 
 IL_0067:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:36>
 		int32_t L_26 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_26, 1));
 	}
 
 IL_006d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:36>
 		int32_t L_27 = V_5;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = V_4;
 		NullCheck(L_28);
@@ -6081,14 +5834,12 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:33>
 		int32_t L_29 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 	}
 
 IL_0079:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:33>
 		int32_t L_30 = V_3;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_31 = V_0;
 		NullCheck(L_31);
@@ -6102,24 +5853,20 @@ IL_0079:
 
 IL_0082:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:47>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_33 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_33, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		V_1 = L_33;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:49>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_34 = V_0;
 		NullCheck(L_34);
 		int32_t L_35;
 		L_35 = List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline(L_34, List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
 		V_2 = L_35;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:50>
 		V_7 = 0;
 		goto IL_00b3;
 	}
 
 IL_0094:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:52>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_36 = V_0;
 		int32_t L_37 = V_7;
 		NullCheck(L_36);
@@ -6129,19 +5876,16 @@ IL_0094:
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_40;
 		L_40 = Directory_GetFiles_mC195B04DA9630D79180C0E85AFFFF9FEF0DB49B9(L_38, L_39, 0, NULL);
 		V_8 = L_40;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:53>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_41 = V_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_42 = V_8;
 		NullCheck(L_41);
 		List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E(L_41, (RuntimeObject*)L_42, List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:50>
 		int32_t L_43 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_43, 1));
 	}
 
 IL_00b3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:50>
 		int32_t L_44 = V_7;
 		int32_t L_45 = V_2;
 		if ((((int32_t)L_44) < ((int32_t)L_45)))
@@ -6150,7 +5894,6 @@ IL_00b3:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/IOs.cs:56>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_46 = V_1;
 		NullCheck(L_46);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_47;
@@ -6166,11 +5909,10 @@ IL_00b3:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75389
+// Method Definition Index: 75382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Ints_PadInt_mFD7BCD9491E0BF1306ADCAE495EC295AAACA7E85 (int32_t ___0_value, int32_t ___1_padding, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:20>
 		String_t* L_0;
 		L_0 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___0_value), NULL);
 		int32_t L_1 = ___1_padding;
@@ -6180,7 +5922,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Ints_PadInt_mFD7BCD9491E0BF1306ADCA
 		return L_2;
 	}
 }
-// Method Definition Index: 75390
+// Method Definition Index: 75383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ints_RandomInclusiveRange_mCAD43967ADE3D9E3F06CB36A00DA61E1EC7CD165 (int32_t ___0_minimum, int32_t ___1_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6190,7 +5932,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ints_RandomInclusiveRange_mCAD43967AD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:31>
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_0 = ((Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_StaticFields*)il2cpp_codegen_static_fields_for(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var))->____random;
 		int32_t L_1 = ___0_minimum;
@@ -6201,7 +5942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ints_RandomInclusiveRange_mCAD43967AD
 		return L_3;
 	}
 }
-// Method Definition Index: 75391
+// Method Definition Index: 75384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ints_RandomExclusiveRange_m1139031BB599099D1BE4F28D6B05A7223C40CBDE (int32_t ___0_minimum, int32_t ___1_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6211,7 +5952,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ints_RandomExclusiveRange_m1139031BB5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:42>
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_0 = ((Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_StaticFields*)il2cpp_codegen_static_fields_for(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var))->____random;
 		int32_t L_1 = ___0_minimum;
@@ -6222,11 +5962,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ints_RandomExclusiveRange_m1139031BB5
 		return L_3;
 	}
 }
-// Method Definition Index: 75392
+// Method Definition Index: 75385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ints_Clamp_m4A08226912F5231360763BE3808A1A2A1EEF7311 (int32_t ___0_value, int32_t ___1_minimum, int32_t ___2_maximum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:54>
 		int32_t L_0 = ___0_value;
 		int32_t L_1 = ___1_minimum;
 		if ((((int32_t)L_0) >= ((int32_t)L_1)))
@@ -6235,7 +5974,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ints_Clamp_m4A08226912F5231360763BE38
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:55>
 		int32_t L_2 = ___1_minimum;
 		___0_value = L_2;
 		goto IL_0010;
@@ -6243,7 +5981,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ints_Clamp_m4A08226912F5231360763BE38
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:56>
 		int32_t L_3 = ___0_value;
 		int32_t L_4 = ___2_maximum;
 		if ((((int32_t)L_3) <= ((int32_t)L_4)))
@@ -6252,19 +5989,17 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:57>
 		int32_t L_5 = ___2_maximum;
 		___0_value = L_5;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:59>
 		int32_t L_6 = ___0_value;
 		return L_6;
 	}
 }
-// Method Definition Index: 75393
+// Method Definition Index: 75386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Ints_ValuesMatch_mCDACE36D6E65A7635608B4026384C0359C87FE91 (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_values, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6277,7 +6012,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Ints_ValuesMatch_mCDACE36D6E65A7635608B4
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:69>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = ___0_values;
 		NullCheck(L_0);
 		if ((((RuntimeArray*)L_0)->max_length))
@@ -6286,29 +6020,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Ints_ValuesMatch_mCDACE36D6E65A7635608B4
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:71>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralE62E3D8794381D662905D72B7CCA4EE4BE589C41, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:72>
 		return (bool)0;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:76>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = ___0_values;
 		NullCheck(L_1);
 		int32_t L_2 = 0;
 		int32_t L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:78>
 		V_1 = 1;
 		goto IL_0024;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:81>
 		int32_t L_4 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = ___0_values;
 		int32_t L_6 = V_1;
@@ -6321,20 +6050,17 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:82>
 		return (bool)0;
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:78>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:78>
 		int32_t L_10 = V_1;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_11 = ___0_values;
 		NullCheck(L_11);
@@ -6344,11 +6070,10 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:86>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 75394
+// Method Definition Index: 75387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ints__cctor_m70DA4906735A1A88BC76DEEF907A381C4ABAB724 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6359,7 +6084,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ints__cctor_m70DA4906735A1A88BC76DEEF907
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Ints.cs:10>
 		Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* L_0 = (Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8*)il2cpp_codegen_object_new(Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8_il2cpp_TypeInfo_var);
 		Random__ctor_m151183BD4F021499A98B9DE8502DAD4B12DD16AC(L_0, NULL);
 		((Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_StaticFields*)il2cpp_codegen_static_fields_for(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var))->____random = L_0;
@@ -6375,7 +6099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ints__cctor_m70DA4906735A1A88BC76DEEF907
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75395
+// Method Definition Index: 75388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Layers_TryInitializeInteractableLayers_m96B2110202A79747CB4D3AA20C786A6790E48205 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6392,7 +6116,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Layers_TryInitializeInteractableLayers_m
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:21>
 		Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* L_0 = ((Layers_t4E7DAB7E32C44CB8266DEFBE777E6D649FB70834_StaticFields*)il2cpp_codegen_static_fields_for(Layers_t4E7DAB7E32C44CB8266DEFBE777E6D649FB70834_il2cpp_TypeInfo_var))->____interactablesLayers;
 		if (!L_0)
 		{
@@ -6400,34 +6123,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Layers_TryInitializeInteractableLayers_m
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:22>
 		return;
 	}
 
 IL_0008:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:24>
 		Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* L_1 = (Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180*)il2cpp_codegen_object_new(Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m712893C2C48C47CCAFAD85A865C702E8D3D2B71F(L_1, Dictionary_2__ctor_m712893C2C48C47CCAFAD85A865C702E8D3D2B71F_RuntimeMethod_var);
 		((Layers_t4E7DAB7E32C44CB8266DEFBE777E6D649FB70834_StaticFields*)il2cpp_codegen_static_fields_for(Layers_t4E7DAB7E32C44CB8266DEFBE777E6D649FB70834_il2cpp_TypeInfo_var))->____interactablesLayers = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((Layers_t4E7DAB7E32C44CB8266DEFBE777E6D649FB70834_StaticFields*)il2cpp_codegen_static_fields_for(Layers_t4E7DAB7E32C44CB8266DEFBE777E6D649FB70834_il2cpp_TypeInfo_var))->____interactablesLayers), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:25>
 		V_0 = 0;
 		goto IL_0047;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:27>
 		V_1 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:28>
 		V_2 = 0;
 		goto IL_0032;
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:30>
 		int32_t L_2 = V_0;
 		int32_t L_3 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
@@ -6439,7 +6156,6 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:32>
 		int32_t L_5 = V_1;
 		int32_t L_6 = V_2;
 		V_1 = ((int32_t)(L_5|((int32_t)(1<<((int32_t)(L_6&((int32_t)31)))))));
@@ -6447,14 +6163,12 @@ IL_001c:
 
 IL_002e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:28>
 		int32_t L_7 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:28>
 		int32_t L_8 = V_2;
 		if ((((int32_t)L_8) < ((int32_t)((int32_t)32))))
 		{
@@ -6462,20 +6176,17 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:36>
 		Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* L_9 = ((Layers_t4E7DAB7E32C44CB8266DEFBE777E6D649FB70834_StaticFields*)il2cpp_codegen_static_fields_for(Layers_t4E7DAB7E32C44CB8266DEFBE777E6D649FB70834_il2cpp_TypeInfo_var))->____interactablesLayers;
 		int32_t L_10 = V_0;
 		int32_t L_11 = V_1;
 		NullCheck(L_9);
 		Dictionary_2_set_Item_m420CFC153320557E6823B06767710D1E636E5BDF(L_9, L_10, L_11, Dictionary_2_set_Item_m420CFC153320557E6823B06767710D1E636E5BDF_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:25>
 		int32_t L_12 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_12, 1));
 	}
 
 IL_0047:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:25>
 		int32_t L_13 = V_0;
 		if ((((int32_t)L_13) < ((int32_t)((int32_t)32))))
 		{
@@ -6483,11 +6194,10 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:38>
 		return;
 	}
 }
-// Method Definition Index: 75396
+// Method Definition Index: 75389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Layers_GetInteractableLayersValue_mC4B7C7931EF3A25B069A28EFBF2A9B845689F383 (int32_t ___0_layer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6498,9 +6208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Layers_GetInteractableLayersValue_mC4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:45>
 		Layers_TryInitializeInteractableLayers_m96B2110202A79747CB4D3AA20C786A6790E48205(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:46>
 		Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180* L_0 = ((Layers_t4E7DAB7E32C44CB8266DEFBE777E6D649FB70834_StaticFields*)il2cpp_codegen_static_fields_for(Layers_t4E7DAB7E32C44CB8266DEFBE777E6D649FB70834_il2cpp_TypeInfo_var))->____interactablesLayers;
 		int32_t L_1 = ___0_layer;
 		NullCheck(L_0);
@@ -6509,11 +6217,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Layers_GetInteractableLayersValue_mC4
 		return L_2;
 	}
 }
-// Method Definition Index: 75397
+// Method Definition Index: 75390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB Layers_GetInteractableLayersMask_m5C5D0AB880FC0A9C3EF2D1B87113250897CB6EB0 (int32_t ___0_layer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:53>
 		int32_t L_0 = ___0_layer;
 		int32_t L_1;
 		L_1 = Layers_GetInteractableLayersValue_mC4B7C7931EF3A25B069A28EFBF2A9B845689F383(L_0, NULL);
@@ -6522,11 +6229,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC
 		return L_2;
 	}
 }
-// Method Definition Index: 75398
+// Method Definition Index: 75391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Layers_GetInteractableLayersValue_mFBB8F1418DFD918CF02D96E8492BB47E622E502A (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_go, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:59>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_go;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -6536,11 +6242,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Layers_GetInteractableLayersValue_mFB
 		return L_2;
 	}
 }
-// Method Definition Index: 75399
+// Method Definition Index: 75392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB Layers_GetInteractableLayersMask_m81C5DFE8DCDDEACE9544C659B9576F944CF29987 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_go, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:65>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_go;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -6552,11 +6257,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC
 		return L_3;
 	}
 }
-// Method Definition Index: 75400
+// Method Definition Index: 75393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Layers_LayerMaskToLayerNumber_mD28DA97F8039D39B566307F2F528FF650611FDE6 (LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___0_mask, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:74>
 		int32_t L_0;
 		L_0 = LayerMask_get_value_m70CBE32210A1F0FD4ECB850285DA90ED57B87974((&___0_mask), NULL);
 		int32_t L_1;
@@ -6564,13 +6268,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Layers_LayerMaskToLayerNumber_mD28DA9
 		return L_1;
 	}
 }
-// Method Definition Index: 75401
+// Method Definition Index: 75394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Layers_LayerValueToLayerNumber_m87885A124275BB2A10D5860B84BADCED0B393AD2 (int32_t ___0_bitmask, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:84>
 		int32_t L_0 = ___0_bitmask;
 		if ((((int32_t)L_0) > ((int32_t)0)))
 		{
@@ -6595,17 +6298,14 @@ IL_0009:
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:87>
 		int32_t L_1 = ___0_bitmask;
 		___0_bitmask = ((int32_t)(L_1>>1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:88>
 		int32_t L_2 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_2, 1));
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:85>
 		int32_t L_3 = ___0_bitmask;
 		if ((((int32_t)L_3) > ((int32_t)1)))
 		{
@@ -6613,16 +6313,14 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:90>
 		int32_t L_4 = V_0;
 		return L_4;
 	}
 }
-// Method Definition Index: 75402
+// Method Definition Index: 75395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Layers_ContainsLayer_m95DC86B0AA4EE9BCE21E86312E94CE0E9FFC51DC (LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___0_layerMask, int32_t ___1_layer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Layers.cs:101>
 		LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB L_0 = ___0_layerMask;
 		int32_t L_1;
 		L_1 = LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D(L_0, NULL);
@@ -6641,7 +6339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Layers_ContainsLayer_m95DC86B0AA4EE9BCE2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75403
+// Method Definition Index: 75396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayoutGroups_EntriesPerWidth_mD4F5D2C4FB43B60E6B45A4C95BD65158B3B321AF (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* ___0_lg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6654,12 +6352,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayoutGroups_EntriesPerWidth_mD4F5D2C
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/LayoutGroups.cs:13>
 		GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* L_0 = ___0_lg;
 		NullCheck(L_0);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1;
 		L_1 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_0, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/LayoutGroups.cs:14>
 		NullCheck(L_1);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_2;
 		L_2 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_1, NULL);
@@ -6693,7 +6389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayoutGroups_EntriesPerWidth_mD4F5D2C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75406
+// Method Definition Index: 75399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Materials_GetColor_mC91D8ECA6FDC3223434C26A7982B097D69B09F32 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6704,7 +6400,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Materials.cs:14>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		NullCheck(L_0);
 		bool L_1;
@@ -6715,7 +6410,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Materials.cs:15>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = ___0_material;
 		NullCheck(L_2);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
@@ -6725,7 +6419,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Materials.cs:16>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
 		NullCheck(L_4);
 		bool L_5;
@@ -6736,7 +6429,6 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Materials.cs:17>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
 		NullCheck(L_6);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
@@ -6746,13 +6438,12 @@ IL_0014:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Materials.cs:19>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8;
 		L_8 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		return L_8;
 	}
 }
-// Method Definition Index: 75407
+// Method Definition Index: 75400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Materials_SetColor_m9082DEC90DB804C72834A35D75D4C779ADA39063 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6763,7 +6454,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Materials_SetColor_m9082DEC90DB804C72834
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Materials.cs:28>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = ___0_material;
 		NullCheck(L_0);
 		bool L_1;
@@ -6774,7 +6464,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Materials_SetColor_m9082DEC90DB804C72834
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Materials.cs:29>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = ___0_material;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___1_color;
 		NullCheck(L_2);
@@ -6784,7 +6473,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Materials_SetColor_m9082DEC90DB804C72834
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Materials.cs:30>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = ___0_material;
 		NullCheck(L_4);
 		bool L_5;
@@ -6795,7 +6483,6 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Materials.cs:31>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = ___0_material;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = ___1_color;
 		NullCheck(L_6);
@@ -6804,7 +6491,6 @@ IL_0015:
 
 IL_002e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Materials.cs:32>
 		return;
 	}
 }
@@ -6816,11 +6502,10 @@ IL_002e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75408
+// Method Definition Index: 75401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t Maths_ClampSByte_mE2A22EF9C8E779B39756762C5F7F7D4C67EA576F (int64_t ___0_value, int8_t ___1_min, int8_t ___2_max, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:10>
 		int64_t L_0 = ___0_value;
 		int8_t L_1 = ___1_min;
 		if ((((int64_t)L_0) >= ((int64_t)((int64_t)L_1))))
@@ -6829,14 +6514,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t Maths_ClampSByte_mE2A22EF9C8E779B39756
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:11>
 		int8_t L_2 = ___1_min;
 		return L_2;
 	}
 
 IL_0007:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:12>
 		int64_t L_3 = ___0_value;
 		int8_t L_4 = ___2_max;
 		if ((((int64_t)L_3) <= ((int64_t)((int64_t)L_4))))
@@ -6845,23 +6528,20 @@ IL_0007:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:13>
 		int8_t L_5 = ___2_max;
 		return L_5;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:15>
 		int64_t L_6 = ___0_value;
 		return ((int8_t)L_6);
 	}
 }
-// Method Definition Index: 75409
+// Method Definition Index: 75402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Maths_ClampDouble_m48468C29718EDBC9FD18C3AD7E1936AF9749C9E3 (double ___0_value, double ___1_min, double ___2_max, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:23>
 		double L_0 = ___0_value;
 		double L_1 = ___1_min;
 		if ((!(((double)L_0) < ((double)L_1))))
@@ -6870,14 +6550,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Maths_ClampDouble_m48468C29718EDBC9FD1
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:24>
 		double L_2 = ___1_min;
 		return L_2;
 	}
 
 IL_0006:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:25>
 		double L_3 = ___0_value;
 		double L_4 = ___2_max;
 		if ((!(((double)L_3) > ((double)L_4))))
@@ -6886,23 +6564,20 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:26>
 		double L_5 = ___2_max;
 		return L_5;
 	}
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:28>
 		double L_6 = ___0_value;
 		return L_6;
 	}
 }
-// Method Definition Index: 75410
+// Method Definition Index: 75403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Maths_ClampByte_m77C900B72357ED79397AB6BCDCD4AAAB69FF6B60 (uint8_t ___0_value, uint8_t ___1_min, uint8_t ___2_max, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:36>
 		uint8_t L_0 = ___0_value;
 		uint8_t L_1 = ___1_min;
 		if ((((int32_t)L_0) >= ((int32_t)L_1)))
@@ -6911,14 +6586,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Maths_ClampByte_m77C900B72357ED79397A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:37>
 		uint8_t L_2 = ___1_min;
 		return L_2;
 	}
 
 IL_0006:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:38>
 		uint8_t L_3 = ___0_value;
 		uint8_t L_4 = ___2_max;
 		if ((((int32_t)L_3) <= ((int32_t)L_4)))
@@ -6927,14 +6600,12 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:39>
 		uint8_t L_5 = ___2_max;
 		return L_5;
 	}
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Maths.cs:41>
 		uint8_t L_6 = ___0_value;
 		return L_6;
 	}
@@ -6947,7 +6618,7 @@ IL_000c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75477
+// Method Definition Index: 75470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Objects_IsDestroyed_m1D981D1493D50F878735EA211B68F47DC05FA00F (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6957,7 +6628,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Objects_IsDestroyed_m1D981D1493D50F87873
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Objects.cs:21>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_gameObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -6985,11 +6655,10 @@ IL_000e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75479
+// Method Definition Index: 75472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_m20853AC4AF8E35075F414E8C765D1A68171F2D5F (ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* ___0_systems, bool ___1_stopLoopingOnly, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:13>
 		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_0 = ___0_systems;
 		bool L_1 = ___1_stopLoopingOnly;
 		float L_2;
@@ -6997,11 +6666,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_m20853AC4A
 		return L_2;
 	}
 }
-// Method Definition Index: 75480
+// Method Definition Index: 75473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_m55122A44CCB8401A4D3769F3F954A7B3597111AE (ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* ___0_systems, int32_t ___1_stopBehavior, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:22>
 		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_0 = ___0_systems;
 		int32_t L_1 = ___1_stopBehavior;
 		float L_2;
@@ -7009,13 +6677,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_m55122A44C
 		return L_2;
 	}
 }
-// Method Definition Index: 75481
+// Method Definition Index: 75474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_mB6E38D4ED3B5D1EA387A26ABFC370B8724C03D9C (ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* ___0_systems, bool ___1_stopLoopingOnly, int32_t ___2_stopBehavior, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:31>
 		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_0 = ___0_systems;
 		if (L_0)
 		{
@@ -7023,22 +6690,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_mB6E38D4ED
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:32>
 		return (0.0f);
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:34>
 		V_0 = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:35>
 		V_1 = 0;
 		goto IL_0029;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:36>
 		float L_1 = V_0;
 		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_2 = ___0_systems;
 		int32_t L_3 = V_1;
@@ -7052,14 +6715,12 @@ IL_0013:
 		float L_9;
 		L_9 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_1, L_8, NULL);
 		V_0 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:35>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:35>
 		int32_t L_11 = V_1;
 		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_12 = ___0_systems;
 		NullCheck(L_12);
@@ -7069,16 +6730,14 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:38>
 		float L_13 = V_0;
 		return L_13;
 	}
 }
-// Method Definition Index: 75482
+// Method Definition Index: 75475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_m270BA4B8C05CB2C0FA6333BC86FADE165CE7B196 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___0_system, bool ___1_stopLoopingOnly, bool ___2_stopChildren, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:47>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_0 = ___0_system;
 		bool L_1 = ___1_stopLoopingOnly;
 		bool L_2 = ___2_stopChildren;
@@ -7087,11 +6746,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_m270BA4B8C
 		return L_3;
 	}
 }
-// Method Definition Index: 75483
+// Method Definition Index: 75476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_m349E9FCE1E4D0B01E0BB02CCDFA3E40F99AAB6B2 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___0_system, int32_t ___1_stopBehavior, bool ___2_stopChildren, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:56>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_0 = ___0_system;
 		int32_t L_1 = ___1_stopBehavior;
 		bool L_2 = ___2_stopChildren;
@@ -7100,7 +6758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_m349E9FCE1
 		return L_3;
 	}
 }
-// Method Definition Index: 75484
+// Method Definition Index: 75477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_m1A387442392D0BCFF363F412FEF93CBC9AB821B4 (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___0_system, bool ___1_stopLoopingOnly, int32_t ___2_stopBehavior, bool ___3_stopChildren, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7118,7 +6776,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_m1A3874423
 	float G_B8_0 = 0.0f;
 	float G_B6_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:64>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_0 = ___0_system;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7129,13 +6786,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_StopParticleSystem_m1A3874423
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:65>
 		return (0.0f);
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:66>
 		bool L_2 = ___3_stopChildren;
 		if (!L_2)
 		{
@@ -7143,12 +6798,10 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:68>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_3 = ___0_system;
 		NullCheck(L_3);
 		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_4;
 		L_4 = Component_GetComponentsInChildren_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_m4A6A34D7CF3ABDD3C27C0FB3017B5B0D05AF407D(L_3, Component_GetComponentsInChildren_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_m4A6A34D7CF3ABDD3C27C0FB3017B5B0D05AF407D_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:69>
 		bool L_5 = ___1_stopLoopingOnly;
 		int32_t L_6 = ___2_stopBehavior;
 		float L_7;
@@ -7157,8 +6810,6 @@ IL_000f:
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:72>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:73>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_8 = ___0_system;
 		NullCheck(L_8);
 		MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 L_9;
@@ -7171,11 +6822,9 @@ IL_0020:
 		float L_12;
 		L_12 = ParticleSystem_get_time_mDB612DCED4B4345E40BE98597A5895F48BC0ECDC(L_11, NULL);
 		V_0 = ((float)il2cpp_codegen_subtract(L_10, L_12));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:74>
 		float L_13 = V_0;
 		float L_14;
 		L_14 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:76>
 		bool L_15 = ___1_stopLoopingOnly;
 		if (!L_15)
 		{
@@ -7185,7 +6834,6 @@ IL_0020:
 		G_B5_0 = L_14;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:78>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_16 = ___0_system;
 		NullCheck(L_16);
 		MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 L_17;
@@ -7201,7 +6849,6 @@ IL_0020:
 		G_B6_0 = G_B5_0;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:79>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_19 = ___0_system;
 		int32_t L_20 = ___2_stopBehavior;
 		NullCheck(L_19);
@@ -7211,7 +6858,6 @@ IL_0020:
 
 IL_005d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:83>
 		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_21 = ___0_system;
 		int32_t L_22 = ___2_stopBehavior;
 		NullCheck(L_21);
@@ -7221,11 +6867,10 @@ IL_005d:
 
 IL_0065:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:86>
 		return G_B8_0;
 	}
 }
-// Method Definition Index: 75485
+// Method Definition Index: 75478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_ReturnLongestCycle_mE7925CEC1A75219BE1CDAB11E009E61FAFCC517D (ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* ___0_systems, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -7234,16 +6879,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Particles_ReturnLongestCycle_mE7925CEC1
 	MainModule_tC7ECD8330C14B0808478A748048988A6085CE2A9 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:96>
 		V_0 = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:97>
 		V_1 = 0;
 		goto IL_0030;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:99>
 		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_0 = ___0_systems;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
@@ -7264,20 +6906,17 @@ IL_000a:
 		float L_10;
 		L_10 = ParticleSystem_get_time_mDB612DCED4B4345E40BE98597A5895F48BC0ECDC(L_9, NULL);
 		V_2 = ((float)il2cpp_codegen_subtract(L_5, L_10));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:100>
 		float L_11 = V_0;
 		float L_12 = V_2;
 		float L_13;
 		L_13 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_11, L_12, NULL);
 		V_0 = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:97>
 		int32_t L_14 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:97>
 		int32_t L_15 = V_1;
 		ParticleSystemU5BU5D_tC5E33DA557C9C2064085128B3530C5F04D48F6E6* L_16 = ___0_systems;
 		NullCheck(L_16);
@@ -7287,7 +6926,6 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Particles.cs:103>
 		float L_17 = V_0;
 		return L_17;
 	}
@@ -7300,18 +6938,16 @@ IL_0030:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75486
+// Method Definition Index: 75479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Quaternions_GetRate_mF012047F884B3841AA65D60ED52A80F9450258DD (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_goal, float ___2_duration, float* ___3_angle, uint32_t ___4_interval, float ___5_tolerance, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Quaternions.cs:16>
 		float* L_0 = ___3_angle;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___0_a;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_goal;
 		float L_3;
 		L_3 = Quaternions_Angle_mECF5A040D7422A660671D7004C88A33A633ADB28(L_1, L_2, (bool)1, NULL);
 		*((float*)L_0) = (float)L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Quaternions.cs:17>
 		float* L_4 = ___3_angle;
 		float L_5 = *((float*)L_4);
 		float L_6 = ___2_duration;
@@ -7319,11 +6955,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Quaternions_GetRate_mF012047F884B3841AA
 		return ((float)(L_5/((float)il2cpp_codegen_multiply(L_6, ((float)((double)(uint32_t)L_7))))));
 	}
 }
-// Method Definition Index: 75487
+// Method Definition Index: 75480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternions_Subtract_m80E6D9CB9FEBA968D1EC6187DD40F82FEF843C8C (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Quaternions.cs:23>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___1_b;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512_inline(L_0, NULL);
@@ -7333,11 +6968,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		return L_3;
 	}
 }
-// Method Definition Index: 75488
+// Method Definition Index: 75481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternions_Add_mA22C16DFA103365475A51C312E5C532825A37F74 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Quaternions.cs:28>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_a;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___1_b;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
@@ -7345,11 +6979,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 		return L_2;
 	}
 }
-// Method Definition Index: 75489
+// Method Definition Index: 75482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Quaternions_Matches_mE5B4DE8B09CF5016FED1637EDAC9A332C49C38BE (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, bool ___2_precise, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Quaternions.cs:37>
 		bool L_0 = ___2_precise;
 		if (!L_0)
 		{
@@ -7357,7 +6990,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Quaternions_Matches_mE5B4DE8B09CF5016FED
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Quaternions.cs:38>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___0_a;
 		float L_2 = L_1.___w;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___1_b;
@@ -7402,7 +7034,6 @@ IL_003c:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Quaternions.cs:40>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17 = ___0_a;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = ___1_b;
 		bool L_19;
@@ -7410,11 +7041,10 @@ IL_003e:
 		return L_19;
 	}
 }
-// Method Definition Index: 75490
+// Method Definition Index: 75483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Quaternions_Angle_mECF5A040D7422A660671D7004C88A33A633ADB28 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, bool ___2_precise, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Quaternions.cs:50>
 		bool L_0 = ___2_precise;
 		if (!L_0)
 		{
@@ -7422,7 +7052,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Quaternions_Angle_mECF5A040D7422A660671
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Quaternions.cs:53>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___0_a;
 		float L_2 = L_1.___x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___1_b;
@@ -7439,7 +7068,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Quaternions_Angle_mECF5A040D7422A660671
 		float L_14 = L_13.___w;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = ___1_b;
 		float L_16 = L_15.___w;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Quaternions.cs:54>
 		float L_17;
 		L_17 = fabsf(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_2, L_4)), ((float)il2cpp_codegen_multiply(L_6, L_8)))), ((float)il2cpp_codegen_multiply(L_10, L_12)))), ((float)il2cpp_codegen_multiply(L_14, L_16)))));
 		float L_18;
@@ -7451,7 +7079,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Quaternions_Angle_mECF5A040D7422A660671
 
 IL_005b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Quaternions.cs:58>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = ___0_a;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_21 = ___1_b;
 		float L_22;
@@ -7467,7 +7094,7 @@ IL_005b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75491
+// Method Definition Index: 75484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Strings_MemberToPascalCase_mF306D0AA3639792AB9A510DBB97485396125DDEA (String_t* ___0_txt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7486,7 +7113,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Strings_MemberToPascalCase_mF306D0A
 	String_t* G_B7_0 = NULL;
 	String_t* G_B7_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:23>
 		String_t* L_0 = ___0_txt;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -7497,20 +7123,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Strings_MemberToPascalCase_mF306D0A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:25>
 		String_t* L_2 = ___0_txt;
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral7E305F5EC5AD4232FFC6E739042799AF89C90B5B, L_2, _stringLiteral1ED0F8388E2E0B918D2313EEF08FC01070FD97C4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:26>
 		String_t* L_4 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		return L_4;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:29>
 		String_t* L_5 = ___0_txt;
 		NullCheck(L_5);
 		Il2CppChar L_6;
@@ -7521,20 +7144,17 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:31>
 		String_t* L_7 = ___0_txt;
 		String_t* L_8;
 		L_8 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral7E305F5EC5AD4232FFC6E739042799AF89C90B5B, L_7, _stringLiteralA6A4619CBCCE829084DC5FD4D9829BD52F61F025, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:32>
 		String_t* L_9 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		return L_9;
 	}
 
 IL_004a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:35>
 		String_t* L_10 = ___0_txt;
 		NullCheck(L_10);
 		Il2CppChar L_11;
@@ -7546,7 +7166,6 @@ IL_004a:
 		NullCheck(L_12);
 		String_t* L_13;
 		L_13 = String_ToUpper_m5F499BC30C2A5F5C96248B4C3D1A3B4694748B49(L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:37>
 		String_t* L_14 = ___0_txt;
 		NullCheck(L_14);
 		int32_t L_15;
@@ -7578,14 +7197,13 @@ IL_006e:
 IL_0075:
 	{
 		V_0 = G_B7_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:38>
 		String_t* L_19 = V_0;
 		String_t* L_20;
 		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B7_1, L_19, NULL);
 		return L_20;
 	}
 }
-// Method Definition Index: 75492
+// Method Definition Index: 75485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Strings_PascalCaseToMember_m27345D33D474346ABF95B421B29833228FC1E731 (String_t* ___0_txt, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7602,7 +7220,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Strings_PascalCaseToMember_m27345D3
 	Il2CppChar V_2 = 0x0;
 	String_t* G_B5_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:47>
 		String_t* L_0 = ___0_txt;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -7613,20 +7230,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Strings_PascalCaseToMember_m27345D3
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:49>
 		String_t* L_2 = ___0_txt;
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral7E305F5EC5AD4232FFC6E739042799AF89C90B5B, L_2, _stringLiteral1ED0F8388E2E0B918D2313EEF08FC01070FD97C4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:50>
 		String_t* L_4 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		return L_4;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:53>
 		String_t* L_5 = ___0_txt;
 		NullCheck(L_5);
 		Il2CppChar L_6;
@@ -7639,7 +7253,6 @@ IL_0024:
 		String_t* L_8;
 		L_8 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_7, NULL);
 		V_0 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:55>
 		String_t* L_9 = ___0_txt;
 		NullCheck(L_9);
 		int32_t L_10;
@@ -7667,7 +7280,6 @@ IL_0049:
 IL_0050:
 	{
 		V_1 = G_B5_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:56>
 		String_t* L_14 = V_0;
 		String_t* L_15 = V_1;
 		String_t* L_16;
@@ -7675,11 +7287,10 @@ IL_0050:
 		return L_16;
 	}
 }
-// Method Definition Index: 75493
+// Method Definition Index: 75486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Strings_ReturnModifySuffix_mE987E06368A7B6B1801EB3AE8E8B9176A64E6969 (String_t* ___0_text, String_t* ___1_suffix, bool ___2_addExtension, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:69>
 		String_t* L_0 = ___0_text;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -7694,7 +7305,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Strings_ReturnModifySuffix_mE987E06
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:72>
 		bool L_4 = ___2_addExtension;
 		if (!L_4)
 		{
@@ -7702,7 +7312,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Strings_ReturnModifySuffix_mE987E06
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:75>
 		String_t* L_5 = ___0_text;
 		String_t* L_6 = ___0_text;
 		NullCheck(L_6);
@@ -7725,7 +7334,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Strings_ReturnModifySuffix_mE987E06
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:76>
 		String_t* L_13 = ___0_text;
 		String_t* L_14 = ___1_suffix;
 		String_t* L_15;
@@ -7735,14 +7343,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Strings_ReturnModifySuffix_mE987E06
 
 IL_0037:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:79>
 		String_t* L_16 = ___0_text;
 		return L_16;
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:85>
 		String_t* L_17 = ___0_text;
 		String_t* L_18 = ___0_text;
 		NullCheck(L_18);
@@ -7765,7 +7371,6 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:86>
 		String_t* L_25 = ___0_text;
 		String_t* L_26 = ___0_text;
 		NullCheck(L_26);
@@ -7783,19 +7388,17 @@ IL_0039:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:88>
 		String_t* L_31 = ___0_text;
 		return L_31;
 	}
 
 IL_006c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:94>
 		String_t* L_32 = ___0_text;
 		return L_32;
 	}
 }
-// Method Definition Index: 75494
+// Method Definition Index: 75487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Strings_ToBytes_m13D04CF563FB80A1EB9A7BADA0CB3B0FDFD0D250 (String_t* ___0_value, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** ___1_buffer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7808,13 +7411,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Strings_ToBytes_m13D04CF563FB80A1EB9A
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:104>
 		String_t* L_0 = ___0_value;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:106>
 		il2cpp_codegen_runtime_class_init_inline(Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_il2cpp_TypeInfo_var);
 		UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE* L_2 = ((Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_StaticFields*)il2cpp_codegen_static_fields_for(Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_il2cpp_TypeInfo_var))->____encoding;
 		int32_t L_3 = V_0;
@@ -7822,7 +7423,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Strings_ToBytes_m13D04CF563FB80A1EB9A
 		int32_t L_4;
 		L_4 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(31, L_2, L_3);
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:109>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** L_5 = ___1_buffer;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = *((ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**)L_5);
 		NullCheck(L_6);
@@ -7833,7 +7433,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Strings_ToBytes_m13D04CF563FB80A1EB9A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:110>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** L_8 = ___1_buffer;
 		int32_t L_9 = V_1;
 		Array_Resize_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mDEA5A67641D397AE82678232B46E377173ED4297(L_8, ((int32_t)il2cpp_codegen_multiply(L_9, 2)), Array_Resize_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_mDEA5A67641D397AE82678232B46E377173ED4297_RuntimeMethod_var);
@@ -7841,7 +7440,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Strings_ToBytes_m13D04CF563FB80A1EB9A
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:112>
 		il2cpp_codegen_runtime_class_init_inline(Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_il2cpp_TypeInfo_var);
 		UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE* L_10 = ((Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_StaticFields*)il2cpp_codegen_static_fields_for(Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_il2cpp_TypeInfo_var))->____encoding;
 		String_t* L_11 = ___0_value;
@@ -7854,11 +7452,10 @@ IL_0023:
 		return L_15;
 	}
 }
-// Method Definition Index: 75495
+// Method Definition Index: 75488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* Strings_ToBytesAllocated_m70C8B15AF19BAB7E9FFC734FEBEAF6BE48AD7CED (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:118>
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_0;
 		L_0 = Encoding_get_Unicode_m1E0509DF0E550E33114D0FFEC4811B141219A3B0(NULL);
 		String_t* L_1 = ___0_value;
@@ -7868,7 +7465,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		return L_2;
 	}
 }
-// Method Definition Index: 75496
+// Method Definition Index: 75489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strings__cctor_m8A7A3816EDEBBACE04CDEE2286949F88582A79BE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7880,12 +7477,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strings__cctor_m8A7A3816EDEBBACE04CDEE22
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:11>
 		UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE* L_0 = (UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE*)il2cpp_codegen_object_new(UTF8Encoding_t90B56215A1B0B7ED5CDEA772E695F0DDAFBCD3BE_il2cpp_TypeInfo_var);
 		UTF8Encoding__ctor_m128F4B4A103E718AAB699E2D64011DB13F486726(L_0, (bool)0, (bool)1, NULL);
 		((Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_StaticFields*)il2cpp_codegen_static_fields_for(Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_il2cpp_TypeInfo_var))->____encoding = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_StaticFields*)il2cpp_codegen_static_fields_for(Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_il2cpp_TypeInfo_var))->____encoding), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Strings.cs:15>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1024));
 		((Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_StaticFields*)il2cpp_codegen_static_fields_for(Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_il2cpp_TypeInfo_var))->___Buffer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_StaticFields*)il2cpp_codegen_static_fields_for(Strings_t70C09623C9D0306D2BF3BF65BDEB11971AA4BDF1_il2cpp_TypeInfo_var))->___Buffer), (void*)L_1);
@@ -7900,13 +7495,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strings__cctor_m8A7A3816EDEBBACE04CDEE22
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75497
+// Method Definition Index: 75490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Transforms_HalfSizeDelta_m827A8A0394A96C345157C06F178916C636337311 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rectTransform, bool ___1_useScale, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B3_0;
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:14>
 		bool L_0 = ___1_useScale;
 		if (L_0)
 		{
@@ -7932,17 +7526,15 @@ IL_000b:
 
 IL_0011:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:15>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
 		L_5 = Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline(G_B3_0, (2.0f), NULL);
 		return L_5;
 	}
 }
-// Method Definition Index: 75498
+// Method Definition Index: 75491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Transforms_SizeDeltaScaled_m4F725AF34B2C64A7F473E70F0B6B6FD29B226E8E (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rectTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:23>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rectTransform;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
@@ -7958,7 +7550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_5;
 	}
 }
-// Method Definition Index: 75499
+// Method Definition Index: 75492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transforms_GetOnScreenPosition_mAE95388475C35D4F325A82F3459FF6D35F8B2228 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rectTransform, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_desiredPosition, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_padding, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7984,7 +7576,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_7;
 	memset((&V_7), 0, sizeof(V_7));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:33>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_rectTransform;
 		NullCheck(L_0);
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_1;
@@ -7992,12 +7583,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		NullCheck(L_1);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:34>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_desiredPosition;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:35>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_2, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
 		NullCheck(L_5);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
@@ -8005,7 +7594,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
 		L_7 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_6, NULL);
 		V_1 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:36>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = ___0_rectTransform;
@@ -8015,7 +7603,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
 		L_11 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_8, L_10, NULL);
 		V_2 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:39>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12 = ___0_rectTransform;
 		NullCheck(L_12);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
@@ -8023,7 +7610,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
 		L_15 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_13, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:42>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_16 = ___0_rectTransform;
 		NullCheck(L_16);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17;
@@ -8034,7 +7620,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20;
 		L_20 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_18, L_19, NULL);
 		V_3 = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:43>
 		NullCheck(L_5);
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_21;
 		L_21 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_5, NULL);
@@ -8058,7 +7643,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31;
 		L_31 = Vector2_op_Multiply_m6FFFFF6A9E069A4FBCA7E098D88AE39C2B80D442_inline(L_29, L_30, NULL);
 		V_4 = L_31;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:45>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32 = V_0;
 		float L_33 = L_32.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = V_3;
@@ -8068,7 +7652,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		float L_38;
 		L_38 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_33, L_35, L_37, NULL);
 		V_5 = L_38;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:46>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39 = V_0;
 		float L_40 = L_39.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_41 = V_3;
@@ -8078,7 +7661,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		float L_45;
 		L_45 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_40, L_42, L_44, NULL);
 		V_6 = L_45;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:48>
 		float L_46 = V_5;
 		float L_47 = V_6;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_48;
@@ -8089,7 +7671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_49;
 	}
 }
-// Method Definition Index: 75500
+// Method Definition Index: 75493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_SetParentAndKeepTransform_mE18DAF0260A67940499FC44BB01B912937CB7E55 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_src, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -8099,49 +7681,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_SetParentAndKeepTransform_mE1
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:57>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_src;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:58>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = ___0_src;
 		NullCheck(L_2);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
 		L_3 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:59>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___0_src;
 		NullCheck(L_4);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_4, NULL);
 		V_2 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:61>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = ___0_src;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = ___1_parent;
 		NullCheck(L_6);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_6, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:62>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = ___0_src;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
 		NullCheck(L_8);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:63>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = ___0_src;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_11 = V_1;
 		NullCheck(L_10);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_10, L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:64>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = ___0_src;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_2;
 		NullCheck(L_12);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_12, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:65>
 		return;
 	}
 }
-// Method Definition Index: 75501
+// Method Definition Index: 75494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_DestroyChildren_mA2FAF62522A251F014F7F12FCA9B82B7F274A770 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, bool ___1_destroyImmediately, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8169,7 +7743,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_DestroyChildren_mA2FAF62522A2
 	RuntimeObject* V_4 = NULL;
 	RuntimeObject* V_5 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:73>
 		bool L_0 = ___1_destroyImmediately;
 		if (!L_0)
 		{
@@ -8177,25 +7750,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_DestroyChildren_mA2FAF62522A2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:75>
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_tDE209C15F6DBD838DCCE5B593765A060D5D2406F_il2cpp_TypeInfo_var);
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_1;
 		L_1 = CollectionCaches_1_RetrieveList_m1D800FDB7FD70F75638F3CC19BD78F409D79FFAA(CollectionCaches_1_RetrieveList_m1D800FDB7FD70F75638F3CC19BD78F409D79FFAA_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:76>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = ___0_t;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = Transform_get_childCount_mE9C29C702AB662CC540CA053EDE48BDAFA35B4B0(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:78>
 		V_2 = 0;
 		goto IL_0025;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:79>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_4 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___0_t;
 		int32_t L_6 = V_2;
@@ -8204,14 +7773,12 @@ IL_0014:
 		L_7 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_5, L_6, NULL);
 		NullCheck(L_4);
 		List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_inline(L_4, L_7, List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:78>
 		int32_t L_8 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:78>
 		int32_t L_9 = V_2;
 		int32_t L_10 = V_1;
 		if ((((int32_t)L_9) < ((int32_t)L_10)))
@@ -8220,7 +7787,6 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:81>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_11 = V_0;
 		NullCheck(L_11);
 		Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D L_12;
@@ -8245,17 +7811,14 @@ FINALLY_0049:
 
 IL_0032_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:81>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
 				L_13 = Enumerator_get_Current_mCBBD283BB42C56D73B7C4194020EC95292B36129_inline((&V_3), Enumerator_get_Current_mCBBD283BB42C56D73B7C4194020EC95292B36129_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:82>
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_13, NULL);
 			}
 
 IL_003e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:81>
 				bool L_14;
 				L_14 = Enumerator_MoveNext_mBAA697FE341E389C86536D9444A3E4AC02109E87((&V_3), Enumerator_MoveNext_mBAA697FE341E389C86536D9444A3E4AC02109E87_RuntimeMethod_var);
 				if (L_14)
@@ -8275,7 +7838,6 @@ IL_003e_1:
 
 IL_0057:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:84>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_15 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_tDE209C15F6DBD838DCCE5B593765A060D5D2406F_il2cpp_TypeInfo_var);
 		CollectionCaches_1_Store_mF816A5AA32A3E6410A9C876991BEBB32EA5D0E55(L_15, CollectionCaches_1_Store_mF816A5AA32A3E6410A9C876991BEBB32EA5D0E55_RuntimeMethod_var);
@@ -8284,7 +7846,6 @@ IL_0057:
 
 IL_005e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:89>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = ___0_t;
 		NullCheck(L_16);
 		RuntimeObject* L_17;
@@ -8326,12 +7887,10 @@ IL_009d:
 
 IL_0068_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:89>
 				RuntimeObject* L_21 = V_4;
 				NullCheck(L_21);
 				RuntimeObject* L_22;
 				L_22 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_21);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:90>
 				NullCheck(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_22, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)));
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
 				L_23 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_22, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), NULL);
@@ -8341,7 +7900,6 @@ IL_0068_1:
 
 IL_007e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:89>
 				RuntimeObject* L_24 = V_4;
 				NullCheck(L_24);
 				bool L_25;
@@ -8363,15 +7921,13 @@ IL_007e_1:
 
 IL_009e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 75504
+// Method Definition Index: 75497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transforms_GetPosition_m8811D5A27406F46F1CB99F2B5222B5254CE0676B (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, bool ___1_localSpace, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:140>
 		bool L_0 = ___1_localSpace;
 		if (L_0)
 		{
@@ -8395,11 +7951,10 @@ IL_000a:
 		return L_4;
 	}
 }
-// Method Definition Index: 75505
+// Method Definition Index: 75498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transforms_GetRotation_m730B1D248AC4C77ECD8C63B8A284D56AC8AB12B3 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, bool ___1_localSpace, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:148>
 		bool L_0 = ___1_localSpace;
 		if (L_0)
 		{
@@ -8423,11 +7978,10 @@ IL_000a:
 		return L_4;
 	}
 }
-// Method Definition Index: 75506
+// Method Definition Index: 75499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transforms_GetScale_m1D564D08C502CDB41C8F6608703CC95FCFFB33FC (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:156>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_t;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -8435,11 +7989,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_1;
 	}
 }
-// Method Definition Index: 75507
+// Method Definition Index: 75500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_SetPosition_m9676CDAD209D791BA88EE6DA7F2549B5103802EC (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, bool ___1_localSpace, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_pos, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:166>
 		bool L_0 = ___1_localSpace;
 		if (!L_0)
 		{
@@ -8447,7 +8000,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_SetPosition_m9676CDAD209D791B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:167>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___0_t;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___2_pos;
 		NullCheck(L_1);
@@ -8457,20 +8009,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_SetPosition_m9676CDAD209D791B
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:169>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = ___0_t;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___2_pos;
 		NullCheck(L_3);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:170>
 		return;
 	}
 }
-// Method Definition Index: 75508
+// Method Definition Index: 75501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_SetRotation_mC312ED83D144FA42F29D32867C7AD817669496F5 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, bool ___1_localSpace, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rot, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:179>
 		bool L_0 = ___1_localSpace;
 		if (!L_0)
 		{
@@ -8478,7 +8027,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_SetRotation_mC312ED83D144FA42
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:180>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___0_t;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___2_rot;
 		NullCheck(L_1);
@@ -8488,25 +8036,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_SetRotation_mC312ED83D144FA42
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:182>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = ___0_t;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___2_rot;
 		NullCheck(L_3);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:183>
 		return;
 	}
 }
-// Method Definition Index: 75509
+// Method Definition Index: 75502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_SetScale_m6CA6A0B85855D31235AFDE0962B07448013E0DA2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_scale, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:192>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_t;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_scale;
 		NullCheck(L_0);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Transforms.cs:193>
 		return;
 	}
 }
@@ -8518,63 +8062,57 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transforms_SetScale_m6CA6A0B85855D31235A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75528
+// Method Definition Index: 75521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerMonoBehaviour_OnPointerEnter_mCE893C21F788CE76C441FDE82991BA4FC2BD81EF (PointerMonoBehaviour_t72112744EF3BFD48A19E91BFE4CE094B9EAC90AB* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/PointerMonoBehaviour.cs:11>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_eventData;
 		VirtualActionInvoker2< bool, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* >::Invoke(8, __this, (bool)1, L_0);
 		return;
 	}
 }
-// Method Definition Index: 75529
+// Method Definition Index: 75522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerMonoBehaviour_OnPointerExit_mFA2A5E683242649D5B955489A19D6A2E1604569C (PointerMonoBehaviour_t72112744EF3BFD48A19E91BFE4CE094B9EAC90AB* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/PointerMonoBehaviour.cs:16>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_eventData;
 		VirtualActionInvoker2< bool, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* >::Invoke(8, __this, (bool)0, L_0);
 		return;
 	}
 }
-// Method Definition Index: 75530
+// Method Definition Index: 75523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerMonoBehaviour_OnPointerDown_m11478C88DB2C11ADB284F04BDC67B83A02AB4514 (PointerMonoBehaviour_t72112744EF3BFD48A19E91BFE4CE094B9EAC90AB* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/PointerMonoBehaviour.cs:21>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_eventData;
 		VirtualActionInvoker2< bool, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* >::Invoke(9, __this, (bool)1, L_0);
 		return;
 	}
 }
-// Method Definition Index: 75531
+// Method Definition Index: 75524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerMonoBehaviour_OnPointerUp_mAE9AEE3B868D67A94B637CC3A541995DA906CAB2 (PointerMonoBehaviour_t72112744EF3BFD48A19E91BFE4CE094B9EAC90AB* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/PointerMonoBehaviour.cs:26>
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_0 = ___0_eventData;
 		VirtualActionInvoker2< bool, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* >::Invoke(9, __this, (bool)0, L_0);
 		return;
 	}
 }
-// Method Definition Index: 75532
+// Method Definition Index: 75525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerMonoBehaviour_OnHovered_m0A06D46E0E0EEE3D515715BDD817DA37865C7FE6 (PointerMonoBehaviour_t72112744EF3BFD48A19E91BFE4CE094B9EAC90AB* __this, bool ___0_hovered, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___1_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/PointerMonoBehaviour.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 75533
+// Method Definition Index: 75526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerMonoBehaviour_OnPressed_m924D4E73958B5BE2747C134424100B9C1950AE0A (PointerMonoBehaviour_t72112744EF3BFD48A19E91BFE4CE094B9EAC90AB* __this, bool ___0_pressed, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___1_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/PointerMonoBehaviour.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 75534
+// Method Definition Index: 75527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerMonoBehaviour__ctor_m99EA08F0F5EAE9D5BE06DD8CC76373C4D2C13A5D (PointerMonoBehaviour_t72112744EF3BFD48A19E91BFE4CE094B9EAC90AB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8590,11 +8128,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerMonoBehaviour__ctor_m99EA08F0F5EA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75535
+// Method Definition Index: 75528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInts_Pad_m33CCE42AE902D9C0D472DC0AA3C674E4FEFAABF2 (uint32_t ___0_value, int32_t ___1_padding, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:15>
 		int32_t L_0 = ___1_padding;
 		if ((((int32_t)L_0) >= ((int32_t)0)))
 		{
@@ -8602,13 +8139,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInts_Pad_m33CCE42AE902D9C0D472DC0A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:16>
 		___1_padding = 0;
 	}
 
 IL_0007:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:17>
 		String_t* L_1;
 		L_1 = UInt32_ToString_mB6FA6D2459C82ADCF285C55363491D9669A80154((&___0_value), NULL);
 		int32_t L_2 = ___1_padding;
@@ -8618,7 +8153,7 @@ IL_0007:
 		return L_3;
 	}
 }
-// Method Definition Index: 75536
+// Method Definition Index: 75529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UInts_RandomInclusiveRange_m7FD80A55FFCA8094B5CAD6FAB9971E70764D2FD4 (uint32_t ___0_minimum, uint32_t ___1_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8628,7 +8163,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UInts_RandomInclusiveRange_m7FD80A55
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:27>
 		uint32_t L_0 = ___0_minimum;
 		uint32_t L_1 = ___1_maximum;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
@@ -8637,7 +8171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UInts_RandomInclusiveRange_m7FD80A55
 		return L_2;
 	}
 }
-// Method Definition Index: 75537
+// Method Definition Index: 75530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UInts_RandomExclusiveRange_m6E14189270C8C1B2DBCE98942F81D341AB833B4C (uint32_t ___0_minimum, uint32_t ___1_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8647,7 +8181,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UInts_RandomExclusiveRange_m6E141892
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:36>
 		uint32_t L_0 = ___0_minimum;
 		uint32_t L_1 = ___1_maximum;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
@@ -8656,11 +8189,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UInts_RandomExclusiveRange_m6E141892
 		return L_2;
 	}
 }
-// Method Definition Index: 75538
+// Method Definition Index: 75531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UInts_Clamp_m853CF1E2FB11310650966B2817C2D733565AE8F5 (uint32_t ___0_value, uint32_t ___1_minimum, uint32_t ___2_maximum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:47>
 		uint32_t L_0 = ___0_value;
 		uint32_t L_1 = ___1_minimum;
 		if ((!(((uint32_t)L_0) < ((uint32_t)L_1))))
@@ -8669,7 +8201,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UInts_Clamp_m853CF1E2FB11310650966B2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:48>
 		uint32_t L_2 = ___1_minimum;
 		___0_value = L_2;
 		goto IL_0010;
@@ -8677,7 +8208,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UInts_Clamp_m853CF1E2FB11310650966B2
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:49>
 		uint32_t L_3 = ___0_value;
 		uint32_t L_4 = ___2_maximum;
 		if ((!(((uint32_t)L_3) > ((uint32_t)L_4))))
@@ -8686,23 +8216,20 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:50>
 		uint32_t L_5 = ___2_maximum;
 		___0_value = L_5;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:52>
 		uint32_t L_6 = ___0_value;
 		return L_6;
 	}
 }
-// Method Definition Index: 75539
+// Method Definition Index: 75532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UInts_Min_mA95094C809BD6FEBF88BBDBABDB0566D237DB732 (uint32_t ___0_a, uint32_t ___1_b, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:58>
 		uint32_t L_0 = ___0_a;
 		uint32_t L_1 = ___1_b;
 		if ((!(((uint32_t)L_0) >= ((uint32_t)L_1))))
@@ -8721,7 +8248,7 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 75540
+// Method Definition Index: 75533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UInts_ValuesMatch_m3A87C0060122BF14EF163D3A765EE18FEE8EEC88 (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___0_values, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8732,7 +8259,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UInts_ValuesMatch_m3A87C0060122BF14EF163
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:66>
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_0 = ___0_values;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8748,18 +8274,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UInts_ValuesMatch_m3A87C0060122BF14EF163
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75541
+// Method Definition Index: 75534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vectors_GetRate_m26705C24616012E0612078082A5D65590F00260A (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_duration, float* ___3_distance, uint32_t ___4_interval, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:28>
 		float* L_0 = ___3_distance;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_a;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
 		float L_3;
 		L_3 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_1, L_2, NULL);
 		*((float*)L_0) = (float)L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:29>
 		float* L_4 = ___3_distance;
 		float L_5 = *((float*)L_4);
 		float L_6 = ___2_duration;
@@ -8767,11 +8291,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vectors_GetRate_m26705C24616012E0612078
 		return ((float)(L_5/((float)il2cpp_codegen_multiply(L_6, ((float)((double)(uint32_t)L_7))))));
 	}
 }
-// Method Definition Index: 75542
+// Method Definition Index: 75535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vectors_Add_m72C5EAA3E8CD2CA067481B9979173C1E14CA3396 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v3, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_v2, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:37>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_v3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___1_v2;
 		float L_2 = L_1.___x;
@@ -8785,11 +8308,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_6;
 	}
 }
-// Method Definition Index: 75543
+// Method Definition Index: 75536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vectors_Subtract_m27C81C40D3AE9B87C966F3CE4E179BC3DCB5A57D (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v3, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_v2, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:45>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_v3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___1_v2;
 		float L_2 = L_1.___x;
@@ -8803,24 +8325,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_6;
 	}
 }
-// Method Definition Index: 75544
+// Method Definition Index: 75537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vectors_InverseLerp_mB4C88050C50A5035444D1D5A990EF31454D94F42 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_value, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:57>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_b;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_a;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:58>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___2_value;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:59>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
 		float L_7;
 		L_7 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_5, L_6, NULL);
@@ -8833,11 +8352,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vectors_InverseLerp_mB4C88050C50A503544
 		return L_11;
 	}
 }
-// Method Definition Index: 75545
+// Method Definition Index: 75538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vectors_Near_m6EFEB98FEFAC3A3473B86B9287353E8068CD3B1C (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_tolerance, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:71>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_b;
 		float L_2;
@@ -8846,11 +8364,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vectors_Near_m6EFEB98FEFAC3A3473B86B9287
 		return (bool)((((int32_t)((!(((float)L_2) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 75546
+// Method Definition Index: 75539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vectors_IsNan_m1F0FC933AD9FD2CF4A092BAC45F8BC540ED91A61 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_source, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:81>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_source;
 		float L_1 = L_0.___x;
 		bool L_2;
@@ -8883,26 +8400,23 @@ IL_0026:
 		return (bool)1;
 	}
 }
-// Method Definition Index: 75547
+// Method Definition Index: 75540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vectors_Lerp3_m3B5447196DF45A1CCAC3FD641848189F9EE2E5FA (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_c, float ___3_percent, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:90>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_b;
 		float L_2 = ___3_percent;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:91>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___2_c;
 		float L_6 = ___3_percent;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_4, L_5, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:92>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_0;
 		float L_9 = ___3_percent;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
@@ -8910,7 +8424,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_10;
 	}
 }
-// Method Definition Index: 75548
+// Method Definition Index: 75541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vectors_Lerp3_mED591C4E2D45BA24CD700ED35DEE48C3165F6860 (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_vectors, float ___1_percent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8922,7 +8436,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:103>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = ___0_vectors;
 		NullCheck(L_0);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_0)->max_length))) >= ((int32_t)3)))
@@ -8931,10 +8444,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:105>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral15DC822959866835E349C6367C4C8C56A63C01EB, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:106>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		return L_1;
@@ -8942,7 +8453,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:109>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = ___0_vectors;
 		NullCheck(L_2);
 		int32_t L_3 = 0;
@@ -8962,11 +8472,10 @@ IL_0016:
 		return L_12;
 	}
 }
-// Method Definition Index: 75549
+// Method Definition Index: 75542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vectors_Multiply_m08F1A37D0DEEE14575EC9638BBDD12D5343B08A0 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_src, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_multiplier, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:120>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_src;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_multiplier;
@@ -8985,7 +8494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		return L_12;
 	}
 }
-// Method Definition Index: 75550
+// Method Definition Index: 75543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vectors_FastDistance_mE8C29D585D09ED4CD557E4EAE36E6BC18B1A89B3 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8997,24 +8506,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vectors_FastDistance_mE8C29D585D09ED4CD
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:154>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
 		float L_3 = L_2.___x;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:155>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
 		float L_5 = L_4.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
 		float L_7 = L_6.___y;
 		V_0 = ((float)il2cpp_codegen_subtract(L_5, L_7));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:156>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
 		float L_9 = L_8.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
 		float L_11 = L_10.___z;
 		V_1 = ((float)il2cpp_codegen_subtract(L_9, L_11));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:157>
 		float L_12 = ((float)il2cpp_codegen_subtract(L_1, L_3));
 		float L_13 = V_0;
 		float L_14 = V_0;
@@ -9026,11 +8531,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vectors_FastDistance_mE8C29D585D09ED4CD
 		return ((float)L_17);
 	}
 }
-// Method Definition Index: 75551
+// Method Definition Index: 75544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vectors_FastSqrMagnitude_m5CEFF2CC52B5DAE49CA916E9B1310A294DBFA4DC (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:168>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_vector;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_vector;
@@ -9046,7 +8550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vectors_FastSqrMagnitude_m5CEFF2CC52B5D
 		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
 	}
 }
-// Method Definition Index: 75552
+// Method Definition Index: 75545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vectors_FastNormalize_m92EBAB962DF3F054E951E0BCDEFF206BFEEA5040 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9060,7 +8564,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:179>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
 		float L_1 = L_0.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_value;
@@ -9077,7 +8580,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		double L_12;
 		L_12 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))))));
 		V_0 = ((float)L_12);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:180>
 		float L_13 = V_0;
 		if ((!(((float)L_13) > ((float)(9.99999975E-06f)))))
 		{
@@ -9085,46 +8587,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:183>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = ___0_value;
 		float L_15 = L_14.___x;
 		float L_16 = V_0;
 		(&V_1)->___x = ((float)(L_15/L_16));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:184>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = ___0_value;
 		float L_18 = L_17.___y;
 		float L_19 = V_0;
 		(&V_1)->___y = ((float)(L_18/L_19));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:185>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_value;
 		float L_21 = L_20.___z;
 		float L_22 = V_0;
 		(&V_1)->___z = ((float)(L_21/L_22));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:186>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_1;
 		return L_23;
 	}
 
 IL_0068:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:190>
 		il2cpp_codegen_runtime_class_init_inline(Vectors_tB271C58533ED793021EEFFF605684AECF414D033_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = ((Vectors_tB271C58533ED793021EEFFF605684AECF414D033_StaticFields*)il2cpp_codegen_static_fields_for(Vectors_tB271C58533ED793021EEFFF605684AECF414D033_il2cpp_TypeInfo_var))->___VECTOR3_ZERO;
 		return L_24;
 	}
 }
-// Method Definition Index: 75553
+// Method Definition Index: 75546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vectors_GetRate_m0C8E42C37CB04A7A39B31B435C1A2EF940E65138 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_goal, float ___2_duration, float* ___3_distance, uint32_t ___4_interval, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:206>
 		float* L_0 = ___3_distance;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_a;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_goal;
 		float L_3;
 		L_3 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_1, L_2, NULL);
 		*((float*)L_0) = (float)L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:207>
 		float* L_4 = ___3_distance;
 		float L_5 = *((float*)L_4);
 		float L_6 = ___2_duration;
@@ -9132,26 +8627,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vectors_GetRate_m0C8E42C37CB04A7A39B31B
 		return ((float)(L_5/((float)il2cpp_codegen_multiply(L_6, ((float)((double)(uint32_t)L_7))))));
 	}
 }
-// Method Definition Index: 75554
+// Method Definition Index: 75547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vectors_Lerp3_m49BCDEAADFF8CC538CB3D3F4F796662CF3CF931A (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_c, float ___3_percent, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:220>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___1_b;
 		float L_2 = ___3_percent;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = Vector2_Lerp_m1A36103F7967F653A929556E26E6D052C298C00C_inline(L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:221>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___1_b;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = ___2_c;
 		float L_6 = ___3_percent;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
 		L_7 = Vector2_Lerp_m1A36103F7967F653A929556E26E6D052C298C00C_inline(L_4, L_5, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:222>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = V_0;
 		float L_9 = ___3_percent;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
@@ -9159,7 +8651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_10;
 	}
 }
-// Method Definition Index: 75555
+// Method Definition Index: 75548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vectors_Lerp2_m7C17AD80B57FB485D92949EDBA00708FA5A811C9 (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___0_vectors, float ___1_percent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9171,7 +8663,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:233>
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_0 = ___0_vectors;
 		NullCheck(L_0);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_0)->max_length))) >= ((int32_t)3)))
@@ -9180,10 +8671,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:235>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral15DC822959866835E349C6367C4C8C56A63C01EB, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:236>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		return L_1;
@@ -9191,7 +8680,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:239>
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_2 = ___0_vectors;
 		NullCheck(L_2);
 		int32_t L_3 = 0;
@@ -9211,11 +8699,10 @@ IL_0016:
 		return L_12;
 	}
 }
-// Method Definition Index: 75556
+// Method Definition Index: 75549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vectors_Multiply_mAC47B5668128FBAEC696645A8D19DC7D4E6C92D6 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_src, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_multiplier, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:250>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_src;
 		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_multiplier;
@@ -9230,7 +8717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_8;
 	}
 }
-// Method Definition Index: 75557
+// Method Definition Index: 75550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vectors__cctor_m0100980EBA0183CF520B931C46BFD8E5C959F8EF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9240,7 +8727,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vectors__cctor_m0100980EBA0183CF520B931C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Vectors.cs:12>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (0.0f), (0.0f), (0.0f), NULL);
@@ -9264,7 +8750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vectors__cctor_m0100980EBA0183CF520B931C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75574
+// Method Definition Index: 75567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_Awake_m4BFE9E59421A5FED851E49026E2ADF19FABB2D0C (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9277,7 +8763,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_Awake_m4BFE9E59421A5FED851E49
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:70>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_0 = ((ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_StaticFields*)il2cpp_codegen_static_fields_for(ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_il2cpp_TypeInfo_var))->____instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9298,7 +8783,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_Awake_m4BFE9E59421A5FED851E49
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:72>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = Debug_get_isDebugBuild_m9277C4A9591F7E1D8B76340B4CAE5EA33D63AF01(NULL);
@@ -9308,51 +8792,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_Awake_m4BFE9E59421A5FED851E49
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:73>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralC79390149DCD6199DE7C64E276DB100D086893FC, NULL);
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:74>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:75>
 		return;
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:79>
 		((ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_StaticFields*)il2cpp_codegen_static_fields_for(ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_il2cpp_TypeInfo_var))->____instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_StaticFields*)il2cpp_codegen_static_fields_for(ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_il2cpp_TypeInfo_var))->____instance), (void*)__this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 75575
+// Method Definition Index: 75568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_Update_mA526D9C7A69DF2E529778C76B7FAECA1437F75FF (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:83>
 		return;
 	}
 }
-// Method Definition Index: 75576
+// Method Definition Index: 75569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_Start_m17693004CD5663F30BF62B8F528ADC4722E438AC (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:87>
 		RuntimeObject* L_0;
 		L_0 = ObjectPool___CleanupChecks_mB60EEAF5EF5F789DFA4D2CDA6B5B345778C1A576(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:88>
 		return;
 	}
 }
-// Method Definition Index: 75577
+// Method Definition Index: 75570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ObjectPool___CleanupChecks_mB60EEAF5EF5F789DFA4D2CDA6B5B345778C1A576 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9371,7 +8847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ObjectPool___CleanupChecks_mB6
 		return L_1;
 	}
 }
-// Method Definition Index: 75578
+// Method Definition Index: 75571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ObjectPool___Reset_mB564BF7232F8A743AE099A0E89D71AE4023715CC (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, bool ___0_destroyActive, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9394,7 +8870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ObjectPool___Reset_mB564BF7232
 		return L_2;
 	}
 }
-// Method Definition Index: 75579
+// Method Definition Index: 75572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_DestroyPool_m583BEFCED2133B296625E0C6D541B0FBE45B1A70 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, PoolData_t80E4C4FD24F727D017C06769387611B94D561514* ___0_poolData, bool ___1_removeFromList, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9409,14 +8885,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_DestroyPool_m583BEFCED2133B29
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:204>
 		V_0 = 0;
 		goto IL_0037;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:206>
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_0 = ___0_poolData;
 		NullCheck(L_0);
 		ListStack_1_tC5D8485481A9BF8FB8A5E18E07F3A6AB6358B23F* L_1 = L_0->___Objects;
@@ -9436,7 +8910,6 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:207>
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_6 = ___0_poolData;
 		NullCheck(L_6);
 		ListStack_1_tC5D8485481A9BF8FB8A5E18E07F3A6AB6358B23F* L_7 = L_6->___Objects;
@@ -9453,14 +8926,12 @@ IL_0004:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:204>
 		int32_t L_11 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:204>
 		int32_t L_12 = V_0;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_13 = ___0_poolData;
 		NullCheck(L_13);
@@ -9477,7 +8948,6 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:210>
 		bool L_17 = ___1_removeFromList;
 		if (!L_17)
 		{
@@ -9485,7 +8955,6 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:211>
 		List_1_tB7271C5068DA46F537B1C7DD5EC8CEF89AB4A8AA* L_18 = __this->____pools;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_19 = ___0_poolData;
 		NullCheck(L_18);
@@ -9495,11 +8964,10 @@ IL_0037:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:212>
 		return;
 	}
 }
-// Method Definition Index: 75580
+// Method Definition Index: 75573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoolData_t80E4C4FD24F727D017C06769387611B94D561514* ObjectPool_ReturnPoolData_m343AB162E4AAAB6403A40E3D0136C90308FD8548 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_prefab, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9510,13 +8978,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoolData_t80E4C4FD24F727D017C06769387611B94D5
 	}
 	PoolData_t80E4C4FD24F727D017C06769387611B94D561514* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:222>
 		Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D* L_0 = __this->____poolPrefabs;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_prefab;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_TryGetValue_m5AC2A0C9304BBCACA03BF941DEE5EE45A304BA81(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_m5AC2A0C9304BBCACA03BF941DEE5EE45A304BA81_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:224>
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_3 = V_0;
 		if (L_3)
 		{
@@ -9524,7 +8990,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoolData_t80E4C4FD24F727D017C06769387611B94D5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:225>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = ___0_prefab;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_5;
 		L_5 = ObjectPool_CreatePool_mE4A64E88001A480AE7B7165261BE583C853ACE72(__this, L_4, NULL);
@@ -9533,16 +8998,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoolData_t80E4C4FD24F727D017C06769387611B94D5
 
 IL_001a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:227>
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_6 = V_0;
 		return L_6;
 	}
 }
-// Method Definition Index: 75581
+// Method Definition Index: 75574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_SetGameObjectPositionRotation_m8593A25BBE4B260A135BF113DAE161B4118A2CC1 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_result, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:238>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_result;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -9550,7 +9013,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_SetGameObjectPositionRotation
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_position;
 		NullCheck(L_1);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:239>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = ___0_result;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -9558,11 +9020,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_SetGameObjectPositionRotation
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5 = ___2_rotation;
 		NullCheck(L_4);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:240>
 		return;
 	}
 }
-// Method Definition Index: 75582
+// Method Definition Index: 75575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ObjectPool_Retrieve_m04D1345FF8A0A970D42F610970F5AA56EA11C1F8 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_poolObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9572,7 +9033,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:249>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_0 = ((ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_StaticFields*)il2cpp_codegen_static_fields_for(ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_il2cpp_TypeInfo_var))->____instance;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_poolObject;
 		NullCheck(L_0);
@@ -9581,7 +9041,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_2;
 	}
 }
-// Method Definition Index: 75583
+// Method Definition Index: 75576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ObjectPool_RetrieveInternal_mB374E0452149F015AA4A008ADB56BA9A0CFD85D1 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_poolObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9593,12 +9053,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	PoolData_t80E4C4FD24F727D017C06769387611B94D561514* V_0 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:255>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_poolObject;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = ObjectPool_ReturnPooledObject_m327FBD45EA07B392BAA31CC2422CC6545C4A0C17(__this, L_0, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:258>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -9616,7 +9074,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:260>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = V_1;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_6 = V_0;
 		NullCheck(L_6);
@@ -9637,7 +9094,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
 		L_13 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_12, NULL);
 		ObjectPool_SetGameObjectPositionRotation_m8593A25BBE4B260A135BF113DAE161B4118A2CC1(__this, L_5, L_9, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:261>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_1;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -9648,7 +9104,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 
 IL_0049:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:264>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = V_1;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_17 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
@@ -9656,7 +9111,7 @@ IL_0049:
 		return L_18;
 	}
 }
-// Method Definition Index: 75584
+// Method Definition Index: 75577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ObjectPool_Retrieve_m94F79041425FBD94ADFAE59319B1350DF56A4F5A (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_poolObject, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, bool ___2_instantiateInWorldSpace, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9666,7 +9121,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:276>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_0 = ((ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_StaticFields*)il2cpp_codegen_static_fields_for(ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_il2cpp_TypeInfo_var))->____instance;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_poolObject;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = ___1_parent;
@@ -9677,7 +9131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_4;
 	}
 }
-// Method Definition Index: 75585
+// Method Definition Index: 75578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ObjectPool_RetrieveInternal_mCCAFE842ED35585ED3EA5FAD6234564BA2593DA6 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_poolObject, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, bool ___2_instantiateInWorldSpace, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9689,12 +9143,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	PoolData_t80E4C4FD24F727D017C06769387611B94D561514* V_0 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:282>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_poolObject;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = ObjectPool_ReturnPooledObject_m327FBD45EA07B392BAA31CC2422CC6545C4A0C17(__this, L_0, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:285>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -9712,7 +9164,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:287>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = V_1;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_6 = V_0;
 		NullCheck(L_6);
@@ -9733,7 +9184,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
 		L_13 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_12, NULL);
 		ObjectPool_SetGameObjectPositionRotation_m8593A25BBE4B260A135BF113DAE161B4118A2CC1(__this, L_5, L_9, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:288>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_1;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -9746,7 +9196,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 
 IL_004a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:291>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = V_1;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_19 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
@@ -9754,7 +9203,7 @@ IL_004a:
 		return L_20;
 	}
 }
-// Method Definition Index: 75586
+// Method Definition Index: 75579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ObjectPool_Retrieve_m74A7B334A965D936DD9AD491B8004E4A3BA28604 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_poolObject, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9764,7 +9213,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:303>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_0 = ((ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_StaticFields*)il2cpp_codegen_static_fields_for(ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_il2cpp_TypeInfo_var))->____instance;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_poolObject;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_position;
@@ -9775,7 +9223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		return L_4;
 	}
 }
-// Method Definition Index: 75587
+// Method Definition Index: 75580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ObjectPool_RetrieveInternal_m34AD79FEB4721BCFF4499CE548B4A520975C9789 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_poolObject, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9787,12 +9235,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	PoolData_t80E4C4FD24F727D017C06769387611B94D561514* V_0 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:309>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_poolObject;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = ObjectPool_ReturnPooledObject_m327FBD45EA07B392BAA31CC2422CC6545C4A0C17(__this, L_0, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:312>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -9803,12 +9249,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:314>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___1_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___2_rotation;
 		ObjectPool_SetGameObjectPositionRotation_m8593A25BBE4B260A135BF113DAE161B4118A2CC1(__this, L_4, L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:315>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_1;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -9819,7 +9263,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 
 IL_0028:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:318>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = V_1;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_10 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
@@ -9827,7 +9270,7 @@ IL_0028:
 		return L_11;
 	}
 }
-// Method Definition Index: 75588
+// Method Definition Index: 75581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ObjectPool_Retrieve_mD70983BE5D39FE673E7E45FA74E5374750EAF4EF (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_poolObject, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_parent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9839,12 +9282,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	PoolData_t80E4C4FD24F727D017C06769387611B94D561514* V_0 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:332>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_poolObject;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = ObjectPool_ReturnPooledObject_m327FBD45EA07B392BAA31CC2422CC6545C4A0C17(__this, L_0, (&V_0), NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:335>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -9855,12 +9296,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:337>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___1_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___2_rotation;
 		ObjectPool_SetGameObjectPositionRotation_m8593A25BBE4B260A135BF113DAE161B4118A2CC1(__this, L_4, L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:338>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_1;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -9872,7 +9311,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 
 IL_002a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:341>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_1;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_11 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
@@ -9880,7 +9318,7 @@ IL_002a:
 		return L_12;
 	}
 }
-// Method Definition Index: 75597
+// Method Definition Index: 75590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ObjectPool_FinalizeRetrieve_mF9E383C97A08F0C5AFBA96AD47F4E5807B24D40D (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_result, PoolData_t80E4C4FD24F727D017C06769387611B94D561514* ___1_pool, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9890,13 +9328,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:459>
 		Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D* L_0 = __this->____activeObjects;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_result;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_2 = ___1_pool;
 		NullCheck(L_0);
 		Dictionary_2_set_Item_mED474DD881A0663446A498339BBD9E1D886E8027(L_0, L_1, L_2, Dictionary_2_set_Item_mED474DD881A0663446A498339BBD9E1D886E8027_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:461>
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_3 = ___1_pool;
 		if (!L_3)
 		{
@@ -9904,7 +9340,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:462>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = ___0_result;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_5 = ___1_pool;
 		NullCheck(L_5);
@@ -9918,12 +9353,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:464>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = ___0_result;
 		return L_8;
 	}
 }
-// Method Definition Index: 75598
+// Method Definition Index: 75591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_Store_m3E5F07E1D9086E38BF00DB32E34DB2DAD0857249 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_instantiatedObject, float ___1_delay, bool ___2_parentPooler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9933,18 +9367,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_Store_m3E5F07E1D9086E38BF00DB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:474>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_0 = ((ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_StaticFields*)il2cpp_codegen_static_fields_for(ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_il2cpp_TypeInfo_var))->____instance;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_instantiatedObject;
 		float L_2 = ___1_delay;
 		bool L_3 = ___2_parentPooler;
 		NullCheck(L_0);
 		ObjectPool_StoreInternal_m18E0F36B1F21E1DF44A4DB035505492EC47BE8F2(L_0, L_1, L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:475>
 		return;
 	}
 }
-// Method Definition Index: 75599
+// Method Definition Index: 75592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_StoreInternal_m18E0F36B1F21E1DF44A4DB035505492EC47BE8F2 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_instantiatedObject, float ___1_delay, bool ___2_parentPooler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9954,7 +9386,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_StoreInternal_m18E0F36B1F21E1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:479>
 		Dictionary_2_t508F4CB243B163280E2C476A4977BED583F2ABEF* L_0 = __this->____delayedStoreObjects;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_instantiatedObject;
 		float L_2;
@@ -9966,11 +9397,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_StoreInternal_m18E0F36B1F21E1
 		DelayedStoreData__ctor_mCA18EA5D75E4DAA028FF0A4ACC200A69DEAAC63D((&L_5), ((float)il2cpp_codegen_add(L_2, L_3)), L_4, NULL);
 		NullCheck(L_0);
 		Dictionary_2_set_Item_m30D25249FAC0ABED05EC883C3769981CE997D506(L_0, L_1, L_5, Dictionary_2_set_Item_m30D25249FAC0ABED05EC883C3769981CE997D506_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:480>
 		return;
 	}
 }
-// Method Definition Index: 75600
+// Method Definition Index: 75593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_Store_m71E6781EC58E9E6707E9E4720DC1C722A4058023 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_instantiatedObject, bool ___1_parentPooler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9980,17 +9410,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_Store_m71E6781EC58E9E6707E9E4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:489>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_0 = ((ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_StaticFields*)il2cpp_codegen_static_fields_for(ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74_il2cpp_TypeInfo_var))->____instance;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_instantiatedObject;
 		bool L_2 = ___1_parentPooler;
 		NullCheck(L_0);
 		ObjectPool_StoreInternal_mC83892C703062B762B1D138C15F1339FB0ACE051(L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:490>
 		return;
 	}
 }
-// Method Definition Index: 75601
+// Method Definition Index: 75594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_StoreInternal_mC83892C703062B762B1D138C15F1339FB0ACE051 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_instantiatedObject, bool ___1_parentPooler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10005,7 +9433,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_StoreInternal_mC83892C703062B
 	}
 	PoolData_t80E4C4FD24F727D017C06769387611B94D561514* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:495>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_instantiatedObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10016,16 +9443,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_StoreInternal_mC83892C703062B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:497>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralC4A7DE87BA62666C4D3A7811A973650559A07FC0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:498>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:504>
 		Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D* L_2 = __this->____activeObjects;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = ___0_instantiatedObject;
 		NullCheck(L_2);
@@ -10037,7 +9461,6 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:505>
 		Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D* L_5 = __this->____activeObjects;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___0_instantiatedObject;
 		NullCheck(L_5);
@@ -10048,7 +9471,6 @@ IL_0014:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:507>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = ___0_instantiatedObject;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_9;
 		L_9 = ObjectPool_ReturnPoolData_m343AB162E4AAAB6403A40E3D0136C90308FD8548(__this, L_8, NULL);
@@ -10057,16 +9479,14 @@ IL_0033:
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:509>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = ___0_instantiatedObject;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_11 = V_0;
 		bool L_12 = ___1_parentPooler;
 		ObjectPool_AddToPool_mEFB8308811E966677223F094E6A412B9D5F1FF6E(__this, L_10, L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:510>
 		return;
 	}
 }
-// Method Definition Index: 75602
+// Method Definition Index: 75595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_MakeCollector_m18E36258365BB73FABF7558A97973A7ADAA81C88 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10079,7 +9499,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_MakeCollector_m18E36258365BB7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:517>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____collector;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10090,11 +9509,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_MakeCollector_m18E36258365BB7
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:521>
 		Dictionary_2_tF51794D0F14665A9868A7AA446CD5BD75C8663C4* L_2 = __this->____categoryChildren;
 		NullCheck(L_2);
 		Dictionary_2_Clear_m7337575D54E678C7A71036F626F5061EB90D40C2(L_2, Dictionary_2_Clear_m7337575D54E678C7A71036F626F5061EB90D40C2_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:523>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_3, NULL);
 		NullCheck(L_3);
@@ -10102,7 +9519,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_MakeCollector_m18E36258365BB7
 		L_4 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_3, NULL);
 		__this->____collector = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____collector), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:524>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->____collector;
 		NullCheck(L_5);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_5, _stringLiteralA64FAA3912374FAD1222EBB6A14534DB5FC554C6, NULL);
@@ -10110,11 +9526,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_MakeCollector_m18E36258365BB7
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:526>
 		return;
 	}
 }
-// Method Definition Index: 75603
+// Method Definition Index: 75596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ObjectPool_ReturnPooledObject_m327FBD45EA07B392BAA31CC2422CC6545C4A0C17 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_prefab, PoolData_t80E4C4FD24F727D017C06769387611B94D561514** ___1_pool, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10129,7 +9544,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:536>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_prefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10140,27 +9554,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:538>
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514** L_2 = ___1_pool;
 		*((RuntimeObject**)L_2) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_2, (void*)(RuntimeObject*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:539>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral3A178357174A7CDC7CEB0F7DD98D49656E9E5D2B, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:540>
 		return (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:543>
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514** L_3 = ___1_pool;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = ___0_prefab;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_5;
 		L_5 = ObjectPool_ReturnPoolData_m343AB162E4AAAB6403A40E3D0136C90308FD8548(__this, L_4, NULL);
 		*((RuntimeObject**)L_3) = (RuntimeObject*)L_5;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_3, (void*)(RuntimeObject*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:545>
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514** L_6 = ___1_pool;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_7 = *((PoolData_t80E4C4FD24F727D017C06769387611B94D561514**)L_6);
 		NullCheck(L_7);
@@ -10169,7 +9578,6 @@ IL_0018:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = ListStack_1_Pop_m0D7F6D399D6A2446E28E80505CB2CFA7DF26EAC9(L_8, ListStack_1_Pop_m0D7F6D399D6A2446E28E80505CB2CFA7DF26EAC9_RuntimeMethod_var);
 		V_0 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:551>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -10180,7 +9588,6 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:552>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = ___0_prefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
@@ -10190,12 +9597,11 @@ IL_0018:
 
 IL_003e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:554>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_0;
 		return L_14;
 	}
 }
-// Method Definition Index: 75604
+// Method Definition Index: 75597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoolData_t80E4C4FD24F727D017C06769387611B94D561514* ObjectPool_CreatePool_mE4A64E88001A480AE7B7165261BE583C853ACE72 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_prefab, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10213,7 +9619,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoolData_t80E4C4FD24F727D017C06769387611B94D5
 	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:564>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_prefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10224,22 +9629,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoolData_t80E4C4FD24F727D017C06769387611B94D5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:566>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral69E8C4E5C67E12A41FF071BAABC442EE91C56EC3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:567>
 		return (PoolData_t80E4C4FD24F727D017C06769387611B94D561514*)NULL;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:571>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = ___0_prefab;
 		float L_3 = __this->____dataExpirationDelay;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_4 = (PoolData_t80E4C4FD24F727D017C06769387611B94D561514*)il2cpp_codegen_object_new(PoolData_t80E4C4FD24F727D017C06769387611B94D561514_il2cpp_TypeInfo_var);
 		PoolData__ctor_m2B71B627EE442771E6DA154F34A45D83935C26F7(L_4, L_2, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:576>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = ___0_prefab;
 		NullCheck(L_5);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_6;
@@ -10253,7 +9654,6 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:577>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = ___0_prefab;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_9 = V_0;
 		ObjectPool_AddToPool_mEFB8308811E966677223F094E6A412B9D5F1FF6E(__this, L_8, L_9, (bool)1, NULL);
@@ -10261,23 +9661,20 @@ IL_0015:
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:580>
 		List_1_tB7271C5068DA46F537B1C7DD5EC8CEF89AB4A8AA* L_10 = __this->____pools;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_11 = V_0;
 		NullCheck(L_10);
 		List_1_Add_mD20FB87F36F039EAC79BD464D074D4528169EA25_inline(L_10, L_11, List_1_Add_mD20FB87F36F039EAC79BD464D074D4528169EA25_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:581>
 		Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D* L_12 = __this->____poolPrefabs;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = ___0_prefab;
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_14 = V_0;
 		NullCheck(L_12);
 		Dictionary_2_set_Item_mED474DD881A0663446A498339BBD9E1D886E8027(L_12, L_13, L_14, Dictionary_2_set_Item_mED474DD881A0663446A498339BBD9E1D886E8027_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:583>
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_15 = V_0;
 		return L_15;
 	}
 }
-// Method Definition Index: 75605
+// Method Definition Index: 75598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_AddToPool_mEFB8308811E966677223F094E6A412B9D5F1FF6E (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_instantiatedObject, PoolData_t80E4C4FD24F727D017C06769387611B94D561514* ___1_pool, bool ___2_parentPooler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10291,7 +9688,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_AddToPool_mEFB8308811E9666772
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:594>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_instantiatedObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10302,16 +9698,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_AddToPool_mEFB8308811E9666772
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:596>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral68EF67438DF019954C1ABE006C308B6E986245FE, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:597>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:599>
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_2 = ___1_pool;
 		if (L_2)
 		{
@@ -10319,27 +9712,22 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:601>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral17976A05DE6DAB230F991414B5FABF01AC6E94B8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:602>
 		return;
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:605>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = ___0_instantiatedObject;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:607>
 		PoolData_t80E4C4FD24F727D017C06769387611B94D561514* L_4 = ___1_pool;
 		NullCheck(L_4);
 		ListStack_1_tC5D8485481A9BF8FB8A5E18E07F3A6AB6358B23F* L_5 = L_4->___Objects;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___0_instantiatedObject;
 		NullCheck(L_5);
 		ListStack_1_Push_m91645A6ED34849D1CE95C77F4085867D2A3D96B5(L_5, L_6, ListStack_1_Push_m91645A6ED34849D1CE95C77F4085867D2A3D96B5_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:609>
 		bool L_7 = ___2_parentPooler;
 		if (!L_7)
 		{
@@ -10347,18 +9735,16 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:610>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = ___0_instantiatedObject;
 		ObjectPool_ParentPooler_m33A3F613EB1B3F45ECA4BAB1D1A33ED88D1034B2(__this, L_8, (bool)1, NULL);
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:611>
 		return;
 	}
 }
-// Method Definition Index: 75606
+// Method Definition Index: 75599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_ParentPooler_m33A3F613EB1B3F45ECA4BAB1D1A33ED88D1034B2 (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_poolObject, bool ___1_worldPositionStays, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10372,15 +9758,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_ParentPooler_m33A3F613EB1B3F4
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	String_t* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:619>
 		ObjectPool_MakeCollector_m18E36258365BB73FABF7558A97973A7ADAA81C88(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:622>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_poolObject;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = GameObject_get_tag_mEDD27BF795072834D656B286CBE51B2C99747805(L_0, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:626>
 		Dictionary_2_tF51794D0F14665A9868A7AA446CD5BD75C8663C4* L_2 = __this->____categoryChildren;
 		String_t* L_3 = V_1;
 		NullCheck(L_2);
@@ -10392,24 +9775,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_ParentPooler_m33A3F613EB1B3F4
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:628>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_5, NULL);
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:629>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = V_0;
 		String_t* L_8 = V_1;
 		NullCheck(L_7);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:631>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->____collector;
 		NullCheck(L_9);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:632>
 		Dictionary_2_tF51794D0F14665A9868A7AA446CD5BD75C8663C4* L_11 = __this->____categoryChildren;
 		String_t* L_12 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = V_0;
@@ -10419,7 +9798,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool_ParentPooler_m33A3F613EB1B3F4
 
 IL_0048:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:635>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = ___0_poolObject;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -10428,11 +9806,10 @@ IL_0048:
 		bool L_17 = ___1_worldPositionStays;
 		NullCheck(L_15);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_15, L_16, L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:636>
 		return;
 	}
 }
-// Method Definition Index: 75607
+// Method Definition Index: 75600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool__ctor_m264279A8619287AD3809D61084EE055E3A07F76F (ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10449,29 +9826,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObjectPool__ctor_m264279A8619287AD3809D6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:33>
 		__this->____dataExpirationDelay = (60.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:48>
 		List_1_tB7271C5068DA46F537B1C7DD5EC8CEF89AB4A8AA* L_0 = (List_1_tB7271C5068DA46F537B1C7DD5EC8CEF89AB4A8AA*)il2cpp_codegen_object_new(List_1_tB7271C5068DA46F537B1C7DD5EC8CEF89AB4A8AA_il2cpp_TypeInfo_var);
 		List_1__ctor_m233B19BA48716E4C5523F9EB4C12BD4F37183AEF(L_0, List_1__ctor_m233B19BA48716E4C5523F9EB4C12BD4F37183AEF_RuntimeMethod_var);
 		__this->____pools = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____pools), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:52>
 		Dictionary_2_tF51794D0F14665A9868A7AA446CD5BD75C8663C4* L_1 = (Dictionary_2_tF51794D0F14665A9868A7AA446CD5BD75C8663C4*)il2cpp_codegen_object_new(Dictionary_2_tF51794D0F14665A9868A7AA446CD5BD75C8663C4_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mAF22C7EEE7291D6105DF5BE9A731BCF8ABCE416F(L_1, Dictionary_2__ctor_mAF22C7EEE7291D6105DF5BE9A731BCF8ABCE416F_RuntimeMethod_var);
 		__this->____categoryChildren = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____categoryChildren), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:56>
 		Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D* L_2 = (Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D*)il2cpp_codegen_object_new(Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m55F8FD407CB162716E61407D1402A5BD4777CDA8(L_2, Dictionary_2__ctor_m55F8FD407CB162716E61407D1402A5BD4777CDA8_RuntimeMethod_var);
 		__this->____poolPrefabs = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____poolPrefabs), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:60>
 		Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D* L_3 = (Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D*)il2cpp_codegen_object_new(Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m55F8FD407CB162716E61407D1402A5BD4777CDA8(L_3, Dictionary_2__ctor_m55F8FD407CB162716E61407D1402A5BD4777CDA8_RuntimeMethod_var);
 		__this->____activeObjects = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____activeObjects), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:64>
 		Dictionary_2_t508F4CB243B163280E2C476A4977BED583F2ABEF* L_4 = (Dictionary_2_t508F4CB243B163280E2C476A4977BED583F2ABEF*)il2cpp_codegen_object_new(Dictionary_2_t508F4CB243B163280E2C476A4977BED583F2ABEF_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m02984D3944FBC28155D08313117BD97B33BD34ED(L_4, Dictionary_2__ctor_m02984D3944FBC28155D08313117BD97B33BD34ED_RuntimeMethod_var);
 		__this->____delayedStoreObjects = L_4;
@@ -10522,17 +9893,14 @@ IL2CPP_EXTERN_C void DelayedStoreData_tCB62C30502F9CD552EAB1BC4D9F4C1311D72A1A2_
 IL2CPP_EXTERN_C void DelayedStoreData_tCB62C30502F9CD552EAB1BC4D9F4C1311D72A1A2_marshal_com_cleanup(DelayedStoreData_tCB62C30502F9CD552EAB1BC4D9F4C1311D72A1A2_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 75608
+// Method Definition Index: 75601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelayedStoreData__ctor_mCA18EA5D75E4DAA028FF0A4ACC200A69DEAAC63D (DelayedStoreData_tCB62C30502F9CD552EAB1BC4D9F4C1311D72A1A2* __this, float ___0_storeTime, bool ___1_parentPooler, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:18>
 		float L_0 = ___0_storeTime;
 		__this->___StoreTime = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:19>
 		bool L_1 = ___1_parentPooler;
 		__this->___ParentPooler = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:20>
 		return;
 	}
 }
@@ -10551,7 +9919,7 @@ IL2CPP_EXTERN_C  void DelayedStoreData__ctor_mCA18EA5D75E4DAA028FF0A4ACC200A69DE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75609
+// Method Definition Index: 75602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C__CleanupChecksU3Ed__12__ctor_m9682F4A185B134B59F7FBF8258779634E577ADB0 (U3C__CleanupChecksU3Ed__12_tD80DBEC4FB6FA79CF82657DD30C4FFA83DDA0D9B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10561,14 +9929,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C__CleanupChecksU3Ed__12__ctor_m9682F4
 		return;
 	}
 }
-// Method Definition Index: 75610
+// Method Definition Index: 75603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C__CleanupChecksU3Ed__12_System_IDisposable_Dispose_mD60B6FB2D2DDC56726CF6209CBBA7FAB29CA7B3F (U3C__CleanupChecksU3Ed__12_tD80DBEC4FB6FA79CF82657DD30C4FFA83DDA0D9B* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 75611
+// Method Definition Index: 75604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3C__CleanupChecksU3Ed__12_MoveNext_mA795FC9E13D5875EFD4F7F65C46EC4D39A0B0085 (U3C__CleanupChecksU3Ed__12_tD80DBEC4FB6FA79CF82657DD30C4FFA83DDA0D9B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10630,13 +9998,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3C__CleanupChecksU3Ed__12_MoveNext_mA79
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:95>
 		__this->___U3CpoolIndexU3E5__2 = 0;
 	}
 
 IL_0028:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:104>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_4 = V_1;
 		NullCheck(L_4);
 		Dictionary_2_t508F4CB243B163280E2C476A4977BED583F2ABEF* L_5 = L_4->____delayedStoreObjects;
@@ -10649,11 +10015,9 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:106>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_7 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_7, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		V_2 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:107>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_8 = V_1;
 		NullCheck(L_8);
 		Dictionary_2_t508F4CB243B163280E2C476A4977BED583F2ABEF* L_9 = L_8->____delayedStoreObjects;
@@ -10680,11 +10044,9 @@ FINALLY_0099:
 
 IL_004d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:107>
 				KeyValuePair_2_t8795A67BF30F3E7DC0C1C03E9B1BF6EAEFBD996D L_11;
 				L_11 = Enumerator_get_Current_m00D4E1B3A1CF1CFAF76A909E9685EAA967F36FC9_inline((&V_3), Enumerator_get_Current_m00D4E1B3A1CF1CFAF76A909E9685EAA967F36FC9_RuntimeMethod_var);
 				V_4 = L_11;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:109>
 				float L_12;
 				L_12 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 				DelayedStoreData_tCB62C30502F9CD552EAB1BC4D9F4C1311D72A1A2 L_13;
@@ -10696,13 +10058,11 @@ IL_004d_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:112>
 				List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_15 = V_2;
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
 				L_16 = KeyValuePair_2_get_Key_mA2B9D3A6C3ABC4854B390752B661771C006B970D_inline((&V_4), KeyValuePair_2_get_Key_mA2B9D3A6C3ABC4854B390752B661771C006B970D_RuntimeMethod_var);
 				NullCheck(L_15);
 				List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_15, L_16, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:114>
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
 				L_17 = KeyValuePair_2_get_Key_mA2B9D3A6C3ABC4854B390752B661771C006B970D_inline((&V_4), KeyValuePair_2_get_Key_mA2B9D3A6C3ABC4854B390752B661771C006B970D_RuntimeMethod_var);
 				DelayedStoreData_tCB62C30502F9CD552EAB1BC4D9F4C1311D72A1A2 L_18;
@@ -10713,7 +10073,6 @@ IL_004d_1:
 
 IL_008e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:107>
 				bool L_20;
 				L_20 = Enumerator_MoveNext_mD956870668D4185EEB9EDD8E9F37761330605115((&V_3), Enumerator_MoveNext_mD956870668D4185EEB9EDD8E9F37761330605115_RuntimeMethod_var);
 				if (L_20)
@@ -10733,14 +10092,12 @@ IL_008e_1:
 
 IL_00a7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:118>
 		V_5 = 0;
 		goto IL_00c6;
 	}
 
 IL_00ac:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:119>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_21 = V_1;
 		NullCheck(L_21);
 		Dictionary_2_t508F4CB243B163280E2C476A4977BED583F2ABEF* L_22 = L_21->____delayedStoreObjects;
@@ -10752,14 +10109,12 @@ IL_00ac:
 		NullCheck(L_22);
 		bool L_26;
 		L_26 = Dictionary_2_Remove_mA5AA65AE6600F69DA73A9482E01A9C7E1EB1AA8C(L_22, L_25, Dictionary_2_Remove_mA5AA65AE6600F69DA73A9482E01A9C7E1EB1AA8C_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:118>
 		int32_t L_27 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_00c6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:118>
 		int32_t L_28 = V_5;
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_29 = V_2;
 		NullCheck(L_29);
@@ -10773,7 +10128,6 @@ IL_00c6:
 
 IL_00d0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:122>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_31 = V_1;
 		NullCheck(L_31);
 		float L_32 = L_31->____dataExpirationDelay;
@@ -10795,7 +10149,6 @@ IL_00d0:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:124>
 		int32_t L_36 = __this->___U3CpoolIndexU3E5__2;
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_37 = V_1;
 		NullCheck(L_37);
@@ -10809,13 +10162,11 @@ IL_00d0:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:125>
 		__this->___U3CpoolIndexU3E5__2 = 0;
 	}
 
 IL_010b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:128>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_40 = V_1;
 		NullCheck(L_40);
 		List_1_tB7271C5068DA46F537B1C7DD5EC8CEF89AB4A8AA* L_41 = L_40->____pools;
@@ -10832,7 +10183,6 @@ IL_010b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:130>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_45 = V_1;
 		NullCheck(L_45);
 		Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D* L_46 = L_45->____poolPrefabs;
@@ -10848,7 +10198,6 @@ IL_010b:
 		NullCheck(L_46);
 		bool L_52;
 		L_52 = Dictionary_2_Remove_m6CCF5B20C9236710066E82FF4E0F6D6556108A9B(L_46, L_51, Dictionary_2_Remove_m6CCF5B20C9236710066E82FF4E0F6D6556108A9B_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:131>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_53 = V_1;
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_54 = V_1;
 		NullCheck(L_54);
@@ -10859,14 +10208,12 @@ IL_010b:
 		L_57 = List_1_get_Item_m1D50CAD13A3F962AA9023E58E1CA31D3A49299F0(L_55, L_56, List_1_get_Item_m1D50CAD13A3F962AA9023E58E1CA31D3A49299F0_RuntimeMethod_var);
 		NullCheck(L_53);
 		ObjectPool_DestroyPool_m583BEFCED2133B296625E0C6D541B0FBE45B1A70(L_53, L_57, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:132>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_58 = V_1;
 		NullCheck(L_58);
 		List_1_tB7271C5068DA46F537B1C7DD5EC8CEF89AB4A8AA* L_59 = L_58->____pools;
 		int32_t L_60 = __this->___U3CpoolIndexU3E5__2;
 		NullCheck(L_59);
 		List_1_RemoveAt_mA852B2303B6D398DB9364A4644C6E3FB2F937DED(L_59, L_60, List_1_RemoveAt_mA852B2303B6D398DB9364A4644C6E3FB2F937DED_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:133>
 		int32_t L_61 = __this->___U3CpoolIndexU3E5__2;
 		V_6 = L_61;
 		int32_t L_62 = V_6;
@@ -10876,7 +10223,6 @@ IL_010b:
 
 IL_0182:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:138>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_63 = V_1;
 		NullCheck(L_63);
 		List_1_tB7271C5068DA46F537B1C7DD5EC8CEF89AB4A8AA* L_64 = L_63->____pools;
@@ -10888,14 +10234,12 @@ IL_0182:
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_67;
 		L_67 = PoolData_Cull_m5A4C006706852526AA7C0990071C40F4B50BEAC3(L_66, NULL);
 		V_7 = L_67;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:139>
 		V_8 = 0;
 		goto IL_01b3;
 	}
 
 IL_019f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:141>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_68 = V_7;
 		int32_t L_69 = V_8;
 		NullCheck(L_68);
@@ -10903,14 +10247,12 @@ IL_019f:
 		L_70 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_68, L_69, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_70, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:139>
 		int32_t L_71 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_71, 1));
 	}
 
 IL_01b3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:139>
 		int32_t L_72 = V_8;
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_73 = V_7;
 		NullCheck(L_73);
@@ -10924,7 +10266,6 @@ IL_01b3:
 
 IL_01be:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:145>
 		int32_t L_75 = __this->___U3CpoolIndexU3E5__2;
 		V_6 = L_75;
 		int32_t L_76 = V_6;
@@ -10933,7 +10274,6 @@ IL_01be:
 
 IL_01d0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:149>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -10943,11 +10283,10 @@ IL_01d0:
 IL_01e0:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:97>
 		goto IL_0028;
 	}
 }
-// Method Definition Index: 75612
+// Method Definition Index: 75605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C__CleanupChecksU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m906D2653CBA6AB3225F903E6397D4010B5482E3B (U3C__CleanupChecksU3Ed__12_tD80DBEC4FB6FA79CF82657DD30C4FFA83DDA0D9B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10955,7 +10294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C__CleanupChecksU3Ed__12_Sys
 		return L_0;
 	}
 }
-// Method Definition Index: 75613
+// Method Definition Index: 75606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C__CleanupChecksU3Ed__12_System_Collections_IEnumerator_Reset_m43706A770C3402FDAE08127BCD6ED917B0FA73B7 (U3C__CleanupChecksU3Ed__12_tD80DBEC4FB6FA79CF82657DD30C4FFA83DDA0D9B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10964,7 +10303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C__CleanupChecksU3Ed__12_System_Collec
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3C__CleanupChecksU3Ed__12_System_Collections_IEnumerator_Reset_m43706A770C3402FDAE08127BCD6ED917B0FA73B7_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 75614
+// Method Definition Index: 75607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C__CleanupChecksU3Ed__12_System_Collections_IEnumerator_get_Current_m9BF2C08843B028A491A40B528669B6D8A5CFC498 (U3C__CleanupChecksU3Ed__12_tD80DBEC4FB6FA79CF82657DD30C4FFA83DDA0D9B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10980,7 +10319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C__CleanupChecksU3Ed__12_Sys
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75615
+// Method Definition Index: 75608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C__ResetU3Ed__13__ctor_m749FCB699ACBC2D96C7AB923C381CC1DA123CAB4 (U3C__ResetU3Ed__13_tAA6080EEC3AA5D7FB8E14FE3BACA96785E9E62BB* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -10990,14 +10329,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C__ResetU3Ed__13__ctor_m749FCB699ACBC2
 		return;
 	}
 }
-// Method Definition Index: 75616
+// Method Definition Index: 75609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C__ResetU3Ed__13_System_IDisposable_Dispose_m6260020EE4C68FD619C0649090E3A61EA63154F9 (U3C__ResetU3Ed__13_tAA6080EEC3AA5D7FB8E14FE3BACA96785E9E62BB* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 75617
+// Method Definition Index: 75610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3C__ResetU3Ed__13_MoveNext_m65E3B510704E88554E9E0AF4682C82640CF2D226 (U3C__ResetU3Ed__13_tAA6080EEC3AA5D7FB8E14FE3BACA96785E9E62BB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11057,37 +10396,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3C__ResetU3Ed__13_MoveNext_m65E3B510704
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:161>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_3 = V_1;
 		NullCheck(L_3);
 		Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D* L_4 = L_3->____poolPrefabs;
 		NullCheck(L_4);
 		Dictionary_2_Clear_mA5AD7A322EF82C29C737978C227E7FDA6363809B(L_4, Dictionary_2_Clear_mA5AD7A322EF82C29C737978C227E7FDA6363809B_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:162>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_5 = V_1;
 		NullCheck(L_5);
 		Dictionary_2_tF51794D0F14665A9868A7AA446CD5BD75C8663C4* L_6 = L_5->____categoryChildren;
 		NullCheck(L_6);
 		Dictionary_2_Clear_m7337575D54E678C7A71036F626F5061EB90D40C2(L_6, Dictionary_2_Clear_m7337575D54E678C7A71036F626F5061EB90D40C2_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:163>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_7 = V_1;
 		NullCheck(L_7);
 		List_1_tB7271C5068DA46F537B1C7DD5EC8CEF89AB4A8AA* L_8 = L_7->____pools;
 		NullCheck(L_8);
 		List_1_Clear_m6A56E543624C20998FAF394128301812F0735A90_inline(L_8, List_1_Clear_m6A56E543624C20998FAF394128301812F0735A90_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:167>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_9 = V_1;
 		NullCheck(L_9);
 		Dictionary_2_t508F4CB243B163280E2C476A4977BED583F2ABEF* L_10 = L_9->____delayedStoreObjects;
 		NullCheck(L_10);
 		Dictionary_2_Clear_m93DE10A8B7FB144BFF486534086B965B8744B235(L_10, Dictionary_2_Clear_m93DE10A8B7FB144BFF486534086B965B8744B235_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:170>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_11 = V_1;
 		NullCheck(L_11);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_11, NULL);
 		Transforms_DestroyChildren_mA2FAF62522A251F014F7F12FCA9B82B7F274A770(L_12, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:172>
 		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_13 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
 		WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_13, NULL);
 		__this->___U3CendOfFrameU3E5__2 = L_13;
@@ -11097,7 +10430,6 @@ IL_0022:
 
 IL_006e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:174>
 		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_14 = __this->___U3CendOfFrameU3E5__2;
 		__this->___U3CU3E2__current = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_14);
@@ -11112,7 +10444,6 @@ IL_0083:
 
 IL_008a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:173>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_15 = V_1;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
@@ -11126,7 +10457,6 @@ IL_008a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:177>
 		bool L_18 = __this->___destroyActive;
 		if (!L_18)
 		{
@@ -11134,12 +10464,10 @@ IL_008a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:180>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_19 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_19, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->___U3CobjectsU3E5__3 = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CobjectsU3E5__3), (void*)L_19);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:181>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_20 = V_1;
 		NullCheck(L_20);
 		Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D* L_21 = L_20->____activeObjects;
@@ -11166,11 +10494,9 @@ FINALLY_00e1:
 
 IL_00bc_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:181>
 				KeyValuePair_2_tC55380E7813CAA616F1EA07EA30FE0108A387124 L_23;
 				L_23 = Enumerator_get_Current_mFF80B3C1EEA2272DC9C9C406B8B4C133B5783C96_inline((&V_2), Enumerator_get_Current_mFF80B3C1EEA2272DC9C9C406B8B4C133B5783C96_RuntimeMethod_var);
 				V_3 = L_23;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:182>
 				List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_24 = __this->___U3CobjectsU3E5__3;
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
 				L_25 = KeyValuePair_2_get_Key_m80AF8133DC5E5D3146C5E1C409C954C4489C11BD_inline((&V_3), KeyValuePair_2_get_Key_m80AF8133DC5E5D3146C5E1C409C954C4489C11BD_RuntimeMethod_var);
@@ -11180,7 +10506,6 @@ IL_00bc_1:
 
 IL_00d6_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:181>
 				bool L_26;
 				L_26 = Enumerator_MoveNext_m13162FAE74B984D6C013F3A5B05A728DBCAF83FF((&V_2), Enumerator_MoveNext_m13162FAE74B984D6C013F3A5B05A728DBCAF83FF_RuntimeMethod_var);
 				if (L_26)
@@ -11200,14 +10525,12 @@ IL_00d6_1:
 
 IL_00ef:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:184>
 		__this->___U3CiU3E5__4 = 0;
 		goto IL_0170;
 	}
 
 IL_00f8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:186>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_27 = __this->___U3CobjectsU3E5__3;
 		int32_t L_28 = __this->___U3CiU3E5__4;
 		NullCheck(L_27);
@@ -11222,7 +10545,6 @@ IL_00f8:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:188>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_31 = __this->___U3CobjectsU3E5__3;
 		int32_t L_32 = __this->___U3CiU3E5__4;
 		NullCheck(L_31);
@@ -11235,7 +10557,6 @@ IL_00f8:
 
 IL_0129:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:190>
 		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_34 = __this->___U3CendOfFrameU3E5__2;
 		__this->___U3CU3E2__current = L_34;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_34);
@@ -11250,7 +10571,6 @@ IL_013e:
 
 IL_0145:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:189>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_35 = __this->___U3CobjectsU3E5__3;
 		int32_t L_36 = __this->___U3CiU3E5__4;
 		NullCheck(L_35);
@@ -11267,7 +10587,6 @@ IL_0145:
 
 IL_015e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:184>
 		int32_t L_39 = __this->___U3CiU3E5__4;
 		V_4 = L_39;
 		int32_t L_40 = V_4;
@@ -11276,7 +10595,6 @@ IL_015e:
 
 IL_0170:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:184>
 		int32_t L_41 = __this->___U3CiU3E5__4;
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_42 = __this->___U3CobjectsU3E5__3;
 		NullCheck(L_42);
@@ -11288,24 +10606,21 @@ IL_0170:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:193>
 		__this->___U3CobjectsU3E5__3 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CobjectsU3E5__3), (void*)(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)NULL);
 	}
 
 IL_018d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:194>
 		ObjectPool_t758DC43EB45EAC254309F98CAF0C0CC81553DD74* L_44 = V_1;
 		NullCheck(L_44);
 		Dictionary_2_tC740B9A025381B15E26B877D2681CCB1E1009F7D* L_45 = L_44->____activeObjects;
 		NullCheck(L_45);
 		Dictionary_2_Clear_mA5AD7A322EF82C29C737978C227E7FDA6363809B(L_45, Dictionary_2_Clear_mA5AD7A322EF82C29C737978C227E7FDA6363809B_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ObjectPool.cs:195>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 75618
+// Method Definition Index: 75611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C__ResetU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAB4A1104D2711DAAA93B84C88B2173F8454756B3 (U3C__ResetU3Ed__13_tAA6080EEC3AA5D7FB8E14FE3BACA96785E9E62BB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11313,7 +10628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C__ResetU3Ed__13_System_Coll
 		return L_0;
 	}
 }
-// Method Definition Index: 75619
+// Method Definition Index: 75612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C__ResetU3Ed__13_System_Collections_IEnumerator_Reset_m17BC5D6169A50A58E1E200C66D4075A84784A2A5 (U3C__ResetU3Ed__13_tAA6080EEC3AA5D7FB8E14FE3BACA96785E9E62BB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11322,7 +10637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C__ResetU3Ed__13_System_Collections_IE
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3C__ResetU3Ed__13_System_Collections_IEnumerator_Reset_m17BC5D6169A50A58E1E200C66D4075A84784A2A5_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 75620
+// Method Definition Index: 75613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C__ResetU3Ed__13_System_Collections_IEnumerator_get_Current_mE08183B6F4DBF0D660A8CBBC35085BEB76BF7E6D (U3C__ResetU3Ed__13_tAA6080EEC3AA5D7FB8E14FE3BACA96785E9E62BB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11338,7 +10653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3C__ResetU3Ed__13_System_Coll
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75621
+// Method Definition Index: 75614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoolData__ctor_m2B71B627EE442771E6DA154F34A45D83935C26F7 (PoolData_t80E4C4FD24F727D017C06769387611B94D561514* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_prefab, float ___1_expirationDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11349,27 +10664,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PoolData__ctor_m2B71B627EE442771E6DA154F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:22>
 		ListStack_1_tC5D8485481A9BF8FB8A5E18E07F3A6AB6358B23F* L_0 = (ListStack_1_tC5D8485481A9BF8FB8A5E18E07F3A6AB6358B23F*)il2cpp_codegen_object_new(ListStack_1_tC5D8485481A9BF8FB8A5E18E07F3A6AB6358B23F_il2cpp_TypeInfo_var);
 		ListStack_1__ctor_mCB196DE8D59C337293C52ACCA90613724BFD447E(L_0, ListStack_1__ctor_mCB196DE8D59C337293C52ACCA90613724BFD447E_RuntimeMethod_var);
 		__this->___Objects = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Objects), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:29>
 		__this->____expirationDuration = (-1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:8>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:10>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_prefab;
 		__this->___Prefab = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Prefab), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:11>
 		float L_2 = ___1_expirationDuration;
 		__this->____expirationDuration = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:12>
 		return;
 	}
 }
-// Method Definition Index: 75622
+// Method Definition Index: 75615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PoolData_PoolExpired_mB7877E34B926FC4589F608405C8EF9DC472FE2AE (PoolData_t80E4C4FD24F727D017C06769387611B94D561514* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11379,7 +10688,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PoolData_PoolExpired_mB7877E34B926FC4589
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:39>
 		float L_0 = __this->____expirationDuration;
 		if ((!(((float)L_0) == ((float)(-1.0f)))))
 		{
@@ -11387,13 +10695,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PoolData_PoolExpired_mB7877E34B926FC4589
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:40>
 		return (bool)0;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:42>
 		ListStack_1_tC5D8485481A9BF8FB8A5E18E07F3A6AB6358B23F* L_1 = __this->___Objects;
 		float L_2 = __this->____expirationDuration;
 		NullCheck(L_1);
@@ -11402,7 +10708,7 @@ IL_000f:
 		return (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 75623
+// Method Definition Index: 75616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* PoolData_Cull_m5A4C006706852526AA7C0990071C40F4B50BEAC3 (PoolData_t80E4C4FD24F727D017C06769387611B94D561514* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11414,7 +10720,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tB951CE80B58D1BF9650862451D8DAD8C231F2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:52>
 		float L_0 = __this->____expirationDuration;
 		if ((!(((float)L_0) == ((float)(-1.0f)))))
 		{
@@ -11422,7 +10727,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tB951CE80B58D1BF9650862451D8DAD8C231F2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:53>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_1 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_1, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		return L_1;
@@ -11430,7 +10734,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tB951CE80B58D1BF9650862451D8DAD8C231F2
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/PoolData.cs:55>
 		ListStack_1_tC5D8485481A9BF8FB8A5E18E07F3A6AB6358B23F* L_2 = __this->___Objects;
 		float L_3 = __this->____expirationDuration;
 		NullCheck(L_2);
@@ -11447,7 +10750,7 @@ IL_0013:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75624
+// Method Definition Index: 75617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_Awake_m4239C9CAE062EDA8F7272170D3781DE775931F54 (Projectile_t1AF0B52CB892B339A2055635668AFA848C0348A9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11460,32 +10763,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_Awake_m4239C9CAE062EDA8F72721
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:33>
 		V_0 = 0;
 		goto IL_001f;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:35>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		ProjectileSpawner_t0149853AA262DB8F2CD0D139A39133C4809F6742* L_0;
 		L_0 = Object_FindObjectOfType_TisProjectileSpawner_t0149853AA262DB8F2CD0D139A39133C4809F6742_m286210AD5F16C3AF5C49154964D2B195AC9FB493(Object_FindObjectOfType_TisProjectileSpawner_t0149853AA262DB8F2CD0D139A39133C4809F6742_m286210AD5F16C3AF5C49154964D2B195AC9FB493_RuntimeMethod_var);
 		__this->____spawner = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____spawner), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:36>
 		MeshRendererU5BU5D_tDF429EF168050A5CE085D0B51909A6AE2067E446* L_1;
 		L_1 = Component_GetComponentsInChildren_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m820D038F52BDC71ECDEAE04ED05D98CCF63E9243(__this, Component_GetComponentsInChildren_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m820D038F52BDC71ECDEAE04ED05D98CCF63E9243_RuntimeMethod_var);
 		__this->____renderers = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____renderers), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:33>
 		int32_t L_2 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_2, 1));
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:33>
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) < ((int32_t)((int32_t)30))))
 		{
@@ -11493,11 +10791,10 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:38>
 		return;
 	}
 }
-// Method Definition Index: 75625
+// Method Definition Index: 75618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_OnBecameInvisible_m61E71E355BB9E3852A5B7CB1D4858AB565584BA7 (Projectile_t1AF0B52CB892B339A2055635668AFA848C0348A9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11507,7 +10804,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_OnBecameInvisible_m61E71E355B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:55>
 		bool L_0 = __this->____exitingPlayMode;
 		if (!L_0)
 		{
@@ -11515,13 +10811,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_OnBecameInvisible_m61E71E355B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:56>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:58>
 		float L_1 = __this->___DestroyDelay;
 		if ((!(((float)L_1) <= ((float)(0.0f)))))
 		{
@@ -11529,7 +10823,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:60>
 		ProjectileSpawner_t0149853AA262DB8F2CD0D139A39133C4809F6742* L_2 = __this->____spawner;
 		NullCheck(L_2);
 		bool L_3 = L_2->___UsePool;
@@ -11539,7 +10832,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:62>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		ObjectPool_Store_m71E6781EC58E9E6707E9E4720DC1C722A4058023(L_4, (bool)1, NULL);
@@ -11548,7 +10840,6 @@ IL_0009:
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:66>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -11557,17 +10848,15 @@ IL_0030:
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 75626
+// Method Definition Index: 75619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_OnEnable_m3AE61AD88BEFDBE631786B97D53ED55F5381201A (Projectile_t1AF0B52CB892B339A2055635668AFA848C0348A9* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:73>
 		float L_0;
 		L_0 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-1.0f), (1.0f), NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -11577,7 +10866,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_OnEnable_m3AE61AD88BEFDBE6317
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_0), NULL);
 		__this->____moveDirection = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:74>
 		ProjectileSpawner_t0149853AA262DB8F2CD0D139A39133C4809F6742* L_3 = __this->____spawner;
 		NullCheck(L_3);
 		bool L_4 = L_3->___UsePool;
@@ -11594,7 +10882,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_OnEnable_m3AE61AD88BEFDBE6317
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:75>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		float L_7 = __this->___DestroyDelay;
@@ -11603,15 +10890,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_OnEnable_m3AE61AD88BEFDBE6317
 
 IL_0058:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:76>
 		return;
 	}
 }
-// Method Definition Index: 75627
+// Method Definition Index: 75620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_Update_m8124701C2DC24584025348ECE9355E6F661D6374 (Projectile_t1AF0B52CB892B339A2055635668AFA848C0348A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:80>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = L_0;
@@ -11630,15 +10915,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile_Update_m8124701C2DC2458402534
 		L_8 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2, L_7, NULL);
 		NullCheck(L_1);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_1, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 75628
+// Method Definition Index: 75621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile__ctor_m24327D65AEFC6829792CC1BAF72B31807867B585 (Projectile_t1AF0B52CB892B339A2055635668AFA848C0348A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/Projectile.cs:16>
 		__this->___MoveRate = (30.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -11652,7 +10935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Projectile__ctor_m24327D65AEFC6829792CC1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75629
+// Method Definition Index: 75622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileSpawner_Update_m6C394450B191B73289BEDA57A23097271C0005BE (ProjectileSpawner_t0149853AA262DB8F2CD0D139A39133C4809F6742* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11663,7 +10946,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileSpawner_Update_m6C394450B191B7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/ProjectileSpawner.cs:15>
 		float L_0;
 		L_0 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		float L_1 = __this->____nextInstantiate;
@@ -11673,18 +10955,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileSpawner_Update_m6C394450B191B7
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/ProjectileSpawner.cs:16>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/ProjectileSpawner.cs:18>
 		float L_2;
 		L_2 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
 		float L_3 = __this->____instantiateDelay;
 		__this->____nextInstantiate = ((float)il2cpp_codegen_add(L_2, L_3));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/ProjectileSpawner.cs:20>
 		bool L_4 = __this->___UsePool;
 		if (!L_4)
 		{
@@ -11692,7 +10971,6 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/ProjectileSpawner.cs:22>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___Prefab;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -11708,7 +10986,6 @@ IL_000e:
 
 IL_0045:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/ProjectileSpawner.cs:26>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___Prefab;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
 		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -11720,17 +10997,14 @@ IL_0045:
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_10, L_12, L_13, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/ProjectileSpawner.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 75630
+// Method Definition Index: 75623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileSpawner__ctor_m55248B674D995E5F8F082A7FFA07D69CF43B3799 (ProjectileSpawner_t0149853AA262DB8F2CD0D139A39133C4809F6742* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/ProjectileSpawner.cs:8>
 		__this->___UsePool = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Demo/Scripts/ProjectileSpawner.cs:9>
 		__this->____instantiateDelay = (0.075000003f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -11744,17 +11018,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProjectileSpawner__ctor_m55248B674D995E5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75631
+// Method Definition Index: 75624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ByteRange__ctor_m6275ABA8BFD6D6762CF56038E99B5A127F233EE0 (ByteRange_t30DB1EB8357A4F7AFC1F75909E26D8AEE57012F5* __this, uint8_t ___0_minimum, uint8_t ___1_maximum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ByteRange.cs:10>
 		uint8_t L_0 = ___0_minimum;
 		__this->___Minimum = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ByteRange.cs:11>
 		uint8_t L_1 = ___1_maximum;
 		__this->___Maximum = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ByteRange.cs:12>
 		return;
 	}
 }
@@ -11765,7 +11036,7 @@ IL2CPP_EXTERN_C  void ByteRange__ctor_m6275ABA8BFD6D6762CF56038E99B5A127F233EE0_
 	_thisAdjusted = reinterpret_cast<ByteRange_t30DB1EB8357A4F7AFC1F75909E26D8AEE57012F5*>(__this + _offset);
 	ByteRange__ctor_m6275ABA8BFD6D6762CF56038E99B5A127F233EE0(_thisAdjusted, ___0_minimum, ___1_maximum, method);
 }
-// Method Definition Index: 75632
+// Method Definition Index: 75625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ByteRange_RandomExclusive_mC8E1DD7231C0086FAA550424C533B3FF218700EE (ByteRange_t30DB1EB8357A4F7AFC1F75909E26D8AEE57012F5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11775,7 +11046,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ByteRange_RandomExclusive_mC8E1DD7231
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ByteRange.cs:27>
 		uint8_t L_0 = __this->___Minimum;
 		uint8_t L_1 = __this->___Maximum;
 		il2cpp_codegen_runtime_class_init_inline(Bytes_tDADB1DCA9BFE1CBA2780CA192C9D83C51C58ABF1_il2cpp_TypeInfo_var);
@@ -11793,7 +11063,7 @@ IL2CPP_EXTERN_C  uint8_t ByteRange_RandomExclusive_mC8E1DD7231C0086FAA550424C533
 	_returnValue = ByteRange_RandomExclusive_mC8E1DD7231C0086FAA550424C533B3FF218700EE(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 75633
+// Method Definition Index: 75626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ByteRange_RandomInclusive_mE9A0C62AF7A25D12199202E9979C72A55C392603 (ByteRange_t30DB1EB8357A4F7AFC1F75909E26D8AEE57012F5* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11803,7 +11073,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ByteRange_RandomInclusive_mE9A0C62AF7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ByteRange.cs:33>
 		uint8_t L_0 = __this->___Minimum;
 		uint8_t L_1 = __this->___Maximum;
 		il2cpp_codegen_runtime_class_init_inline(Bytes_tDADB1DCA9BFE1CBA2780CA192C9D83C51C58ABF1_il2cpp_TypeInfo_var);
@@ -11821,7 +11090,7 @@ IL2CPP_EXTERN_C  uint8_t ByteRange_RandomInclusive_mE9A0C62AF7A25D12199202E9979C
 	_returnValue = ByteRange_RandomInclusive_mE9A0C62AF7A25D12199202E9979C72A55C392603(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 75634
+// Method Definition Index: 75627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ByteRange_Clamp_m9F01C96CE41BE81CA75CDA14F0F07ED2CD8A12E7 (ByteRange_t30DB1EB8357A4F7AFC1F75909E26D8AEE57012F5* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11831,7 +11100,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ByteRange_Clamp_m9F01C96CE41BE81CA75C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ByteRange.cs:38>
 		uint8_t L_0 = ___0_value;
 		uint8_t L_1 = __this->___Minimum;
 		uint8_t L_2 = __this->___Maximum;
@@ -11850,11 +11118,10 @@ IL2CPP_EXTERN_C  uint8_t ByteRange_Clamp_m9F01C96CE41BE81CA75CDA14F0F07ED2CD8A12
 	_returnValue = ByteRange_Clamp_m9F01C96CE41BE81CA75CDA14F0F07ED2CD8A12E7(_thisAdjusted, ___0_value, method);
 	return _returnValue;
 }
-// Method Definition Index: 75635
+// Method Definition Index: 75628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ByteRange_InRange_m3E35F723228537481BAAEEE674032F7D68FB58CB (ByteRange_t30DB1EB8357A4F7AFC1F75909E26D8AEE57012F5* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ByteRange.cs:43>
 		uint8_t L_0 = ___0_value;
 		uint8_t L_1 = __this->___Minimum;
 		if ((((int32_t)L_0) < ((int32_t)L_1)))
@@ -11890,40 +11157,36 @@ IL2CPP_EXTERN_C  bool ByteRange_InRange_m3E35F723228537481BAAEEE674032F7D68FB58C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75636
+// Method Definition Index: 75629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CanvasGroupFader_get_FadeGoal_m995F4C89615A3735054CE3A41F972BBB9A07D3C0 (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:24>
 		int32_t L_0 = __this->___U3CFadeGoalU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75637
+// Method Definition Index: 75630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_set_FadeGoal_mC111C5B45030759E2E1E8C30DC9513FA325DF58B (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:24>
 		int32_t L_0 = ___0_value;
 		__this->___U3CFadeGoalU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 75638
+// Method Definition Index: 75631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasGroupFader_get_IsHiding_mAEA650B9E4200499BA398893BB366CAA9F454B7F (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:28>
 		int32_t L_0;
 		L_0 = CanvasGroupFader_get_FadeGoal_m995F4C89615A3735054CE3A41F972BBB9A07D3C0_inline(__this, NULL);
 		return (bool)((((int32_t)L_0) == ((int32_t)1))? 1 : 0);
 	}
 }
-// Method Definition Index: 75639
+// Method Definition Index: 75632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasGroupFader_get_IsVisible_mA9E60E36ADB89A6E4C11433A2F2218C17E4DC78D (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:32>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___CanvasGroup;
 		NullCheck(L_0);
 		float L_1;
@@ -11931,7 +11194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasGroupFader_get_IsVisible_mA9E60E36
 		return (bool)((((float)L_1) > ((float)(0.0f)))? 1 : 0);
 	}
 }
-// Method Definition Index: 75640
+// Method Definition Index: 75633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_OnEnable_m29610460F600439BF5ABE2B3D41D332B8AA603CD (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* G_B2_0 = NULL;
@@ -11939,7 +11202,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_OnEnable_m29610460F6004
 	int32_t G_B3_0 = 0;
 	CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:73>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___CanvasGroup;
 		NullCheck(L_0);
 		float L_1;
@@ -11967,15 +11229,13 @@ IL_0017:
 	{
 		NullCheck(G_B3_1);
 		CanvasGroupFader_set_FadeGoal_mC111C5B45030759E2E1E8C30DC9513FA325DF58B_inline(G_B3_1, G_B3_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 75641
+// Method Definition Index: 75634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_OnDisable_mFF2540B45286688C84F18AC59174C07E66E237F6 (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:78>
 		int32_t L_0;
 		L_0 = CanvasGroupFader_get_FadeGoal_m995F4C89615A3735054CE3A41F972BBB9A07D3C0_inline(__this, NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
@@ -11984,62 +11244,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_OnDisable_mFF2540B45286
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:79>
 		VirtualActionInvoker0::Invoke(7, __this);
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:81>
 		VirtualActionInvoker0::Invoke(8, __this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 75642
+// Method Definition Index: 75635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_Update_m3056B1CD0463C7F003AC10CA8672D167EBE989B7 (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:86>
 		CanvasGroupFader_Fade_mC6563C9D69042C978FB8E8D6DA3A70320300E943(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:87>
 		return;
 	}
 }
-// Method Definition Index: 75643
+// Method Definition Index: 75636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_ShowImmediately_mDB1F6878A6E6A1B47085F4C8A87B9EC45CFB39D9 (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:94>
 		CanvasGroupFader_SetFadeGoal_m2B4B940AED8AF2449C64A793029DCE4B8E9CE7CD(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:95>
 		VirtualActionInvoker1< bool >::Invoke(13, __this, (bool)1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:96>
 		VirtualActionInvoker0::Invoke(10, __this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:97>
 		return;
 	}
 }
-// Method Definition Index: 75644
+// Method Definition Index: 75637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_HideImmediately_m57E490BF96EBFEB42393A97D4D3F55E94BE39FFA (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:104>
 		CanvasGroupFader_SetFadeGoal_m2B4B940AED8AF2449C64A793029DCE4B8E9CE7CD(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:105>
 		VirtualActionInvoker1< bool >::Invoke(13, __this, (bool)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:106>
 		VirtualActionInvoker0::Invoke(12, __this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:107>
 		return;
 	}
 }
-// Method Definition Index: 75645
+// Method Definition Index: 75638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_Show_mF508138AB55CB17A44D8BCA6ABF413EB532B7BFD (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:114>
 		float L_0 = __this->___FadeInDuration;
 		if ((!(((float)L_0) <= ((float)(0.0f)))))
 		{
@@ -12047,34 +11293,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_Show_mF508138AB55CB17A4
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:116>
 		VirtualActionInvoker0::Invoke(7, __this);
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:120>
 		CanvasGroupFader_SetFadeGoal_m2B4B940AED8AF2449C64A793029DCE4B8E9CE7CD(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:121>
 		VirtualActionInvoker0::Invoke(10, __this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:123>
 		return;
 	}
 }
-// Method Definition Index: 75646
+// Method Definition Index: 75639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_OnShow_m917F5C4AB63CD6D17A0F735EDE8F74A3EDEB076A (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:128>
 		return;
 	}
 }
-// Method Definition Index: 75647
+// Method Definition Index: 75640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_Hide_mA2EB0C2E0258FC011BE1F2CB75353D126282B9E5 (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:135>
 		float L_0 = __this->___FadeOutDuration;
 		if ((!(((float)L_0) <= ((float)(0.0f)))))
 		{
@@ -12082,32 +11322,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_Hide_mA2EB0C2E0258FC011
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:137>
 		VirtualActionInvoker0::Invoke(8, __this);
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:142>
 		VirtualActionInvoker1< int32_t >::Invoke(14, __this, 2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:143>
 		CanvasGroupFader_SetFadeGoal_m2B4B940AED8AF2449C64A793029DCE4B8E9CE7CD(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:144>
 		VirtualActionInvoker0::Invoke(12, __this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:146>
 		return;
 	}
 }
-// Method Definition Index: 75648
+// Method Definition Index: 75641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_OnHide_m372D2230EEE020D57BABADB0B2D21B6CCD9A8EC9 (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:151>
 		return;
 	}
 }
-// Method Definition Index: 75649
+// Method Definition Index: 75642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_SetFadeGoal_m2B4B940AED8AF2449C64A793029DCE4B8E9CE7CD (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, bool ___0_fadeIn, const RuntimeMethod* method) 
 {
 	CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* G_B2_0 = NULL;
@@ -12115,7 +11349,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_SetFadeGoal_m2B4B940AED
 	int32_t G_B3_0 = 0;
 	CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:159>
 		bool L_0 = ___0_fadeIn;
 		if (L_0)
 		{
@@ -12140,11 +11373,10 @@ IL_0008:
 	{
 		NullCheck(G_B3_1);
 		CanvasGroupFader_set_FadeGoal_mC111C5B45030759E2E1E8C30DC9513FA325DF58B_inline(G_B3_1, G_B3_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:160>
 		return;
 	}
 }
-// Method Definition Index: 75650
+// Method Definition Index: 75643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_Fade_mC6563C9D69042C978FB8E8D6DA3A70320300E943 (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12159,7 +11391,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_Fade_mC6563C9D69042C978
 	float V_2 = 0.0f;
 	float V_3 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:169>
 		int32_t L_0;
 		L_0 = CanvasGroupFader_get_FadeGoal_m995F4C89615A3735054CE3A41F972BBB9A07D3C0_inline(__this, NULL);
 		if (L_0)
@@ -12168,7 +11399,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_Fade_mC6563C9D69042C978
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:171>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_1);
@@ -12178,17 +11408,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_Fade_mC6563C9D69042C978
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_2, _stringLiteralEC50593ED975088B34C79B0D471FA49574FEA10A, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:172>
 		return;
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:175>
 		int32_t L_4;
 		L_4 = CanvasGroupFader_get_FadeGoal_m995F4C89615A3735054CE3A41F972BBB9A07D3C0_inline(__this, NULL);
 		V_0 = (bool)((((int32_t)L_4) == ((int32_t)2))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:178>
 		bool L_5 = V_0;
 		if (!L_5)
 		{
@@ -12196,9 +11423,7 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:180>
 		V_2 = (1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:181>
 		float L_6 = __this->___FadeInDuration;
 		V_1 = L_6;
 		goto IL_004c;
@@ -12206,16 +11431,13 @@ IL_0023:
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:185>
 		V_2 = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:186>
 		float L_7 = __this->___FadeOutDuration;
 		V_1 = L_7;
 	}
 
 IL_004c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:193>
 		bool L_8 = __this->____completedOnce;
 		if (!L_8)
 		{
@@ -12234,16 +11456,13 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:194>
 		return;
 	}
 
 IL_0063:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:196>
 		float L_12 = V_1;
 		V_3 = ((float)((1.0f)/L_12));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:197>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_13 = __this->___CanvasGroup;
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_14 = __this->___CanvasGroup;
 		NullCheck(L_14);
@@ -12257,7 +11476,6 @@ IL_0063:
 		L_19 = Mathf_MoveTowards_m69751B5EC50D8E7127D4BB2C8D908E38808AF45D_inline(L_15, L_16, ((float)il2cpp_codegen_multiply(L_17, L_18)), NULL);
 		NullCheck(L_13);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_13, L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:200>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_20 = __this->___CanvasGroup;
 		NullCheck(L_20);
 		float L_21;
@@ -12269,24 +11487,21 @@ IL_0063:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:201>
 		bool L_23 = V_0;
 		VirtualActionInvoker1< bool >::Invoke(13, __this, L_23);
 	}
 
 IL_00a3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:202>
 		return;
 	}
 }
-// Method Definition Index: 75651
+// Method Definition Index: 75644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_CompleteFade_m6EF09A38717D76EB821F1ED5B7FB83D87158E1A6 (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, bool ___0_fadingIn, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:211>
 		bool L_0 = ___0_fadingIn;
 		if (!L_0)
 		{
@@ -12294,42 +11509,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_CompleteFade_m6EF09A387
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:213>
 		V_0 = 2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:214>
 		V_1 = (1.0f);
 		goto IL_0015;
 	}
 
 IL_000d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:218>
 		V_0 = 1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:219>
 		V_1 = (0.0f);
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:222>
 		int32_t L_1 = V_0;
 		VirtualActionInvoker1< int32_t >::Invoke(14, __this, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:223>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_2 = __this->___CanvasGroup;
 		float L_3 = V_1;
 		NullCheck(L_2);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:224>
 		__this->____completedOnce = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:225>
 		return;
 	}
 }
-// Method Definition Index: 75652
+// Method Definition Index: 75645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_SetCanvasGroupBlockingType_mB8AC4FED8C540F0C0584AA2F15D17229A10F2B95 (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, int32_t ___0_blockingType, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:232>
 		bool L_0 = __this->___UpdateCanvasBlocking;
 		if (!L_0)
 		{
@@ -12337,7 +11543,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_SetCanvasGroupBlockingT
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:233>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_1 = __this->___CanvasGroup;
 		int32_t L_2 = ___0_blockingType;
 		CanvaseGroups_SetBlockingType_m772F467E25CDA46863D019EAFA71EF1B3A6781E5(L_1, L_2, NULL);
@@ -12345,19 +11550,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader_SetCanvasGroupBlockingT
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:234>
 		return;
 	}
 }
-// Method Definition Index: 75653
+// Method Definition Index: 75646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader__ctor_m256A608946D36F255E29ADA20713499ADCDDD365 (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:49>
 		__this->___UpdateCanvasBlocking = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:55>
 		__this->___FadeInDuration = (0.100000001f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:61>
 		__this->___FadeOutDuration = (0.300000012f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -12379,7 +11580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroupFader__ctor_m256A608946D36F25
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75654
+// Method Definition Index: 75647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CanvasTracker_get_InputBlockingCanvases_m1BA422F088E94F8419C675C4A10132F4C638D5F0 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12389,13 +11590,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CanvasTracker_get_InputBlockin
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:13>
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____inputBlockingCanvases;
 		return L_0;
 	}
 }
-// Method Definition Index: 75655
+// Method Definition Index: 75648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CanvasTracker_get_OpenCanvases_mA54087DED723588E1A3EE45507B61ADDAB548240 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12405,13 +11605,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CanvasTracker_get_OpenCanvases
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:18>
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____openCanvases;
 		return L_0;
 	}
 }
-// Method Definition Index: 75656
+// Method Definition Index: 75649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_get_IsInputBlockingCanvasOpen_m40CB89E9EC1FC7B767EC9B03B575415D9022A6D2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12422,7 +11621,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_get_IsInputBlockingCanvasO
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:23>
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____inputBlockingCanvases;
 		NullCheck(L_0);
@@ -12431,7 +11629,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_get_IsInputBlockingCanvasO
 		return (bool)((((int32_t)L_1) > ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 75657
+// Method Definition Index: 75650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsLastOpenCanvas_mD03EFB56033B546E66D9410150D17ED1C8854D4B (RuntimeObject* ___0_canvas, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12441,7 +11639,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsLastOpenCanvas_mD03EFB56
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:28>
 		RuntimeObject* L_0 = ___0_canvas;
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____openCanvases;
@@ -12450,7 +11647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsLastOpenCanvas_mD03EFB56
 		return L_2;
 	}
 }
-// Method Definition Index: 75658
+// Method Definition Index: 75651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsLastInputBlockingCanvas_m303E62AAA0A2ED58BD857D0D6B85C837FA381D95 (RuntimeObject* ___0_canvas, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12460,7 +11657,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsLastInputBlockingCanvas_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:33>
 		RuntimeObject* L_0 = ___0_canvas;
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____inputBlockingCanvases;
@@ -12469,7 +11665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsLastInputBlockingCanvas_
 		return L_2;
 	}
 }
-// Method Definition Index: 75659
+// Method Definition Index: 75652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsEmptyCollectionOrLastEntry_mDACFC9963D15D593FCDDDEC15DA0328533EDC936 (RuntimeObject* ___0_canvas, List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___1_collection, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12481,13 +11677,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsEmptyCollectionOrLastEnt
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:41>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ___1_collection;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_0, List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:42>
 		int32_t L_2 = V_0;
 		if (L_2)
 		{
@@ -12495,13 +11689,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsEmptyCollectionOrLastEnt
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:43>
 		return (bool)1;
 	}
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:45>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_3 = ___1_collection;
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
@@ -12511,7 +11703,7 @@ IL_000c:
 		return (bool)((((RuntimeObject*)(RuntimeObject*)L_5) == ((RuntimeObject*)(RuntimeObject*)L_6))? 1 : 0);
 	}
 }
-// Method Definition Index: 75660
+// Method Definition Index: 75653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasTracker_ClearCollections_mEDBE17D5F81EFDDA7A665B956D6097064DEDC12C (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12522,20 +11714,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasTracker_ClearCollections_mEDBE17D5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:53>
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____openCanvases;
 		NullCheck(L_0);
 		List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_inline(L_0, List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:54>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____inputBlockingCanvases;
 		NullCheck(L_1);
 		List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_inline(L_1, List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:55>
 		return;
 	}
 }
-// Method Definition Index: 75661
+// Method Definition Index: 75654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasTracker_RemoveNullReferences_m94389A7907D84B1D29A820298A9BF5A2B2B62ADE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12545,18 +11734,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasTracker_RemoveNullReferences_m9438
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____openCanvases;
 		CanvasTracker_U3CRemoveNullReferencesU3Eg__RemoveNullEntriesU7C12_0_mDA60B80DC1BF6205B32AEB8EF1F3BD54F69FEB5A(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:65>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____inputBlockingCanvases;
 		CanvasTracker_U3CRemoveNullReferencesU3Eg__RemoveNullEntriesU7C12_0_mDA60B80DC1BF6205B32AEB8EF1F3BD54F69FEB5A(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:78>
 		return;
 	}
 }
-// Method Definition Index: 75662
+// Method Definition Index: 75655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsOpenCanvas_m013486A43B3508EA895FAB81F134818C6929D27D (RuntimeObject* ___0_canvas, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12567,7 +11753,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsOpenCanvas_m013486A43B35
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:85>
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____openCanvases;
 		RuntimeObject* L_1 = ___0_canvas;
@@ -12577,7 +11762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsOpenCanvas_m013486A43B35
 		return L_2;
 	}
 }
-// Method Definition Index: 75663
+// Method Definition Index: 75656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsInputBlockingCanvas_mA9F8A484B20AFD412A56A9441B77EC83B6A4BDC1 (RuntimeObject* ___0_canvas, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12588,7 +11773,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsInputBlockingCanvas_mA9F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:93>
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____inputBlockingCanvases;
 		RuntimeObject* L_1 = ___0_canvas;
@@ -12598,7 +11782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_IsInputBlockingCanvas_mA9F
 		return L_2;
 	}
 }
-// Method Definition Index: 75664
+// Method Definition Index: 75657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_AddOpenCanvas_m31473DED7FAA5ACF50AE904679674C92E4A27B1D (RuntimeObject* ___0_canvas, bool ___1_addToBlocking, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12612,13 +11796,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_AddOpenCanvas_m31473DED7FA
 	bool G_B2_0 = false;
 	bool G_B1_0 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:103>
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____openCanvases;
 		RuntimeObject* L_1 = ___0_canvas;
 		bool L_2;
 		L_2 = ListsFN_AddUnique_TisRuntimeObject_mD3E2139AD78BBF2C3AD58D22E74F101C475BF06F(L_0, L_1, ListsFN_AddUnique_TisRuntimeObject_mD3E2139AD78BBF2C3AD58D22E74F101C475BF06F_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:104>
 		bool L_3 = L_2;
 		bool L_4 = ___1_addToBlocking;
 		if (!((int32_t)((int32_t)L_3&(int32_t)L_4)))
@@ -12629,7 +11811,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_AddOpenCanvas_m31473DED7FA
 		G_B1_0 = L_3;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:105>
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_5 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____inputBlockingCanvases;
 		RuntimeObject* L_6 = ___0_canvas;
@@ -12640,11 +11821,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_AddOpenCanvas_m31473DED7FA
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:107>
 		return G_B2_0;
 	}
 }
-// Method Definition Index: 75665
+// Method Definition Index: 75658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_RemoveOpenCanvas_m368F15A02DE4AB53E92597343652EC02CBB19C71 (RuntimeObject* ___0_canvas, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12655,14 +11835,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_RemoveOpenCanvas_m368F15A0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:116>
 		il2cpp_codegen_runtime_class_init_inline(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var);
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____inputBlockingCanvases;
 		RuntimeObject* L_1 = ___0_canvas;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7(L_0, L_1, List_1_Remove_m4DFA48F4CEB9169601E75FC28517C5C06EFA5AD7_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:117>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_3 = ((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____openCanvases;
 		RuntimeObject* L_4 = ___0_canvas;
 		NullCheck(L_3);
@@ -12671,7 +11849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasTracker_RemoveOpenCanvas_m368F15A0
 		return L_5;
 	}
 }
-// Method Definition Index: 75666
+// Method Definition Index: 75659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasTracker__cctor_mB22F2DB7EE366ABA0E809F3ED6E5AD3A2A1D1816 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12683,12 +11861,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasTracker__cctor_mB22F2DB7EE366ABA0E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:14>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_il2cpp_TypeInfo_var);
 		List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690(L_0, List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_RuntimeMethod_var);
 		((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____inputBlockingCanvases = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____inputBlockingCanvases), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:19>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_il2cpp_TypeInfo_var);
 		List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690(L_1, List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_RuntimeMethod_var);
 		((CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_StaticFields*)il2cpp_codegen_static_fields_for(CanvasTracker_t34F2470FEDB0A8CC2420976EBC3EF123A5D6875A_il2cpp_TypeInfo_var))->____openCanvases = L_1;
@@ -12696,7 +11872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasTracker__cctor_mB22F2DB7EE366ABA0E
 		return;
 	}
 }
-// Method Definition Index: 75667
+// Method Definition Index: 75660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasTracker_U3CRemoveNullReferencesU3Eg__RemoveNullEntriesU7C12_0_mDA60B80DC1BF6205B32AEB8EF1F3BD54F69FEB5A (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___0_collection, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12709,14 +11885,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasTracker_U3CRemoveNullReferencesU3E
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:69>
 		V_0 = 0;
 		goto IL_001c;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:71>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ___0_collection;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -12728,26 +11902,22 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:73>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_3 = ___0_collection;
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
 		List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54(L_3, L_4, List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:74>
 		int32_t L_5 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_5, 1));
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:69>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:69>
 		int32_t L_7 = V_0;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_8 = ___0_collection;
 		NullCheck(L_8);
@@ -12759,7 +11929,6 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/CanvasTracker.cs:77>
 		return;
 	}
 }
@@ -12771,7 +11940,7 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75668
+// Method Definition Index: 75661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer_OnDestroy_mBFCE37146D01815FA04480DA6F48A9079C772BDC (RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12787,7 +11956,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer_OnDestroy_mBFCE3714
 	Enumerator_t0BD96D30E72411E84B0DCD31D4274694CA2BC402 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:53>
 		List_1_t045279FE3CCE594C9F110960EF89E3F61E190B5A* L_0 = __this->____resizeDatas;
 		NullCheck(L_0);
 		Enumerator_t0BD96D30E72411E84B0DCD31D4274694CA2BC402 L_1;
@@ -12812,16 +11980,13 @@ FINALLY_0025:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:53>
 				ResizeData_t2B403760B7BAA5F9CF111CFC3DEFA18BCFB6DDEF* L_2;
 				L_2 = Enumerator_get_Current_mAAE5A1AF305D3C07675A3CB48978DFA3DBBDE105_inline((&V_0), Enumerator_get_Current_mAAE5A1AF305D3C07675A3CB48978DFA3DBBDE105_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:54>
 				ResettableObjectCaches_1_Store_mC686120FAA0A00C911F82C7C4E6480C05400F071(L_2, ResettableObjectCaches_1_Store_mC686120FAA0A00C911F82C7C4E6480C05400F071_RuntimeMethod_var);
 			}
 
 IL_001a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:53>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_m05A8722B7EEB4A9C0808D59E2D7BC7CAB3541251((&V_0), Enumerator_MoveNext_m05A8722B7EEB4A9C0808D59E2D7BC7CAB3541251_RuntimeMethod_var);
 				if (L_3)
@@ -12841,21 +12006,18 @@ IL_001a_1:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:55>
 		return;
 	}
 }
-// Method Definition Index: 75669
+// Method Definition Index: 75662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer_Update_m29EE3C1EFEB047E0C60B8BE1BAB6565CA62591A2 (RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:59>
 		RectTransformResizer_Resize_m8E1D6BC0DE85406BA19A433E01C8265348C9C704(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:60>
 		return;
 	}
 }
-// Method Definition Index: 75670
+// Method Definition Index: 75663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer_Resize_m8E1D6BC0DE85406BA19A433E01C8265348C9C704 (RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12872,14 +12034,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer_Resize_m8E1D6BC0DE8
 	ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800* G_B3_0 = NULL;
 	ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800* G_B2_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:67>
 		V_0 = 0;
 		goto IL_0078;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:69>
 		List_1_t045279FE3CCE594C9F110960EF89E3F61E190B5A* L_0 = __this->____resizeDatas;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -12890,7 +12050,6 @@ IL_0004:
 		uint8_t L_4 = L_3->___Remaining;
 		NullCheck(L_3);
 		L_3->___Remaining = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_4, 1)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:70>
 		List_1_t045279FE3CCE594C9F110960EF89E3F61E190B5A* L_5 = __this->____resizeDatas;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
@@ -12899,7 +12058,6 @@ IL_0004:
 		NullCheck(L_7);
 		uint8_t L_8 = L_7->___Remaining;
 		V_1 = (bool)((((int32_t)L_8) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:71>
 		List_1_t045279FE3CCE594C9F110960EF89E3F61E190B5A* L_9 = __this->____resizeDatas;
 		int32_t L_10 = V_0;
 		NullCheck(L_9);
@@ -12928,7 +12086,6 @@ IL_004a:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:72>
 		bool L_15 = V_1;
 		if (!L_15)
 		{
@@ -12936,33 +12093,28 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:74>
 		List_1_t045279FE3CCE594C9F110960EF89E3F61E190B5A* L_16 = __this->____resizeDatas;
 		int32_t L_17 = V_0;
 		NullCheck(L_16);
 		ResizeData_t2B403760B7BAA5F9CF111CFC3DEFA18BCFB6DDEF* L_18;
 		L_18 = List_1_get_Item_m679A39A544A69D1F9F69D06CFA77FED4F15706D8(L_16, L_17, List_1_get_Item_m679A39A544A69D1F9F69D06CFA77FED4F15706D8_RuntimeMethod_var);
 		ResettableObjectCaches_1_Store_mC686120FAA0A00C911F82C7C4E6480C05400F071(L_18, ResettableObjectCaches_1_Store_mC686120FAA0A00C911F82C7C4E6480C05400F071_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:75>
 		List_1_t045279FE3CCE594C9F110960EF89E3F61E190B5A* L_19 = __this->____resizeDatas;
 		int32_t L_20 = V_0;
 		NullCheck(L_19);
 		List_1_RemoveAt_m3E21F21AF1EC55BEEFDDB85D7C1FB068A6C6FD5D(L_19, L_20, List_1_RemoveAt_m3E21F21AF1EC55BEEFDDB85D7C1FB068A6C6FD5D_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:76>
 		int32_t L_21 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_21, 1));
 	}
 
 IL_0074:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:67>
 		int32_t L_22 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_22, 1));
 	}
 
 IL_0078:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:67>
 		int32_t L_23 = V_0;
 		List_1_t045279FE3CCE594C9F110960EF89E3F61E190B5A* L_24 = __this->____resizeDatas;
 		NullCheck(L_24);
@@ -12974,11 +12126,10 @@ IL_0078:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 75671
+// Method Definition Index: 75664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer_Resize_mFB233DA191FF0930B59FA4B12E39606CEE23186E (ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800* ___0_del, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12992,7 +12143,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer_Resize_mFB233DA191F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:90>
 		RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E* L_0 = ((RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_StaticFields*)il2cpp_codegen_static_fields_for(RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_il2cpp_TypeInfo_var))->____instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13003,7 +12153,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer_Resize_mFB233DA191F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:92>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_3;
@@ -13013,30 +12162,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer_Resize_mFB233DA191F
 		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_5, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:93>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = L_5;
 		NullCheck(L_6);
 		RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E* L_7;
 		L_7 = GameObject_AddComponent_TisRectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_mFC967C747EBD9243645338F6354950607860E587(L_6, GameObject_AddComponent_TisRectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_mFC967C747EBD9243645338F6354950607860E587_RuntimeMethod_var);
 		((RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_StaticFields*)il2cpp_codegen_static_fields_for(RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_il2cpp_TypeInfo_var))->____instance = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&((RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_StaticFields*)il2cpp_codegen_static_fields_for(RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_il2cpp_TypeInfo_var))->____instance), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:94>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_6, NULL);
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:97>
 		RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E* L_8 = ((RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_StaticFields*)il2cpp_codegen_static_fields_for(RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_il2cpp_TypeInfo_var))->____instance;
 		ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800* L_9 = ___0_del;
 		NullCheck(L_8);
 		RectTransformResizer_Resize_Internal_mB9024FABF2BBCDD37F4EA28089DFED8D300C6B16(L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:98>
 		return;
 	}
 }
-// Method Definition Index: 75672
+// Method Definition Index: 75665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer_Resize_Internal_mB9024FABF2BBCDD37F4EA28089DFED8D300C6B16 (RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E* __this, ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800* ___0_del, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13049,28 +12194,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer_Resize_Internal_mB9
 	}
 	ResizeData_t2B403760B7BAA5F9CF111CFC3DEFA18BCFB6DDEF* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:102>
 		ResizeData_t2B403760B7BAA5F9CF111CFC3DEFA18BCFB6DDEF* L_0;
 		L_0 = ResettableObjectCaches_1_Retrieve_m9A4A159CECD5222E873447F13384D70B96D80F60(ResettableObjectCaches_1_Retrieve_m9A4A159CECD5222E873447F13384D70B96D80F60_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:103>
 		ResizeData_t2B403760B7BAA5F9CF111CFC3DEFA18BCFB6DDEF* L_1 = V_0;
 		ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800* L_2 = ___0_del;
 		NullCheck(L_1);
 		L_1->___Delegate = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___Delegate), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:104>
 		RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E* L_3 = ((RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_StaticFields*)il2cpp_codegen_static_fields_for(RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E_il2cpp_TypeInfo_var))->____instance;
 		NullCheck(L_3);
 		List_1_t045279FE3CCE594C9F110960EF89E3F61E190B5A* L_4 = L_3->____resizeDatas;
 		ResizeData_t2B403760B7BAA5F9CF111CFC3DEFA18BCFB6DDEF* L_5 = V_0;
 		NullCheck(L_4);
 		List_1_Add_m22C2CA8AE542817D5A101CFB12F54763C17AD395_inline(L_4, L_5, List_1_Add_m22C2CA8AE542817D5A101CFB12F54763C17AD395_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:105>
 		return;
 	}
 }
-// Method Definition Index: 75673
+// Method Definition Index: 75666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer__ctor_m1070F2488FF208C56B4B0A9083E325F53779C461 (RectTransformResizer_tE5329A6482BC404A56C4FF48B24B176F8E45DE7E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13081,7 +12222,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer__ctor_m1070F2488FF2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:44>
 		List_1_t045279FE3CCE594C9F110960EF89E3F61E190B5A* L_0 = (List_1_t045279FE3CCE594C9F110960EF89E3F61E190B5A*)il2cpp_codegen_object_new(List_1_t045279FE3CCE594C9F110960EF89E3F61E190B5A_il2cpp_TypeInfo_var);
 		List_1__ctor_m22C2613354A2FA86E71281167C1F1659EC2850B6(L_0, List_1__ctor_m22C2613354A2FA86E71281167C1F1659EC2850B6_RuntimeMethod_var);
 		__this->____resizeDatas = L_0;
@@ -13098,36 +12238,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformResizer__ctor_m1070F2488FF2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75674
+// Method Definition Index: 75667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizeData__ctor_mA43C19F758B5C05337A30D4652743D8552A172E3 (ResizeData_t2B403760B7BAA5F9CF111CFC3DEFA18BCFB6DDEF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:17>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:19>
 		__this->___Remaining = (uint8_t)2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 75675
+// Method Definition Index: 75668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizeData_InitializeState_mF56A2424D285A967342A0839BBEEEAAEB5AEEEBB (ResizeData_t2B403760B7BAA5F9CF111CFC3DEFA18BCFB6DDEF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 75676
+// Method Definition Index: 75669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizeData_ResetState_mA69BA1C4767372DA6D8E5DE49CF3632E4CE400BB (ResizeData_t2B403760B7BAA5F9CF111CFC3DEFA18BCFB6DDEF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:26>
 		__this->___Remaining = (uint8_t)2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:27>
 		__this->___Delegate = (ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Delegate), (void*)(ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/RectTransformResizer.cs:28>
 		return;
 	}
 }
@@ -13167,7 +12300,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_ResizeDelegate_t7CD11F7C85427FE4344
 	il2cppPInvokeFunc(static_cast<int32_t>(___0_complete));
 
 }
-// Method Definition Index: 75677
+// Method Definition Index: 75670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizeDelegate__ctor_m8563FD28E2EDCC67FCE4716DE6366A5C937680E1 (ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13196,20 +12329,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizeDelegate__ctor_m8563FD28E2EDCC67FC
 	}
 	__this->___extra_arg = (intptr_t)&ResizeDelegate_Invoke_m73EA3C7483D6F50719066DCF51ECF1705AE5183A_Multicast;
 }
-// Method Definition Index: 75678
+// Method Definition Index: 75671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizeDelegate_Invoke_m73EA3C7483D6F50719066DCF51ECF1705AE5183A (ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800* __this, bool ___0_complete, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, bool, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_complete, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 75679
+// Method Definition Index: 75672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResizeDelegate_BeginInvoke_m2CA8E12DBA8F0808F47FC781653704E496BB3D50 (ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800* __this, bool ___0_complete, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.boolean_class, &___0_complete);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 75680
+// Method Definition Index: 75673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizeDelegate_EndInvoke_m401BC8DE7997FF333A6D6F0FE4C6894A7707CC74 (ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13222,7 +12355,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizeDelegate_EndInvoke_m401BC8DE7997FF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75681
+// Method Definition Index: 75674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* DDOL_GetDDOL_mEB96C390D84B450440C8C19E0BCB0EE1741D9835 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13236,7 +12369,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/DDOL.cs:21>
 		DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* L_0 = ((DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_StaticFields*)il2cpp_codegen_static_fields_for(DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_il2cpp_TypeInfo_var))->____instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13247,37 +12379,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/DDOL.cs:23>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/DDOL.cs:24>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = L_2;
 		NullCheck(L_3);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_3, _stringLiteralF294BDC94E1D1C79F018112E429E771D61052A2C, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/DDOL.cs:25>
 		NullCheck(L_3);
 		DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* L_4;
 		L_4 = GameObject_AddComponent_TisDDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_m3F6C330F016464C1194FC6BA1B19F9EECD75EECB(L_3, GameObject_AddComponent_TisDDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_m3F6C330F016464C1194FC6BA1B19F9EECD75EECB_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/DDOL.cs:26>
 		DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* L_5 = L_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/DDOL.cs:27>
 		DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* L_6 = L_5;
 		((DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_StaticFields*)il2cpp_codegen_static_fields_for(DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_il2cpp_TypeInfo_var))->____instance = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&((DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_StaticFields*)il2cpp_codegen_static_fields_for(DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_il2cpp_TypeInfo_var))->____instance), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/DDOL.cs:28>
 		return L_6;
 	}
 
 IL_002f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/DDOL.cs:33>
 		DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* L_7 = ((DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_StaticFields*)il2cpp_codegen_static_fields_for(DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_il2cpp_TypeInfo_var))->____instance;
 		return L_7;
 	}
 }
-// Method Definition Index: 75682
+// Method Definition Index: 75675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DDOL__ctor_m2A022B0281F28BBB26FD9410B26ADE53EE62C9E8 (DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13293,17 +12418,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DDOL__ctor_m2A022B0281F28BBB26FD9410B26A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75683
+// Method Definition Index: 75676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatRange__ctor_m9EE180C6C3AA894E8E2E49FA22EC5289650F1075 (FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96* __this, float ___0_minimum, float ___1_maximum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange.cs:10>
 		float L_0 = ___0_minimum;
 		__this->___Minimum = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange.cs:11>
 		float L_1 = ___1_maximum;
 		__this->___Maximum = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange.cs:12>
 		return;
 	}
 }
@@ -13314,7 +12436,7 @@ IL2CPP_EXTERN_C  void FloatRange__ctor_m9EE180C6C3AA894E8E2E49FA22EC5289650F1075
 	_thisAdjusted = reinterpret_cast<FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96*>(__this + _offset);
 	FloatRange__ctor_m9EE180C6C3AA894E8E2E49FA22EC5289650F1075(_thisAdjusted, ___0_minimum, ___1_maximum, method);
 }
-// Method Definition Index: 75684
+// Method Definition Index: 75677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FloatRange_RandomInclusive_m81CF15B4488923F3A0EE88EE9BE8A27EDF1D4A39 (FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13324,7 +12446,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FloatRange_RandomInclusive_m81CF15B4488
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange.cs:29>
 		float L_0 = __this->___Minimum;
 		float L_1 = __this->___Maximum;
 		il2cpp_codegen_runtime_class_init_inline(Floats_t54BC254F0C30D7F4D5A75148FE42847BA7143FCA_il2cpp_TypeInfo_var);
@@ -13342,11 +12463,10 @@ IL2CPP_EXTERN_C  float FloatRange_RandomInclusive_m81CF15B4488923F3A0EE88EE9BE8A
 	_returnValue = FloatRange_RandomInclusive_m81CF15B4488923F3A0EE88EE9BE8A27EDF1D4A39(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 75685
+// Method Definition Index: 75678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FloatRange_Lerp_m243C1E3C6E6BC8412DF2E99B1F571A87B186EBF8 (FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96* __this, float ___0_percent, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange.cs:34>
 		float L_0 = __this->___Minimum;
 		float L_1 = __this->___Maximum;
 		float L_2 = ___0_percent;
@@ -13372,17 +12492,14 @@ IL2CPP_EXTERN_C  float FloatRange_Lerp_m243C1E3C6E6BC8412DF2E99B1F571A87B186EBF8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75686
+// Method Definition Index: 75679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatRange2D__ctor_m164B4B23981CB572A7D7D6F7E16E024D13BE9EFB (FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A* __this, FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 ___0_x, FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs:13>
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 L_0 = ___0_x;
 		__this->___X = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs:14>
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 L_1 = ___1_y;
 		__this->___Y = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs:15>
 		return;
 	}
 }
@@ -13393,25 +12510,22 @@ IL2CPP_EXTERN_C  void FloatRange2D__ctor_m164B4B23981CB572A7D7D6F7E16E024D13BE9E
 	_thisAdjusted = reinterpret_cast<FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A*>(__this + _offset);
 	FloatRange2D__ctor_m164B4B23981CB572A7D7D6F7E16E024D13BE9EFB(_thisAdjusted, ___0_x, ___1_y, method);
 }
-// Method Definition Index: 75687
+// Method Definition Index: 75680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatRange2D__ctor_mA0B09015F162D5B02000A6E2F3643207F99CBAB7 (FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A* __this, float ___0_xMin, float ___1_xMax, float ___2_yMin, float ___3_yMax, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs:19>
 		float L_0 = ___0_xMin;
 		float L_1 = ___1_xMax;
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		FloatRange__ctor_m9EE180C6C3AA894E8E2E49FA22EC5289650F1075((&L_2), L_0, L_1, NULL);
 		__this->___X = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs:20>
 		float L_3 = ___2_yMin;
 		float L_4 = ___3_yMax;
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		FloatRange__ctor_m9EE180C6C3AA894E8E2E49FA22EC5289650F1075((&L_5), L_3, L_4, NULL);
 		__this->___Y = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs:21>
 		return;
 	}
 }
@@ -13422,11 +12536,10 @@ IL2CPP_EXTERN_C  void FloatRange2D__ctor_mA0B09015F162D5B02000A6E2F3643207F99CBA
 	_thisAdjusted = reinterpret_cast<FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A*>(__this + _offset);
 	FloatRange2D__ctor_mA0B09015F162D5B02000A6E2F3643207F99CBAB7(_thisAdjusted, ___0_xMin, ___1_xMax, ___2_yMin, ___3_yMax, method);
 }
-// Method Definition Index: 75688
+// Method Definition Index: 75681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 FloatRange2D_Clamp_mDD221A525BEF604F2A8FC1BAC591F90FE39E53E6 (FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_original, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs:25>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_original;
 		float L_1 = L_0.___x;
 		float L_2;
@@ -13450,11 +12563,10 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 FloatRange2D_
 	_returnValue = FloatRange2D_Clamp_mDD221A525BEF604F2A8FC1BAC591F90FE39E53E6(_thisAdjusted, ___0_original, method);
 	return _returnValue;
 }
-// Method Definition Index: 75689
+// Method Definition Index: 75682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 FloatRange2D_Clamp_m1734114C562D1D17273A8A8B19F919DC139A51A4 (FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_original, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs:30>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_original;
 		float L_1 = L_0.___x;
 		float L_2;
@@ -13480,11 +12592,10 @@ IL2CPP_EXTERN_C  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 FloatRange2D_
 	_returnValue = FloatRange2D_Clamp_m1734114C562D1D17273A8A8B19F919DC139A51A4(_thisAdjusted, ___0_original, method);
 	return _returnValue;
 }
-// Method Definition Index: 75690
+// Method Definition Index: 75683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FloatRange2D_ClampX_mC70B3B0628E89A4521C3FBEAA9770CCC6196D72D (FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A* __this, float ___0_original, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs:35>
 		float L_0 = ___0_original;
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96* L_1 = (FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96*)(&__this->___X);
 		float L_2 = L_1->___Minimum;
@@ -13504,11 +12615,10 @@ IL2CPP_EXTERN_C  float FloatRange2D_ClampX_mC70B3B0628E89A4521C3FBEAA9770CCC6196
 	_returnValue = FloatRange2D_ClampX_mC70B3B0628E89A4521C3FBEAA9770CCC6196D72D(_thisAdjusted, ___0_original, method);
 	return _returnValue;
 }
-// Method Definition Index: 75691
+// Method Definition Index: 75684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FloatRange2D_ClampY_mF99C691E4B99035179E0E110B395A349F91EE5BE (FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A* __this, float ___0_original, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/FloatRange2D.cs:40>
 		float L_0 = ___0_original;
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96* L_1 = (FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96*)(&__this->___Y);
 		float L_2 = L_1->___Minimum;
@@ -13536,17 +12646,14 @@ IL2CPP_EXTERN_C  float FloatRange2D_ClampY_mF99C691E4B99035179E0E110B395A349F91E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75693
+// Method Definition Index: 75686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntRange__ctor_mDB536BC377D76FEEA57F87A83CF27B3A93A12F46 (IntRange_tDBF89C29334F29F61F3725518A96191FB4F4D951* __this, int32_t ___0_minimum, int32_t ___1_maximum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs:8>
 		int32_t L_0 = ___0_minimum;
 		__this->___Minimum = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs:9>
 		int32_t L_1 = ___1_maximum;
 		__this->___Maximum = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs:10>
 		return;
 	}
 }
@@ -13557,7 +12664,7 @@ IL2CPP_EXTERN_C  void IntRange__ctor_mDB536BC377D76FEEA57F87A83CF27B3A93A12F46_A
 	_thisAdjusted = reinterpret_cast<IntRange_tDBF89C29334F29F61F3725518A96191FB4F4D951*>(__this + _offset);
 	IntRange__ctor_mDB536BC377D76FEEA57F87A83CF27B3A93A12F46(_thisAdjusted, ___0_minimum, ___1_maximum, method);
 }
-// Method Definition Index: 75694
+// Method Definition Index: 75687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float IntRange_RandomExclusive_m1389CE12AF9410F6B1B3F1EB99C01378608EDE8F (IntRange_tDBF89C29334F29F61F3725518A96191FB4F4D951* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13567,7 +12674,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float IntRange_RandomExclusive_m1389CE12AF941
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs:27>
 		int32_t L_0 = __this->___Minimum;
 		int32_t L_1 = __this->___Maximum;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
@@ -13585,7 +12691,7 @@ IL2CPP_EXTERN_C  float IntRange_RandomExclusive_m1389CE12AF9410F6B1B3F1EB99C0137
 	_returnValue = IntRange_RandomExclusive_m1389CE12AF9410F6B1B3F1EB99C01378608EDE8F(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 75695
+// Method Definition Index: 75688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float IntRange_RandomInclusive_m954A68E5449B23E54277008830C0E494BBC4375A (IntRange_tDBF89C29334F29F61F3725518A96191FB4F4D951* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13595,7 +12701,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float IntRange_RandomInclusive_m954A68E5449B2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs:36>
 		int32_t L_0 = __this->___Minimum;
 		int32_t L_1 = __this->___Maximum;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
@@ -13613,11 +12718,10 @@ IL2CPP_EXTERN_C  float IntRange_RandomInclusive_m954A68E5449B23E54277008830C0E49
 	_returnValue = IntRange_RandomInclusive_m954A68E5449B23E54277008830C0E494BBC4375A(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 75696
+// Method Definition Index: 75689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntRange_Clamp_m32F60608282E4F5046BAD3B4EA80AC177DA83D75 (IntRange_tDBF89C29334F29F61F3725518A96191FB4F4D951* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs:46>
 		int32_t L_0 = ___0_value;
 		int32_t L_1 = __this->___Minimum;
 		if ((((int32_t)L_0) >= ((int32_t)L_1)))
@@ -13626,14 +12730,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntRange_Clamp_m32F60608282E4F5046BAD
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs:47>
 		int32_t L_2 = __this->___Minimum;
 		return L_2;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs:48>
 		int32_t L_3 = ___0_value;
 		int32_t L_4 = __this->___Maximum;
 		if ((((int32_t)L_3) <= ((int32_t)L_4)))
@@ -13642,14 +12744,12 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs:49>
 		int32_t L_5 = __this->___Maximum;
 		return L_5;
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/IntRange.cs:50>
 		int32_t L_6 = ___0_value;
 		return L_6;
 	}
@@ -13671,7 +12771,7 @@ IL2CPP_EXTERN_C  int32_t IntRange_Clamp_m32F60608282E4F5046BAD3B4EA80AC177DA83D7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75770
+// Method Definition Index: 75763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneAttribute__ctor_mDEB83611533E0A04C89A4C944F6CB3106C271ACF (SceneAttribute_t64707DCEB2046DFF315133276946A0114591F862* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13687,50 +12787,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneAttribute__ctor_mDEB83611533E0A04C8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75771
+// Method Definition Index: 75764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollbarValueSetter__ctor_m20083F6AC5A3133EAC506CBCD0D8D05285410865 (ScrollbarValueSetter_t6755DD99A3F95482A76FD237B8A316F4C39FBC9A* __this, Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* ___0_sb, int32_t ___1_fixFrames, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:23>
 		__this->____updatedFrame = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:29>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:31>
 		Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* L_0 = ___0_sb;
 		__this->____scrollBar = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____scrollBar), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:32>
 		int32_t L_1 = ___1_fixFrames;
 		__this->____fixFrames = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 75772
+// Method Definition Index: 75765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollbarValueSetter_SetValue_m4D320494638956EEF8A7FC79DF3859FB2BA23720 (ScrollbarValueSetter_t6755DD99A3F95482A76FD237B8A316F4C39FBC9A* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:41>
 		Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* L_0 = __this->____scrollBar;
 		float L_1 = ___0_value;
 		NullCheck(L_0);
 		Scrollbar_set_value_m8F7815DB02D4A69B33B091FC5F674609F070D804(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:42>
 		float L_2 = ___0_value;
 		__this->____value = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:43>
 		int32_t L_3;
 		L_3 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 		__this->____updatedFrame = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:44>
 		return;
 	}
 }
-// Method Definition Index: 75773
+// Method Definition Index: 75766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollbarValueSetter_LateUpdate_m79D838728E09D6E195246A0405E5A6E2F03B6E9E (ScrollbarValueSetter_t6755DD99A3F95482A76FD237B8A316F4C39FBC9A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:51>
 		int32_t L_0 = __this->____updatedFrame;
 		if ((!(((uint32_t)L_0) == ((uint32_t)(-1)))))
 		{
@@ -13738,13 +12828,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollbarValueSetter_LateUpdate_m79D8387
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:52>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:53>
 		int32_t L_1;
 		L_1 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 		int32_t L_2 = __this->____updatedFrame;
@@ -13755,20 +12843,16 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:54>
 		return;
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:56>
 		__this->____updatedFrame = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:57>
 		Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* L_4 = __this->____scrollBar;
 		float L_5 = __this->____value;
 		NullCheck(L_4);
 		Scrollbar_set_value_m8F7815DB02D4A69B33B091FC5F674609F070D804(L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ScrollbarValueSetter.cs:58>
 		return;
 	}
 }
@@ -13780,7 +12864,7 @@ IL_001f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75776
+// Method Definition Index: 75769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* SmoothCameraTarget_GetDDOL_m071AED6D5DEC35E11F81D523765D79D24262F719 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13794,7 +12878,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SmoothCameraTarget.cs:24>
 		DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* L_0 = ((SmoothCameraTarget_tFA78A4067070EC91D71F165544F24207F584EE93_StaticFields*)il2cpp_codegen_static_fields_for(SmoothCameraTarget_tFA78A4067070EC91D71F165544F24207F584EE93_il2cpp_TypeInfo_var))->____instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13805,37 +12888,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SmoothCameraTarget.cs:26>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SmoothCameraTarget.cs:27>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = L_2;
 		NullCheck(L_3);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_3, _stringLiteralF294BDC94E1D1C79F018112E429E771D61052A2C, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SmoothCameraTarget.cs:28>
 		NullCheck(L_3);
 		DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* L_4;
 		L_4 = GameObject_AddComponent_TisDDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_m3F6C330F016464C1194FC6BA1B19F9EECD75EECB(L_3, GameObject_AddComponent_TisDDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3_m3F6C330F016464C1194FC6BA1B19F9EECD75EECB_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SmoothCameraTarget.cs:29>
 		DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* L_5 = L_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SmoothCameraTarget.cs:30>
 		DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* L_6 = L_5;
 		((SmoothCameraTarget_tFA78A4067070EC91D71F165544F24207F584EE93_StaticFields*)il2cpp_codegen_static_fields_for(SmoothCameraTarget_tFA78A4067070EC91D71F165544F24207F584EE93_il2cpp_TypeInfo_var))->____instance = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&((SmoothCameraTarget_tFA78A4067070EC91D71F165544F24207F584EE93_StaticFields*)il2cpp_codegen_static_fields_for(SmoothCameraTarget_tFA78A4067070EC91D71F165544F24207F584EE93_il2cpp_TypeInfo_var))->____instance), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SmoothCameraTarget.cs:31>
 		return L_6;
 	}
 
 IL_002f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/SmoothCameraTarget.cs:36>
 		DDOL_t9CCE485FD1A3F4E4009E620AEE612ABEEA3AEBE3* L_7 = ((SmoothCameraTarget_tFA78A4067070EC91D71F165544F24207F584EE93_StaticFields*)il2cpp_codegen_static_fields_for(SmoothCameraTarget_tFA78A4067070EC91D71F165544F24207F584EE93_il2cpp_TypeInfo_var))->____instance;
 		return L_7;
 	}
 }
-// Method Definition Index: 75777
+// Method Definition Index: 75770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmoothCameraTarget__ctor_mC5909B8C560EF0DE051700388AFEE0978212573E (SmoothCameraTarget_tFA78A4067070EC91D71F165544F24207F584EE93* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13851,7 +12927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmoothCameraTarget__ctor_mC5909B8C560EF0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75778
+// Method Definition Index: 75771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimedOperation__ctor_m52105A747D5C3F3D9FECCE94CC34C7710AC66630 (TimedOperation_tEA1D7A9F17A808037B3501BAA9E1C927A61AB266* __this, float ___0_interval, bool ___1_scaledTime, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13862,30 +12938,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimedOperation__ctor_m52105A747D5C3F3D9F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:33>
 		Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9* L_0 = (Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9*)il2cpp_codegen_object_new(Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m3B9D7D2783B71FBCFA8E7A4FCD0DC1D832AF15ED(L_0, Dictionary_2__ctor_m3B9D7D2783B71FBCFA8E7A4FCD0DC1D832AF15ED_RuntimeMethod_var);
 		__this->____operationTimes = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____operationTimes), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:15>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:17>
 		float L_1 = ___0_interval;
 		__this->____interval = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:18>
 		bool L_2 = ___1_scaledTime;
 		__this->____scaledTime = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 75779
+// Method Definition Index: 75772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimedOperation_TryUseOperation_m3278E2A65C3E871BC5184A1C6183E1A4E70CBCE4 (TimedOperation_tEA1D7A9F17A808037B3501BAA9E1C927A61AB266* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	float G_B3_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:46>
 		bool L_0 = __this->____scaledTime;
 		if (L_0)
 		{
@@ -13909,7 +12979,6 @@ IL_000f:
 IL_0014:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:49>
 		float L_3 = V_0;
 		float L_4 = __this->____lastGlobalTime;
 		float L_5 = __this->____interval;
@@ -13919,21 +12988,18 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:51>
 		float L_6 = V_0;
 		float L_7 = __this->____interval;
 		__this->____lastGlobalTime = ((float)il2cpp_codegen_add(L_6, L_7));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:52>
 		return (bool)1;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:57>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 75780
+// Method Definition Index: 75773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimedOperation_TryUseOperation_m3A5F68B6D8261A8CC4653EF9C1F9CAF0CFE27AE7 (TimedOperation_tEA1D7A9F17A808037B3501BAA9E1C927A61AB266* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13947,7 +13013,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimedOperation_TryUseOperation_m3A5F68B6
 	float V_1 = 0.0f;
 	float G_B3_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:68>
 		bool L_0 = __this->____scaledTime;
 		if (L_0)
 		{
@@ -13971,7 +13036,6 @@ IL_000f:
 IL_0014:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:72>
 		Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9* L_3 = __this->____operationTimes;
 		String_t* L_4 = ___0_key;
 		NullCheck(L_3);
@@ -13983,7 +13047,6 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:75>
 		float L_6 = V_0;
 		float L_7 = V_1;
 		float L_8 = __this->____interval;
@@ -13993,33 +13056,28 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:77>
 		Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9* L_9 = __this->____operationTimes;
 		String_t* L_10 = ___0_key;
 		float L_11 = V_0;
 		float L_12 = __this->____interval;
 		NullCheck(L_9);
 		Dictionary_2_set_Item_m14CD98262463C5CFD081DE1CF30325E54465CD3A(L_9, L_10, ((float)il2cpp_codegen_add(L_11, L_12)), Dictionary_2_set_Item_m14CD98262463C5CFD081DE1CF30325E54465CD3A_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:78>
 		return (bool)1;
 	}
 
 IL_0046:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:83>
 		return (bool)0;
 	}
 
 IL_0048:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:89>
 		Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9* L_13 = __this->____operationTimes;
 		String_t* L_14 = ___0_key;
 		float L_15 = V_0;
 		float L_16 = __this->____interval;
 		NullCheck(L_13);
 		Dictionary_2_set_Item_m14CD98262463C5CFD081DE1CF30325E54465CD3A(L_13, L_14, ((float)il2cpp_codegen_add(L_15, L_16)), Dictionary_2_set_Item_m14CD98262463C5CFD081DE1CF30325E54465CD3A_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/TimedOperation.cs:90>
 		return (bool)1;
 	}
 }
@@ -14031,17 +13089,14 @@ IL_0048:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75781
+// Method Definition Index: 75774
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIntRange__ctor_m36882606E7EC3072842A94E72C89F9A3EC1BFCC2 (UIntRange_t8B36434E6DE389C218759BE595D35EAC50570001* __this, uint32_t ___0_minimum, uint32_t ___1_maximum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/UIntRange.cs:8>
 		uint32_t L_0 = ___0_minimum;
 		__this->___Minimum = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/UIntRange.cs:9>
 		uint32_t L_1 = ___1_maximum;
 		__this->___Maximum = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/UIntRange.cs:10>
 		return;
 	}
 }
@@ -14052,11 +13107,10 @@ IL2CPP_EXTERN_C  void UIntRange__ctor_m36882606E7EC3072842A94E72C89F9A3EC1BFCC2_
 	_thisAdjusted = reinterpret_cast<UIntRange_t8B36434E6DE389C218759BE595D35EAC50570001*>(__this + _offset);
 	UIntRange__ctor_m36882606E7EC3072842A94E72C89F9A3EC1BFCC2(_thisAdjusted, ___0_minimum, ___1_maximum, method);
 }
-// Method Definition Index: 75782
+// Method Definition Index: 75775
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UIntRange_RandomExclusive_mF0BD4F0DF3E6AD051E928AAE74797AE1749CCB6A (UIntRange_t8B36434E6DE389C218759BE595D35EAC50570001* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/UIntRange.cs:27>
 		uint32_t L_0 = __this->___Minimum;
 		uint32_t L_1 = __this->___Maximum;
 		uint32_t L_2;
@@ -14073,11 +13127,10 @@ IL2CPP_EXTERN_C  uint32_t UIntRange_RandomExclusive_mF0BD4F0DF3E6AD051E928AAE747
 	_returnValue = UIntRange_RandomExclusive_mF0BD4F0DF3E6AD051E928AAE74797AE1749CCB6A(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 75783
+// Method Definition Index: 75776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UIntRange_RandomInclusive_m80E1EEDB6E253A2C7A022D615AF9D24C56144ECC (UIntRange_t8B36434E6DE389C218759BE595D35EAC50570001* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/UIntRange.cs:34>
 		uint32_t L_0 = __this->___Minimum;
 		uint32_t L_1 = __this->___Maximum;
 		uint32_t L_2;
@@ -14094,11 +13147,10 @@ IL2CPP_EXTERN_C  uint32_t UIntRange_RandomInclusive_m80E1EEDB6E253A2C7A022D615AF
 	_returnValue = UIntRange_RandomInclusive_m80E1EEDB6E253A2C7A022D615AF9D24C56144ECC(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 75784
+// Method Definition Index: 75777
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UIntRange_Clamp_mCC317AB9B4EA0F64762DDA1B42204CA868C3C891 (UIntRange_t8B36434E6DE389C218759BE595D35EAC50570001* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/UIntRange.cs:39>
 		uint32_t L_0 = ___0_value;
 		uint32_t L_1 = __this->___Minimum;
 		uint32_t L_2 = __this->___Maximum;
@@ -14116,11 +13168,10 @@ IL2CPP_EXTERN_C  uint32_t UIntRange_Clamp_mCC317AB9B4EA0F64762DDA1B42204CA868C3C
 	_returnValue = UIntRange_Clamp_mCC317AB9B4EA0F64762DDA1B42204CA868C3C891(_thisAdjusted, ___0_value, method);
 	return _returnValue;
 }
-// Method Definition Index: 75785
+// Method Definition Index: 75778
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UIntRange_InRange_m60947761662525D8EFC0804E71BAF210A737D61B (UIntRange_t8B36434E6DE389C218759BE595D35EAC50570001* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/UIntRange.cs:44>
 		uint32_t L_0 = ___0_value;
 		uint32_t L_1 = __this->___Minimum;
 		if ((!(((uint32_t)L_0) >= ((uint32_t)L_1))))
@@ -14156,11 +13207,10 @@ IL2CPP_EXTERN_C  bool UIntRange_InRange_m60947761662525D8EFC0804E71BAF210A737D61
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75786
+// Method Definition Index: 75779
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2Range__ctor_mBE19C97F904372B4AADD000FE071577881BF1C5D (Vector2Range_t928456C4CB441EE9A1A037819DA897A13F5B0BA4* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_minimum, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_maximum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Vector2Range.cs:10>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_minimum;
 		float L_1 = L_0.___x;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_maximum;
@@ -14169,7 +13219,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2Range__ctor_mBE19C97F904372B4AADD
 		memset((&L_4), 0, sizeof(L_4));
 		FloatRange__ctor_m9EE180C6C3AA894E8E2E49FA22EC5289650F1075((&L_4), L_1, L_3, NULL);
 		__this->___X = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Vector2Range.cs:11>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = ___0_minimum;
 		float L_6 = L_5.___y;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = ___1_maximum;
@@ -14178,7 +13227,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2Range__ctor_mBE19C97F904372B4AADD
 		memset((&L_9), 0, sizeof(L_9));
 		FloatRange__ctor_m9EE180C6C3AA894E8E2E49FA22EC5289650F1075((&L_9), L_6, L_8, NULL);
 		__this->___Y = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Vector2Range.cs:12>
 		return;
 	}
 }
@@ -14189,17 +13237,14 @@ IL2CPP_EXTERN_C  void Vector2Range__ctor_mBE19C97F904372B4AADD000FE071577881BF1C
 	_thisAdjusted = reinterpret_cast<Vector2Range_t928456C4CB441EE9A1A037819DA897A13F5B0BA4*>(__this + _offset);
 	Vector2Range__ctor_mBE19C97F904372B4AADD000FE071577881BF1C5D(_thisAdjusted, ___0_minimum, ___1_maximum, method);
 }
-// Method Definition Index: 75787
+// Method Definition Index: 75780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2Range__ctor_mCCC98F47EC71B577774F9FC231785DEB228459A9 (Vector2Range_t928456C4CB441EE9A1A037819DA897A13F5B0BA4* __this, FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 ___0_minimum, FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 ___1_maximum, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Vector2Range.cs:16>
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 L_0 = ___0_minimum;
 		__this->___X = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Vector2Range.cs:17>
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 L_1 = ___1_maximum;
 		__this->___Y = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Vector2Range.cs:18>
 		return;
 	}
 }
@@ -14210,7 +13255,7 @@ IL2CPP_EXTERN_C  void Vector2Range__ctor_mCCC98F47EC71B577774F9FC231785DEB228459
 	_thisAdjusted = reinterpret_cast<Vector2Range_t928456C4CB441EE9A1A037819DA897A13F5B0BA4*>(__this + _offset);
 	Vector2Range__ctor_mCCC98F47EC71B577774F9FC231785DEB228459A9(_thisAdjusted, ___0_minimum, ___1_maximum, method);
 }
-// Method Definition Index: 75788
+// Method Definition Index: 75781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2Range_RandomInclusive_mE0C641791898C67749E16C7A6151DA8214F3CF97 (Vector2Range_t928456C4CB441EE9A1A037819DA897A13F5B0BA4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14220,7 +13265,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Vector2Range.cs:35>
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96* L_0 = (FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96*)(&__this->___X);
 		float L_1 = L_0->___Minimum;
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96* L_2 = (FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96*)(&__this->___X);
@@ -14257,7 +13301,7 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2Range_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75789
+// Method Definition Index: 75782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingOptions_AddButtons_mF7E15B7D5872267299960ED677FF4B2B61B8024A (FloatingOptions_t465B7FA595A7E427B5FF2EE7880A208184398DCA* __this, bool ___0_clearExisting, RuntimeObject* ___1_buttonDatas, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14273,7 +13317,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingOptions_AddButtons_mF7E15B7D5872
 	RuntimeObject* V_0 = NULL;
 	ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:22>
 		bool L_0 = ___0_clearExisting;
 		if (!L_0)
 		{
@@ -14281,13 +13324,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingOptions_AddButtons_mF7E15B7D5872
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:23>
 		VirtualActionInvoker0::Invoke(16, __this);
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:24>
 		RuntimeObject* L_1 = ___1_buttonDatas;
 		NullCheck(L_1);
 		RuntimeObject* L_2;
@@ -14327,13 +13368,11 @@ IL_0038:
 
 IL_0012_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:24>
 				RuntimeObject* L_5 = V_0;
 				NullCheck(L_5);
 				ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* L_6;
 				L_6 = InterfaceFuncInvoker0< ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* >::Invoke(0, IEnumerator_1_t7451B58DA2A57E8102047712393856B3EA843EF3_il2cpp_TypeInfo_var, L_5);
 				V_1 = L_6;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:25>
 				List_1_t479A7E3D4251D7C7ED14CDAB6C24C659F23D70D1* L_7 = __this->___Buttons;
 				ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* L_8 = V_1;
 				NullCheck(L_7);
@@ -14342,7 +13381,6 @@ IL_0012_1:
 
 IL_0025_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:24>
 				RuntimeObject* L_9 = V_0;
 				NullCheck(L_9);
 				bool L_10;
@@ -14364,11 +13402,10 @@ IL_0025_1:
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 75790
+// Method Definition Index: 75783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingOptions_RemoveButtons_m4FB801B1A5D64B7F46DE6BFF5A82C1443F4342F4 (FloatingOptions_t465B7FA595A7E427B5FF2EE7880A208184398DCA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14385,7 +13422,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingOptions_RemoveButtons_m4FB801B1A
 	Enumerator_tACBE48EF11B345D0AFBEE76B21A4EBC4161923EF V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:33>
 		List_1_t479A7E3D4251D7C7ED14CDAB6C24C659F23D70D1* L_0 = __this->___Buttons;
 		NullCheck(L_0);
 		Enumerator_tACBE48EF11B345D0AFBEE76B21A4EBC4161923EF L_1;
@@ -14410,16 +13446,13 @@ FINALLY_0025:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:33>
 				ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* L_2;
 				L_2 = Enumerator_get_Current_m6726F1A1B6003C68E41A87DF5B95E12C9E2D3FAD_inline((&V_0), Enumerator_get_Current_m6726F1A1B6003C68E41A87DF5B95E12C9E2D3FAD_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:34>
 				ResettableObjectCaches_1_Store_mD143930884778AB7AF3D25B7D93F0077E389251E(L_2, ResettableObjectCaches_1_Store_mD143930884778AB7AF3D25B7D93F0077E389251E_RuntimeMethod_var);
 			}
 
 IL_001a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:33>
 				bool L_3;
 				L_3 = Enumerator_MoveNext_mFE4F71DA033C9E46B7D121D12459797E95E28F98((&V_0), Enumerator_MoveNext_mFE4F71DA033C9E46B7D121D12459797E95E28F98_RuntimeMethod_var);
 				if (L_3)
@@ -14439,15 +13472,13 @@ IL_001a_1:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:35>
 		List_1_t479A7E3D4251D7C7ED14CDAB6C24C659F23D70D1* L_4 = __this->___Buttons;
 		NullCheck(L_4);
 		List_1_Clear_m31BE6C97595546CE522A25B08FE8A197128A1C23_inline(L_4, List_1_Clear_m31BE6C97595546CE522A25B08FE8A197128A1C23_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 75791
+// Method Definition Index: 75784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingOptions__ctor_m21100AEC7F472927DFCC1E920CC2CB988D2422C7 (FloatingOptions_t465B7FA595A7E427B5FF2EE7880A208184398DCA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14458,7 +13489,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingOptions__ctor_m21100AEC7F472927D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingOptions.cs:12>
 		List_1_t479A7E3D4251D7C7ED14CDAB6C24C659F23D70D1* L_0 = (List_1_t479A7E3D4251D7C7ED14CDAB6C24C659F23D70D1*)il2cpp_codegen_object_new(List_1_t479A7E3D4251D7C7ED14CDAB6C24C659F23D70D1_il2cpp_TypeInfo_var);
 		List_1__ctor_m32596732A6F500B4A40C36BB953BA173BA96F61B(L_0, List_1__ctor_m32596732A6F500B4A40C36BB953BA173BA96F61B_RuntimeMethod_var);
 		__this->___Buttons = L_0;
@@ -14475,71 +13505,62 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingOptions__ctor_m21100AEC7F472927D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75792
+// Method Definition Index: 75785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ButtonData_get_Text_m68F1D5388ECAF9FC14DD748E7B05ABC00E651A14 (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:9>
 		String_t* L_0 = __this->___U3CTextU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75793
+// Method Definition Index: 75786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonData_set_Text_m9BAE0ED3909A19D6ED82519C3965D3528C937824 (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:9>
 		String_t* L_0 = ___0_value;
 		__this->___U3CTextU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTextU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75794
+// Method Definition Index: 75787
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ButtonData_get_Key_m4FF6C98061FC55F5897F470A14517FE9A20B27DE (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:20>
 		String_t* L_0 = __this->___U3CKeyU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75795
+// Method Definition Index: 75788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonData_set_Key_m2F659F0E7DAA4BE038C38EAE97D110B9D4AE9E1A (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:20>
 		String_t* L_0 = ___0_value;
 		__this->___U3CKeyU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CKeyU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75796
+// Method Definition Index: 75789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonData_Initialize_m36EF22ADEF431AE452DFB6B3BD773B0ED1961A0E (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, String_t* ___0_text, PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* ___1_callback, String_t* ___2_key, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:36>
 		String_t* L_0 = ___0_text;
 		ButtonData_set_Text_m9BAE0ED3909A19D6ED82519C3965D3528C937824_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:37>
 		String_t* L_1 = ___2_key;
 		ButtonData_set_Key_m2F659F0E7DAA4BE038C38EAE97D110B9D4AE9E1A_inline(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:38>
 		PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* L_2 = ___1_callback;
 		__this->____delegate = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____delegate), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:39>
 		return;
 	}
 }
-// Method Definition Index: 75797
+// Method Definition Index: 75790
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonData_OnPressed_m7323602E1579643B372FFE0087F059016E815148 (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, const RuntimeMethod* method) 
 {
 	PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* G_B2_0 = NULL;
 	PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:46>
 		PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* L_0 = __this->____delegate;
 		PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* L_1 = L_0;
 		if (L_1)
@@ -14559,44 +13580,36 @@ IL_000b:
 		L_2 = ButtonData_get_Key_m4FF6C98061FC55F5897F470A14517FE9A20B27DE_inline(__this, NULL);
 		NullCheck(G_B2_0);
 		PressedDelegate_Invoke_m6414BB491C0BE9DAEF1F3DBDEA910AC4279EA825_inline(G_B2_0, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 75798
+// Method Definition Index: 75791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonData_ResetState_m43986AC19CA911CE374A43942929B2FF56DD5F7D (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:51>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		ButtonData_set_Text_m9BAE0ED3909A19D6ED82519C3965D3528C937824_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:52>
 		__this->____delegate = (PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____delegate), (void*)(PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:53>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		ButtonData_set_Key_m2F659F0E7DAA4BE038C38EAE97D110B9D4AE9E1A_inline(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 75799
+// Method Definition Index: 75792
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonData_InitializeState_mD8A2891722019AD5C81748A33DCFA0883264FA47 (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:56>
 		return;
 	}
 }
-// Method Definition Index: 75800
+// Method Definition Index: 75793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonData__ctor_mE865C3DE2A67C126354F8C72AFADE12E4365FBDD (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:9>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___U3CTextU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTextU3Ek__BackingField), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:20>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___U3CKeyU3Ek__BackingField = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CKeyU3Ek__BackingField), (void*)L_1);
@@ -14647,7 +13660,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_PressedDelegate_tB8943BA0A235635A19
 	____0_key_marshaled = NULL;
 
 }
-// Method Definition Index: 75801
+// Method Definition Index: 75794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressedDelegate__ctor_m0AA5F9F24A76580CB1321649ED382CD061466754 (PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14684,20 +13697,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressedDelegate__ctor_m0AA5F9F24A76580CB
 	}
 	__this->___extra_arg = (intptr_t)&PressedDelegate_Invoke_m6414BB491C0BE9DAEF1F3DBDEA910AC4279EA825_Multicast;
 }
-// Method Definition Index: 75802
+// Method Definition Index: 75795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressedDelegate_Invoke_m6414BB491C0BE9DAEF1F3DBDEA910AC4279EA825 (PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_key, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 75803
+// Method Definition Index: 75796
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PressedDelegate_BeginInvoke_mCB7865A188340BBFC7D8490522C81853ACFEFFB7 (PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* __this, String_t* ___0_key, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_key;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 75804
+// Method Definition Index: 75797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressedDelegate_EndInvoke_m417161BA350E3B0AF289C0D3C7AFFA2FCDF29E34 (PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14710,7 +13723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressedDelegate_EndInvoke_m417161BA350E3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75805
+// Method Definition Index: 75798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_AttachGameObject_m55107D35F29A78734AE3864BF4D5E356DB81A6D5 (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_go, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14720,7 +13733,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_AttachGameObject_m5510
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:60>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_go;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14731,72 +13743,59 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_AttachGameObject_m5510
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:61>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:63>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = ___0_go;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:64>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = L_3;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_4);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:65>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = L_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		NullCheck(L_6);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_6, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:66>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = L_6;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
 		L_9 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		NullCheck(L_8);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:67>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		NullCheck(L_8);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_8, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:68>
 		return;
 	}
 }
-// Method Definition Index: 75806
+// Method Definition Index: 75799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_Show_mE5BDDEFE5F8B868B37CAC975F4DC2F8DDB466F0B (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_scale, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___3_pivot, Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD ___4_edgeAvoidanceOverride, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:80>
 		Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD L_0 = ___4_edgeAvoidanceOverride;
 		VirtualActionInvoker2< Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD, bool >::Invoke(25, __this, L_0, (bool)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:81>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___3_pivot;
 		VirtualActionInvoker2< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool >::Invoke(19, __this, L_1, (bool)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:82>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___1_rotation;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___2_scale;
 		VirtualActionInvoker4< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, bool >::Invoke(24, __this, L_2, L_3, L_4, (bool)1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:83>
 		CanvasGroupFader_Show_mF508138AB55CB17A44D8BCA6ABF413EB532B7BFD(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 75807
+// Method Definition Index: 75800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_Show_m47418AC692553BBAE53F56252209A6F9C03D4191 (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD ___1_edgeAvoidanceOverride, const RuntimeMethod* method) 
 {
 	Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:94>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
@@ -14809,17 +13808,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_Show_m47418AC692553BBA
 		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD));
 		Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD L_5 = V_0;
 		VirtualActionInvoker5< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD >::Invoke(15, __this, L_0, L_1, L_2, L_4, L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:95>
 		return;
 	}
 }
-// Method Definition Index: 75808
+// Method Definition Index: 75801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_Show_mDFFD2880282AC2E7C858E09D173CEC31283E0BF4 (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD ___2_edgeAvoidanceOverride, const RuntimeMethod* method) 
 {
 	Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:106>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___1_rotation;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -14831,11 +13828,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_Show_mDFFD2880282AC2E7
 		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD));
 		Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD L_5 = V_0;
 		VirtualActionInvoker5< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD >::Invoke(15, __this, L_0, L_1, L_2, L_4, L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:107>
 		return;
 	}
 }
-// Method Definition Index: 75809
+// Method Definition Index: 75802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_Show_m8FF517DD3A0CA5254D98B50919C6AE5FDC0F744A (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_startingPoint, Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD ___1_edgeAvoidanceOverride, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14849,7 +13845,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_Show_m8FF517DD3A0CA525
 	Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:117>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_startingPoint;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14860,16 +13855,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_Show_m8FF517DD3A0CA525
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:119>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral104389F9F6E5D2BE248EC7A03AE2D3CD4DE29609, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:120>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:123>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = ___0_startingPoint;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -14889,20 +13881,17 @@ IL_0014:
 		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD));
 		Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD L_10 = V_0;
 		VirtualActionInvoker5< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD >::Invoke(15, __this, L_3, L_5, L_7, L_9, L_10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:124>
 		return;
 	}
 }
-// Method Definition Index: 75810
+// Method Definition Index: 75803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdatePivot_m3314C7B753609C8FCCF9E91BC95E8B9774BDB68B (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_pivot, bool ___1_move, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:133>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___RectTransform;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_pivot;
 		NullCheck(L_0);
 		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:134>
 		bool L_2 = ___1_move;
 		if (!L_2)
 		{
@@ -14910,24 +13899,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdatePivot_m3314C7B75
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:135>
 		VirtualActionInvoker0::Invoke(26, __this);
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:136>
 		return;
 	}
 }
-// Method Definition Index: 75811
+// Method Definition Index: 75804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdatePosition_mFBF080C2B24DEBD712BE42FE36934554CBE49960 (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, bool ___1_move, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:145>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
 		__this->____positionGoal = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:146>
 		bool L_1 = ___1_move;
 		if (!L_1)
 		{
@@ -14935,24 +13920,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdatePosition_mFBF080
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:147>
 		VirtualActionInvoker0::Invoke(26, __this);
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:148>
 		return;
 	}
 }
-// Method Definition Index: 75812
+// Method Definition Index: 75805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdateRotation_m76EDED41AAD7D79C272A0295EF154978EDB727C6 (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, bool ___1_move, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:156>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_rotation;
 		__this->____rotationGoal = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:157>
 		bool L_1 = ___1_move;
 		if (!L_1)
 		{
@@ -14960,24 +13941,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdateRotation_m76EDED
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:158>
 		VirtualActionInvoker0::Invoke(26, __this);
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:159>
 		return;
 	}
 }
-// Method Definition Index: 75813
+// Method Definition Index: 75806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdateScale_mE2864588BA3FA3537AE6ECB80AC2B3C6869815A8 (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_scale, bool ___1_move, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:168>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_scale;
 		__this->____scaleGoal = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:169>
 		bool L_1 = ___1_move;
 		if (!L_1)
 		{
@@ -14985,27 +13962,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdateScale_mE2864588B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:170>
 		VirtualActionInvoker0::Invoke(26, __this);
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:171>
 		return;
 	}
 }
-// Method Definition Index: 75814
+// Method Definition Index: 75807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdatePositionAndRotation_m5B5AEAFDA541127E3423D88976F61B93F5D05ED0 (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, bool ___2_move, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:182>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
 		VirtualActionInvoker2< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, bool >::Invoke(20, __this, L_0, (bool)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:183>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___1_rotation;
 		VirtualActionInvoker2< Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, bool >::Invoke(21, __this, L_1, (bool)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:184>
 		bool L_2 = ___2_move;
 		if (!L_2)
 		{
@@ -15013,34 +13985,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdatePositionAndRotat
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:185>
 		VirtualActionInvoker0::Invoke(26, __this);
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:186>
 		return;
 	}
 }
-// Method Definition Index: 75815
+// Method Definition Index: 75808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdatePositionRotationAndScale_m199E6C1F1FA0FCD7042CF64B0F00FFBB321B7ADF (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_scale, bool ___3_move, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:198>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___1_rotation;
 		VirtualActionInvoker3< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, bool >::Invoke(23, __this, L_0, L_1, (bool)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:199>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___2_scale;
 		VirtualActionInvoker2< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, bool >::Invoke(22, __this, L_2, (bool)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:200>
 		VirtualActionInvoker0::Invoke(26, __this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:201>
 		return;
 	}
 }
-// Method Definition Index: 75816
+// Method Definition Index: 75809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdateEdgeAvoidance_m4064BDB545E3E7734FEF65680DA7DAA042F6659D (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD ___0_edgeAvoidanceOverride, bool ___1_move, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15057,7 +14023,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_UpdateEdgeAvoidance_m4
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:210>
 		bool L_0;
 		L_0 = Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_inline((&___0_edgeAvoidanceOverride), Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_RuntimeMethod_var);
 		if (L_0)
@@ -15089,7 +14054,6 @@ IL_0019:
 		Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73((&L_3), G_B3_0, Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73_RuntimeMethod_var);
 		NullCheck(G_B3_1);
 		G_B3_1->____edgeAvoidance = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:211>
 		bool L_4 = ___1_move;
 		if (!L_4)
 		{
@@ -15097,17 +14061,15 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:212>
 		VirtualActionInvoker0::Invoke(26, __this);
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:213>
 		return;
 	}
 }
-// Method Definition Index: 75817
+// Method Definition Index: 75810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_Move_m3620B635D1633C806036FBC9DA3E769B9CD34A54 (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15124,17 +14086,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_Move_m3620B635D1633C80
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B4_0;
 	memset((&G_B4_0), 0, sizeof(G_B4_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:221>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___RectTransform;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->____scaleGoal;
 		NullCheck(L_0);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:223>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->____positionGoal;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:224>
 		bool L_4 = __this->___UseEdgeAvoidance;
 		if (!L_4)
 		{
@@ -15142,7 +14101,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer_Move_m3620B635D1633C80
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:226>
 		Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD* L_5 = (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD*)(&__this->____edgeAvoidance);
 		bool L_6;
 		L_6 = Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_inline(L_5, Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_RuntimeMethod_var);
@@ -15168,7 +14126,6 @@ IL_003a:
 IL_0045:
 	{
 		V_1 = G_B4_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:227>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = __this->___RectTransform;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = __this->____positionGoal;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12 = V_1;
@@ -15181,7 +14138,6 @@ IL_0045:
 
 IL_005e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:230>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = __this->___RectTransform;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
@@ -15189,17 +14145,14 @@ IL_005e:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = __this->____rotationGoal;
 		NullCheck(L_15);
 		Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A(L_15, L_17, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:231>
 		return;
 	}
 }
-// Method Definition Index: 75818
+// Method Definition Index: 75811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer__ctor_m7AB7C37BA01EC7A3ADA9EFAC566FBE96E533CAC1 (FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:24>
 		__this->___UseEdgeAvoidance = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingContainer.cs:47>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		__this->____scaleGoal = L_0;
@@ -15215,7 +14168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingContainer__ctor_m7AB7C37BA01EC7A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75819
+// Method Definition Index: 75812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingImage_SetSprite_mCB45A6720A0345DFF52FF555438F52F7EA0A9648 (FloatingImage_tCB44A89A44F39DAECF4D19D9863A268A110E1442* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_sprite, Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE ___1_sizeOverride, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15232,12 +14185,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingImage_SetSprite_mCB45A6720A0345D
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_0;
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingImage.cs:24>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___Renderer;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_1 = ___0_sprite;
 		NullCheck(L_0);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingImage.cs:25>
 		bool L_2;
 		L_2 = Nullable_1_get_HasValue_m6B76086B0E863AB1D634FD03E30154F230070435_inline((&___1_sizeOverride), Nullable_1_get_HasValue_m6B76086B0E863AB1D634FD03E30154F230070435_RuntimeMethod_var);
 		if (!L_2)
@@ -15273,7 +14224,6 @@ IL_001e:
 IL_0037:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingImage.cs:27>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_10 = __this->___Renderer;
 		NullCheck(L_10);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11;
@@ -15283,11 +14233,10 @@ IL_0037:
 		L_13 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_12, NULL);
 		NullCheck(L_11);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_11, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/FloatingImage.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 75820
+// Method Definition Index: 75813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingImage__ctor_m127A86BFDBBA0FC19DBB6FBA5D3E88FF9139D5C9 (FloatingImage_tCB44A89A44F39DAECF4D19D9863A268A110E1442* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15303,55 +14252,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingImage__ctor_m127A86BFDBBA0FC19DB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75821
+// Method Definition Index: 75814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ImageButtonData_get_DisplayImage_m91A295FB1D37D025284060760B13C5EFA0728F0B (ImageButtonData_tB44D13315533BA4A897470789513A2FAAD2ED6BC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ImageButtonData.cs:12>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = __this->___U3CDisplayImageU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75822
+// Method Definition Index: 75815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageButtonData_set_DisplayImage_m3CCD38D8DE9B1EF7994751C885966A1D9935A0E8 (ImageButtonData_tB44D13315533BA4A897470789513A2FAAD2ED6BC* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ImageButtonData.cs:12>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = ___0_value;
 		__this->___U3CDisplayImageU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDisplayImageU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75823
+// Method Definition Index: 75816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageButtonData_Initialize_mB1EDA67CE50B792FDA6F957B84FF8391FE47E794 (ImageButtonData_tB44D13315533BA4A897470789513A2FAAD2ED6BC* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_sprite, String_t* ___1_text, PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* ___2_callback, String_t* ___3_key, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ImageButtonData.cs:24>
 		String_t* L_0 = ___1_text;
 		PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* L_1 = ___2_callback;
 		String_t* L_2 = ___3_key;
 		ButtonData_Initialize_m36EF22ADEF431AE452DFB6B3BD773B0ED1961A0E(__this, L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ImageButtonData.cs:25>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_3 = ___0_sprite;
 		ImageButtonData_set_DisplayImage_m3CCD38D8DE9B1EF7994751C885966A1D9935A0E8_inline(__this, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ImageButtonData.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 75824
+// Method Definition Index: 75817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageButtonData_ResetState_mD002B7ED025781AE317A58F6847394F63881AA31 (ImageButtonData_tB44D13315533BA4A897470789513A2FAAD2ED6BC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ImageButtonData.cs:30>
 		ButtonData_ResetState_m43986AC19CA911CE374A43942929B2FF56DD5F7D(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ImageButtonData.cs:31>
 		ImageButtonData_set_DisplayImage_m3CCD38D8DE9B1EF7994751C885966A1D9935A0E8_inline(__this, (Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ImageButtonData.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 75825
+// Method Definition Index: 75818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageButtonData__ctor_m867EA701168D40003754C1186B67FF2263B85AFA (ImageButtonData_tB44D13315533BA4A897470789513A2FAAD2ED6BC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15367,33 +14308,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageButtonData__ctor_m867EA701168D40003
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75826
+// Method Definition Index: 75819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizableContainer_SetSizeAndShow_m119C249DD47DB9F0335702B24684227AC7DBF8EF (ResizableContainer_t634A38C6B576E1142CF1F6EAB8964A75134FC626* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_size, bool ___1_ignoreSizeLimits, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:30>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_size;
 		bool L_1 = ___1_ignoreSizeLimits;
 		VirtualActionInvoker2< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool >::Invoke(27, __this, L_0, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 75827
+// Method Definition Index: 75820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizableContainer_ResizeAndShow_mA7B3CB0C47D0FE83D034F28FF0E56C361936A5F9 (ResizableContainer_t634A38C6B576E1142CF1F6EAB8964A75134FC626* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_desiredSize, bool ___1_ignoreSizeLimits, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:38>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_desiredSize;
 		float L_1 = L_0.___x;
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:39>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_desiredSize;
 		float L_3 = L_2.___y;
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:41>
 		float L_4 = V_0;
 		FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A* L_5 = (FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A*)(&__this->___SizeLimits);
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96* L_6 = (FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96*)(&L_5->___X);
@@ -15404,7 +14340,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizableContainer_ResizeAndShow_mA7B3CB
 		float L_11;
 		L_11 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_4, L_7, L_10, NULL);
 		V_0 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:42>
 		float L_12 = V_1;
 		FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A* L_13 = (FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A*)(&__this->___SizeLimits);
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96* L_14 = (FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96*)(&L_13->___Y);
@@ -15415,7 +14350,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizableContainer_ResizeAndShow_mA7B3CB
 		float L_19;
 		L_19 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_12, L_15, L_18, NULL);
 		V_1 = L_19;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:43>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_20 = ((FloatingContainer_tD4E61098F9070AA28CF23BB647982FEECE88483B*)__this)->___RectTransform;
 		float L_21 = V_0;
 		float L_22 = V_1;
@@ -15424,25 +14358,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizableContainer_ResizeAndShow_mA7B3CB
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_23), L_21, L_22, NULL);
 		NullCheck(L_20);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_20, L_23, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:44>
 		FloatingContainer_Move_m3620B635D1633C806036FBC9DA3E769B9CD34A54(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:45>
 		CanvasGroupFader_Show_mF508138AB55CB17A44D8BCA6ABF413EB532B7BFD(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 75828
+// Method Definition Index: 75821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizableContainer__ctor_mB830AF0D593DB0E9DE516E9D556CD625EA6BCCC1 (ResizableContainer_t634A38C6B576E1142CF1F6EAB8964A75134FC626* __this, const RuntimeMethod* method) 
 {
 	FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:14>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:15>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:16>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:17>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ResizableContainer.cs:18>
 		il2cpp_codegen_initobj((&V_0), sizeof(FloatRange2D_tBADBA0613562F3346F4E01280E0166B1D72D181A));
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 L_0;
 		memset((&L_0), 0, sizeof(L_0));
@@ -15466,20 +14392,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ResizableContainer__ctor_mB830AF0D593DB0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75829
+// Method Definition Index: 75822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TabGroupAttribute__ctor_m0CC99B99330A847C739F1F28C5A8F345D4E63397 (TabGroupAttribute_t965E5C30D93B9FAFDFDBB70678EEC0C3BE415084* __this, String_t* ___0_name, bool ___1_foldEverything, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:12>
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:14>
 		bool L_0 = ___1_foldEverything;
 		__this->___foldEverything = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:15>
 		String_t* L_1 = ___0_name;
 		__this->___name = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___name), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:16>
 		return;
 	}
 }
@@ -15491,81 +14413,70 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TabGroupAttribute__ctor_m0CC99B99330A847
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75830
+// Method Definition Index: 75823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ShowIfAttribute_get_comparedPropertyName_m547D2681B57700C9910AAA34E48EF896254138C1 (ShowIfAttribute_t12DA64BC8C44237D63C2165A37907C41446DA7B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:22>
 		String_t* L_0 = __this->___U3CcomparedPropertyNameU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75831
+// Method Definition Index: 75824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowIfAttribute_set_comparedPropertyName_m536618196E939E18F32714A448ADE12A7F8A7865 (ShowIfAttribute_t12DA64BC8C44237D63C2165A37907C41446DA7B2* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:22>
 		String_t* L_0 = ___0_value;
 		__this->___U3CcomparedPropertyNameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcomparedPropertyNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75832
+// Method Definition Index: 75825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ShowIfAttribute_get_comparedValue_m576E623FAE68314233CE523F17B2A6EC5F6FA74E (ShowIfAttribute_t12DA64BC8C44237D63C2165A37907C41446DA7B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:23>
 		RuntimeObject* L_0 = __this->___U3CcomparedValueU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75833
+// Method Definition Index: 75826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowIfAttribute_set_comparedValue_mCA679812033A865EAFC4707699AB6ED080D57392 (ShowIfAttribute_t12DA64BC8C44237D63C2165A37907C41446DA7B2* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:23>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CcomparedValueU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcomparedValueU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75834
+// Method Definition Index: 75827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ShowIfAttribute_get_disablingType_m15B4B585D5DB9598BC9DCB2DAFA0495602D1B677 (ShowIfAttribute_t12DA64BC8C44237D63C2165A37907C41446DA7B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:24>
 		int32_t L_0 = __this->___U3CdisablingTypeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75835
+// Method Definition Index: 75828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowIfAttribute_set_disablingType_m78619C9122F81CBCC5D533FECC2E1E1EB69699DA (ShowIfAttribute_t12DA64BC8C44237D63C2165A37907C41446DA7B2* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:24>
 		int32_t L_0 = ___0_value;
 		__this->___U3CdisablingTypeU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 75836
+// Method Definition Index: 75829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShowIfAttribute__ctor_mF2BC04C19F4CDAE3CB03F018E66711C84A609985 (ShowIfAttribute_t12DA64BC8C44237D63C2165A37907C41446DA7B2* __this, String_t* ___0_comparedPropertyName, RuntimeObject* ___1_comparedValue, int32_t ___2_disablingType, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:33>
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:35>
 		String_t* L_0 = ___0_comparedPropertyName;
 		ShowIfAttribute_set_comparedPropertyName_m536618196E939E18F32714A448ADE12A7F8A7865_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:36>
 		RuntimeObject* L_1 = ___1_comparedValue;
 		ShowIfAttribute_set_comparedValue_mCA679812033A865EAFC4707699AB6ED080D57392_inline(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:37>
 		int32_t L_2 = ___2_disablingType;
 		ShowIfAttribute_set_disablingType_m78619C9122F81CBCC5D533FECC2E1E1EB69699DA_inline(__this, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:38>
 		return;
 	}
 }
@@ -15839,7 +14750,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_width_m620D6755137
 		return L_0;
 	}
 }
-// Method Definition Index: 68472
+// Method Definition Index: 68465
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GridLayoutGroup_get_cellSize_m30D8A051F44C8EE0C87B6D6CDDC00C2592A78B6D_inline (GridLayoutGroup_tEE9C68F88C13E6BD716BBD356D008ACFB63F1940* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16608,7 +15519,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_0;
 	}
 }
-// Method Definition Index: 75336
+// Method Definition Index: 75329
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Bytes_RandomExclusiveRange_m33BACDB1F45A5069DC1F72821C3229A508C41D5A_inline (uint8_t ___0_minimum, uint8_t ___1_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16618,7 +15529,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Bytes_RandomExclusiveRang
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bytes.cs:38>
 		uint8_t L_0 = ___0_minimum;
 		uint8_t L_1 = ___1_maximum;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
@@ -16627,7 +15537,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Bytes_RandomExclusiveRang
 		return (uint8_t)((int32_t)(uint8_t)L_2);
 	}
 }
-// Method Definition Index: 75335
+// Method Definition Index: 75328
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Bytes_RandomInclusiveRange_m604B05018D02EAC81F3983308388F98F3717C7F2_inline (uint8_t ___0_minimum, uint8_t ___1_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16637,7 +15547,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Bytes_RandomInclusiveRang
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bytes.cs:29>
 		uint8_t L_0 = ___0_minimum;
 		uint8_t L_1 = ___1_maximum;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
@@ -16646,7 +15555,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Bytes_RandomInclusiveRang
 		return (uint8_t)((int32_t)(uint8_t)L_2);
 	}
 }
-// Method Definition Index: 75337
+// Method Definition Index: 75330
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Bytes_Clamp_mD9D55806F6071F2812A12E23D36B66D8E7DA8236_inline (uint8_t ___0_value, uint8_t ___1_minimum, uint8_t ___2_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16656,7 +15565,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Bytes_Clamp_mD9D55806F607
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Bytes.cs:48>
 		uint8_t L_0 = ___0_value;
 		uint8_t L_1 = ___1_minimum;
 		uint8_t L_2 = ___2_maximum;
@@ -16666,20 +15574,18 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t Bytes_Clamp_mD9D55806F607
 		return (uint8_t)((int32_t)(uint8_t)L_3);
 	}
 }
-// Method Definition Index: 75636
+// Method Definition Index: 75629
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t CanvasGroupFader_get_FadeGoal_m995F4C89615A3735054CE3A41F972BBB9A07D3C0_inline (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:24>
 		int32_t L_0 = __this->___U3CFadeGoalU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75637
+// Method Definition Index: 75630
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CanvasGroupFader_set_FadeGoal_mC111C5B45030759E2E1E8C30DC9513FA325DF58B_inline (CanvasGroupFader_tCD76CC43FDAA13FEC189AD03AC386BAF53ED258B* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/CanvasGroupFader.cs:24>
 		int32_t L_0 = ___0_value;
 		__this->___U3CFadeGoalU3Ek__BackingField = L_0;
 		return;
@@ -16727,7 +15633,7 @@ IL_0026:
 		return L_11;
 	}
 }
-// Method Definition Index: 75678
+// Method Definition Index: 75671
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ResizeDelegate_Invoke_m73EA3C7483D6F50719066DCF51ECF1705AE5183A_inline (ResizeDelegate_t7CD11F7C85427FE4344D3443608603D762AF3800* __this, bool ___0_complete, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, bool, const RuntimeMethod*);
@@ -16754,7 +15660,7 @@ IL_0010:
 		return L_5;
 	}
 }
-// Method Definition Index: 75537
+// Method Definition Index: 75530
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t UInts_RandomExclusiveRange_m6E14189270C8C1B2DBCE98942F81D341AB833B4C_inline (uint32_t ___0_minimum, uint32_t ___1_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16764,7 +15670,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t UInts_RandomExclusiveRan
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:36>
 		uint32_t L_0 = ___0_minimum;
 		uint32_t L_1 = ___1_maximum;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
@@ -16773,7 +15678,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t UInts_RandomExclusiveRan
 		return L_2;
 	}
 }
-// Method Definition Index: 75536
+// Method Definition Index: 75529
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t UInts_RandomInclusiveRange_m7FD80A55FFCA8094B5CAD6FAB9971E70764D2FD4_inline (uint32_t ___0_minimum, uint32_t ___1_maximum, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16783,7 +15688,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t UInts_RandomInclusiveRan
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/UInts.cs:27>
 		uint32_t L_0 = ___0_minimum;
 		uint32_t L_1 = ___1_maximum;
 		il2cpp_codegen_runtime_class_init_inline(Ints_tC6848D8097CAB468EA0114D30F81F9746AFCF275_il2cpp_TypeInfo_var);
@@ -16792,38 +15696,35 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t UInts_RandomInclusiveRan
 		return L_2;
 	}
 }
-// Method Definition Index: 75793
+// Method Definition Index: 75786
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ButtonData_set_Text_m9BAE0ED3909A19D6ED82519C3965D3528C937824_inline (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:9>
 		String_t* L_0 = ___0_value;
 		__this->___U3CTextU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTextU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75795
+// Method Definition Index: 75788
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ButtonData_set_Key_m2F659F0E7DAA4BE038C38EAE97D110B9D4AE9E1A_inline (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:20>
 		String_t* L_0 = ___0_value;
 		__this->___U3CKeyU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CKeyU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75794
+// Method Definition Index: 75787
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ButtonData_get_Key_m4FF6C98061FC55F5897F470A14517FE9A20B27DE_inline (ButtonData_tFEC14268F81168FB4887C39E428C2D73CEFA7F11* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ButtonData.cs:20>
 		String_t* L_0 = __this->___U3CKeyU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 75802
+// Method Definition Index: 75795
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PressedDelegate_Invoke_m6414BB491C0BE9DAEF1F3DBDEA910AC4279EA825_inline (PressedDelegate_tB8943BA0A235635A19B8F760D8021C6BC71F8E7D* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, const RuntimeMethod*);
@@ -16863,50 +15764,46 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_6;
 	}
 }
-// Method Definition Index: 75822
+// Method Definition Index: 75815
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ImageButtonData_set_DisplayImage_m3CCD38D8DE9B1EF7994751C885966A1D9935A0E8_inline (ImageButtonData_tB44D13315533BA4A897470789513A2FAAD2ED6BC* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/Canvases/ImageButtonData.cs:12>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = ___0_value;
 		__this->___U3CDisplayImageU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDisplayImageU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75831
+// Method Definition Index: 75824
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ShowIfAttribute_set_comparedPropertyName_m536618196E939E18F32714A448ADE12A7F8A7865_inline (ShowIfAttribute_t12DA64BC8C44237D63C2165A37907C41446DA7B2* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:22>
 		String_t* L_0 = ___0_value;
 		__this->___U3CcomparedPropertyNameU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcomparedPropertyNameU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75833
+// Method Definition Index: 75826
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ShowIfAttribute_set_comparedValue_mCA679812033A865EAFC4707699AB6ED080D57392_inline (ShowIfAttribute_t12DA64BC8C44237D63C2165A37907C41446DA7B2* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:23>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CcomparedValueU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CcomparedValueU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 75835
+// Method Definition Index: 75828
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ShowIfAttribute_set_disablingType_m78619C9122F81CBCC5D533FECC2E1E1EB69699DA_inline (ShowIfAttribute_t12DA64BC8C44237D63C2165A37907C41446DA7B2* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Editor/PlaceholderAttributes.cs:24>
 		int32_t L_0 = ___0_value;
 		__this->___U3CdisablingTypeU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 77153
+// Method Definition Index: 77148
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HashSet_1_get_Count_m41CC85EEB7855CEFA3BC7A32F115387939318ED3_gshared_inline (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16968,11 +15865,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 75563
+// Method Definition Index: 75556
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ListStack_1_get_Entries_m5F7AF6EDF64DB6472283A9CA28ADF88D68C22959_gshared_inline (ListStack_1_t6543B5304E8418236EAC2FEBBC81B53D909BC453* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/ObjectPooling/Scripts/ListStack.cs:24>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->___U3CEntriesU3Ek__BackingField;
 		return L_0;
 	}

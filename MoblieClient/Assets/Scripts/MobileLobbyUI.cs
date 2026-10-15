@@ -49,7 +49,7 @@ public class MobileLobbyUI : MonoBehaviour
         SetupVideo();
 
         // 처음 한 번만 튜토리얼 표시
-        if (PlayerPrefs.GetInt("TutorialShown", 0) == 0)
+        if (!DataManager.Instance.TutorialShown)
         {
             ShowTutorialPopup();
         }
@@ -61,8 +61,7 @@ public class MobileLobbyUI : MonoBehaviour
 
     void CloseTutorialPopup()
     {
-        PlayerPrefs.SetInt("TutorialShown", 1);
-        PlayerPrefs.Save();
+        DataManager.Instance.TutorialShown = true;
         DOTween.PlayBackwards("tutorialOpen");
         DOVirtual.DelayedCall(0.35f, () =>
         {

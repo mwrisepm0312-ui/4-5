@@ -18349,7 +18349,6 @@ IL2CPP_EXTERN_C  void InspectedTypeScope_1_Dispose_m59F33FE5783A60AF674C2CA01677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_Read_mCDC5D1C95C6F4CD58DFE8C4CFC89B4248E589B9E_gshared (IntSerializer_1_t9788D469A550807DA89801328B75F0F4CDD5CD13* __this, RuntimeObject* ___0_inf, NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* ___1_r, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:361>
 		Action_2_tAC461AE4F7B507965CE2E6A32853473F8C02CD75* L_0 = ((FastCallSpecific_2_tE5E24DEDCF7ADA667AFD8649A3262AF53370F73A*)__this)->___Setter;
 		RuntimeObject* L_1 = ___0_inf;
 		NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_2 = ___1_r;
@@ -18358,7 +18357,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_Read_mCDC5D1C95C6F4CD58D
 		L_3 = NetDataReader_GetInt_m8E8B9F851B92380CF65EB83F24559B6BEAC853C8(L_2, NULL);
 		NullCheck(L_0);
 		Action_2_Invoke_m88484A213EB00FF7254FE3DB935BFB06DD3F5753_inline(L_0, L_1, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:362>
 		return;
 	}
 }
@@ -18366,7 +18364,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_Read_mCDC5D1C95C6F4CD58D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_Write_mC4520418C2C7E62D7394D6E1B76045845A5639A7_gshared (IntSerializer_1_t9788D469A550807DA89801328B75F0F4CDD5CD13* __this, RuntimeObject* ___0_inf, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___1_w, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:366>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___1_w;
 		Func_2_t9A0D493A82DCC47C9C819A3B045E02D9B5DDCE1B* L_1 = ((FastCallSpecific_2_tE5E24DEDCF7ADA667AFD8649A3262AF53370F73A*)__this)->___Getter;
 		RuntimeObject* L_2 = ___0_inf;
@@ -18375,7 +18372,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_Write_mC4520418C2C7E62D7
 		L_3 = Func_2_Invoke_m5216F6C7BCECCCED81384876C2968E0D4358618B_inline(L_1, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
 		NullCheck(L_0);
 		NetDataWriter_Put_m6B18A1D9928BFDF4283F1B56D72F1256B0CAB8DC(L_0, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:367>
 		return;
 	}
 }
@@ -18383,7 +18379,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_Write_mC4520418C2C7E62D7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_ReadArray_m9CFC1B918F2803E78AAFE70D89DD924C5C786354_gshared (IntSerializer_1_t9788D469A550807DA89801328B75F0F4CDD5CD13* __this, RuntimeObject* ___0_inf, NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* ___1_r, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:371>
 		Action_2_t6A4D4026CEE6584C58C0F2EB3EAAD5298FE4160E* L_0 = ((FastCallSpecific_2_tE5E24DEDCF7ADA667AFD8649A3262AF53370F73A*)__this)->___SetterArr;
 		RuntimeObject* L_1 = ___0_inf;
 		NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_2 = ___1_r;
@@ -18392,7 +18387,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_ReadArray_m9CFC1B918F280
 		L_3 = NetDataReader_GetIntArray_mC83274C3BD5B460DC1CFC6362FC24E0F9B6E5F1C(L_2, NULL);
 		NullCheck(L_0);
 		Action_2_Invoke_m14676A41720F8F3CE5A1D46D97FD031A4F1D5FAB_inline(L_0, L_1, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:372>
 		return;
 	}
 }
@@ -18400,7 +18394,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_ReadArray_m9CFC1B918F280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_WriteArray_mE506F23B9807A6C78B7D17F68C48B78A5A007409_gshared (IntSerializer_1_t9788D469A550807DA89801328B75F0F4CDD5CD13* __this, RuntimeObject* ___0_inf, NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* ___1_w, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:376>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___1_w;
 		Func_2_tF9102A0B052D2E48B9DC94B34BFB73700FDBD786* L_1 = ((FastCallSpecific_2_tE5E24DEDCF7ADA667AFD8649A3262AF53370F73A*)__this)->___GetterArr;
 		RuntimeObject* L_2 = ___0_inf;
@@ -18409,7 +18402,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_WriteArray_mE506F23B9807
 		L_3 = Func_2_Invoke_m3207DC8C9C136CA63FF797FDF0CE1CBBD57D4BFE_inline(L_1, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
 		NullCheck(L_0);
 		NetDataWriter_PutArray_m15C7D520D0B99EFD893191B3438741A7C8B39ABF(L_0, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:377>
 		return;
 	}
 }
@@ -18435,7 +18427,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_Read_m5CF0756484B290D879
 	const uint32_t SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2));
 	const Il2CppFullySharedGenericAny L_1 = alloca(SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC);
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:361>
 		Action_2_t983A40F124DCF06E5CEB4DE585CE7204D7F7E25C* L_0 = ((FastCallSpecific_2_tD7A860593C1B8BA6259D18145BFE994236B7A649*)__this)->___Setter;
 		il2cpp_codegen_memcpy(L_1, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2)) ? ___0_inf : &___0_inf), SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC);
 		NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_2 = ___1_r;
@@ -18444,7 +18435,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_Read_m5CF0756484B290D879
 		L_3 = NetDataReader_GetInt_m8E8B9F851B92380CF65EB83F24559B6BEAC853C8(L_2, NULL);
 		NullCheck(L_0);
 		InvokerActionInvoker2< Il2CppFullySharedGenericAny, int32_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)), il2cpp_rgctx_method(method->klass->rgctx_data, 3), L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2)) ? L_1: *(void**)L_1), L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:362>
 		return;
 	}
 }
@@ -18454,7 +18444,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_Write_m62932403CC328B491
 	const uint32_t SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2));
 	const Il2CppFullySharedGenericAny L_2 = alloca(SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC);
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:366>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___1_w;
 		Func_2_t8DB808B3690BFDBD7B936631B430453B90DBBDE7* L_1 = ((FastCallSpecific_2_tD7A860593C1B8BA6259D18145BFE994236B7A649*)__this)->___Getter;
 		il2cpp_codegen_memcpy(L_2, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2)) ? ___0_inf : &___0_inf), SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC);
@@ -18463,7 +18452,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_Write_m62932403CC328B491
 		L_3 = InvokerFuncInvoker1< int32_t, Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)), il2cpp_rgctx_method(method->klass->rgctx_data, 5), L_1, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2)) ? L_2: *(void**)L_2));
 		NullCheck(L_0);
 		NetDataWriter_Put_m6B18A1D9928BFDF4283F1B56D72F1256B0CAB8DC(L_0, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:367>
 		return;
 	}
 }
@@ -18473,7 +18461,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_ReadArray_m437B865028B2E
 	const uint32_t SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2));
 	const Il2CppFullySharedGenericAny L_1 = alloca(SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC);
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:371>
 		Action_2_t3FFACFC18FD4073396D5203897DD6ACADEEA5252* L_0 = ((FastCallSpecific_2_tD7A860593C1B8BA6259D18145BFE994236B7A649*)__this)->___SetterArr;
 		il2cpp_codegen_memcpy(L_1, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2)) ? ___0_inf : &___0_inf), SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC);
 		NetDataReader_tD55989DE95B2220F4CF225BADBA925FD27B0A43F* L_2 = ___1_r;
@@ -18482,7 +18469,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_ReadArray_m437B865028B2E
 		L_3 = NetDataReader_GetIntArray_mC83274C3BD5B460DC1CFC6362FC24E0F9B6E5F1C(L_2, NULL);
 		NullCheck(L_0);
 		InvokerActionInvoker2< Il2CppFullySharedGenericAny, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)), il2cpp_rgctx_method(method->klass->rgctx_data, 7), L_0, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2)) ? L_1: *(void**)L_1), L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:372>
 		return;
 	}
 }
@@ -18492,7 +18478,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_WriteArray_mEE2E83DDD4C5
 	const uint32_t SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2));
 	const Il2CppFullySharedGenericAny L_2 = alloca(SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC);
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:376>
 		NetDataWriter_tE1B079AE257D94B455572C81FB71D615F1BA0F3C* L_0 = ___1_w;
 		Func_2_tC9BA57235150B78D085A44BEADAC944A502DF8D3* L_1 = ((FastCallSpecific_2_tD7A860593C1B8BA6259D18145BFE994236B7A649*)__this)->___GetterArr;
 		il2cpp_codegen_memcpy(L_2, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2)) ? ___0_inf : &___0_inf), SizeOf_T_tE6537CF95EFE0B8AA2D00947B8D5AEF4C9FF7EDC);
@@ -18501,7 +18486,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1_WriteArray_mEE2E83DDD4C5
 		L_3 = InvokerFuncInvoker1< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, Il2CppFullySharedGenericAny >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)), il2cpp_rgctx_method(method->klass->rgctx_data, 9), L_1, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2)) ? L_2: *(void**)L_2));
 		NullCheck(L_0);
 		NetDataWriter_PutArray_m15C7D520D0B99EFD893191B3438741A7C8B39ABF(L_0, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Transporting/Transports/Tugboat/LiteNetLib/Utils/NetSerializer.cs:377>
 		return;
 	}
 }
@@ -18521,7 +18505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntSerializer_1__ctor_mE61B30B833F2CE7D3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79129
+// Method Definition Index: 79124
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntegratedSubsystemDescriptor_1__ctor_m94FAA0F6D63A0144035D2645AAE00202B36BE7DC_gshared (IntegratedSubsystemDescriptor_1_t70BCBD395B99126866E0354041C8DCD1CE80A714* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18537,7 +18521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntegratedSubsystemDescriptor_1__ctor_m9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79126
+// Method Definition Index: 79121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntegratedSubsystem_1__ctor_mA130811A078A40712D15BFE67E73D0517AB0E989_gshared (IntegratedSubsystem_1_t6CAFC4ADB928A1CB6A1BAA66C12250FB6C841842* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18553,7 +18537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntegratedSubsystem_1__ctor_mA130811A078
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 79126
+// Method Definition Index: 79121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntegratedSubsystem_1__ctor_m7CD60BB3E8804A8025BDFBB0D4A7105E49241272_gshared (IntegratedSubsystem_1_t3B907B798DD93755882D579835AFAD39127E75F7* __this, const RuntimeMethod* method) 
 {
 	{

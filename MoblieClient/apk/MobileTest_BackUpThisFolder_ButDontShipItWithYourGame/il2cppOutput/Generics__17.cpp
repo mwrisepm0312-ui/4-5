@@ -13914,7 +13914,7 @@ IL_0031:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76459
+// Method Definition Index: 76454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ComponentStateSync_1_get_Enabled_m71869963A5B6C116D72F52A59DB02E03F85CEB55_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13924,7 +13924,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ComponentStateSync_1_get_Enabled_m718699
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:23>
 		RuntimeObject* L_0;
 		L_0 = ComponentStateSync_1_get_Component_mF55F60BC3FBEE42D826CD6CE3EBAA3EAA8B0E64E_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -13946,37 +13945,34 @@ IL_001a:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76460
+// Method Definition Index: 76455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_set_Enabled_m6E7708E1D558EEFC344B9B01D8D65E817AB72E8A_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:24>
 		bool L_0 = ___0_value;
 		ComponentStateSync_1_SetState_mD4EAFE7CEED6C40C7BA62D1C51466D0E44EF0F18(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		return;
 	}
 }
-// Method Definition Index: 76461
+// Method Definition Index: 76456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ComponentStateSync_1_get_Component_mF55F60BC3FBEE42D826CD6CE3EBAA3EAA8B0E64E_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:29>
 		RuntimeObject* L_0 = __this->___U3CComponentU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76462
+// Method Definition Index: 76457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_set_Component_m23F60B377C6462F44A1F2C9AAFE4C4A89F4C8526_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:29>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CComponentU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CComponentU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76463
+// Method Definition Index: 76458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_add_OnChange_m3920D51CAE2113012AF299187E5400066095CF23_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* ___0_value, const RuntimeMethod* method) 
 {
 	StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* V_0 = NULL;
@@ -14013,7 +14009,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76464
+// Method Definition Index: 76459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_remove_OnChange_m2C28BF72B93ADD3E6AC35A593032352FD3C54C43_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* ___0_value, const RuntimeMethod* method) 
 {
 	StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* V_0 = NULL;
@@ -14050,18 +14046,16 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76465
+// Method Definition Index: 76460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_Initialize_m745D8CA295E55CF0BB4F391FE4CADEF46C15FF7B_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, RuntimeObject* ___0_component, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:48>
 		RuntimeObject* L_0 = ___0_component;
 		ComponentStateSync_1_set_Component_m23F60B377C6462F44A1F2C9AAFE4C4A89F4C8526_inline(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 76466
+// Method Definition Index: 76461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_SetState_mD4EAFE7CEED6C40C7BA62D1C51466D0E44EF0F18_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, bool ___0_enabled, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14073,7 +14067,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_SetState_mD4EAFE7CE
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:57>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0 = ((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this)->___NetworkManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14084,13 +14077,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_SetState_mD4EAFE7CE
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:58>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:60>
 		RuntimeObject* L_2;
 		L_2 = ComponentStateSync_1_get_Component_mF55F60BC3FBEE42D826CD6CE3EBAA3EAA8B0E64E_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -14102,18 +14093,15 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:61>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_4 = ((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this)->___NetworkManager;
 		NetworkManagerExtensions_LogError_mD7BE80E7A765BD00754AB02E7E2252865C9B6568(L_4, _stringLiteralCB5C198C64DD1B6C45CA790283889D4E6FB344F7, NULL);
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:64>
 		bool L_5;
 		L_5 = ComponentStateSync_1_GetState_m6EB350FC6DA708852BA8915A34C640F12A2843C2(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		V_0 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:65>
 		bool L_6 = ___0_enabled;
 		bool L_7 = V_0;
 		if ((!(((uint32_t)L_6) == ((uint32_t)L_7))))
@@ -14122,33 +14110,28 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:66>
 		return;
 	}
 
 IL_003e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:69>
 		RuntimeObject* L_8;
 		L_8 = ComponentStateSync_1_get_Component_mF55F60BC3FBEE42D826CD6CE3EBAA3EAA8B0E64E_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		bool L_9 = ___0_enabled;
 		NullCheck((Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA*)L_8);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A((Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA*)L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:70>
 		RuntimeObject* L_10;
 		L_10 = ComponentStateSync_1_get_Component_mF55F60BC3FBEE42D826CD6CE3EBAA3EAA8B0E64E_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		bool L_11 = V_0;
 		bool L_12 = ___0_enabled;
 		ComponentStateSync_1_AddOperation_m0569D3F906E82026CF0BBF0CD41B761C96A64A2E(__this, L_10, L_11, L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:71>
 		return;
 	}
 }
-// Method Definition Index: 76467
+// Method Definition Index: 76462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ComponentStateSync_1_GetState_m6EB350FC6DA708852BA8915A34C640F12A2843C2_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:79>
 		RuntimeObject* L_0;
 		L_0 = ComponentStateSync_1_get_Component_mF55F60BC3FBEE42D826CD6CE3EBAA3EAA8B0E64E_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		NullCheck((Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA*)L_0);
@@ -14157,7 +14140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ComponentStateSync_1_GetState_m6EB350FC6
 		return L_1;
 	}
 }
-// Method Definition Index: 76468
+// Method Definition Index: 76463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_AddOperation_m0569D3F906E82026CF0BBF0CD41B761C96A64A2E_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, RuntimeObject* ___0_component, bool ___1_prev, bool ___2_next, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14171,7 +14154,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_AddOperation_m0569D
 	StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* G_B7_0 = NULL;
 	StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* G_B6_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:87>
 		NullCheck((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this);
 		bool L_0;
 		L_0 = SyncBase_get_IsInitialized_m953427A1256C4170AF0C6289C83B74D67C9F33E1_inline((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this, NULL);
@@ -14181,13 +14163,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_AddOperation_m0569D
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:88>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:90>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1 = ((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this)->___NetworkManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -14208,22 +14188,17 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:92>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_5 = ((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this)->___NetworkManager;
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_5, _stringLiteralF65366778C101ECCD6BFC52FE30EA0BC930569C1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:93>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:96>
 		NullCheck((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this);
 		bool L_6;
 		L_6 = SyncBase_Dirty_mA90F50CFAADEBDA0872E940807D150A830F8B475((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:99>
 		V_0 = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:100>
 		StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* L_7 = __this->___OnChange;
 		StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* L_8 = L_7;
 		if (L_8)
@@ -14245,20 +14220,17 @@ IL_0049:
 		bool L_12 = V_0;
 		NullCheck(G_B7_0);
 		StateChanged_Invoke_mBEDFE11F8D57A8D61F01D41095A9A18948ACFB79_inline(G_B7_0, L_9, L_10, L_11, L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:101>
 		return;
 	}
 }
-// Method Definition Index: 76469
+// Method Definition Index: 76464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_WriteDelta_m7D4EA8972F6A96C1E0E3C9577E574D1A3197C9CF_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* ___0_writer, bool ___1_resetSyncTick, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:109>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_0 = ___0_writer;
 		bool L_1 = ___1_resetSyncTick;
 		NullCheck((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this);
 		SyncBase_WriteDelta_mB56F58D656BE83F98FAF749F4F4169596D15BB8F((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this, L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:110>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_2 = ___0_writer;
 		RuntimeObject* L_3;
 		L_3 = ComponentStateSync_1_get_Component_mF55F60BC3FBEE42D826CD6CE3EBAA3EAA8B0E64E_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
@@ -14267,23 +14239,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_WriteDelta_m7D4EA89
 		L_4 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1((Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA*)L_3, NULL);
 		NullCheck((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_2);
 		Writer_WriteBoolean_m817C7111AA3410A0C4C1C17FA98789A08D08B0D2((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_2, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:111>
 		return;
 	}
 }
-// Method Definition Index: 76470
+// Method Definition Index: 76465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_WriteFull_mD5F6A125F4158AD1E2252F699E7B3D914ACA5E22_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* ___0_writer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:122>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_0 = ___0_writer;
 		NullCheck((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this);
 		VirtualActionInvoker2< PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3*, bool >::Invoke(9, (SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this, L_0, (bool)0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:123>
 		return;
 	}
 }
-// Method Definition Index: 76471
+// Method Definition Index: 76466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_Read_m01FD23B97D1A65A39139E9FAF37F560F6D341DCE_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_reader, bool ___1_asServer, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -14294,22 +14263,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_Read_m01FD23B97D1A6
 	StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* G_B5_0 = NULL;
 	StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* G_B4_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:132>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_0 = ___0_reader;
 		bool L_1 = ___1_asServer;
 		NullCheck((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this);
 		SyncBase_SetReadArguments_m6C44D32322DC896CA791C10C710F3A75C197AEB8((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this, L_0, L_1, (&V_0), (&V_4), (&V_1), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:134>
 		bool L_2;
 		L_2 = ComponentStateSync_1_GetState_m6EB350FC6DA708852BA8915A34C640F12A2843C2(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		V_2 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:135>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_3 = ___0_reader;
 		NullCheck((Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED*)L_3);
 		bool L_4;
 		L_4 = Reader_ReadBoolean_m92C697DEC278FFB88C842D1553309A5F18F9A110((Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED*)L_3, NULL);
 		V_3 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:141>
 		bool L_5 = V_1;
 		if (!L_5)
 		{
@@ -14317,7 +14282,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_Read_m01FD23B97D1A6
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:142>
 		RuntimeObject* L_6;
 		L_6 = ComponentStateSync_1_get_Component_mF55F60BC3FBEE42D826CD6CE3EBAA3EAA8B0E64E_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		bool L_7 = V_3;
@@ -14327,7 +14291,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1_Read_m01FD23B97D1A6
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:144>
 		bool L_8 = V_0;
 		if (!L_8)
 		{
@@ -14335,7 +14298,6 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:145>
 		StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* L_9 = __this->___OnChange;
 		StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* L_10 = L_9;
 		if (L_10)
@@ -14362,19 +14324,17 @@ IL_003e:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:146>
 		return;
 	}
 }
-// Method Definition Index: 76472
+// Method Definition Index: 76467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ComponentStateSync_1_GetSerializedType_m91A04A8DEDDA5A5649836FBB1269E75F9123F7B2_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:152>
 		return NULL;
 	}
 }
-// Method Definition Index: 76473
+// Method Definition Index: 76468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentStateSync_1__ctor_m54F487DCEF229E8405B377CD86891240541E8CD7_gshared (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -30512,32 +30472,29 @@ IL_0028:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SyncBase_get_IsInitialized_m953427A1256C4170AF0C6289C83B74D67C9F33E1_inline (SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/Synchronizing/SyncBase.cs:19>
 		bool L_0 = __this->___U3CIsInitializedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76461
+// Method Definition Index: 76456
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* ComponentStateSync_1_get_Component_mF55F60BC3FBEE42D826CD6CE3EBAA3EAA8B0E64E_gshared_inline (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:29>
 		RuntimeObject* L_0 = __this->___U3CComponentU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76462
+// Method Definition Index: 76457
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ComponentStateSync_1_set_Component_m23F60B377C6462F44A1F2C9AAFE4C4A89F4C8526_gshared_inline (ComponentStateSync_1_t8559832DF97729CB9C2D3F30E275A24F63BAA6B2* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentStateSync.cs:29>
 		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CComponentU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CComponentU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76475
+// Method Definition Index: 76470
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StateChanged_Invoke_mBEDFE11F8D57A8D61F01D41095A9A18948ACFB79_gshared_inline (StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* __this, RuntimeObject* ___0_component, bool ___1_prevState, bool ___2_nextState, bool ___3_asServer, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, bool, bool, bool, const RuntimeMethod*);

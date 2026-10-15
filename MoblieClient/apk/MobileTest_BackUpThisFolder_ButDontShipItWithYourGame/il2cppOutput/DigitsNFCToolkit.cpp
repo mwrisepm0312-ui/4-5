@@ -2758,7 +2758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76588
+// Method Definition Index: 76583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tFAE734F32AD9A9CE0F30BE6908788AADF889F9ED UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m83C56602A709FAA67D88A621A2EBE43B5FFD7CCA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2792,7 +2792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tFAE734F32AD9A9CE0F30BE6908788
 		return L_6;
 	}
 }
-// Method Definition Index: 76589
+// Method Definition Index: 76584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mDED3D91A35E8B88152D87CC5C04569D4B0DF113B (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tABEE51A671AB82E07C129BA97F5566654731DEC9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2878,7 +2878,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tFAE734F32AD9A9CE0F30BE6908788AADF889F9ED_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76590
+// Method Definition Index: 76585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_Initialize_m0BFE9FC01070E661A8EA1F3A73BD4C10DC8FFBB8 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2891,12 +2891,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_Initialize_m0BFE9FC01070E661A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:13>
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_0 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
 		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_0, _stringLiteralB6695F7147776D05561696256DE00AB705FFD3F0, NULL);
 		__this->___mainClass = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mainClass), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:14>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_2;
@@ -2910,11 +2908,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_Initialize_m0BFE9FC01070E661A
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_5);
 		NullCheck(L_1);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_1, _stringLiteral3F880786105C3AB6C83D880B5E8D5EFADDD75D87, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:15>
 		return;
 	}
 }
-// Method Definition Index: 76591
+// Method Definition Index: 76586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNFCTagInfoReadSupported_m76453E9AA249339EA93E6398B6C1E0F8DF481921 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2926,7 +2923,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNFCTagInfoReadSupported_m76
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:19>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
@@ -2936,7 +2932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNFCTagInfoReadSupported_m76
 		return L_2;
 	}
 }
-// Method Definition Index: 76592
+// Method Definition Index: 76587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFReadSupported_m5A5B29E89A212DEBD0BD7B44126EF01A1D4A647A (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2948,7 +2944,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFReadSupported_m5A5B29E8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:24>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
@@ -2958,7 +2953,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFReadSupported_m5A5B29E8
 		return L_2;
 	}
 }
-// Method Definition Index: 76593
+// Method Definition Index: 76588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFWriteSupported_mDF4F9ED9AB635BA94AFDC3BEACBC396F6F59887C (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2970,7 +2965,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFWriteSupported_mDF4F9ED
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:29>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
@@ -2980,7 +2974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFWriteSupported_mDF4F9ED
 		return L_2;
 	}
 }
-// Method Definition Index: 76594
+// Method Definition Index: 76589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFPushSupported_m548CEDBAF7DBFCE774968D16EA37CE516133F3B8 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2992,7 +2986,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFPushSupported_m548CEDBA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:34>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
@@ -3002,7 +2995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFPushSupported_m548CEDBA
 		return L_2;
 	}
 }
-// Method Definition Index: 76595
+// Method Definition Index: 76590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFMakeReadonlySupported_mAE52C87CDB8C0DF447630790E93F89FF54F9D625 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3014,7 +3007,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFMakeReadonlySupported_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:39>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
@@ -3024,7 +3016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFMakeReadonlySupported_m
 		return L_2;
 	}
 }
-// Method Definition Index: 76596
+// Method Definition Index: 76591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNFCEnabled_mE83BD8EE75CA94C425AB5B096A9793E78621CDB8 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3036,7 +3028,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNFCEnabled_mE83BD8EE75CA94C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:44>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
@@ -3046,7 +3037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNFCEnabled_mE83BD8EE75CA94C
 		return L_2;
 	}
 }
-// Method Definition Index: 76597
+// Method Definition Index: 76592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFPushEnabled_m2B4092697CB8E7B149EA6AFBD35685A67DB697B9 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3058,7 +3049,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFPushEnabled_m2B4092697C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:49>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
@@ -3068,7 +3058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNFC_IsNDEFPushEnabled_m2B4092697C
 		return L_2;
 	}
 }
-// Method Definition Index: 76598
+// Method Definition Index: 76593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_Enable_mB6404344B35F655F21D7EC2C834A6052EC7659F1 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3079,17 +3069,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_Enable_mB6404344B35F655F21D7E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:54>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		NullCheck(L_0);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteral9B8A98C58F17C5D7124CDA43A8666FD8B25D68F4, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:55>
 		return;
 	}
 }
-// Method Definition Index: 76599
+// Method Definition Index: 76594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_Disable_mCD120A1DD5196426C226FBDB8AFD0B37AE07313A (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3100,17 +3088,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_Disable_mCD120A1DD5196426C226
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:59>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		NullCheck(L_0);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteral83DA6C66A802CBFFED48CF3CC4E4E90D4E95F8D6, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:60>
 		return;
 	}
 }
-// Method Definition Index: 76600
+// Method Definition Index: 76595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_RequestNDEFWrite_m160A51F458E08C7172AFF7532969DB5122ADA55D (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, String_t* ___0_messageJSON, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3121,7 +3107,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_RequestNDEFWrite_m160A51F458E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:64>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
@@ -3131,11 +3116,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_RequestNDEFWrite_m160A51F458E
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
 		NullCheck(L_0);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteralCDC6A2DB74D1A1EF3636A1E3C18E63991A50A61A, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:65>
 		return;
 	}
 }
-// Method Definition Index: 76601
+// Method Definition Index: 76596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_CancelNDEFWriteRequest_m631EBBC00D9CCFF1A7BF3709F76325CBC66CD11C (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3146,17 +3130,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_CancelNDEFWriteRequest_m631EB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:69>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		NullCheck(L_0);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteral21BD42D890D1E664C7E753C4760AD95E787DBF89, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:70>
 		return;
 	}
 }
-// Method Definition Index: 76602
+// Method Definition Index: 76597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_RequestNDEFPush_mCAEE653A60DBA4A4AE1BF8DD2A7577527C5A5C0E (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, String_t* ___0_messageJSON, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3167,7 +3149,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_RequestNDEFPush_mCAEE653A60DB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:74>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
@@ -3177,11 +3158,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_RequestNDEFPush_mCAEE653A60DB
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
 		NullCheck(L_0);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteral1285FC0A388D5BE8EFEA41B6C3F546599F9AF85C, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:75>
 		return;
 	}
 }
-// Method Definition Index: 76603
+// Method Definition Index: 76598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_CancelNDEFPushRequest_m27E0C4FEAC204D4B3A8595593236CE8A1D668BB1 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3192,17 +3172,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_CancelNDEFPushRequest_m27E0C4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:79>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		NullCheck(L_0);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteral6C16FD6AC1810178C8E2AC559F9C39A6E7D399A3, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:80>
 		return;
 	}
 }
-// Method Definition Index: 76604
+// Method Definition Index: 76599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_RequestNDEFMakeReadonly_m8450384A0AB49F08F1F91D318CDFB61A4484D451 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3213,17 +3191,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_RequestNDEFMakeReadonly_m8450
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:84>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		NullCheck(L_0);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteral47B8A5DEC91FBAD03F34A5EBBC65914E5A9769CE, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:85>
 		return;
 	}
 }
-// Method Definition Index: 76605
+// Method Definition Index: 76600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_CancelNDEFMakeReadonlyRequest_m7BDAC44A75657D5497E02A08DD2C7B6AA0B48163 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3234,17 +3210,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_CancelNDEFMakeReadonlyRequest
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:89>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		NullCheck(L_0);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteral7BE9A4E9D6EDD037ACE678EB11019BB4E89E3540, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:90>
 		return;
 	}
 }
-// Method Definition Index: 76606
+// Method Definition Index: 76601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_ShowNFCSettings_m5B3BE9083BABBD02276E9624C930FCD49BB6E1D5 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3255,17 +3229,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_ShowNFCSettings_m5B3BE9083BAB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:94>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		NullCheck(L_0);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteralF59A3810DADB3982BB41CECB8151AF01306E5712, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:95>
 		return;
 	}
 }
-// Method Definition Index: 76607
+// Method Definition Index: 76602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_EnableSounds_m5B9B663A8FE4D9D04C7CB34E69BC436F6C0CFBB6 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3276,17 +3248,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_EnableSounds_m5B9B663A8FE4D9D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:99>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		NullCheck(L_0);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteral213678ADE72058F6852DA10FC3899086B094ED63, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:100>
 		return;
 	}
 }
-// Method Definition Index: 76608
+// Method Definition Index: 76603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_DisableSounds_m2E610B465EA9A475CD5C1C74D64A34CE2954ADB1 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3297,33 +3267,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_DisableSounds_m2E610B465EA9A4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:104>
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___mainClass;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
 		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		NullCheck(L_0);
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteral1FE476A20BF67B972871729DD996A75399D863A4, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:105>
 		return;
 	}
 }
-// Method Definition Index: 76609
+// Method Definition Index: 76604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_SetReadAlertMessage_m690CA4B64DAA9C1E9262C0DF376618E2F8662197 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, String_t* ___0_alertMessage, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:109>
 		return;
 	}
 }
-// Method Definition Index: 76610
+// Method Definition Index: 76605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC_SetWriteAlertMessage_m8FE6222F49607E517524DF4A5C7534DC1F295D3B (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, String_t* ___0_alertMessage, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/AndroidNFC.cs:113>
 		return;
 	}
 }
-// Method Definition Index: 76611
+// Method Definition Index: 76606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC__ctor_mC5B6251DB77EB5FD92258A2D6D419D32673A5949 (AndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3339,36 +3305,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNFC__ctor_mC5B6251DB77EB5FD92258A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76612
+// Method Definition Index: 76607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AbsoluteUriRecord__ctor_m5B982471C19C8C218C242FB1F004970815E8DD57 (AbsoluteUriRecord_t9AAE65ED9C2C0EBB5DE83F431E3254F6E89B2C93* __this, String_t* ___0_uri, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:13>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:15>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:16>
 		String_t* L_0 = ___0_uri;
 		__this->___uri = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___uri), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 76613
+// Method Definition Index: 76608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AbsoluteUriRecord__ctor_mC1A214CF269DFA8C3FA526E9A76293D386443612 (AbsoluteUriRecord_t9AAE65ED9C2C0EBB5DE83F431E3254F6E89B2C93* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:19>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:21>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		VirtualActionInvoker1< JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* >::Invoke(6, __this, L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 76614
+// Method Definition Index: 76609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AbsoluteUriRecord_ParseJSON_mEEC8D05E7E88291B7F13A99B11555A87896830BB (AbsoluteUriRecord_t9AAE65ED9C2C0EBB5DE83F431E3254F6E89B2C93* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3378,20 +3337,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AbsoluteUriRecord_ParseJSON_mEEC8D05E7E8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:26>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NDEFRecord_ParseJSON_m75C8AF704EEEDD4826E62C9B56BC630F105A4E51(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:28>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = ___0_jsonObject;
 		String_t** L_2 = (String_t**)(&__this->___uri);
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_1, _stringLiteral10C63C8C602DD5E38BE4A758C90EBAC324CD3E69, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 76615
+// Method Definition Index: 76610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* AbsoluteUriRecord_ToJSON_m4A937AD39F46F136CE6E89D5AD0534882F69D6A3 (AbsoluteUriRecord_t9AAE65ED9C2C0EBB5DE83F431E3254F6E89B2C93* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3401,17 +3357,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:33>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0;
 		L_0 = NDEFRecord_ToJSON_mD0594A9E004DDA103CB278E538693BFBB170A1B2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:34>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = L_0;
 		String_t* L_2 = __this->___uri;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_3;
 		L_3 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_2, NULL);
 		NullCheck(L_1);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_1, _stringLiteral10C63C8C602DD5E38BE4A758C90EBAC324CD3E69, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/AbsoluteUriRecord.cs:36>
 		return L_1;
 	}
 }
@@ -3423,28 +3376,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76616
+// Method Definition Index: 76611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyRecord__ctor_mA7F4DE1888D89F17675F9D9B3FC197D2ECA3FAED (EmptyRecord_t7635BFDB2B35223F07B0BD9C3448D220A7702BCE* __this, String_t* ___0_uri, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/EmptyRecord.cs:10>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/EmptyRecord.cs:12>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/EmptyRecord.cs:13>
 		return;
 	}
 }
-// Method Definition Index: 76617
+// Method Definition Index: 76612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyRecord__ctor_m21E6AD92755A571A1B0F32365ECA54E961AACF56 (EmptyRecord_t7635BFDB2B35223F07B0BD9C3448D220A7702BCE* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/EmptyRecord.cs:15>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/EmptyRecord.cs:17>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		VirtualActionInvoker1< JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* >::Invoke(6, __this, L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/EmptyRecord.cs:18>
 		return;
 	}
 }
@@ -3456,44 +3403,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyRecord__ctor_m21E6AD92755A571A1B0F3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76618
+// Method Definition Index: 76613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExternalTypeRecord__ctor_mE3C5FCECFCEBD825EC4792B3DE33C5904CCD9293 (ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256* __this, String_t* ___0_domainName, String_t* ___1_domainType, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_domainData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:19>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:21>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:22>
 		String_t* L_0 = ___0_domainName;
 		__this->___domainName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___domainName), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:23>
 		String_t* L_1 = ___1_domainType;
 		__this->___domainType = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___domainType), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:24>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___2_domainData;
 		__this->___domainData = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___domainData), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 76619
+// Method Definition Index: 76614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExternalTypeRecord__ctor_m9FF21BC417482B05BE6C96EAEFCCDA42B9462578 (ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:27>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:29>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		VirtualActionInvoker1< JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* >::Invoke(6, __this, L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 76620
+// Method Definition Index: 76615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExternalTypeRecord_ParseJSON_m96A78D1938A3212D7A678C27D66B5BDEF7A5B098 (ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3506,24 +3444,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExternalTypeRecord_ParseJSON_m96A78D1938
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:34>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NDEFRecord_ParseJSON_m75C8AF704EEEDD4826E62C9B56BC630F105A4E51(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:36>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = ___0_jsonObject;
 		String_t** L_2 = (String_t**)(&__this->___domainName);
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_1, _stringLiteralFA505D169A724A2DC81204273EAFF7F3977EDAAE, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:37>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_4 = ___0_jsonObject;
 		String_t** L_5 = (String_t**)(&__this->___domainType);
 		NullCheck(L_4);
 		bool L_6;
 		L_6 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_4, _stringLiteral457799ABE1D737CC0F1F4AE716D53BF5C63EA934, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:39>
 		V_0 = (String_t*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:40>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_7 = ___0_jsonObject;
 		NullCheck(L_7);
 		bool L_8;
@@ -3534,7 +3467,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExternalTypeRecord_ParseJSON_m96A78D1938
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:42>
 		String_t* L_9 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10;
 		L_10 = Util_DecodeBase64UrlSafe_m26F0E53D526F29C0604A61026E4578F552D3F1F3(L_9, NULL);
@@ -3544,11 +3476,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExternalTypeRecord_ParseJSON_m96A78D1938
 
 IL_0048:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:44>
 		return;
 	}
 }
-// Method Definition Index: 76621
+// Method Definition Index: 76616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ExternalTypeRecord_ToJSON_m64F661E809BDAD1A9C36A80CD5B2F973C8F51C5A (ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3560,24 +3491,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:48>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0;
 		L_0 = NDEFRecord_ToJSON_mD0594A9E004DDA103CB278E538693BFBB170A1B2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:49>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = L_0;
 		String_t* L_2 = __this->___domainName;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_3;
 		L_3 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_2, NULL);
 		NullCheck(L_1);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_1, _stringLiteralFA505D169A724A2DC81204273EAFF7F3977EDAAE, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:50>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_4 = L_1;
 		String_t* L_5 = __this->___domainType;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_6;
 		L_6 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_5, NULL);
 		NullCheck(L_4);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_4, _stringLiteral457799ABE1D737CC0F1F4AE716D53BF5C63EA934, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:51>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_7 = L_4;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = __this->___domainData;
 		String_t* L_9;
@@ -3586,7 +3513,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		L_10 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_9, NULL);
 		NullCheck(L_7);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_7, _stringLiteral1F054CAC051E37581F5B24591599A7DC7BDF62C4, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/ExternalTypeRecord.cs:53>
 		return L_7;
 	}
 }
@@ -3598,40 +3524,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76622
+// Method Definition Index: 76617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MimeMediaRecord__ctor_mEAAED95C9FA38329A0E5941BF95B34C2E6750DC8 (MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB* __this, String_t* ___0_mimeType, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_mimeData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:16>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:18>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:19>
 		String_t* L_0 = ___0_mimeType;
 		__this->___mimeType = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mimeType), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:20>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___1_mimeData;
 		__this->___mimeData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mimeData), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:21>
 		return;
 	}
 }
-// Method Definition Index: 76623
+// Method Definition Index: 76618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MimeMediaRecord__ctor_m2F24E16E37C034B4F6167DD6F441DB99A5259A35 (MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:23>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:25>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		VirtualActionInvoker1< JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* >::Invoke(6, __this, L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 76624
+// Method Definition Index: 76619
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MimeMediaRecord_ParseJSON_m7B033E6F378A9E86ACD46D3FC6B81FAFE0B8C0A9 (MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3643,18 +3561,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MimeMediaRecord_ParseJSON_m7B033E6F378A9
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:30>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NDEFRecord_ParseJSON_m75C8AF704EEEDD4826E62C9B56BC630F105A4E51(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:32>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = ___0_jsonObject;
 		String_t** L_2 = (String_t**)(&__this->___mimeType);
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_1, _stringLiteralBD197B7E3C1E8558B0971663F85FEFB5D69A012B, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:34>
 		V_0 = (String_t*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:35>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_4 = ___0_jsonObject;
 		NullCheck(L_4);
 		bool L_5;
@@ -3665,7 +3579,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MimeMediaRecord_ParseJSON_m7B033E6F378A9
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:37>
 		String_t* L_6 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7;
 		L_7 = Util_DecodeBase64UrlSafe_m26F0E53D526F29C0604A61026E4578F552D3F1F3(L_6, NULL);
@@ -3675,11 +3588,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MimeMediaRecord_ParseJSON_m7B033E6F378A9
 
 IL_0036:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:39>
 		return;
 	}
 }
-// Method Definition Index: 76625
+// Method Definition Index: 76620
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* MimeMediaRecord_ToJSON_m90545A0472402451FD8149B99485E4C47E401736 (MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3690,17 +3602,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:43>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0;
 		L_0 = NDEFRecord_ToJSON_mD0594A9E004DDA103CB278E538693BFBB170A1B2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:44>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = L_0;
 		String_t* L_2 = __this->___mimeType;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_3;
 		L_3 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_2, NULL);
 		NullCheck(L_1);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_1, _stringLiteralBD197B7E3C1E8558B0971663F85FEFB5D69A012B, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:45>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_4 = L_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = __this->___mimeData;
 		String_t* L_6;
@@ -3709,7 +3618,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		L_7 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_6, NULL);
 		NullCheck(L_4);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_4, _stringLiteral8E268172D509328D63E74680AEE63D099CD0E248, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/MimeMediaRecord.cs:47>
 		return L_4;
 	}
 }
@@ -3729,47 +3637,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76626
+// Method Definition Index: 76621
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NDEFMakeReadonlyResult_get_Success_mCF06730035779BDAC6A3ABB48816B18258FF308A (NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:13>
 		bool L_0 = __this->___success;
 		return L_0;
 	}
 }
-// Method Definition Index: 76627
+// Method Definition Index: 76622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NDEFMakeReadonlyResult_get_Error_mA762DF2E0619DC0DACAD385EB5342043C3947FAB (NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:14>
 		int32_t L_0 = __this->___error;
 		return L_0;
 	}
 }
-// Method Definition Index: 76628
+// Method Definition Index: 76623
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NDEFMakeReadonlyResult_get_TagID_m6A5F0C3E43E2BE3328AC8E2DB050F6378BB12373 (NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:15>
 		String_t* L_0 = __this->___tagID;
 		return L_0;
 	}
 }
-// Method Definition Index: 76629
+// Method Definition Index: 76624
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFMakeReadonlyResult__ctor_m1C9F36AA0DB2F18617E921E81F3DCFD6CE90BCB3 (NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:17>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:19>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NDEFMakeReadonlyResult_ParseJSON_mC03E61ACA6AD90EB4BB40781212C4C613F4088ED(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 76630
+// Method Definition Index: 76625
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFMakeReadonlyResult_ParseJSON_mC03E61ACA6AD90EB4BB40781212C4C613F4088ED (NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3782,27 +3684,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFMakeReadonlyResult_ParseJSON_mC03E61
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:24>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		bool* L_1 = (bool*)(&__this->___success);
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = JSONObject_TryGetBoolean_m5286543256F08B4BB291AC0821CBB85DA798F36A(L_0, _stringLiteral5D08F7C1B259530ED46D90B3F0BD1CA69B5791A4, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:27>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_3 = ___0_jsonObject;
 		NullCheck(L_3);
 		bool L_4;
 		L_4 = JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F(L_3, _stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2, (&V_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:28>
 		int32_t L_5 = V_0;
 		__this->___error = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:30>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_6 = ___0_jsonObject;
 		String_t** L_7 = (String_t**)(&__this->___tagID);
 		NullCheck(L_6);
 		bool L_8;
 		L_8 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_6, _stringLiteral238E10BC7BB9F842FD57CF20F03AFF353FD46958, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:31>
 		return;
 	}
 }
@@ -3830,53 +3727,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFMakeReadonlyResult_ParseJSON_mC03E61
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76631
+// Method Definition Index: 76626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* NDEFMessage_get_Records_m038F3671B439E0A18ADE86B2829C76D87C796ADE (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:29>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_0 = __this->___records;
 		return L_0;
 	}
 }
-// Method Definition Index: 76632
+// Method Definition Index: 76627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NDEFMessage_get_TagID_m836B8D93EAF880DF6D35BC021C7FE8D6ADD59813 (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:32>
 		String_t* L_0 = __this->___tagID;
 		return L_0;
 	}
 }
-// Method Definition Index: 76633
+// Method Definition Index: 76628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NDEFMessage_get_WriteState_mC44ECF2D66CC601EE6A3125F942D18FF116F01D9 (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:35>
 		int32_t L_0 = __this->___writeState;
 		return L_0;
 	}
 }
-// Method Definition Index: 76634
+// Method Definition Index: 76629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NDEFMessage_get_WriteError_m00BF101B7493A7C584A0DB1D9117B419BC71F73A (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:38>
 		int32_t L_0 = __this->___writeError;
 		return L_0;
 	}
 }
-// Method Definition Index: 76635
+// Method Definition Index: 76630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NDEFMessage_get_WriteSuccess_mF7F051DA2B8480E9648F9EE33CA7471B9048F628 (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:41>
 		int32_t L_0;
 		L_0 = NDEFMessage_get_WriteState_mC44ECF2D66CC601EE6A3125F942D18FF116F01D9_inline(__this, NULL);
 		return (bool)((((int32_t)L_0) == ((int32_t)2))? 1 : 0);
 	}
 }
-// Method Definition Index: 76636
+// Method Definition Index: 76631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFMessage__ctor_m9985D6FAAA64C1892A5114602C52D5EF9E8CD417 (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3887,39 +3779,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFMessage__ctor_m9985D6FAAA64C1892A511
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:43>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:45>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_0 = (List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F*)il2cpp_codegen_object_new(List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F_il2cpp_TypeInfo_var);
 		List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960(L_0, List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960_RuntimeMethod_var);
 		__this->___records = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___records), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:46>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___tagID = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___tagID), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:47>
 		__this->___writeState = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:48>
 		__this->___writeError = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 76637
+// Method Definition Index: 76632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFMessage__ctor_mA2BBC8E041AC40DB341B9C65180C3F30614DB11E (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:51>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:53>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NDEFMessage_ParseJSON_m8BDE906B442BECB67C352C0A8899903E323C370F(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 76638
+// Method Definition Index: 76633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFMessage_ParseJSON_m8BDE906B442BECB67C352C0A8899903E323C370F (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3953,7 +3836,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFMessage_ParseJSON_m8BDE906B442BECB67
 	int32_t V_7 = 0;
 	NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* V_8 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:59>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NullCheck(L_0);
 		bool L_1;
@@ -3964,25 +3846,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFMessage_ParseJSON_m8BDE906B442BECB67
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:61>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = JSONArray_get_Length_mCF44B69C27140AC5C57F16F5F32C92FE9874E276(L_2, NULL);
 		V_3 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:62>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_4 = (List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F*)il2cpp_codegen_object_new(List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F_il2cpp_TypeInfo_var);
 		List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960(L_4, List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960_RuntimeMethod_var);
 		__this->___records = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___records), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:63>
 		V_4 = 0;
 		goto IL_00e3;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:65>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_5 = V_0;
 		int32_t L_6 = V_4;
 		NullCheck(L_5);
@@ -3992,15 +3870,12 @@ IL_002c:
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_8;
 		L_8 = JSONValue_get_Object_m129E0B073A639C89AB337DFE5C7A7ADA7EA4258B_inline(L_7, NULL);
 		V_5 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:67>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_9 = V_5;
 		NullCheck(L_9);
 		bool L_10;
 		L_10 = JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F(L_9, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7, (&V_6), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:68>
 		int32_t L_11 = V_6;
 		V_7 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:69>
 		V_8 = (NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)NULL;
 		int32_t L_12 = V_7;
 		switch (L_12)
@@ -4045,84 +3920,69 @@ IL_002c:
 
 IL_007a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:72>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_13 = V_5;
 		AbsoluteUriRecord_t9AAE65ED9C2C0EBB5DE83F431E3254F6E89B2C93* L_14 = (AbsoluteUriRecord_t9AAE65ED9C2C0EBB5DE83F431E3254F6E89B2C93*)il2cpp_codegen_object_new(AbsoluteUriRecord_t9AAE65ED9C2C0EBB5DE83F431E3254F6E89B2C93_il2cpp_TypeInfo_var);
 		AbsoluteUriRecord__ctor_mC1A214CF269DFA8C3FA526E9A76293D386443612(L_14, L_13, NULL);
 		V_8 = L_14;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:72>
 		goto IL_00d0;
 	}
 
 IL_0085:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:73>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_15 = V_5;
 		EmptyRecord_t7635BFDB2B35223F07B0BD9C3448D220A7702BCE* L_16 = (EmptyRecord_t7635BFDB2B35223F07B0BD9C3448D220A7702BCE*)il2cpp_codegen_object_new(EmptyRecord_t7635BFDB2B35223F07B0BD9C3448D220A7702BCE_il2cpp_TypeInfo_var);
 		EmptyRecord__ctor_m21E6AD92755A571A1B0F32365ECA54E961AACF56(L_16, L_15, NULL);
 		V_8 = L_16;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:73>
 		goto IL_00d0;
 	}
 
 IL_0090:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:74>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_17 = V_5;
 		ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256* L_18 = (ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256*)il2cpp_codegen_object_new(ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256_il2cpp_TypeInfo_var);
 		ExternalTypeRecord__ctor_m9FF21BC417482B05BE6C96EAEFCCDA42B9462578(L_18, L_17, NULL);
 		V_8 = L_18;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:74>
 		goto IL_00d0;
 	}
 
 IL_009b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:75>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_19 = V_5;
 		MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB* L_20 = (MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB*)il2cpp_codegen_object_new(MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB_il2cpp_TypeInfo_var);
 		MimeMediaRecord__ctor_m2F24E16E37C034B4F6167DD6F441DB99A5259A35(L_20, L_19, NULL);
 		V_8 = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:75>
 		goto IL_00d0;
 	}
 
 IL_00a6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:76>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_21 = V_5;
 		SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* L_22 = (SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953*)il2cpp_codegen_object_new(SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953_il2cpp_TypeInfo_var);
 		SmartPosterRecord__ctor_m13E83F324647A6E5511BBC5703315541CB3F78C3(L_22, L_21, NULL);
 		V_8 = L_22;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:76>
 		goto IL_00d0;
 	}
 
 IL_00b1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:77>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_23 = V_5;
 		TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* L_24 = (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C*)il2cpp_codegen_object_new(TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C_il2cpp_TypeInfo_var);
 		TextRecord__ctor_m445D74E89DEFA56CD140CBDBF17F900FF7E9A9EE(L_24, L_23, NULL);
 		V_8 = L_24;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:77>
 		goto IL_00d0;
 	}
 
 IL_00bc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:78>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_25 = V_5;
 		UnknownRecord_t4D3946A353200503E64C17D5981BBE819B7A4349* L_26 = (UnknownRecord_t4D3946A353200503E64C17D5981BBE819B7A4349*)il2cpp_codegen_object_new(UnknownRecord_t4D3946A353200503E64C17D5981BBE819B7A4349_il2cpp_TypeInfo_var);
 		UnknownRecord__ctor_mA9FD432A779F5BD6663E5DF5971989BC1763618C(L_26, L_25, NULL);
 		V_8 = L_26;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:78>
 		goto IL_00d0;
 	}
 
 IL_00c7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:79>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_27 = V_5;
 		UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* L_28 = (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61*)il2cpp_codegen_object_new(UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61_il2cpp_TypeInfo_var);
 		UriRecord__ctor_m7C49D359C789915F3D0B804922D899A933329A73(L_28, L_27, NULL);
@@ -4131,19 +3991,16 @@ IL_00c7:
 
 IL_00d0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:82>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_29 = __this->___records;
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_30 = V_8;
 		NullCheck(L_29);
 		List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_inline(L_29, L_30, List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:63>
 		int32_t L_31 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_31, 1));
 	}
 
 IL_00e3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:63>
 		int32_t L_32 = V_4;
 		int32_t L_33 = V_3;
 		if ((((int32_t)L_32) < ((int32_t)L_33)))
@@ -4157,7 +4014,6 @@ IL_00e3:
 
 IL_00ed:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:87>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_34 = (List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F*)il2cpp_codegen_object_new(List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F_il2cpp_TypeInfo_var);
 		List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960(L_34, List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960_RuntimeMethod_var);
 		__this->___records = L_34;
@@ -4166,33 +4022,27 @@ IL_00ed:
 
 IL_00f8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:90>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_35 = ___0_jsonObject;
 		String_t** L_36 = (String_t**)(&__this->___tagID);
 		NullCheck(L_35);
 		bool L_37;
 		L_37 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_35, _stringLiteral238E10BC7BB9F842FD57CF20F03AFF353FD46958, L_36, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:93>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_38 = ___0_jsonObject;
 		NullCheck(L_38);
 		bool L_39;
 		L_39 = JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F(L_38, _stringLiteral11B64330AA66F81D9E960D659CAFA4335BA136C8, (&V_1), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:94>
 		int32_t L_40 = V_1;
 		__this->___writeState = L_40;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:97>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_41 = ___0_jsonObject;
 		NullCheck(L_41);
 		bool L_42;
 		L_42 = JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F(L_41, _stringLiteral8C25BBD598717C49AF7D48BC74D9B96C9FB0D980, (&V_2), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:98>
 		int32_t L_43 = V_2;
 		__this->___writeError = L_43;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:99>
 		return;
 	}
 }
-// Method Definition Index: 76639
+// Method Definition Index: 76634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* NDEFMessage_ToJSON_m9C5D191674467463C9EE0432C24B3CA24B692498 (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4213,28 +4063,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:103>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)il2cpp_codegen_object_new(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject__ctor_m38D2260C187F21A54DC4B151FEED08007C820FD9(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:105>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_1 = (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED*)il2cpp_codegen_object_new(JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED_il2cpp_TypeInfo_var);
 		JSONArray__ctor_mD0EF16E64C2CEC82893EA492CC921E003F3FEC13(L_1, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:106>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_2 = __this->___records;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_inline(L_2, List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_RuntimeMethod_var);
 		V_2 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:107>
 		V_3 = 0;
 		goto IL_003c;
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:109>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_4 = V_1;
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_5 = __this->___records;
 		int32_t L_6 = V_3;
@@ -4248,14 +4093,12 @@ IL_001c:
 		L_9 = JSONValue_op_Implicit_m22914445547885231FC37FB451310F866CC38B77(L_8, NULL);
 		NullCheck(L_4);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_4, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:107>
 		int32_t L_10 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:107>
 		int32_t L_11 = V_3;
 		int32_t L_12 = V_2;
 		if ((((int32_t)L_11) < ((int32_t)L_12)))
@@ -4264,35 +4107,30 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:111>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_13 = V_0;
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_14 = V_1;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_15;
 		L_15 = JSONValue_op_Implicit_m14D78D62141141C07CD485870027033A04282E6C(L_14, NULL);
 		NullCheck(L_13);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_13, _stringLiteral6896B00B43F77A520060594C32B35D2E69D429E6, L_15, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:113>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_16 = V_0;
 		String_t* L_17 = __this->___tagID;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_18;
 		L_18 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_17, NULL);
 		NullCheck(L_16);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_16, _stringLiteral238E10BC7BB9F842FD57CF20F03AFF353FD46958, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:114>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_19 = V_0;
 		int32_t L_20 = __this->___writeState;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_21;
 		L_21 = JSONValue_op_Implicit_mAFAE8A5CC3A5523936D851AD21729E7A6CF91D38(((double)L_20), NULL);
 		NullCheck(L_19);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_19, _stringLiteral11B64330AA66F81D9E960D659CAFA4335BA136C8, L_21, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:115>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_22 = V_0;
 		int32_t L_23 = __this->___writeError;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_24;
 		L_24 = JSONValue_op_Implicit_mAFAE8A5CC3A5523936D851AD21729E7A6CF91D38(((double)L_23), NULL);
 		NullCheck(L_22);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_22, _stringLiteral07292174CB135CF5D57BE806C80614C6CC083B8C, L_24, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:117>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_25 = V_0;
 		return L_25;
 	}
@@ -4305,38 +4143,33 @@ IL_003c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76640
+// Method Definition Index: 76635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NDEFPushResult_get_Success_m00B7129363361F066435AC5BA4CB039352A3AF42 (NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:10>
 		bool L_0 = __this->___success;
 		return L_0;
 	}
 }
-// Method Definition Index: 76641
+// Method Definition Index: 76636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* NDEFPushResult_get_Message_m78127C388B94EA0024EE31982D5818D3541740D3 (NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:11>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_0 = __this->___message;
 		return L_0;
 	}
 }
-// Method Definition Index: 76642
+// Method Definition Index: 76637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFPushResult__ctor_m43147178E270A669469BD3B152A338F1AB57C4EE (NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:13>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:15>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NDEFPushResult_ParseJSON_m67687EA5CB93774CDEE0353EBE0537049C253452(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:16>
 		return;
 	}
 }
-// Method Definition Index: 76643
+// Method Definition Index: 76638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFPushResult_ParseJSON_m67687EA5CB93774CDEE0353EBE0537049C253452 (NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4349,15 +4182,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFPushResult_ParseJSON_m67687EA5CB9377
 	}
 	JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:20>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		bool* L_1 = (bool*)(&__this->___success);
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = JSONObject_TryGetBoolean_m5286543256F08B4BB291AC0821CBB85DA798F36A(L_0, _stringLiteral5D08F7C1B259530ED46D90B3F0BD1CA69B5791A4, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:22>
 		V_0 = (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:23>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_3 = ___0_jsonObject;
 		NullCheck(L_3);
 		bool L_4;
@@ -4368,7 +4198,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFPushResult_ParseJSON_m67687EA5CB9377
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:25>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_5 = V_0;
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_6 = (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)il2cpp_codegen_object_new(NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569_il2cpp_TypeInfo_var);
 		NDEFMessage__ctor_mA2BBC8E041AC40DB341B9C65180C3F30614DB11E(L_6, L_5, NULL);
@@ -4379,12 +4208,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFPushResult_ParseJSON_m67687EA5CB9377
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:29>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_7 = (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)il2cpp_codegen_object_new(NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569_il2cpp_TypeInfo_var);
 		NDEFMessage__ctor_m9985D6FAAA64C1892A5114602C52D5EF9E8CD417(L_7, NULL);
 		__this->___message = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___message), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:31>
 		return;
 	}
 }
@@ -4404,56 +4231,49 @@ IL_0030:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76644
+// Method Definition Index: 76639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NDEFReadResult_get_Success_m741F71DD506A0786DB2B93CD33BD52B181CBA9F4 (NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:15>
 		bool L_0 = __this->___success;
 		return L_0;
 	}
 }
-// Method Definition Index: 76645
+// Method Definition Index: 76640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NDEFReadResult_get_Error_mDA92A72A742113F75B648D1B6D17333412DFB8D0 (NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:16>
 		int32_t L_0 = __this->___error;
 		return L_0;
 	}
 }
-// Method Definition Index: 76646
+// Method Definition Index: 76641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* NDEFReadResult_get_Message_m946C6FAAFA0D48D959CFD53D6CBF55065631DAA1 (NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:17>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_0 = __this->___message;
 		return L_0;
 	}
 }
-// Method Definition Index: 76647
+// Method Definition Index: 76642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NDEFReadResult_get_TagID_m3601595C566983B58E2D38960ADC8556204FCEBC (NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:18>
 		String_t* L_0 = __this->___tagID;
 		return L_0;
 	}
 }
-// Method Definition Index: 76648
+// Method Definition Index: 76643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFReadResult__ctor_m54A82AF0CAB1F04182947CB492C7CE7B3FA79B4F (NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:20>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:22>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NDEFReadResult_ParseJSON_m7267D4FBEAAA4921D2628EC9743CFC8DF421CD94(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 76649
+// Method Definition Index: 76644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFReadResult_ParseJSON_m7267D4FBEAAA4921D2628EC9743CFC8DF421CD94 (NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4469,23 +4289,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFReadResult_ParseJSON_m7267D4FBEAAA49
 	int32_t V_0 = 0;
 	JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:27>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		bool* L_1 = (bool*)(&__this->___success);
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = JSONObject_TryGetBoolean_m5286543256F08B4BB291AC0821CBB85DA798F36A(L_0, _stringLiteral5D08F7C1B259530ED46D90B3F0BD1CA69B5791A4, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:30>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_3 = ___0_jsonObject;
 		NullCheck(L_3);
 		bool L_4;
 		L_4 = JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F(L_3, _stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2, (&V_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:31>
 		int32_t L_5 = V_0;
 		__this->___error = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:33>
 		V_1 = (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:34>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_6 = ___0_jsonObject;
 		NullCheck(L_6);
 		bool L_7;
@@ -4496,7 +4311,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFReadResult_ParseJSON_m7267D4FBEAAA49
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:36>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_8 = V_1;
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_9 = (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)il2cpp_codegen_object_new(NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569_il2cpp_TypeInfo_var);
 		NDEFMessage__ctor_mA2BBC8E041AC40DB341B9C65180C3F30614DB11E(L_9, L_8, NULL);
@@ -4507,7 +4321,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFReadResult_ParseJSON_m7267D4FBEAAA49
 
 IL_0046:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:40>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_10 = (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)il2cpp_codegen_object_new(NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569_il2cpp_TypeInfo_var);
 		NDEFMessage__ctor_m9985D6FAAA64C1892A5114602C52D5EF9E8CD417(L_10, NULL);
 		__this->___message = L_10;
@@ -4516,13 +4329,11 @@ IL_0046:
 
 IL_0051:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:43>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_11 = ___0_jsonObject;
 		String_t** L_12 = (String_t**)(&__this->___tagID);
 		NullCheck(L_11);
 		bool L_13;
 		L_13 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_11, _stringLiteral238E10BC7BB9F842FD57CF20F03AFF353FD46958, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:44>
 		return;
 	}
 }
@@ -4542,16 +4353,15 @@ IL_0051:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76650
+// Method Definition Index: 76645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NDEFRecord_get_Type_mB36FA097925ED95CA937B13B525249A0B2C148FB (NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFRecord.cs:15>
 		int32_t L_0 = __this->___type;
 		return L_0;
 	}
 }
-// Method Definition Index: 76651
+// Method Definition Index: 76646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFRecord_ParseJSON_m75C8AF704EEEDD4826E62C9B56BC630F105A4E51 (NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4562,19 +4372,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFRecord_ParseJSON_m75C8AF704EEEDD4826
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFRecord.cs:20>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F(L_0, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7, (&V_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFRecord.cs:21>
 		int32_t L_2 = V_0;
 		__this->___type = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFRecord.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 76652
+// Method Definition Index: 76647
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* NDEFRecord_ToJSON_mD0594A9E004DDA103CB278E538693BFBB170A1B2 (NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4585,21 +4392,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFRecord.cs:26>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)il2cpp_codegen_object_new(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject__ctor_m38D2260C187F21A54DC4B151FEED08007C820FD9(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFRecord.cs:27>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = L_0;
 		int32_t L_2 = __this->___type;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_3;
 		L_3 = JSONValue_op_Implicit_mAFAE8A5CC3A5523936D851AD21729E7A6CF91D38(((double)L_2), NULL);
 		NullCheck(L_1);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_1, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFRecord.cs:29>
 		return L_1;
 	}
 }
-// Method Definition Index: 76653
+// Method Definition Index: 76648
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2 (NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4623,56 +4427,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFRecord__ctor_m02D8550206FD99E649BE34
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76654
+// Method Definition Index: 76649
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NDEFWriteResult_get_Success_mD2EC5CF2210CE6FD9571FA89664EE396B24447EA (NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:15>
 		bool L_0 = __this->___success;
 		return L_0;
 	}
 }
-// Method Definition Index: 76655
+// Method Definition Index: 76650
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NDEFWriteResult_get_Error_mBE173103017DE426E21BED18EFA3693496F50A14 (NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:16>
 		int32_t L_0 = __this->___error;
 		return L_0;
 	}
 }
-// Method Definition Index: 76656
+// Method Definition Index: 76651
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* NDEFWriteResult_get_Message_mC34C268129738C43B2E71955E9A6A2A6754310F6 (NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:17>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_0 = __this->___message;
 		return L_0;
 	}
 }
-// Method Definition Index: 76657
+// Method Definition Index: 76652
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NDEFWriteResult_get_TagID_m9664C25A1F2A5142CB28FFD07F1AE05D2DB08A9F (NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:18>
 		String_t* L_0 = __this->___tagID;
 		return L_0;
 	}
 }
-// Method Definition Index: 76658
+// Method Definition Index: 76653
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFWriteResult__ctor_mF17BF308FAC611D3A1CFA19C0112D41ED9287857 (NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:20>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:22>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NDEFWriteResult_ParseJSON_m1FD4DAE7D5A9C831754D2C0CB74E1C4440126C82(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 76659
+// Method Definition Index: 76654
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFWriteResult_ParseJSON_m1FD4DAE7D5A9C831754D2C0CB74E1C4440126C82 (NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4688,23 +4485,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFWriteResult_ParseJSON_m1FD4DAE7D5A9C
 	int32_t V_0 = 0;
 	JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:27>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		bool* L_1 = (bool*)(&__this->___success);
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = JSONObject_TryGetBoolean_m5286543256F08B4BB291AC0821CBB85DA798F36A(L_0, _stringLiteral5D08F7C1B259530ED46D90B3F0BD1CA69B5791A4, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:30>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_3 = ___0_jsonObject;
 		NullCheck(L_3);
 		bool L_4;
 		L_4 = JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F(L_3, _stringLiteralFCA74A9060DDEE6A3ECAE73E6AB96086770BE7E2, (&V_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:31>
 		int32_t L_5 = V_0;
 		__this->___error = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:33>
 		V_1 = (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:34>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_6 = ___0_jsonObject;
 		NullCheck(L_6);
 		bool L_7;
@@ -4715,7 +4507,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFWriteResult_ParseJSON_m1FD4DAE7D5A9C
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:36>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_8 = V_1;
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_9 = (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)il2cpp_codegen_object_new(NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569_il2cpp_TypeInfo_var);
 		NDEFMessage__ctor_mA2BBC8E041AC40DB341B9C65180C3F30614DB11E(L_9, L_8, NULL);
@@ -4726,7 +4517,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NDEFWriteResult_ParseJSON_m1FD4DAE7D5A9C
 
 IL_0046:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:40>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_10 = (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)il2cpp_codegen_object_new(NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569_il2cpp_TypeInfo_var);
 		NDEFMessage__ctor_m9985D6FAAA64C1892A5114602C52D5EF9E8CD417(L_10, NULL);
 		__this->___message = L_10;
@@ -4735,13 +4525,11 @@ IL_0046:
 
 IL_0051:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:43>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_11 = ___0_jsonObject;
 		String_t** L_12 = (String_t**)(&__this->___tagID);
 		NullCheck(L_11);
 		bool L_13;
 		L_13 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_11, _stringLiteral238E10BC7BB9F842FD57CF20F03AFF353FD46958, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:44>
 		return;
 	}
 }
@@ -4761,65 +4549,57 @@ IL_0051:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76660
+// Method Definition Index: 76655
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NFCTag_get_ID_mE1F17ABE3AB40B5F405596ACD67AE769F7EE2146 (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:41>
 		String_t* L_0 = __this->___id;
 		return L_0;
 	}
 }
-// Method Definition Index: 76661
+// Method Definition Index: 76656
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* NFCTag_get_Technologies_m11CB70897E9D53359691CA97924749E92812491C (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:44>
 		NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* L_0 = __this->___technologies;
 		return L_0;
 	}
 }
-// Method Definition Index: 76662
+// Method Definition Index: 76657
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NFCTag_get_Manufacturer_m8A6537810F4DCCD0ECEF17E9660CDAA8E6E029C7 (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:47>
 		String_t* L_0 = __this->___manufacturer;
 		return L_0;
 	}
 }
-// Method Definition Index: 76663
+// Method Definition Index: 76658
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NFCTag_get_Writable_mA950C9EDE24D79B011C4BD94A34EF6EA2FBB9687 (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:50>
 		bool L_0 = __this->___writable;
 		return L_0;
 	}
 }
-// Method Definition Index: 76664
+// Method Definition Index: 76659
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NFCTag_get_MaxWriteSize_m377A25AC42AE990705E632A406807EC06155A646 (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:53>
 		int32_t L_0 = __this->___maxWriteSize;
 		return L_0;
 	}
 }
-// Method Definition Index: 76665
+// Method Definition Index: 76660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCTag__ctor_m391750804D10F518A4461889912C8F2D5BADD599 (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:55>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:57>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NFCTag_ParseJSON_mCBC8F8F552198A08253C329F8EA9F0E86E1E2BE3(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:58>
 		return;
 	}
 }
-// Method Definition Index: 76666
+// Method Definition Index: 76661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCTag_ParseJSON_mCBC8F8F552198A08253C329F8EA9F0E86E1E2BE3 (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4839,17 +4619,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCTag_ParseJSON_mCBC8F8F552198A08253C32
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:62>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		String_t** L_1 = (String_t**)(&__this->___id);
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_0, _stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:64>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_3 = (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED*)il2cpp_codegen_object_new(JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED_il2cpp_TypeInfo_var);
 		JSONArray__ctor_mD0EF16E64C2CEC82893EA492CC921E003F3FEC13(L_3, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:65>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_4 = ___0_jsonObject;
 		NullCheck(L_4);
 		bool L_5;
@@ -4860,25 +4637,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NFCTag_ParseJSON_mCBC8F8F552198A08253C32
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:67>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_6 = V_0;
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = JSONArray_get_Length_mCF44B69C27140AC5C57F16F5F32C92FE9874E276(L_6, NULL);
 		V_1 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:68>
 		int32_t L_8 = V_1;
 		NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* L_9 = (NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680*)(NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680*)SZArrayNew(NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680_il2cpp_TypeInfo_var, (uint32_t)L_8);
 		__this->___technologies = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___technologies), (void*)L_9);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:69>
 		V_2 = 0;
 		goto IL_0058;
 	}
 
 IL_003e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:71>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_10 = V_0;
 		int32_t L_11 = V_2;
 		NullCheck(L_10);
@@ -4888,20 +4661,17 @@ IL_003e:
 		int32_t L_13;
 		L_13 = JSONValue_get_Integer_mBD6445397BABC88DC0E43C5DCF412CB70B996F38(L_12, NULL);
 		V_3 = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:72>
 		NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* L_14 = __this->___technologies;
 		int32_t L_15 = V_2;
 		int32_t L_16 = V_3;
 		NullCheck(L_14);
 		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(L_15), (int32_t)L_16);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:69>
 		int32_t L_17 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
 IL_0058:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:69>
 		int32_t L_18 = V_2;
 		int32_t L_19 = V_1;
 		if ((((int32_t)L_18) < ((int32_t)L_19)))
@@ -4915,7 +4685,6 @@ IL_0058:
 
 IL_005e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:77>
 		NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* L_20 = (NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680*)(NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680*)SZArrayNew(NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680_il2cpp_TypeInfo_var, (uint32_t)0);
 		__this->___technologies = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___technologies), (void*)L_20);
@@ -4923,29 +4692,25 @@ IL_005e:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:80>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_21 = ___0_jsonObject;
 		String_t** L_22 = (String_t**)(&__this->___manufacturer);
 		NullCheck(L_21);
 		bool L_23;
 		L_23 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_21, _stringLiteral8DAE0371884040CFA6CE09831807D3D5D255F5D6, L_22, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:81>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_24 = ___0_jsonObject;
 		bool* L_25 = (bool*)(&__this->___writable);
 		NullCheck(L_24);
 		bool L_26;
 		L_26 = JSONObject_TryGetBoolean_m5286543256F08B4BB291AC0821CBB85DA798F36A(L_24, _stringLiteralC19A3FE5345203E49B5D2DC79892110E47E4B316, L_25, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:82>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_27 = ___0_jsonObject;
 		int32_t* L_28 = (int32_t*)(&__this->___maxWriteSize);
 		NullCheck(L_27);
 		bool L_29;
 		L_29 = JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F(L_27, _stringLiteralBEA9447E1F550CF4278C45E483154D727C5D6023, L_28, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:83>
 		return;
 	}
 }
-// Method Definition Index: 76667
+// Method Definition Index: 76662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* NFCTag_ToJSON_mD2851B6DAD69BCD27073BCF191DEECCC1DBD1E89 (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4965,33 +4730,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:87>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)il2cpp_codegen_object_new(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject__ctor_m38D2260C187F21A54DC4B151FEED08007C820FD9(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:88>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = V_0;
 		String_t* L_2 = __this->___id;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_3;
 		L_3 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_2, NULL);
 		NullCheck(L_1);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_1, _stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:90>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_4 = (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED*)il2cpp_codegen_object_new(JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED_il2cpp_TypeInfo_var);
 		JSONArray__ctor_mD0EF16E64C2CEC82893EA492CC921E003F3FEC13(L_4, NULL);
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:91>
 		NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* L_5 = __this->___technologies;
 		NullCheck(L_5);
 		V_2 = ((int32_t)(((RuntimeArray*)L_5)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:92>
 		V_3 = 0;
 		goto IL_0047;
 	}
 
 IL_002f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:94>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_6 = V_1;
 		NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* L_7 = __this->___technologies;
 		int32_t L_8 = V_3;
@@ -5002,14 +4761,12 @@ IL_002f:
 		L_11 = JSONValue_op_Implicit_mAFAE8A5CC3A5523936D851AD21729E7A6CF91D38(((double)L_10), NULL);
 		NullCheck(L_6);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_6, L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:92>
 		int32_t L_12 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_12, 1));
 	}
 
 IL_0047:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:92>
 		int32_t L_13 = V_3;
 		int32_t L_14 = V_2;
 		if ((((int32_t)L_13) < ((int32_t)L_14)))
@@ -5018,35 +4775,30 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:96>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_15 = V_0;
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_16 = V_1;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_17;
 		L_17 = JSONValue_op_Implicit_m14D78D62141141C07CD485870027033A04282E6C(L_16, NULL);
 		NullCheck(L_15);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_15, _stringLiteralFD1F9B302C8AEC230BCA668322F3F5B1E0483CD2, L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:98>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_18 = V_0;
 		String_t* L_19 = __this->___manufacturer;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_20;
 		L_20 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_19, NULL);
 		NullCheck(L_18);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_18, _stringLiteral8DAE0371884040CFA6CE09831807D3D5D255F5D6, L_20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:99>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_21 = V_0;
 		bool L_22 = __this->___writable;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_23;
 		L_23 = JSONValue_op_Implicit_m662F3DE73E5E8D86AC55FE1EA76249986877A92B(L_22, NULL);
 		NullCheck(L_21);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_21, _stringLiteralC19A3FE5345203E49B5D2DC79892110E47E4B316, L_23, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:100>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_24 = V_0;
 		int32_t L_25 = __this->___maxWriteSize;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_26;
 		L_26 = JSONValue_op_Implicit_mAFAE8A5CC3A5523936D851AD21729E7A6CF91D38(((double)L_25), NULL);
 		NullCheck(L_24);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_24, _stringLiteralBEA9447E1F550CF4278C45E483154D727C5D6023, L_26, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:102>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_27 = V_0;
 		return L_27;
 	}
@@ -5059,7 +4811,7 @@ IL_0047:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76668
+// Method Definition Index: 76663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord__ctor_m50B06EDE0514F6C5FED69814FE006A077DC9DA74 (SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* __this, String_t* ___0_uri, int32_t ___1_action, int32_t ___2_size, String_t* ___3_mimeType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5075,46 +4827,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord__ctor_m50B06EDE0514F6C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:35>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:37>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:38>
 		String_t* L_0 = ___0_uri;
 		UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* L_1 = (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61*)il2cpp_codegen_object_new(UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61_il2cpp_TypeInfo_var);
 		UriRecord__ctor_m67485B26D4297DA02D4446CC6EFC32341AF410C0(L_1, L_0, NULL);
 		__this->___uriRecord = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___uriRecord), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:39>
 		int32_t L_2 = ___1_action;
 		__this->___action = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:40>
 		int32_t L_3 = ___2_size;
 		__this->___size = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:41>
 		String_t* L_4 = ___3_mimeType;
 		__this->___mimeType = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mimeType), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:42>
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_5 = (List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC*)il2cpp_codegen_object_new(List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC_il2cpp_TypeInfo_var);
 		List_1__ctor_mE7634925BD91059A2F4EE2D95ABE489F0EAFEE71(L_5, List_1__ctor_mE7634925BD91059A2F4EE2D95ABE489F0EAFEE71_RuntimeMethod_var);
 		__this->___titleRecords = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___titleRecords), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:43>
 		List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* L_6 = (List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE*)il2cpp_codegen_object_new(List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE_il2cpp_TypeInfo_var);
 		List_1__ctor_m322673F73911E0FF18C67A35052A2473F4437539(L_6, List_1__ctor_m322673F73911E0FF18C67A35052A2473F4437539_RuntimeMethod_var);
 		__this->___iconRecords = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___iconRecords), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:44>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_7 = (List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F*)il2cpp_codegen_object_new(List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F_il2cpp_TypeInfo_var);
 		List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960(L_7, List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960_RuntimeMethod_var);
 		__this->___extraRecords = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___extraRecords), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:45>
 		return;
 	}
 }
-// Method Definition Index: 76669
+// Method Definition Index: 76664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord__ctor_mF6385BAA335FDDA8106DF35EE2F5E05DAA50C490 (SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* __this, String_t* ___0_uri, int32_t ___1_action, int32_t ___2_size, String_t* ___3_mimeType, List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* ___4_titleRecords, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5128,45 +4870,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord__ctor_mF6385BAA335FDDA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:47>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:49>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:50>
 		String_t* L_0 = ___0_uri;
 		UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* L_1 = (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61*)il2cpp_codegen_object_new(UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61_il2cpp_TypeInfo_var);
 		UriRecord__ctor_m67485B26D4297DA02D4446CC6EFC32341AF410C0(L_1, L_0, NULL);
 		__this->___uriRecord = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___uriRecord), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:51>
 		int32_t L_2 = ___1_action;
 		__this->___action = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:52>
 		int32_t L_3 = ___2_size;
 		__this->___size = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:53>
 		String_t* L_4 = ___3_mimeType;
 		__this->___mimeType = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mimeType), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:54>
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_5 = ___4_titleRecords;
 		__this->___titleRecords = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___titleRecords), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:55>
 		List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* L_6 = (List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE*)il2cpp_codegen_object_new(List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE_il2cpp_TypeInfo_var);
 		List_1__ctor_m322673F73911E0FF18C67A35052A2473F4437539(L_6, List_1__ctor_m322673F73911E0FF18C67A35052A2473F4437539_RuntimeMethod_var);
 		__this->___iconRecords = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___iconRecords), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:56>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_7 = (List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F*)il2cpp_codegen_object_new(List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F_il2cpp_TypeInfo_var);
 		List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960(L_7, List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960_RuntimeMethod_var);
 		__this->___extraRecords = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___extraRecords), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 76670
+// Method Definition Index: 76665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord__ctor_m910254A02327B82F660199F352A1AEDFE161BB44 (SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* __this, String_t* ___0_uri, int32_t ___1_action, int32_t ___2_size, String_t* ___3_mimeType, List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* ___4_titleRecords, List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* ___5_iconRecords, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5178,44 +4910,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord__ctor_m910254A02327B82
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:59>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:61>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:62>
 		String_t* L_0 = ___0_uri;
 		UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* L_1 = (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61*)il2cpp_codegen_object_new(UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61_il2cpp_TypeInfo_var);
 		UriRecord__ctor_m67485B26D4297DA02D4446CC6EFC32341AF410C0(L_1, L_0, NULL);
 		__this->___uriRecord = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___uriRecord), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:63>
 		int32_t L_2 = ___1_action;
 		__this->___action = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:64>
 		int32_t L_3 = ___2_size;
 		__this->___size = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:65>
 		String_t* L_4 = ___3_mimeType;
 		__this->___mimeType = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mimeType), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:66>
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_5 = ___4_titleRecords;
 		__this->___titleRecords = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___titleRecords), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:67>
 		List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* L_6 = ___5_iconRecords;
 		__this->___iconRecords = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___iconRecords), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:68>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_7 = (List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F*)il2cpp_codegen_object_new(List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F_il2cpp_TypeInfo_var);
 		List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960(L_7, List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960_RuntimeMethod_var);
 		__this->___extraRecords = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___extraRecords), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 76671
+// Method Definition Index: 76666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord__ctor_mCCFCAF9C3149E824C7061A24F210906689CAB339 (SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* __this, String_t* ___0_uri, int32_t ___1_action, int32_t ___2_size, String_t* ___3_mimeType, List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* ___4_titleRecords, List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* ___5_iconRecords, List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* ___6_extraRecords, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5225,56 +4947,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord__ctor_mCCFCAF9C3149E82
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:71>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:73>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:74>
 		String_t* L_0 = ___0_uri;
 		UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* L_1 = (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61*)il2cpp_codegen_object_new(UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61_il2cpp_TypeInfo_var);
 		UriRecord__ctor_m67485B26D4297DA02D4446CC6EFC32341AF410C0(L_1, L_0, NULL);
 		__this->___uriRecord = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___uriRecord), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:75>
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_2 = ___4_titleRecords;
 		__this->___titleRecords = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___titleRecords), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:76>
 		List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* L_3 = ___5_iconRecords;
 		__this->___iconRecords = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___iconRecords), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:77>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_4 = ___6_extraRecords;
 		__this->___extraRecords = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___extraRecords), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:78>
 		int32_t L_5 = ___1_action;
 		__this->___action = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:79>
 		int32_t L_6 = ___2_size;
 		__this->___size = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:80>
 		String_t* L_7 = ___3_mimeType;
 		__this->___mimeType = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mimeType), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 76672
+// Method Definition Index: 76667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord__ctor_m13E83F324647A6E5511BBC5703315541CB3F78C3 (SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:83>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:85>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		VirtualActionInvoker1< JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* >::Invoke(6, __this, L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:86>
 		return;
 	}
 }
-// Method Definition Index: 76673
+// Method Definition Index: 76668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord_ParseJSON_m524775097787E81F07D1FF99FDD38A76AF554D6E (SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5322,10 +5031,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord_ParseJSON_m52477509778
 	NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* V_12 = NULL;
 	int32_t V_13 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:90>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NDEFRecord_ParseJSON_m75C8AF704EEEDD4826E62C9B56BC630F105A4E51(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:93>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = ___0_jsonObject;
 		NullCheck(L_1);
 		bool L_2;
@@ -5336,7 +5043,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord_ParseJSON_m52477509778
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:95>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_3 = V_0;
 		UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* L_4 = (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61*)il2cpp_codegen_object_new(UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61_il2cpp_TypeInfo_var);
 		UriRecord__ctor_m7C49D359C789915F3D0B804922D899A933329A73(L_4, L_3, NULL);
@@ -5346,12 +5052,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SmartPosterRecord_ParseJSON_m52477509778
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:98>
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_5 = (List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC*)il2cpp_codegen_object_new(List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC_il2cpp_TypeInfo_var);
 		List_1__ctor_mE7634925BD91059A2F4EE2D95ABE489F0EAFEE71(L_5, List_1__ctor_mE7634925BD91059A2F4EE2D95ABE489F0EAFEE71_RuntimeMethod_var);
 		__this->___titleRecords = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___titleRecords), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:100>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_6 = ___0_jsonObject;
 		NullCheck(L_6);
 		bool L_7;
@@ -5362,20 +5066,17 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:102>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_8 = V_1;
 		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = JSONArray_get_Length_mCF44B69C27140AC5C57F16F5F32C92FE9874E276(L_8, NULL);
 		V_5 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:103>
 		V_6 = 0;
 		goto IL_006c;
 	}
 
 IL_0049:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:105>
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_10 = __this->___titleRecords;
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_11 = V_1;
 		int32_t L_12 = V_6;
@@ -5389,14 +5090,12 @@ IL_0049:
 		TextRecord__ctor_m445D74E89DEFA56CD140CBDBF17F900FF7E9A9EE(L_15, L_14, NULL);
 		NullCheck(L_10);
 		List_1_Add_m045CFDE69E89360344224F283F2B2734240E7958_inline(L_10, L_15, List_1_Add_m045CFDE69E89360344224F283F2B2734240E7958_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:103>
 		int32_t L_16 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_006c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:103>
 		int32_t L_17 = V_6;
 		int32_t L_18 = V_5;
 		if ((((int32_t)L_17) < ((int32_t)L_18)))
@@ -5407,12 +5106,10 @@ IL_006c:
 
 IL_0072:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:109>
 		List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* L_19 = (List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE*)il2cpp_codegen_object_new(List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE_il2cpp_TypeInfo_var);
 		List_1__ctor_m322673F73911E0FF18C67A35052A2473F4437539(L_19, List_1__ctor_m322673F73911E0FF18C67A35052A2473F4437539_RuntimeMethod_var);
 		__this->___iconRecords = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___iconRecords), (void*)L_19);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:111>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_20 = ___0_jsonObject;
 		NullCheck(L_20);
 		bool L_21;
@@ -5423,20 +5120,17 @@ IL_0072:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:113>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_22 = V_2;
 		NullCheck(L_22);
 		int32_t L_23;
 		L_23 = JSONArray_get_Length_mCF44B69C27140AC5C57F16F5F32C92FE9874E276(L_22, NULL);
 		V_7 = L_23;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:114>
 		V_8 = 0;
 		goto IL_00bc;
 	}
 
 IL_0099:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:116>
 		List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* L_24 = __this->___iconRecords;
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_25 = V_2;
 		int32_t L_26 = V_8;
@@ -5450,14 +5144,12 @@ IL_0099:
 		MimeMediaRecord__ctor_m2F24E16E37C034B4F6167DD6F441DB99A5259A35(L_29, L_28, NULL);
 		NullCheck(L_24);
 		List_1_Add_mBCE7A05798185E68365144CA5A958566F169D06C_inline(L_24, L_29, List_1_Add_mBCE7A05798185E68365144CA5A958566F169D06C_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:114>
 		int32_t L_30 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_30, 1));
 	}
 
 IL_00bc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:114>
 		int32_t L_31 = V_8;
 		int32_t L_32 = V_7;
 		if ((((int32_t)L_31) < ((int32_t)L_32)))
@@ -5468,12 +5160,10 @@ IL_00bc:
 
 IL_00c2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:120>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_33 = (List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F*)il2cpp_codegen_object_new(List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F_il2cpp_TypeInfo_var);
 		List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960(L_33, List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960_RuntimeMethod_var);
 		__this->___extraRecords = L_33;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___extraRecords), (void*)L_33);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:122>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_34 = ___0_jsonObject;
 		NullCheck(L_34);
 		bool L_35;
@@ -5484,20 +5174,17 @@ IL_00c2:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:124>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_36 = V_3;
 		NullCheck(L_36);
 		int32_t L_37;
 		L_37 = JSONArray_get_Length_mCF44B69C27140AC5C57F16F5F32C92FE9874E276(L_36, NULL);
 		V_9 = L_37;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:125>
 		V_10 = 0;
 		goto IL_01b1;
 	}
 
 IL_00ef:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:127>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_38 = V_3;
 		int32_t L_39 = V_10;
 		NullCheck(L_38);
@@ -5507,9 +5194,7 @@ IL_00ef:
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_41;
 		L_41 = JSONValue_get_Object_m129E0B073A639C89AB337DFE5C7A7ADA7EA4258B_inline(L_40, NULL);
 		V_11 = L_41;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:128>
 		V_12 = (NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:129>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_42 = V_11;
 		NullCheck(L_42);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_43;
@@ -5561,95 +5246,78 @@ IL_00ef:
 
 IL_013d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:132>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_46 = V_11;
 		AbsoluteUriRecord_t9AAE65ED9C2C0EBB5DE83F431E3254F6E89B2C93* L_47 = (AbsoluteUriRecord_t9AAE65ED9C2C0EBB5DE83F431E3254F6E89B2C93*)il2cpp_codegen_object_new(AbsoluteUriRecord_t9AAE65ED9C2C0EBB5DE83F431E3254F6E89B2C93_il2cpp_TypeInfo_var);
 		AbsoluteUriRecord__ctor_mC1A214CF269DFA8C3FA526E9A76293D386443612(L_47, L_46, NULL);
 		V_12 = L_47;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:132>
 		goto IL_019e;
 	}
 
 IL_0148:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:133>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_48 = V_11;
 		EmptyRecord_t7635BFDB2B35223F07B0BD9C3448D220A7702BCE* L_49 = (EmptyRecord_t7635BFDB2B35223F07B0BD9C3448D220A7702BCE*)il2cpp_codegen_object_new(EmptyRecord_t7635BFDB2B35223F07B0BD9C3448D220A7702BCE_il2cpp_TypeInfo_var);
 		EmptyRecord__ctor_m21E6AD92755A571A1B0F32365ECA54E961AACF56(L_49, L_48, NULL);
 		V_12 = L_49;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:133>
 		goto IL_019e;
 	}
 
 IL_0153:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:134>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_50 = V_11;
 		ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256* L_51 = (ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256*)il2cpp_codegen_object_new(ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256_il2cpp_TypeInfo_var);
 		ExternalTypeRecord__ctor_m9FF21BC417482B05BE6C96EAEFCCDA42B9462578(L_51, L_50, NULL);
 		V_12 = L_51;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:134>
 		goto IL_019e;
 	}
 
 IL_015e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:135>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_52 = V_11;
 		MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB* L_53 = (MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB*)il2cpp_codegen_object_new(MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB_il2cpp_TypeInfo_var);
 		MimeMediaRecord__ctor_m2F24E16E37C034B4F6167DD6F441DB99A5259A35(L_53, L_52, NULL);
 		V_12 = L_53;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:135>
 		goto IL_019e;
 	}
 
 IL_0169:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:136>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_54 = V_11;
 		SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* L_55 = (SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953*)il2cpp_codegen_object_new(SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953_il2cpp_TypeInfo_var);
 		SmartPosterRecord__ctor_m13E83F324647A6E5511BBC5703315541CB3F78C3(L_55, L_54, NULL);
 		V_12 = L_55;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:136>
 		goto IL_019e;
 	}
 
 IL_0174:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:137>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_56 = V_11;
 		TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* L_57 = (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C*)il2cpp_codegen_object_new(TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C_il2cpp_TypeInfo_var);
 		TextRecord__ctor_m445D74E89DEFA56CD140CBDBF17F900FF7E9A9EE(L_57, L_56, NULL);
 		V_12 = L_57;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:137>
 		goto IL_019e;
 	}
 
 IL_017f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:138>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_58 = V_11;
 		UnknownRecord_t4D3946A353200503E64C17D5981BBE819B7A4349* L_59 = (UnknownRecord_t4D3946A353200503E64C17D5981BBE819B7A4349*)il2cpp_codegen_object_new(UnknownRecord_t4D3946A353200503E64C17D5981BBE819B7A4349_il2cpp_TypeInfo_var);
 		UnknownRecord__ctor_mA9FD432A779F5BD6663E5DF5971989BC1763618C(L_59, L_58, NULL);
 		V_12 = L_59;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:138>
 		goto IL_019e;
 	}
 
 IL_018a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:139>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_60 = V_11;
 		UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* L_61 = (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61*)il2cpp_codegen_object_new(UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61_il2cpp_TypeInfo_var);
 		UriRecord__ctor_m7C49D359C789915F3D0B804922D899A933329A73(L_61, L_60, NULL);
 		V_12 = L_61;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:139>
 		goto IL_019e;
 	}
 
 IL_0195:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:140>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_62 = V_11;
 		UnknownRecord_t4D3946A353200503E64C17D5981BBE819B7A4349* L_63 = (UnknownRecord_t4D3946A353200503E64C17D5981BBE819B7A4349*)il2cpp_codegen_object_new(UnknownRecord_t4D3946A353200503E64C17D5981BBE819B7A4349_il2cpp_TypeInfo_var);
 		UnknownRecord__ctor_mA9FD432A779F5BD6663E5DF5971989BC1763618C(L_63, L_62, NULL);
@@ -5658,19 +5326,16 @@ IL_0195:
 
 IL_019e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:143>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_64 = __this->___extraRecords;
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_65 = V_12;
 		NullCheck(L_64);
 		List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_inline(L_64, L_65, List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:125>
 		int32_t L_66 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_66, 1));
 	}
 
 IL_01b1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:125>
 		int32_t L_67 = V_10;
 		int32_t L_68 = V_9;
 		if ((((int32_t)L_67) < ((int32_t)L_68)))
@@ -5681,31 +5346,26 @@ IL_01b1:
 
 IL_01ba:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:148>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_69 = ___0_jsonObject;
 		NullCheck(L_69);
 		bool L_70;
 		L_70 = JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F(L_69, _stringLiteralF9010398F7F524C05AB19445BDCE02E617A3E267, (&V_4), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:149>
 		int32_t L_71 = V_4;
 		__this->___action = L_71;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:151>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_72 = ___0_jsonObject;
 		int32_t* L_73 = (int32_t*)(&__this->___size);
 		NullCheck(L_72);
 		bool L_74;
 		L_74 = JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F(L_72, _stringLiteral3EE5A4671A4E5AEBD31CA5F013A7773DC18ED22B, L_73, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:152>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_75 = ___0_jsonObject;
 		String_t** L_76 = (String_t**)(&__this->___mimeType);
 		NullCheck(L_75);
 		bool L_77;
 		L_77 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_75, _stringLiteralBD197B7E3C1E8558B0971663F85FEFB5D69A012B, L_76, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:153>
 		return;
 	}
 }
-// Method Definition Index: 76674
+// Method Definition Index: 76669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* SmartPosterRecord_ToJSON_m224039E0D6D9458DCFF3FE6B7F62DB5648120D7C (SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5736,11 +5396,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 	int32_t V_6 = 0;
 	int32_t V_7 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:157>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0;
 		L_0 = NDEFRecord_ToJSON_mD0594A9E004DDA103CB278E538693BFBB170A1B2(__this, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:158>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = V_0;
 		UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* L_2 = __this->___uriRecord;
 		NullCheck(L_2);
@@ -5750,24 +5408,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		L_4 = JSONValue_op_Implicit_m22914445547885231FC37FB451310F866CC38B77(L_3, NULL);
 		NullCheck(L_1);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_1, _stringLiteral550177E9FF1DC9079CD3A7F5D95188993FA421C2, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:160>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_5 = (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED*)il2cpp_codegen_object_new(JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED_il2cpp_TypeInfo_var);
 		JSONArray__ctor_mD0EF16E64C2CEC82893EA492CC921E003F3FEC13(L_5, NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:161>
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_6 = __this->___titleRecords;
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = List_1_get_Count_m430B8E48581EF3CE07B014696C8A93D9E714A500_inline(L_6, List_1_get_Count_m430B8E48581EF3CE07B014696C8A93D9E714A500_RuntimeMethod_var);
 		V_2 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:162>
 		V_5 = 0;
 		goto IL_005c;
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:164>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_8 = V_1;
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_9 = __this->___titleRecords;
 		int32_t L_10 = V_5;
@@ -5781,14 +5435,12 @@ IL_0039:
 		L_13 = JSONValue_op_Implicit_m22914445547885231FC37FB451310F866CC38B77(L_12, NULL);
 		NullCheck(L_8);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_8, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:162>
 		int32_t L_14 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_005c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:162>
 		int32_t L_15 = V_5;
 		int32_t L_16 = V_2;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -5797,31 +5449,26 @@ IL_005c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:166>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_17 = V_0;
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_18 = V_1;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_19;
 		L_19 = JSONValue_op_Implicit_m14D78D62141141C07CD485870027033A04282E6C(L_18, NULL);
 		NullCheck(L_17);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_17, _stringLiteralC7ED5EE08F5C5554F85092C82544B287A57784FB, L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:168>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_20 = (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED*)il2cpp_codegen_object_new(JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED_il2cpp_TypeInfo_var);
 		JSONArray__ctor_mD0EF16E64C2CEC82893EA492CC921E003F3FEC13(L_20, NULL);
 		V_3 = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:169>
 		List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* L_21 = __this->___iconRecords;
 		NullCheck(L_21);
 		int32_t L_22;
 		L_22 = List_1_get_Count_mB08AF13284F9EDD8E570BD97CC90A7ABBDAD7161_inline(L_21, List_1_get_Count_mB08AF13284F9EDD8E570BD97CC90A7ABBDAD7161_RuntimeMethod_var);
 		V_2 = L_22;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:170>
 		V_6 = 0;
 		goto IL_00ac;
 	}
 
 IL_0089:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:172>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_23 = V_3;
 		List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* L_24 = __this->___iconRecords;
 		int32_t L_25 = V_6;
@@ -5835,14 +5482,12 @@ IL_0089:
 		L_28 = JSONValue_op_Implicit_m22914445547885231FC37FB451310F866CC38B77(L_27, NULL);
 		NullCheck(L_23);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_23, L_28, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:170>
 		int32_t L_29 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_29, 1));
 	}
 
 IL_00ac:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:170>
 		int32_t L_30 = V_6;
 		int32_t L_31 = V_2;
 		if ((((int32_t)L_30) < ((int32_t)L_31)))
@@ -5851,31 +5496,26 @@ IL_00ac:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:174>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_32 = V_0;
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_33 = V_3;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_34;
 		L_34 = JSONValue_op_Implicit_m14D78D62141141C07CD485870027033A04282E6C(L_33, NULL);
 		NullCheck(L_32);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_32, _stringLiteralF81371331C7818C109FD75A5D3B455064920B392, L_34, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:176>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_35 = (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED*)il2cpp_codegen_object_new(JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED_il2cpp_TypeInfo_var);
 		JSONArray__ctor_mD0EF16E64C2CEC82893EA492CC921E003F3FEC13(L_35, NULL);
 		V_4 = L_35;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:177>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_36 = __this->___extraRecords;
 		NullCheck(L_36);
 		int32_t L_37;
 		L_37 = List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_inline(L_36, List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_RuntimeMethod_var);
 		V_2 = L_37;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:178>
 		V_7 = 0;
 		goto IL_00fe;
 	}
 
 IL_00da:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:180>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_38 = V_4;
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_39 = __this->___extraRecords;
 		int32_t L_40 = V_7;
@@ -5889,14 +5529,12 @@ IL_00da:
 		L_43 = JSONValue_op_Implicit_m22914445547885231FC37FB451310F866CC38B77(L_42, NULL);
 		NullCheck(L_38);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_38, L_43, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:178>
 		int32_t L_44 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_44, 1));
 	}
 
 IL_00fe:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:178>
 		int32_t L_45 = V_7;
 		int32_t L_46 = V_2;
 		if ((((int32_t)L_45) < ((int32_t)L_46)))
@@ -5905,35 +5543,30 @@ IL_00fe:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:182>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_47 = V_0;
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_48 = V_4;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_49;
 		L_49 = JSONValue_op_Implicit_m14D78D62141141C07CD485870027033A04282E6C(L_48, NULL);
 		NullCheck(L_47);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_47, _stringLiteral4A61847E17D7B55EFE6503A35F2764AEB0F18DE1, L_49, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:184>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_50 = V_0;
 		int32_t L_51 = __this->___action;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_52;
 		L_52 = JSONValue_op_Implicit_mAFAE8A5CC3A5523936D851AD21729E7A6CF91D38(((double)L_51), NULL);
 		NullCheck(L_50);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_50, _stringLiteralF9010398F7F524C05AB19445BDCE02E617A3E267, L_52, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:185>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_53 = V_0;
 		int32_t L_54 = __this->___size;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_55;
 		L_55 = JSONValue_op_Implicit_mAFAE8A5CC3A5523936D851AD21729E7A6CF91D38(((double)L_54), NULL);
 		NullCheck(L_53);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_53, _stringLiteral3EE5A4671A4E5AEBD31CA5F013A7773DC18ED22B, L_55, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:186>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_56 = V_0;
 		String_t* L_57 = __this->___mimeType;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_58;
 		L_58 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_57, NULL);
 		NullCheck(L_56);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_56, _stringLiteralBD197B7E3C1E8558B0971663F85FEFB5D69A012B, L_58, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/SmartPosterRecord.cs:188>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_59 = V_0;
 		return L_59;
 	}
@@ -5954,7 +5587,7 @@ IL_00fe:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76675
+// Method Definition Index: 76670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextRecord__ctor_m4FBD12526AA6D24C5EBCF2DA1CE6FD903E94BF99 (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5964,82 +5597,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextRecord__ctor_m4FBD12526AA6D24C5EBCF2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:22>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:24>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:25>
 		String_t* L_0 = ___0_text;
 		__this->___text = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___text), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:26>
 		__this->___languageCode = _stringLiteralC6DE535D828F30C374EB3BE3FFDE520228FC3096;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___languageCode), (void*)_stringLiteralC6DE535D828F30C374EB3BE3FFDE520228FC3096);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:27>
 		__this->___textEncoding = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 76676
+// Method Definition Index: 76671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextRecord__ctor_m8591FC064141BF36548F1D37708028E9B144F1FC (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* __this, String_t* ___0_text, String_t* ___1_languageCode, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:30>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:32>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:33>
 		String_t* L_0 = ___0_text;
 		__this->___text = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___text), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:34>
 		String_t* L_1 = ___1_languageCode;
 		__this->___languageCode = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___languageCode), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:35>
 		__this->___textEncoding = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 76677
+// Method Definition Index: 76672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextRecord__ctor_mF74B5D4D0FA6EF03948EA000C33EC6971BC24034 (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* __this, String_t* ___0_text, String_t* ___1_languageCode, int32_t ___2_textEncoding, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:38>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:40>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:41>
 		String_t* L_0 = ___0_text;
 		__this->___text = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___text), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:42>
 		String_t* L_1 = ___1_languageCode;
 		__this->___languageCode = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___languageCode), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:43>
 		int32_t L_2 = ___2_textEncoding;
 		__this->___textEncoding = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:44>
 		return;
 	}
 }
-// Method Definition Index: 76678
+// Method Definition Index: 76673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextRecord__ctor_m445D74E89DEFA56CD140CBDBF17F900FF7E9A9EE (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:46>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:48>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		VirtualActionInvoker1< JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* >::Invoke(6, __this, L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 76679
+// Method Definition Index: 76674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextRecord_ParseJSON_mCC12F116B59A2F965B2AE993BC3EC9A9F5EED636 (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6052,34 +5664,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextRecord_ParseJSON_mCC12F116B59A2F965B
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:53>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NDEFRecord_ParseJSON_m75C8AF704EEEDD4826E62C9B56BC630F105A4E51(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:55>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = ___0_jsonObject;
 		String_t** L_2 = (String_t**)(&__this->___text);
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_1, _stringLiteralBFCC6EE94F1B7AA05A04750903E25F93A7188AE0, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:56>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_4 = ___0_jsonObject;
 		String_t** L_5 = (String_t**)(&__this->___languageCode);
 		NullCheck(L_4);
 		bool L_6;
 		L_6 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_4, _stringLiteral526519DF908735008C5DA9BF5B255D2E40A76853, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:59>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_7 = ___0_jsonObject;
 		NullCheck(L_7);
 		bool L_8;
 		L_8 = JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F(L_7, _stringLiteralC50717D61E48FC1151494EE911ED4A2F7A295B37, (&V_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:60>
 		int32_t L_9 = V_0;
 		__this->___textEncoding = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 76680
+// Method Definition Index: 76675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* TextRecord_ToJSON_m58264920083A21B9B5EB1FBA880EDD3AEE6F8B85 (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6091,31 +5697,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:65>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0;
 		L_0 = NDEFRecord_ToJSON_mD0594A9E004DDA103CB278E538693BFBB170A1B2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:66>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = L_0;
 		String_t* L_2 = __this->___text;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_3;
 		L_3 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_2, NULL);
 		NullCheck(L_1);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_1, _stringLiteralBFCC6EE94F1B7AA05A04750903E25F93A7188AE0, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:67>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_4 = L_1;
 		String_t* L_5 = __this->___languageCode;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_6;
 		L_6 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_5, NULL);
 		NullCheck(L_4);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_4, _stringLiteral526519DF908735008C5DA9BF5B255D2E40A76853, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:68>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_7 = L_4;
 		int32_t L_8 = __this->___textEncoding;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_9;
 		L_9 = JSONValue_op_Implicit_mAFAE8A5CC3A5523936D851AD21729E7A6CF91D38(((double)L_8), NULL);
 		NullCheck(L_7);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_7, _stringLiteralC50717D61E48FC1151494EE911ED4A2F7A295B37, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/TextRecord.cs:70>
 		return L_7;
 	}
 }
@@ -6135,28 +5736,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76681
+// Method Definition Index: 76676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnknownRecord__ctor_mEFFED360DF75EFC72C055AA5D51F754FF68D84F1 (UnknownRecord_t4D3946A353200503E64C17D5981BBE819B7A4349* __this, String_t* ___0_uri, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UnknownRecord.cs:10>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UnknownRecord.cs:12>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UnknownRecord.cs:13>
 		return;
 	}
 }
-// Method Definition Index: 76682
+// Method Definition Index: 76677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnknownRecord__ctor_mA9FD432A779F5BD6663E5DF5971989BC1763618C (UnknownRecord_t4D3946A353200503E64C17D5981BBE819B7A4349* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UnknownRecord.cs:15>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UnknownRecord.cs:17>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		VirtualActionInvoker1< JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* >::Invoke(6, __this, L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UnknownRecord.cs:18>
 		return;
 	}
 }
@@ -6168,36 +5763,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnknownRecord__ctor_mA9FD432A779F5BD6663
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76683
+// Method Definition Index: 76678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriRecord__ctor_m67485B26D4297DA02D4446CC6EFC32341AF410C0 (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* __this, String_t* ___0_fullUri, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:19>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:21>
 		((NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)__this)->___type = 7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:22>
 		String_t* L_0 = ___0_fullUri;
 		__this->___fullUri = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___fullUri), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 76684
+// Method Definition Index: 76679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriRecord__ctor_m7C49D359C789915F3D0B804922D899A933329A73 (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:25>
 		NDEFRecord__ctor_m02D8550206FD99E649BE34EDD2EEB57A4E6EB3A2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:27>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		VirtualActionInvoker1< JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* >::Invoke(6, __this, L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 76685
+// Method Definition Index: 76680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriRecord_ParseJSON_m988FFB1E9297C44A79913DCD82344C074F543E41 (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_jsonObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6209,32 +5797,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriRecord_ParseJSON_m988FFB1E9297C44A799
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:32>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_jsonObject;
 		NDEFRecord_ParseJSON_m75C8AF704EEEDD4826E62C9B56BC630F105A4E51(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:34>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = ___0_jsonObject;
 		String_t** L_2 = (String_t**)(&__this->___fullUri);
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_1, _stringLiteral2D428F0C51F15EE1122C7B52CEA2D2B6A69B49E7, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:35>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_4 = ___0_jsonObject;
 		String_t** L_5 = (String_t**)(&__this->___uri);
 		NullCheck(L_4);
 		bool L_6;
 		L_6 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_4, _stringLiteral10C63C8C602DD5E38BE4A758C90EBAC324CD3E69, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:36>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_7 = ___0_jsonObject;
 		String_t** L_8 = (String_t**)(&__this->___protocol);
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4(L_7, _stringLiteral7E43774B75B1450B69767B10AF6E489676AE3ED3, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 76686
+// Method Definition Index: 76681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* UriRecord_ToJSON_m616439DCD8C9801F323B2E0B753606F7B354905C (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6246,31 +5829,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:41>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0;
 		L_0 = NDEFRecord_ToJSON_mD0594A9E004DDA103CB278E538693BFBB170A1B2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:42>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = L_0;
 		String_t* L_2 = __this->___fullUri;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_3;
 		L_3 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_2, NULL);
 		NullCheck(L_1);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_1, _stringLiteral2D428F0C51F15EE1122C7B52CEA2D2B6A69B49E7, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:43>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_4 = L_1;
 		String_t* L_5 = __this->___uri;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_6;
 		L_6 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_5, NULL);
 		NullCheck(L_4);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_4, _stringLiteral10C63C8C602DD5E38BE4A758C90EBAC324CD3E69, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:44>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_7 = L_4;
 		String_t* L_8 = __this->___protocol;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_9;
 		L_9 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_8, NULL);
 		NullCheck(L_7);
 		JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830(L_7, _stringLiteral7E43774B75B1450B69767B10AF6E489676AE3ED3, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/UriRecord.cs:46>
 		return L_7;
 	}
 }
@@ -6324,7 +5902,7 @@ void OnNFCTagDetected_Invoke_m06E82D12436CD493659A54E44F8F1E6F5F9CAB7A_OpenGener
 	NullCheck(___0_tag);
 	GenericInterfaceActionInvoker0::Invoke(method, ___0_tag);
 }
-// Method Definition Index: 76687
+// Method Definition Index: 76682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNFCTagDetected__ctor_m682F213C951185476EDB25362C3A3D9B09D0C850 (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6377,20 +5955,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNFCTagDetected__ctor_m682F213C95118547
 	}
 	__this->___extra_arg = (intptr_t)&OnNFCTagDetected_Invoke_m06E82D12436CD493659A54E44F8F1E6F5F9CAB7A_Multicast;
 }
-// Method Definition Index: 76688
+// Method Definition Index: 76683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNFCTagDetected_Invoke_m06E82D12436CD493659A54E44F8F1E6F5F9CAB7A (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* __this, NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* ___0_tag, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_tag, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76689
+// Method Definition Index: 76684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnNFCTagDetected_BeginInvoke_mE3AEFB449A7B4F86BCDC4A36B33BCF2691132692 (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* __this, NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* ___0_tag, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_tag;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 76690
+// Method Definition Index: 76685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNFCTagDetected_EndInvoke_m4CF3F82F813E9185CCD1F85A8D4F7462305EF68F (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6445,7 +6023,7 @@ void OnNDEFReadFinished_Invoke_mB3D6D645EECDD61BF6005AA647E49C6B8C2DE5E9_OpenGen
 	NullCheck(___0_result);
 	GenericInterfaceActionInvoker0::Invoke(method, ___0_result);
 }
-// Method Definition Index: 76691
+// Method Definition Index: 76686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFReadFinished__ctor_mEA691A60711E8344C57A4C4F45619624A818EB70 (OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6498,20 +6076,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFReadFinished__ctor_mEA691A60711E83
 	}
 	__this->___extra_arg = (intptr_t)&OnNDEFReadFinished_Invoke_mB3D6D645EECDD61BF6005AA647E49C6B8C2DE5E9_Multicast;
 }
-// Method Definition Index: 76692
+// Method Definition Index: 76687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFReadFinished_Invoke_mB3D6D645EECDD61BF6005AA647E49C6B8C2DE5E9 (OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* __this, NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* ___0_result, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_result, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76693
+// Method Definition Index: 76688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnNDEFReadFinished_BeginInvoke_m466B0CD4654D0EBD0427E6A62106CB5DC55A2419 (OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* __this, NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* ___0_result, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_result;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 76694
+// Method Definition Index: 76689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFReadFinished_EndInvoke_mEE48C1EA307C5079B0343A31329710C773E87713 (OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6566,7 +6144,7 @@ void OnNDEFWriteFinished_Invoke_mF0A36985E17F6A4056984E6C90734A24F963E345_OpenGe
 	NullCheck(___0_result);
 	GenericInterfaceActionInvoker0::Invoke(method, ___0_result);
 }
-// Method Definition Index: 76695
+// Method Definition Index: 76690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFWriteFinished__ctor_m5496659FEC972493554D47D4D210D8B75930134E (OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6619,20 +6197,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFWriteFinished__ctor_m5496659FEC972
 	}
 	__this->___extra_arg = (intptr_t)&OnNDEFWriteFinished_Invoke_mF0A36985E17F6A4056984E6C90734A24F963E345_Multicast;
 }
-// Method Definition Index: 76696
+// Method Definition Index: 76691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFWriteFinished_Invoke_mF0A36985E17F6A4056984E6C90734A24F963E345 (OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* __this, NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* ___0_result, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_result, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76697
+// Method Definition Index: 76692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnNDEFWriteFinished_BeginInvoke_m7892FE35439FC1DCD5C1D6EC4C06D73F6F7250CA (OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* __this, NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* ___0_result, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_result;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 76698
+// Method Definition Index: 76693
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFWriteFinished_EndInvoke_mFC7D21C33FB491587CDECDA00A954EE89FD54BBF (OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6687,7 +6265,7 @@ void OnNDEFPushFinished_Invoke_mA265B93BBCA841655097E2E5EBD149534D3646CD_OpenGen
 	NullCheck(___0_result);
 	GenericInterfaceActionInvoker0::Invoke(method, ___0_result);
 }
-// Method Definition Index: 76699
+// Method Definition Index: 76694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFPushFinished__ctor_m6125D039BC66E2AB88419A85AF286A8944A678B1 (OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6740,20 +6318,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFPushFinished__ctor_m6125D039BC66E2
 	}
 	__this->___extra_arg = (intptr_t)&OnNDEFPushFinished_Invoke_mA265B93BBCA841655097E2E5EBD149534D3646CD_Multicast;
 }
-// Method Definition Index: 76700
+// Method Definition Index: 76695
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFPushFinished_Invoke_mA265B93BBCA841655097E2E5EBD149534D3646CD (OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* __this, NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* ___0_result, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_result, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76701
+// Method Definition Index: 76696
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnNDEFPushFinished_BeginInvoke_mE2498958252B3509740CFEF67B1F3237542379B6 (OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* __this, NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* ___0_result, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_result;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 76702
+// Method Definition Index: 76697
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFPushFinished_EndInvoke_m349431F4F598930A4F1A1991A7AE29A5437BE860 (OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6808,7 +6386,7 @@ void OnNDEFMakeReadonlyFinished_Invoke_mDD5F11258541ED5F8A5496197850252F54045C8E
 	NullCheck(___0_result);
 	GenericInterfaceActionInvoker0::Invoke(method, ___0_result);
 }
-// Method Definition Index: 76703
+// Method Definition Index: 76698
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFMakeReadonlyFinished__ctor_mE0845F3C0B0F99F461F12B2F29A393C4237BBF29 (OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6861,20 +6439,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFMakeReadonlyFinished__ctor_mE0845F
 	}
 	__this->___extra_arg = (intptr_t)&OnNDEFMakeReadonlyFinished_Invoke_mDD5F11258541ED5F8A5496197850252F54045C8E_Multicast;
 }
-// Method Definition Index: 76704
+// Method Definition Index: 76699
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFMakeReadonlyFinished_Invoke_mDD5F11258541ED5F8A5496197850252F54045C8E (OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* __this, NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* ___0_result, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_result, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76705
+// Method Definition Index: 76700
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnNDEFMakeReadonlyFinished_BeginInvoke_m2825EA60125B397FE1384123926847CC67724192 (OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* __this, NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* ___0_result, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_result;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 76706
+// Method Definition Index: 76701
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFMakeReadonlyFinished_EndInvoke_mBA5F0F2984DDBB68A6F5FB92AC796758258BD474 (OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6887,7 +6465,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnNDEFMakeReadonlyFinished_EndInvoke_mBA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76707
+// Method Definition Index: 76702
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_onNFCTagDetected_m1D8F325DC64129A0C3CF331B61FD15F5FC0972EA (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6930,7 +6508,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76708
+// Method Definition Index: 76703
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_onNFCTagDetected_m841DD85412FD45775593DBC4F5D97DB5DAF11086 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6973,7 +6551,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76709
+// Method Definition Index: 76704
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_onNDEFReadFinished_mBE958F979AD83107E3DBFA903A7778A35D810E96 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7016,7 +6594,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76710
+// Method Definition Index: 76705
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_onNDEFReadFinished_mF54B163EFD178D72D68FE0D512281CF1B87E1292 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7059,7 +6637,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76711
+// Method Definition Index: 76706
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_onNDEFWriteFinished_m6D83A71FEC3A850A22788AE5D47147329C39C51F (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7102,7 +6680,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76712
+// Method Definition Index: 76707
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_onNDEFWriteFinished_m429A9404F53B653C10C861D0087FCF6158120C64 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7145,7 +6723,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76713
+// Method Definition Index: 76708
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_onNDEFPushFinished_mA1BCAAB023D2A577DFE044066371236B44CE0FC7 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7188,7 +6766,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76714
+// Method Definition Index: 76709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_onNDEFPushFinished_mDDF6F72F24194D72509FFC94508E7CA6C18B4328 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7231,7 +6809,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76715
+// Method Definition Index: 76710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_onNDEFMakeReadonlyFinished_m91495E1772569063F874ABAFFCA5DEBA8C257D04 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7274,7 +6852,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76716
+// Method Definition Index: 76711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_onNDEFMakeReadonlyFinished_m9F5EEE72050B3806CEB2375E075AB916DA25ACDC (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7317,157 +6895,131 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76717
+// Method Definition Index: 76712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_NFCTagDetected_m2DAA419C96B912511F9130BB99C42BD431EF745D (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:48>
 		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_0 = ___0_value;
 		NativeNFC_add_onNFCTagDetected_m1D8F325DC64129A0C3CF331B61FD15F5FC0972EA(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:48>
+		return;
+	}
+}
+// Method Definition Index: 76713
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_NFCTagDetected_mD3305BDB653CB1C52D8855C9ABD755AD3D51A456 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_0 = ___0_value;
+		NativeNFC_remove_onNFCTagDetected_m841DD85412FD45775593DBC4F5D97DB5DAF11086(__this, L_0, NULL);
+		return;
+	}
+}
+// Method Definition Index: 76714
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_NDEFReadFinished_m0E567510FD55FD3DF205D00E6C8BAAD7D9D5F9F0 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* L_0 = ___0_value;
+		NativeNFC_add_onNDEFReadFinished_mBE958F979AD83107E3DBFA903A7778A35D810E96(__this, L_0, NULL);
+		return;
+	}
+}
+// Method Definition Index: 76715
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_NDEFReadFinished_mE01D088845A3D651DC6E6A9134643A864B1F83D0 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* L_0 = ___0_value;
+		NativeNFC_remove_onNDEFReadFinished_mF54B163EFD178D72D68FE0D512281CF1B87E1292(__this, L_0, NULL);
+		return;
+	}
+}
+// Method Definition Index: 76716
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_NDEFWriteFinished_m8F41F1D1DFFD57199C9AC80C891B832C633B1EBB (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* L_0 = ___0_value;
+		NativeNFC_add_onNDEFWriteFinished_m6D83A71FEC3A850A22788AE5D47147329C39C51F(__this, L_0, NULL);
+		return;
+	}
+}
+// Method Definition Index: 76717
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_NDEFWriteFinished_mC162DCF94861214631FE614901FB791C8CC040F9 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* L_0 = ___0_value;
+		NativeNFC_remove_onNDEFWriteFinished_m429A9404F53B653C10C861D0087FCF6158120C64(__this, L_0, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76718
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_NFCTagDetected_mD3305BDB653CB1C52D8855C9ABD755AD3D51A456 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* ___0_value, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_NDEFPushFinished_mBCF3AFDBDED849C3A3F7AECAC99F66AB0F7E3B5C (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:49>
-		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_0 = ___0_value;
-		NativeNFC_remove_onNFCTagDetected_m841DD85412FD45775593DBC4F5D97DB5DAF11086(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:49>
+		OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* L_0 = ___0_value;
+		NativeNFC_add_onNDEFPushFinished_mA1BCAAB023D2A577DFE044066371236B44CE0FC7(__this, L_0, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76719
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_NDEFReadFinished_m0E567510FD55FD3DF205D00E6C8BAAD7D9D5F9F0 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* ___0_value, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_NDEFPushFinished_m13D7BEFCBEE90BB28A824128A0A345A6A6FBC179 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:55>
-		OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* L_0 = ___0_value;
-		NativeNFC_add_onNDEFReadFinished_mBE958F979AD83107E3DBFA903A7778A35D810E96(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:55>
+		OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* L_0 = ___0_value;
+		NativeNFC_remove_onNDEFPushFinished_mDDF6F72F24194D72509FFC94508E7CA6C18B4328(__this, L_0, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76720
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_NDEFReadFinished_mE01D088845A3D651DC6E6A9134643A864B1F83D0 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* ___0_value, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_NDEFMakeReadonlyFinished_mDC03FFDDEAD702CD5E1D4C1B828BEF68C1D54D7E (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:56>
-		OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* L_0 = ___0_value;
-		NativeNFC_remove_onNDEFReadFinished_mF54B163EFD178D72D68FE0D512281CF1B87E1292(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:56>
+		OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* L_0 = ___0_value;
+		NativeNFC_add_onNDEFMakeReadonlyFinished_m91495E1772569063F874ABAFFCA5DEBA8C257D04(__this, L_0, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76721
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_NDEFWriteFinished_m8F41F1D1DFFD57199C9AC80C891B832C633B1EBB (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* ___0_value, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_NDEFMakeReadonlyFinished_m69BE83CEC920EF7043CB56D9A373555A9009651C (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:62>
-		OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* L_0 = ___0_value;
-		NativeNFC_add_onNDEFWriteFinished_m6D83A71FEC3A850A22788AE5D47147329C39C51F(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:62>
+		OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* L_0 = ___0_value;
+		NativeNFC_remove_onNDEFMakeReadonlyFinished_m9F5EEE72050B3806CEB2375E075AB916DA25ACDC(__this, L_0, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76722
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_NDEFWriteFinished_mC162DCF94861214631FE614901FB791C8CC040F9 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* ___0_value, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:63>
-		OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* L_0 = ___0_value;
-		NativeNFC_remove_onNDEFWriteFinished_m429A9404F53B653C10C861D0087FCF6158120C64(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:63>
-		return;
-	}
-}
-// Method Definition Index: 76723
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_NDEFPushFinished_mBCF3AFDBDED849C3A3F7AECAC99F66AB0F7E3B5C (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* ___0_value, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:69>
-		OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* L_0 = ___0_value;
-		NativeNFC_add_onNDEFPushFinished_mA1BCAAB023D2A577DFE044066371236B44CE0FC7(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:69>
-		return;
-	}
-}
-// Method Definition Index: 76724
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_NDEFPushFinished_m13D7BEFCBEE90BB28A824128A0A345A6A6FBC179 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* ___0_value, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:70>
-		OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* L_0 = ___0_value;
-		NativeNFC_remove_onNDEFPushFinished_mDDF6F72F24194D72509FFC94508E7CA6C18B4328(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:70>
-		return;
-	}
-}
-// Method Definition Index: 76725
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_add_NDEFMakeReadonlyFinished_mDC03FFDDEAD702CD5E1D4C1B828BEF68C1D54D7E (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* ___0_value, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:76>
-		OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* L_0 = ___0_value;
-		NativeNFC_add_onNDEFMakeReadonlyFinished_m91495E1772569063F874ABAFFCA5DEBA8C257D04(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:76>
-		return;
-	}
-}
-// Method Definition Index: 76726
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_remove_NDEFMakeReadonlyFinished_m69BE83CEC920EF7043CB56D9A373555A9009651C (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* ___0_value, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:77>
-		OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* L_0 = ___0_value;
-		NativeNFC_remove_onNDEFMakeReadonlyFinished_m9F5EEE72050B3806CEB2375E075AB916DA25ACDC(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:77>
-		return;
-	}
-}
-// Method Definition Index: 76727
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFC_get_ResetOnTimeout_m46E058ED953ACBD013175CF8CCAC8ED8AA389313 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:83>
 		bool L_0 = __this->___resetOnTimeout;
 		return L_0;
 	}
 }
-// Method Definition Index: 76728
+// Method Definition Index: 76723
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_set_ResetOnTimeout_m1256228F87A009B3E143DF5B923D8EE27166DEBE (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:84>
 		bool L_0 = ___0_value;
 		__this->___resetOnTimeout = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 76729
+// Method Definition Index: 76724
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFC_get_UseNDEFReaderSession_m729868FB01C08EC7BF83A6728D2B39B2C8F8D49F (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:90>
 		bool L_0 = __this->___useNDEFReaderSession;
 		return L_0;
 	}
 }
-// Method Definition Index: 76730
+// Method Definition Index: 76725
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_set_UseNDEFReaderSession_mF6300C33CEF83AF9DE97B0B1688333FECA9B1FAA (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:91>
 		bool L_0 = ___0_value;
 		__this->___useNDEFReaderSession = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:91>
 		return;
 	}
 }
-// Method Definition Index: 76752
+// Method Definition Index: 76747
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNFCTagDetected_mE599683EB8F5B5AB60279C721A27C99634C76631 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, String_t* ___0_tagJSON, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7481,22 +7033,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNFCTagDetected_mE599683EB8F5
 	}
 	NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:160>
 		String_t* L_0 = ___0_tagJSON;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE45099F296AE5BE6AFC815A2B1192CA8F5F811A8, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:161>
 		String_t* L_2 = ___0_tagJSON;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_3;
 		L_3 = JSONObject_Parse_m6931DC0DB101FFE6724DFBE0F944788AD55FC763(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:162>
 		NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* L_4 = (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6*)il2cpp_codegen_object_new(NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6_il2cpp_TypeInfo_var);
 		NFCTag__ctor_m391750804D10F518A4461889912C8F2D5BADD599(L_4, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:164>
 		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_5 = __this->___onNFCTagDetected;
 		if (!L_5)
 		{
@@ -7504,7 +7052,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNFCTagDetected_mE599683EB8F5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:166>
 		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_6 = __this->___onNFCTagDetected;
 		NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* L_7 = V_0;
 		NullCheck(L_6);
@@ -7513,11 +7060,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNFCTagDetected_mE599683EB8F5
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:168>
 		return;
 	}
 }
-// Method Definition Index: 76753
+// Method Definition Index: 76748
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFReadFinished_mB86261D363A9DFD1721EDAA7EADAC767D9480667 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, String_t* ___0_resultJSON, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7529,16 +7075,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFReadFinished_mB86261D363
 	}
 	NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:173>
 		String_t* L_0 = ___0_resultJSON;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1;
 		L_1 = JSONObject_Parse_m6931DC0DB101FFE6724DFBE0F944788AD55FC763(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:174>
 		NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* L_2 = (NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE*)il2cpp_codegen_object_new(NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE_il2cpp_TypeInfo_var);
 		NDEFReadResult__ctor_m54A82AF0CAB1F04182947CB492C7CE7B3FA79B4F(L_2, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:176>
 		OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* L_3 = __this->___onNDEFReadFinished;
 		if (!L_3)
 		{
@@ -7546,7 +7089,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFReadFinished_mB86261D363
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:178>
 		OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* L_4 = __this->___onNDEFReadFinished;
 		NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* L_5 = V_0;
 		NullCheck(L_4);
@@ -7555,11 +7097,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFReadFinished_mB86261D363
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:180>
 		return;
 	}
 }
-// Method Definition Index: 76754
+// Method Definition Index: 76749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFWriteFinished_m211BBE9C2AFE0A995780B368C793C0B82643C5D4 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, String_t* ___0_resultJSON, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7571,16 +7112,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFWriteFinished_m211BBE9C2
 	}
 	NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:185>
 		String_t* L_0 = ___0_resultJSON;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1;
 		L_1 = JSONObject_Parse_m6931DC0DB101FFE6724DFBE0F944788AD55FC763(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:186>
 		NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* L_2 = (NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460*)il2cpp_codegen_object_new(NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460_il2cpp_TypeInfo_var);
 		NDEFWriteResult__ctor_mF17BF308FAC611D3A1CFA19C0112D41ED9287857(L_2, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:188>
 		OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* L_3 = __this->___onNDEFWriteFinished;
 		if (!L_3)
 		{
@@ -7588,7 +7126,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFWriteFinished_m211BBE9C2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:190>
 		OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* L_4 = __this->___onNDEFWriteFinished;
 		NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* L_5 = V_0;
 		NullCheck(L_4);
@@ -7597,11 +7134,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFWriteFinished_m211BBE9C2
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:192>
 		return;
 	}
 }
-// Method Definition Index: 76755
+// Method Definition Index: 76750
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFPushFinished_m199803DA1FA7AB4EB7B2786D421BEDDEF3971CB6 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, String_t* ___0_resultJSON, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7613,16 +7149,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFPushFinished_m199803DA1F
 	}
 	NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:197>
 		String_t* L_0 = ___0_resultJSON;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1;
 		L_1 = JSONObject_Parse_m6931DC0DB101FFE6724DFBE0F944788AD55FC763(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:198>
 		NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* L_2 = (NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C*)il2cpp_codegen_object_new(NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C_il2cpp_TypeInfo_var);
 		NDEFPushResult__ctor_m43147178E270A669469BD3B152A338F1AB57C4EE(L_2, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:200>
 		OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* L_3 = __this->___onNDEFPushFinished;
 		if (!L_3)
 		{
@@ -7630,7 +7163,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFPushFinished_m199803DA1F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:202>
 		OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* L_4 = __this->___onNDEFPushFinished;
 		NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* L_5 = V_0;
 		NullCheck(L_4);
@@ -7639,11 +7171,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFPushFinished_m199803DA1F
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:204>
 		return;
 	}
 }
-// Method Definition Index: 76756
+// Method Definition Index: 76751
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFMakeReadonlyFinished_m7E913941C6ED82478DD711A9A03DD7D56CABAFD0 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, String_t* ___0_resultJSON, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7655,16 +7186,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFMakeReadonlyFinished_m7E
 	}
 	NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:209>
 		String_t* L_0 = ___0_resultJSON;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1;
 		L_1 = JSONObject_Parse_m6931DC0DB101FFE6724DFBE0F944788AD55FC763(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:210>
 		NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* L_2 = (NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84*)il2cpp_codegen_object_new(NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84_il2cpp_TypeInfo_var);
 		NDEFMakeReadonlyResult__ctor_m1C9F36AA0DB2F18617E921E81F3DCFD6CE90BCB3(L_2, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:212>
 		OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* L_3 = __this->___onNDEFMakeReadonlyFinished;
 		if (!L_3)
 		{
@@ -7672,7 +7200,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFMakeReadonlyFinished_m7E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:214>
 		OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* L_4 = __this->___onNDEFMakeReadonlyFinished;
 		NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* L_5 = V_0;
 		NullCheck(L_4);
@@ -7681,11 +7208,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC_OnNDEFMakeReadonlyFinished_m7E
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFC.cs:216>
 		return;
 	}
 }
-// Method Definition Index: 76757
+// Method Definition Index: 76752
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC__ctor_m4496421294B0BCC31F2F0E0836D736FD4C035757 (NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7701,7 +7227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFC__ctor_m4496421294B0BCC31F2F0E0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76758
+// Method Definition Index: 76753
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7716,7 +7242,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:22>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0 = ((NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_StaticFields*)il2cpp_codegen_static_fields_for(NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7727,13 +7252,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:24>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_2;
 		L_2 = Object_FindObjectOfType_TisNativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_m923074CE40A2313ED382D49E5053274D3224B8EC(Object_FindObjectOfType_TisNativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_m923074CE40A2313ED382D49E5053274D3224B8EC_RuntimeMethod_var);
 		((NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_StaticFields*)il2cpp_codegen_static_fields_for(NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_il2cpp_TypeInfo_var))->___instance = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&((NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_StaticFields*)il2cpp_codegen_static_fields_for(NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_il2cpp_TypeInfo_var))->___instance), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:25>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_3 = ((NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_StaticFields*)il2cpp_codegen_static_fields_for(NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_il2cpp_TypeInfo_var))->___instance;
 		bool L_4;
 		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -7743,10 +7266,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:27>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_5, _stringLiteral049C697F63442FC1F420D231ABBC4ACFAA3472B6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:28>
 		NullCheck(L_5);
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_6;
 		L_6 = GameObject_AddComponent_TisNativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_m1FBF74E0B10B44A578C309503F52468D5157CE78(L_5, GameObject_AddComponent_TisNativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_m1FBF74E0B10B44A578C309503F52468D5157CE78_RuntimeMethod_var);
@@ -7756,16 +7277,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA
 
 IL_0038:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:32>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_7 = ((NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_StaticFields*)il2cpp_codegen_static_fields_for(NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_il2cpp_TypeInfo_var))->___instance;
 		return L_7;
 	}
 }
-// Method Definition Index: 76759
+// Method Definition Index: 76754
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* NativeNFCManager_get_NFC_mE9712F1FB12F7E7EEC90E316B04B5988DFA31813 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:39>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
@@ -7773,11 +7292,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeNFC_t285488EFD6B6775568A494D8DE2403E418
 		return L_1;
 	}
 }
-// Method Definition Index: 76760
+// Method Definition Index: 76755
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFCManager_get_ResetOnTimeout_m170753EF671C0FAA79BC043CF9709753A3B13BC0 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:45>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_0;
 		L_0 = NativeNFCManager_get_NFC_mE9712F1FB12F7E7EEC90E316B04B5988DFA31813(NULL);
 		NullCheck(L_0);
@@ -7786,25 +7304,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFCManager_get_ResetOnTimeout_m170
 		return L_1;
 	}
 }
-// Method Definition Index: 76761
+// Method Definition Index: 76756
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_set_ResetOnTimeout_m17EEF47F4163F86DF03EEFB3946DEA1C00FE59A0 (bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:46>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_0;
 		L_0 = NativeNFCManager_get_NFC_mE9712F1FB12F7E7EEC90E316B04B5988DFA31813(NULL);
 		bool L_1 = ___0_value;
 		NullCheck(L_0);
 		VirtualActionInvoker1< bool >::Invoke(5, L_0, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 76762
+// Method Definition Index: 76757
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFCManager_get_UseNDEFReaderSession_m824B258B1B37061E0ADE75AA6D74DB65A445FA7C (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:52>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_0;
 		L_0 = NativeNFCManager_get_NFC_mE9712F1FB12F7E7EEC90E316B04B5988DFA31813(NULL);
 		NullCheck(L_0);
@@ -7813,21 +7328,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFCManager_get_UseNDEFReaderSessio
 		return L_1;
 	}
 }
-// Method Definition Index: 76763
+// Method Definition Index: 76758
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_set_UseNDEFReaderSession_mA98B2791E567668F96ECC967FB01B1C99130539F (bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:53>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_0;
 		L_0 = NativeNFCManager_get_NFC_mE9712F1FB12F7E7EEC90E316B04B5988DFA31813(NULL);
 		bool L_1 = ___0_value;
 		NullCheck(L_0);
 		VirtualActionInvoker1< bool >::Invoke(7, L_0, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 76764
+// Method Definition Index: 76759
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_Awake_m5200B6476C5CF2A1F33783571D87C40073EF82DE (NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7837,7 +7350,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_Awake_m5200B6476C5CF2A1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:62>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -7845,15 +7357,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_Awake_m5200B6476C5CF2A1
 		L_1 = GameObject_AddComponent_TisAndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74_mE2283BB176C7EBDCBBDE61D898130445EB40A4E0(L_0, GameObject_AddComponent_TisAndroidNFC_t63771F96496391BF80DBC3668A6E61F49F667B74_mE2283BB176C7EBDCBBDE61D898130445EB40A4E0_RuntimeMethod_var);
 		__this->___nfc = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___nfc), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:63>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_2 = __this->___nfc;
 		NullCheck(L_2);
 		VirtualActionInvoker0::Invoke(8, L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:70>
 		return;
 	}
 }
-// Method Definition Index: 76765
+// Method Definition Index: 76760
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_OnDestroy_m0A655044101CFB819032B2E2DB021F86CBEB0EE6 (NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7863,14 +7373,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_OnDestroy_m0A655044101C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:74>
 		((NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_StaticFields*)il2cpp_codegen_static_fields_for(NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_il2cpp_TypeInfo_var))->___instance = (NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&((NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_StaticFields*)il2cpp_codegen_static_fields_for(NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_il2cpp_TypeInfo_var))->___instance), (void*)(NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:75>
 		return;
 	}
 }
-// Method Definition Index: 76766
+// Method Definition Index: 76761
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_TryDestroy_mA09CE364D10EB0CB140104E8D1F6889DCC5035E8 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7881,7 +7389,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_TryDestroy_mA09CE364D10
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:80>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0 = ((NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_StaticFields*)il2cpp_codegen_static_fields_for(NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7905,7 +7412,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_TryDestroy_mA09CE364D10
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:82>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_5 = ((NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_StaticFields*)il2cpp_codegen_static_fields_for(NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
@@ -7916,123 +7422,108 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_TryDestroy_mA09CE364D10
 
 IL_002e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 76767
+// Method Definition Index: 76762
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFCManager_IsNFCTagInfoReadSupported_mBD8AD807B08D06F43F2D12E1FE68D730C6B8246E (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:89>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:90>
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(9, L_1);
 		return L_2;
 	}
 }
-// Method Definition Index: 76768
+// Method Definition Index: 76763
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFCManager_IsNDEFReadSupported_m64C498D9BB01A5716438945EE945844B82B62238 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:96>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:97>
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(10, L_1);
 		return L_2;
 	}
 }
-// Method Definition Index: 76769
+// Method Definition Index: 76764
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFCManager_IsNDEFWriteSupported_m90691FC43DBDE9D3AA700FD898037000D7709F53 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:103>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:104>
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(11, L_1);
 		return L_2;
 	}
 }
-// Method Definition Index: 76770
+// Method Definition Index: 76765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFCManager_IsNDEFPushSupported_mC2C17B3FD3746A06E16FE7960017B8DD14E941A0 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:110>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:111>
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(12, L_1);
 		return L_2;
 	}
 }
-// Method Definition Index: 76771
+// Method Definition Index: 76766
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFCManager_IsNDEFMakeReadonlySupported_m9944CB16C1C1858BFCF73ABD8CA2C614D8CAEF60 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:117>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:118>
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(13, L_1);
 		return L_2;
 	}
 }
-// Method Definition Index: 76772
+// Method Definition Index: 76767
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFCManager_IsNFCEnabled_mBB5DBA2E8887CBCEC4B03DF355C44E5CE1176C02 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:124>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:125>
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(14, L_1);
 		return L_2;
 	}
 }
-// Method Definition Index: 76773
+// Method Definition Index: 76768
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeNFCManager_IsNDEFPushEnabled_mC1948138FBA4714A43D1CDD8ACAE4A1BF576D1AB (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:131>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:132>
 		NullCheck(L_1);
 		bool L_2;
 		L_2 = VirtualFuncInvoker0< bool >::Invoke(15, L_1);
 		return L_2;
 	}
 }
-// Method Definition Index: 76774
+// Method Definition Index: 76769
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_Enable_mF17E980C2EA1CEFE395DE1E28B11C06718FCF297 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8045,12 +7536,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_Enable_mF17E980C2EA1CEF
 	NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* G_B2_0 = NULL;
 	NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:138>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:139>
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_2 = L_1;
 		NullCheck(L_2);
 		bool L_3;
@@ -8063,7 +7552,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_Enable_mF17E980C2EA1CEF
 		G_B1_0 = L_2;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralD79C69A7A131F2098D6D502F2ADE5B5B24CDB32A, NULL);
 		G_B2_0 = G_B1_0;
@@ -8071,39 +7559,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_Enable_mF17E980C2EA1CEF
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:143>
 		NullCheck(G_B2_0);
 		VirtualActionInvoker0::Invoke(16, G_B2_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:144>
 		return;
 	}
 }
-// Method Definition Index: 76775
+// Method Definition Index: 76770
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_Disable_mDD5F3481D9C8D05A4630AADF7E3E02620EB139F9 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:149>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:150>
 		NullCheck(L_1);
 		VirtualActionInvoker0::Invoke(17, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:151>
 		return;
 	}
 }
-// Method Definition Index: 76776
+// Method Definition Index: 76771
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RequestNDEFWrite_mBA2692B3E6E07639600013B66EB3816ACF99641B (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* ___0_message, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:156>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:157>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_2 = ___0_message;
 		NullCheck(L_2);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_3;
@@ -8113,36 +7594,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RequestNDEFWrite_mBA269
 		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_3);
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(18, L_1, L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:158>
 		return;
 	}
 }
-// Method Definition Index: 76777
+// Method Definition Index: 76772
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_CancelNDEFWriteRequest_mF43AE4E53E9B3E7D0C02111D8E554690BDF688EE (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:163>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:164>
 		NullCheck(L_1);
 		VirtualActionInvoker0::Invoke(19, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:165>
 		return;
 	}
 }
-// Method Definition Index: 76778
+// Method Definition Index: 76773
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RequestNDEFPush_mB9BCA4CC5D0442A6278EBEF6098B331A347E853C (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* ___0_message, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:170>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:171>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_2 = ___0_message;
 		NullCheck(L_2);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_3;
@@ -8152,311 +7627,256 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RequestNDEFPush_mB9BCA4
 		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_3);
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(20, L_1, L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:172>
+		return;
+	}
+}
+// Method Definition Index: 76774
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_CancelNDEFPushRequest_m64BB49D796C00ABA16517BD2F353576058048CC0 (const RuntimeMethod* method) 
+{
+	{
+		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
+		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
+		NullCheck(L_0);
+		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
+		NullCheck(L_1);
+		VirtualActionInvoker0::Invoke(21, L_1);
+		return;
+	}
+}
+// Method Definition Index: 76775
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RequestNDEFMakeReadonly_mC45E89531902B0F2DDC3B85916B967B41A6FF0A5 (const RuntimeMethod* method) 
+{
+	{
+		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
+		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
+		NullCheck(L_0);
+		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
+		NullCheck(L_1);
+		VirtualActionInvoker0::Invoke(22, L_1);
+		return;
+	}
+}
+// Method Definition Index: 76776
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_CancelNDEFMakeReadonlyRequest_mD83DE66DF7809BF8ECAC1DBC159EFD38F0580537 (const RuntimeMethod* method) 
+{
+	{
+		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
+		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
+		NullCheck(L_0);
+		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
+		NullCheck(L_1);
+		VirtualActionInvoker0::Invoke(23, L_1);
+		return;
+	}
+}
+// Method Definition Index: 76777
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_AddNFCTagDetectedListener_m2BC2F1D0DA7B10DED2DFEADA6BBBB64DECFF2FC0 (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* ___0_listener, const RuntimeMethod* method) 
+{
+	{
+		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
+		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
+		NullCheck(L_0);
+		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
+		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_2 = ___0_listener;
+		NullCheck(L_1);
+		NativeNFC_add_NFCTagDetected_m2DAA419C96B912511F9130BB99C42BD431EF745D(L_1, L_2, NULL);
+		return;
+	}
+}
+// Method Definition Index: 76778
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RemoveNFCTagDetectedListener_m8178EA310C0B80E7DDA0FE993DA021317FE7DCFB (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* ___0_listener, const RuntimeMethod* method) 
+{
+	{
+		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
+		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
+		NullCheck(L_0);
+		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
+		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_2 = ___0_listener;
+		NullCheck(L_1);
+		NativeNFC_remove_NFCTagDetected_mD3305BDB653CB1C52D8855C9ABD755AD3D51A456(L_1, L_2, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76779
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_CancelNDEFPushRequest_m64BB49D796C00ABA16517BD2F353576058048CC0 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_AddNDEFReadFinishedListener_m6010ADACF30CC9DF609E35DC40CE44A54CEB6179 (OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* ___0_listener, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:177>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:178>
+		OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* L_2 = ___0_listener;
 		NullCheck(L_1);
-		VirtualActionInvoker0::Invoke(21, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:179>
+		NativeNFC_add_NDEFReadFinished_m0E567510FD55FD3DF205D00E6C8BAAD7D9D5F9F0(L_1, L_2, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76780
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RequestNDEFMakeReadonly_mC45E89531902B0F2DDC3B85916B967B41A6FF0A5 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RemoveNDEFReadFinishedListener_m5B315D92DF51649652B341C6DE03522144C36272 (OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* ___0_listener, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:184>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:185>
+		OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* L_2 = ___0_listener;
 		NullCheck(L_1);
-		VirtualActionInvoker0::Invoke(22, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:186>
+		NativeNFC_remove_NDEFReadFinished_mE01D088845A3D651DC6E6A9134643A864B1F83D0(L_1, L_2, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76781
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_CancelNDEFMakeReadonlyRequest_mD83DE66DF7809BF8ECAC1DBC159EFD38F0580537 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_AddNDEFWriteFinishedListener_m623380311DCFB4198BEC90EE99A079F6A6B2265A (OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* ___0_listener, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:191>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:192>
+		OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* L_2 = ___0_listener;
 		NullCheck(L_1);
-		VirtualActionInvoker0::Invoke(23, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:193>
+		NativeNFC_add_NDEFWriteFinished_m8F41F1D1DFFD57199C9AC80C891B832C633B1EBB(L_1, L_2, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76782
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_AddNFCTagDetectedListener_m2BC2F1D0DA7B10DED2DFEADA6BBBB64DECFF2FC0 (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* ___0_listener, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RemoveNDEFWriteFinishedListener_mE616D37BD276F56BFA8F3907E014EDFFD9FD0E00 (OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* ___0_listener, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:198>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:199>
-		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_2 = ___0_listener;
+		OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* L_2 = ___0_listener;
 		NullCheck(L_1);
-		NativeNFC_add_NFCTagDetected_m2DAA419C96B912511F9130BB99C42BD431EF745D(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:200>
+		NativeNFC_remove_NDEFWriteFinished_mC162DCF94861214631FE614901FB791C8CC040F9(L_1, L_2, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76783
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RemoveNFCTagDetectedListener_m8178EA310C0B80E7DDA0FE993DA021317FE7DCFB (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* ___0_listener, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_AddNDEFPushFinishedListener_mDA03F4B1B0EAE598AFF1D94A38BA7FCBE08D08E3 (OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* ___0_listener, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:205>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:206>
-		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_2 = ___0_listener;
+		OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* L_2 = ___0_listener;
 		NullCheck(L_1);
-		NativeNFC_remove_NFCTagDetected_mD3305BDB653CB1C52D8855C9ABD755AD3D51A456(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:207>
+		NativeNFC_add_NDEFPushFinished_mBCF3AFDBDED849C3A3F7AECAC99F66AB0F7E3B5C(L_1, L_2, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76784
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_AddNDEFReadFinishedListener_m6010ADACF30CC9DF609E35DC40CE44A54CEB6179 (OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* ___0_listener, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RemoveNDEFPushFinishedListener_m3FB101493C46EF8C079DC166772D98999CB5D564 (OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* ___0_listener, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:212>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:213>
-		OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* L_2 = ___0_listener;
+		OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* L_2 = ___0_listener;
 		NullCheck(L_1);
-		NativeNFC_add_NDEFReadFinished_m0E567510FD55FD3DF205D00E6C8BAAD7D9D5F9F0(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:214>
+		NativeNFC_remove_NDEFPushFinished_m13D7BEFCBEE90BB28A824128A0A345A6A6FBC179(L_1, L_2, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76785
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RemoveNDEFReadFinishedListener_m5B315D92DF51649652B341C6DE03522144C36272 (OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* ___0_listener, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_AddNDEFMakeReadonlyFinishedListener_mFDE97D7A9F113554EC0D5FB01FFF6C8135FDE79F (OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* ___0_listener, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:219>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:220>
-		OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* L_2 = ___0_listener;
+		OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* L_2 = ___0_listener;
 		NullCheck(L_1);
-		NativeNFC_remove_NDEFReadFinished_mE01D088845A3D651DC6E6A9134643A864B1F83D0(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:221>
+		NativeNFC_add_NDEFMakeReadonlyFinished_mDC03FFDDEAD702CD5E1D4C1B828BEF68C1D54D7E(L_1, L_2, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76786
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_AddNDEFWriteFinishedListener_m623380311DCFB4198BEC90EE99A079F6A6B2265A (OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* ___0_listener, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RemoveNDEFMakeReadonlyFinishedListener_mAB4914957C5F7053625B837104D51854E96CF896 (OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* ___0_listener, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:226>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:227>
-		OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* L_2 = ___0_listener;
+		OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* L_2 = ___0_listener;
 		NullCheck(L_1);
-		NativeNFC_add_NDEFWriteFinished_m8F41F1D1DFFD57199C9AC80C891B832C633B1EBB(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:228>
+		NativeNFC_remove_NDEFMakeReadonlyFinished_m69BE83CEC920EF7043CB56D9A373555A9009651C(L_1, L_2, NULL);
 		return;
 	}
 }
 // Method Definition Index: 76787
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RemoveNDEFWriteFinishedListener_mE616D37BD276F56BFA8F3907E014EDFFD9FD0E00 (OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* ___0_listener, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_ShowNFCSettings_m07FDBF04909276A30FEB51579AD4CB185493E2F3 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:233>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:234>
-		OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* L_2 = ___0_listener;
 		NullCheck(L_1);
-		NativeNFC_remove_NDEFWriteFinished_mC162DCF94861214631FE614901FB791C8CC040F9(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:235>
+		VirtualActionInvoker0::Invoke(24, L_1);
 		return;
 	}
 }
 // Method Definition Index: 76788
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_AddNDEFPushFinishedListener_mDA03F4B1B0EAE598AFF1D94A38BA7FCBE08D08E3 (OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* ___0_listener, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_EnableSounds_mFB2C4DA45DB1CAE3B98A248BA517E70567F08315 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:240>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:241>
-		OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* L_2 = ___0_listener;
 		NullCheck(L_1);
-		NativeNFC_add_NDEFPushFinished_mBCF3AFDBDED849C3A3F7AECAC99F66AB0F7E3B5C(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:242>
+		VirtualActionInvoker0::Invoke(25, L_1);
 		return;
 	}
 }
 // Method Definition Index: 76789
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RemoveNDEFPushFinishedListener_m3FB101493C46EF8C079DC166772D98999CB5D564 (OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* ___0_listener, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_DisableSounds_m0C397A5E4F4985BC2140550E883A2A344DF52168 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:247>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:248>
-		OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* L_2 = ___0_listener;
 		NullCheck(L_1);
-		NativeNFC_remove_NDEFPushFinished_m13D7BEFCBEE90BB28A824128A0A345A6A6FBC179(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:249>
+		VirtualActionInvoker0::Invoke(26, L_1);
 		return;
 	}
 }
 // Method Definition Index: 76790
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_AddNDEFMakeReadonlyFinishedListener_mFDE97D7A9F113554EC0D5FB01FFF6C8135FDE79F (OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* ___0_listener, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_SetReadAlertMessage_m9A571D851864031F2CEF874A24A517246FA10A01 (String_t* ___0_alertMessage, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:254>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:255>
-		OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* L_2 = ___0_listener;
+		String_t* L_2 = ___0_alertMessage;
 		NullCheck(L_1);
-		NativeNFC_add_NDEFMakeReadonlyFinished_mDC03FFDDEAD702CD5E1D4C1B828BEF68C1D54D7E(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:256>
+		VirtualActionInvoker1< String_t* >::Invoke(27, L_1, L_2);
 		return;
 	}
 }
 // Method Definition Index: 76791
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_RemoveNDEFMakeReadonlyFinishedListener_mAB4914957C5F7053625B837104D51854E96CF896 (OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* ___0_listener, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_SetWriteAlertMessage_mA9DF18944AF2A03FA3015832219BDA9BAF83AD72 (String_t* ___0_alertMessage, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:261>
 		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
 		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
 		NullCheck(L_0);
 		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:262>
-		OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* L_2 = ___0_listener;
+		String_t* L_2 = ___0_alertMessage;
 		NullCheck(L_1);
-		NativeNFC_remove_NDEFMakeReadonlyFinished_m69BE83CEC920EF7043CB56D9A373555A9009651C(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:263>
+		VirtualActionInvoker1< String_t* >::Invoke(28, L_1, L_2);
 		return;
 	}
 }
 // Method Definition Index: 76792
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_ShowNFCSettings_m07FDBF04909276A30FEB51579AD4CB185493E2F3 (const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:268>
-		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
-		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
-		NullCheck(L_0);
-		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:269>
-		NullCheck(L_1);
-		VirtualActionInvoker0::Invoke(24, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:270>
-		return;
-	}
-}
-// Method Definition Index: 76793
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_EnableSounds_mFB2C4DA45DB1CAE3B98A248BA517E70567F08315 (const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:275>
-		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
-		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
-		NullCheck(L_0);
-		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:276>
-		NullCheck(L_1);
-		VirtualActionInvoker0::Invoke(25, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:277>
-		return;
-	}
-}
-// Method Definition Index: 76794
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_DisableSounds_m0C397A5E4F4985BC2140550E883A2A344DF52168 (const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:282>
-		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
-		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
-		NullCheck(L_0);
-		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:283>
-		NullCheck(L_1);
-		VirtualActionInvoker0::Invoke(26, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:284>
-		return;
-	}
-}
-// Method Definition Index: 76795
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_SetReadAlertMessage_m9A571D851864031F2CEF874A24A517246FA10A01 (String_t* ___0_alertMessage, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:289>
-		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
-		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
-		NullCheck(L_0);
-		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:290>
-		String_t* L_2 = ___0_alertMessage;
-		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(27, L_1, L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:291>
-		return;
-	}
-}
-// Method Definition Index: 76796
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager_SetWriteAlertMessage_mA9DF18944AF2A03FA3015832219BDA9BAF83AD72 (String_t* ___0_alertMessage, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:296>
-		NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* L_0;
-		L_0 = NativeNFCManager_get_Instance_m76885A25EE095A2FDE67A820AF3AB3BAB2CE528F(NULL);
-		NullCheck(L_0);
-		NativeNFC_t285488EFD6B6775568A494D8DE2403E4182299A2* L_1 = L_0->___nfc;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:297>
-		String_t* L_2 = ___0_alertMessage;
-		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(28, L_1, L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/NativeNFCManager.cs:298>
-		return;
-	}
-}
-// Method Definition Index: 76797
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager__ctor_mBBF1062CC46438242695D08B4F41BF60B9FD25D1 (NativeNFCManager_tF70DAE24C46A5CAB3503849F1EA7AA89013E3785* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8472,7 +7892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeNFCManager__ctor_mBBF1062CC4643824
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76798
+// Method Definition Index: 76793
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Util_EncodeBase64UrlSafe_m7D45C03684190BFB796D7C48B33ED1FD18E84755 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8488,12 +7908,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Util_EncodeBase64UrlSafe_m7D45C0368
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Util.cs:10>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_bytes;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		String_t* L_1;
 		L_1 = Convert_ToBase64String_mD0680EF77270244071965AFA1207921C73EEA323(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Util.cs:11>
 		NullCheck(L_1);
 		String_t* L_2;
 		L_2 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_1, _stringLiteral1FA13CA565DC9B5105D70A528D26A6FC7A57049E, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -8503,11 +7921,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Util_EncodeBase64UrlSafe_m7D45C0368
 		NullCheck(L_3);
 		String_t* L_4;
 		L_4 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_3, _stringLiteral20E39C3AB7068FAFD9E4B868E16D2E5BC64D4952, _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Util.cs:13>
 		return L_4;
 	}
 }
-// Method Definition Index: 76799
+// Method Definition Index: 76794
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* Util_DecodeBase64UrlSafe_m26F0E53D526F29C0604A61026E4578F552D3F1F3 (String_t* ___0_base64String, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8521,7 +7938,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Util.cs:19>
 		String_t* L_0 = ___0_base64String;
 		String_t* L_1 = ___0_base64String;
 		NullCheck(L_1);
@@ -8541,7 +7957,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		String_t* L_7;
 		L_7 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_6, _stringLiteral3B2C1C62D4D1C2A0C8A9AC42DB00D33C654F9AD0, _stringLiteral20E39C3AB7068FAFD9E4B868E16D2E5BC64D4952, NULL);
 		___0_base64String = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Util.cs:20>
 		String_t* L_8 = ___0_base64String;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9;
@@ -8549,7 +7964,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		return L_9;
 	}
 }
-// Method Definition Index: 76800
+// Method Definition Index: 76795
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Util__ctor_m9441F851BD1E574D517FF58BA0CAA24B8268713D (Util_tC8904F7941468E04F83EDF5DFE5E4E24D9D35E46* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8565,7 +7980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Util__ctor_m9441F851BD1E574D517FF58BA0CA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76803
+// Method Definition Index: 76798
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray__ctor_mD0EF16E64C2CEC82893EA492CC921E003F3FEC13 (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8576,18 +7991,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray__ctor_mD0EF16E64C2CEC82893EA49
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:10>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_0 = (List_1_t4891A035167A0848A4FABCBC74088165DDC802EB*)il2cpp_codegen_object_new(List_1_t4891A035167A0848A4FABCBC74088165DDC802EB_il2cpp_TypeInfo_var);
 		List_1__ctor_m238A1CDD73FD8CCD0F12AC8177F3D796EF2F2D29(L_0, List_1__ctor_m238A1CDD73FD8CCD0F12AC8177F3D796EF2F2D29_RuntimeMethod_var);
 		__this->___values = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___values), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:12>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 76804
+// Method Definition Index: 76799
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray__ctor_mE1A0B14C8DB3986FAD2601494E6C2015574BD083 (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* __this, JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* ___0_array, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8607,19 +8019,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray__ctor_mE1A0B14C8DB3986FAD26014
 	memset((&V_0), 0, sizeof(V_0));
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:10>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_0 = (List_1_t4891A035167A0848A4FABCBC74088165DDC802EB*)il2cpp_codegen_object_new(List_1_t4891A035167A0848A4FABCBC74088165DDC802EB_il2cpp_TypeInfo_var);
 		List_1__ctor_m238A1CDD73FD8CCD0F12AC8177F3D796EF2F2D29(L_0, List_1__ctor_m238A1CDD73FD8CCD0F12AC8177F3D796EF2F2D29_RuntimeMethod_var);
 		__this->___values = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___values), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:16>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:18>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_1 = (List_1_t4891A035167A0848A4FABCBC74088165DDC802EB*)il2cpp_codegen_object_new(List_1_t4891A035167A0848A4FABCBC74088165DDC802EB_il2cpp_TypeInfo_var);
 		List_1__ctor_m238A1CDD73FD8CCD0F12AC8177F3D796EF2F2D29(L_1, List_1__ctor_m238A1CDD73FD8CCD0F12AC8177F3D796EF2F2D29_RuntimeMethod_var);
 		__this->___values = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___values), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:19>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_2 = ___0_array;
 		NullCheck(L_2);
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_3 = L_2->___values;
@@ -8646,11 +8054,9 @@ FINALLY_004e:
 
 IL_002a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:19>
 				JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_5;
 				L_5 = Enumerator_get_Current_m69CF9B09D0C0748592410208A2B1789373C72476_inline((&V_0), Enumerator_get_Current_m69CF9B09D0C0748592410208A2B1789373C72476_RuntimeMethod_var);
 				V_1 = L_5;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:21>
 				List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_6 = __this->___values;
 				JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_7 = V_1;
 				JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_8 = (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466*)il2cpp_codegen_object_new(JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466_il2cpp_TypeInfo_var);
@@ -8661,7 +8067,6 @@ IL_002a_1:
 
 IL_0043_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:19>
 				bool L_9;
 				L_9 = Enumerator_MoveNext_m1BAA664869C6AF5C435B2A2BC6E69F5B70247676((&V_0), Enumerator_MoveNext_m1BAA664869C6AF5C435B2A2BC6E69F5B70247676_RuntimeMethod_var);
 				if (L_9)
@@ -8681,11 +8086,10 @@ IL_0043_1:
 
 IL_005c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 76805
+// Method Definition Index: 76800
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* __this, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8695,16 +8099,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:27>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_0 = __this->___values;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1 = ___0_value;
 		NullCheck(L_0);
 		List_1_Add_m228C552541E9641645F482C6216E116DD0CABF51_inline(L_0, L_1, List_1_Add_m228C552541E9641645F482C6216E116DD0CABF51_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 76806
+// Method Definition Index: 76801
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* JSONArray_get_Item_m6196D287E4C938E4A357C0C1090521985CAAE331 (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8714,7 +8116,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:32>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_0 = __this->___values;
 		int32_t L_1 = ___0_index;
 		NullCheck(L_0);
@@ -8723,7 +8124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04D
 		return L_2;
 	}
 }
-// Method Definition Index: 76807
+// Method Definition Index: 76802
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_set_Item_m9DC5239B4D6F8D39D22D6AC8D31405CF93DC2200 (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* __this, int32_t ___0_index, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8733,17 +8134,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_set_Item_m9DC5239B4D6F8D39D22D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:33>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_0 = __this->___values;
 		int32_t L_1 = ___0_index;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = ___1_value;
 		NullCheck(L_0);
 		List_1_set_Item_mC328133E4B1F820B425162A1586FE865155CC32E(L_0, L_1, L_2, List_1_set_Item_mC328133E4B1F820B425162A1586FE865155CC32E_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:33>
 		return;
 	}
 }
-// Method Definition Index: 76808
+// Method Definition Index: 76803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONArray_get_Length_mCF44B69C27140AC5C57F16F5F32C92FE9874E276 (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8753,7 +8152,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONArray_get_Length_mCF44B69C27140AC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:38>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_0 = __this->___values;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -8761,7 +8159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONArray_get_Length_mCF44B69C27140AC
 		return L_1;
 	}
 }
-// Method Definition Index: 76809
+// Method Definition Index: 76804
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONArray_ToString_m454B88AD7AA5D89647AA6197718A3C8EB1D3548F (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8780,16 +8178,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONArray_ToString_m454B88AD7AA5D89
 	memset((&V_1), 0, sizeof(V_1));
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:43>
 		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:44>
 		StringBuilder_t* L_1 = V_0;
 		NullCheck(L_1);
 		StringBuilder_t* L_2;
 		L_2 = StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1(L_1, ((int32_t)91), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:45>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_3 = __this->___values;
 		NullCheck(L_3);
 		Enumerator_t2AF1E5DCF583189E1AF3EED76E1DA13130A0575A L_4;
@@ -8814,11 +8209,9 @@ FINALLY_0046:
 
 IL_001d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:45>
 				JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_5;
 				L_5 = Enumerator_get_Current_m69CF9B09D0C0748592410208A2B1789373C72476_inline((&V_1), Enumerator_get_Current_m69CF9B09D0C0748592410208A2B1789373C72476_RuntimeMethod_var);
 				V_2 = L_5;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:47>
 				StringBuilder_t* L_6 = V_0;
 				JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_7 = V_2;
 				NullCheck(L_7);
@@ -8827,7 +8220,6 @@ IL_001d_1:
 				NullCheck(L_6);
 				StringBuilder_t* L_9;
 				L_9 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_6, L_8, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:48>
 				StringBuilder_t* L_10 = V_0;
 				NullCheck(L_10);
 				StringBuilder_t* L_11;
@@ -8836,7 +8228,6 @@ IL_001d_1:
 
 IL_003b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:45>
 				bool L_12;
 				L_12 = Enumerator_MoveNext_m1BAA664869C6AF5C435B2A2BC6E69F5B70247676((&V_1), Enumerator_MoveNext_m1BAA664869C6AF5C435B2A2BC6E69F5B70247676_RuntimeMethod_var);
 				if (L_12)
@@ -8856,7 +8247,6 @@ IL_003b_1:
 
 IL_0054:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:50>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_13 = __this->___values;
 		NullCheck(L_13);
 		int32_t L_14;
@@ -8867,7 +8257,6 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:52>
 		StringBuilder_t* L_15 = V_0;
 		StringBuilder_t* L_16 = V_0;
 		NullCheck(L_16);
@@ -8880,12 +8269,10 @@ IL_0054:
 
 IL_0072:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:54>
 		StringBuilder_t* L_19 = V_0;
 		NullCheck(L_19);
 		StringBuilder_t* L_20;
 		L_20 = StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1(L_19, ((int32_t)93), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:55>
 		StringBuilder_t* L_21 = V_0;
 		NullCheck(L_21);
 		String_t* L_22;
@@ -8893,7 +8280,7 @@ IL_0072:
 		return L_22;
 	}
 }
-// Method Definition Index: 76810
+// Method Definition Index: 76805
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONArray_GetEnumerator_mA81128916D5CEE408EB487776BAC8846336F830E (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8904,7 +8291,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONArray_GetEnumerator_mA8112
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:60>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_0 = __this->___values;
 		NullCheck(L_0);
 		Enumerator_t2AF1E5DCF583189E1AF3EED76E1DA13130A0575A L_1;
@@ -8914,7 +8300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONArray_GetEnumerator_mA8112
 		return (RuntimeObject*)L_3;
 	}
 }
-// Method Definition Index: 76811
+// Method Definition Index: 76806
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONArray_System_Collections_IEnumerable_GetEnumerator_mF3160A176E4CB06856EE872622ED2F6C9340EE1F (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8925,7 +8311,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONArray_System_Collections_I
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:65>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_0 = __this->___values;
 		NullCheck(L_0);
 		Enumerator_t2AF1E5DCF583189E1AF3EED76E1DA13130A0575A L_1;
@@ -8935,7 +8320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONArray_System_Collections_I
 		return (RuntimeObject*)L_3;
 	}
 }
-// Method Definition Index: 76812
+// Method Definition Index: 76807
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* JSONArray_Parse_m26D5B74BD021F63D67AC93A8FAB6E0856C1AB1CB (String_t* ___0_jsonString, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8949,7 +8334,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943
 	}
 	JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:70>
 		String_t* L_0 = ___0_jsonString;
 		String_t* L_1;
 		L_1 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral62F324270CB6F3B259EF9DEA4E501378B2B33B31, L_0, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30, NULL);
@@ -8957,7 +8341,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_2;
 		L_2 = JSONObject_Parse_m6931DC0DB101FFE6724DFBE0F944788AD55FC763(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:71>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_3 = V_0;
 		if (!L_3)
 		{
@@ -8980,7 +8363,7 @@ IL_002a:
 		return (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED*)NULL;
 	}
 }
-// Method Definition Index: 76813
+// Method Definition Index: 76808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Clear_mA5726887AF86F4A894B0F64CA5D89C5F003FE941 (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8990,15 +8373,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Clear_mA5726887AF86F4A894B0F64
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:76>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_0 = __this->___values;
 		NullCheck(L_0);
 		List_1_Clear_m21AE168CBE9A50578423F001F50BB1B15706BE09_inline(L_0, List_1_Clear_m21AE168CBE9A50578423F001F50BB1B15706BE09_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:77>
 		return;
 	}
 }
-// Method Definition Index: 76814
+// Method Definition Index: 76809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Remove_mF5FAD7F52DC5F26E4CFE74C8341CC1ABA807A6C9 (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9015,7 +8396,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Remove_mF5FAD7F52DC5F26E4CFE74
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:81>
 		int32_t L_0 = ___0_index;
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
@@ -9034,7 +8414,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Remove_mF5FAD7F52DC5F26E4CFE74
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:83>
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_4 = __this->___values;
 		int32_t L_5 = ___0_index;
 		NullCheck(L_4);
@@ -9044,7 +8423,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONArray_Remove_mF5FAD7F52DC5F26E4CFE74
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:87>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6;
 		NullCheck(L_7);
@@ -9074,11 +8452,10 @@ IL_001f:
 		L_16 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_15, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:89>
 		return;
 	}
 }
-// Method Definition Index: 76815
+// Method Definition Index: 76810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* JSONArray_op_Addition_m9696DAAFB02CC08D40980DC1EB2F838009D732FD (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* ___0_lhs, JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* ___1_rhs, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9096,12 +8473,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943
 	memset((&V_1), 0, sizeof(V_1));
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:93>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_0 = ___0_lhs;
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_1 = (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED*)il2cpp_codegen_object_new(JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED_il2cpp_TypeInfo_var);
 		JSONArray__ctor_mE1A0B14C8DB3986FAD2601494E6C2015574BD083(L_1, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:94>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_2 = ___1_rhs;
 		NullCheck(L_2);
 		List_1_t4891A035167A0848A4FABCBC74088165DDC802EB* L_3 = L_2->___values;
@@ -9128,11 +8503,9 @@ FINALLY_002f:
 
 IL_0015_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:94>
 				JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_5;
 				L_5 = Enumerator_get_Current_m69CF9B09D0C0748592410208A2B1789373C72476_inline((&V_1), Enumerator_get_Current_m69CF9B09D0C0748592410208A2B1789373C72476_RuntimeMethod_var);
 				V_2 = L_5;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:96>
 				JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_6 = V_0;
 				JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_7 = V_2;
 				NullCheck(L_6);
@@ -9141,7 +8514,6 @@ IL_0015_1:
 
 IL_0024_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:94>
 				bool L_8;
 				L_8 = Enumerator_MoveNext_m1BAA664869C6AF5C435B2A2BC6E69F5B70247676((&V_1), Enumerator_MoveNext_m1BAA664869C6AF5C435B2A2BC6E69F5B70247676_RuntimeMethod_var);
 				if (L_8)
@@ -9161,7 +8533,6 @@ IL_0024_1:
 
 IL_003d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONArray.cs:98>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_9 = V_0;
 		return L_9;
 	}
@@ -9174,7 +8545,7 @@ IL_003d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76816
+// Method Definition Index: 76811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject__ctor_m38D2260C187F21A54DC4B151FEED08007C820FD9 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9185,18 +8556,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject__ctor_m38D2260C187F21A54DC4B1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:28>
 		Dictionary_2_t3B83C4E39966FCA8B2FCB2C2F6F6AAB72F49340B* L_0 = (Dictionary_2_t3B83C4E39966FCA8B2FCB2C2F6F6AAB72F49340B*)il2cpp_codegen_object_new(Dictionary_2_t3B83C4E39966FCA8B2FCB2C2F6F6AAB72F49340B_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mFBA36B9E1923F102D23A245B3EEB7CF01ADD9908(L_0, Dictionary_2__ctor_mFBA36B9E1923F102D23A245B3EEB7CF01ADD9908_RuntimeMethod_var);
 		__this->___values = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___values), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:32>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 76817
+// Method Definition Index: 76812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject__ctor_mA5AAF446715C54AF1A1C5AF33615BAAFAC156D51 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9218,19 +8586,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject__ctor_mA5AAF446715C54AF1A1C5A
 	KeyValuePair_2_t55F9FB7280FDF92CED6454820DBB7788FD63FB60 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:28>
 		Dictionary_2_t3B83C4E39966FCA8B2FCB2C2F6F6AAB72F49340B* L_0 = (Dictionary_2_t3B83C4E39966FCA8B2FCB2C2F6F6AAB72F49340B*)il2cpp_codegen_object_new(Dictionary_2_t3B83C4E39966FCA8B2FCB2C2F6F6AAB72F49340B_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mFBA36B9E1923F102D23A245B3EEB7CF01ADD9908(L_0, Dictionary_2__ctor_mFBA36B9E1923F102D23A245B3EEB7CF01ADD9908_RuntimeMethod_var);
 		__this->___values = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___values), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:36>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:38>
 		Dictionary_2_t3B83C4E39966FCA8B2FCB2C2F6F6AAB72F49340B* L_1 = (Dictionary_2_t3B83C4E39966FCA8B2FCB2C2F6F6AAB72F49340B*)il2cpp_codegen_object_new(Dictionary_2_t3B83C4E39966FCA8B2FCB2C2F6F6AAB72F49340B_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mFBA36B9E1923F102D23A245B3EEB7CF01ADD9908(L_1, Dictionary_2__ctor_mFBA36B9E1923F102D23A245B3EEB7CF01ADD9908_RuntimeMethod_var);
 		__this->___values = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___values), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:40>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_2 = ___0_other;
 		if (!L_2)
 		{
@@ -9238,7 +8602,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject__ctor_mA5AAF446715C54AF1A1C5A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:42>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_3 = ___0_other;
 		NullCheck(L_3);
 		RuntimeObject* L_4 = L_3->___values;
@@ -9280,13 +8643,11 @@ IL_0065:
 
 IL_002d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:42>
 				RuntimeObject* L_8 = V_0;
 				NullCheck(L_8);
 				KeyValuePair_2_t55F9FB7280FDF92CED6454820DBB7788FD63FB60 L_9;
 				L_9 = InterfaceFuncInvoker0< KeyValuePair_2_t55F9FB7280FDF92CED6454820DBB7788FD63FB60 >::Invoke(0, IEnumerator_1_t1E3B4677645549E564B2E36748BB2B11CD358E9F_il2cpp_TypeInfo_var, L_8);
 				V_1 = L_9;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:44>
 				RuntimeObject* L_10 = __this->___values;
 				String_t* L_11;
 				L_11 = KeyValuePair_2_get_Key_m6F9F014DECD4076AAC540DAD79371C05F2029E77_inline((&V_1), KeyValuePair_2_get_Key_m6F9F014DECD4076AAC540DAD79371C05F2029E77_RuntimeMethod_var);
@@ -9300,7 +8661,6 @@ IL_002d_1:
 
 IL_0052_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:42>
 				RuntimeObject* L_14 = V_0;
 				NullCheck(L_14);
 				bool L_15;
@@ -9322,11 +8682,10 @@ IL_0052_1:
 
 IL_0066:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 76818
+// Method Definition Index: 76813
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_ContainsKey_m7499111A59826DE60E0AF38EFB3497B251C37E61 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9336,7 +8695,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_ContainsKey_m7499111A59826DE6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:51>
 		RuntimeObject* L_0 = __this->___values;
 		String_t* L_1 = ___0_key;
 		NullCheck(L_0);
@@ -9345,7 +8703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_ContainsKey_m7499111A59826DE6
 		return L_2;
 	}
 }
-// Method Definition Index: 76819
+// Method Definition Index: 76814
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9356,18 +8714,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04D
 	}
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:57>
 		RuntimeObject* L_0 = __this->___values;
 		String_t* L_1 = ___0_key;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = InterfaceFuncInvoker2< bool, String_t*, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466** >::Invoke(6, IDictionary_2_t275EAF9BB8000738CF4F844088691F4275B35341_il2cpp_TypeInfo_var, L_0, L_1, (&V_0));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:58>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_3 = V_0;
 		return L_3;
 	}
 }
-// Method Definition Index: 76820
+// Method Definition Index: 76815
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONObject_GetKeys_mCDC2033AD6C22421A7F7A9F7CD23EA7DD7D6FAC9 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9377,7 +8733,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONObject_GetKeys_mCDC2033AD6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:63>
 		RuntimeObject* L_0 = __this->___values;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -9385,7 +8740,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONObject_GetKeys_mCDC2033AD6
 		return L_1;
 	}
 }
-// Method Definition Index: 76821
+// Method Definition Index: 76816
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONObject_GetString_m30D8C256B85C836B2A4EFC31F1C3C32F9B9B09A8 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9397,12 +8752,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONObject_GetString_m30D8C256B85C8
 	}
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:68>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:69>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (L_2)
 		{
@@ -9410,20 +8763,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONObject_GetString_m30D8C256B85C8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:71>
 		String_t* L_3 = ___0_key;
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_3, _stringLiteralA5FC01C3CF61A2891BB5274F2935B66EABC4CAD4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:72>
 		String_t* L_5 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		return L_5;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:74>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_6 = V_0;
 		NullCheck(L_6);
 		String_t* L_7;
@@ -9431,17 +8781,15 @@ IL_0021:
 		return L_7;
 	}
 }
-// Method Definition Index: 76822
+// Method Definition Index: 76817
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetString_m175884A750B1EBB9EA5874D3191C9EDFADE551E4 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, String_t** ___1_stringValue, const RuntimeMethod* method) 
 {
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:79>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:80>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (!L_2)
 		{
@@ -9449,7 +8797,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetString_m175884A750B1EBB
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:82>
 		String_t** L_3 = ___1_stringValue;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_4 = V_0;
 		NullCheck(L_4);
@@ -9457,21 +8804,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetString_m175884A750B1EBB
 		L_5 = JSONValue_get_String_mD52CDC9544A1D27B0E244780AD1027453C0DCB49_inline(L_4, NULL);
 		*((RuntimeObject**)L_3) = (RuntimeObject*)L_5;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_3, (void*)(RuntimeObject*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:83>
 		return (bool)1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:87>
 		String_t** L_6 = ___1_stringValue;
 		*((RuntimeObject**)L_6) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_6, (void*)(RuntimeObject*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:88>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76823
+// Method Definition Index: 76818
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double JSONObject_GetNumber_mC57DFCBDF9E71CD11EBE504B68A9F3D6BA787587 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9483,12 +8827,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double JSONObject_GetNumber_mC57DFCBDF9E71CD1
 	}
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:94>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:95>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (L_2)
 		{
@@ -9496,19 +8838,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double JSONObject_GetNumber_mC57DFCBDF9E71CD1
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:97>
 		String_t* L_3 = ___0_key;
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_3, _stringLiteral52D8836757B8CD82DD406426EFE89677EBCAD7BC, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:98>
 		return (std::numeric_limits<double>::quiet_NaN());
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:100>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_5 = V_0;
 		NullCheck(L_5);
 		double L_6;
@@ -9516,17 +8855,15 @@ IL_0025:
 		return L_6;
 	}
 }
-// Method Definition Index: 76824
+// Method Definition Index: 76819
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetDouble_m36C8B08E5274E5BB4CE4DD2902792C8E60B5AC4F (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, double* ___1_doubleValue, const RuntimeMethod* method) 
 {
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:105>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:106>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (!L_2)
 		{
@@ -9534,37 +8871,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetDouble_m36C8B08E5274E5B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:108>
 		double* L_3 = ___1_doubleValue;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_4 = V_0;
 		NullCheck(L_4);
 		double L_5;
 		L_5 = JSONValue_get_Double_mB505D20D82802069D1F9DBBDC44CACB4758E46E8_inline(L_4, NULL);
 		*((double*)L_3) = (double)L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:109>
 		return (bool)1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:113>
 		double* L_6 = ___1_doubleValue;
 		*((double*)L_6) = (double)(0.0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:114>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76825
+// Method Definition Index: 76820
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetFloat_m12F70CAEE252A77C3013DE1875EBD7305F741D7E (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, float* ___1_floatValue, const RuntimeMethod* method) 
 {
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:120>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:121>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (!L_2)
 		{
@@ -9572,37 +8903,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetFloat_m12F70CAEE252A77C
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:123>
 		float* L_3 = ___1_floatValue;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_4 = V_0;
 		NullCheck(L_4);
 		float L_5;
 		L_5 = JSONValue_get_Float_m4A2BA62CE1C191BB732B517A15E89B09015C195D(L_4, NULL);
 		*((float*)L_3) = (float)L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:124>
 		return (bool)1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:128>
 		float* L_6 = ___1_floatValue;
 		*((float*)L_6) = (float)(0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:129>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76826
+// Method Definition Index: 76821
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetInt_m55A0A9069A0A581A746333E3367E2B4E6C34963F (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, int32_t* ___1_intValue, const RuntimeMethod* method) 
 {
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:135>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:136>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (!L_2)
 		{
@@ -9610,27 +8935,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetInt_m55A0A9069A0A581A74
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:138>
 		int32_t* L_3 = ___1_intValue;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = JSONValue_get_Integer_mBD6445397BABC88DC0E43C5DCF412CB70B996F38(L_4, NULL);
 		*((int32_t*)L_3) = (int32_t)L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:139>
 		return (bool)1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:143>
 		int32_t* L_6 = ___1_intValue;
 		*((int32_t*)L_6) = (int32_t)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:144>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76827
+// Method Definition Index: 76822
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* JSONObject_GetObject_m2BF699E246F018FE4FD9F5A50397424C5E7443BF (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9642,12 +8963,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 	}
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:150>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:151>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (L_2)
 		{
@@ -9655,19 +8974,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:153>
 		String_t* L_3 = ___0_key;
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_3, _stringLiteral52D8836757B8CD82DD406426EFE89677EBCAD7BC, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:154>
 		return (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:156>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_5 = V_0;
 		NullCheck(L_5);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_6;
@@ -9675,17 +8991,15 @@ IL_001d:
 		return L_6;
 	}
 }
-// Method Definition Index: 76828
+// Method Definition Index: 76823
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetObject_mB00849FCCD892AC5B60257A1BA1B6BB347CDB4E0 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6** ___1_objectValue, const RuntimeMethod* method) 
 {
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:161>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:162>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (!L_2)
 		{
@@ -9693,7 +9007,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetObject_mB00849FCCD892AC
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:164>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6** L_3 = ___1_objectValue;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_4 = V_0;
 		NullCheck(L_4);
@@ -9701,21 +9014,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetObject_mB00849FCCD892AC
 		L_5 = JSONValue_get_Object_m129E0B073A639C89AB337DFE5C7A7ADA7EA4258B_inline(L_4, NULL);
 		*((RuntimeObject**)L_3) = (RuntimeObject*)L_5;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_3, (void*)(RuntimeObject*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:165>
 		return (bool)1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:169>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6** L_6 = ___1_objectValue;
 		*((RuntimeObject**)L_6) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_6, (void*)(RuntimeObject*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:170>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76829
+// Method Definition Index: 76824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_GetBoolean_m4171530F2E497D2B88B5F316746CEB1690E58074 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9727,12 +9037,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_GetBoolean_m4171530F2E497D2B8
 	}
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:176>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:177>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (L_2)
 		{
@@ -9740,19 +9048,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_GetBoolean_m4171530F2E497D2B8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:179>
 		String_t* L_3 = ___0_key;
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_3, _stringLiteral52D8836757B8CD82DD406426EFE89677EBCAD7BC, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:180>
 		return (bool)0;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:182>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_5 = V_0;
 		NullCheck(L_5);
 		bool L_6;
@@ -9760,17 +9065,15 @@ IL_001d:
 		return L_6;
 	}
 }
-// Method Definition Index: 76830
+// Method Definition Index: 76825
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetBoolean_m5286543256F08B4BB291AC0821CBB85DA798F36A (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, bool* ___1_boolValue, const RuntimeMethod* method) 
 {
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:187>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:188>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (!L_2)
 		{
@@ -9778,27 +9081,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetBoolean_m5286543256F08B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:190>
 		bool* L_3 = ___1_boolValue;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_4 = V_0;
 		NullCheck(L_4);
 		bool L_5;
 		L_5 = JSONValue_get_Boolean_mB1091D8BD0625543A5859128954EEB35C971B646_inline(L_4, NULL);
 		*((int8_t*)L_3) = (int8_t)L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:191>
 		return (bool)1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:195>
 		bool* L_6 = ___1_boolValue;
 		*((int8_t*)L_6) = (int8_t)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:196>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76831
+// Method Definition Index: 76826
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* JSONObject_GetArray_m19C14148E92CBE57D9C5CDE4EC08CBEDCB99F4B5 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9810,12 +9109,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943
 	}
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:202>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:203>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (L_2)
 		{
@@ -9823,19 +9120,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:205>
 		String_t* L_3 = ___0_key;
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_3, _stringLiteral52D8836757B8CD82DD406426EFE89677EBCAD7BC, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:206>
 		return (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED*)NULL;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:208>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_5 = V_0;
 		NullCheck(L_5);
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_6;
@@ -9843,17 +9137,15 @@ IL_001d:
 		return L_6;
 	}
 }
-// Method Definition Index: 76832
+// Method Definition Index: 76827
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetArray_m80B920C8D3A0F2C8514A8090571F457F07C5F0B2 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED** ___1_arrayValue, const RuntimeMethod* method) 
 {
 	JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:213>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:214>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = V_0;
 		if (!L_2)
 		{
@@ -9861,7 +9153,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetArray_m80B920C8D3A0F2C8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:216>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED** L_3 = ___1_arrayValue;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_4 = V_0;
 		NullCheck(L_4);
@@ -9869,32 +9160,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONObject_TryGetArray_m80B920C8D3A0F2C8
 		L_5 = JSONValue_get_Array_m80AC15DF66E38E9256BF53CC42D1611E16D8654D_inline(L_4, NULL);
 		*((RuntimeObject**)L_3) = (RuntimeObject*)L_5;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_3, (void*)(RuntimeObject*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:217>
 		return (bool)1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:221>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED** L_6 = ___1_arrayValue;
 		*((RuntimeObject**)L_6) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_6, (void*)(RuntimeObject*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:222>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76833
+// Method Definition Index: 76828
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* JSONObject_get_Item_m19F40D8A0E252368493ACD45D57BA9F9A43F87EF (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:228>
 		String_t* L_0 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1;
 		L_1 = JSONObject_GetValue_mDFEA84E1DDD9F2BC0656A151CE98F093F341F228(__this, L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 76834
+// Method Definition Index: 76829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_set_Item_m23B919923A114A241654167E6317F243B1E3BA32 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9904,17 +9191,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_set_Item_m23B919923A114A24165
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:229>
 		RuntimeObject* L_0 = __this->___values;
 		String_t* L_1 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = ___1_value;
 		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* >::Invoke(1, IDictionary_2_t275EAF9BB8000738CF4F844088691F4275B35341_il2cpp_TypeInfo_var, L_0, L_1, L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:229>
 		return;
 	}
 }
-// Method Definition Index: 76835
+// Method Definition Index: 76830
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Add_m383D1864B99D7A750DD7769DE143152EE4AF7830 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9924,17 +9209,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Add_m383D1864B99D7A750DD7769D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:234>
 		RuntimeObject* L_0 = __this->___values;
 		String_t* L_1 = ___0_key;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_2 = ___1_value;
 		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* >::Invoke(1, IDictionary_2_t275EAF9BB8000738CF4F844088691F4275B35341_il2cpp_TypeInfo_var, L_0, L_1, L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:235>
 		return;
 	}
 }
-// Method Definition Index: 76836
+// Method Definition Index: 76831
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Add_m2A3143F018D2FD6C41FA357614D23825026A3B8C (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, KeyValuePair_2_t55F9FB7280FDF92CED6454820DBB7788FD63FB60 ___0_pair, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9946,7 +9229,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Add_m2A3143F018D2FD6C41FA3576
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:239>
 		RuntimeObject* L_0 = __this->___values;
 		String_t* L_1;
 		L_1 = KeyValuePair_2_get_Key_m6F9F014DECD4076AAC540DAD79371C05F2029E77_inline((&___0_pair), KeyValuePair_2_get_Key_m6F9F014DECD4076AAC540DAD79371C05F2029E77_RuntimeMethod_var);
@@ -9954,11 +9236,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Add_m2A3143F018D2FD6C41FA3576
 		L_2 = KeyValuePair_2_get_Value_m8FEC3CD2430C8BEC70476D0F9F274D43E1090AB8_inline((&___0_pair), KeyValuePair_2_get_Value_m8FEC3CD2430C8BEC70476D0F9F274D43E1090AB8_RuntimeMethod_var);
 		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* >::Invoke(1, IDictionary_2_t275EAF9BB8000738CF4F844088691F4275B35341_il2cpp_TypeInfo_var, L_0, L_1, L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:240>
 		return;
 	}
 }
-// Method Definition Index: 76837
+// Method Definition Index: 76832
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* JSONObject_Parse_m6931DC0DB101FFE6724DFBE0F944788AD55FC763 (String_t* ___0_jsonString, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10001,7 +9282,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 	Il2CppChar V_11 = 0x0;
 	int32_t G_B36_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:244>
 		String_t* L_0 = ___0_jsonString;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -10011,28 +9291,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:246>
 		return (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:249>
 		V_0 = (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:251>
 		Stack_1_tD770B7BA3385BBF3A1703E386B6006FF670C5094* L_2 = (Stack_1_tD770B7BA3385BBF3A1703E386B6006FF670C5094*)il2cpp_codegen_object_new(Stack_1_tD770B7BA3385BBF3A1703E386B6006FF670C5094_il2cpp_TypeInfo_var);
 		Stack_1__ctor_m335E848ED0B875E3163CBDF6F077EF89DE99D59E(L_2, Stack_1__ctor_m335E848ED0B875E3163CBDF6F077EF89DE99D59E_RuntimeMethod_var);
 		V_1 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:252>
 		V_2 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:254>
 		V_3 = 0;
 		goto IL_061e;
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:256>
 		String_t* L_3 = ___0_jsonString;
 		int32_t L_4 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
@@ -10098,7 +9372,6 @@ IL_001b:
 
 IL_005e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:261>
 		String_t* L_7 = ___0_jsonString;
 		int32_t L_8 = V_3;
 		NullCheck(L_7);
@@ -10110,7 +9383,6 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:263>
 		int32_t L_10 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_11;
@@ -10120,13 +9392,11 @@ IL_005e:
 
 IL_0072:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:266>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_12 = (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)il2cpp_codegen_object_new(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject__ctor_m38D2260C187F21A54DC4B151FEED08007C820FD9(L_12, NULL);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_13;
 		L_13 = JSONValue_op_Implicit_m22914445547885231FC37FB451310F866CC38B77(L_12, NULL);
 		V_4 = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:267>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_14 = V_0;
 		if (!L_14)
 		{
@@ -10134,7 +9404,6 @@ IL_0072:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:269>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_15 = V_4;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_16 = V_0;
 		NullCheck(L_15);
@@ -10143,18 +9412,14 @@ IL_0072:
 
 IL_0089:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:271>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_17 = V_4;
 		V_0 = L_17;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:273>
 		V_2 = 4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:274>
 		goto IL_061a;
 	}
 
 IL_0093:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:276>
 		String_t* L_18 = ___0_jsonString;
 		int32_t L_19 = V_3;
 		NullCheck(L_18);
@@ -10166,7 +9431,6 @@ IL_0093:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:278>
 		int32_t L_21 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_22;
@@ -10176,7 +9440,6 @@ IL_0093:
 
 IL_00a7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:281>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_23 = V_0;
 		NullCheck(L_23);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_24;
@@ -10187,7 +9450,6 @@ IL_00a7:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:283>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_25 = V_0;
 		NullCheck(L_25);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_26;
@@ -10197,7 +9459,6 @@ IL_00a7:
 
 IL_00b6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:286>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_27 = V_0;
 		NullCheck(L_27);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_28;
@@ -10225,7 +9486,6 @@ IL_00b6:
 
 IL_00cf:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:290>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_32 = V_0;
 		NullCheck(L_32);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_33;
@@ -10247,13 +9507,11 @@ IL_00cf:
 		JSONValue__ctor_m22A7CFAF2DDE6788559F5AC32696F794F35FBC87(L_40, L_39, NULL);
 		NullCheck(L_35);
 		InterfaceActionInvoker2< String_t*, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* >::Invoke(1, IDictionary_2_t275EAF9BB8000738CF4F844088691F4275B35341_il2cpp_TypeInfo_var, L_35, L_37, L_40);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:291>
 		goto IL_0120;
 	}
 
 IL_00f7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:294>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_41 = V_0;
 		NullCheck(L_41);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_42;
@@ -10269,13 +9527,11 @@ IL_00f7:
 		JSONValue__ctor_m22A7CFAF2DDE6788559F5AC32696F794F35FBC87(L_46, L_45, NULL);
 		NullCheck(L_43);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_43, L_46, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:295>
 		goto IL_0120;
 	}
 
 IL_0114:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:298>
 		int32_t L_47 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_48;
@@ -10285,21 +9541,17 @@ IL_0114:
 
 IL_0120:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:301>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_49 = V_0;
 		NullCheck(L_49);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_50;
 		L_50 = JSONValue_get_Parent_m6EBAF450030A5F8747DFDB4CB252D34C415ACF60_inline(L_49, NULL);
 		V_0 = L_50;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:303>
 		V_2 = 7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:304>
 		goto IL_061a;
 	}
 
 IL_012e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:306>
 		String_t* L_51 = ___0_jsonString;
 		int32_t L_52 = V_3;
 		NullCheck(L_51);
@@ -10311,24 +9563,19 @@ IL_012e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:308>
 		int32_t L_54 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_54, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:309>
 		V_2 = 2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:310>
 		goto IL_061a;
 	}
 
 IL_0144:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:313>
 		String_t* L_55 = ___0_jsonString;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		String_t* L_56;
 		L_56 = JSONObject_ParseString_mDFABAA85F0D1F5A78B60DBF0D4CA89F96554E647(L_55, (&V_3), NULL);
 		V_5 = L_56;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:314>
 		String_t* L_57 = V_5;
 		if (L_57)
 		{
@@ -10336,7 +9583,6 @@ IL_0144:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:316>
 		int32_t L_58 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_59;
@@ -10346,20 +9592,16 @@ IL_0144:
 
 IL_015e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:318>
 		Stack_1_tD770B7BA3385BBF3A1703E386B6006FF670C5094* L_60 = V_1;
 		String_t* L_61 = V_5;
 		NullCheck(L_60);
 		Stack_1_Push_m6735A1D45311268768814737E1F1884B3615CA20(L_60, L_61, Stack_1_Push_m6735A1D45311268768814737E1F1884B3615CA20_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:319>
 		V_2 = 6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:320>
 		goto IL_061a;
 	}
 
 IL_016d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:322>
 		String_t* L_62 = ___0_jsonString;
 		int32_t L_63 = V_3;
 		NullCheck(L_62);
@@ -10371,7 +9613,6 @@ IL_016d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:324>
 		int32_t L_65 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_66;
@@ -10381,15 +9622,12 @@ IL_016d:
 
 IL_0181:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:326>
 		V_2 = 5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:327>
 		goto IL_061a;
 	}
 
 IL_0188:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:329>
 		String_t* L_67 = ___0_jsonString;
 		int32_t L_68 = V_3;
 		NullCheck(L_67);
@@ -10422,7 +9660,6 @@ IL_0188:
 
 IL_01a5:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:333>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_73 = V_0;
 		NullCheck(L_73);
 		int32_t L_74;
@@ -10445,35 +9682,27 @@ IL_01b1:
 IL_01b2:
 	{
 		V_2 = G_B36_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:334>
 		goto IL_061a;
 	}
 
 IL_01b8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:337>
 		V_2 = 2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:338>
 		int32_t L_75 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_75, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:339>
 		goto IL_061a;
 	}
 
 IL_01c3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:342>
 		V_2 = 3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:343>
 		int32_t L_76 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_76, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:344>
 		goto IL_061a;
 	}
 
 IL_01ce:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:347>
 		int32_t L_77 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_78;
@@ -10483,14 +9712,12 @@ IL_01ce:
 
 IL_01da:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:352>
 		String_t* L_79 = ___0_jsonString;
 		int32_t L_80 = V_3;
 		NullCheck(L_79);
 		Il2CppChar L_81;
 		L_81 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_79, L_80, NULL);
 		V_11 = L_81;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:353>
 		Il2CppChar L_82 = V_11;
 		if ((!(((uint32_t)L_82) == ((uint32_t)((int32_t)34)))))
 		{
@@ -10498,14 +9725,12 @@ IL_01da:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:355>
 		V_2 = 8;
 		goto IL_0264;
 	}
 
 IL_01ed:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:357>
 		Il2CppChar L_83 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.char_class);
 		bool L_84;
@@ -10525,7 +9750,6 @@ IL_01ed:
 
 IL_01fc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:359>
 		V_2 = ((int32_t)9);
 		goto IL_0264;
 	}
@@ -10586,23 +9810,18 @@ IL_021b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:366>
 		V_2 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:367>
 		goto IL_0264;
 	}
 
 IL_0231:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:370>
 		V_2 = 1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:371>
 		goto IL_0264;
 	}
 
 IL_0235:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:374>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_93 = V_0;
 		NullCheck(L_93);
 		int32_t L_94;
@@ -10613,14 +9832,12 @@ IL_0235:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:376>
 		V_2 = 3;
 		goto IL_0264;
 	}
 
 IL_0242:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:380>
 		int32_t L_95 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_96;
@@ -10630,23 +9847,18 @@ IL_0242:
 
 IL_024e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:386>
 		V_2 = ((int32_t)10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:387>
 		goto IL_0264;
 	}
 
 IL_0253:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:391>
 		V_2 = ((int32_t)11);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:392>
 		goto IL_0264;
 	}
 
 IL_0258:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:395>
 		int32_t L_97 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_98;
@@ -10656,22 +9868,18 @@ IL_0258:
 
 IL_0264:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:398>
 		int32_t L_99 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_99, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:399>
 		goto IL_061a;
 	}
 
 IL_026d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:402>
 		String_t* L_100 = ___0_jsonString;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		String_t* L_101;
 		L_101 = JSONObject_ParseString_mDFABAA85F0D1F5A78B60DBF0D4CA89F96554E647(L_100, (&V_3), NULL);
 		V_6 = L_101;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:403>
 		String_t* L_102 = V_6;
 		if (L_102)
 		{
@@ -10679,7 +9887,6 @@ IL_026d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:405>
 		int32_t L_103 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_104;
@@ -10689,7 +9896,6 @@ IL_026d:
 
 IL_0287:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:408>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_105 = V_0;
 		NullCheck(L_105);
 		int32_t L_106;
@@ -10714,7 +9920,6 @@ IL_0287:
 
 IL_029b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:412>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_109 = V_0;
 		NullCheck(L_109);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_110;
@@ -10730,13 +9935,11 @@ IL_029b:
 		JSONValue__ctor_m98B128413E3CA29111FB22D5C6192F1654AB45EB(L_115, L_114, NULL);
 		NullCheck(L_111);
 		InterfaceActionInvoker2< String_t*, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* >::Invoke(1, IDictionary_2_t275EAF9BB8000738CF4F844088691F4275B35341_il2cpp_TypeInfo_var, L_111, L_113, L_115);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:413>
 		goto IL_02da;
 	}
 
 IL_02ba:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:416>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_116 = V_0;
 		NullCheck(L_116);
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_117;
@@ -10746,36 +9949,29 @@ IL_02ba:
 		L_119 = JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3(L_118, NULL);
 		NullCheck(L_117);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_117, L_119, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:417>
 		goto IL_02da;
 	}
 
 IL_02ce:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:420>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral17A50A85C0B8A15711158258B14019B0848B31DF, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:421>
 		return (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
 	}
 
 IL_02da:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:424>
 		V_2 = 7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:425>
 		goto IL_061a;
 	}
 
 IL_02e1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:427>
 		String_t* L_120 = ___0_jsonString;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		double L_121;
 		L_121 = JSONObject_ParseNumber_mBB706927A161E845B2C90486791A93526AF1689F(L_120, (&V_3), NULL);
 		V_7 = L_121;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:428>
 		double L_122 = V_7;
 		bool L_123;
 		L_123 = Double_IsNaN_mF2BC6D1FD4813179B2CAE58D29770E42830D0883_inline(L_122, NULL);
@@ -10785,7 +9981,6 @@ IL_02e1:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:430>
 		int32_t L_124 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_125;
@@ -10795,7 +9990,6 @@ IL_02e1:
 
 IL_0300:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:433>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_126 = V_0;
 		NullCheck(L_126);
 		int32_t L_127;
@@ -10820,7 +10014,6 @@ IL_0300:
 
 IL_0314:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:437>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_130 = V_0;
 		NullCheck(L_130);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_131;
@@ -10836,13 +10029,11 @@ IL_0314:
 		JSONValue__ctor_mF25CB37A298E14D2A9DD72466CF9F423A3DF762D(L_136, L_135, NULL);
 		NullCheck(L_132);
 		InterfaceActionInvoker2< String_t*, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* >::Invoke(1, IDictionary_2_t275EAF9BB8000738CF4F844088691F4275B35341_il2cpp_TypeInfo_var, L_132, L_134, L_136);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:438>
 		goto IL_0353;
 	}
 
 IL_0333:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:441>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_137 = V_0;
 		NullCheck(L_137);
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_138;
@@ -10852,30 +10043,24 @@ IL_0333:
 		L_140 = JSONValue_op_Implicit_mAFAE8A5CC3A5523936D851AD21729E7A6CF91D38(L_139, NULL);
 		NullCheck(L_138);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_138, L_140, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:442>
 		goto IL_0353;
 	}
 
 IL_0347:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:445>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral17A50A85C0B8A15711158258B14019B0848B31DF, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:446>
 		return (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
 	}
 
 IL_0353:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:449>
 		V_2 = 7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:451>
 		goto IL_061a;
 	}
 
 IL_035a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:453>
 		String_t* L_141 = ___0_jsonString;
 		int32_t L_142 = V_3;
 		NullCheck(L_141);
@@ -10887,10 +10072,6 @@ IL_035a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:455>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:456>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:457>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:458>
 		String_t* L_144 = ___0_jsonString;
 		NullCheck(L_144);
 		int32_t L_145;
@@ -10937,7 +10118,6 @@ IL_035a:
 
 IL_039a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:460>
 		int32_t L_156 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_157;
@@ -10947,7 +10127,6 @@ IL_039a:
 
 IL_03a6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:463>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_158 = V_0;
 		NullCheck(L_158);
 		int32_t L_159;
@@ -10972,7 +10151,6 @@ IL_03a6:
 
 IL_03ba:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:467>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_162 = V_0;
 		NullCheck(L_162);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_163;
@@ -10987,13 +10165,11 @@ IL_03ba:
 		JSONValue__ctor_m925146818B680F9E7419CD155E6D4DEF078B95B5(L_167, (bool)1, NULL);
 		NullCheck(L_164);
 		InterfaceActionInvoker2< String_t*, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* >::Invoke(1, IDictionary_2_t275EAF9BB8000738CF4F844088691F4275B35341_il2cpp_TypeInfo_var, L_164, L_166, L_167);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:468>
 		goto IL_03f7;
 	}
 
 IL_03d8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:471>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_168 = V_0;
 		NullCheck(L_168);
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_169;
@@ -11002,22 +10178,18 @@ IL_03d8:
 		JSONValue__ctor_m925146818B680F9E7419CD155E6D4DEF078B95B5(L_170, (bool)1, NULL);
 		NullCheck(L_169);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_169, L_170, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:472>
 		goto IL_03f7;
 	}
 
 IL_03eb:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:475>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral17A50A85C0B8A15711158258B14019B0848B31DF, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:476>
 		return (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
 	}
 
 IL_03f7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:479>
 		int32_t L_171 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_171, 3));
 		goto IL_04a0;
@@ -11025,11 +10197,6 @@ IL_03f7:
 
 IL_0400:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:483>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:484>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:485>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:486>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:487>
 		String_t* L_172 = ___0_jsonString;
 		NullCheck(L_172);
 		int32_t L_173;
@@ -11087,7 +10254,6 @@ IL_0400:
 
 IL_043f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:489>
 		int32_t L_187 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_188;
@@ -11097,7 +10263,6 @@ IL_043f:
 
 IL_044b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:492>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_189 = V_0;
 		NullCheck(L_189);
 		int32_t L_190;
@@ -11122,7 +10287,6 @@ IL_044b:
 
 IL_045f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:496>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_193 = V_0;
 		NullCheck(L_193);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_194;
@@ -11137,13 +10301,11 @@ IL_045f:
 		JSONValue__ctor_m925146818B680F9E7419CD155E6D4DEF078B95B5(L_198, (bool)0, NULL);
 		NullCheck(L_195);
 		InterfaceActionInvoker2< String_t*, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* >::Invoke(1, IDictionary_2_t275EAF9BB8000738CF4F844088691F4275B35341_il2cpp_TypeInfo_var, L_195, L_197, L_198);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:497>
 		goto IL_049c;
 	}
 
 IL_047d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:500>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_199 = V_0;
 		NullCheck(L_199);
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_200;
@@ -11152,37 +10314,30 @@ IL_047d:
 		JSONValue__ctor_m925146818B680F9E7419CD155E6D4DEF078B95B5(L_201, (bool)0, NULL);
 		NullCheck(L_200);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_200, L_201, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:501>
 		goto IL_049c;
 	}
 
 IL_0490:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:504>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral17A50A85C0B8A15711158258B14019B0848B31DF, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:505>
 		return (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
 	}
 
 IL_049c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:508>
 		int32_t L_202 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_202, 4));
 	}
 
 IL_04a0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:511>
 		V_2 = 7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:512>
 		goto IL_061a;
 	}
 
 IL_04a7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:514>
 		String_t* L_203 = ___0_jsonString;
 		int32_t L_204 = V_3;
 		NullCheck(L_203);
@@ -11194,7 +10349,6 @@ IL_04a7:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:516>
 		int32_t L_206 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_207;
@@ -11204,13 +10358,11 @@ IL_04a7:
 
 IL_04bb:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:519>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_208 = (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED*)il2cpp_codegen_object_new(JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED_il2cpp_TypeInfo_var);
 		JSONArray__ctor_mD0EF16E64C2CEC82893EA492CC921E003F3FEC13(L_208, NULL);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_209;
 		L_209 = JSONValue_op_Implicit_m14D78D62141141C07CD485870027033A04282E6C(L_208, NULL);
 		V_8 = L_209;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:520>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_210 = V_0;
 		if (!L_210)
 		{
@@ -11218,7 +10370,6 @@ IL_04bb:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:522>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_211 = V_8;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_212 = V_0;
 		NullCheck(L_211);
@@ -11227,18 +10378,14 @@ IL_04bb:
 
 IL_04d2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:524>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_213 = V_8;
 		V_0 = L_213;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:526>
 		V_2 = 5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:527>
 		goto IL_061a;
 	}
 
 IL_04dc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:529>
 		String_t* L_214 = ___0_jsonString;
 		int32_t L_215 = V_3;
 		NullCheck(L_214);
@@ -11250,7 +10397,6 @@ IL_04dc:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:531>
 		int32_t L_217 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_218;
@@ -11260,7 +10406,6 @@ IL_04dc:
 
 IL_04f0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:534>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_219 = V_0;
 		NullCheck(L_219);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_220;
@@ -11271,7 +10416,6 @@ IL_04f0:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:536>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_221 = V_0;
 		NullCheck(L_221);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_222;
@@ -11281,7 +10425,6 @@ IL_04f0:
 
 IL_04ff:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:539>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_223 = V_0;
 		NullCheck(L_223);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_224;
@@ -11309,7 +10452,6 @@ IL_04ff:
 
 IL_0518:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:543>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_228 = V_0;
 		NullCheck(L_228);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_229;
@@ -11331,13 +10473,11 @@ IL_0518:
 		JSONValue__ctor_mA856C5BB69AE4EE15C36E53EA5C96DB9749F3348(L_236, L_235, NULL);
 		NullCheck(L_231);
 		InterfaceActionInvoker2< String_t*, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* >::Invoke(1, IDictionary_2_t275EAF9BB8000738CF4F844088691F4275B35341_il2cpp_TypeInfo_var, L_231, L_233, L_236);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:544>
 		goto IL_0569;
 	}
 
 IL_0540:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:547>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_237 = V_0;
 		NullCheck(L_237);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_238;
@@ -11353,13 +10493,11 @@ IL_0540:
 		JSONValue__ctor_mA856C5BB69AE4EE15C36E53EA5C96DB9749F3348(L_242, L_241, NULL);
 		NullCheck(L_239);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_239, L_242, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:548>
 		goto IL_0569;
 	}
 
 IL_055d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:551>
 		int32_t L_243 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_244;
@@ -11369,21 +10507,17 @@ IL_055d:
 
 IL_0569:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:553>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_245 = V_0;
 		NullCheck(L_245);
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_246;
 		L_246 = JSONValue_get_Parent_m6EBAF450030A5F8747DFDB4CB252D34C415ACF60_inline(L_245, NULL);
 		V_0 = L_246;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:555>
 		V_2 = 7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:556>
 		goto IL_061a;
 	}
 
 IL_0577:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:558>
 		String_t* L_247 = ___0_jsonString;
 		int32_t L_248 = V_3;
 		NullCheck(L_247);
@@ -11395,10 +10529,6 @@ IL_0577:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:560>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:561>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:562>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:563>
 		String_t* L_250 = ___0_jsonString;
 		NullCheck(L_250);
 		int32_t L_251;
@@ -11445,7 +10575,6 @@ IL_0577:
 
 IL_05b7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:565>
 		int32_t L_262 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_263;
@@ -11455,7 +10584,6 @@ IL_05b7:
 
 IL_05c3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:568>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_264 = V_0;
 		NullCheck(L_264);
 		int32_t L_265;
@@ -11480,7 +10608,6 @@ IL_05c3:
 
 IL_05d7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:572>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_268 = V_0;
 		NullCheck(L_268);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_269;
@@ -11495,13 +10622,11 @@ IL_05d7:
 		JSONValue__ctor_mFD62D686FD7EFDF4A051464CDB5EA88C2CD92AC5(L_273, 5, NULL);
 		NullCheck(L_270);
 		InterfaceActionInvoker2< String_t*, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* >::Invoke(1, IDictionary_2_t275EAF9BB8000738CF4F844088691F4275B35341_il2cpp_TypeInfo_var, L_270, L_272, L_273);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:573>
 		goto IL_0614;
 	}
 
 IL_05f5:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:576>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_274 = V_0;
 		NullCheck(L_274);
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_275;
@@ -11510,42 +10635,35 @@ IL_05f5:
 		JSONValue__ctor_mFD62D686FD7EFDF4A051464CDB5EA88C2CD92AC5(L_276, 5, NULL);
 		NullCheck(L_275);
 		JSONArray_Add_m0A1B2F9B4D04E99FD9BD1B8FF01386BC5C7F6BDA(L_275, L_276, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:577>
 		goto IL_0614;
 	}
 
 IL_0608:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:580>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral17A50A85C0B8A15711158258B14019B0848B31DF, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:581>
 		return (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
 	}
 
 IL_0614:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:584>
 		int32_t L_277 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_277, 3));
 	}
 
 IL_0618:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:586>
 		V_2 = 7;
 	}
 
 IL_061a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:254>
 		int32_t L_278 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_278, 1));
 	}
 
 IL_061e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:254>
 		int32_t L_279 = V_3;
 		String_t* L_280 = ___0_jsonString;
 		NullCheck(L_280);
@@ -11557,14 +10675,12 @@ IL_061e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:590>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral20DAD1FB781D5D8D9A20BB22BF3D82DE0732A2FD, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:591>
 		return (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
 	}
 }
-// Method Definition Index: 76838
+// Method Definition Index: 76833
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONObject_SkipWhitespace_m53225F8B974D186037893FF27EA40FF45670BF52 (String_t* ___0_str, int32_t ___1_pos, const RuntimeMethod* method) 
 {
 	{
@@ -11573,14 +10689,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONObject_SkipWhitespace_m53225F8B97
 
 IL_0002:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:596>
 		int32_t L_0 = ___1_pos;
 		___1_pos = ((int32_t)il2cpp_codegen_add(L_0, 1));
 	}
 
 IL_0007:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:596>
 		int32_t L_1 = ___1_pos;
 		String_t* L_2 = ___0_str;
 		NullCheck(L_2);
@@ -11608,12 +10722,11 @@ IL_0007:
 
 IL_001e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:597>
 		int32_t L_8 = ___1_pos;
 		return L_8;
 	}
 }
-// Method Definition Index: 76839
+// Method Definition Index: 76834
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONObject_ParseString_mDFABAA85F0D1F5A78B60DBF0D4CA89F96554E647 (String_t* ___0_str, int32_t* ___1_startPosition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11627,7 +10740,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONObject_ParseString_mDFABAA85F0D
 	Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F* V_2 = NULL;
 	String_t* V_3 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:602>
 		String_t* L_0 = ___0_str;
 		int32_t* L_1 = ___1_startPosition;
 		int32_t L_2 = *((int32_t*)L_1);
@@ -11654,19 +10766,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONObject_ParseString_mDFABAA85F0D
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:604>
 		int32_t* L_8 = ___1_startPosition;
 		int32_t L_9 = *((int32_t*)L_8);
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_10;
 		L_10 = JSONObject_Fail_mC7C883B3DA29A0EFFFE333C2EF341D0088BD1B5B(((int32_t)34), L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:605>
 		return (String_t*)NULL;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:608>
 		String_t* L_11 = ___0_str;
 		int32_t* L_12 = ___1_startPosition;
 		int32_t L_13 = *((int32_t*)L_12);
@@ -11674,7 +10783,6 @@ IL_0024:
 		int32_t L_14;
 		L_14 = String_IndexOf_m15B90A59047584420D227EE3A7EAC0C5EAF676F4(L_11, ((int32_t)34), ((int32_t)il2cpp_codegen_add(L_13, 1)), NULL);
 		V_0 = L_14;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:609>
 		int32_t L_15 = V_0;
 		int32_t* L_16 = ___1_startPosition;
 		int32_t L_17 = *((int32_t*)L_16);
@@ -11684,26 +10792,22 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:611>
 		int32_t* L_18 = ___1_startPosition;
 		int32_t L_19 = *((int32_t*)L_18);
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_20;
 		L_20 = JSONObject_Fail_mC7C883B3DA29A0EFFFE333C2EF341D0088BD1B5B(((int32_t)34), ((int32_t)il2cpp_codegen_add(L_19, 1)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:612>
 		return (String_t*)NULL;
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:617>
 		String_t* L_21 = ___0_str;
 		int32_t L_22 = V_0;
 		NullCheck(L_21);
 		int32_t L_23;
 		L_23 = String_IndexOf_m15B90A59047584420D227EE3A7EAC0C5EAF676F4(L_21, ((int32_t)34), ((int32_t)il2cpp_codegen_add(L_22, 1)), NULL);
 		V_0 = L_23;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:618>
 		int32_t L_24 = V_0;
 		int32_t* L_25 = ___1_startPosition;
 		int32_t L_26 = *((int32_t*)L_25);
@@ -11713,19 +10817,16 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:620>
 		int32_t* L_27 = ___1_startPosition;
 		int32_t L_28 = *((int32_t*)L_27);
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_29;
 		L_29 = JSONObject_Fail_mC7C883B3DA29A0EFFFE333C2EF341D0088BD1B5B(((int32_t)34), ((int32_t)il2cpp_codegen_add(L_28, 1)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:621>
 		return (String_t*)NULL;
 	}
 
 IL_0063:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:615>
 		String_t* L_30 = ___0_str;
 		int32_t L_31 = V_0;
 		NullCheck(L_30);
@@ -11737,10 +10838,8 @@ IL_0063:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:625>
 		String_t* L_33 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		V_1 = L_33;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:627>
 		int32_t L_34 = V_0;
 		int32_t* L_35 = ___1_startPosition;
 		int32_t L_36 = *((int32_t*)L_35);
@@ -11750,7 +10849,6 @@ IL_0063:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:629>
 		String_t* L_37 = ___0_str;
 		int32_t* L_38 = ___1_startPosition;
 		int32_t L_39 = *((int32_t*)L_38);
@@ -11765,7 +10863,6 @@ IL_0063:
 
 IL_008e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:632>
 		int32_t* L_44 = ___1_startPosition;
 		int32_t L_45 = V_0;
 		*((int32_t*)L_44) = (int32_t)L_45;
@@ -11773,7 +10870,6 @@ IL_008e:
 
 IL_0091:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:637>
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_46 = ((JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_StaticFields*)il2cpp_codegen_static_fields_for(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var))->___unicodeRegex;
 		String_t* L_47 = V_1;
@@ -11781,7 +10877,6 @@ IL_0091:
 		Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F* L_48;
 		L_48 = Regex_Match_m58565ECF23ACCD2CA77D6F10A6A182B03CF0FF84(L_46, L_47, NULL);
 		V_2 = L_48;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:638>
 		Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F* L_49 = V_2;
 		NullCheck(L_49);
 		bool L_50;
@@ -11792,7 +10887,6 @@ IL_0091:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:643>
 		Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F* L_51 = V_2;
 		NullCheck(L_51);
 		GroupCollection_tFFA1789730DD9EA122FBE77DC03BFEDCC3F2945E* L_52;
@@ -11810,7 +10904,6 @@ IL_0091:
 		String_t* L_56;
 		L_56 = Capture_get_Value_m1AB4193C2FC4B0D08AA34FECF10D03876D848BDC(L_55, NULL);
 		V_3 = L_56;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:644>
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_57 = ((JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_StaticFields*)il2cpp_codegen_static_fields_for(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var))->___unicodeBytes;
 		String_t* L_58 = V_3;
@@ -11821,7 +10914,6 @@ IL_0091:
 		L_60 = Byte_Parse_mE87056B4D91E35B7A5D888132B6F861A1C94A108(L_59, ((int32_t)515), NULL);
 		NullCheck(L_57);
 		(L_57)->SetAt(static_cast<il2cpp_array_size_t>(1), (uint8_t)L_60);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:645>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_61 = ((JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_StaticFields*)il2cpp_codegen_static_fields_for(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var))->___unicodeBytes;
 		String_t* L_62 = V_3;
 		NullCheck(L_62);
@@ -11831,7 +10923,6 @@ IL_0091:
 		L_64 = Byte_Parse_mE87056B4D91E35B7A5D888132B6F861A1C94A108(L_63, ((int32_t)515), NULL);
 		NullCheck(L_61);
 		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(0), (uint8_t)L_64);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:646>
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_65;
 		L_65 = Encoding_get_Unicode_m1E0509DF0E550E33114D0FFEC4811B141219A3B0(NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_66 = ((JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_StaticFields*)il2cpp_codegen_static_fields_for(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var))->___unicodeBytes;
@@ -11841,7 +10932,6 @@ IL_0091:
 		String_t* L_68;
 		L_68 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_65, L_66, 0, ((int32_t)(((RuntimeArray*)L_67)->max_length)));
 		V_3 = L_68;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:648>
 		String_t* L_69 = V_1;
 		Match_tFBEBCF225BD8EA17BCE6CE3FE5C1BD8E3074105F* L_70 = V_2;
 		NullCheck(L_70);
@@ -11852,24 +10942,21 @@ IL_0091:
 		String_t* L_73;
 		L_73 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_69, L_71, L_72, NULL);
 		V_1 = L_73;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:635>
 		goto IL_0091;
 	}
 
 IL_011f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:651>
 		String_t* L_74 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		String_t* L_75;
 		L_75 = JSONObject_SanitizeJSONString_m46E681EF0C71FB933CE7A72BF528DC82E29329ED(L_74, NULL);
 		V_1 = L_75;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:653>
 		String_t* L_76 = V_1;
 		return L_76;
 	}
 }
-// Method Definition Index: 76840
+// Method Definition Index: 76835
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONObject_SanitizeJSONString_m46E681EF0C71FB933CE7A72BF528DC82E29329ED (String_t* ___0_jsonStringValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11895,58 +10982,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONObject_SanitizeJSONString_m46E6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:658>
 		String_t* L_0 = ___0_jsonStringValue;
 		StringBuilder_t* L_1 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_mCD797D942316CB356205FD96415B0B7581CDAD60(L_1, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:659>
 		StringBuilder_t* L_2 = L_1;
 		NullCheck(L_2);
 		StringBuilder_t* L_3;
 		L_3 = StringBuilder_Replace_mEACDB7793357B7ABB5E7BFB59CE2C2DE27673950(L_2, _stringLiteral848E5ED630B3142F565DD995C6E8D30187ED33CD, _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:660>
 		StringBuilder_t* L_4 = L_2;
 		NullCheck(L_4);
 		StringBuilder_t* L_5;
 		L_5 = StringBuilder_Replace_mEACDB7793357B7ABB5E7BFB59CE2C2DE27673950(L_4, _stringLiteralF18840F490E42D3CE48CDCBF47229C1C240F8ABE, _stringLiteral09B11B6CC411D8B9FFB75EAAE9A35B2AF248CE40, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:661>
 		StringBuilder_t* L_6 = L_4;
 		NullCheck(L_6);
 		StringBuilder_t* L_7;
 		L_7 = StringBuilder_Replace_mEACDB7793357B7ABB5E7BFB59CE2C2DE27673950(L_6, _stringLiteralE7A46075109789D1792549A284B05CF42BE37425, _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:662>
 		StringBuilder_t* L_8 = L_6;
 		NullCheck(L_8);
 		StringBuilder_t* L_9;
 		L_9 = StringBuilder_Replace_mEACDB7793357B7ABB5E7BFB59CE2C2DE27673950(L_8, _stringLiteral09BC258B016097887D37C37514B03BA6DAB989F8, _stringLiteral053D8D6CEEBA9453C97D0EE5374DB863E6F77AD4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:663>
 		StringBuilder_t* L_10 = L_8;
 		NullCheck(L_10);
 		StringBuilder_t* L_11;
 		L_11 = StringBuilder_Replace_mEACDB7793357B7ABB5E7BFB59CE2C2DE27673950(L_10, _stringLiteral7697DA3BCE2BFB152B348FF463A122C917E79D2C, _stringLiteralDE28F98354F48E7C0878BBA93033C6BDC68B27E2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:664>
 		StringBuilder_t* L_12 = L_10;
 		NullCheck(L_12);
 		StringBuilder_t* L_13;
 		L_13 = StringBuilder_Replace_mEACDB7793357B7ABB5E7BFB59CE2C2DE27673950(L_12, _stringLiteral63C78D0CE5B62FF805810CA136F1A9FF1508E743, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:665>
 		StringBuilder_t* L_14 = L_12;
 		NullCheck(L_14);
 		StringBuilder_t* L_15;
 		L_15 = StringBuilder_Replace_mEACDB7793357B7ABB5E7BFB59CE2C2DE27673950(L_14, _stringLiteral9DEA9D87B331C7E6FECAECDBACCC9E64D14DF7F8, _stringLiteralDB5B55A9B215F744DB82517864984D073F2E8F8C, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:666>
 		StringBuilder_t* L_16 = L_14;
 		NullCheck(L_16);
 		StringBuilder_t* L_17;
 		L_17 = StringBuilder_Replace_mEACDB7793357B7ABB5E7BFB59CE2C2DE27673950(L_16, _stringLiteralE89DB4B83932FE1742024447460858325F4D71F3, _stringLiteral24313380B89749FA23D81C8CFE7ECADF5F282DF3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:667>
 		NullCheck(L_16);
 		String_t* L_18;
 		L_18 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_16);
 		return L_18;
 	}
 }
-// Method Definition Index: 76841
+// Method Definition Index: 76836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double JSONObject_ParseNumber_mBB706927A161E845B2C90486791A93526AF1689F (String_t* ___0_str, int32_t* ___1_startPosition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11958,7 +11035,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double JSONObject_ParseNumber_mBB706927A161E8
 	int32_t V_0 = 0;
 	double V_1 = 0.0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:672>
 		int32_t* L_0 = ___1_startPosition;
 		int32_t L_1 = *((int32_t*)L_0);
 		String_t* L_2 = ___0_str;
@@ -12000,13 +11076,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double JSONObject_ParseNumber_mBB706927A161E8
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:674>
 		return (std::numeric_limits<double>::quiet_NaN());
 	}
 
 IL_002f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:677>
 		int32_t* L_13 = ___1_startPosition;
 		int32_t L_14 = *((int32_t*)L_13);
 		V_0 = ((int32_t)il2cpp_codegen_add(L_14, 1));
@@ -12015,14 +11089,12 @@ IL_002f:
 
 IL_0036:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:679>
 		int32_t L_15 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:679>
 		int32_t L_16 = V_0;
 		String_t* L_17 = ___0_str;
 		NullCheck(L_17);
@@ -12069,7 +11141,6 @@ IL_003a:
 
 IL_0064:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:682>
 		String_t* L_28 = ___0_str;
 		int32_t* L_29 = ___1_startPosition;
 		int32_t L_30 = *((int32_t*)L_29);
@@ -12090,22 +11161,19 @@ IL_0064:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:684>
 		return (std::numeric_limits<double>::quiet_NaN());
 	}
 
 IL_008d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:686>
 		int32_t* L_37 = ___1_startPosition;
 		int32_t L_38 = V_0;
 		*((int32_t*)L_37) = (int32_t)((int32_t)il2cpp_codegen_subtract(L_38, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:687>
 		double L_39 = V_1;
 		return L_39;
 	}
 }
-// Method Definition Index: 76842
+// Method Definition Index: 76837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* JSONObject_Fail_mC7C883B3DA29A0EFFFE333C2EF341D0088BD1B5B (Il2CppChar ___0_expected, int32_t ___1_position, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12115,7 +11183,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:692>
 		Il2CppChar L_0 = ___0_expected;
 		String_t* L_1;
 		L_1 = String_CreateString_mAA0705B41B390BDB42F67894B9B67C956814C71B(NULL, L_0, 1, NULL);
@@ -12126,7 +11193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		return L_3;
 	}
 }
-// Method Definition Index: 76843
+// Method Definition Index: 76838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* JSONObject_Fail_m514310CC79B525486DD7C4D1C5E25641ED960628 (String_t* ___0_expected, int32_t ___1_position, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12138,7 +11205,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:697>
 		String_t* L_0 = ___0_expected;
 		String_t* L_1;
 		L_1 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___1_position), NULL);
@@ -12146,11 +11212,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E
 		L_2 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral9DC67E466152B41A19B4E345114989D20E915C2A, L_0, _stringLiteral8E9055ADBCF112D9A1559D59E64A664BCE8DCAD1, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:698>
 		return (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)NULL;
 	}
 }
-// Method Definition Index: 76844
+// Method Definition Index: 76839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONObject_ToString_m4659CD42C699691F53F7F96A39BC735BC1264F84 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12172,16 +11237,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONObject_ToString_m4659CD42C69969
 	KeyValuePair_2_t55F9FB7280FDF92CED6454820DBB7788FD63FB60 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:704>
 		StringBuilder_t* L_0 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:705>
 		StringBuilder_t* L_1 = V_0;
 		NullCheck(L_1);
 		StringBuilder_t* L_2;
 		L_2 = StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1(L_1, ((int32_t)123), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:707>
 		RuntimeObject* L_3 = __this->___values;
 		NullCheck(L_3);
 		RuntimeObject* L_4;
@@ -12221,13 +11283,11 @@ IL_0079:
 
 IL_001d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:707>
 				RuntimeObject* L_7 = V_1;
 				NullCheck(L_7);
 				KeyValuePair_2_t55F9FB7280FDF92CED6454820DBB7788FD63FB60 L_8;
 				L_8 = InterfaceFuncInvoker0< KeyValuePair_2_t55F9FB7280FDF92CED6454820DBB7788FD63FB60 >::Invoke(0, IEnumerator_1_t1E3B4677645549E564B2E36748BB2B11CD358E9F_il2cpp_TypeInfo_var, L_7);
 				V_2 = L_8;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:709>
 				StringBuilder_t* L_9 = V_0;
 				String_t* L_10;
 				L_10 = KeyValuePair_2_get_Key_m6F9F014DECD4076AAC540DAD79371C05F2029E77_inline((&V_2), KeyValuePair_2_get_Key_m6F9F014DECD4076AAC540DAD79371C05F2029E77_RuntimeMethod_var);
@@ -12236,12 +11296,10 @@ IL_001d_1:
 				NullCheck(L_9);
 				StringBuilder_t* L_12;
 				L_12 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_9, L_11, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:710>
 				StringBuilder_t* L_13 = V_0;
 				NullCheck(L_13);
 				StringBuilder_t* L_14;
 				L_14 = StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1(L_13, ((int32_t)58), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:711>
 				StringBuilder_t* L_15 = V_0;
 				JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_16;
 				L_16 = KeyValuePair_2_get_Value_m8FEC3CD2430C8BEC70476D0F9F274D43E1090AB8_inline((&V_2), KeyValuePair_2_get_Value_m8FEC3CD2430C8BEC70476D0F9F274D43E1090AB8_RuntimeMethod_var);
@@ -12251,7 +11309,6 @@ IL_001d_1:
 				NullCheck(L_15);
 				StringBuilder_t* L_18;
 				L_18 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_15, L_17, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:712>
 				StringBuilder_t* L_19 = V_0;
 				NullCheck(L_19);
 				StringBuilder_t* L_20;
@@ -12260,7 +11317,6 @@ IL_001d_1:
 
 IL_0066_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:707>
 				RuntimeObject* L_21 = V_1;
 				NullCheck(L_21);
 				bool L_22;
@@ -12282,7 +11338,6 @@ IL_0066_1:
 
 IL_007a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:714>
 		RuntimeObject* L_23 = __this->___values;
 		NullCheck(L_23);
 		int32_t L_24;
@@ -12293,7 +11348,6 @@ IL_007a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:716>
 		StringBuilder_t* L_25 = V_0;
 		StringBuilder_t* L_26 = V_0;
 		NullCheck(L_26);
@@ -12306,12 +11360,10 @@ IL_007a:
 
 IL_0098:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:718>
 		StringBuilder_t* L_29 = V_0;
 		NullCheck(L_29);
 		StringBuilder_t* L_30;
 		L_30 = StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1(L_29, ((int32_t)125), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:719>
 		StringBuilder_t* L_31 = V_0;
 		NullCheck(L_31);
 		String_t* L_32;
@@ -12319,7 +11371,7 @@ IL_0098:
 		return L_32;
 	}
 }
-// Method Definition Index: 76845
+// Method Definition Index: 76840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONObject_GetEnumerator_mD68336B1004B874582E48C539771E4DD72A38251 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12329,7 +11381,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONObject_GetEnumerator_mD683
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:724>
 		RuntimeObject* L_0 = __this->___values;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -12337,7 +11388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONObject_GetEnumerator_mD683
 		return L_1;
 	}
 }
-// Method Definition Index: 76846
+// Method Definition Index: 76841
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONObject_System_Collections_IEnumerable_GetEnumerator_mDCC9A3A174644598EDAB3F99DD8ED39C0A1EBD09 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12347,7 +11398,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONObject_System_Collections_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:729>
 		RuntimeObject* L_0 = __this->___values;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -12355,7 +11405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JSONObject_System_Collections_
 		return L_1;
 	}
 }
-// Method Definition Index: 76847
+// Method Definition Index: 76842
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Clear_mDF8657B96806BD697C36164DAA26962A3C57B3DE (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12365,15 +11415,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Clear_mDF8657B96806BD697C3616
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:737>
 		RuntimeObject* L_0 = __this->___values;
 		NullCheck(L_0);
 		InterfaceActionInvoker0::Invoke(3, ICollection_1_tB53B1B95AC871273B2CE917B96AC03C6D720884C_il2cpp_TypeInfo_var, L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:738>
 		return;
 	}
 }
-// Method Definition Index: 76848
+// Method Definition Index: 76843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Remove_mDF3282B5174920D926711A33A329F4B445DCA184 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12383,7 +11431,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Remove_mDF3282B5174920D926711
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:746>
 		RuntimeObject* L_0 = __this->___values;
 		String_t* L_1 = ___0_key;
 		NullCheck(L_0);
@@ -12395,7 +11442,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Remove_mDF3282B5174920D926711
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:748>
 		RuntimeObject* L_3 = __this->___values;
 		String_t* L_4 = ___0_key;
 		NullCheck(L_3);
@@ -12405,11 +11451,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject_Remove_mDF3282B5174920D926711
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:750>
 		return;
 	}
 }
-// Method Definition Index: 76849
+// Method Definition Index: 76844
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject__cctor_m591A15D799C2A67E5956A7AD30E8BA1C93E91BB5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12422,12 +11467,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject__cctor_m591A15D799C2A67E5956A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:29>
 		Regex_tE773142C2BE45C5D362B0F815AFF831707A51772* L_0 = (Regex_tE773142C2BE45C5D362B0F815AFF831707A51772*)il2cpp_codegen_object_new(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
 		Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD(L_0, _stringLiteralC47A5AFEF2D27ECC3F6323A78DC255A8C144D7B2, NULL);
 		((JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_StaticFields*)il2cpp_codegen_static_fields_for(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var))->___unicodeRegex = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_StaticFields*)il2cpp_codegen_static_fields_for(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var))->___unicodeRegex), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONObject.cs:30>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)2);
 		((JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_StaticFields*)il2cpp_codegen_static_fields_for(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var))->___unicodeBytes = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_StaticFields*)il2cpp_codegen_static_fields_for(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var))->___unicodeBytes), (void*)L_1);
@@ -12458,56 +11501,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONObject__cctor_m591A15D799C2A67E5956A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76850
+// Method Definition Index: 76845
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue__ctor_mFD62D686FD7EFDF4A051464CDB5EA88C2CD92AC5 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, int32_t ___0_type, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:17>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:19>
 		int32_t L_0 = ___0_type;
 		JSONValue_set_Type_m19EC63DC807EC8A14940E11F4ED21F482395D4D1_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 76851
+// Method Definition Index: 76846
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue__ctor_m98B128413E3CA29111FB22D5C6192F1654AB45EB (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, String_t* ___0_str, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:22>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:24>
 		JSONValue_set_Type_m19EC63DC807EC8A14940E11F4ED21F482395D4D1_inline(__this, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:25>
 		String_t* L_0 = ___0_str;
 		JSONValue_set_String_m6D1D06B75C0EE5BD15C93A0D765A572E2AA16DB3_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 76852
+// Method Definition Index: 76847
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue__ctor_mF25CB37A298E14D2A9DD72466CF9F423A3DF762D (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, double ___0_number, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:28>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:30>
 		JSONValue_set_Type_m19EC63DC807EC8A14940E11F4ED21F482395D4D1_inline(__this, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:31>
 		double L_0 = ___0_number;
 		JSONValue_set_Double_mC4CED1B52867B7E6D48D9F5E168F6217B3E9B2A4_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 76853
+// Method Definition Index: 76848
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue__ctor_m22A7CFAF2DDE6788559F5AC32696F794F35FBC87 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:34>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:36>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_obj;
 		if (L_0)
 		{
@@ -12515,53 +11545,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue__ctor_m22A7CFAF2DDE6788559F5AC
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:38>
 		JSONValue_set_Type_m19EC63DC807EC8A14940E11F4ED21F482395D4D1_inline(__this, 5, NULL);
 		return;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:42>
 		JSONValue_set_Type_m19EC63DC807EC8A14940E11F4ED21F482395D4D1_inline(__this, 2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:43>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_1 = ___0_obj;
 		JSONValue_set_Object_m6458E255AAFE0AD345DC9AAD7C59353FD4FE493E_inline(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:45>
 		return;
 	}
 }
-// Method Definition Index: 76854
+// Method Definition Index: 76849
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue__ctor_mA856C5BB69AE4EE15C36E53EA5C96DB9749F3348 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* ___0_array, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:47>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:49>
 		JSONValue_set_Type_m19EC63DC807EC8A14940E11F4ED21F482395D4D1_inline(__this, 3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:50>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_0 = ___0_array;
 		JSONValue_set_Array_mAB4D6C01222D3AF556C55A3248D5C086CF387D26_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:51>
 		return;
 	}
 }
-// Method Definition Index: 76855
+// Method Definition Index: 76850
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue__ctor_m925146818B680F9E7419CD155E6D4DEF078B95B5 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, bool ___0_boolean, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:53>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:55>
 		JSONValue_set_Type_m19EC63DC807EC8A14940E11F4ED21F482395D4D1_inline(__this, 4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:56>
 		bool L_0 = ___0_boolean;
 		JSONValue_set_Boolean_m04DAC15806DDD1AEBF6C1FBC3E97699CB7593820_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 76856
+// Method Definition Index: 76851
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue__ctor_m0020859514EBA312366683C231D540F453B80287 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12573,15 +11591,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue__ctor_m0020859514EBA312366683C
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:59>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:61>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_0 = ___0_value;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = JSONValue_get_Type_m8DA1CED25EA5110D113AA4E7B1943DC73283B21E_inline(L_0, NULL);
 		JSONValue_set_Type_m19EC63DC807EC8A14940E11F4ED21F482395D4D1_inline(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:62>
 		int32_t L_2;
 		L_2 = JSONValue_get_Type_m8DA1CED25EA5110D113AA4E7B1943DC73283B21E_inline(__this, NULL);
 		V_0 = L_2;
@@ -12616,43 +11631,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue__ctor_m0020859514EBA312366683C
 
 IL_0034:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:65>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_4 = ___0_value;
 		NullCheck(L_4);
 		String_t* L_5;
 		L_5 = JSONValue_get_String_mD52CDC9544A1D27B0E244780AD1027453C0DCB49_inline(L_4, NULL);
 		JSONValue_set_String_m6D1D06B75C0EE5BD15C93A0D765A572E2AA16DB3_inline(__this, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:66>
 		return;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:69>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_6 = ___0_value;
 		NullCheck(L_6);
 		bool L_7;
 		L_7 = JSONValue_get_Boolean_mB1091D8BD0625543A5859128954EEB35C971B646_inline(L_6, NULL);
 		JSONValue_set_Boolean_m04DAC15806DDD1AEBF6C1FBC3E97699CB7593820_inline(__this, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:70>
 		return;
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:73>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_8 = ___0_value;
 		NullCheck(L_8);
 		double L_9;
 		L_9 = JSONValue_get_Double_mB505D20D82802069D1F9DBBDC44CACB4758E46E8_inline(L_8, NULL);
 		JSONValue_set_Double_mC4CED1B52867B7E6D48D9F5E168F6217B3E9B2A4_inline(__this, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:74>
 		return;
 	}
 
 IL_005b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:77>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_10 = ___0_value;
 		NullCheck(L_10);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_11;
@@ -12663,7 +11671,6 @@ IL_005b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:79>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_12 = ___0_value;
 		NullCheck(L_12);
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_13;
@@ -12671,13 +11678,11 @@ IL_005b:
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_14 = (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6*)il2cpp_codegen_object_new(JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6_il2cpp_TypeInfo_var);
 		JSONObject__ctor_mA5AAF446715C54AF1A1C5AF33615BAAFAC156D51(L_14, L_13, NULL);
 		JSONValue_set_Object_m6458E255AAFE0AD345DC9AAD7C59353FD4FE493E_inline(__this, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:81>
 		return;
 	}
 
 IL_0075:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:84>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_15 = ___0_value;
 		NullCheck(L_15);
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_16;
@@ -12689,190 +11694,169 @@ IL_0075:
 
 IL_0086:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:87>
 		return;
 	}
 }
-// Method Definition Index: 76857
+// Method Definition Index: 76852
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONValue_get_Type_m8DA1CED25EA5110D113AA4E7B1943DC73283B21E (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:89>
 		int32_t L_0 = __this->___U3CTypeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76858
+// Method Definition Index: 76853
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue_set_Type_m19EC63DC807EC8A14940E11F4ED21F482395D4D1 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:89>
 		int32_t L_0 = ___0_value;
 		__this->___U3CTypeU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76859
+// Method Definition Index: 76854
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONValue_get_String_mD52CDC9544A1D27B0E244780AD1027453C0DCB49 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:90>
 		String_t* L_0 = __this->___U3CStringU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76860
+// Method Definition Index: 76855
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue_set_String_m6D1D06B75C0EE5BD15C93A0D765A572E2AA16DB3 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:90>
 		String_t* L_0 = ___0_value;
 		__this->___U3CStringU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CStringU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76861
+// Method Definition Index: 76856
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double JSONValue_get_Double_mB505D20D82802069D1F9DBBDC44CACB4758E46E8 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:91>
 		double L_0 = __this->___U3CDoubleU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76862
+// Method Definition Index: 76857
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue_set_Double_mC4CED1B52867B7E6D48D9F5E168F6217B3E9B2A4 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:91>
 		double L_0 = ___0_value;
 		__this->___U3CDoubleU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76863
+// Method Definition Index: 76858
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float JSONValue_get_Float_m4A2BA62CE1C191BB732B517A15E89B09015C195D (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:92>
 		double L_0;
 		L_0 = JSONValue_get_Double_mB505D20D82802069D1F9DBBDC44CACB4758E46E8_inline(__this, NULL);
 		return ((float)L_0);
 	}
 }
-// Method Definition Index: 76864
+// Method Definition Index: 76859
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue_set_Float_m635D075CAE59A225036BDDE5B39B5B9F2A276AFF (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:92>
 		float L_0 = ___0_value;
 		JSONValue_set_Double_mC4CED1B52867B7E6D48D9F5E168F6217B3E9B2A4_inline(__this, ((double)L_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 76865
+// Method Definition Index: 76860
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t JSONValue_get_Integer_mBD6445397BABC88DC0E43C5DCF412CB70B996F38 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:93>
 		double L_0;
 		L_0 = JSONValue_get_Double_mB505D20D82802069D1F9DBBDC44CACB4758E46E8_inline(__this, NULL);
 		return il2cpp_codegen_cast_double_to_int<int32_t>(L_0);
 	}
 }
-// Method Definition Index: 76866
+// Method Definition Index: 76861
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue_set_Integer_m2CD53081F2D36E311A35FDA5532C44AB06C262BC (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:93>
 		int32_t L_0 = ___0_value;
 		JSONValue_set_Double_mC4CED1B52867B7E6D48D9F5E168F6217B3E9B2A4_inline(__this, ((double)L_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:93>
 		return;
 	}
 }
-// Method Definition Index: 76867
+// Method Definition Index: 76862
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* JSONValue_get_Object_m129E0B073A639C89AB337DFE5C7A7ADA7EA4258B (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:94>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = __this->___U3CObjectU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76868
+// Method Definition Index: 76863
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue_set_Object_m6458E255AAFE0AD345DC9AAD7C59353FD4FE493E (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:94>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_value;
 		__this->___U3CObjectU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CObjectU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76869
+// Method Definition Index: 76864
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* JSONValue_get_Array_m80AC15DF66E38E9256BF53CC42D1611E16D8654D (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:95>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_0 = __this->___U3CArrayU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76870
+// Method Definition Index: 76865
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue_set_Array_mAB4D6C01222D3AF556C55A3248D5C086CF387D26 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:95>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_0 = ___0_value;
 		__this->___U3CArrayU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CArrayU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76871
+// Method Definition Index: 76866
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONValue_get_Boolean_mB1091D8BD0625543A5859128954EEB35C971B646 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:96>
 		bool L_0 = __this->___U3CBooleanU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76872
+// Method Definition Index: 76867
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue_set_Boolean_m04DAC15806DDD1AEBF6C1FBC3E97699CB7593820 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:96>
 		bool L_0 = ___0_value;
 		__this->___U3CBooleanU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76873
+// Method Definition Index: 76868
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* JSONValue_get_Parent_m6EBAF450030A5F8747DFDB4CB252D34C415ACF60 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:97>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_0 = __this->___U3CParentU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76874
+// Method Definition Index: 76869
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JSONValue_set_Parent_mB44C98211F36C0B2CCE35ECDD780BE3437A6131F (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:97>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_0 = ___0_value;
 		__this->___U3CParentU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CParentU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76875
+// Method Definition Index: 76870
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* JSONValue_op_Implicit_mA7D3AB4AE580A5F3B9A5A5278DC7020E868684F3 (String_t* ___0_str, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12882,14 +11866,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:101>
 		String_t* L_0 = ___0_str;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1 = (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466*)il2cpp_codegen_object_new(JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466_il2cpp_TypeInfo_var);
 		JSONValue__ctor_m98B128413E3CA29111FB22D5C6192F1654AB45EB(L_1, L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 76876
+// Method Definition Index: 76871
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* JSONValue_op_Implicit_mAFAE8A5CC3A5523936D851AD21729E7A6CF91D38 (double ___0_number, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12899,14 +11882,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:106>
 		double L_0 = ___0_number;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1 = (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466*)il2cpp_codegen_object_new(JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466_il2cpp_TypeInfo_var);
 		JSONValue__ctor_mF25CB37A298E14D2A9DD72466CF9F423A3DF762D(L_1, L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 76877
+// Method Definition Index: 76872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* JSONValue_op_Implicit_m22914445547885231FC37FB451310F866CC38B77 (JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12916,14 +11898,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:111>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_obj;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1 = (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466*)il2cpp_codegen_object_new(JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466_il2cpp_TypeInfo_var);
 		JSONValue__ctor_m22A7CFAF2DDE6788559F5AC32696F794F35FBC87(L_1, L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 76878
+// Method Definition Index: 76873
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* JSONValue_op_Implicit_m14D78D62141141C07CD485870027033A04282E6C (JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* ___0_array, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12933,14 +11914,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:116>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_0 = ___0_array;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1 = (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466*)il2cpp_codegen_object_new(JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466_il2cpp_TypeInfo_var);
 		JSONValue__ctor_mA856C5BB69AE4EE15C36E53EA5C96DB9749F3348(L_1, L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 76879
+// Method Definition Index: 76874
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* JSONValue_op_Implicit_m662F3DE73E5E8D86AC55FE1EA76249986877A92B (bool ___0_boolean, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12950,14 +11930,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:121>
 		bool L_0 = ___0_boolean;
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_1 = (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466*)il2cpp_codegen_object_new(JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466_il2cpp_TypeInfo_var);
 		JSONValue__ctor_m925146818B680F9E7419CD155E6D4DEF078B95B5(L_1, L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 76880
+// Method Definition Index: 76875
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONValue_ToString_m5098EDE51ABEBCE8449C50335079AD2C25CE0355 (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12972,7 +11951,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONValue_ToString_m5098EDE51ABEBCE
 	int32_t V_0 = 0;
 	double V_1 = 0.0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:126>
 		int32_t L_0;
 		L_0 = JSONValue_get_Type_m8DA1CED25EA5110D113AA4E7B1943DC73283B21E_inline(__this, NULL);
 		V_0 = L_0;
@@ -13011,7 +11989,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JSONValue_ToString_m5098EDE51ABEBCE
 
 IL_0027:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:128>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_2;
 		L_2 = JSONValue_get_Object_m129E0B073A639C89AB337DFE5C7A7ADA7EA4258B_inline(__this, NULL);
 		NullCheck(L_2);
@@ -13022,7 +11999,6 @@ IL_0027:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:129>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_4;
 		L_4 = JSONValue_get_Array_m80AC15DF66E38E9256BF53CC42D1611E16D8654D_inline(__this, NULL);
 		NullCheck(L_4);
@@ -13033,7 +12009,6 @@ IL_0033:
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:130>
 		bool L_6;
 		L_6 = JSONValue_get_Boolean_mB1091D8BD0625543A5859128954EEB35C971B646_inline(__this, NULL);
 		if (L_6)
@@ -13052,7 +12027,6 @@ IL_004d:
 
 IL_0053:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:131>
 		double L_7;
 		L_7 = JSONValue_get_Double_mB505D20D82802069D1F9DBBDC44CACB4758E46E8_inline(__this, NULL);
 		V_1 = L_7;
@@ -13063,7 +12037,6 @@ IL_0053:
 
 IL_0062:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:132>
 		String_t* L_9;
 		L_9 = JSONValue_get_String_mD52CDC9544A1D27B0E244780AD1027453C0DCB49_inline(__this, NULL);
 		String_t* L_10;
@@ -13073,13 +12046,11 @@ IL_0062:
 
 IL_0078:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:133>
 		return _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174;
 	}
 
 IL_007e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:135>
 		return _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174;
 	}
 }
@@ -13091,7 +12062,7 @@ IL_007e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76881
+// Method Definition Index: 76876
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageRecordItem_Awake_mA14EF265CA27A4B177A5C14FF8B6BF4927147604 (ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13102,9 +12073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageRecordItem_Awake_mA14EF265CA27A4B17
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ImageRecordItem.cs:12>
 		RecordItem_Awake_mAD7AE6E63DAC1435DE23EE64E291B1583317DE90(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ImageRecordItem.cs:13>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -13115,11 +12084,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageRecordItem_Awake_mA14EF265CA27A4B17
 		L_2 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(L_1, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
 		__this->___imageRenderer = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___imageRenderer), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ImageRecordItem.cs:14>
 		return;
 	}
 }
-// Method Definition Index: 76882
+// Method Definition Index: 76877
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageRecordItem_LoadImage_m5354609BB6FB30DF21F3A544318B2E0747698418 (ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_bytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13136,22 +12104,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageRecordItem_LoadImage_m5354609BB6FB3
 	memset((&V_2), 0, sizeof(V_2));
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* V_3 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ImageRecordItem.cs:18>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_0 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
 		Texture2D__ctor_mECF60A9EC0638EC353C02C8E99B6B465D23BE917(L_0, 1, 1, 3, (bool)0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ImageRecordItem.cs:19>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_1 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___0_bytes;
 		bool L_3;
 		L_3 = ImageConversion_LoadImage_m1797365F78319B68638DE8BB02836F8D60760041(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ImageRecordItem.cs:20>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_4 = V_0;
 		NullCheck(L_4);
 		Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9(L_4, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ImageRecordItem.cs:22>
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_1), (0.5f), (0.5f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ImageRecordItem.cs:23>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_5 = V_0;
 		NullCheck(L_5);
 		int32_t L_6;
@@ -13162,23 +12125,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageRecordItem_LoadImage_m5354609BB6FB3
 		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_7);
 		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&V_2), (0.0f), (0.0f), ((float)L_6), ((float)L_8), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ImageRecordItem.cs:24>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_9 = V_0;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_10 = V_2;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = V_1;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_12;
 		L_12 = Sprite_Create_m827A9BDEC4566AB71966A40DB48A09BB064D81E7(L_9, L_10, L_11, NULL);
 		V_3 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ImageRecordItem.cs:25>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_13 = __this->___imageRenderer;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_14 = V_3;
 		NullCheck(L_13);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_13, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ImageRecordItem.cs:27>
 		return;
 	}
 }
-// Method Definition Index: 76883
+// Method Definition Index: 76878
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageRecordItem__ctor_m66AEB57C48644D27A2C9A56D5C8E67EFC20F2F97 (ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13194,7 +12154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageRecordItem__ctor_m66AEB57C48644D27A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76884
+// Method Definition Index: 76879
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6CF27216FEC87293FD0777C13DB566FF (MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13212,7 +12172,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:27>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -13223,7 +12182,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_2 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_1, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		__this->___writeMessageBox = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___writeMessageBox), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:28>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___writeMessageBox;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -13233,7 +12191,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_5 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(L_4, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		__this->___writeLabel = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___writeLabel), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:29>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = __this->___writeMessageBox;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -13243,7 +12200,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_8 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_7, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___writeCancelButton = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___writeCancelButton), (void*)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:30>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = __this->___writeMessageBox;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -13253,7 +12209,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_11 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_10, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___writeOKButton = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___writeOKButton), (void*)L_11);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:32>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_12);
@@ -13264,7 +12219,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_14 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_13, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		__this->___pushMessageBox = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pushMessageBox), (void*)L_14);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:33>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = __this->___pushMessageBox;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
@@ -13274,7 +12228,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_17 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(L_16, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		__this->___pushLabel = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pushLabel), (void*)L_17);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:34>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_18 = __this->___pushMessageBox;
 		NullCheck(L_18);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
@@ -13284,7 +12237,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_20 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_19, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___pushCancelButton = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pushCancelButton), (void*)L_20);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:35>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21 = __this->___pushMessageBox;
 		NullCheck(L_21);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
@@ -13294,7 +12246,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_23 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_22, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___pushOKButton = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pushOKButton), (void*)L_23);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:37>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
 		L_24 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_24);
@@ -13305,7 +12256,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_26 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_25, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		__this->___makeReadonlyMessageBox = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___makeReadonlyMessageBox), (void*)L_26);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:38>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_27 = __this->___makeReadonlyMessageBox;
 		NullCheck(L_27);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
@@ -13315,7 +12265,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_29 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(L_28, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		__this->___makeReadonlyLabel = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___makeReadonlyLabel), (void*)L_29);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:39>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_30 = __this->___makeReadonlyMessageBox;
 		NullCheck(L_30);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
@@ -13325,7 +12274,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_32 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_31, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___makeReadonlyCancelButton = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___makeReadonlyCancelButton), (void*)L_32);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:40>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_33 = __this->___makeReadonlyMessageBox;
 		NullCheck(L_33);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
@@ -13335,15 +12283,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Initialize_m8636A14B6C
 		L_35 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_34, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___makeReadonlyOKButton = L_35;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___makeReadonlyOKButton), (void*)L_35);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 76885
+// Method Definition Index: 76880
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Awake_m62DDA2814359D433FD578330903B812945CEEB0E (MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:45>
 		bool L_0 = __this->___initialized;
 		if (L_0)
 		{
@@ -13351,43 +12297,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Awake_m62DDA2814359D43
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:45>
 		MessageScreenView_Initialize_m8636A14B6CF27216FEC87293FD0777C13DB566FF(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 76886
+// Method Definition Index: 76881
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Show_m600C0F6EC7BD2AF4959A0814E5F46C07F1BED0B9 (MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:50>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:51>
 		return;
 	}
 }
-// Method Definition Index: 76887
+// Method Definition Index: 76882
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_Hide_m9B1FC95426B03970380D8B896A6284F79908742C (MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:55>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:56>
 		return;
 	}
 }
-// Method Definition Index: 76888
+// Method Definition Index: 76883
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToPendingWrite_m797E91D5872DFC0549C95B5AE65FFC381979EF98 (MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13397,7 +12337,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToPendingWrite_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:60>
 		bool L_0 = __this->___initialized;
 		if (L_0)
 		{
@@ -13405,60 +12344,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToPendingWrite_m
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:60>
 		MessageScreenView_Initialize_m8636A14B6CF27216FEC87293FD0777C13DB566FF(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:62>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___writeMessageBox;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:63>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___pushMessageBox;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:64>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___makeReadonlyMessageBox;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:66>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___writeLabel;
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_7, _stringLiteral65F3D84088B234F950F55914107CDAE353BE82F5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:67>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___writeCancelButton;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_8, NULL);
 		NullCheck(L_9);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:68>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10 = __this->___writeOKButton;
 		NullCheck(L_10);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
 		NullCheck(L_11);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 76889
+// Method Definition Index: 76884
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToWriteResult_mAC2391521138CEF89DDB599AB84DA0E490EBF08A (MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* __this, String_t* ___0_writeResult, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:73>
 		bool L_0 = __this->___initialized;
 		if (L_0)
 		{
@@ -13466,57 +12396,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToWriteResult_mA
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:73>
 		MessageScreenView_Initialize_m8636A14B6CF27216FEC87293FD0777C13DB566FF(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:75>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___writeMessageBox;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:76>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___pushMessageBox;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:77>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___makeReadonlyMessageBox;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:79>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___writeLabel;
 		String_t* L_8 = ___0_writeResult;
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_7, L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:80>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___writeCancelButton;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:81>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___writeOKButton;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 76890
+// Method Definition Index: 76885
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToPendingPush_m9DB11CC41D7FB570FAFBDB2503721372899BC940 (MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13526,7 +12448,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToPendingPush_m9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:86>
 		bool L_0 = __this->___initialized;
 		if (L_0)
 		{
@@ -13534,60 +12455,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToPendingPush_m9
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:86>
 		MessageScreenView_Initialize_m8636A14B6CF27216FEC87293FD0777C13DB566FF(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:88>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___writeMessageBox;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:89>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___pushMessageBox;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:90>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___makeReadonlyMessageBox;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:92>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___pushLabel;
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_7, _stringLiteral5A56C7DA1A3C2405DE35F87B7051A009F7500116);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:93>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___pushCancelButton;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_8, NULL);
 		NullCheck(L_9);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:94>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10 = __this->___pushOKButton;
 		NullCheck(L_10);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
 		NullCheck(L_11);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:95>
 		return;
 	}
 }
-// Method Definition Index: 76891
+// Method Definition Index: 76886
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToPushResult_mF7CBF2D693D7B5762A64A9E23C9D8F50C4E1F950 (MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* __this, String_t* ___0_pushResult, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:99>
 		bool L_0 = __this->___initialized;
 		if (L_0)
 		{
@@ -13595,57 +12507,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToPushResult_mF7
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:99>
 		MessageScreenView_Initialize_m8636A14B6CF27216FEC87293FD0777C13DB566FF(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:101>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___writeMessageBox;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:102>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___pushMessageBox;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:103>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___makeReadonlyMessageBox;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:105>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___pushLabel;
 		String_t* L_8 = ___0_pushResult;
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_7, L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:106>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___pushCancelButton;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:107>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___pushOKButton;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:108>
 		return;
 	}
 }
-// Method Definition Index: 76892
+// Method Definition Index: 76887
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToPendingMakeReadonly_m4455E54D8B692B6F197E9CD64389E363DA4A51B3 (MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13655,7 +12559,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToPendingMakeRea
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:112>
 		bool L_0 = __this->___initialized;
 		if (L_0)
 		{
@@ -13663,60 +12566,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToPendingMakeRea
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:112>
 		MessageScreenView_Initialize_m8636A14B6CF27216FEC87293FD0777C13DB566FF(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:114>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___writeMessageBox;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:115>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___pushMessageBox;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:116>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___makeReadonlyMessageBox;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:118>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___makeReadonlyLabel;
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_7, _stringLiteralE22C0385C639894843B09C13492E7FBB594A7A57);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:119>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___makeReadonlyCancelButton;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_8, NULL);
 		NullCheck(L_9);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:120>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10 = __this->___makeReadonlyOKButton;
 		NullCheck(L_10);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
 		NullCheck(L_11);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:121>
 		return;
 	}
 }
-// Method Definition Index: 76893
+// Method Definition Index: 76888
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToMakeReadonlyResult_m260CC67BF8443BC182E781FB854D77B7B7E9B3A1 (MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* __this, String_t* ___0_pushResult, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:125>
 		bool L_0 = __this->___initialized;
 		if (L_0)
 		{
@@ -13724,57 +12618,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView_SwitchToMakeReadonlyRe
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:125>
 		MessageScreenView_Initialize_m8636A14B6CF27216FEC87293FD0777C13DB566FF(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:127>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___writeMessageBox;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:128>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___pushMessageBox;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:129>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___makeReadonlyMessageBox;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:131>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___makeReadonlyLabel;
 		String_t* L_8 = ___0_pushResult;
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_7, L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:132>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___makeReadonlyCancelButton;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:133>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___makeReadonlyOKButton;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/MessageScreenView.cs:134>
 		return;
 	}
 }
-// Method Definition Index: 76894
+// Method Definition Index: 76889
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView__ctor_m975EB30896000C1A89494DAF12FED7F4164CA945 (MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13790,61 +12676,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageScreenView__ctor_m975EB30896000C1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76895
+// Method Definition Index: 76890
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_Start_m9CFAF4E1AB5FA63B218B30C10C18B11F176A2289 (NavigationManager_t93E82AA0FC9CC04C789DA5FC664586A69C2305D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/NavigationManager.cs:15>
 		NavigationManager_SwitchToReadScreen_m374B0EEF6F29901CC4DE33655CBB3113D762D797(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/NavigationManager.cs:16>
 		return;
 	}
 }
-// Method Definition Index: 76896
+// Method Definition Index: 76891
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_SwitchToReadScreen_m374B0EEF6F29901CC4DE33655CBB3113D762D797 (NavigationManager_t93E82AA0FC9CC04C789DA5FC664586A69C2305D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/NavigationManager.cs:20>
 		WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* L_0 = __this->___writeScreenControl;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/NavigationManager.cs:21>
 		ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* L_2 = __this->___readScreenControl;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/NavigationManager.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 76897
+// Method Definition Index: 76892
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager_SwitchToWriteScreen_mBFECE8800589F2F0CC2F3C1B44E6900D45AE7B26 (NavigationManager_t93E82AA0FC9CC04C789DA5FC664586A69C2305D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/NavigationManager.cs:26>
 		ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* L_0 = __this->___readScreenControl;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/NavigationManager.cs:27>
 		WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* L_2 = __this->___writeScreenControl;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/NavigationManager.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 76898
+// Method Definition Index: 76893
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager__ctor_m5405CBC9A2332759ED9A4A1B041AB11CF4FCCCCE (NavigationManager_t93E82AA0FC9CC04C789DA5FC664586A69C2305D0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13860,7 +12738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavigationManager__ctor_m5405CBC9A233275
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76899
+// Method Definition Index: 76894
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_Start_m92B01624B5E6BACE84A13F899C2267E10ACE9FC4 (ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13883,19 +12761,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_Start_m92B01624B5E6BAC
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:16>
 		OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* L_0 = (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67*)il2cpp_codegen_object_new(OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67_il2cpp_TypeInfo_var);
 		OnNFCTagDetected__ctor_m682F213C951185476EDB25362C3A3D9B09D0C850(L_0, __this, (intptr_t)((void*)ReadScreenControl_OnNFCTagDetected_mE35978B24A7C4F0D3FF25A7BCEE12C4B55456E92_RuntimeMethod_var), NULL);
 		NativeNFCManager_AddNFCTagDetectedListener_m2BC2F1D0DA7B10DED2DFEADA6BBBB64DECFF2FC0(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:17>
 		OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* L_1 = (OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB*)il2cpp_codegen_object_new(OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB_il2cpp_TypeInfo_var);
 		OnNDEFReadFinished__ctor_mEA691A60711E8344C57A4C4F45619624A818EB70(L_1, __this, (intptr_t)((void*)ReadScreenControl_OnNDEFReadFinished_m8D68D7C2E49EEF53FEC40A85B0B9095534923D7A_RuntimeMethod_var), NULL);
 		NativeNFCManager_AddNDEFReadFinishedListener_m6010ADACF30CC9DF609E35DC40CE44A54CEB6179(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:18>
 		OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* L_2 = (OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37*)il2cpp_codegen_object_new(OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37_il2cpp_TypeInfo_var);
 		OnNDEFMakeReadonlyFinished__ctor_mE0845F3C0B0F99F461F12B2F29A393C4237BBF29(L_2, __this, (intptr_t)((void*)ReadScreenControl_OnNDEFMakeReadonlyFinished_m6E04B017D1AB4B161BC066121D26C4260386953A_RuntimeMethod_var), NULL);
 		NativeNFCManager_AddNDEFMakeReadonlyFinishedListener_mFDE97D7A9F113554EC0D5FB01FFF6C8135FDE79F(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:19>
 		bool L_3;
 		L_3 = NativeNFCManager_IsNFCTagInfoReadSupported_mBD8AD807B08D06F43F2D12E1FE68D730C6B8246E(NULL);
 		V_0 = L_3;
@@ -13906,7 +12780,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_Start_m92B01624B5E6BAC
 		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFA80BE54F15DEB968CE917C2E058C840B1177186, L_4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:20>
 		bool L_6;
 		L_6 = NativeNFCManager_IsNDEFReadSupported_m64C498D9BB01A5716438945EE945844B82B62238(NULL);
 		V_0 = L_6;
@@ -13915,7 +12788,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_Start_m92B01624B5E6BAC
 		String_t* L_8;
 		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral35D7B63F177FD3BBB576BD0FD062F9DC8F29B53C, L_7, NULL);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:21>
 		bool L_9;
 		L_9 = NativeNFCManager_IsNDEFWriteSupported_m90691FC43DBDE9D3AA700FD898037000D7709F53(NULL);
 		V_0 = L_9;
@@ -13924,7 +12796,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_Start_m92B01624B5E6BAC
 		String_t* L_11;
 		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral1EC4A59859B55B4EA1B5F2323B5DFB5FB4BADDD2, L_10, NULL);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:22>
 		bool L_12;
 		L_12 = NativeNFCManager_IsNDEFPushSupported_mC2C17B3FD3746A06E16FE7960017B8DD14E941A0(NULL);
 		V_0 = L_12;
@@ -13933,7 +12804,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_Start_m92B01624B5E6BAC
 		String_t* L_14;
 		L_14 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralD36FB4EB7C3D1A41BB1E0F28A75859832D1F2524, L_13, NULL);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:23>
 		bool L_15;
 		L_15 = NativeNFCManager_IsNFCEnabled_mBB5DBA2E8887CBCEC4B03DF355C44E5CE1176C02(NULL);
 		V_0 = L_15;
@@ -13942,7 +12812,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_Start_m92B01624B5E6BAC
 		String_t* L_17;
 		L_17 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF35C22F86AC9F693CE78B4273C184A38C95170BA, L_16, NULL);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:24>
 		bool L_18;
 		L_18 = NativeNFCManager_IsNDEFPushEnabled_mC1948138FBA4714A43D1CDD8ACAE4A1BF576D1AB(NULL);
 		V_0 = L_18;
@@ -13951,28 +12820,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_Start_m92B01624B5E6BAC
 		String_t* L_20;
 		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral1B132366C882BEAEF3D0F05DB146D75F7611F1C0, L_19, NULL);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:26>
 		return;
 	}
 }
-// Method Definition Index: 76900
+// Method Definition Index: 76895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnEnable_m6A71DCA339CACE13115C4A4ECF669C0CC16310FE (ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:31>
 		NativeNFCManager_Enable_mF17E980C2EA1CEFE395DE1E28B11C06718FCF297(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:33>
 		ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* L_0 = __this->___view;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 76901
+// Method Definition Index: 76896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnDisable_m761CB7CCA0ABC0F12ADA3EF90CB1D49B2BA4E7B6 (ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13982,9 +12847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnDisable_m761CB7CCA0A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:39>
 		NativeNFCManager_Disable_mDD5F3481D9C8D05A4630AADF7E3E02620EB139F9(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:41>
 		ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* L_0 = __this->___view;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13995,7 +12858,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnDisable_m761CB7CCA0A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:43>
 		ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* L_2 = __this->___view;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
@@ -14006,36 +12868,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnDisable_m761CB7CCA0A
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:45>
 		return;
 	}
 }
-// Method Definition Index: 76902
+// Method Definition Index: 76897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnStartNFCReadClick_m6610AFB435B9481517B391F19EAC42FF87A8F3E4 (ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:50>
 		NativeNFCManager_set_ResetOnTimeout_m17EEF47F4163F86DF03EEFB3946DEA1C00FE59A0((bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:51>
 		NativeNFCManager_Enable_mF17E980C2EA1CEFE395DE1E28B11C06718FCF297(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 76903
+// Method Definition Index: 76898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnNFCTagDetected_mE35978B24A7C4F0D3FF25A7BCEE12C4B55456E92 (ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* __this, NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* ___0_tag, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:57>
 		ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* L_0 = __this->___view;
 		NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* L_1 = ___0_tag;
 		NullCheck(L_0);
 		ReadScreenView_UpdateTagInfo_m3AEDBE16E491D5F0FAC50D8303C8D95DC8CD1EA9(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:58>
 		return;
 	}
 }
-// Method Definition Index: 76904
+// Method Definition Index: 76899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnNDEFReadFinished_m8D68D7C2E49EEF53FEC40A85B0B9095534923D7A (ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* __this, NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14049,10 +12905,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnNDEFReadFinished_m8D
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:62>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:63>
 		NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* L_1 = ___0_result;
 		NullCheck(L_1);
 		bool L_2;
@@ -14063,7 +12917,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnNDEFReadFinished_m8D
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:65>
 		NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* L_3 = ___0_result;
 		NullCheck(L_3);
 		String_t* L_4;
@@ -14071,7 +12924,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnNDEFReadFinished_m8D
 		String_t* L_5;
 		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral3CF1A9F354F9D7870F6189DF1ED11B731D88622C, L_4, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:66>
 		ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* L_6 = __this->___view;
 		NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* L_7 = ___0_result;
 		NullCheck(L_7);
@@ -14084,7 +12936,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnNDEFReadFinished_m8D
 
 IL_0032:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:70>
 		NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* L_9 = ___0_result;
 		NullCheck(L_9);
 		String_t* L_10;
@@ -14102,59 +12953,48 @@ IL_0032:
 
 IL_004e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:72>
 		String_t* L_16 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:73>
 		return;
 	}
 }
-// Method Definition Index: 76905
+// Method Definition Index: 76900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnMakeReadonlyClick_m3C714CF5DCA7B04F6B8BFFF43B1BA91BA209CA80 (ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:78>
 		NativeNFCManager_RequestNDEFMakeReadonly_mC45E89531902B0F2DDC3B85916B967B41A6FF0A5(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:80>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_0 = __this->___messageScreenView;
 		NullCheck(L_0);
 		MessageScreenView_Show_m600C0F6EC7BD2AF4959A0814E5F46C07F1BED0B9(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:81>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_1 = __this->___messageScreenView;
 		NullCheck(L_1);
 		MessageScreenView_SwitchToPendingMakeReadonly_m4455E54D8B692B6F197E9CD64389E363DA4A51B3(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:84>
 		return;
 	}
 }
-// Method Definition Index: 76906
+// Method Definition Index: 76901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnMakeReadonlyOKClick_m821DD131D39E34D800CF371A537B6C5A03DA5B40 (ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:88>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_0 = __this->___messageScreenView;
 		NullCheck(L_0);
 		MessageScreenView_Hide_m9B1FC95426B03970380D8B896A6284F79908742C(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:89>
 		return;
 	}
 }
-// Method Definition Index: 76907
+// Method Definition Index: 76902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnMakeReadonlyCancelClick_mEF62B569E1857AAE4FD241C00B0CF63C7C4BF6C3 (ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:93>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_0 = __this->___messageScreenView;
 		NullCheck(L_0);
 		MessageScreenView_Hide_m9B1FC95426B03970380D8B896A6284F79908742C(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:95>
 		NativeNFCManager_CancelNDEFMakeReadonlyRequest_mD83DE66DF7809BF8ECAC1DBC159EFD38F0580537(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:97>
 		return;
 	}
 }
-// Method Definition Index: 76908
+// Method Definition Index: 76903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnNDEFMakeReadonlyFinished_m6E04B017D1AB4B161BC066121D26C4260386953A (ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* __this, NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14168,10 +13008,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnNDEFMakeReadonlyFini
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:101>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:102>
 		NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* L_1 = ___0_result;
 		NullCheck(L_1);
 		bool L_2;
@@ -14182,7 +13020,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnNDEFMakeReadonlyFini
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:104>
 		NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* L_3 = ___0_result;
 		NullCheck(L_3);
 		String_t* L_4;
@@ -14195,7 +13032,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl_OnNDEFMakeReadonlyFini
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:108>
 		NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* L_6 = ___0_result;
 		NullCheck(L_6);
 		String_t* L_7;
@@ -14213,20 +13049,17 @@ IL_0021:
 
 IL_003d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:110>
 		String_t* L_13 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:111>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_14 = __this->___messageScreenView;
 		String_t* L_15 = V_0;
 		NullCheck(L_14);
 		MessageScreenView_SwitchToMakeReadonlyResult_m260CC67BF8443BC182E781FB854D77B7B7E9B3A1(L_14, L_15, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenControl.cs:112>
 		return;
 	}
 }
-// Method Definition Index: 76909
+// Method Definition Index: 76904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl__ctor_m7D48084FEABE27848A5DA4D8EE28D2572BEE23DC (ReadScreenControl_t5A8743A15BBB8C41A739EDF4E5F34A3CC5130512* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14242,7 +13075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenControl__ctor_m7D48084FEABE278
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76910
+// Method Definition Index: 76905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_Awake_m44F33739E57DD6DD5E575B3A474E5B1E50508D69 (ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14260,7 +13093,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_Awake_m44F33739E57DD6DD5E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:41>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -14271,7 +13103,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_Awake_m44F33739E57DD6DD5E
 		L_2 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_1, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		__this->___tagInfoTransform = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___tagInfoTransform), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:42>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___tagInfoTransform;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -14281,7 +13112,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_Awake_m44F33739E57DD6DD5E
 		L_5 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_4, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___makeReadonlyButton = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___makeReadonlyButton), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:43>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = __this->___tagInfoTransform;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -14291,7 +13121,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_Awake_m44F33739E57DD6DD5E
 		L_8 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_7, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___startReadButton = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___startReadButton), (void*)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:44>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = __this->___tagInfoTransform;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -14301,7 +13130,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_Awake_m44F33739E57DD6DD5E
 		L_11 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(L_10, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		__this->___tagInfoContentLabel = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___tagInfoContentLabel), (void*)L_11);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:45>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_12);
@@ -14312,33 +13140,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_Awake_m44F33739E57DD6DD5E
 		L_14 = Component_GetComponent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_m807654BF9CCD1E13E3FB8498D557BDDF13006518(L_13, Component_GetComponent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_m807654BF9CCD1E13E3FB8498D557BDDF13006518_RuntimeMethod_var);
 		__this->___ndefMessageScrollRect = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ndefMessageScrollRect), (void*)L_14);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 76911
+// Method Definition Index: 76906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_Start_m7E4346B1661417BDCD9DB77474E4DA33E9500C16 (ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:51>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___makeReadonlyButton;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:60>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___startReadButton;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:62>
 		return;
 	}
 }
-// Method Definition Index: 76912
+// Method Definition Index: 76907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_UpdateTagInfo_m3AEDBE16E491D5F0FAC50D8303C8D95DC8CD1EA9 (ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* __this, NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* ___0_tag, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14360,27 +13184,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_UpdateTagInfo_m3AEDBE16E4
 	int32_t V_5 = 0;
 	int32_t V_6 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:66>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:67>
 		NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* L_1 = ___0_tag;
 		NullCheck(L_1);
 		NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* L_2;
 		L_2 = NFCTag_get_Technologies_m11CB70897E9D53359691CA97924749E92812491C_inline(L_1, NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:68>
 		NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* L_3 = V_1;
 		NullCheck(L_3);
 		V_2 = ((int32_t)(((RuntimeArray*)L_3)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:69>
 		V_5 = 0;
 		goto IL_0047;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:71>
 		int32_t L_4 = V_5;
 		if ((((int32_t)L_4) <= ((int32_t)0)))
 		{
@@ -14388,7 +13207,6 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:73>
 		String_t* L_5 = V_0;
 		String_t* L_6;
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_5, _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D, NULL);
@@ -14397,7 +13215,6 @@ IL_0016:
 
 IL_0027:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:76>
 		String_t* L_7 = V_0;
 		NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* L_8 = V_1;
 		int32_t L_9 = V_5;
@@ -14408,14 +13225,12 @@ IL_0027:
 		String_t* L_12;
 		L_12 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_7, L_11, NULL);
 		V_0 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:69>
 		int32_t L_13 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0047:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:69>
 		int32_t L_14 = V_5;
 		int32_t L_15 = V_2;
 		if ((((int32_t)L_14) < ((int32_t)L_15)))
@@ -14424,10 +13239,8 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:79>
 		String_t* L_16 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		V_3 = L_16;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:80>
 		NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* L_17 = ___0_tag;
 		NullCheck(L_17);
 		int32_t L_18;
@@ -14438,7 +13251,6 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:82>
 		NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* L_19 = ___0_tag;
 		NullCheck(L_19);
 		int32_t L_20;
@@ -14454,13 +13266,11 @@ IL_0047:
 
 IL_0077:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:86>
 		V_3 = _stringLiteral5D54E959817188DBAD9E65FA3DB55F06B70F5E3C;
 	}
 
 IL_007d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:89>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_24 = L_23;
 		NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* L_25 = ___0_tag;
@@ -14501,16 +13311,14 @@ IL_007d:
 		String_t* L_39;
 		L_39 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralD3480160106AF0FA057F6FD9BEF8A44BEF5A54DD, L_37, NULL);
 		V_4 = L_39;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:90>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_40 = __this->___tagInfoContentLabel;
 		String_t* L_41 = V_4;
 		NullCheck(L_40);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_40, L_41);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:91>
 		return;
 	}
 }
-// Method Definition Index: 76913
+// Method Definition Index: 76908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_UpdateNDEFMessage_m780F5ACF4652A91D0D952F2639566200AA92496D (ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* __this, NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14556,39 +13364,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_UpdateNDEFMessage_m780F5A
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_15;
 	memset((&V_15), 0, sizeof(V_15));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:95>
 		ReadScreenView_CleanupRecordItems_m65BB00FE529A6A7945234B5C5597BDF5CD8A6572(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:97>
 		V_0 = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:98>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_0 = ___0_message;
 		NullCheck(L_0);
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_1;
 		L_1 = NDEFMessage_get_Records_m038F3671B439E0A18ADE86B2829C76D87C796ADE_inline(L_0, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:100>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_2 = V_1;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_inline(L_2, List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_RuntimeMethod_var);
 		V_2 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:101>
 		V_3 = 0;
 		goto IL_02ba;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:103>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_4 = V_1;
 		int32_t L_5 = V_3;
 		NullCheck(L_4);
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_6;
 		L_6 = List_1_get_Item_mA9E580D39BB1F0E2AE416AE73336F57B08295B69(L_4, L_5, List_1_get_Item_mA9E580D39BB1F0E2AE416AE73336F57B08295B69_RuntimeMethod_var);
 		V_4 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:104>
 		V_5 = (RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:105>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_7 = V_4;
 		NullCheck(L_7);
 		int32_t L_8;
@@ -14629,15 +13429,12 @@ IL_0021:
 
 IL_005c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:108>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_10 = __this->___textRecordItemPrefab;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_11;
 		L_11 = ReadScreenView_CreateRecordItem_m70550249C44E1ECB3CE70B8EE7E8B99152C0AF60(__this, L_10, NULL);
 		V_5 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:109>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_12 = V_4;
 		V_6 = ((TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C*)CastclassClass((RuntimeObject*)L_12, TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:110>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_13 = V_5;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15 = L_14;
@@ -14673,21 +13470,17 @@ IL_005c:
 		L_29 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral85747062EB9393A9027C62A1F4E3CC148ECE16C8, L_24, NULL);
 		NullCheck(L_13);
 		RecordItem_UpdateLabel_m357D6155211A1C30199A8BE5FA49879078199C40(L_13, L_29, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:111>
 		goto IL_027f;
 	}
 
 IL_00bb:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:113>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_30 = __this->___uriRecordItemPrefab;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_31;
 		L_31 = ReadScreenView_CreateRecordItem_m70550249C44E1ECB3CE70B8EE7E8B99152C0AF60(__this, L_30, NULL);
 		V_5 = L_31;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:114>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_32 = V_4;
 		V_7 = ((UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61*)CastclassClass((RuntimeObject*)L_32, UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:115>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_33 = V_5;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_34 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_35 = L_34;
@@ -14721,21 +13514,17 @@ IL_00bb:
 		L_47 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral057549A0732071C94D100179E1B3043BD3719939, L_44, NULL);
 		NullCheck(L_33);
 		RecordItem_UpdateLabel_m357D6155211A1C30199A8BE5FA49879078199C40(L_33, L_47, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:116>
 		goto IL_027f;
 	}
 
 IL_0115:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:118>
 		ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62* L_48 = __this->___mimeMediaRecordItemPrefab;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_49;
 		L_49 = ReadScreenView_CreateRecordItem_m70550249C44E1ECB3CE70B8EE7E8B99152C0AF60(__this, L_48, NULL);
 		V_5 = L_49;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:119>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_50 = V_4;
 		V_8 = ((MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB*)CastclassClass((RuntimeObject*)L_50, MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:120>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_51 = V_5;
 		int32_t L_52 = 3;
 		RuntimeObject* L_53 = Box(NDEFRecordType_t65EB68FDF0082BEFA72D637EA8DDD722AC659975_il2cpp_TypeInfo_var, &L_52);
@@ -14746,34 +13535,28 @@ IL_0115:
 		L_56 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral4C98B8B96DA6253A932DE98B62BC48F0238E906B, L_53, L_55, NULL);
 		NullCheck(L_51);
 		RecordItem_UpdateLabel_m357D6155211A1C30199A8BE5FA49879078199C40(L_51, L_56, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:121>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_57 = V_5;
 		MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB* L_58 = V_8;
 		NullCheck(L_58);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_59 = L_58->___mimeData;
 		NullCheck(((ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62*)CastclassClass((RuntimeObject*)L_57, ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62_il2cpp_TypeInfo_var)));
 		ImageRecordItem_LoadImage_m5354609BB6FB30DF21F3A544318B2E0747698418(((ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62*)CastclassClass((RuntimeObject*)L_57, ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62_il2cpp_TypeInfo_var)), L_59, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:122>
 		goto IL_027f;
 	}
 
 IL_0162:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:124>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_60 = __this->___externalTypeRecordItemPrefab;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_61;
 		L_61 = ReadScreenView_CreateRecordItem_m70550249C44E1ECB3CE70B8EE7E8B99152C0AF60(__this, L_60, NULL);
 		V_5 = L_61;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:125>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_62 = V_4;
 		V_9 = ((ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256*)CastclassClass((RuntimeObject*)L_62, ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:126>
 		ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256* L_63 = V_9;
 		NullCheck(L_63);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_64 = L_63->___domainData;
 		NullCheck(L_64);
 		V_10 = ((int32_t)(((RuntimeArray*)L_64)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:127>
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_65;
 		L_65 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256* L_66 = V_9;
@@ -14783,7 +13566,6 @@ IL_0162:
 		String_t* L_68;
 		L_68 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(33, L_65, L_67);
 		V_11 = L_68;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:128>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_69 = V_5;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_70 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_71 = L_70;
@@ -14822,21 +13604,17 @@ IL_0162:
 		L_86 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral771A359FE31C7E99FBC5C3BBF5650AE1D641919F, L_84, NULL);
 		NullCheck(L_69);
 		RecordItem_UpdateLabel_m357D6155211A1C30199A8BE5FA49879078199C40(L_69, L_86, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:129>
 		goto IL_027f;
 	}
 
 IL_01df:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:131>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_87 = __this->___smartPosterRecordItemPrefab;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_88;
 		L_88 = ReadScreenView_CreateRecordItem_m70550249C44E1ECB3CE70B8EE7E8B99152C0AF60(__this, L_87, NULL);
 		V_5 = L_88;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:132>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_89 = V_4;
 		V_12 = ((SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953*)CastclassClass((RuntimeObject*)L_89, SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:133>
 		SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* L_90 = V_12;
 		NullCheck(L_90);
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_91 = L_90->___titleRecords;
@@ -14856,7 +13634,6 @@ IL_01df:
 		int32_t L_98;
 		L_98 = List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_inline(L_97, List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_RuntimeMethod_var);
 		V_13 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_92, L_95)), L_98));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:134>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_99 = V_5;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_100 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_101 = L_100;
@@ -14914,7 +13691,6 @@ IL_01df:
 
 IL_027f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:138>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_126 = V_5;
 		NullCheck(L_126);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_127;
@@ -14925,7 +13701,6 @@ IL_027f:
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_129), (0.0f), L_128, NULL);
 		NullCheck(L_127);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_127, L_129, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:139>
 		float L_130 = V_0;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_131 = V_5;
 		NullCheck(L_131);
@@ -14939,17 +13714,14 @@ IL_027f:
 		float L_134;
 		L_134 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_15), NULL);
 		V_0 = ((float)il2cpp_codegen_subtract(L_130, L_134));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:140>
 		float L_135 = V_0;
 		V_0 = ((float)il2cpp_codegen_subtract(L_135, (8.0f)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:101>
 		int32_t L_136 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_136, 1));
 	}
 
 IL_02ba:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:101>
 		int32_t L_137 = V_3;
 		int32_t L_138 = V_2;
 		if ((((int32_t)L_137) < ((int32_t)L_138)))
@@ -14958,7 +13730,6 @@ IL_02ba:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:143>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_139 = __this->___ndefMessageScrollRect;
 		NullCheck(L_139);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_140;
@@ -14971,11 +13742,10 @@ IL_02ba:
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_143), (0.0f), L_142, NULL);
 		NullCheck(L_140);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_140, L_143, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:144>
 		return;
 	}
 }
-// Method Definition Index: 76914
+// Method Definition Index: 76909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_CleanupRecordItems_m65BB00FE529A6A7945234B5C5597BDF5CD8A6572 (ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14988,26 +13758,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView_CleanupRecordItems_m65BB0
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:148>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_0 = __this->___ndefMessageScrollRect;
 		NullCheck(L_0);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1;
 		L_1 = ScrollRect_get_content_m7878BCA28A96B7FBA02DC466A1ED2C9E191C6996_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:149>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = Transform_get_childCount_mE9C29C702AB662CC540CA053EDE48BDAFA35B4B0(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:150>
 		V_2 = 0;
 		goto IL_002c;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:152>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4 = V_0;
 		int32_t L_5 = V_2;
 		NullCheck(L_4);
@@ -15018,14 +13784,12 @@ IL_0017:
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:150>
 		int32_t L_8 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:150>
 		int32_t L_9 = V_2;
 		int32_t L_10 = V_1;
 		if ((((int32_t)L_9) < ((int32_t)L_10)))
@@ -15034,11 +13798,10 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:154>
 		return;
 	}
 }
-// Method Definition Index: 76915
+// Method Definition Index: 76910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* ReadScreenView_CreateRecordItem_m70550249C44E1ECB3CE70B8EE7E8B99152C0AF60 (ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* __this, RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* ___0_prefab, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15051,12 +13814,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:158>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_0 = ___0_prefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_1;
 		L_1 = Object_Instantiate_TisRecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99_mB24C49B652A71212B8F26FB13CFB4BEE70ABA23B(L_0, Object_Instantiate_TisRecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99_mB24C49B652A71212B8F26FB13CFB4BEE70ABA23B_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:159>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_2 = L_1;
 		NullCheck(L_2);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3;
@@ -15065,7 +13826,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:160>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_5 = L_2;
 		NullCheck(L_5);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6;
@@ -15076,7 +13836,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		L_8 = ScrollRect_get_content_m7878BCA28A96B7FBA02DC466A1ED2C9E191C6996_inline(L_7, NULL);
 		NullCheck(L_6);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_6, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:161>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_9 = L_5;
 		NullCheck(L_9);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10;
@@ -15087,7 +13846,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		L_12 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_11, NULL);
 		NullCheck(L_10);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_10, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:162>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_13 = L_9;
 		NullCheck(L_13);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14;
@@ -15096,7 +13854,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		L_15 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		NullCheck(L_14);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_14, L_15, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:163>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_16 = L_13;
 		NullCheck(L_16);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17;
@@ -15105,7 +13862,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		L_18 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		NullCheck(L_17);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_17, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:164>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_19 = L_16;
 		NullCheck(L_19);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_20;
@@ -15113,11 +13869,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = V_0;
 		NullCheck(L_20);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_20, L_21, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/ReadScreenView.cs:166>
 		return L_19;
 	}
 }
-// Method Definition Index: 76916
+// Method Definition Index: 76911
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView__ctor_mFC62A2C657A405A04AC6592C9F7915CE981AD559 (ReadScreenView_t832805141BC32AB7957C737F5795A1DBE26D9AE3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15133,27 +13888,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReadScreenView__ctor_mFC62A2C657A405A04A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76917
+// Method Definition Index: 76912
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* RecordItem_get_RectTransform_m5062B26ED971FFA69334DEB75C01BB154F11CEF9 (RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/RecordItem.cs:9>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___U3CRectTransformU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76918
+// Method Definition Index: 76913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordItem_set_RectTransform_m854EECC6AB3910A24DD6F6FCC03BE681550A863A (RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/RecordItem.cs:9>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_value;
 		__this->___U3CRectTransformU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRectTransformU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76919
+// Method Definition Index: 76914
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordItem_Awake_mAD7AE6E63DAC1435DE23EE64E291B1583317DE90 (RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15164,33 +13917,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordItem_Awake_mAD7AE6E63DAC1435DE23EE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/RecordItem.cs:15>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0;
 		L_0 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(__this, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		RecordItem_set_RectTransform_m854EECC6AB3910A24DD6F6FCC03BE681550A863A_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/RecordItem.cs:16>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1;
 		L_1 = Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m1D5533D50D961602AC2CD364E03388FFE2985259(__this, Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m1D5533D50D961602AC2CD364E03388FFE2985259_RuntimeMethod_var);
 		__this->___label = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___label), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/RecordItem.cs:17>
 		return;
 	}
 }
-// Method Definition Index: 76920
+// Method Definition Index: 76915
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordItem_UpdateLabel_m357D6155211A1C30199A8BE5FA49879078199C40 (RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/RecordItem.cs:21>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___label;
 		String_t* L_1 = ___0_text;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/RecordItem.cs:22>
 		return;
 	}
 }
-// Method Definition Index: 76921
+// Method Definition Index: 76916
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordItem__ctor_m9CF75E107EDAFD18590A492D24DD0CEFC580C00E (RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15206,11 +13954,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordItem__ctor_m9CF75E107EDAFD18590A49
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76922
+// Method Definition Index: 76917
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea_Awake_m7993D3B5BC680F5022DD7FFD36B75A9A763A59C3 (SafeArea_t831D1ED582F404D9C212B6198A30C50F3C801EEB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:14>
 		bool L_0 = __this->___initialized;
 		if (L_0)
 		{
@@ -15218,17 +13965,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea_Awake_m7993D3B5BC680F5022DD7FFD
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:15>
 		SafeArea_Initialize_m010C2761123062B473CACA903C13E1387A0ECCDD(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:16>
 		return;
 	}
 }
-// Method Definition Index: 76923
+// Method Definition Index: 76918
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea_Initialize_m010C2761123062B473CACA903C13E1387A0ECCDD (SafeArea_t831D1ED582F404D9C212B6198A30C50F3C801EEB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15238,23 +13983,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea_Initialize_m010C2761123062B473C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:20>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0;
 		L_0 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(__this, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		__this->___rectTransform = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___rectTransform), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:21>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
 		__this->___lastSafeArea = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:23>
 		__this->___initialized = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:24>
 		return;
 	}
 }
-// Method Definition Index: 76924
+// Method Definition Index: 76919
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea_OnRectTransformDimensionsChange_mEBCEA73C16E09DC806D2F0577EF2F9EA643F0F3A (SafeArea_t831D1ED582F404D9C212B6198A30C50F3C801EEB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15266,7 +14007,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea_OnRectTransformDimensionsChange
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:28>
 		bool L_0 = __this->___initialized;
 		if (L_0)
 		{
@@ -15274,17 +14014,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea_OnRectTransformDimensionsChange
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:29>
 		SafeArea_Initialize_m010C2761123062B473CACA903C13E1387A0ECCDD(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:31>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1;
 		L_1 = Screen_get_safeArea_m2ADAD6C36CC5DB40CC2DAD300DD1DF7CA4DF2525(NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:32>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_2 = __this->___lastSafeArea;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
@@ -15296,18 +14033,16 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:34>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_5 = V_0;
 		SafeArea_ApplySafeArea_mBD4BBC5EE3C132EFEC13FDA52F7F57B199A7E328(__this, L_5, NULL);
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 76925
+// Method Definition Index: 76920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea_ApplySafeArea_mBD4BBC5EE3C132EFEC13FDA52F7F57B199A7E328 (SafeArea_t831D1ED582F404D9C212B6198A30C50F3C801EEB* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_rect, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15321,15 +14056,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea_ApplySafeArea_mBD4BBC5EE3C132EF
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:40>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0 = ___0_rect;
 		__this->___lastSafeArea = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:42>
 		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Rect_get_position_m9B7E583E67443B6F4280A676E644BB0B9E7C4E38_inline((&___0_rect), NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:43>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = Rect_get_position_m9B7E583E67443B6F4280A676E644BB0B9E7C4E38_inline((&___0_rect), NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
@@ -15337,49 +14069,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea_ApplySafeArea_mBD4BBC5EE3C132EF
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_2, L_3, NULL);
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:44>
 		float* L_5 = (float*)(&(&V_0)->___x);
 		float* L_6 = L_5;
 		float L_7 = *((float*)L_6);
 		int32_t L_8;
 		L_8 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
 		*((float*)L_6) = (float)((float)(L_7/((float)L_8)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:45>
 		float* L_9 = (float*)(&(&V_0)->___y);
 		float* L_10 = L_9;
 		float L_11 = *((float*)L_10);
 		int32_t L_12;
 		L_12 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
 		*((float*)L_10) = (float)((float)(L_11/((float)L_12)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:46>
 		float* L_13 = (float*)(&(&V_1)->___x);
 		float* L_14 = L_13;
 		float L_15 = *((float*)L_14);
 		int32_t L_16;
 		L_16 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
 		*((float*)L_14) = (float)((float)(L_15/((float)L_16)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:47>
 		float* L_17 = (float*)(&(&V_1)->___y);
 		float* L_18 = L_17;
 		float L_19 = *((float*)L_18);
 		int32_t L_20;
 		L_20 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
 		*((float*)L_18) = (float)((float)(L_19/((float)L_20)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:48>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21 = __this->___rectTransform;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22 = V_0;
 		NullCheck(L_21);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_21, L_22, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:49>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_23 = __this->___rectTransform;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24 = V_1;
 		NullCheck(L_23);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_23, L_24, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/SafeArea.cs:50>
 		return;
 	}
 }
-// Method Definition Index: 76926
+// Method Definition Index: 76921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea__ctor_mB20D2C2F49659B622DD4B1E7226DB2100D404D0F (SafeArea_t831D1ED582F404D9C212B6198A30C50F3C801EEB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15395,7 +14120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeArea__ctor_mB20D2C2F49659B622DD4B1E7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76927
+// Method Definition Index: 76922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_Start_m0B6B21402F4263D3D8B3551DC9568ABACCA73896 (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15425,21 +14150,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_Start_m0B6B21402F4263
 	int32_t V_5 = 0;
 	int32_t V_6 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:33>
 		OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* L_0 = (OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776*)il2cpp_codegen_object_new(OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776_il2cpp_TypeInfo_var);
 		OnNDEFWriteFinished__ctor_m5496659FEC972493554D47D4D210D8B75930134E(L_0, __this, (intptr_t)((void*)WriteScreenControl_OnNDEFWriteFinished_mFC694478EB72901099A02E6AD47CC2D0DE305766_RuntimeMethod_var), NULL);
 		NativeNFCManager_AddNDEFWriteFinishedListener_m623380311DCFB4198BEC90EE99A079F6A6B2265A(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:34>
 		OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* L_1 = (OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF*)il2cpp_codegen_object_new(OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF_il2cpp_TypeInfo_var);
 		OnNDEFPushFinished__ctor_m6125D039BC66E2AB88419A85AF286A8944A678B1(L_1, __this, (intptr_t)((void*)WriteScreenControl_OnNDEFPushFinished_m6F3FA0CD19E2E400B2FBF84F21FC1ABA731743B5_RuntimeMethod_var), NULL);
 		NativeNFCManager_AddNDEFPushFinishedListener_mDA03F4B1B0EAE598AFF1D94A38BA7FCBE08D08E3(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:36>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:37>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:38>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:39>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:40>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:41>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:42>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)4);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = L_2;
 		V_4 = 5;
@@ -15470,12 +14186,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_Start_m0B6B21402F4263
 		NullCheck(L_12);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_14);
 		V_0 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:43>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_15 = __this->___view;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = V_0;
 		NullCheck(L_15);
 		WriteScreenView_UpdateTypeDropdownOptions_m8CC7DBC42A5879E5C7E910D6566EAC06B64BD9E6(L_15, L_16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:45>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_17 = { reinterpret_cast<intptr_t> (TextEncoding_tFACAB56A3FC42BC16EFF489FB170BC55DFCCCE33_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_18;
@@ -15488,22 +14202,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_Start_m0B6B21402F4263
 		TextEncodingU5BU5D_tFCA420DF5950E76C5143076E0849900B26E211FE* L_21;
 		L_21 = Enumerable_ToArray_TisTextEncoding_tFACAB56A3FC42BC16EFF489FB170BC55DFCCCE33_mD615F08EB22D602BACA447780CD3A7A71A46C22A(L_20, Enumerable_ToArray_TisTextEncoding_tFACAB56A3FC42BC16EFF489FB170BC55DFCCCE33_mD615F08EB22D602BACA447780CD3A7A71A46C22A_RuntimeMethod_var);
 		V_1 = L_21;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:46>
 		TextEncodingU5BU5D_tFCA420DF5950E76C5143076E0849900B26E211FE* L_22 = V_1;
 		NullCheck(L_22);
 		V_2 = ((int32_t)(((RuntimeArray*)L_22)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:47>
 		int32_t L_23 = V_2;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_23);
 		V_0 = L_24;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:48>
 		V_5 = 0;
 		goto IL_00c8;
 	}
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:50>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25 = V_0;
 		int32_t L_26 = V_5;
 		TextEncodingU5BU5D_tFCA420DF5950E76C5143076E0849900B26E211FE* L_27 = V_1;
@@ -15514,14 +14224,12 @@ IL_00ab:
 		L_30 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_29), NULL);
 		NullCheck(L_25);
 		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (String_t*)L_30);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:48>
 		int32_t L_31 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_31, 1));
 	}
 
 IL_00c8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:48>
 		int32_t L_32 = V_5;
 		int32_t L_33 = V_2;
 		if ((((int32_t)L_32) < ((int32_t)L_33)))
@@ -15530,12 +14238,10 @@ IL_00c8:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:52>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_34 = __this->___view;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_35 = V_0;
 		NullCheck(L_34);
 		WriteScreenView_UpdateTextEncodingDropdownOptions_m6C71B289418EB97515E565B88D6702DA8B8B855D(L_34, L_35, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:54>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_36 = { reinterpret_cast<intptr_t> (IconID_t8F8E3CFEF99DDFAE9FD4622D0F2CBE563703F5D5_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_37;
@@ -15548,22 +14254,18 @@ IL_00c8:
 		IconIDU5BU5D_t539614304483F93E5FF9C72387A16EB7C4D165DA* L_40;
 		L_40 = Enumerable_ToArray_TisIconID_t8F8E3CFEF99DDFAE9FD4622D0F2CBE563703F5D5_mAE8B03F0DB0DCA2500B123BEE47947341F730B5B(L_39, Enumerable_ToArray_TisIconID_t8F8E3CFEF99DDFAE9FD4622D0F2CBE563703F5D5_mAE8B03F0DB0DCA2500B123BEE47947341F730B5B_RuntimeMethod_var);
 		V_3 = L_40;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:55>
 		IconIDU5BU5D_t539614304483F93E5FF9C72387A16EB7C4D165DA* L_41 = V_3;
 		NullCheck(L_41);
 		V_2 = ((int32_t)(((RuntimeArray*)L_41)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:56>
 		int32_t L_42 = V_2;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_43 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_42);
 		V_0 = L_43;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:57>
 		V_6 = 0;
 		goto IL_0120;
 	}
 
 IL_0103:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:59>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_44 = V_0;
 		int32_t L_45 = V_6;
 		IconIDU5BU5D_t539614304483F93E5FF9C72387A16EB7C4D165DA* L_46 = V_3;
@@ -15574,14 +14276,12 @@ IL_0103:
 		L_49 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_48), NULL);
 		NullCheck(L_44);
 		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(L_45), (String_t*)L_49);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:57>
 		int32_t L_50 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_50, 1));
 	}
 
 IL_0120:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:57>
 		int32_t L_51 = V_6;
 		int32_t L_52 = V_2;
 		if ((((int32_t)L_51) < ((int32_t)L_52)))
@@ -15590,33 +14290,28 @@ IL_0120:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:61>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_53 = __this->___view;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_54 = V_0;
 		NullCheck(L_53);
 		WriteScreenView_UpdateIconDropdownOptions_m3572203DFBEBF29F0DA8515F19E7519F33E1C61F(L_53, L_54, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 76928
+// Method Definition Index: 76923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnEnable_m9F96C61877E762382E71E278F4A5DE2C335AA5DA (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:77>
 		NativeNFCManager_Enable_mF17E980C2EA1CEFE395DE1E28B11C06718FCF297(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:79>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_0 = __this->___view;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:80>
 		return;
 	}
 }
-// Method Definition Index: 76929
+// Method Definition Index: 76924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnDisable_mE25F036D917D474FAA259AE58479FB4DDE22A734 (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15626,9 +14321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnDisable_mE25F036D91
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:85>
 		NativeNFCManager_Disable_mDD5F3481D9C8D05A4630AADF7E3E02620EB139F9(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:87>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_0 = __this->___view;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -15639,7 +14332,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnDisable_mE25F036D91
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:89>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_2 = __this->___view;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
@@ -15650,11 +14342,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnDisable_mE25F036D91
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:91>
 		return;
 	}
 }
-// Method Definition Index: 76930
+// Method Definition Index: 76925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* WriteScreenControl_CreateTestSmartPosterRecord_m6152B0FF2F5B4D150BBC456AEA58B20265A3A59E (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15686,49 +14377,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297A
 	List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* V_1 = NULL;
 	List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* V_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:96>
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_0 = (List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC*)il2cpp_codegen_object_new(List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC_il2cpp_TypeInfo_var);
 		List_1__ctor_mE7634925BD91059A2F4EE2D95ABE489F0EAFEE71(L_0, List_1__ctor_mE7634925BD91059A2F4EE2D95ABE489F0EAFEE71_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:97>
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_1 = V_0;
 		TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* L_2 = (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C*)il2cpp_codegen_object_new(TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C_il2cpp_TypeInfo_var);
 		TextRecord__ctor_m8591FC064141BF36548F1D37708028E9B144F1FC(L_2, _stringLiteralA77F97A031EA0123005876907CD215E93FA626D4, _stringLiteral6DB33ADD301402F08747C4EE933A8EF10A8128F7, NULL);
 		NullCheck(L_1);
 		List_1_Add_m045CFDE69E89360344224F283F2B2734240E7958_inline(L_1, L_2, List_1_Add_m045CFDE69E89360344224F283F2B2734240E7958_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:98>
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_3 = V_0;
 		TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* L_4 = (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C*)il2cpp_codegen_object_new(TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C_il2cpp_TypeInfo_var);
 		TextRecord__ctor_m8591FC064141BF36548F1D37708028E9B144F1FC(L_4, _stringLiteralE16C2580A5F660C91B618A341A7E503CD014247C, _stringLiteralC6DE535D828F30C374EB3BE3FFDE520228FC3096, NULL);
 		NullCheck(L_3);
 		List_1_Add_m045CFDE69E89360344224F283F2B2734240E7958_inline(L_3, L_4, List_1_Add_m045CFDE69E89360344224F283F2B2734240E7958_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:100>
 		List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* L_5 = (List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE*)il2cpp_codegen_object_new(List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE_il2cpp_TypeInfo_var);
 		List_1__ctor_m322673F73911E0FF18C67A35052A2473F4437539(L_5, List_1__ctor_m322673F73911E0FF18C67A35052A2473F4437539_RuntimeMethod_var);
 		V_1 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:107>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_6 = (List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F*)il2cpp_codegen_object_new(List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F_il2cpp_TypeInfo_var);
 		List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960(L_6, List_1__ctor_m8B1266B4586CB04BC5DF57B1A5D1420C5731A960_RuntimeMethod_var);
 		V_2 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:108>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_7 = V_2;
 		TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* L_8 = (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C*)il2cpp_codegen_object_new(TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C_il2cpp_TypeInfo_var);
 		TextRecord__ctor_m8591FC064141BF36548F1D37708028E9B144F1FC(L_8, _stringLiteral1221E79FA64A05AB04415A2CAD00DB63521C56ED, _stringLiteral6DB33ADD301402F08747C4EE933A8EF10A8128F7, NULL);
 		NullCheck(L_7);
 		List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_inline(L_7, L_8, List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:109>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_9 = V_2;
 		TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* L_10 = (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C*)il2cpp_codegen_object_new(TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C_il2cpp_TypeInfo_var);
 		TextRecord__ctor_m8591FC064141BF36548F1D37708028E9B144F1FC(L_10, _stringLiteral6DEC4BA8993005CAD6C54F339A8CD05DE9DD169C, _stringLiteralC6DE535D828F30C374EB3BE3FFDE520228FC3096, NULL);
 		NullCheck(L_9);
 		List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_inline(L_9, L_10, List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:110>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_11 = V_2;
 		UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* L_12 = (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61*)il2cpp_codegen_object_new(UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61_il2cpp_TypeInfo_var);
 		UriRecord__ctor_m67485B26D4297DA02D4446CC6EFC32341AF410C0(L_12, _stringLiteral2BDC90E186BD923F4D80F00E9BF3BDF0971F8410, NULL);
 		NullCheck(L_11);
 		List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_inline(L_11, L_12, List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:112>
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_13 = V_0;
 		List_1_t863BC609732C3C55504EDE6B0FB6A7656038B3AE* L_14 = V_1;
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_15 = V_2;
@@ -15737,7 +14419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297A
 		return L_16;
 	}
 }
-// Method Definition Index: 76931
+// Method Definition Index: 76926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnRecordTypeChanged_mA827D430A1865A7FEC0F6781C95E811DD432B682 (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15751,7 +14433,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnRecordTypeChanged_m
 	String_t* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:117>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_0 = __this->___view;
 		NullCheck(L_0);
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_1;
@@ -15767,7 +14448,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnRecordTypeChanged_m
 		String_t* L_5;
 		L_5 = OptionData_get_text_m147C3EFE4B7D157914D2C6CF653B32CE2D987AF1_inline(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:118>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_6 = { reinterpret_cast<intptr_t> (NDEFRecordType_t65EB68FDF0082BEFA72D637EA8DDD722AC659975_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_7;
@@ -15812,37 +14492,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnRecordTypeChanged_m
 
 IL_0053:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:121>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_11 = __this->___view;
 		NullCheck(L_11);
 		WriteScreenView_SwitchToTextRecordInput_mAEF85B6C1BB80FF88EF187437E969D34962EEED6(L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:121>
 		return;
 	}
 
 IL_005f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:122>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_12 = __this->___view;
 		NullCheck(L_12);
 		WriteScreenView_SwitchToUriInput_m90C79B56559B93158FF7B7B4B2B2C6F63FFF54CB(L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:122>
 		return;
 	}
 
 IL_006b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:123>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_13 = __this->___view;
 		NullCheck(L_13);
 		WriteScreenView_SwitchToMimeMediaInput_m276F6F6B854F51ED558EFEC6DFC4D3E7B7AAF13B(L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:123>
 		return;
 	}
 
 IL_0077:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:124>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_14 = __this->___view;
 		NullCheck(L_14);
 		WriteScreenView_SwitchToExternalTypeInput_m5011E60AEBC27BBAED7CF281B0A992ECBF3979D8(L_14, NULL);
@@ -15850,11 +14523,10 @@ IL_0077:
 
 IL_0082:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:126>
 		return;
 	}
 }
-// Method Definition Index: 76932
+// Method Definition Index: 76927
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnAddRecordClick_mB1C6D17C8FA7F7BDD9F44974F9C47C69E09FCEB7 (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15886,7 +14558,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnAddRecordClick_mB1C
 	String_t* G_B6_0 = NULL;
 	String_t* G_B5_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:130>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_0 = __this->___pendingMessage;
 		if (L_0)
 		{
@@ -15894,7 +14565,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnAddRecordClick_mB1C
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:132>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_1 = (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)il2cpp_codegen_object_new(NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569_il2cpp_TypeInfo_var);
 		NDEFMessage__ctor_m9985D6FAAA64C1892A5114602C52D5EF9E8CD417(L_1, NULL);
 		__this->___pendingMessage = L_1;
@@ -15903,9 +14573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnAddRecordClick_mB1C
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:135>
 		V_0 = (NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:136>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_2 = __this->___view;
 		NullCheck(L_2);
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_3;
@@ -15927,7 +14595,6 @@ IL_0013:
 		String_t* L_9;
 		L_9 = OptionData_get_text_m147C3EFE4B7D157914D2C6CF653B32CE2D987AF1_inline(L_8, NULL);
 		V_1 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:137>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_10 = { reinterpret_cast<intptr_t> (NDEFRecordType_t65EB68FDF0082BEFA72D637EA8DDD722AC659975_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_11;
@@ -15972,7 +14639,6 @@ IL_0013:
 
 IL_007b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:141>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_15 = __this->___view;
 		NullCheck(L_15);
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_16;
@@ -15980,7 +14646,6 @@ IL_007b:
 		NullCheck(L_16);
 		String_t* L_17;
 		L_17 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(L_16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:142>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_18 = __this->___view;
 		NullCheck(L_18);
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_19;
@@ -15989,7 +14654,6 @@ IL_007b:
 		String_t* L_20;
 		L_20 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(L_19, NULL);
 		V_3 = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:143>
 		String_t* L_21 = V_3;
 		NullCheck(L_21);
 		int32_t L_22;
@@ -16002,14 +14666,12 @@ IL_007b:
 		G_B5_0 = L_17;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:143>
 		V_3 = _stringLiteralC6DE535D828F30C374EB3BE3FFDE520228FC3096;
 		G_B6_0 = G_B5_0;
 	}
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:144>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_23 = __this->___view;
 		NullCheck(L_23);
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_24;
@@ -16018,19 +14680,16 @@ IL_00ab:
 		int32_t L_25;
 		L_25 = Dropdown_get_value_m386913162D5E273B762657FE5156DC567602BC3C_inline(L_24, NULL);
 		V_4 = L_25;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:145>
 		String_t* L_26 = V_3;
 		int32_t L_27 = V_4;
 		TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C* L_28 = (TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C*)il2cpp_codegen_object_new(TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C_il2cpp_TypeInfo_var);
 		TextRecord__ctor_mF74B5D4D0FA6EF03948EA000C33EC6971BC24034(L_28, G_B6_0, L_26, L_27, NULL);
 		V_0 = L_28;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:146>
 		goto IL_015a;
 	}
 
 IL_00cb:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:148>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_29 = __this->___view;
 		NullCheck(L_29);
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_30;
@@ -16038,18 +14697,14 @@ IL_00cb:
 		NullCheck(L_30);
 		String_t* L_31;
 		L_31 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(L_30, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:149>
 		UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61* L_32 = (UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61*)il2cpp_codegen_object_new(UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61_il2cpp_TypeInfo_var);
 		UriRecord__ctor_m67485B26D4297DA02D4446CC6EFC32341AF410C0(L_32, L_31, NULL);
 		V_0 = L_32;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:150>
 		goto IL_015a;
 	}
 
 IL_00e3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:152>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:153>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_33 = __this->___view;
 		NullCheck(L_33);
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_34;
@@ -16058,23 +14713,19 @@ IL_00e3:
 		int32_t L_35;
 		L_35 = Dropdown_get_value_m386913162D5E273B762657FE5156DC567602BC3C_inline(L_34, NULL);
 		V_5 = L_35;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:154>
 		int32_t L_36 = V_5;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_37;
 		L_37 = WriteScreenControl_GetIconBytes_mE5B695B09CF1EC0B1C6335FAAE9537D51C50517D(__this, L_36, NULL);
 		V_6 = L_37;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:155>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_38 = V_6;
 		MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB* L_39 = (MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB*)il2cpp_codegen_object_new(MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB_il2cpp_TypeInfo_var);
 		MimeMediaRecord__ctor_mEAAED95C9FA38329A0E5941BF95B34C2E6750DC8(L_39, _stringLiteral75E05143EB132AAA8A22B48813DB8E6047380821, L_38, NULL);
 		V_0 = L_39;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:156>
 		goto IL_015a;
 	}
 
 IL_010e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:158>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_40 = __this->___view;
 		NullCheck(L_40);
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_41;
@@ -16082,7 +14733,6 @@ IL_010e:
 		NullCheck(L_41);
 		String_t* L_42;
 		L_42 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(L_41, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:159>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_43 = __this->___view;
 		NullCheck(L_43);
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_44;
@@ -16091,7 +14741,6 @@ IL_010e:
 		String_t* L_45;
 		L_45 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(L_44, NULL);
 		V_7 = L_45;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:160>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_46 = __this->___view;
 		NullCheck(L_46);
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_47;
@@ -16100,7 +14749,6 @@ IL_010e:
 		String_t* L_48;
 		L_48 = InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline(L_47, NULL);
 		V_8 = L_48;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:161>
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_49;
 		L_49 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		String_t* L_50 = V_8;
@@ -16108,7 +14756,6 @@ IL_010e:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_51;
 		L_51 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16, L_49, L_50);
 		V_9 = L_51;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:162>
 		String_t* L_52 = V_7;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_53 = V_9;
 		ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256* L_54 = (ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256*)il2cpp_codegen_object_new(ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256_il2cpp_TypeInfo_var);
@@ -16118,7 +14765,6 @@ IL_010e:
 
 IL_015a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:167>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_55 = __this->___pendingMessage;
 		NullCheck(L_55);
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_56;
@@ -16126,21 +14772,18 @@ IL_015a:
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_57 = V_0;
 		NullCheck(L_56);
 		List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_inline(L_56, L_57, List_1_Add_mFC55415CA98D5CBB00EC7EB2E19AA7C58D2EBCFD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:169>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_58 = __this->___view;
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_59 = __this->___pendingMessage;
 		NullCheck(L_58);
 		WriteScreenView_UpdateNDEFMessage_mC9F129FDE52C18DE0E2ADCE2AFA415FEB735C15B(L_58, L_59, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:170>
 		return;
 	}
 }
-// Method Definition Index: 76933
+// Method Definition Index: 76928
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* WriteScreenControl_GetIconBytes_mE5B695B09CF1EC0B1C6335FAAE9537D51C50517D (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, int32_t ___0_iconID, const RuntimeMethod* method) 
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:174>
 		V_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
 		int32_t L_0 = ___0_iconID;
 		switch (L_0)
@@ -16165,7 +14808,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:177>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_1 = __this->___musicNoteIcon;
 		NullCheck(L_1);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_2;
@@ -16173,13 +14815,11 @@ IL_0016:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3;
 		L_3 = ImageConversion_EncodeToPNG_m0804AD31B83C653AEBB234F6CC31A02D4FA7C945(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:177>
 		goto IL_004d;
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:178>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_4 = __this->___faceIcon;
 		NullCheck(L_4);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_5;
@@ -16187,13 +14827,11 @@ IL_0029:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6;
 		L_6 = ImageConversion_EncodeToPNG_m0804AD31B83C653AEBB234F6CC31A02D4FA7C945(L_5, NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:178>
 		goto IL_004d;
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:179>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_7 = __this->___arrowIcon;
 		NullCheck(L_7);
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8;
@@ -16205,33 +14843,27 @@ IL_003c:
 
 IL_004d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:182>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = V_0;
 		return L_10;
 	}
 }
-// Method Definition Index: 76934
+// Method Definition Index: 76929
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnClearMessageClick_m86A6A8A6A3D1658CA67F74450BE106B9D4D96A22 (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:188>
 		NativeNFCManager_CancelNDEFWriteRequest_mF43AE4E53E9B3E7D0C02111D8E554690BDF688EE(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:190>
 		__this->___pendingMessage = (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pendingMessage), (void*)(NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:191>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_0 = __this->___view;
 		NullCheck(L_0);
 		WriteScreenView_CleanupRecordItems_mECF7AA8CBC96437A32DCADAEAF54FA106C92220D(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:192>
 		return;
 	}
 }
-// Method Definition Index: 76935
+// Method Definition Index: 76930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnWriteMessageClick_mD83E0B75A6BE864D3F3CE5BD08A2D3D3E73E6232 (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:196>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_0 = __this->___pendingMessage;
 		if (!L_0)
 		{
@@ -16239,14 +14871,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnWriteMessageClick_m
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:199>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_1 = __this->___pendingMessage;
 		NativeNFCManager_RequestNDEFWrite_mBA2692B3E6E07639600013B66EB3816ACF99641B(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:201>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_2 = __this->___messageScreenView;
 		NullCheck(L_2);
 		MessageScreenView_Show_m600C0F6EC7BD2AF4959A0814E5F46C07F1BED0B9(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:202>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_3 = __this->___messageScreenView;
 		NullCheck(L_3);
 		MessageScreenView_SwitchToPendingWrite_m797E91D5872DFC0549C95B5AE65FFC381979EF98(L_3, NULL);
@@ -16254,48 +14883,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnWriteMessageClick_m
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:208>
 		return;
 	}
 }
-// Method Definition Index: 76936
+// Method Definition Index: 76931
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnWriteOKClick_m2C13892D814E5AEC188A7C33ED441DB7A183E85C (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:212>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_0 = __this->___messageScreenView;
 		NullCheck(L_0);
 		MessageScreenView_Hide_m9B1FC95426B03970380D8B896A6284F79908742C(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:213>
 		__this->___pendingMessage = (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pendingMessage), (void*)(NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:214>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_1 = __this->___view;
 		NullCheck(L_1);
 		WriteScreenView_CleanupRecordItems_mECF7AA8CBC96437A32DCADAEAF54FA106C92220D(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:215>
 		return;
 	}
 }
-// Method Definition Index: 76937
+// Method Definition Index: 76932
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnWriteCancelClick_m376390F91066ACFBF92DB657C7BA06B3EDFF4F2E (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:219>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_0 = __this->___messageScreenView;
 		NullCheck(L_0);
 		MessageScreenView_Hide_m9B1FC95426B03970380D8B896A6284F79908742C(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:221>
 		NativeNFCManager_CancelNDEFWriteRequest_mF43AE4E53E9B3E7D0C02111D8E554690BDF688EE(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:223>
 		return;
 	}
 }
-// Method Definition Index: 76938
+// Method Definition Index: 76933
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnPushMessageClick_m52622DFDB4B31E18F2871BEBB4A30272085A9CCF (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:227>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_0 = __this->___pendingMessage;
 		if (!L_0)
 		{
@@ -16303,14 +14923,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnPushMessageClick_m5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:230>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_1 = __this->___pendingMessage;
 		NativeNFCManager_RequestNDEFPush_mB9BCA4CC5D0442A6278EBEF6098B331A347E853C(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:231>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_2 = __this->___messageScreenView;
 		NullCheck(L_2);
 		MessageScreenView_Show_m600C0F6EC7BD2AF4959A0814E5F46C07F1BED0B9(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:232>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_3 = __this->___messageScreenView;
 		NullCheck(L_3);
 		MessageScreenView_SwitchToPendingPush_m9DB11CC41D7FB570FAFBDB2503721372899BC940(L_3, NULL);
@@ -16318,44 +14935,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnPushMessageClick_m5
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:235>
 		return;
 	}
 }
-// Method Definition Index: 76939
+// Method Definition Index: 76934
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnPushOKClick_m7BB01EF87BA1678D9F7DADB60987E3B18092023F (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:239>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_0 = __this->___messageScreenView;
 		NullCheck(L_0);
 		MessageScreenView_Hide_m9B1FC95426B03970380D8B896A6284F79908742C(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:240>
 		__this->___pendingMessage = (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pendingMessage), (void*)(NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:241>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_1 = __this->___view;
 		NullCheck(L_1);
 		WriteScreenView_CleanupRecordItems_mECF7AA8CBC96437A32DCADAEAF54FA106C92220D(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:242>
 		return;
 	}
 }
-// Method Definition Index: 76940
+// Method Definition Index: 76935
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnPushCancelClick_m1E91FC39833F4A8238C8AC079C43134D7A11671F (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:246>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_0 = __this->___messageScreenView;
 		NullCheck(L_0);
 		MessageScreenView_Hide_m9B1FC95426B03970380D8B896A6284F79908742C(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:248>
 		NativeNFCManager_CancelNDEFPushRequest_m64BB49D796C00ABA16517BD2F353576058048CC0(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:250>
 		return;
 	}
 }
-// Method Definition Index: 76941
+// Method Definition Index: 76936
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnNDEFWriteFinished_mFC694478EB72901099A02E6AD47CC2D0DE305766 (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16369,7 +14978,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnNDEFWriteFinished_m
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:254>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_0 = __this->___view;
 		NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* L_1 = ___0_result;
 		NullCheck(L_1);
@@ -16377,10 +14985,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnNDEFWriteFinished_m
 		L_2 = NDEFWriteResult_get_Message_mC34C268129738C43B2E71955E9A6A2A6754310F6_inline(L_1, NULL);
 		NullCheck(L_0);
 		WriteScreenView_UpdateNDEFMessage_mC9F129FDE52C18DE0E2ADCE2AFA415FEB735C15B(L_0, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:256>
 		String_t* L_3 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:257>
 		NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* L_4 = ___0_result;
 		NullCheck(L_4);
 		bool L_5;
@@ -16391,7 +14997,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnNDEFWriteFinished_m
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:259>
 		NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* L_6 = ___0_result;
 		NullCheck(L_6);
 		String_t* L_7;
@@ -16399,10 +15004,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnNDEFWriteFinished_m
 		String_t* L_8;
 		L_8 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral4B60C0231F45488BB7934A2F62FEF72093D2E3C0, L_7, NULL);
 		V_0 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:260>
 		__this->___pendingMessage = (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pendingMessage), (void*)(NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:261>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_9 = __this->___view;
 		NullCheck(L_9);
 		WriteScreenView_CleanupRecordItems_mECF7AA8CBC96437A32DCADAEAF54FA106C92220D(L_9, NULL);
@@ -16411,7 +15014,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnNDEFWriteFinished_m
 
 IL_0044:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:265>
 		NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* L_10 = ___0_result;
 		NullCheck(L_10);
 		String_t* L_11;
@@ -16429,20 +15031,17 @@ IL_0044:
 
 IL_0060:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:267>
 		String_t* L_17 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:268>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_18 = __this->___messageScreenView;
 		String_t* L_19 = V_0;
 		NullCheck(L_18);
 		MessageScreenView_SwitchToWriteResult_mAC2391521138CEF89DDB599AB84DA0E490EBF08A(L_18, L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:269>
 		return;
 	}
 }
-// Method Definition Index: 76942
+// Method Definition Index: 76937
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnNDEFPushFinished_m6F3FA0CD19E2E400B2FBF84F21FC1ABA731743B5 (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16455,7 +15054,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnNDEFPushFinished_m6
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:273>
 		WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* L_0 = __this->___view;
 		NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* L_1 = ___0_result;
 		NullCheck(L_1);
@@ -16463,10 +15061,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnNDEFPushFinished_m6
 		L_2 = NDEFPushResult_get_Message_m78127C388B94EA0024EE31982D5818D3541740D3_inline(L_1, NULL);
 		NullCheck(L_0);
 		WriteScreenView_UpdateNDEFMessage_mC9F129FDE52C18DE0E2ADCE2AFA415FEB735C15B(L_0, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:275>
 		String_t* L_3 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:276>
 		NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* L_4 = ___0_result;
 		NullCheck(L_4);
 		bool L_5;
@@ -16477,33 +15073,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl_OnNDEFPushFinished_m6
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:278>
 		V_0 = _stringLiteral150B8884714CA24FC74C9AFE6E304402B5451B10;
 		goto IL_002d;
 	}
 
 IL_0027:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:282>
 		V_0 = _stringLiteralA030C629F6A8516E4340E0D2D084338D88C09743;
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:284>
 		String_t* L_6 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:285>
 		MessageScreenView_tC4080C834558E1DC1323F55258DA23CD24DEA844* L_7 = __this->___messageScreenView;
 		String_t* L_8 = V_0;
 		NullCheck(L_7);
 		MessageScreenView_SwitchToPushResult_mF7CBF2D693D7B5762A64A9E23C9D8F50C4E1F950(L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenControl.cs:286>
 		return;
 	}
 }
-// Method Definition Index: 76943
+// Method Definition Index: 76938
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl__ctor_m7E14227AC674C6F614AA6BC204E389F6268DF054 (WriteScreenControl_t3DCF76C1929E715AFD6866B0D94ACF19C08C2995* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16527,88 +15118,79 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenControl__ctor_m7E14227AC674C6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76944
+// Method Definition Index: 76939
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* WriteScreenView_get_TypeDropdown_m8DE3846B794E28FBA377F47E53A8AA1DFDD36308 (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:57>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___typeDropdown;
 		return L_0;
 	}
 }
-// Method Definition Index: 76945
+// Method Definition Index: 76940
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_TextInput_mCF98E7FF0D3D9A43451565AF72B1AAB2B80F93DA (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:58>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___textInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 76946
+// Method Definition Index: 76941
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_LanguageCodeInput_m791E871BC4C575A83B0DA242AB29099E34B0AA00 (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:59>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___languageCodeInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 76947
+// Method Definition Index: 76942
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* WriteScreenView_get_TextEncodingDropdown_m1A25B5F5460992281D7EA86FE44135C008D210B2 (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:60>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___textEncodingDropdown;
 		return L_0;
 	}
 }
-// Method Definition Index: 76948
+// Method Definition Index: 76943
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_UriInput_mC6D92236ED5B59B65194A161FF78C5725170071B (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:61>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___uriInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 76949
+// Method Definition Index: 76944
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* WriteScreenView_get_IconDropdown_m3B1A796872D453B91327DA98DFBB14930FC8A8D0 (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:62>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___iconDropdown;
 		return L_0;
 	}
 }
-// Method Definition Index: 76950
+// Method Definition Index: 76945
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_DomainNameInput_m266EAE17EDAACE29CF08CF432721C91B045C24DB (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:63>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___domainNameInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 76951
+// Method Definition Index: 76946
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_DomainTypeInput_mCFEAA0B80D26658B0D3B8D0B0ECF1271F2CB294F (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:64>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___domainTypeInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 76952
+// Method Definition Index: 76947
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_DomainDataInput_m5E1FBD10D12A713DB8EF5041F5B5A102EF51A82F (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:65>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___domainDataInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 76953
+// Method Definition Index: 76948
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E9261E7A30BFD3A6E44EB1E4837 (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16641,7 +15223,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:69>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -16652,7 +15233,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_2 = Component_GetComponent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_m807654BF9CCD1E13E3FB8498D557BDDF13006518(L_1, Component_GetComponent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_m807654BF9CCD1E13E3FB8498D557BDDF13006518_RuntimeMethod_var);
 		__this->___ndefMessageScrollRect = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ndefMessageScrollRect), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:70>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_3);
@@ -16663,7 +15243,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_5 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(L_4, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		__this->___titleLabel = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___titleLabel), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:71>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_6);
@@ -16674,7 +15253,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_8 = Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00(L_7, Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00_RuntimeMethod_var);
 		__this->___typeDropdown = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___typeDropdown), (void*)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:72>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_9);
@@ -16685,7 +15263,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_11 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_10, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___addRecordButton = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___addRecordButton), (void*)L_11);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:74>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_12);
@@ -16693,7 +15270,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_13 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_12, _stringLiteral8A2FEDD5732E4676D447A9E58CF3C61AF7533142, NULL);
 		__this->___textRecordTransform = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___textRecordTransform), (void*)L_13);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:75>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = __this->___textRecordTransform;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -16703,7 +15279,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_16 = Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896(L_15, Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896_RuntimeMethod_var);
 		__this->___textInput = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___textInput), (void*)L_16);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:76>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = __this->___textRecordTransform;
 		NullCheck(L_17);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
@@ -16713,7 +15288,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_19 = Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896(L_18, Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896_RuntimeMethod_var);
 		__this->___languageCodeInput = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___languageCodeInput), (void*)L_19);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:77>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20 = __this->___textRecordTransform;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -16723,7 +15297,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_22 = Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00(L_21, Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00_RuntimeMethod_var);
 		__this->___textEncodingDropdown = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___textEncodingDropdown), (void*)L_22);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:79>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
 		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_23);
@@ -16731,7 +15304,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_24 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_23, _stringLiteralE6FE88DA892600BA9A8538F37B65548EB02759C1, NULL);
 		__this->___uriRecordTransform = L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___uriRecordTransform), (void*)L_24);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:80>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = __this->___uriRecordTransform;
 		NullCheck(L_25);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
@@ -16741,7 +15313,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_27 = Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896(L_26, Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896_RuntimeMethod_var);
 		__this->___uriInput = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___uriInput), (void*)L_27);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:82>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
 		L_28 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_28);
@@ -16749,7 +15320,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_29 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_28, _stringLiteral227D1D815626294B6D46EDEE365DF1E61F7566DD, NULL);
 		__this->___mimeMediaRecordTransform = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mimeMediaRecordTransform), (void*)L_29);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:83>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30 = __this->___mimeMediaRecordTransform;
 		NullCheck(L_30);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
@@ -16759,7 +15329,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_32 = Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00(L_31, Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00_RuntimeMethod_var);
 		__this->___iconDropdown = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___iconDropdown), (void*)L_32);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:84>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33 = __this->___mimeMediaRecordTransform;
 		NullCheck(L_33);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
@@ -16769,7 +15338,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_35 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(L_34, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		__this->___mimeTypeLabel = L_35;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mimeTypeLabel), (void*)L_35);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:86>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36;
 		L_36 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_36);
@@ -16777,7 +15345,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_37 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_36, _stringLiteralBEA4410516671BBB780F83904D094889B1CCF1F6, NULL);
 		__this->___externalTypeRecordTransform = L_37;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___externalTypeRecordTransform), (void*)L_37);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:87>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = __this->___externalTypeRecordTransform;
 		NullCheck(L_38);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39;
@@ -16787,7 +15354,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_40 = Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896(L_39, Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896_RuntimeMethod_var);
 		__this->___domainNameInput = L_40;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___domainNameInput), (void*)L_40);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:88>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41 = __this->___externalTypeRecordTransform;
 		NullCheck(L_41);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
@@ -16797,7 +15363,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_43 = Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896(L_42, Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896_RuntimeMethod_var);
 		__this->___domainTypeInput = L_43;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___domainTypeInput), (void*)L_43);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:89>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44 = __this->___externalTypeRecordTransform;
 		NullCheck(L_44);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45;
@@ -16807,7 +15372,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_46 = Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896(L_45, Component_GetComponent_TisInputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_m08978F3683B8CCF83910BA8BB0A4F786A6361896_RuntimeMethod_var);
 		__this->___domainDataInput = L_46;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___domainDataInput), (void*)L_46);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:91>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_47;
 		L_47 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_47);
@@ -16818,7 +15382,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_49 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_48, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___clearButton = L_49;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___clearButton), (void*)L_49);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:92>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_50;
 		L_50 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_50);
@@ -16829,11 +15392,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_Awake_mFD3107BBD86F7E926
 		L_52 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_51, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___writeButton = L_52;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___writeButton), (void*)L_52);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:93>
 		return;
 	}
 }
-// Method Definition Index: 76954
+// Method Definition Index: 76949
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_UpdateTypeDropdownOptions_m8CC7DBC42A5879E5C7E910D6566EAC06B64BD9E6 (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16849,26 +15411,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_UpdateTypeDropdownOption
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:97>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___typeDropdown;
 		NullCheck(L_0);
 		Dropdown_ClearOptions_m3EE71BFE47AB96BC7F731C4EE6BC728ED0E6EE56(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:98>
 		List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* L_1 = (List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55*)il2cpp_codegen_object_new(List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55_il2cpp_TypeInfo_var);
 		List_1__ctor_m9D7CF0093B8FB0C44540F02B3AE5520CBDFBC03B(L_1, List_1__ctor_m9D7CF0093B8FB0C44540F02B3AE5520CBDFBC03B_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:100>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___0_options;
 		NullCheck(L_2);
 		V_1 = ((int32_t)(((RuntimeArray*)L_2)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:101>
 		V_2 = 0;
 		goto IL_002b;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:103>
 		List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* L_3 = V_0;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___0_options;
 		int32_t L_5 = V_2;
@@ -16879,14 +15436,12 @@ IL_0019:
 		OptionData__ctor_m0BB22D3B9A2443D8D51CE88AD6B4DAEAF11B59E6(L_8, L_7, NULL);
 		NullCheck(L_3);
 		List_1_Add_mD4C8E5C7DAB7FBB4A72C861A16DFED06E2DCA03C_inline(L_3, L_8, List_1_Add_mD4C8E5C7DAB7FBB4A72C861A16DFED06E2DCA03C_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:101>
 		int32_t L_9 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:101>
 		int32_t L_10 = V_2;
 		int32_t L_11 = V_1;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -16895,16 +15450,14 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:106>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_12 = __this->___typeDropdown;
 		List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* L_13 = V_0;
 		NullCheck(L_12);
 		Dropdown_AddOptions_mE535B30A30D77024D10AB2AB71CE3FD280CD0327(L_12, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:107>
 		return;
 	}
 }
-// Method Definition Index: 76955
+// Method Definition Index: 76950
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_UpdateTextEncodingDropdownOptions_m6C71B289418EB97515E565B88D6702DA8B8B855D (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16920,26 +15473,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_UpdateTextEncodingDropdo
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:111>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___textEncodingDropdown;
 		NullCheck(L_0);
 		Dropdown_ClearOptions_m3EE71BFE47AB96BC7F731C4EE6BC728ED0E6EE56(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:112>
 		List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* L_1 = (List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55*)il2cpp_codegen_object_new(List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55_il2cpp_TypeInfo_var);
 		List_1__ctor_m9D7CF0093B8FB0C44540F02B3AE5520CBDFBC03B(L_1, List_1__ctor_m9D7CF0093B8FB0C44540F02B3AE5520CBDFBC03B_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:114>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___0_options;
 		NullCheck(L_2);
 		V_1 = ((int32_t)(((RuntimeArray*)L_2)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:115>
 		V_2 = 0;
 		goto IL_002b;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:117>
 		List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* L_3 = V_0;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___0_options;
 		int32_t L_5 = V_2;
@@ -16950,14 +15498,12 @@ IL_0019:
 		OptionData__ctor_m0BB22D3B9A2443D8D51CE88AD6B4DAEAF11B59E6(L_8, L_7, NULL);
 		NullCheck(L_3);
 		List_1_Add_mD4C8E5C7DAB7FBB4A72C861A16DFED06E2DCA03C_inline(L_3, L_8, List_1_Add_mD4C8E5C7DAB7FBB4A72C861A16DFED06E2DCA03C_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:115>
 		int32_t L_9 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:115>
 		int32_t L_10 = V_2;
 		int32_t L_11 = V_1;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -16966,16 +15512,14 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:120>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_12 = __this->___textEncodingDropdown;
 		List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* L_13 = V_0;
 		NullCheck(L_12);
 		Dropdown_AddOptions_mE535B30A30D77024D10AB2AB71CE3FD280CD0327(L_12, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:121>
 		return;
 	}
 }
-// Method Definition Index: 76956
+// Method Definition Index: 76951
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_UpdateIconDropdownOptions_m3572203DFBEBF29F0DA8515F19E7519F33E1C61F (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16991,26 +15535,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_UpdateIconDropdownOption
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:125>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___iconDropdown;
 		NullCheck(L_0);
 		Dropdown_ClearOptions_m3EE71BFE47AB96BC7F731C4EE6BC728ED0E6EE56(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:126>
 		List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* L_1 = (List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55*)il2cpp_codegen_object_new(List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55_il2cpp_TypeInfo_var);
 		List_1__ctor_m9D7CF0093B8FB0C44540F02B3AE5520CBDFBC03B(L_1, List_1__ctor_m9D7CF0093B8FB0C44540F02B3AE5520CBDFBC03B_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:128>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___0_options;
 		NullCheck(L_2);
 		V_1 = ((int32_t)(((RuntimeArray*)L_2)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:129>
 		V_2 = 0;
 		goto IL_002b;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:131>
 		List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* L_3 = V_0;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___0_options;
 		int32_t L_5 = V_2;
@@ -17021,14 +15560,12 @@ IL_0019:
 		OptionData__ctor_m0BB22D3B9A2443D8D51CE88AD6B4DAEAF11B59E6(L_8, L_7, NULL);
 		NullCheck(L_3);
 		List_1_Add_mD4C8E5C7DAB7FBB4A72C861A16DFED06E2DCA03C_inline(L_3, L_8, List_1_Add_mD4C8E5C7DAB7FBB4A72C861A16DFED06E2DCA03C_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:129>
 		int32_t L_9 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:129>
 		int32_t L_10 = V_2;
 		int32_t L_11 = V_1;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -17037,173 +15574,149 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:134>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_12 = __this->___iconDropdown;
 		List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* L_13 = V_0;
 		NullCheck(L_12);
 		Dropdown_AddOptions_mE535B30A30D77024D10AB2AB71CE3FD280CD0327(L_12, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:135>
 		return;
 	}
 }
-// Method Definition Index: 76957
+// Method Definition Index: 76952
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_SwitchToTextRecordInput_mAEF85B6C1BB80FF88EF187437E969D34962EEED6 (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:139>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___textRecordTransform;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:140>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___uriRecordTransform;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:141>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___mimeMediaRecordTransform;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:142>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___externalTypeRecordTransform;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:143>
 		return;
 	}
 }
-// Method Definition Index: 76958
+// Method Definition Index: 76953
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_SwitchToUriInput_m90C79B56559B93158FF7B7B4B2B2C6F63FFF54CB (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:147>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___textRecordTransform;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:148>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___uriRecordTransform;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:149>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___mimeMediaRecordTransform;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:150>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___externalTypeRecordTransform;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:151>
 		return;
 	}
 }
-// Method Definition Index: 76959
+// Method Definition Index: 76954
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_SwitchToMimeMediaInput_m276F6F6B854F51ED558EFEC6DFC4D3E7B7AAF13B (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:155>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___textRecordTransform;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:156>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___uriRecordTransform;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:157>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___mimeMediaRecordTransform;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:158>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___externalTypeRecordTransform;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:159>
 		return;
 	}
 }
-// Method Definition Index: 76960
+// Method Definition Index: 76955
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_SwitchToExternalTypeInput_m5011E60AEBC27BBAED7CF281B0A992ECBF3979D8 (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:163>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___textRecordTransform;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:164>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___uriRecordTransform;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:165>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___mimeMediaRecordTransform;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:166>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___externalTypeRecordTransform;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:167>
 		return;
 	}
 }
-// Method Definition Index: 76961
+// Method Definition Index: 76956
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_ClearTextInput_mD2A50B1AEAB46FBADAD645BEAA2123CB1E8B284A (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:171>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___textInput;
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		NullCheck(L_0);
 		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:172>
 		return;
 	}
 }
-// Method Definition Index: 76962
+// Method Definition Index: 76957
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_ResetLanguageCodeInput_m2DB1AC784B6CB0986C6A1FBC0E48DE67D6A80655 (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17213,28 +15726,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_ResetLanguageCodeInput_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:176>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___textInput;
 		NullCheck(L_0);
 		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(L_0, _stringLiteralC6DE535D828F30C374EB3BE3FFDE520228FC3096, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:177>
 		return;
 	}
 }
-// Method Definition Index: 76963
+// Method Definition Index: 76958
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_ClearUriInput_m901EB7EDAE633EA70F79704E0B116BA2D984BE65 (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:181>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___uriInput;
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		NullCheck(L_0);
 		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:182>
 		return;
 	}
 }
-// Method Definition Index: 76964
+// Method Definition Index: 76959
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_UpdateNDEFMessage_mC9F129FDE52C18DE0E2ADCE2AFA415FEB735C15B (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* ___0_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17280,39 +15789,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_UpdateNDEFMessage_mC9F12
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_15;
 	memset((&V_15), 0, sizeof(V_15));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:186>
 		WriteScreenView_CleanupRecordItems_mECF7AA8CBC96437A32DCADAEAF54FA106C92220D(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:188>
 		V_0 = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:189>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_0 = ___0_message;
 		NullCheck(L_0);
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_1;
 		L_1 = NDEFMessage_get_Records_m038F3671B439E0A18ADE86B2829C76D87C796ADE_inline(L_0, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:191>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_2 = V_1;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_inline(L_2, List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_RuntimeMethod_var);
 		V_2 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:192>
 		V_3 = 0;
 		goto IL_02ba;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:194>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_4 = V_1;
 		int32_t L_5 = V_3;
 		NullCheck(L_4);
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_6;
 		L_6 = List_1_get_Item_mA9E580D39BB1F0E2AE416AE73336F57B08295B69(L_4, L_5, List_1_get_Item_mA9E580D39BB1F0E2AE416AE73336F57B08295B69_RuntimeMethod_var);
 		V_4 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:195>
 		V_5 = (RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99*)NULL;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:196>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_7 = V_4;
 		NullCheck(L_7);
 		int32_t L_8;
@@ -17353,15 +15854,12 @@ IL_0021:
 
 IL_005c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:199>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_10 = __this->___textRecordItemPrefab;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_11;
 		L_11 = WriteScreenView_CreateRecordItem_m96E0AD40198AB4DB67E444115FE46E4ECB18CA6D(__this, L_10, NULL);
 		V_5 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:200>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_12 = V_4;
 		V_6 = ((TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C*)CastclassClass((RuntimeObject*)L_12, TextRecord_tE2B2B610CAA4F5925A2E80BB9EA13E65DC561D3C_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:201>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_13 = V_5;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_15 = L_14;
@@ -17397,21 +15895,17 @@ IL_005c:
 		L_29 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral85747062EB9393A9027C62A1F4E3CC148ECE16C8, L_24, NULL);
 		NullCheck(L_13);
 		RecordItem_UpdateLabel_m357D6155211A1C30199A8BE5FA49879078199C40(L_13, L_29, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:202>
 		goto IL_027f;
 	}
 
 IL_00bb:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:204>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_30 = __this->___uriRecordItemPrefab;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_31;
 		L_31 = WriteScreenView_CreateRecordItem_m96E0AD40198AB4DB67E444115FE46E4ECB18CA6D(__this, L_30, NULL);
 		V_5 = L_31;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:205>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_32 = V_4;
 		V_7 = ((UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61*)CastclassClass((RuntimeObject*)L_32, UriRecord_t9F15EDD7257376F0CCBCAEF205EB89CFF1B13F61_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:206>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_33 = V_5;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_34 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_35 = L_34;
@@ -17445,21 +15939,17 @@ IL_00bb:
 		L_47 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral057549A0732071C94D100179E1B3043BD3719939, L_44, NULL);
 		NullCheck(L_33);
 		RecordItem_UpdateLabel_m357D6155211A1C30199A8BE5FA49879078199C40(L_33, L_47, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:207>
 		goto IL_027f;
 	}
 
 IL_0115:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:209>
 		ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62* L_48 = __this->___mimeMediaRecordItemPrefab;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_49;
 		L_49 = WriteScreenView_CreateRecordItem_m96E0AD40198AB4DB67E444115FE46E4ECB18CA6D(__this, L_48, NULL);
 		V_5 = L_49;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:210>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_50 = V_4;
 		V_8 = ((MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB*)CastclassClass((RuntimeObject*)L_50, MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:211>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_51 = V_5;
 		int32_t L_52 = 3;
 		RuntimeObject* L_53 = Box(NDEFRecordType_t65EB68FDF0082BEFA72D637EA8DDD722AC659975_il2cpp_TypeInfo_var, &L_52);
@@ -17470,34 +15960,28 @@ IL_0115:
 		L_56 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral4C98B8B96DA6253A932DE98B62BC48F0238E906B, L_53, L_55, NULL);
 		NullCheck(L_51);
 		RecordItem_UpdateLabel_m357D6155211A1C30199A8BE5FA49879078199C40(L_51, L_56, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:212>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_57 = V_5;
 		MimeMediaRecord_t97A863CCB63950B4322F114ADBDC96DD48276EBB* L_58 = V_8;
 		NullCheck(L_58);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_59 = L_58->___mimeData;
 		NullCheck(((ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62*)CastclassClass((RuntimeObject*)L_57, ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62_il2cpp_TypeInfo_var)));
 		ImageRecordItem_LoadImage_m5354609BB6FB30DF21F3A544318B2E0747698418(((ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62*)CastclassClass((RuntimeObject*)L_57, ImageRecordItem_tD24D3F11F9860A25CA315961EB0BA0EB56047C62_il2cpp_TypeInfo_var)), L_59, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:213>
 		goto IL_027f;
 	}
 
 IL_0162:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:215>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_60 = __this->___externalTypeRecordItemPrefab;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_61;
 		L_61 = WriteScreenView_CreateRecordItem_m96E0AD40198AB4DB67E444115FE46E4ECB18CA6D(__this, L_60, NULL);
 		V_5 = L_61;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:216>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_62 = V_4;
 		V_9 = ((ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256*)CastclassClass((RuntimeObject*)L_62, ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:217>
 		ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256* L_63 = V_9;
 		NullCheck(L_63);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_64 = L_63->___domainData;
 		NullCheck(L_64);
 		V_10 = ((int32_t)(((RuntimeArray*)L_64)->max_length));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:218>
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_65;
 		L_65 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		ExternalTypeRecord_tB3BD5027E0378553744660D052B6E88113CC7256* L_66 = V_9;
@@ -17507,7 +15991,6 @@ IL_0162:
 		String_t* L_68;
 		L_68 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(33, L_65, L_67);
 		V_11 = L_68;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:219>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_69 = V_5;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_70 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_71 = L_70;
@@ -17546,21 +16029,17 @@ IL_0162:
 		L_86 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral771A359FE31C7E99FBC5C3BBF5650AE1D641919F, L_84, NULL);
 		NullCheck(L_69);
 		RecordItem_UpdateLabel_m357D6155211A1C30199A8BE5FA49879078199C40(L_69, L_86, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:220>
 		goto IL_027f;
 	}
 
 IL_01df:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:222>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_87 = __this->___smartPosterRecordItemPrefab;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_88;
 		L_88 = WriteScreenView_CreateRecordItem_m96E0AD40198AB4DB67E444115FE46E4ECB18CA6D(__this, L_87, NULL);
 		V_5 = L_88;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:223>
 		NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* L_89 = V_4;
 		V_12 = ((SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953*)CastclassClass((RuntimeObject*)L_89, SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953_il2cpp_TypeInfo_var));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:224>
 		SmartPosterRecord_t09A8EEEA22CC6641D0BDE6297AA3FE2FC2DB6953* L_90 = V_12;
 		NullCheck(L_90);
 		List_1_tFD188B40C618D2BCC796D7E184CA839E48249AEC* L_91 = L_90->___titleRecords;
@@ -17580,7 +16059,6 @@ IL_01df:
 		int32_t L_98;
 		L_98 = List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_inline(L_97, List_1_get_Count_mAA661F29F63CE3876E7D718E7542F90C2DBF0157_RuntimeMethod_var);
 		V_13 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_92, L_95)), L_98));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:225>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_99 = V_5;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_100 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_101 = L_100;
@@ -17638,7 +16116,6 @@ IL_01df:
 
 IL_027f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:229>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_126 = V_5;
 		NullCheck(L_126);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_127;
@@ -17649,7 +16126,6 @@ IL_027f:
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_129), (0.0f), L_128, NULL);
 		NullCheck(L_127);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_127, L_129, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:230>
 		float L_130 = V_0;
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_131 = V_5;
 		NullCheck(L_131);
@@ -17663,17 +16139,14 @@ IL_027f:
 		float L_134;
 		L_134 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_15), NULL);
 		V_0 = ((float)il2cpp_codegen_subtract(L_130, L_134));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:231>
 		float L_135 = V_0;
 		V_0 = ((float)il2cpp_codegen_subtract(L_135, (8.0f)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:192>
 		int32_t L_136 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_136, 1));
 	}
 
 IL_02ba:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:192>
 		int32_t L_137 = V_3;
 		int32_t L_138 = V_2;
 		if ((((int32_t)L_137) < ((int32_t)L_138)))
@@ -17682,7 +16155,6 @@ IL_02ba:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:234>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_139 = __this->___ndefMessageScrollRect;
 		NullCheck(L_139);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_140;
@@ -17695,11 +16167,10 @@ IL_02ba:
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_143), (0.0f), L_142, NULL);
 		NullCheck(L_140);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_140, L_143, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:235>
 		return;
 	}
 }
-// Method Definition Index: 76965
+// Method Definition Index: 76960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_CleanupRecordItems_mECF7AA8CBC96437A32DCADAEAF54FA106C92220D (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17712,26 +16183,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView_CleanupRecordItems_mECF7
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:239>
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_0 = __this->___ndefMessageScrollRect;
 		NullCheck(L_0);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1;
 		L_1 = ScrollRect_get_content_m7878BCA28A96B7FBA02DC466A1ED2C9E191C6996_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:240>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = Transform_get_childCount_mE9C29C702AB662CC540CA053EDE48BDAFA35B4B0(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:241>
 		V_2 = 0;
 		goto IL_002c;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:243>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4 = V_0;
 		int32_t L_5 = V_2;
 		NullCheck(L_4);
@@ -17742,14 +16209,12 @@ IL_0017:
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:241>
 		int32_t L_8 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:241>
 		int32_t L_9 = V_2;
 		int32_t L_10 = V_1;
 		if ((((int32_t)L_9) < ((int32_t)L_10)))
@@ -17758,11 +16223,10 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:245>
 		return;
 	}
 }
-// Method Definition Index: 76966
+// Method Definition Index: 76961
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* WriteScreenView_CreateRecordItem_m96E0AD40198AB4DB67E444115FE46E4ECB18CA6D (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* ___0_prefab, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17775,12 +16239,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:249>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_0 = ___0_prefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_1;
 		L_1 = Object_Instantiate_TisRecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99_mB24C49B652A71212B8F26FB13CFB4BEE70ABA23B(L_0, Object_Instantiate_TisRecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99_mB24C49B652A71212B8F26FB13CFB4BEE70ABA23B_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:250>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_2 = L_1;
 		NullCheck(L_2);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3;
@@ -17789,7 +16251,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		L_4 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:251>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_5 = L_2;
 		NullCheck(L_5);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6;
@@ -17800,7 +16261,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		L_8 = ScrollRect_get_content_m7878BCA28A96B7FBA02DC466A1ED2C9E191C6996_inline(L_7, NULL);
 		NullCheck(L_6);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_6, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:252>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_9 = L_5;
 		NullCheck(L_9);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10;
@@ -17811,7 +16271,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		L_12 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_11, NULL);
 		NullCheck(L_10);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_10, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:253>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_13 = L_9;
 		NullCheck(L_13);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14;
@@ -17820,7 +16279,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		L_15 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		NullCheck(L_14);
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_14, L_15, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:254>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_16 = L_13;
 		NullCheck(L_16);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17;
@@ -17829,7 +16287,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		L_18 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		NullCheck(L_17);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_17, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:255>
 		RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* L_19 = L_16;
 		NullCheck(L_19);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_20;
@@ -17837,11 +16294,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RecordItem_t6E35649E2F302859E2F201EDCB3450939
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = V_0;
 		NullCheck(L_20);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_20, L_21, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:257>
 		return L_19;
 	}
 }
-// Method Definition Index: 76967
+// Method Definition Index: 76962
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView__ctor_mF25641BDA62D8A1A21C04655BFC599B8DC2BB8AB (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17876,49 +16332,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WriteScreenView__ctor_mF25641BDA62D8A1A2
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 76633
+// Method Definition Index: 76628
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NDEFMessage_get_WriteState_mC44ECF2D66CC601EE6A3125F942D18FF116F01D9_inline (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:35>
 		int32_t L_0 = __this->___writeState;
 		return L_0;
 	}
 }
-// Method Definition Index: 76867
+// Method Definition Index: 76862
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* JSONValue_get_Object_m129E0B073A639C89AB337DFE5C7A7ADA7EA4258B_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:94>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = __this->___U3CObjectU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76688
+// Method Definition Index: 76683
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnNFCTagDetected_Invoke_m06E82D12436CD493659A54E44F8F1E6F5F9CAB7A_inline (OnNFCTagDetected_t7357FA93A2D2307367F6C6F4640F1823BF439D67* __this, NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* ___0_tag, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_tag, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76692
+// Method Definition Index: 76687
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnNDEFReadFinished_Invoke_mB3D6D645EECDD61BF6005AA647E49C6B8C2DE5E9_inline (OnNDEFReadFinished_t9475CDDDF6B6C2169A8A560CA4FAF0533197F8CB* __this, NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* ___0_result, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_result, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76696
+// Method Definition Index: 76691
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnNDEFWriteFinished_Invoke_mF0A36985E17F6A4056984E6C90734A24F963E345_inline (OnNDEFWriteFinished_tC9D7C1FA3794461C39767A7BAC4D32920EA8A776* __this, NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* ___0_result, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_result, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76700
+// Method Definition Index: 76695
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnNDEFPushFinished_Invoke_mA265B93BBCA841655097E2E5EBD149534D3646CD_inline (OnNDEFPushFinished_t5C10A5844C86CC47A7E0E2757B00D8EC034A41AF* __this, NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* ___0_result, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_result, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76704
+// Method Definition Index: 76699
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnNDEFMakeReadonlyFinished_Invoke_mDD5F11258541ED5F8A5496197850252F54045C8E_inline (OnNDEFMakeReadonlyFinished_t69B79C6B1043CFE327DD42AA917758CE2E877F37* __this, NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* ___0_result, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84*, const RuntimeMethod*);
@@ -17932,67 +16386,60 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-// Method Definition Index: 76869
+// Method Definition Index: 76864
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* JSONValue_get_Array_m80AC15DF66E38E9256BF53CC42D1611E16D8654D_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:95>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_0 = __this->___U3CArrayU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76859
+// Method Definition Index: 76854
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* JSONValue_get_String_mD52CDC9544A1D27B0E244780AD1027453C0DCB49_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:90>
 		String_t* L_0 = __this->___U3CStringU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76861
+// Method Definition Index: 76856
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double JSONValue_get_Double_mB505D20D82802069D1F9DBBDC44CACB4758E46E8_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:91>
 		double L_0 = __this->___U3CDoubleU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76871
+// Method Definition Index: 76866
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool JSONValue_get_Boolean_mB1091D8BD0625543A5859128954EEB35C971B646_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:96>
 		bool L_0 = __this->___U3CBooleanU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76874
+// Method Definition Index: 76869
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void JSONValue_set_Parent_mB44C98211F36C0B2CCE35ECDD780BE3437A6131F_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:97>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_0 = ___0_value;
 		__this->___U3CParentU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CParentU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76873
+// Method Definition Index: 76868
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* JSONValue_get_Parent_m6EBAF450030A5F8747DFDB4CB252D34C415ACF60_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:97>
 		JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* L_0 = __this->___U3CParentU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76857
+// Method Definition Index: 76852
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t JSONValue_get_Type_m8DA1CED25EA5110D113AA4E7B1943DC73283B21E_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:89>
 		int32_t L_0 = __this->___U3CTypeU3Ek__BackingField;
 		return L_0;
 	}
@@ -18007,64 +16454,58 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Double_IsNaN_mF2BC6D1FD48131
 		return (bool)((((int64_t)((int64_t)(L_1&((int64_t)(std::numeric_limits<int64_t>::max)())))) > ((int64_t)((int64_t)9218868437227405312LL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 76858
+// Method Definition Index: 76853
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void JSONValue_set_Type_m19EC63DC807EC8A14940E11F4ED21F482395D4D1_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:89>
 		int32_t L_0 = ___0_value;
 		__this->___U3CTypeU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76860
+// Method Definition Index: 76855
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void JSONValue_set_String_m6D1D06B75C0EE5BD15C93A0D765A572E2AA16DB3_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:90>
 		String_t* L_0 = ___0_value;
 		__this->___U3CStringU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CStringU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76862
+// Method Definition Index: 76857
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void JSONValue_set_Double_mC4CED1B52867B7E6D48D9F5E168F6217B3E9B2A4_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:91>
 		double L_0 = ___0_value;
 		__this->___U3CDoubleU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76868
+// Method Definition Index: 76863
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void JSONValue_set_Object_m6458E255AAFE0AD345DC9AAD7C59353FD4FE493E_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:94>
 		JSONObject_t9E1AEF2915A74190F48A87A6078496C1E41A7BD6* L_0 = ___0_value;
 		__this->___U3CObjectU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CObjectU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76870
+// Method Definition Index: 76865
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void JSONValue_set_Array_mAB4D6C01222D3AF556C55A3248D5C086CF387D26_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:95>
 		JSONArray_tBA9CA5CE0F98FCA740C49D22CF87FBD943E528ED* L_0 = ___0_value;
 		__this->___U3CArrayU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CArrayU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76872
+// Method Definition Index: 76867
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void JSONValue_set_Boolean_m04DAC15806DDD1AEBF6C1FBC3E97699CB7593820_inline (JSONValue_tE3087CAB12E26A19B046F43A47DA1CE04DB19466* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/JSON/JSONValue.cs:96>
 		bool L_0 = ___0_value;
 		__this->___U3CBooleanU3Ek__BackingField = L_0;
 		return;
@@ -18096,137 +16537,122 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BE
 		return;
 	}
 }
-// Method Definition Index: 76644
+// Method Definition Index: 76639
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NDEFReadResult_get_Success_m741F71DD506A0786DB2B93CD33BD52B181CBA9F4_inline (NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:15>
 		bool L_0 = __this->___success;
 		return L_0;
 	}
 }
-// Method Definition Index: 76647
+// Method Definition Index: 76642
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NDEFReadResult_get_TagID_m3601595C566983B58E2D38960ADC8556204FCEBC_inline (NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:18>
 		String_t* L_0 = __this->___tagID;
 		return L_0;
 	}
 }
-// Method Definition Index: 76646
+// Method Definition Index: 76641
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* NDEFReadResult_get_Message_m946C6FAAFA0D48D959CFD53D6CBF55065631DAA1_inline (NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:17>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_0 = __this->___message;
 		return L_0;
 	}
 }
-// Method Definition Index: 76645
+// Method Definition Index: 76640
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NDEFReadResult_get_Error_mDA92A72A742113F75B648D1B6D17333412DFB8D0_inline (NDEFReadResult_tA94E12EAA7437BFC46B4BCE8B90F147500D200AE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFReadResult.cs:16>
 		int32_t L_0 = __this->___error;
 		return L_0;
 	}
 }
-// Method Definition Index: 76626
+// Method Definition Index: 76621
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NDEFMakeReadonlyResult_get_Success_mCF06730035779BDAC6A3ABB48816B18258FF308A_inline (NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:13>
 		bool L_0 = __this->___success;
 		return L_0;
 	}
 }
-// Method Definition Index: 76628
+// Method Definition Index: 76623
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NDEFMakeReadonlyResult_get_TagID_m6A5F0C3E43E2BE3328AC8E2DB050F6378BB12373_inline (NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:15>
 		String_t* L_0 = __this->___tagID;
 		return L_0;
 	}
 }
-// Method Definition Index: 76627
+// Method Definition Index: 76622
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NDEFMakeReadonlyResult_get_Error_mA762DF2E0619DC0DACAD385EB5342043C3947FAB_inline (NDEFMakeReadonlyResult_tD11BF38755492307E2CD85119C8C61216088AE84* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMakeReadonlyResult.cs:14>
 		int32_t L_0 = __this->___error;
 		return L_0;
 	}
 }
-// Method Definition Index: 76661
+// Method Definition Index: 76656
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* NFCTag_get_Technologies_m11CB70897E9D53359691CA97924749E92812491C_inline (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:44>
 		NFCTechnologyU5BU5D_t612DDFF8DBE5F0537C2A40ABF2BE396024577680* L_0 = __this->___technologies;
 		return L_0;
 	}
 }
-// Method Definition Index: 76664
+// Method Definition Index: 76659
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NFCTag_get_MaxWriteSize_m377A25AC42AE990705E632A406807EC06155A646_inline (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:53>
 		int32_t L_0 = __this->___maxWriteSize;
 		return L_0;
 	}
 }
-// Method Definition Index: 76660
+// Method Definition Index: 76655
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NFCTag_get_ID_mE1F17ABE3AB40B5F405596ACD67AE769F7EE2146_inline (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:41>
 		String_t* L_0 = __this->___id;
 		return L_0;
 	}
 }
-// Method Definition Index: 76662
+// Method Definition Index: 76657
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NFCTag_get_Manufacturer_m8A6537810F4DCCD0ECEF17E9660CDAA8E6E029C7_inline (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:47>
 		String_t* L_0 = __this->___manufacturer;
 		return L_0;
 	}
 }
-// Method Definition Index: 76663
+// Method Definition Index: 76658
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NFCTag_get_Writable_mA950C9EDE24D79B011C4BD94A34EF6EA2FBB9687_inline (NFCTag_t2BA9DFED013DAD195E64C7870F534F8A28471DB6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NFCTag.cs:50>
 		bool L_0 = __this->___writable;
 		return L_0;
 	}
 }
-// Method Definition Index: 76631
+// Method Definition Index: 76626
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* NDEFMessage_get_Records_m038F3671B439E0A18ADE86B2829C76D87C796ADE_inline (NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFMessage.cs:29>
 		List_1_tB83F99E470B029D0822457F4E22D07A95AA2FB4F* L_0 = __this->___records;
 		return L_0;
 	}
 }
-// Method Definition Index: 76650
+// Method Definition Index: 76645
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NDEFRecord_get_Type_mB36FA097925ED95CA937B13B525249A0B2C148FB_inline (NDEFRecord_t9BF893E8A61A4DB87B8B7DE1CAB38A2E7A7BBF46* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFRecord.cs:15>
 		int32_t L_0 = __this->___type;
 		return L_0;
 	}
 }
-// Method Definition Index: 76917
+// Method Definition Index: 76912
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* RecordItem_get_RectTransform_m5062B26ED971FFA69334DEB75C01BB154F11CEF9_inline (RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/RecordItem.cs:9>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___U3CRectTransformU3Ek__BackingField;
 		return L_0;
 	}
@@ -18239,7 +16665,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_height_mE1AA6C6C72
 		return L_0;
 	}
 }
-// Method Definition Index: 68738
+// Method Definition Index: 68731
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ScrollRect_get_content_m7878BCA28A96B7FBA02DC466A1ED2C9E191C6996_inline (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18308,11 +16734,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 76918
+// Method Definition Index: 76913
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RecordItem_set_RectTransform_m854EECC6AB3910A24DD6F6FCC03BE681550A863A_inline (RecordItem_t6E35649E2F302859E2F201EDCB345093951E7D99* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/RecordItem.cs:9>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_value;
 		__this->___U3CRectTransformU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRectTransformU3Ek__BackingField), (void*)L_0);
@@ -18388,16 +16813,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_8;
 	}
 }
-// Method Definition Index: 76944
+// Method Definition Index: 76939
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* WriteScreenView_get_TypeDropdown_m8DE3846B794E28FBA377F47E53A8AA1DFDD36308_inline (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:57>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___typeDropdown;
 		return L_0;
 	}
 }
-// Method Definition Index: 67991
+// Method Definition Index: 67984
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OptionData_get_text_m147C3EFE4B7D157914D2C6CF653B32CE2D987AF1_inline (OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18406,7 +16830,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* OptionData_get_text_m14
 		return L_0;
 	}
 }
-// Method Definition Index: 67946
+// Method Definition Index: 67939
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Dropdown_get_value_m386913162D5E273B762657FE5156DC567602BC3C_inline (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18415,16 +16839,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Dropdown_get_value_m38691
 		return L_0;
 	}
 }
-// Method Definition Index: 76945
+// Method Definition Index: 76940
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_TextInput_mCF98E7FF0D3D9A43451565AF72B1AAB2B80F93DA_inline (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:58>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___textInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 68227
+// Method Definition Index: 68220
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputField_get_text_m6E0796350FF559505E4DF17311803962699D6704_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18433,119 +16856,106 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputField_get_text_m6E
 		return L_0;
 	}
 }
-// Method Definition Index: 76946
+// Method Definition Index: 76941
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_LanguageCodeInput_m791E871BC4C575A83B0DA242AB29099E34B0AA00_inline (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:59>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___languageCodeInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 76947
+// Method Definition Index: 76942
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* WriteScreenView_get_TextEncodingDropdown_m1A25B5F5460992281D7EA86FE44135C008D210B2_inline (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:60>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___textEncodingDropdown;
 		return L_0;
 	}
 }
-// Method Definition Index: 76948
+// Method Definition Index: 76943
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_UriInput_mC6D92236ED5B59B65194A161FF78C5725170071B_inline (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:61>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___uriInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 76949
+// Method Definition Index: 76944
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* WriteScreenView_get_IconDropdown_m3B1A796872D453B91327DA98DFBB14930FC8A8D0_inline (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:62>
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___iconDropdown;
 		return L_0;
 	}
 }
-// Method Definition Index: 76950
+// Method Definition Index: 76945
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_DomainNameInput_m266EAE17EDAACE29CF08CF432721C91B045C24DB_inline (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:63>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___domainNameInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 76951
+// Method Definition Index: 76946
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_DomainTypeInput_mCFEAA0B80D26658B0D3B8D0B0ECF1271F2CB294F_inline (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:64>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___domainTypeInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 76952
+// Method Definition Index: 76947
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* WriteScreenView_get_DomainDataInput_m5E1FBD10D12A713DB8EF5041F5B5A102EF51A82F_inline (WriteScreenView_tCDD2A6B4A0B27DF6354F6E42EFE4E7610CFA63DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Samples/Scripts/WriteScreenView.cs:65>
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_0 = __this->___domainDataInput;
 		return L_0;
 	}
 }
-// Method Definition Index: 76656
+// Method Definition Index: 76651
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* NDEFWriteResult_get_Message_mC34C268129738C43B2E71955E9A6A2A6754310F6_inline (NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:17>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_0 = __this->___message;
 		return L_0;
 	}
 }
-// Method Definition Index: 76654
+// Method Definition Index: 76649
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NDEFWriteResult_get_Success_mD2EC5CF2210CE6FD9571FA89664EE396B24447EA_inline (NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:15>
 		bool L_0 = __this->___success;
 		return L_0;
 	}
 }
-// Method Definition Index: 76657
+// Method Definition Index: 76652
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NDEFWriteResult_get_TagID_m9664C25A1F2A5142CB28FFD07F1AE05D2DB08A9F_inline (NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:18>
 		String_t* L_0 = __this->___tagID;
 		return L_0;
 	}
 }
-// Method Definition Index: 76655
+// Method Definition Index: 76650
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NDEFWriteResult_get_Error_mBE173103017DE426E21BED18EFA3693496F50A14_inline (NDEFWriteResult_t6B16C00B9D968EC109AC8574642C846AB0C58460* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFWriteResult.cs:16>
 		int32_t L_0 = __this->___error;
 		return L_0;
 	}
 }
-// Method Definition Index: 76641
+// Method Definition Index: 76636
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* NDEFPushResult_get_Message_m78127C388B94EA0024EE31982D5818D3541740D3_inline (NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:11>
 		NDEFMessage_t9C091D100BC8A4C629A1FAC4E7FB21E1446F2569* L_0 = __this->___message;
 		return L_0;
 	}
 }
-// Method Definition Index: 76640
+// Method Definition Index: 76635
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NDEFPushResult_get_Success_m00B7129363361F066435AC5BA4CB039352A3AF42_inline (NDEFPushResult_t42DF7B66E48942644DDB5F2F9EAB572F7D27CE4C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/DigitsNFCToolkit/Scripts/Model/NDEFPushResult.cs:10>
 		bool L_0 = __this->___success;
 		return L_0;
 	}

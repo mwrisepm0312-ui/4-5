@@ -4323,14 +4323,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CollisionData__ctor_mFEC1FD9035244914A74F0AE06370C0CE9F3F495B (CollisionData_tD6584E14D18CA037996743241D4D9E5B75556913* __this, uint32_t ___0_enterTick, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkColliderBase.cs:24>
 		il2cpp_codegen_initobj(__this, sizeof(CollisionData_tD6584E14D18CA037996743241D4D9E5B75556913));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkColliderBase.cs:26>
 		uint32_t L_0 = ___0_enterTick;
 		__this->___EnterTick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkColliderBase.cs:27>
 		__this->___ExitTick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkColliderBase.cs:28>
 		return;
 	}
 }
@@ -4345,15 +4341,11 @@ IL2CPP_EXTERN_C  void CollisionData__ctor_mFEC1FD9035244914A74F0AE06370C0CE9F3F4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CollisionData__ctor_m50765B9D66EABEA169F39B01B0F1D01884D4273D (CollisionData_tD6584E14D18CA037996743241D4D9E5B75556913* __this, uint32_t ___0_enterTick, uint32_t ___1_exitTick, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkColliderBase.cs:30>
 		il2cpp_codegen_initobj(__this, sizeof(CollisionData_tD6584E14D18CA037996743241D4D9E5B75556913));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkColliderBase.cs:32>
 		uint32_t L_0 = ___0_enterTick;
 		__this->___EnterTick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkColliderBase.cs:33>
 		uint32_t L_1 = ___1_exitTick;
 		__this->___ExitTick = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkColliderBase.cs:34>
 		return;
 	}
 }
@@ -4445,11 +4437,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkCollision_NetworkInitializeIfDisa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkCollision_Awake_UserLogic_FishNet_Component_Prediction_NetworkCollision_FishNet_Runtime_dll_mB1831FF17F4651D4B5157805E34B5F90FDE2727C (NetworkCollision_t919B881D3AB0FF6618C1184331BAAB0C3E9DB72B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkCollision.cs:9>
 		((NetworkColliderBase_t4D26AB4C747983E2E056894D34F0B6A7B6862FA6*)__this)->___IsTrigger = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkCollision.cs:10>
 		NetworkCollider_Awake_mDB646842A4D488DE175475A68636A11619D7FEC5(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkCollision.cs:11>
 		return;
 	}
 }
@@ -4534,11 +4523,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkCollision2D_NetworkInitializeIfDi
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkCollision2D_Awake_UserLogic_FishNet_Component_Prediction_NetworkCollision2D_FishNet_Runtime_dll_m651DBE0099C796DE93C70A01DD2A57F75498F0FB (NetworkCollision2D_tE57C7A6B2C323EFC399384CAE33FC1E413FB1A58* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkCollision2D.cs:9>
 		((NetworkColliderBase_t4D26AB4C747983E2E056894D34F0B6A7B6862FA6*)__this)->___IsTrigger = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkCollision2D.cs:10>
 		NetworkCollider2D_Awake_mE0F6C69760A3EBD77C1725F9A79BFD4247991982(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkCollision2D.cs:11>
 		return;
 	}
 }
@@ -4623,11 +4609,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTrigger_NetworkInitializeIfDisabl
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTrigger_Awake_UserLogic_FishNet_Component_Prediction_NetworkTrigger_FishNet_Runtime_dll_mA10CC50326D4B2D87C1AA97DADC45628A168F098 (NetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkTrigger.cs:7>
 		((NetworkColliderBase_t4D26AB4C747983E2E056894D34F0B6A7B6862FA6*)__this)->___IsTrigger = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkTrigger.cs:8>
 		NetworkCollider_Awake_mDB646842A4D488DE175475A68636A11619D7FEC5(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkTrigger.cs:9>
 		return;
 	}
 }
@@ -4712,11 +4695,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTrigger2D_NetworkInitializeIfDisa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTrigger2D_Awake_UserLogic_FishNet_Component_Prediction_NetworkTrigger2D_FishNet_Runtime_dll_m39D9E979DAA5E21BA311182A85A59C9434E4EB9B (NetworkTrigger2D_tDB7A87464259DFD8313B940780F30B83A55FBEB4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkTrigger2D.cs:7>
 		((NetworkColliderBase_t4D26AB4C747983E2E056894D34F0B6A7B6862FA6*)__this)->___IsTrigger = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkTrigger2D.cs:8>
 		NetworkCollider2D_Awake_mE0F6C69760A3EBD77C1725F9A79BFD4247991982(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/NetworkTrigger2D.cs:9>
 		return;
 	}
 }
@@ -4732,9 +4712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTrigger2D_Awake_UserLogic_FishNet
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody_Awake_m0D404CC86832C61F8AAF09910CA4390A111AD6A8 (OfflineRigidbody_t9098BED4DE6EBB19F8D7F8A66CA9700486EB9449* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:36>
 		OfflineRigidbody_InitializeOnce_m7F82C35B7740C1038D40D6BBB53B79088CA6556F(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:37>
 		return;
 	}
 }
@@ -4742,9 +4720,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody_Awake_m0D404CC86832C61F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody_OnDestroy_m1D85EDBE5AEB71365188C8190793D523C150395B (OfflineRigidbody_t9098BED4DE6EBB19F8D7F8A66CA9700486EB9449* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:41>
 		OfflineRigidbody_ChangeSubscription_mEF40ECD5B03B113B72A8514629E834329C1E5ED5(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:42>
 		return;
 	}
 }
@@ -4752,16 +4728,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody_OnDestroy_m1D85EDBE5AEB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody_InitializeOnce_m7F82C35B7740C1038D40D6BBB53B79088CA6556F (OfflineRigidbody_t9098BED4DE6EBB19F8D7F8A66CA9700486EB9449* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:49>
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_0;
 		L_0 = InstanceFinder_get_PredictionManager_m2B781F4D73F0B37CAB0082B5352A17C6B3F7B1A1(NULL);
 		__this->____predictionManager = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____predictionManager), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:50>
 		OfflineRigidbody_UpdateRigidbodies_m39531912ED2B17B6A59343A4744E2EA5E3A520BE(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:51>
 		OfflineRigidbody_ChangeSubscription_mEF40ECD5B03B113B72A8514629E834329C1E5ED5(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:52>
 		return;
 	}
 }
@@ -4775,7 +4747,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody_SetPredictionManager_mA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:60>
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_0 = ___0_pm;
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_1 = __this->____predictionManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -4787,21 +4758,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody_SetPredictionManager_mA
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:61>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:64>
 		OfflineRigidbody_ChangeSubscription_mEF40ECD5B03B113B72A8514629E834329C1E5ED5(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:66>
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_3 = ___0_pm;
 		__this->____predictionManager = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____predictionManager), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:67>
 		OfflineRigidbody_ChangeSubscription_mEF40ECD5B03B113B72A8514629E834329C1E5ED5(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:68>
 		return;
 	}
 }
@@ -4809,7 +4775,6 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody_UpdateRigidbodies_m39531912ED2B17B6A59343A4744E2EA5E3A520BE (OfflineRigidbody_t9098BED4DE6EBB19F8D7F8A66CA9700486EB9449* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:75>
 		RigidbodyPauser_t55FBD739114E5ADE64B466A20512708D3E4C6BC5* L_0 = __this->____rigidbodyPauser;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -4817,7 +4782,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody_UpdateRigidbodies_m3953
 		bool L_3 = __this->____getInChildren;
 		NullCheck(L_0);
 		RigidbodyPauser_UpdateRigidbodies_m922CF1FE36364F6047497DD44636FA4E8C8E5A0C(L_0, L_1, L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:76>
 		return;
 	}
 }
@@ -4835,7 +4799,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody_ChangeSubscription_mEF4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:83>
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_0 = __this->____predictionManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4846,13 +4809,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody_ChangeSubscription_mEF4
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:84>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:86>
 		bool L_2 = ___0_subscribe;
 		if (!L_2)
 		{
@@ -4860,13 +4821,11 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:88>
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_3 = __this->____predictionManager;
 		PreReconcileDel_tBAA0F053C8F6D54F52BBBA063099B21622DCD639* L_4 = (PreReconcileDel_tBAA0F053C8F6D54F52BBBA063099B21622DCD639*)il2cpp_codegen_object_new(PreReconcileDel_tBAA0F053C8F6D54F52BBBA063099B21622DCD639_il2cpp_TypeInfo_var);
 		PreReconcileDel__ctor_m8E41676752F60D5C2FD3804244D61BA2B9348CFE(L_4, __this, (intptr_t)((void*)OfflineRigidbody__predictionManager_OnPreReconcile_mD66E44757F768D3EEFC63C1CC189BAE0C9162CE1_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		PredictionManager_add_OnPreReconcile_m1CA1E33E071BB9B60C5BF5B41DE77D51F5B1C9DE(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:89>
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_5 = __this->____predictionManager;
 		PostReconcileDel_t5700CCBE9BBDAB80E4514C3D23DF1BF9881565DA* L_6 = (PostReconcileDel_t5700CCBE9BBDAB80E4514C3D23DF1BF9881565DA*)il2cpp_codegen_object_new(PostReconcileDel_t5700CCBE9BBDAB80E4514C3D23DF1BF9881565DA_il2cpp_TypeInfo_var);
 		PostReconcileDel__ctor_m2CA545D9385969A96BC889E0CC27A44C0C72CA0F(L_6, __this, (intptr_t)((void*)OfflineRigidbody__predictionManager_OnPostReconcile_m1DFD894D2F9C81EC9FE224F658767C33B841F613_RuntimeMethod_var), NULL);
@@ -4877,19 +4836,16 @@ IL_000f:
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:93>
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_7 = __this->____predictionManager;
 		PreReconcileDel_tBAA0F053C8F6D54F52BBBA063099B21622DCD639* L_8 = (PreReconcileDel_tBAA0F053C8F6D54F52BBBA063099B21622DCD639*)il2cpp_codegen_object_new(PreReconcileDel_tBAA0F053C8F6D54F52BBBA063099B21622DCD639_il2cpp_TypeInfo_var);
 		PreReconcileDel__ctor_m8E41676752F60D5C2FD3804244D61BA2B9348CFE(L_8, __this, (intptr_t)((void*)OfflineRigidbody__predictionManager_OnPreReconcile_mD66E44757F768D3EEFC63C1CC189BAE0C9162CE1_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		PredictionManager_remove_OnPreReconcile_mB05CDE87EE6613533B77E9FFB1BA9222A5F435BA(L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:94>
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_9 = __this->____predictionManager;
 		PostReconcileDel_t5700CCBE9BBDAB80E4514C3D23DF1BF9881565DA* L_10 = (PostReconcileDel_t5700CCBE9BBDAB80E4514C3D23DF1BF9881565DA*)il2cpp_codegen_object_new(PostReconcileDel_t5700CCBE9BBDAB80E4514C3D23DF1BF9881565DA_il2cpp_TypeInfo_var);
 		PostReconcileDel__ctor_m2CA545D9385969A96BC889E0CC27A44C0C72CA0F(L_10, __this, (intptr_t)((void*)OfflineRigidbody__predictionManager_OnPostReconcile_m1DFD894D2F9C81EC9FE224F658767C33B841F613_RuntimeMethod_var), NULL);
 		NullCheck(L_9);
 		PredictionManager_remove_OnPostReconcile_m619461D79F8E3A56833CA0842CF7370C1E713D33(L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:96>
 		return;
 	}
 }
@@ -4897,11 +4853,9 @@ IL_0041:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody__predictionManager_OnPreReconcile_mD66E44757F768D3EEFC63C1CC189BAE0C9162CE1 (OfflineRigidbody_t9098BED4DE6EBB19F8D7F8A66CA9700486EB9449* __this, uint32_t ___0_clientTick, uint32_t ___1_serverTick, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:100>
 		RigidbodyPauser_t55FBD739114E5ADE64B466A20512708D3E4C6BC5* L_0 = __this->____rigidbodyPauser;
 		NullCheck(L_0);
 		RigidbodyPauser_Pause_mF9E7F790892A7729691BA7391019A9394C2BD492(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:101>
 		return;
 	}
 }
@@ -4909,11 +4863,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody__predictionManager_OnPr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody__predictionManager_OnPostReconcile_m1DFD894D2F9C81EC9FE224F658767C33B841F613 (OfflineRigidbody_t9098BED4DE6EBB19F8D7F8A66CA9700486EB9449* __this, uint32_t ___0_clientTick, uint32_t ___1_serverTick, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:105>
 		RigidbodyPauser_t55FBD739114E5ADE64B466A20512708D3E4C6BC5* L_0 = __this->____rigidbodyPauser;
 		NullCheck(L_0);
 		RigidbodyPauser_Unpause_mBA0E4B70D94A40CA1893D9882DFC0F6F28AFDBDB(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:106>
 		return;
 	}
 }
@@ -4927,7 +4879,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody__ctor_mE3674F5ACB3E6525
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/OfflineRigidbody.cs:27>
 		RigidbodyPauser_t55FBD739114E5ADE64B466A20512708D3E4C6BC5* L_0 = (RigidbodyPauser_t55FBD739114E5ADE64B466A20512708D3E4C6BC5*)il2cpp_codegen_object_new(RigidbodyPauser_t55FBD739114E5ADE64B466A20512708D3E4C6BC5_il2cpp_TypeInfo_var);
 		RigidbodyPauser__ctor_mEC41AB2640EF6D09A6CCF9ABB076CBF8033CA4B7(L_0, NULL);
 		__this->____rigidbodyPauser = L_0;
@@ -4948,7 +4899,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineRigidbody__ctor_mE3674F5ACB3E6525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RigidbodyPauser_get_Paused_mD611273C2154BD9334739FA67ADA52E7E890A2F0 (RigidbodyPauser_t55FBD739114E5ADE64B466A20512708D3E4C6BC5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:137>
 		bool L_0 = __this->___U3CPausedU3Ek__BackingField;
 		return L_0;
 	}
@@ -4957,7 +4907,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RigidbodyPauser_get_Paused_mD611273C2154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_set_Paused_m867AF82985D6A1BA976B6A3A0EAE012CD7D184EB (RigidbodyPauser_t55FBD739114E5ADE64B466A20512708D3E4C6BC5* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:137>
 		bool L_0 = ___0_value;
 		__this->___U3CPausedU3Ek__BackingField = L_0;
 		return;
@@ -4974,7 +4923,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies_m19F2A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:172>
 		bool L_0 = __this->____initialized;
 		if (L_0)
 		{
@@ -4982,7 +4930,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies_m19F2A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:174>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = InstanceFinder_get_NetworkManager_m6B47BBD6E0F75FF5798CA210DD19F6B0868554E7(NULL);
 		Type_t* L_2;
@@ -4993,18 +4940,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies_m19F2A
 		String_t* L_4;
 		L_4 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral7B18F301A198B83778B5E546729B0539A0D4E758, L_3, _stringLiteral0BF96905955765A8ABDE57001C2DD4571C1F48EA, NULL);
 		NetworkManagerExtensions_LogError_mD7BE80E7A765BD00754AB02E7E2252865C9B6568(L_1, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:175>
 		return;
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:178>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->____transform;
 		uint8_t L_6 = __this->____rigidbodyType;
 		bool L_7 = __this->____getInChildren;
 		RigidbodyPauser_UpdateRigidbodies_m922CF1FE36364F6047497DD44636FA4E8C8E5A0C(__this, L_5, L_6, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:179>
 		return;
 	}
 }
@@ -5025,12 +4969,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies_mA5A70
 	int32_t V_2 = 0;
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* V_3 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:186>
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_t3F1F4E02032437635E93D855FBB30A8DB165ADDC_il2cpp_TypeInfo_var);
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_0;
 		L_0 = CollectionCaches_1_RetrieveList_mA9BB64FBF5FE1CC272A81076009844A3BDF451D3(CollectionCaches_1_RetrieveList_mA9BB64FBF5FE1CC272A81076009844A3BDF451D3_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:187>
 		RigidbodyU5BU5D_t052E8AB174C34DFD0EBB5E897554DEBB841CC649* L_1 = ___0_rbs;
 		V_1 = L_1;
 		V_2 = 0;
@@ -5039,14 +4981,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies_mA5A70
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:187>
 		RigidbodyU5BU5D_t052E8AB174C34DFD0EBB5E897554DEBB841CC649* L_2 = V_1;
 		int32_t L_3 = V_2;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_3 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:188>
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_6 = V_0;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7 = V_3;
 		NullCheck(L_6);
@@ -5057,7 +4997,6 @@ IL_000c:
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:187>
 		int32_t L_9 = V_2;
 		RigidbodyU5BU5D_t052E8AB174C34DFD0EBB5E897554DEBB841CC649* L_10 = V_1;
 		NullCheck(L_10);
@@ -5067,14 +5006,11 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:190>
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_11 = V_0;
 		RigidbodyPauser_UpdateRigidbodies_m41996D6E13696B9B6B310135FDCD1A0DCF18ABE2(__this, L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:192>
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_12 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_t3F1F4E02032437635E93D855FBB30A8DB165ADDC_il2cpp_TypeInfo_var);
 		CollectionCaches_1_Store_m2B67ED088AC6850C8A086441409889AAC6059127(L_12, CollectionCaches_1_Store_m2B67ED088AC6850C8A086441409889AAC6059127_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:193>
 		return;
 	}
 }
@@ -5096,11 +5032,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies_m41996
 	memset((&V_0), 0, sizeof(V_0));
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:200>
 		List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017* L_0 = __this->____rigidbodyDatas;
 		NullCheck(L_0);
 		List_1_Clear_m656A41F24BA6230D6FC84BB9B5B46B77967A1041_inline(L_0, List_1_Clear_m656A41F24BA6230D6FC84BB9B5B46B77967A1041_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:202>
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_1 = ___0_rbs;
 		NullCheck(L_1);
 		Enumerator_tBCCFDD88A8829D356C04401970D47F72C0DDE842 L_2;
@@ -5125,11 +5059,9 @@ FINALLY_0038:
 
 IL_0014_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:202>
 				Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3;
 				L_3 = Enumerator_get_Current_mB522A37542943714D1AD1A0A5E1421F587A6D000_inline((&V_0), Enumerator_get_Current_mB522A37542943714D1AD1A0A5E1421F587A6D000_RuntimeMethod_var);
 				V_1 = L_3;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:203>
 				List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017* L_4 = __this->____rigidbodyDatas;
 				Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = V_1;
 				RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08 L_6;
@@ -5141,7 +5073,6 @@ IL_0014_1:
 
 IL_002d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:202>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_m5A4644C9C797A794B5707DFF60547FC580FEAE2A((&V_0), Enumerator_MoveNext_m5A4644C9C797A794B5707DFF60547FC580FEAE2A_RuntimeMethod_var);
 				if (L_7)
@@ -5161,9 +5092,7 @@ IL_002d_1:
 
 IL_0046:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:205>
 		__this->____initialized = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:206>
 		return;
 	}
 }
@@ -5184,12 +5113,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies2D_m2BE
 	int32_t V_2 = 0;
 	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* V_3 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:213>
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_tBB19CD6F67C99C7BA5D33E3C3A7762DB0AE58D50_il2cpp_TypeInfo_var);
 		List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76* L_0;
 		L_0 = CollectionCaches_1_RetrieveList_m24630F56790FAC565723B711125EEDA777434931(CollectionCaches_1_RetrieveList_m24630F56790FAC565723B711125EEDA777434931_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:214>
 		Rigidbody2DU5BU5D_tC196E4DEEA396B4A08BFAE8A94A45FD14403C9CF* L_1 = ___0_rbs;
 		V_1 = L_1;
 		V_2 = 0;
@@ -5198,14 +5125,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies2D_m2BE
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:214>
 		Rigidbody2DU5BU5D_tC196E4DEEA396B4A08BFAE8A94A45FD14403C9CF* L_2 = V_1;
 		int32_t L_3 = V_2;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_3 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:215>
 		List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76* L_6 = V_0;
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_7 = V_3;
 		NullCheck(L_6);
@@ -5216,7 +5141,6 @@ IL_000c:
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:214>
 		int32_t L_9 = V_2;
 		Rigidbody2DU5BU5D_tC196E4DEEA396B4A08BFAE8A94A45FD14403C9CF* L_10 = V_1;
 		NullCheck(L_10);
@@ -5226,14 +5150,11 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:217>
 		List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76* L_11 = V_0;
 		RigidbodyPauser_UpdateRigidbodies2D_mE9339F14C85CB3F4F949D6C1B6848938166C758C(__this, L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:219>
 		List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76* L_12 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_tBB19CD6F67C99C7BA5D33E3C3A7762DB0AE58D50_il2cpp_TypeInfo_var);
 		CollectionCaches_1_Store_mF27183C48A6533A6C6832E0F37295A66ADB239C9(L_12, CollectionCaches_1_Store_mF27183C48A6533A6C6832E0F37295A66ADB239C9_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:220>
 		return;
 	}
 }
@@ -5255,11 +5176,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies2D_mE93
 	memset((&V_0), 0, sizeof(V_0));
 	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:227>
 		List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC* L_0 = __this->____rigidbody2dDatas;
 		NullCheck(L_0);
 		List_1_Clear_m977BDC1C9A645081A9571C5A0E0416217EA8D2A9_inline(L_0, List_1_Clear_m977BDC1C9A645081A9571C5A0E0416217EA8D2A9_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:229>
 		List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76* L_1 = ___0_rbs;
 		NullCheck(L_1);
 		Enumerator_t314BE22DBEB7DA3400B99850357A4C3AC94814F6 L_2;
@@ -5284,11 +5203,9 @@ FINALLY_0038:
 
 IL_0014_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:229>
 				Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_3;
 				L_3 = Enumerator_get_Current_m016EA90C4579158CA1606EDC1B15DA13F4494B57_inline((&V_0), Enumerator_get_Current_m016EA90C4579158CA1606EDC1B15DA13F4494B57_RuntimeMethod_var);
 				V_1 = L_3;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:230>
 				List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC* L_4 = __this->____rigidbody2dDatas;
 				Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_5 = V_1;
 				Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD L_6;
@@ -5300,7 +5217,6 @@ IL_0014_1:
 
 IL_002d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:229>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_m60598916F3157C85AB5F2E7192E5B838DD82D8A0((&V_0), Enumerator_MoveNext_m60598916F3157C85AB5F2E7192E5B838DD82D8A0_RuntimeMethod_var);
 				if (L_7)
@@ -5320,9 +5236,7 @@ IL_002d_1:
 
 IL_0046:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:232>
 		__this->____initialized = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:233>
 		return;
 	}
 }
@@ -5356,13 +5270,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies_m922CF
 	int32_t V_6 = 0;
 	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* V_7 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:241>
 		uint8_t L_0 = ___1_rbType;
 		__this->____rigidbodyType = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:242>
 		bool L_1 = ___2_getInChildren;
 		__this->____getInChildren = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:245>
 		uint8_t L_2 = ___1_rbType;
 		if (L_2)
 		{
@@ -5370,12 +5281,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies_m922CF
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:247>
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_t3F1F4E02032437635E93D855FBB30A8DB165ADDC_il2cpp_TypeInfo_var);
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_3;
 		L_3 = CollectionCaches_1_RetrieveList_mA9BB64FBF5FE1CC272A81076009844A3BDF451D3(CollectionCaches_1_RetrieveList_mA9BB64FBF5FE1CC272A81076009844A3BDF451D3_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:249>
 		bool L_4 = ___2_getInChildren;
 		if (!L_4)
 		{
@@ -5383,20 +5292,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_UpdateRigidbodies_m922CF
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:251>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___0_t;
 		NullCheck(L_5);
 		RigidbodyU5BU5D_t052E8AB174C34DFD0EBB5E897554DEBB841CC649* L_6;
 		L_6 = Component_GetComponentsInChildren_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4F358F1E07750B2C2BF4101F7554E41D87159391(L_5, Component_GetComponentsInChildren_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4F358F1E07750B2C2BF4101F7554E41D87159391_RuntimeMethod_var);
 		V_1 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:252>
 		V_2 = 0;
 		goto IL_0032;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:253>
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_7 = V_0;
 		RigidbodyU5BU5D_t052E8AB174C34DFD0EBB5E897554DEBB841CC649* L_8 = V_1;
 		int32_t L_9 = V_2;
@@ -5405,14 +5311,12 @@ IL_0025:
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		NullCheck(L_7);
 		List_1_Add_m7E180794A20B911D4907125A9C8D6580E7CC7D51_inline(L_7, L_11, List_1_Add_m7E180794A20B911D4907125A9C8D6580E7CC7D51_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:252>
 		int32_t L_12 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:252>
 		int32_t L_13 = V_2;
 		RigidbodyU5BU5D_t052E8AB174C34DFD0EBB5E897554DEBB841CC649* L_14 = V_1;
 		NullCheck(L_14);
@@ -5427,13 +5331,11 @@ IL_0032:
 
 IL_003a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:257>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = ___0_t;
 		NullCheck(L_15);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_16;
 		L_16 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(L_15, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		V_3 = L_16;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:258>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_17 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -5444,7 +5346,6 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:259>
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_19 = V_0;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_20 = V_3;
 		NullCheck(L_19);
@@ -5453,10 +5354,8 @@ IL_003a:
 
 IL_0051:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:262>
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_21 = V_0;
 		RigidbodyPauser_UpdateRigidbodies_m41996D6E13696B9B6B310135FDCD1A0DCF18ABE2(__this, L_21, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:263>
 		List_1_t70C71660C368B9474B9889CBADDC30685A5D2363* L_22 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_t3F1F4E02032437635E93D855FBB30A8DB165ADDC_il2cpp_TypeInfo_var);
 		CollectionCaches_1_Store_m2B67ED088AC6850C8A086441409889AAC6059127(L_22, CollectionCaches_1_Store_m2B67ED088AC6850C8A086441409889AAC6059127_RuntimeMethod_var);
@@ -5465,12 +5364,10 @@ IL_0051:
 
 IL_005f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:268>
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_tBB19CD6F67C99C7BA5D33E3C3A7762DB0AE58D50_il2cpp_TypeInfo_var);
 		List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76* L_23;
 		L_23 = CollectionCaches_1_RetrieveList_m24630F56790FAC565723B711125EEDA777434931(CollectionCaches_1_RetrieveList_m24630F56790FAC565723B711125EEDA777434931_RuntimeMethod_var);
 		V_4 = L_23;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:270>
 		bool L_24 = ___2_getInChildren;
 		if (!L_24)
 		{
@@ -5478,20 +5375,17 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:272>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = ___0_t;
 		NullCheck(L_25);
 		Rigidbody2DU5BU5D_tC196E4DEEA396B4A08BFAE8A94A45FD14403C9CF* L_26;
 		L_26 = Component_GetComponentsInChildren_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_m83C7924F61847536C2912AD00738F68D25A3FE9A(L_25, Component_GetComponentsInChildren_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_m83C7924F61847536C2912AD00738F68D25A3FE9A_RuntimeMethod_var);
 		V_5 = L_26;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:273>
 		V_6 = 0;
 		goto IL_0088;
 	}
 
 IL_0076:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:274>
 		List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76* L_27 = V_4;
 		Rigidbody2DU5BU5D_tC196E4DEEA396B4A08BFAE8A94A45FD14403C9CF* L_28 = V_5;
 		int32_t L_29 = V_6;
@@ -5500,14 +5394,12 @@ IL_0076:
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_31 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
 		NullCheck(L_27);
 		List_1_Add_m6A9D055E5BA54A5D31EECDD694AAF0536F9D2609_inline(L_27, L_31, List_1_Add_m6A9D055E5BA54A5D31EECDD694AAF0536F9D2609_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:273>
 		int32_t L_32 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_32, 1));
 	}
 
 IL_0088:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:273>
 		int32_t L_33 = V_6;
 		Rigidbody2DU5BU5D_tC196E4DEEA396B4A08BFAE8A94A45FD14403C9CF* L_34 = V_5;
 		NullCheck(L_34);
@@ -5522,13 +5414,11 @@ IL_0088:
 
 IL_0092:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:278>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = ___0_t;
 		NullCheck(L_35);
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_36;
 		L_36 = Component_GetComponent_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_m0712B7A9DBBAE2C319B4B03394E7731B86FACBF2(L_35, Component_GetComponent_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_m0712B7A9DBBAE2C319B4B03394E7731B86FACBF2_RuntimeMethod_var);
 		V_7 = L_36;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:279>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_37 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_38;
@@ -5539,7 +5429,6 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:280>
 		List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76* L_39 = V_4;
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_40 = V_7;
 		NullCheck(L_39);
@@ -5548,14 +5437,11 @@ IL_0092:
 
 IL_00ad:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:283>
 		List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76* L_41 = V_4;
 		RigidbodyPauser_UpdateRigidbodies2D_mE9339F14C85CB3F4F949D6C1B6848938166C758C(__this, L_41, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:284>
 		List_1_tCD5F926D25FC8BFAF39E4BE6F879C1FA11501C76* L_42 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_tBB19CD6F67C99C7BA5D33E3C3A7762DB0AE58D50_il2cpp_TypeInfo_var);
 		CollectionCaches_1_Store_mF27183C48A6533A6C6832E0F37295A66ADB239C9(L_42, CollectionCaches_1_Store_mF27183C48A6533A6C6832E0F37295A66ADB239C9_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:286>
 		return;
 	}
 }
@@ -5574,7 +5460,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_Pause_mF9E7F790892A77296
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:293>
 		bool L_0;
 		L_0 = RigidbodyPauser_get_Paused_mD611273C2154BD9334739FA67ADA52E7E890A2F0_inline(__this, NULL);
 		if (!L_0)
@@ -5583,15 +5468,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_Pause_mF9E7F790892A77296
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:294>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:295>
 		RigidbodyPauser_set_Paused_m867AF82985D6A1BA976B6A3A0EAE012CD7D184EB_inline(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:304>
 		uint8_t L_1 = __this->____rigidbodyType;
 		if (L_1)
 		{
@@ -5599,14 +5481,12 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:306>
 		V_0 = 0;
 		goto IL_0039;
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:308>
 		int32_t L_2 = V_0;
 		bool L_3;
 		L_3 = RigidbodyPauser_U3CPauseU3Eg__PauseRigidbodyU7C18_0_mEB6638365F59110592022D2128F979608B4B9110(__this, L_2, NULL);
@@ -5616,26 +5496,22 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:310>
 		List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017* L_4 = __this->____rigidbodyDatas;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		List_1_RemoveAt_m805B440D269C27A0A6CF91059C7C91CF5751EEC1(L_4, L_5, List_1_RemoveAt_m805B440D269C27A0A6CF91059C7C91CF5751EEC1_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:311>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_6, 1));
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:306>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:306>
 		int32_t L_8 = V_0;
 		List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017* L_9 = __this->____rigidbodyDatas;
 		NullCheck(L_9);
@@ -5652,14 +5528,12 @@ IL_0039:
 
 IL_0048:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:335>
 		V_1 = 0;
 		goto IL_0069;
 	}
 
 IL_004c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:337>
 		int32_t L_11 = V_1;
 		bool L_12;
 		L_12 = RigidbodyPauser_U3CPauseU3Eg__PauseRigidbodyU7C18_1_m966657F8C635E2780191B0ACD95724ABC5ABB92D(__this, L_11, NULL);
@@ -5669,26 +5543,22 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:339>
 		List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC* L_13 = __this->____rigidbody2dDatas;
 		int32_t L_14 = V_1;
 		NullCheck(L_13);
 		List_1_RemoveAt_mE814E1C7B1E3407C885E1D668673174413E362A3(L_13, L_14, List_1_RemoveAt_mE814E1C7B1E3407C885E1D668673174413E362A3_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:340>
 		int32_t L_15 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_15, 1));
 	}
 
 IL_0065:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:335>
 		int32_t L_16 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_0069:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:335>
 		int32_t L_17 = V_1;
 		List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC* L_18 = __this->____rigidbody2dDatas;
 		NullCheck(L_18);
@@ -5700,7 +5570,6 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:367>
 		return;
 	}
 }
@@ -5719,7 +5588,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_Unpause_mBA0E4B70D94A40C
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:374>
 		bool L_0;
 		L_0 = RigidbodyPauser_get_Paused_mD611273C2154BD9334739FA67ADA52E7E890A2F0_inline(__this, NULL);
 		if (L_0)
@@ -5728,15 +5596,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_Unpause_mBA0E4B70D94A40C
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:375>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:376>
 		RigidbodyPauser_set_Paused_m867AF82985D6A1BA976B6A3A0EAE012CD7D184EB_inline(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:379>
 		uint8_t L_1 = __this->____rigidbodyType;
 		if (L_1)
 		{
@@ -5744,14 +5609,12 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:381>
 		V_0 = 0;
 		goto IL_0039;
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:383>
 		int32_t L_2 = V_0;
 		bool L_3;
 		L_3 = RigidbodyPauser_U3CUnpauseU3Eg__UnpauseRigidbodyU7C19_0_mF464A82B6C6C8745CD6E21221ABEEE26628F51B2(__this, L_2, NULL);
@@ -5761,26 +5624,22 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:385>
 		List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017* L_4 = __this->____rigidbodyDatas;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		List_1_RemoveAt_m805B440D269C27A0A6CF91059C7C91CF5751EEC1(L_4, L_5, List_1_RemoveAt_m805B440D269C27A0A6CF91059C7C91CF5751EEC1_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:386>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_6, 1));
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:381>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:381>
 		int32_t L_8 = V_0;
 		List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017* L_9 = __this->____rigidbodyDatas;
 		NullCheck(L_9);
@@ -5797,14 +5656,12 @@ IL_0039:
 
 IL_0048:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:424>
 		V_1 = 0;
 		goto IL_0069;
 	}
 
 IL_004c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:426>
 		int32_t L_11 = V_1;
 		bool L_12;
 		L_12 = RigidbodyPauser_U3CUnpauseU3Eg__UnpauseRigidbodyU7C19_1_m04A4C36ACA58ECE0BDD72FB41D640500DFAE0107(__this, L_11, NULL);
@@ -5814,26 +5671,22 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:428>
 		List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC* L_13 = __this->____rigidbody2dDatas;
 		int32_t L_14 = V_1;
 		NullCheck(L_13);
 		List_1_RemoveAt_mE814E1C7B1E3407C885E1D668673174413E362A3(L_13, L_14, List_1_RemoveAt_mE814E1C7B1E3407C885E1D668673174413E362A3_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:429>
 		int32_t L_15 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_15, 1));
 	}
 
 IL_0065:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:424>
 		int32_t L_16 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_0069:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:424>
 		int32_t L_17 = V_1;
 		List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC* L_18 = __this->____rigidbody2dDatas;
 		NullCheck(L_18);
@@ -5845,7 +5698,6 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:464>
 		return;
 	}
 }
@@ -5860,26 +5712,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_ResetState_m08CABEE0C77B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:468>
 		List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017* L_0 = __this->____rigidbodyDatas;
 		NullCheck(L_0);
 		List_1_Clear_m656A41F24BA6230D6FC84BB9B5B46B77967A1041_inline(L_0, List_1_Clear_m656A41F24BA6230D6FC84BB9B5B46B77967A1041_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:469>
 		List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC* L_1 = __this->____rigidbody2dDatas;
 		NullCheck(L_1);
 		List_1_Clear_m977BDC1C9A645081A9571C5A0E0416217EA8D2A9_inline(L_1, List_1_Clear_m977BDC1C9A645081A9571C5A0E0416217EA8D2A9_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:470>
 		__this->____getInChildren = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:471>
 		__this->____transform = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____transform), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:472>
 		__this->____rigidbodyType = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:473>
 		__this->____initialized = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:474>
 		RigidbodyPauser_set_Paused_m867AF82985D6A1BA976B6A3A0EAE012CD7D184EB_inline(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:475>
 		return;
 	}
 }
@@ -5887,7 +5731,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_ResetState_m08CABEE0C77B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser_InitializeState_m1AA87DF4A7F6AA001F40C65946B67CF831F8CA8F (RigidbodyPauser_t55FBD739114E5ADE64B466A20512708D3E4C6BC5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:477>
 		return;
 	}
 }
@@ -5904,12 +5747,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPauser__ctor_mEC41AB2640EF6D09A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:144>
 		List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017* L_0 = (List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017*)il2cpp_codegen_object_new(List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017_il2cpp_TypeInfo_var);
 		List_1__ctor_m2A3FC83EB4C55C270711046C34F31CDB68CE1940(L_0, List_1__ctor_m2A3FC83EB4C55C270711046C34F31CDB68CE1940_RuntimeMethod_var);
 		__this->____rigidbodyDatas = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____rigidbodyDatas), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:148>
 		List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC* L_1 = (List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC*)il2cpp_codegen_object_new(List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC_il2cpp_TypeInfo_var);
 		List_1__ctor_m5711A370E6CF0081CFA17CCFFD5F66AFD3338A9E(L_1, List_1__ctor_m5711A370E6CF0081CFA17CCFFD5F66AFD3338A9E_RuntimeMethod_var);
 		__this->____rigidbody2dDatas = L_1;
@@ -5933,18 +5774,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RigidbodyPauser_U3CPauseU3Eg__PauseRigid
 	memset((&V_0), 0, sizeof(V_0));
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:318>
 		List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017* L_0 = __this->____rigidbodyDatas;
 		int32_t L_1 = ___0_index;
 		NullCheck(L_0);
 		RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08 L_2;
 		L_2 = List_1_get_Item_mF147984DA2786FFB3B85D10AEAF02BF7F3D75FA7(L_0, L_1, List_1_get_Item_mF147984DA2786FFB3B85D10AEAF02BF7F3D75FA7_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:319>
 		RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08 L_3 = V_0;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = L_3.___Rigidbody;
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:320>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -5955,34 +5793,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RigidbodyPauser_U3CPauseU3Eg__PauseRigid
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:321>
 		return (bool)0;
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:323>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7 = V_1;
 		RigidbodyData_Update_m57EFEFB4E138735C3E140CBB41BA23FEBEE099D4((&V_0), L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:324>
 		List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017* L_8 = __this->____rigidbodyDatas;
 		int32_t L_9 = ___0_index;
 		RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08 L_10 = V_0;
 		NullCheck(L_8);
 		List_1_set_Item_m9436468066E825E5B3457DF5BE8BF45E99B9D980(L_8, L_9, L_10, List_1_set_Item_m9436468066E825E5B3457DF5BE8BF45E99B9D980_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:325>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_11 = V_1;
 		NullCheck(L_11);
 		Rigidbody_set_collisionDetectionMode_m70A22E9878027BF6D3D7E851A43A8E32B8E02343(L_11, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:326>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_12 = V_1;
 		NullCheck(L_12);
 		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:327>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_13 = V_1;
 		NullCheck(L_13);
 		Rigidbody_set_detectCollisions_m42A50DFACA7709DA1F87BCB9DC0BDA00720C80CF(L_13, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:329>
 		return (bool)1;
 	}
 }
@@ -6001,18 +5832,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RigidbodyPauser_U3CPauseU3Eg__PauseRigid
 	memset((&V_0), 0, sizeof(V_0));
 	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:347>
 		List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC* L_0 = __this->____rigidbody2dDatas;
 		int32_t L_1 = ___0_index;
 		NullCheck(L_0);
 		Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD L_2;
 		L_2 = List_1_get_Item_m5CAB5D05A256EE38ACAF05C506AFB53836981ABD(L_0, L_1, List_1_get_Item_m5CAB5D05A256EE38ACAF05C506AFB53836981ABD_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:348>
 		Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD L_3 = V_0;
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_4 = L_3.___Rigidbody2d;
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:349>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_5 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -6023,34 +5851,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RigidbodyPauser_U3CPauseU3Eg__PauseRigid
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:350>
 		return (bool)0;
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:352>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_7 = V_1;
 		Rigidbody2DData_Update_mD6EF5916F58C532A005AA7EBDA54DCE7F5FB1417((&V_0), L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:353>
 		List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC* L_8 = __this->____rigidbody2dDatas;
 		int32_t L_9 = ___0_index;
 		Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD L_10 = V_0;
 		NullCheck(L_8);
 		List_1_set_Item_mCBE90AD2CC015849AD495BDBCCF33ACFC06EADC7(L_8, L_9, L_10, List_1_set_Item_mCBE90AD2CC015849AD495BDBCCF33ACFC06EADC7_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:354>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_11 = V_1;
 		NullCheck(L_11);
 		Rigidbody2D_set_collisionDetectionMode_m87EC5B73B166FFA59434D7418643ADCBAD33C609(L_11, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:357>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_12 = V_1;
 		NullCheck(L_12);
 		Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248(L_12, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:362>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_13 = V_1;
 		NullCheck(L_13);
 		Rigidbody2D_set_simulated_m38E0BD6581E907DD87059034C4B2E8D47BBFE71D(L_13, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:364>
 		return (bool)1;
 	}
 }
@@ -6068,18 +5889,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RigidbodyPauser_U3CUnpauseU3Eg__UnpauseR
 	memset((&V_0), 0, sizeof(V_0));
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:393>
 		List_1_t31ED6E9B6AF97331A0932F3B9D8F2AFBF29F3017* L_0 = __this->____rigidbodyDatas;
 		int32_t L_1 = ___0_index;
 		NullCheck(L_0);
 		RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08 L_2;
 		L_2 = List_1_get_Item_mF147984DA2786FFB3B85D10AEAF02BF7F3D75FA7(L_0, L_1, List_1_get_Item_mF147984DA2786FFB3B85D10AEAF02BF7F3D75FA7_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:394>
 		RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08 L_3 = V_0;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = L_3.___Rigidbody;
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:395>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -6090,31 +5908,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RigidbodyPauser_U3CUnpauseU3Eg__UnpauseR
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:396>
 		return (bool)0;
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:406>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7 = V_1;
 		RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08 L_8 = V_0;
 		bool L_9 = L_8.___IsKinematic;
 		NullCheck(L_7);
 		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_7, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:407>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_10 = V_1;
 		RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08 L_11 = V_0;
 		bool L_12 = L_11.___DetectCollisions;
 		NullCheck(L_10);
 		Rigidbody_set_detectCollisions_m42A50DFACA7709DA1F87BCB9DC0BDA00720C80CF(L_10, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:408>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_13 = V_1;
 		RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08 L_14 = V_0;
 		int32_t L_15 = L_14.___CollisionDetectionMode;
 		NullCheck(L_13);
 		Rigidbody_set_collisionDetectionMode_m70A22E9878027BF6D3D7E851A43A8E32B8E02343(L_13, L_15, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:409>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_16 = V_1;
 		NullCheck(L_16);
 		bool L_17;
@@ -6125,13 +5938,11 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:412>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_18 = V_1;
 		RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08 L_19 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = L_19.___Velocity;
 		NullCheck(L_18);
 		Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985(L_18, L_20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:416>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_21 = V_1;
 		RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08 L_22 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = L_22.___AngularVelocity;
@@ -6141,7 +5952,6 @@ IL_001f:
 
 IL_0063:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:418>
 		return (bool)1;
 	}
 }
@@ -6159,18 +5969,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RigidbodyPauser_U3CUnpauseU3Eg__UnpauseR
 	memset((&V_0), 0, sizeof(V_0));
 	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:436>
 		List_1_t3AAD6D2C6E0819D4E4B7693E770036404D7BBDEC* L_0 = __this->____rigidbody2dDatas;
 		int32_t L_1 = ___0_index;
 		NullCheck(L_0);
 		Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD L_2;
 		L_2 = List_1_get_Item_m5CAB5D05A256EE38ACAF05C506AFB53836981ABD(L_0, L_1, List_1_get_Item_m5CAB5D05A256EE38ACAF05C506AFB53836981ABD_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:437>
 		Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD L_3 = V_0;
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_4 = L_3.___Rigidbody2d;
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:438>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_5 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -6181,13 +5988,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RigidbodyPauser_U3CUnpauseU3Eg__UnpauseR
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:439>
 		return (bool)0;
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:442>
 		Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD L_7 = V_0;
 		bool L_8 = L_7.___IsKinematic;
 		if (L_8)
@@ -6206,39 +6011,32 @@ IL_001f:
 
 IL_002f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:443>
 		return (bool)1;
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:446>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_11 = V_1;
 		NullCheck(L_11);
 		Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248(L_11, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:451>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_12 = V_1;
 		NullCheck(L_12);
 		Rigidbody2D_set_simulated_m38E0BD6581E907DD87059034C4B2E8D47BBFE71D(L_12, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:452>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_13 = V_1;
 		Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD L_14 = V_0;
 		int32_t L_15 = L_14.___CollisionDetectionMode;
 		NullCheck(L_13);
 		Rigidbody2D_set_collisionDetectionMode_m87EC5B73B166FFA59434D7418643ADCBAD33C609(L_13, L_15, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:455>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_16 = V_1;
 		Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD L_17 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = L_17.___Velocity;
 		NullCheck(L_16);
 		Rigidbody2D_set_linearVelocity_mD4C890DE3DF15ECAD0DC61675586C0D1998CC1BB(L_16, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:459>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_19 = V_1;
 		Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD L_20 = V_0;
 		float L_21 = L_20.___AngularVelocity;
 		NullCheck(L_19);
 		Rigidbody2D_set_angularVelocity_mFC06FB14E69DD4847F27E614900D22317AA5A390(L_19, L_21, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:461>
 		return (bool)1;
 	}
 }
@@ -6308,37 +6106,30 @@ IL2CPP_EXTERN_C void RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08_mar
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyData__ctor_mDB9197B36139490458F6E2439F01B147671E2178 (RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08* __this, Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_rb, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:47>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = ___0_rb;
 		__this->___Rigidbody = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Rigidbody), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:48>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___Velocity = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:49>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___AngularVelocity = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:50>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = ___0_rb;
 		NullCheck(L_3);
 		bool L_4;
 		L_4 = Rigidbody_get_isKinematic_mC20906CA5A89983DE06EAC6E3AFC5BC012F90CA1(L_3, NULL);
 		__this->___IsKinematic = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:51>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = ___0_rb;
 		NullCheck(L_5);
 		bool L_6;
 		L_6 = Rigidbody_get_detectCollisions_mA2AF681B49EF1820F2B30EF86B1082FC661C9A51(L_5, NULL);
 		__this->___DetectCollisions = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:52>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7 = ___0_rb;
 		NullCheck(L_7);
 		int32_t L_8;
 		L_8 = Rigidbody_get_collisionDetectionMode_m5A18E2DE70F4C37841300A34A183FF3ADE01D943(L_7, NULL);
 		__this->___CollisionDetectionMode = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:53>
 		return;
 	}
 }
@@ -6353,37 +6144,31 @@ IL2CPP_EXTERN_C  void RigidbodyData__ctor_mDB9197B36139490458F6E2439F01B147671E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyData_Update_m57EFEFB4E138735C3E140CBB41BA23FEBEE099D4 (RigidbodyData_tBF377DFC68CF7048AB17993820BB3989C7B65D08* __this, Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_rb, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:58>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = ___0_rb;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_0, NULL);
 		__this->___Velocity = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:62>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_2 = ___0_rb;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Rigidbody_get_angularVelocity_m4EACCFCF15CA441CCD53B24322C2E7B8EEBDF6A8(L_2, NULL);
 		__this->___AngularVelocity = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:63>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_4 = ___0_rb;
 		NullCheck(L_4);
 		bool L_5;
 		L_5 = Rigidbody_get_isKinematic_mC20906CA5A89983DE06EAC6E3AFC5BC012F90CA1(L_4, NULL);
 		__this->___IsKinematic = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:64>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_6 = ___0_rb;
 		NullCheck(L_6);
 		bool L_7;
 		L_7 = Rigidbody_get_detectCollisions_mA2AF681B49EF1820F2B30EF86B1082FC661C9A51(L_6, NULL);
 		__this->___DetectCollisions = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:65>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_8 = ___0_rb;
 		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Rigidbody_get_collisionDetectionMode_m5A18E2DE70F4C37841300A34A183FF3ADE01D943(L_8, NULL);
 		__this->___CollisionDetectionMode = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:66>
 		return;
 	}
 }
@@ -6460,35 +6245,28 @@ IL2CPP_EXTERN_C void Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2DData__ctor_m5DEB8AD66C52ED85B22A1195876360A1C8FF1AEB (Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD* __this, Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_rb, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:101>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = ___0_rb;
 		__this->___Rigidbody2d = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Rigidbody2d), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:102>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___Velocity = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:103>
 		__this->___AngularVelocity = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:104>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_2 = ___0_rb;
 		NullCheck(L_2);
 		bool L_3;
 		L_3 = Rigidbody2D_get_simulated_mA8CC81D52F0F1ED08A88D82A808C27905909127F(L_2, NULL);
 		__this->___Simulated = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:106>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_4 = ___0_rb;
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = Rigidbody2D_get_bodyType_m20709275F3D8215592B2B89736AA8DDD2BF44ED1(L_4, NULL);
 		__this->___IsKinematic = (bool)((((int32_t)L_5) == ((int32_t)1))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:110>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_6 = ___0_rb;
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Rigidbody2D_get_collisionDetectionMode_m2FECB466D3B088FA62C593840164053FE662464D(L_6, NULL);
 		__this->___CollisionDetectionMode = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:111>
 		return;
 	}
 }
@@ -6503,37 +6281,31 @@ IL2CPP_EXTERN_C  void Rigidbody2DData__ctor_m5DEB8AD66C52ED85B22A1195876360A1C8F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2DData_Update_mD6EF5916F58C532A005AA7EBDA54DCE7F5FB1417 (Rigidbody2DData_t0D9BF32653B5EB389B1CE23D80593F824E6589AD* __this, Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_rb, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:116>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = ___0_rb;
 		NullCheck(L_0);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		L_1 = Rigidbody2D_get_linearVelocity_m0130BA2A5A1A680CD9656EEEBC85939D823E3B9F(L_0, NULL);
 		__this->___Velocity = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:121>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_2 = ___0_rb;
 		NullCheck(L_2);
 		float L_3;
 		L_3 = Rigidbody2D_get_angularVelocity_mAD2505FB1F8C9E1A66D1EA8F8680D14380BFC58D(L_2, NULL);
 		__this->___AngularVelocity = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:122>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_4 = ___0_rb;
 		NullCheck(L_4);
 		bool L_5;
 		L_5 = Rigidbody2D_get_simulated_mA8CC81D52F0F1ED08A88D82A808C27905909127F(L_4, NULL);
 		__this->___Simulated = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:124>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_6 = ___0_rb;
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Rigidbody2D_get_bodyType_m20709275F3D8215592B2B89736AA8DDD2BF44ED1(L_6, NULL);
 		__this->___IsKinematic = (bool)((((int32_t)L_7) == ((int32_t)1))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:128>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_8 = ___0_rb;
 		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = Rigidbody2D_get_collisionDetectionMode_m2FECB466D3B088FA62C593840164053FE662464D(L_8, NULL);
 		__this->___CollisionDetectionMode = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:129>
 		return;
 	}
 }
@@ -6630,7 +6402,6 @@ IL2CPP_EXTERN_C void RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85_ma
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyState__ctor_mBE5105F61B89B2CE6D4CF9CF5D7C0DAFBC59DFB1 (RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85* __this, Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_rb, uint8_t ___1_rotationPacking, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:22>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = ___0_rb;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -6639,7 +6410,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyState__ctor_mBE5105F61B89B2CE6D
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
 		__this->___Position = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:23>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = ___0_rb;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -6648,28 +6418,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyState__ctor_mBE5105F61B89B2CE6D
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
 		L_5 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_4, NULL);
 		__this->___Rotation = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:24>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_6 = ___0_rb;
 		NullCheck(L_6);
 		bool L_7;
 		L_7 = Rigidbody_get_isKinematic_mC20906CA5A89983DE06EAC6E3AFC5BC012F90CA1(L_6, NULL);
 		__this->___IsKinematic = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:27>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_8 = ___0_rb;
 		NullCheck(L_8);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Rigidbody_get_linearVelocity_m367F5415641E5FB968440A91BAE2FCB8CAEA2C8C(L_8, NULL);
 		__this->___Velocity = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:32>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_10 = ___0_rb;
 		NullCheck(L_10);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
 		L_11 = Rigidbody_get_angularVelocity_m4EACCFCF15CA441CCD53B24322C2E7B8EEBDF6A8(L_10, NULL);
 		__this->___AngularVelocity = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:33>
 		uint8_t L_12 = ___1_rotationPacking;
 		__this->___RotationPacking = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:34>
 		return;
 	}
 }
@@ -6772,7 +6537,6 @@ IL2CPP_EXTERN_C void Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2DState__ctor_m4DBD5995BECC9A2DD5B56B18F9DDCB2129516F00 (Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B* __this, Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_rb, uint8_t ___1_rotationPacking, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:52>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = ___0_rb;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -6781,7 +6545,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2DState__ctor_m4DBD5995BECC9A2D
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
 		__this->___Position = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:53>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_3 = ___0_rb;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -6790,34 +6553,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody2DState__ctor_m4DBD5995BECC9A2D
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
 		L_5 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_4, NULL);
 		__this->___Rotation = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:54>
 		uint8_t L_6 = ___1_rotationPacking;
 		__this->___RotationPacking = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:57>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_7 = ___0_rb;
 		NullCheck(L_7);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = Rigidbody2D_get_linearVelocity_m0130BA2A5A1A680CD9656EEEBC85939D823E3B9F(L_7, NULL);
 		__this->___Velocity = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:62>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_9 = ___0_rb;
 		NullCheck(L_9);
 		float L_10;
 		L_10 = Rigidbody2D_get_angularVelocity_mAD2505FB1F8C9E1A66D1EA8F8680D14380BFC58D(L_9, NULL);
 		__this->___AngularVelocity = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:63>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_11 = ___0_rb;
 		NullCheck(L_11);
 		bool L_12;
 		L_12 = Rigidbody2D_get_simulated_mA8CC81D52F0F1ED08A88D82A808C27905909127F(L_11, NULL);
 		__this->___Simulated = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:66>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_13 = ___0_rb;
 		NullCheck(L_13);
 		int32_t L_14;
 		L_14 = Rigidbody2D_get_bodyType_m20709275F3D8215592B2B89736AA8DDD2BF44ED1(L_13, NULL);
 		__this->___IsKinematic = (bool)((((int32_t)L_14) == ((int32_t)1))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:70>
 		return;
 	}
 }
@@ -6840,19 +6597,16 @@ IL2CPP_EXTERN_C  void Rigidbody2DState__ctor_m4DBD5995BECC9A2DD5B56B18F9DDCB2129
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateSerializers_WriteRigidbodyState_mAFD5D8160B57DD9EF972969FB50C2E0B28D60984 (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 ___1_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:78>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_0 = ___0_writer;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_1 = ___1_value;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = L_1.___Position;
 		NullCheck(L_0);
 		Writer_WriteVector3_mAC84335BAD50FE6B4424C00EF6F29BBDD6B03CA2(L_0, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:80>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_3 = ___0_writer;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_4 = ___1_value;
 		uint8_t L_5 = L_4.___RotationPacking;
 		NullCheck(L_3);
 		Writer_WriteAutoPackType_m77D5A0ACBC718A086CCE9D4250EBF079B0F43B65(L_3, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:81>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_6 = ___0_writer;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_7 = ___1_value;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = L_7.___Rotation;
@@ -6860,13 +6614,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateSerializers_WriteRigidbody
 		uint8_t L_10 = L_9.___RotationPacking;
 		NullCheck(L_6);
 		Writer_WriteQuaternion_mFD595D93C1A8A3E4A2163EC007A84F4E1921738B(L_6, L_8, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:83>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_11 = ___0_writer;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_12 = ___1_value;
 		bool L_13 = L_12.___IsKinematic;
 		NullCheck(L_11);
 		Writer_WriteBoolean_m817C7111AA3410A0C4C1C17FA98789A08D08B0D2(L_11, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:85>
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_14 = ___1_value;
 		bool L_15 = L_14.___IsKinematic;
 		if (L_15)
@@ -6875,13 +6627,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateSerializers_WriteRigidbody
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:87>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_16 = ___0_writer;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_17 = ___1_value;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = L_17.___Velocity;
 		NullCheck(L_16);
 		Writer_WriteVector3_mAC84335BAD50FE6B4424C00EF6F29BBDD6B03CA2(L_16, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:88>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_19 = ___0_writer;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_20 = ___1_value;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = L_20.___AngularVelocity;
@@ -6891,7 +6641,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateSerializers_WriteRigidbody
 
 IL_0056:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:90>
 		return;
 	}
 }
@@ -6909,37 +6658,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RigidbodyState_t744496D61DEC0DA9A45229C739E9F
 	RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:94>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_0 = ___0_reader;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Reader_ReadVector3_m67985BA8B999B624E2382763AF95B3FDBDEA1DF5(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:96>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_2 = ___0_reader;
 		NullCheck(L_2);
 		uint8_t L_3;
 		L_3 = Reader_ReadAutoPackType_m3D5076083CA226DBA639C7DD7EDF19C6B349415F(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:97>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_4 = ___0_reader;
 		uint8_t L_5 = V_1;
 		NullCheck(L_4);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
 		L_6 = Reader_ReadQuaternion_mC903D215E7AECC5AC5B52656595499EB01EF22BD(L_4, L_5, NULL);
 		V_2 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:99>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_7 = ___0_reader;
 		NullCheck(L_7);
 		bool L_8;
 		L_8 = Reader_ReadBoolean_m92C697DEC278FFB88C842D1553309A5F18F9A110(L_7, NULL);
 		V_3 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:101>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:102>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:103>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:104>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:105>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:106>
 		il2cpp_codegen_initobj((&V_5), sizeof(RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
 		(&V_5)->___Position = L_9;
@@ -6949,7 +6688,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RigidbodyState_t744496D61DEC0DA9A45229C739E9F
 		(&V_5)->___IsKinematic = L_11;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_12 = V_5;
 		V_4 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:108>
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_13 = V_4;
 		bool L_14 = L_13.___IsKinematic;
 		if (L_14)
@@ -6958,13 +6696,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RigidbodyState_t744496D61DEC0DA9A45229C739E9F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:110>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_15 = ___0_reader;
 		NullCheck(L_15);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = Reader_ReadVector3_m67985BA8B999B624E2382763AF95B3FDBDEA1DF5(L_15, NULL);
 		(&V_4)->___Velocity = L_16;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:111>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_17 = ___0_reader;
 		NullCheck(L_17);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
@@ -6974,7 +6710,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RigidbodyState_t744496D61DEC0DA9A45229C739E9F
 
 IL_0064:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:114>
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_19 = V_4;
 		return L_19;
 	}
@@ -6983,19 +6718,16 @@ IL_0064:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateSerializers_WriteRigidbody2DState_m14F8930EEAE6FF385F3B9A42424245F29DE6476A (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B ___1_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:119>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_0 = ___0_writer;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_1 = ___1_value;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = L_1.___Position;
 		NullCheck(L_0);
 		Writer_WriteVector3_mAC84335BAD50FE6B4424C00EF6F29BBDD6B03CA2(L_0, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:121>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_3 = ___0_writer;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_4 = ___1_value;
 		uint8_t L_5 = L_4.___RotationPacking;
 		NullCheck(L_3);
 		Writer_WriteAutoPackType_m77D5A0ACBC718A086CCE9D4250EBF079B0F43B65(L_3, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:122>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_6 = ___0_writer;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_7 = ___1_value;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = L_7.___Rotation;
@@ -7003,19 +6735,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateSerializers_WriteRigidbody
 		uint8_t L_10 = L_9.___RotationPacking;
 		NullCheck(L_6);
 		Writer_WriteQuaternion_mFD595D93C1A8A3E4A2163EC007A84F4E1921738B(L_6, L_8, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:124>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_11 = ___0_writer;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_12 = ___1_value;
 		bool L_13 = L_12.___Simulated;
 		NullCheck(L_11);
 		Writer_WriteBoolean_m817C7111AA3410A0C4C1C17FA98789A08D08B0D2(L_11, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:125>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_14 = ___0_writer;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_15 = ___1_value;
 		bool L_16 = L_15.___IsKinematic;
 		NullCheck(L_14);
 		Writer_WriteBoolean_m817C7111AA3410A0C4C1C17FA98789A08D08B0D2(L_14, L_16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:127>
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_17 = ___1_value;
 		bool L_18 = L_17.___Simulated;
 		if (!L_18)
@@ -7024,13 +6753,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateSerializers_WriteRigidbody
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:129>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_19 = ___0_writer;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_20 = ___1_value;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = L_20.___Velocity;
 		NullCheck(L_19);
 		Writer_WriteVector2_mEABA1C7429F7FA2CD7FE0F41AB2B3125D72DC8AF(L_19, L_21, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:130>
 		Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* L_22 = ___0_writer;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_23 = ___1_value;
 		float L_24 = L_23.___AngularVelocity;
@@ -7040,7 +6767,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateSerializers_WriteRigidbody
 
 IL_0062:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:132>
 		return;
 	}
 }
@@ -7059,44 +6785,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rigidbody2DState_tA580A17DAC266DA116F653B49A5
 	Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:136>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_0 = ___0_reader;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Reader_ReadVector3_m67985BA8B999B624E2382763AF95B3FDBDEA1DF5(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:138>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_2 = ___0_reader;
 		NullCheck(L_2);
 		uint8_t L_3;
 		L_3 = Reader_ReadAutoPackType_m3D5076083CA226DBA639C7DD7EDF19C6B349415F(L_2, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:139>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_4 = ___0_reader;
 		uint8_t L_5 = V_1;
 		NullCheck(L_4);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
 		L_6 = Reader_ReadQuaternion_mC903D215E7AECC5AC5B52656595499EB01EF22BD(L_4, L_5, NULL);
 		V_2 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:141>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_7 = ___0_reader;
 		NullCheck(L_7);
 		bool L_8;
 		L_8 = Reader_ReadBoolean_m92C697DEC278FFB88C842D1553309A5F18F9A110(L_7, NULL);
 		V_3 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:142>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_9 = ___0_reader;
 		NullCheck(L_9);
 		bool L_10;
 		L_10 = Reader_ReadBoolean_m92C697DEC278FFB88C842D1553309A5F18F9A110(L_9, NULL);
 		V_4 = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:144>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:145>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:146>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:147>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:148>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:149>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:150>
 		il2cpp_codegen_initobj((&V_6), sizeof(Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B));
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
 		(&V_6)->___Position = L_11;
@@ -7108,7 +6822,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rigidbody2DState_tA580A17DAC266DA116F653B49A5
 		(&V_6)->___IsKinematic = L_14;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_15 = V_6;
 		V_5 = L_15;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:152>
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_16 = V_5;
 		bool L_17 = L_16.___Simulated;
 		if (!L_17)
@@ -7117,13 +6830,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rigidbody2DState_tA580A17DAC266DA116F653B49A5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:154>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_18 = ___0_reader;
 		NullCheck(L_18);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19;
 		L_19 = Reader_ReadVector2_m52673F48DBD18FBCFA61FF85B6B89D393E6185B1(L_18, NULL);
 		(&V_5)->___Velocity = L_19;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:155>
 		Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* L_20 = ___0_reader;
 		NullCheck(L_20);
 		float L_21;
@@ -7133,7 +6844,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rigidbody2DState_tA580A17DAC266DA116F653B49A5
 
 IL_0075:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:158>
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_22 = V_5;
 		return L_22;
 	}
@@ -7150,7 +6860,6 @@ IL_0075:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 RigidbodyStateExtensions_GetState_m8E2C090F0DD848184EDDEDA7CDE5E11BCA9C973D (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_rb, uint8_t ___1_rotationPacking, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:170>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = ___0_rb;
 		uint8_t L_1 = ___1_rotationPacking;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_2;
@@ -7163,29 +6872,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RigidbodyState_t744496D61DEC0DA9A45229C739E9F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateExtensions_SetState_m495C0C80FD627FF4575D2E3D81AEE267D314C504 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___0_rb, RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 ___1_state, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:178>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = ___0_rb;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:179>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = L_1;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_3 = ___1_state;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3.___Position;
 		NullCheck(L_2);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_2, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:180>
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_5 = ___1_state;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = L_5.___Rotation;
 		NullCheck(L_2);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_2, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:181>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_7 = ___0_rb;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_8 = ___1_state;
 		bool L_9 = L_8.___IsKinematic;
 		NullCheck(L_7);
 		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_7, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:183>
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_10 = ___1_state;
 		bool L_11 = L_10.___IsKinematic;
 		if (L_11)
@@ -7194,13 +6898,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateExtensions_SetState_m495C0
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:186>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_12 = ___0_rb;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_13 = ___1_state;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = L_13.___Velocity;
 		NullCheck(L_12);
 		Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985(L_12, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:190>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_15 = ___0_rb;
 		RigidbodyState_t744496D61DEC0DA9A45229C739E9F514C4A16B85 L_16 = ___1_state;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = L_16.___AngularVelocity;
@@ -7210,7 +6912,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateExtensions_SetState_m495C0
 
 IL_0049:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:192>
 		return;
 	}
 }
@@ -7218,7 +6919,6 @@ IL_0049:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B RigidbodyStateExtensions_GetState_m1793AE6ABF3CF2DEC28B3927DCB7FB96234C86CC (Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* ___0_rb, uint8_t ___1_rotationPacking, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:199>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = ___0_rb;
 		uint8_t L_1 = ___1_rotationPacking;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_2;
@@ -7235,23 +6935,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyStateExtensions_SetState_mA2761
 	int32_t G_B3_0 = 0;
 	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:207>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_0 = ___0_rb;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:208>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = L_1;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_3 = ___1_state;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3.___Position;
 		NullCheck(L_2);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_2, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:209>
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_5 = ___1_state;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = L_5.___Rotation;
 		NullCheck(L_2);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_2, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:211>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_7 = ___0_rb;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_8 = ___1_state;
 		bool L_9 = L_8.___IsKinematic;
@@ -7278,7 +6974,6 @@ IL_002a:
 	{
 		NullCheck(G_B3_1);
 		Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248(G_B3_1, G_B3_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:215>
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_10 = ___1_state;
 		bool L_11 = L_10.___IsKinematic;
 		if (L_11)
@@ -7287,13 +6982,11 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:218>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_12 = ___0_rb;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_13 = ___1_state;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = L_13.___Velocity;
 		NullCheck(L_12);
 		Rigidbody2D_set_linearVelocity_mD4C890DE3DF15ECAD0DC61675586C0D1998CC1BB(L_12, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:222>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_15 = ___0_rb;
 		Rigidbody2DState_tA580A17DAC266DA116F653B49A565766C8B4613B L_16 = ___1_state;
 		float L_17 = L_16.___AngularVelocity;
@@ -7303,7 +6996,6 @@ IL_002a:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyState.cs:224>
 		return;
 	}
 }
@@ -7585,7 +7277,6 @@ IL_0007:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_get_TakenOwnership_m078F6360B15FD489A1A366EBEB5FFC6EC934DE3D (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:343>
 		bool L_0 = __this->___U3CTakenOwnershipU3Ek__BackingField;
 		return L_0;
 	}
@@ -7594,7 +7285,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_get_TakenOwnership_m078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_set_TakenOwnership_m2CF8FA9424118EFEE38388AA556991E8F9588D9C (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:343>
 		bool L_0 = ___0_value;
 		__this->___U3CTakenOwnershipU3Ek__BackingField = L_0;
 		return;
@@ -7604,7 +7294,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_set_TakenOwnership_m2CF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* NetworkTransform_get_ParentBehaviour_mE85AF8D53315730DFB5D801B4FF880B33FF16BDC (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:347>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_0 = __this->___U3CParentBehaviourU3Ek__BackingField;
 		return L_0;
 	}
@@ -7613,7 +7302,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkBehaviour_t656DE977C2B8950187BBC215DAD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_set_ParentBehaviour_mD9AB7FE821272225C44B28124BE1E6AC91551A6B (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:347>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_0 = ___0_value;
 		__this->___U3CParentBehaviourU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CParentBehaviourU3Ek__BackingField), (void*)L_0);
@@ -7624,7 +7312,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_set_ParentBehaviour_mD9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_GetSendToOwner_mFD5EBA2A064A5ED3FE70F9980871B967CFE822EB (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:425>
 		bool L_0 = __this->____sendToOwner;
 		return L_0;
 	}
@@ -7633,10 +7320,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_GetSendToOwner_mFD5EBA2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSendToOwner_m830600A27916AC5524A2372DECFFFB17F672E28D (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:433>
 		bool L_0 = ___0_value;
 		__this->____sendToOwner = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:434>
 		bool L_1;
 		L_1 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
 		if (!L_1)
@@ -7645,14 +7330,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSendToOwner_m830600A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:435>
 		bool L_2 = ___0_value;
 		NetworkTransform_ObserversSetSendToOwner_mD170B0F6B93FEFBADE3F4890E9668BD47F5C8CFA(__this, L_2, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:436>
 		return;
 	}
 }
@@ -7660,7 +7343,6 @@ IL_0016:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSynchronizePosition_m6E2DB8B6C23E0F6883835160DE2C0CAA78A24F39 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:456>
 		bool L_0 = ___0_value;
 		__this->____synchronizePosition = L_0;
 		return;
@@ -7670,7 +7352,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSynchronizePosition_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetPositionSnapping_mFDE728898746A70082BAB2A8FE653D97001A7EA5 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, SnappedAxes_tDD0A101B86EB8EE847D1F5815CB23F6F575CCAA5 ___0_axes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:476>
 		SnappedAxes_tDD0A101B86EB8EE847D1F5815CB23F6F575CCAA5 L_0 = ___0_axes;
 		__this->____positionSnapping = L_0;
 		return;
@@ -7680,7 +7361,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetPositionSnapping_mFD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSynchronizeRotation_m13B1E552893BD36F3390CA9F3D22C49F39000B41 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:489>
 		bool L_0 = ___0_value;
 		__this->____synchronizeRotation = L_0;
 		return;
@@ -7690,7 +7370,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSynchronizeRotation_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetRotationSnapping_m7E855A53239656E545008F6C66FB2BA086F99C6B (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, SnappedAxes_tDD0A101B86EB8EE847D1F5815CB23F6F575CCAA5 ___0_axes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:502>
 		SnappedAxes_tDD0A101B86EB8EE847D1F5815CB23F6F575CCAA5 L_0 = ___0_axes;
 		__this->____rotationSnapping = L_0;
 		return;
@@ -7700,7 +7379,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetRotationSnapping_m7E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSynchronizeScale_m65DBAE71D5D7E230D34FFE171611502FAAEB3FCC (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:522>
 		bool L_0 = ___0_value;
 		__this->____synchronizeScale = L_0;
 		return;
@@ -7710,7 +7388,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSynchronizeScale_m65
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetScaleSnapping_m135F098044D5D0FD33BFB37825930C0D88F170FA (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, SnappedAxes_tDD0A101B86EB8EE847D1F5815CB23F6F575CCAA5 ___0_axes, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:535>
 		SnappedAxes_tDD0A101B86EB8EE847D1F5815CB23F6F575CCAA5 L_0 = ___0_axes;
 		__this->____scaleSnapping = L_0;
 		return;
@@ -7720,7 +7397,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetScaleSnapping_m135F0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t NetworkTransform_get__fullChanged_mBEF1ABBA946812AB5712EFA7B3F25B08133985D3 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:635>
 		return (uint32_t)((-1));
 	}
 }
@@ -7738,11 +7414,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_Awake_mA60339C0D635C0AD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnDestroy_m3AF1C8807547797917D74C87642F2FBF3A446661 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:675>
 		NetworkBehaviour_ResetState_mB0F6AB3ADE897DA51497698E6314F1C4CEFA179F(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:676>
 		NetworkTransform_ResetState_OnDestroy_mA0ED99081EF0D81E1ADA008BB7D9CC0AB4F398B6(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:677>
 		return;
 	}
 }
@@ -7750,19 +7423,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnDestroy_m3AF1C8807547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnStartNetwork_m04938238EFF4979609C52F5A3B4693A8D9D5FC9F (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:681>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		__this->____cachedTransform = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____cachedTransform), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:682>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_1;
 		L_1 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		__this->____timeManager = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____timeManager), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:684>
 		NetworkTransform_ChangeTickSubscription_m1720D7694E55810B828C382683267D83C39696BD(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:685>
 		return;
 	}
 }
@@ -7777,17 +7446,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnStartServer_mB986B62A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:689>
 		il2cpp_codegen_runtime_class_init_inline(ObjectCaches_1_t9709811864EA7130F30AC5C5B5FD13EB48AC545A_il2cpp_TypeInfo_var);
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_0;
 		L_0 = ObjectCaches_1_Retrieve_mD97DC77ED5038F6B573337B5AF1295148F3F6A9D(ObjectCaches_1_Retrieve_mD97DC77ED5038F6B573337B5AF1295148F3F6A9D_RuntimeMethod_var);
 		__this->____lastReceivedClientTransformData = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____lastReceivedClientTransformData), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:690>
 		NetworkTransform_InitializeFields_mC3A09D393DDB18F95E140868F4E6D9954251B106(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:691>
 		NetworkTransform_SetDefaultGoalData_mE3FDAE7FA5D5241FE264C4FB4CC1F66D9BCD7E84(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:692>
 		return;
 	}
 }
@@ -7803,10 +7468,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnSpawnServer_mA2428DBE
 	}
 	PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:696>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_0 = ___0_connection;
 		NetworkBehaviour_OnSpawnServer_m67546CE7DCF0FD2FC49C32B1A1A49A2F2672FDAC(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:700>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_1;
 		L_1 = NetworkBehaviour_get_NetworkObject_m3EEBF47647F4FF04EE88BF6A321CBE2BA23FA64A_inline(__this, NULL);
 		NullCheck(L_1);
@@ -7830,24 +7493,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnSpawnServer_mA2428DBE
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:703>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_6;
 		L_6 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:704>
 		uint32_t L_7;
 		L_7 = NetworkTransform_get__fullChanged_mBEF1ABBA946812AB5712EFA7B3F25B08133985D3(__this, NULL);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = V_0;
 		NetworkTransform_SerializeChanged_m73AE0B5323969896A0ABBD15303A8BF09FBAF3FC(__this, L_7, L_8, (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:705>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_9 = ___0_connection;
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_10 = V_0;
 		NullCheck(L_10);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_11;
 		L_11 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE(L_10, NULL);
 		NetworkTransform_TargetUpdateTransform_m50FF7E643A16C964AA3217452F4D24DA476F3F9D(__this, L_9, L_11, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:706>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_12 = V_0;
 		NullCheck(L_12);
 		PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_12, NULL);
@@ -7855,7 +7514,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnSpawnServer_mA2428DBE
 
 IL_004f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:708>
 		return;
 	}
 }
@@ -7870,21 +7528,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnStartClient_mB3AE928C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:712>
 		il2cpp_codegen_runtime_class_init_inline(ObjectCaches_1_t9709811864EA7130F30AC5C5B5FD13EB48AC545A_il2cpp_TypeInfo_var);
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_0;
 		L_0 = ObjectCaches_1_Retrieve_mD97DC77ED5038F6B573337B5AF1295148F3F6A9D(ObjectCaches_1_Retrieve_mD97DC77ED5038F6B573337B5AF1295148F3F6A9D_RuntimeMethod_var);
 		__this->____lastReceivedServerTransformData = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____lastReceivedServerTransformData), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:713>
 		NetworkTransform_ChangeUpdateSubscription_mA8049FA44B065CBC112537CA0C2216DEA4D0F3F1(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:714>
 		NetworkTransform_ConfigureComponents_m950A50302D89645244BC340BE6A7FD4E4C112001(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:715>
 		NetworkTransform_InitializeFields_mC3A09D393DDB18F95E140868F4E6D9954251B106(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:716>
 		NetworkTransform_SetDefaultGoalData_mE3FDAE7FA5D5241FE264C4FB4CC1F66D9BCD7E84(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:717>
 		return;
 	}
 }
@@ -7892,16 +7544,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnStartClient_mB3AE928C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnOwnershipServer_m022F833D80044675AEA3EE143402E408DFC47085 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_prevOwner, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:721>
 		NetworkTransform_ConfigureComponents_m950A50302D89645244BC340BE6A7FD4E4C112001(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:722>
 		__this->____intervalsRemaining = (int16_t)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:724>
 		__this->____lastServerRpcTick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:726>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_0 = ___0_prevOwner;
 		NetworkTransform_TryClearGoalDatas_OwnershipChange_mD4BB8EA48CA6451D0B47B746480112225A00B71F(__this, L_0, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:727>
 		return;
 	}
 }
@@ -7909,11 +7556,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnOwnershipServer_m022F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnOwnershipClient_m301254ABD486D8B495F645F7A618460BA29996E6 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_prevOwner, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:731>
 		NetworkTransform_ConfigureComponents_m950A50302D89645244BC340BE6A7FD4E4C112001(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:732>
 		__this->____intervalsRemaining = (int16_t)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:735>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (L_0)
@@ -7922,7 +7566,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnOwnershipClient_m3012
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:740>
 		bool L_1 = __this->____clientAuthoritative;
 		if (!L_1)
 		{
@@ -7930,16 +7573,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnOwnershipClient_m3012
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:741>
 		NetworkTransform_SetDefaultGoalData_mE3FDAE7FA5D5241FE264C4FB4CC1F66D9BCD7E84(__this, NULL);
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:744>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2 = ___0_prevOwner;
 		NetworkTransform_TryClearGoalDatas_OwnershipChange_mD4BB8EA48CA6451D0B47B746480112225A00B71F(__this, L_2, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:745>
 		return;
 	}
 }
@@ -7947,11 +7587,8 @@ IL_0023:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_OnStopNetwork_m7532BCDCCCA0D18FAED1DC20D23B14CE71608A25 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:749>
 		NetworkTransform_ResetState_mAD7FD17CC4D9DC0057B1F2B819A35AF06722C3CF(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:750>
 		NetworkTransform_ChangeUpdateSubscription_mA8049FA44B065CBC112537CA0C2216DEA4D0F3F1(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:751>
 		return;
 	}
 }
@@ -7965,7 +7602,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_TryClearGoalDatas_Owner
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:758>
 		bool L_0 = __this->____clientAuthoritative;
 		if (!L_0)
 		{
@@ -7973,7 +7609,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_TryClearGoalDatas_Owner
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:761>
 		bool L_1 = ___1_asServer;
 		if (L_1)
 		{
@@ -7981,7 +7616,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_TryClearGoalDatas_Owner
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:764>
 		bool L_2;
 		L_2 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (!L_2)
@@ -7990,7 +7624,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_TryClearGoalDatas_Owner
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:765>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_3 = __this->____goalDataQueue;
 		NullCheck(L_3);
 		Queue_1_Clear_m14E530BE106A80DD955D94F7E47161FF21282B18(L_3, Queue_1_Clear_m14E530BE106A80DD955D94F7E47161FF21282B18_RuntimeMethod_var);
@@ -7999,7 +7632,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_TryClearGoalDatas_Owner
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:771>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_4;
 		L_4 = NetworkBehaviour_get_Owner_m8CA2A8A2D757CACD11B2D06DC06D244A2994EB05(__this, NULL);
 		NullCheck(L_4);
@@ -8011,7 +7643,6 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:772>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_6 = __this->____goalDataQueue;
 		NullCheck(L_6);
 		Queue_1_Clear_m14E530BE106A80DD955D94F7E47161FF21282B18(L_6, Queue_1_Clear_m14E530BE106A80DD955D94F7E47161FF21282B18_RuntimeMethod_var);
@@ -8019,7 +7650,6 @@ IL_001f:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:778>
 		return;
 	}
 }
@@ -8039,7 +7669,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_TimeManager_OnUpdate_m8
 	float V_2 = 0.0f;
 	float G_B4_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:782>
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_OnUpdate;
 		V_1 = L_0;
@@ -8060,7 +7689,6 @@ FINALLY_002c:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:784>
 				bool L_2 = __this->____useScaledTime;
 				if (L_2)
 				{
@@ -8084,10 +7712,8 @@ IL_001d_1:
 IL_0022_1:
 			{
 				V_2 = G_B4_0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:785>
 				float L_5 = V_2;
 				NetworkTransform_MoveToTarget_m9B149AEACCFA505561AE6CA26D44AA9BF3C74FB7(__this, L_5, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:786>
 				goto IL_003a;
 			}
 		}
@@ -8099,7 +7725,6 @@ IL_0022_1:
 
 IL_003a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:787>
 		return;
 	}
 }
@@ -8115,7 +7740,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_InitializeFields_mC3A09
 	}
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:794>
 		bool L_0 = ___0_asServer;
 		if (L_0)
 		{
@@ -8136,7 +7760,6 @@ IL_000e:
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:801>
 		bool L_2 = ___0_asServer;
 		if (!((int32_t)(G_B3_0|(int32_t)L_2)))
 		{
@@ -8144,7 +7767,6 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:804>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_3 = __this->____lastSentTransformData;
 		if (!L_3)
 		{
@@ -8152,7 +7774,6 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:805>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_4 = __this->____lastSentTransformData;
 		NullCheck(L_4);
 		TransformData_ResetState_mE3F205F4C1486EEA08A3F7500BCB22D71C733C65(L_4, NULL);
@@ -8161,7 +7782,6 @@ IL_000f:
 
 IL_0028:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:807>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_5;
 		L_5 = ResettableObjectCaches_1_Retrieve_mF9BEECE8151A7F0104A026A95AC35F47387CABE2(ResettableObjectCaches_1_Retrieve_mF9BEECE8151A7F0104A026A95AC35F47387CABE2_RuntimeMethod_var);
 		__this->____lastSentTransformData = L_5;
@@ -8170,7 +7790,6 @@ IL_0028:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:810>
 		bool L_6 = ___0_asServer;
 		if (!L_6)
 		{
@@ -8178,7 +7797,6 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:812>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_7 = __this->____toClientChangedWriter;
 		if (!L_7)
 		{
@@ -8186,7 +7804,6 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:813>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = __this->____toClientChangedWriter;
 		NullCheck(L_8);
 		Writer_Clear_m25168B80F7E7F14BD63C6E8131339233527921DA(L_8, NULL);
@@ -8195,7 +7812,6 @@ IL_0033:
 
 IL_004a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:815>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_9;
 		L_9 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
@@ -8205,7 +7821,6 @@ IL_004a:
 
 IL_0055:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:817>
 		return;
 	}
 }
@@ -8240,7 +7855,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ConfigureComponents_m95
 	int32_t G_B28_0 = 0;
 	CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* G_B28_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:828>
 		int32_t L_0 = __this->____componentConfiguration;
 		if (L_0)
 		{
@@ -8248,13 +7862,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ConfigureComponents_m95
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:829>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:832>
 		int32_t L_1 = __this->____componentConfiguration;
 		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
 		{
@@ -8262,7 +7874,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:834>
 		bool L_2;
 		L_2 = Component_TryGetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2C2A32AA4FD62D8B9BF5E40B7E2F3EF738C532A6(__this, (&V_0), Component_TryGetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m2C2A32AA4FD62D8B9BF5E40B7E2F3EF738C532A6_RuntimeMethod_var);
 		if (!L_2)
@@ -8271,7 +7882,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:837>
 		Nullable_1_t1E5B812BCED1388DF2EFF52568AF657A5BFF83BF* L_3 = (Nullable_1_t1E5B812BCED1388DF2EFF52568AF657A5BFF83BF*)(&__this->____initializedRigidbodyInterpolation);
 		bool L_4;
 		L_4 = Nullable_1_get_HasValue_m3A4E25FA25AE46B36C389FB95711AD930BDCE142_inline(L_3, Nullable_1_get_HasValue_m3A4E25FA25AE46B36C389FB95711AD930BDCE142_RuntimeMethod_var);
@@ -8281,7 +7891,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:838>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = V_0;
 		NullCheck(L_5);
 		int32_t L_6;
@@ -8294,16 +7903,13 @@ IL_0009:
 
 IL_003d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:840>
 		bool L_8;
 		L_8 = NetworkTransform_U3CConfigureComponentsU3Eg__CanMakeKinematicU7C103_0_mF382AC104909C00D32C7AE9845BE74622503D1B5(__this, NULL);
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:841>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_9 = V_0;
 		bool L_10 = V_1;
 		NullCheck(L_9);
 		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:843>
 		bool L_11 = V_1;
 		if (!L_11)
 		{
@@ -8311,7 +7917,6 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:844>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_12 = V_0;
 		NullCheck(L_12);
 		Rigidbody_set_interpolation_mC7D39114A7AC6ED0AB2B40FECA4E2ED3C1D7603C(L_12, 0, NULL);
@@ -8320,7 +7925,6 @@ IL_003d:
 
 IL_0056:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:846>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_13 = V_0;
 		Nullable_1_t1E5B812BCED1388DF2EFF52568AF657A5BFF83BF* L_14 = (Nullable_1_t1E5B812BCED1388DF2EFF52568AF657A5BFF83BF*)(&__this->____initializedRigidbodyInterpolation);
 		int32_t L_15;
@@ -8332,7 +7936,6 @@ IL_0056:
 
 IL_0068:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:850>
 		int32_t L_16 = __this->____componentConfiguration;
 		if ((!(((uint32_t)L_16) == ((uint32_t)3))))
 		{
@@ -8340,7 +7943,6 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:852>
 		bool L_17;
 		L_17 = Component_TryGetComponent_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_mEE3AB2BB467768B44D342813BCD48FBF63FDE467(__this, (&V_2), Component_TryGetComponent_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_mEE3AB2BB467768B44D342813BCD48FBF63FDE467_RuntimeMethod_var);
 		if (!L_17)
@@ -8349,7 +7951,6 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:855>
 		Nullable_1_t8E9A784F50D66DEB7275C38361341A40A00D0E9C* L_18 = (Nullable_1_t8E9A784F50D66DEB7275C38361341A40A00D0E9C*)(&__this->____initializedRigidbodyInterpolation2d);
 		bool L_19;
 		L_19 = Nullable_1_get_HasValue_mE753505552986C5E73508057961D4CB9DB1FCA04_inline(L_18, Nullable_1_get_HasValue_mE753505552986C5E73508057961D4CB9DB1FCA04_RuntimeMethod_var);
@@ -8359,7 +7960,6 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:856>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_20 = V_2;
 		NullCheck(L_20);
 		int32_t L_21;
@@ -8372,11 +7972,9 @@ IL_0068:
 
 IL_009c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:858>
 		bool L_23;
 		L_23 = NetworkTransform_U3CConfigureComponentsU3Eg__CanMakeKinematicU7C103_0_mF382AC104909C00D32C7AE9845BE74622503D1B5(__this, NULL);
 		V_3 = L_23;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:861>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_24 = V_2;
 		bool L_25 = V_3;
 		if (L_25)
@@ -8402,12 +8000,10 @@ IL_00ab:
 	{
 		NullCheck(G_B16_1);
 		Rigidbody2D_set_bodyType_mE2FAC2D78B06B445BD2AD58F87AC5B1865B23248(G_B16_1, G_B16_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:866>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_26 = V_2;
 		bool L_27 = V_3;
 		NullCheck(L_26);
 		Rigidbody2D_set_simulated_m38E0BD6581E907DD87059034C4B2E8D47BBFE71D(L_26, (bool)((((int32_t)L_27) == ((int32_t)0))? 1 : 0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:868>
 		bool L_28 = V_3;
 		if (!L_28)
 		{
@@ -8415,7 +8011,6 @@ IL_00ab:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:869>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_29 = V_2;
 		NullCheck(L_29);
 		Rigidbody2D_set_interpolation_m4914262B161A76DD061969667C0D412A8C93A994(L_29, 0, NULL);
@@ -8424,7 +8019,6 @@ IL_00ab:
 
 IL_00c5:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:871>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_30 = V_2;
 		Nullable_1_t8E9A784F50D66DEB7275C38361341A40A00D0E9C* L_31 = (Nullable_1_t8E9A784F50D66DEB7275C38361341A40A00D0E9C*)(&__this->____initializedRigidbodyInterpolation2d);
 		int32_t L_32;
@@ -8436,7 +8030,6 @@ IL_00c5:
 
 IL_00d7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:875>
 		int32_t L_33 = __this->____componentConfiguration;
 		if ((!(((uint32_t)L_33) == ((uint32_t)1))))
 		{
@@ -8444,7 +8037,6 @@ IL_00d7:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:877>
 		bool L_34;
 		L_34 = Component_TryGetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m4DACB63AA9F63A6177A01ECD5EE06E90021EA89C(__this, (&V_4), Component_TryGetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m4DACB63AA9F63A6177A01ECD5EE06E90021EA89C_RuntimeMethod_var);
 		if (!L_34)
@@ -8453,7 +8045,6 @@ IL_00d7:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:880>
 		bool L_35 = __this->____clientAuthoritative;
 		if (!L_35)
 		{
@@ -8461,7 +8052,6 @@ IL_00d7:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:882>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_36 = V_4;
 		bool L_37;
 		L_37 = NetworkBehaviour_get_IsController_mB5B23244C080277D85C6DA6631CE7EEC9051D757(__this, NULL);
@@ -8472,7 +8062,6 @@ IL_00d7:
 
 IL_0100:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:888>
 		bool L_38 = __this->____sendToOwner;
 		if (!L_38)
 		{
@@ -8480,7 +8069,6 @@ IL_0100:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:889>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_39 = V_4;
 		bool L_40;
 		L_40 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
@@ -8491,7 +8079,6 @@ IL_0100:
 
 IL_0116:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:892>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_41 = V_4;
 		bool L_42;
 		L_42 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
@@ -8524,7 +8111,6 @@ IL_0129:
 
 IL_012e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:917>
 		return;
 	}
 }
@@ -8543,7 +8129,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_TimeManager_OnPostTick_
 	memset((&V_1), 0, sizeof(V_1));
 	bool V_2 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:924>
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_OnPostTick;
 		V_1 = L_0;
@@ -8564,7 +8149,6 @@ FINALLY_00c5:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:927>
 				uint32_t L_2 = __this->____forceSendTick;
 				if (!L_2)
 				{
@@ -8583,17 +8167,13 @@ FINALLY_00c5:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:929>
 				__this->____forceSendTick = 0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:930>
 				NetworkTransform_ForceSend_m13C52832418B90F41AF2935D2472712979F4E325(__this, NULL);
 			}
 
 IL_0036_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:933>
 				NetworkTransform_UpdateParentBehaviour_m38734ACAECC24BF147BD39865233DBB263958F60(__this, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:939>
 				uint8_t L_6 = __this->____interval;
 				if ((((int32_t)L_6) <= ((int32_t)1)))
 				{
@@ -8601,7 +8181,6 @@ IL_0036_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:944>
 				int16_t L_7 = __this->____intervalsRemaining;
 				if ((!(((uint32_t)L_7) == ((uint32_t)(-1)))))
 				{
@@ -8609,7 +8188,6 @@ IL_0036_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:947>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->____cachedTransform;
 				NullCheck(L_8);
 				bool L_9;
@@ -8620,23 +8198,19 @@ IL_0036_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:948>
 				goto IL_00d3;
 			}
 
 IL_005d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:950>
 				uint8_t L_10 = __this->____interval;
 				__this->____intervalsRemaining = L_10;
 			}
 
 IL_0069_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:954>
 				int16_t L_11 = __this->____intervalsRemaining;
 				__this->____intervalsRemaining = ((int16_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_11, 1)));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:956>
 				int16_t L_12 = __this->____intervalsRemaining;
 				if ((((int32_t)L_12) <= ((int32_t)0)))
 				{
@@ -8644,33 +8218,27 @@ IL_0069_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:957>
 				goto IL_00d3;
 			}
 
 IL_0083_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:960>
 				__this->____intervalsRemaining = (int16_t)(-1);
 			}
 
 IL_008a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:963>
 				bool L_13;
 				L_13 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:964>
 				bool L_14;
 				L_14 = NetworkBehaviour_get_IsClientInitialized_m1A775B6DFB134AB467E8DBC8A535006A6C037B8A(__this, NULL);
 				V_2 = L_14;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:966>
 				if (!L_13)
 				{
 					goto IL_00b4_1;
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:971>
 				bool L_15 = V_2;
 				if (L_15)
 				{
@@ -8678,7 +8246,6 @@ IL_008a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:972>
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_16 = __this->____timeManager;
 				NullCheck(L_16);
 				double L_17;
@@ -8688,13 +8255,11 @@ IL_008a_1:
 
 IL_00ae_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:974>
 				NetworkTransform_SendToClients_m3EEABC2A0A3B9FF49E3E7856DD37D6A901C64913(__this, NULL);
 			}
 
 IL_00b4_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:977>
 				bool L_18 = V_2;
 				if (!L_18)
 				{
@@ -8702,14 +8267,12 @@ IL_00b4_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:978>
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_19 = __this->____lastSentTransformData;
 				NetworkTransform_SendToServer_m71785A75C97A5319760CDD5BD45C56D868F27019(__this, L_19, NULL);
 			}
 
 IL_00c3_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:979>
 				goto IL_00d3;
 			}
 		}
@@ -8721,7 +8284,6 @@ IL_00c3_1:
 
 IL_00d3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:980>
 		return;
 	}
 }
@@ -8737,7 +8299,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ChangeTickSubscription_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:987>
 		bool L_0 = ___0_subscribe;
 		bool L_1 = __this->____subscribedToTicks;
 		if ((((int32_t)L_0) == ((int32_t)L_1)))
@@ -8759,16 +8320,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ChangeTickSubscription_
 
 IL_0017:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:988>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:990>
 		bool L_4 = ___0_subscribe;
 		__this->____subscribedToTicks = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:991>
 		bool L_5 = ___0_subscribe;
 		if (!L_5)
 		{
@@ -8776,7 +8334,6 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:992>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_6;
 		L_6 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		NullCheck(L_6);
@@ -8791,7 +8348,6 @@ IL_0018:
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:994>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_9;
 		L_9 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		NullCheck(L_9);
@@ -8801,7 +8357,6 @@ IL_003f:
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_11, __this, (intptr_t)((void*)NetworkTransform_TimeManager_OnPostTick_m27151ADAAEE4419FF1AF3EC01595A191F5FB466F_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
 		TimeManager_remove_OnPostTick_m61C92ED98B62A03F1D915DB9D86B7F0CF5E6881D(L_10, L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:995>
 		return;
 	}
 }
@@ -8817,7 +8372,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ChangeUpdateSubscriptio
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:999>
 		bool L_0 = ___0_subscribe;
 		bool L_1 = __this->____subscribedToUpdate;
 		if ((((int32_t)L_0) == ((int32_t)L_1)))
@@ -8838,16 +8392,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ChangeUpdateSubscriptio
 
 IL_0017:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1000>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1002>
 		bool L_4 = ___0_subscribe;
 		__this->____subscribedToUpdate = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1003>
 		bool L_5 = ___0_subscribe;
 		if (!L_5)
 		{
@@ -8855,7 +8406,6 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1004>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_6 = __this->____timeManager;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_7, __this, (intptr_t)((void*)NetworkTransform_TimeManager_OnUpdate_m8DA28E7F8B602742C305E8546EC8C6A8A5693EAD_RuntimeMethod_var), NULL);
@@ -8866,13 +8416,11 @@ IL_0018:
 
 IL_003a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1006>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_8 = __this->____timeManager;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_9, __this, (intptr_t)((void*)NetworkTransform_TimeManager_OnUpdate_m8DA28E7F8B602742C305E8546EC8C6A8A5693EAD_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		TimeManager_remove_OnUpdate_m5E64FB568CF9E9F9C7A59E15964DAD995A89A461(L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1007>
 		return;
 	}
 }
@@ -8880,7 +8428,6 @@ IL_003a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetInterpolation_m4C28726BD4F97C4C6A8736452165E90A2856C257 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1014>
 		uint16_t L_0 = ___0_value;
 		if ((((int32_t)L_0) >= ((int32_t)1)))
 		{
@@ -8888,16 +8435,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetInterpolation_m4C287
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1015>
 		___0_value = (uint16_t)1;
 	}
 
 IL_0007:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1017>
 		uint16_t L_1 = ___0_value;
 		__this->____interpolation = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1018>
 		return;
 	}
 }
@@ -8905,10 +8449,8 @@ IL_0007:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetExtrapolation_m22FCD62E751EC281BD10D59E33E037084047C68E (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, uint16_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1025>
 		uint16_t L_0 = ___0_value;
 		__this->____extrapolation = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1026>
 		return;
 	}
 }
@@ -8916,7 +8458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetExtrapolation_m22FCD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_CanControl_m558DC483D5C820CD176F05E902F78F1809800DA0 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1035>
 		bool L_0 = __this->____clientAuthoritative;
 		if (!L_0)
 		{
@@ -8924,7 +8465,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_CanControl_m558DC483D5C
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1036>
 		bool L_1;
 		L_1 = NetworkBehaviour_get_IsController_mB5B23244C080277D85C6DA6631CE7EEC9051D757(__this, NULL);
 		return L_1;
@@ -8932,7 +8472,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_CanControl_m558DC483D5C
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1040>
 		bool L_2;
 		L_2 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
 		if (!L_2)
@@ -8941,13 +8480,11 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1041>
 		return (bool)1;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1044>
 		return (bool)0;
 	}
 }
@@ -8955,7 +8492,6 @@ IL_0019:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_Teleport_m2C903AB83C047D9721B0ADAEA6F4B20B86C95592 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1052>
 		bool L_0;
 		L_0 = NetworkTransform_CanControl_m558DC483D5C820CD176F05E902F78F1809800DA0(__this, NULL);
 		if (!L_0)
@@ -8964,13 +8500,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_Teleport_m2C903AB83C047
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1053>
 		__this->____teleport = (bool)1;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1054>
 		return;
 	}
 }
@@ -8997,7 +8531,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ForceSend_m52A4461EF732
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1071>
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_ForceSend1;
 		V_1 = L_0;
@@ -9018,7 +8551,6 @@ FINALLY_0031:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1075>
 				uint32_t L_2 = __this->____forceSendTick;
 				if (!L_2)
 				{
@@ -9026,20 +8558,17 @@ FINALLY_0031:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1076>
 				NetworkTransform_ForceSend_m13C52832418B90F41AF2935D2472712979F4E325(__this, NULL);
 			}
 
 IL_001c_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1077>
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_3 = __this->____timeManager;
 				NullCheck(L_3);
 				uint32_t L_4;
 				L_4 = TimeManager_get_LocalTick_m33B90F5CF081E02D356737AB650141634B970275(L_3, NULL);
 				uint32_t L_5 = ___0_ticks;
 				__this->____forceSendTick = ((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)L_5));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1078>
 				goto IL_003f;
 			}
 		}
@@ -9051,7 +8580,6 @@ IL_001c_1:
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1079>
 		return;
 	}
 }
@@ -9069,7 +8597,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ForceSend_m13C52832418B
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1086>
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_ForceSend0;
 		V_1 = L_0;
@@ -9090,11 +8617,9 @@ FINALLY_0033:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1088>
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_2 = __this->____lastSentTransformData;
 				NullCheck(L_2);
 				TransformData_ResetState_mE3F205F4C1486EEA08A3F7500BCB22D71C733C65(L_2, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1089>
 				ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_3 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_4 = L_3->___Writer;
 				if (!L_4)
@@ -9103,14 +8628,12 @@ FINALLY_0033:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1090>
 				ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_5 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 				ReceivedClientData_SendReliably_m13A0A8C38FE7A442AAAF625D19B13BA772BD52C2(L_5, NULL);
 			}
 
 IL_0031_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1091>
 				goto IL_0041;
 			}
 		}
@@ -9122,7 +8645,6 @@ IL_0031_1:
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1092>
 		return;
 	}
 }
@@ -9131,7 +8653,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetInterval_m6D8D115021
 {
 	int32_t G_B9_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1100>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
 		if (!L_0)
@@ -9203,20 +8724,17 @@ IL_0040:
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1102>
 		if (G_B9_0)
 		{
 			goto IL_0044;
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1103>
 		return;
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1105>
 		bool L_8;
 		L_8 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
 		if (!L_8)
@@ -9225,7 +8743,6 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1106>
 		uint8_t L_9 = ___0_value;
 		NetworkTransform_ObserversSetInterval_m7B87469CB57F2AFC4D3E1FBA96834FCBE8F4BF00(__this, L_9, NULL);
 		return;
@@ -9233,10 +8750,8 @@ IL_0044:
 
 IL_0054:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1108>
 		uint8_t L_10 = ___0_value;
 		NetworkTransform_ServerSetInterval_m038527BB3BDADC00EC7BDA4B3AE8B6AAEA91CA36(__this, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1109>
 		return;
 	}
 }
@@ -9244,15 +8759,12 @@ IL_0054:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetIntervalInternal_mA575F2AB876A553C562A25B9BA292252A557DACB (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1117>
 		uint8_t L_0 = ___0_value;
 		int32_t L_1;
 		L_1 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_0, 1, NULL);
 		___0_value = (uint8_t)((int32_t)(uint8_t)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1118>
 		uint8_t L_2 = ___0_value;
 		__this->____interval = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1119>
 		return;
 	}
 }
@@ -9292,14 +8804,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetDefaultGoalData_mE3F
 	U3CU3Ec__DisplayClass118_0_t53F56E307E4B749C88F6624713A7C9B7BC3F917F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1150>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____cachedTransform;
 		(&V_0)->___t = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___t), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1151>
 		(&V_0)->___parentBehaviour = (NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___parentBehaviour), (void*)(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1153>
 		bool L_1 = __this->____synchronizeParent;
 		if (!L_1)
 		{
@@ -9307,7 +8816,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetDefaultGoalData_mE3F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1155>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_2;
 		L_2 = NetworkBehaviour_get_NetworkObject_m3EEBF47647F4FF04EE88BF6A321CBE2BA23FA64A_inline(__this, NULL);
 		NullCheck(L_2);
@@ -9322,7 +8830,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetDefaultGoalData_mE3F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1157>
 		U3CU3Ec__DisplayClass118_0_t53F56E307E4B749C88F6624713A7C9B7BC3F917F L_5 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = L_5.___t;
 		NullCheck(L_6);
@@ -9332,7 +8839,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetDefaultGoalData_mE3F
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = Component_TryGetComponent_TisNetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F_mF86AB4A8B49ABCB4996C2E856C626BF9414D0B80(L_7, L_8, Component_TryGetComponent_TisNetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F_mF86AB4A8B49ABCB4996C2E856C626BF9414D0B80_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1158>
 		U3CU3Ec__DisplayClass118_0_t53F56E307E4B749C88F6624713A7C9B7BC3F917F L_10 = V_0;
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_11 = L_10.___parentBehaviour;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -9344,14 +8850,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetDefaultGoalData_mE3F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1160>
 		NetworkTransform_LogInvalidParent_m5E049A6D4A39FFBA1D390460A0293CBB86196E8F(__this, NULL);
 		goto IL_007b;
 	}
 
 IL_005e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1164>
 		U3CU3Ec__DisplayClass118_0_t53F56E307E4B749C88F6624713A7C9B7BC3F917F L_13 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = L_13.___t;
 		NullCheck(L_14);
@@ -9359,7 +8863,6 @@ IL_005e:
 		L_15 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_14, NULL);
 		__this->____parentTransform = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____parentTransform), (void*)L_15);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1165>
 		U3CU3Ec__DisplayClass118_0_t53F56E307E4B749C88F6624713A7C9B7BC3F917F L_16 = V_0;
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_17 = L_16.___parentBehaviour;
 		NetworkTransform_set_ParentBehaviour_mD9AB7FE821272225C44B28124BE1E6AC91551A6B_inline(__this, L_17, NULL);
@@ -9367,16 +8870,12 @@ IL_005e:
 
 IL_007b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1170>
 		__this->____teleport = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1171>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_18 = __this->____lastReceivedServerTransformData;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		NetworkTransform_U3CSetDefaultGoalDataU3Eg__SetLastReceivedU7C118_0_m308F88F5F7786286E72B47B63DFD80EC4DEBD163(L_18, (&V_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1172>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_19 = __this->____lastReceivedClientTransformData;
 		NetworkTransform_U3CSetDefaultGoalDataU3Eg__SetLastReceivedU7C118_0_m308F88F5F7786286E72B47B63DFD80EC4DEBD163(L_19, (&V_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1183>
 		return;
 	}
 }
@@ -9390,7 +8889,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_LogInvalidParent_m5E049
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1190>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0;
 		L_0 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -9412,7 +8910,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_LogInvalidParent_m5E049
 		String_t* L_9;
 		L_9 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteralF73775A205A76DC1A8E849265C28E117EA16AB9D, L_2, L_5, L_8, NULL);
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_0, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1191>
 		return;
 	}
 }
@@ -9443,10 +8940,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SerializeChanged_m73AE0
 	int32_t V_13 = 0;
 	TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7* G_B6_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1198>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_0 = ___2_dataToUpdate;
 		V_0 = (bool)((!(((RuntimeObject*)(TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1199>
 		bool L_1 = V_0;
 		if (!L_1)
 		{
@@ -9461,7 +8956,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SerializeChanged_m73AE0
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1200>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_3 = ___2_dataToUpdate;
 		NullCheck(L_3);
 		TransformData_SetIsDefaultToFalse_m86EF891035FC958F1C16DB11F757793C14E52626(L_3, NULL);
@@ -9469,11 +8963,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SerializeChanged_m73AE0
 
 IL_0011:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1202>
 		V_1 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1203>
 		V_2 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1207>
 		uint32_t L_4 = ___0_changed;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -9498,23 +8989,17 @@ IL_002a:
 IL_0030:
 	{
 		V_3 = G_B6_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1209>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = ___1_writer;
 		NullCheck(L_8);
 		int32_t L_9 = ((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_8)->___Position;
 		V_4 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1210>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_10 = ___1_writer;
 		NullCheck(L_10);
 		Writer_Skip_m1A5C87C87B27F31696453307883C43272745AD2F(L_10, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1216>
 		V_7 = (100.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1219>
 		V_8 = (32766.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1221>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->____cachedTransform;
 		V_9 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1223>
 		bool L_12 = __this->____synchronizePosition;
 		if (!L_12)
 		{
@@ -9522,12 +9007,10 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1225>
 		TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7* L_13 = V_3;
 		NullCheck(L_13);
 		uint8_t L_14 = L_13->___Position;
 		V_11 = L_14;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1227>
 		uint32_t L_15 = ___0_changed;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -9538,14 +9021,12 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1229>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = V_9;
 		NullCheck(L_17);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
 		L_18 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_17, NULL);
 		float L_19 = L_18.___x;
 		V_5 = L_19;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1231>
 		bool L_20 = V_0;
 		if (!L_20)
 		{
@@ -9553,7 +9034,6 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1232>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_21 = ___2_dataToUpdate;
 		NullCheck(L_21);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_22 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_21->___Position);
@@ -9563,11 +9043,9 @@ IL_0030:
 
 IL_0090:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1234>
 		float L_24 = V_5;
 		float L_25 = V_7;
 		V_6 = ((float)il2cpp_codegen_multiply(L_24, L_25));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1235>
 		uint8_t L_26 = V_11;
 		if (!L_26)
 		{
@@ -9586,10 +9064,8 @@ IL_0090:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1237>
 		uint8_t L_30 = V_1;
 		V_1 = ((int32_t)((int32_t)L_30|1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1238>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_31 = ___1_writer;
 		float L_32 = V_6;
 		NullCheck(L_31);
@@ -9599,10 +9075,8 @@ IL_0090:
 
 IL_00b5:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1242>
 		uint8_t L_33 = V_1;
 		V_1 = ((int32_t)((int32_t)L_33|2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1243>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_34 = ___1_writer;
 		float L_35 = V_5;
 		NullCheck(L_34);
@@ -9611,7 +9085,6 @@ IL_00b5:
 
 IL_00c1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1248>
 		uint32_t L_36 = ___0_changed;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_37;
@@ -9622,14 +9095,12 @@ IL_00c1:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1250>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = V_9;
 		NullCheck(L_38);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
 		L_39 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_38, NULL);
 		float L_40 = L_39.___y;
 		V_5 = L_40;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1252>
 		bool L_41 = V_0;
 		if (!L_41)
 		{
@@ -9637,7 +9108,6 @@ IL_00c1:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1253>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_42 = ___2_dataToUpdate;
 		NullCheck(L_42);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_43 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_42->___Position);
@@ -9647,11 +9117,9 @@ IL_00c1:
 
 IL_00e8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1255>
 		float L_45 = V_5;
 		float L_46 = V_7;
 		V_6 = ((float)il2cpp_codegen_multiply(L_45, L_46));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1256>
 		uint8_t L_47 = V_11;
 		if (!L_47)
 		{
@@ -9670,10 +9138,8 @@ IL_00e8:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1258>
 		uint8_t L_51 = V_1;
 		V_1 = ((int32_t)((int32_t)L_51|4));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1259>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_52 = ___1_writer;
 		float L_53 = V_6;
 		NullCheck(L_52);
@@ -9683,10 +9149,8 @@ IL_00e8:
 
 IL_010d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1263>
 		uint8_t L_54 = V_1;
 		V_1 = ((int32_t)((int32_t)L_54|8));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1264>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_55 = ___1_writer;
 		float L_56 = V_5;
 		NullCheck(L_55);
@@ -9695,7 +9159,6 @@ IL_010d:
 
 IL_0119:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1269>
 		uint32_t L_57 = ___0_changed;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_58;
@@ -9706,14 +9169,12 @@ IL_0119:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1271>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_59 = V_9;
 		NullCheck(L_59);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60;
 		L_60 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_59, NULL);
 		float L_61 = L_60.___z;
 		V_5 = L_61;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1273>
 		bool L_62 = V_0;
 		if (!L_62)
 		{
@@ -9721,7 +9182,6 @@ IL_0119:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1274>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_63 = ___2_dataToUpdate;
 		NullCheck(L_63);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_64 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_63->___Position);
@@ -9731,11 +9191,9 @@ IL_0119:
 
 IL_0140:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1276>
 		float L_66 = V_5;
 		float L_67 = V_7;
 		V_6 = ((float)il2cpp_codegen_multiply(L_66, L_67));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1277>
 		uint8_t L_68 = V_11;
 		if (!L_68)
 		{
@@ -9754,10 +9212,8 @@ IL_0140:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1279>
 		uint8_t L_72 = V_1;
 		V_1 = ((int32_t)((int32_t)L_72|((int32_t)16)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1280>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_73 = ___1_writer;
 		float L_74 = V_6;
 		NullCheck(L_73);
@@ -9767,10 +9223,8 @@ IL_0140:
 
 IL_0166:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1284>
 		uint8_t L_75 = V_1;
 		V_1 = ((int32_t)((int32_t)L_75|((int32_t)32)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1285>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_76 = ___1_writer;
 		float L_77 = V_5;
 		NullCheck(L_76);
@@ -9779,7 +9233,6 @@ IL_0166:
 
 IL_0173:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1291>
 		bool L_78 = __this->____synchronizeRotation;
 		if (!L_78)
 		{
@@ -9787,7 +9240,6 @@ IL_0173:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1293>
 		uint32_t L_79 = ___0_changed;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_80;
@@ -9798,7 +9250,6 @@ IL_0173:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1295>
 		bool L_81 = V_0;
 		if (!L_81)
 		{
@@ -9806,7 +9257,6 @@ IL_0173:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1296>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_82 = ___2_dataToUpdate;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_83 = V_9;
 		NullCheck(L_83);
@@ -9818,10 +9268,8 @@ IL_0173:
 
 IL_0194:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1298>
 		uint8_t L_85 = V_1;
 		V_1 = ((int32_t)((int32_t)L_85|((int32_t)64)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1301>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_86 = ___1_writer;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_87 = V_9;
 		NullCheck(L_87);
@@ -9836,10 +9284,8 @@ IL_0194:
 
 IL_01b1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1307>
 		bool L_91 = __this->____teleport;
 		V_10 = L_91;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1308>
 		bool L_92 = V_10;
 		if (!L_92)
 		{
@@ -9847,14 +9293,12 @@ IL_01b1:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1309>
 		uint32_t L_93 = ___0_changed;
 		___0_changed = ((int32_t)((int32_t)L_93|((int32_t)16)));
 	}
 
 IL_01c3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1311>
 		uint32_t L_94 = ___0_changed;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_95;
@@ -9865,24 +9309,19 @@ IL_01c3:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1313>
 		TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7* L_96 = V_3;
 		NullCheck(L_96);
 		uint8_t L_97 = L_96->___Scale;
 		V_12 = L_97;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1314>
 		uint8_t L_98 = V_1;
 		V_1 = ((int32_t)((int32_t)L_98|((int32_t)128)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1315>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_99 = ___1_writer;
 		NullCheck(L_99);
 		int32_t L_100 = ((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_99)->___Position;
 		V_13 = L_100;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1316>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_101 = ___1_writer;
 		NullCheck(L_101);
 		Writer_Skip_m1A5C87C87B27F31696453307883C43272745AD2F(L_101, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1322>
 		bool L_102 = V_10;
 		if (!L_102)
 		{
@@ -9890,16 +9329,13 @@ IL_01c3:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1324>
 		uint8_t L_103 = V_2;
 		V_2 = ((int32_t)((int32_t)L_103|((int32_t)128)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1325>
 		__this->____teleport = (bool)0;
 	}
 
 IL_0202:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1329>
 		bool L_104 = __this->____synchronizeScale;
 		if (!L_104)
 		{
@@ -9907,7 +9343,6 @@ IL_0202:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1332>
 		uint32_t L_105 = ___0_changed;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_106;
@@ -9918,14 +9353,12 @@ IL_0202:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1334>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_107 = V_9;
 		NullCheck(L_107);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_108;
 		L_108 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_107, NULL);
 		float L_109 = L_108.___x;
 		V_5 = L_109;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1336>
 		bool L_110 = V_0;
 		if (!L_110)
 		{
@@ -9933,7 +9366,6 @@ IL_0202:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1337>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_111 = ___2_dataToUpdate;
 		NullCheck(L_111);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_112 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_111->___Scale);
@@ -9943,11 +9375,9 @@ IL_0202:
 
 IL_0235:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1339>
 		float L_114 = V_5;
 		float L_115 = V_7;
 		V_6 = ((float)il2cpp_codegen_multiply(L_114, L_115));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1340>
 		uint8_t L_116 = V_12;
 		if (!L_116)
 		{
@@ -9966,10 +9396,8 @@ IL_0235:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1342>
 		uint8_t L_120 = V_2;
 		V_2 = ((int32_t)((int32_t)L_120|1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1343>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_121 = ___1_writer;
 		float L_122 = V_6;
 		NullCheck(L_121);
@@ -9979,10 +9407,8 @@ IL_0235:
 
 IL_025a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1347>
 		uint8_t L_123 = V_2;
 		V_2 = ((int32_t)((int32_t)L_123|2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1348>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_124 = ___1_writer;
 		float L_125 = V_5;
 		NullCheck(L_124);
@@ -9991,7 +9417,6 @@ IL_025a:
 
 IL_0266:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1353>
 		uint32_t L_126 = ___0_changed;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_127;
@@ -10002,14 +9427,12 @@ IL_0266:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1355>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_128 = V_9;
 		NullCheck(L_128);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_129;
 		L_129 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_128, NULL);
 		float L_130 = L_129.___y;
 		V_5 = L_130;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1357>
 		bool L_131 = V_0;
 		if (!L_131)
 		{
@@ -10017,7 +9440,6 @@ IL_0266:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1358>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_132 = ___2_dataToUpdate;
 		NullCheck(L_132);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_133 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_132->___Scale);
@@ -10027,11 +9449,9 @@ IL_0266:
 
 IL_028e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1360>
 		float L_135 = V_5;
 		float L_136 = V_7;
 		V_6 = ((float)il2cpp_codegen_multiply(L_135, L_136));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1361>
 		uint8_t L_137 = V_12;
 		if (!L_137)
 		{
@@ -10050,10 +9470,8 @@ IL_028e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1363>
 		uint8_t L_141 = V_2;
 		V_2 = ((int32_t)((int32_t)L_141|4));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1364>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_142 = ___1_writer;
 		float L_143 = V_6;
 		NullCheck(L_142);
@@ -10063,10 +9481,8 @@ IL_028e:
 
 IL_02b3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1368>
 		uint8_t L_144 = V_2;
 		V_2 = ((int32_t)((int32_t)L_144|8));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1369>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_145 = ___1_writer;
 		float L_146 = V_5;
 		NullCheck(L_145);
@@ -10075,7 +9491,6 @@ IL_02b3:
 
 IL_02bf:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1374>
 		uint32_t L_147 = ___0_changed;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_148;
@@ -10086,14 +9501,12 @@ IL_02bf:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1376>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_149 = V_9;
 		NullCheck(L_149);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_150;
 		L_150 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_149, NULL);
 		float L_151 = L_150.___z;
 		V_5 = L_151;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1378>
 		bool L_152 = V_0;
 		if (!L_152)
 		{
@@ -10101,7 +9514,6 @@ IL_02bf:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1379>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_153 = ___2_dataToUpdate;
 		NullCheck(L_153);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_154 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_153->___Scale);
@@ -10111,11 +9523,9 @@ IL_02bf:
 
 IL_02ea:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1381>
 		float L_156 = V_5;
 		float L_157 = V_7;
 		V_6 = ((float)il2cpp_codegen_multiply(L_156, L_157));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1382>
 		uint8_t L_158 = V_12;
 		if (!L_158)
 		{
@@ -10134,10 +9544,8 @@ IL_02ea:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1384>
 		uint8_t L_162 = V_2;
 		V_2 = ((int32_t)((int32_t)L_162|((int32_t)16)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1385>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_163 = ___1_writer;
 		float L_164 = V_6;
 		NullCheck(L_163);
@@ -10147,10 +9555,8 @@ IL_02ea:
 
 IL_0310:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1389>
 		uint8_t L_165 = V_2;
 		V_2 = ((int32_t)((int32_t)L_165|((int32_t)32)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1390>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_166 = ___1_writer;
 		float L_167 = V_5;
 		NullCheck(L_166);
@@ -10159,7 +9565,6 @@ IL_0310:
 
 IL_031d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1396>
 		uint32_t L_168 = ___0_changed;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_169;
@@ -10181,7 +9586,6 @@ IL_031d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1398>
 		bool L_172 = V_0;
 		if (!L_172)
 		{
@@ -10189,7 +9593,6 @@ IL_031d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1399>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_173 = ___2_dataToUpdate;
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_174;
 		L_174 = NetworkTransform_get_ParentBehaviour_mE85AF8D53315730DFB5D801B4FF880B33FF16BDC_inline(__this, NULL);
@@ -10200,10 +9603,8 @@ IL_031d:
 
 IL_0347:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1401>
 		uint8_t L_175 = V_2;
 		V_2 = ((int32_t)((int32_t)L_175|((int32_t)64)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1402>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_176 = ___1_writer;
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_177;
 		L_177 = NetworkTransform_get_ParentBehaviour_mE85AF8D53315730DFB5D801B4FF880B33FF16BDC_inline(__this, NULL);
@@ -10213,7 +9614,6 @@ IL_0347:
 
 IL_0358:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1405>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_178 = ___1_writer;
 		uint8_t L_179 = V_2;
 		int32_t L_180 = V_13;
@@ -10223,13 +9623,11 @@ IL_0358:
 
 IL_0361:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1409>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_181 = ___1_writer;
 		uint8_t L_182 = V_1;
 		int32_t L_183 = V_4;
 		NullCheck(L_181);
 		Writer_InsertUInt8Unpacked_m72ED2C7D3FD97847B1F7397F55EC78AAB1BD591E(L_181, L_182, L_183, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1415>
 		return;
 	}
 }
@@ -10253,7 +9651,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_DeserializePacket_mA6ED
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_0 = ___2_nextTransformData;
 		(&V_0)->___nextTransformData = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___nextTransformData), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1422>
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_1 = ___0_data;
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_2;
 		L_2 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
@@ -10261,19 +9658,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_DeserializePacket_mA6ED
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_3;
 		L_3 = ReaderPool_Retrieve_m8AE4E2C5C55EC9B7D81317CECA335FED4955BACB(L_1, L_2, 0, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1423>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_4 = V_1;
 		NullCheck(L_4);
 		uint8_t L_5;
 		L_5 = Reader_ReadUInt8Unpacked_m91AB70E5EA28BAB0E10F693CCB16D54B9F1B9737(L_4, NULL);
 		V_2 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1426>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_6 = V_1;
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = Reader_get_Remaining_mDC6E41D914FCE6AEF7A59AFF677BDA887CFB39EB(L_6, NULL);
 		V_3 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1428>
 		uint8_t L_8 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -10284,7 +9678,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_DeserializePacket_mA6ED
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1429>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_10 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_11 = L_10.___nextTransformData;
 		NullCheck(L_11);
@@ -10299,7 +9692,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_DeserializePacket_mA6ED
 
 IL_004c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1430>
 		uint8_t L_15 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -10310,7 +9702,6 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1431>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_17 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_18 = L_17.___nextTransformData;
 		NullCheck(L_18);
@@ -10325,7 +9716,6 @@ IL_004c:
 
 IL_006d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1433>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_22 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_23 = L_22.___nextTransformData;
 		NullCheck(L_23);
@@ -10339,7 +9729,6 @@ IL_006d:
 
 IL_0088:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1435>
 		uint8_t L_28 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_29;
@@ -10350,7 +9739,6 @@ IL_0088:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1436>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_30 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_31 = L_30.___nextTransformData;
 		NullCheck(L_31);
@@ -10365,7 +9753,6 @@ IL_0088:
 
 IL_00b0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1437>
 		uint8_t L_35 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_36;
@@ -10376,7 +9763,6 @@ IL_00b0:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1438>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_37 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_38 = L_37.___nextTransformData;
 		NullCheck(L_38);
@@ -10391,7 +9777,6 @@ IL_00b0:
 
 IL_00d1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1440>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_42 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_43 = L_42.___nextTransformData;
 		NullCheck(L_43);
@@ -10405,7 +9790,6 @@ IL_00d1:
 
 IL_00ec:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1442>
 		uint8_t L_48 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_49;
@@ -10416,7 +9800,6 @@ IL_00ec:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1443>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_50 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_51 = L_50.___nextTransformData;
 		NullCheck(L_51);
@@ -10431,7 +9814,6 @@ IL_00ec:
 
 IL_0115:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1444>
 		uint8_t L_55 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_56;
@@ -10442,7 +9824,6 @@ IL_0115:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1445>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_57 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_58 = L_57.___nextTransformData;
 		NullCheck(L_58);
@@ -10457,7 +9838,6 @@ IL_0115:
 
 IL_0137:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1447>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_62 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_63 = L_62.___nextTransformData;
 		NullCheck(L_63);
@@ -10471,7 +9851,6 @@ IL_0137:
 
 IL_0152:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1449>
 		int32_t L_68 = V_3;
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_69 = V_1;
 		NullCheck(L_69);
@@ -10483,7 +9862,6 @@ IL_0152:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1450>
 		int32_t* L_71 = ___3_changedFull;
 		int32_t* L_72 = ___3_changedFull;
 		int32_t L_73 = *((int32_t*)L_72);
@@ -10492,7 +9870,6 @@ IL_0152:
 
 IL_0163:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1453>
 		uint8_t L_74 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_75;
@@ -10503,7 +9880,6 @@ IL_0163:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1456>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_76 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_77 = L_76.___nextTransformData;
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_78 = V_1;
@@ -10515,7 +9891,6 @@ IL_0163:
 		L_81 = Reader_ReadQuaternion_mC903D215E7AECC5AC5B52656595499EB01EF22BD(L_78, L_80, NULL);
 		NullCheck(L_77);
 		L_77->___Rotation = L_81;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1457>
 		int32_t* L_82 = ___3_changedFull;
 		int32_t* L_83 = ___3_changedFull;
 		int32_t L_84 = *((int32_t*)L_83);
@@ -10525,7 +9900,6 @@ IL_0163:
 
 IL_0193:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1461>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_85 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_86 = L_85.___nextTransformData;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_87 = ___1_prevTransformData;
@@ -10537,7 +9911,6 @@ IL_0193:
 
 IL_01a4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1465>
 		uint8_t L_89 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_90;
@@ -10548,19 +9921,16 @@ IL_01a4:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1467>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_91 = V_1;
 		NullCheck(L_91);
 		uint8_t L_92;
 		L_92 = Reader_ReadUInt8Unpacked_m91AB70E5EA28BAB0E10F693CCB16D54B9F1B9737(L_91, NULL);
 		V_4 = L_92;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1468>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_93 = V_1;
 		NullCheck(L_93);
 		int32_t L_94;
 		L_94 = Reader_get_Remaining_mDC6E41D914FCE6AEF7A59AFF677BDA887CFB39EB(L_93, NULL);
 		V_3 = L_94;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1471>
 		uint8_t L_95 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_96;
@@ -10571,7 +9941,6 @@ IL_01a4:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1472>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_97 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_98 = L_97.___nextTransformData;
 		NullCheck(L_98);
@@ -10586,7 +9955,6 @@ IL_01a4:
 
 IL_01ec:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1473>
 		uint8_t L_102 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_103;
@@ -10597,7 +9965,6 @@ IL_01ec:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1474>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_104 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_105 = L_104.___nextTransformData;
 		NullCheck(L_105);
@@ -10612,7 +9979,6 @@ IL_01ec:
 
 IL_020e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1476>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_109 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_110 = L_109.___nextTransformData;
 		NullCheck(L_110);
@@ -10626,7 +9992,6 @@ IL_020e:
 
 IL_0229:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1478>
 		uint8_t L_115 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_116;
@@ -10637,7 +10002,6 @@ IL_0229:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1479>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_117 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_118 = L_117.___nextTransformData;
 		NullCheck(L_118);
@@ -10652,7 +10016,6 @@ IL_0229:
 
 IL_0252:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1480>
 		uint8_t L_122 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_123;
@@ -10663,7 +10026,6 @@ IL_0252:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1481>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_124 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_125 = L_124.___nextTransformData;
 		NullCheck(L_125);
@@ -10678,7 +10040,6 @@ IL_0252:
 
 IL_0274:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1483>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_129 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_130 = L_129.___nextTransformData;
 		NullCheck(L_130);
@@ -10692,7 +10053,6 @@ IL_0274:
 
 IL_028f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1485>
 		uint8_t L_135 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_136;
@@ -10703,7 +10063,6 @@ IL_028f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1486>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_137 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_138 = L_137.___nextTransformData;
 		NullCheck(L_138);
@@ -10718,7 +10077,6 @@ IL_028f:
 
 IL_02b9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1487>
 		uint8_t L_142 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_143;
@@ -10729,7 +10087,6 @@ IL_02b9:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1488>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_144 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_145 = L_144.___nextTransformData;
 		NullCheck(L_145);
@@ -10744,7 +10101,6 @@ IL_02b9:
 
 IL_02dc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1490>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_149 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_150 = L_149.___nextTransformData;
 		NullCheck(L_150);
@@ -10758,7 +10114,6 @@ IL_02dc:
 
 IL_02f7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1492>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_155 = V_1;
 		NullCheck(L_155);
 		int32_t L_156;
@@ -10770,7 +10125,6 @@ IL_02f7:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1493>
 		int32_t* L_158 = ___3_changedFull;
 		int32_t* L_159 = ___3_changedFull;
 		int32_t L_160 = *((int32_t*)L_159);
@@ -10780,7 +10134,6 @@ IL_02f7:
 
 IL_030a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1495>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_161 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_162 = L_161.___nextTransformData;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_163 = ___1_prevTransformData;
@@ -10792,7 +10145,6 @@ IL_030a:
 
 IL_031b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1497>
 		uint8_t L_165 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_166;
@@ -10803,7 +10155,6 @@ IL_031b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1498>
 		int32_t* L_167 = ___3_changedFull;
 		int32_t* L_168 = ___3_changedFull;
 		int32_t L_169 = *((int32_t*)L_168);
@@ -10812,7 +10163,6 @@ IL_031b:
 
 IL_0332:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1500>
 		uint8_t L_170 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_171;
@@ -10823,7 +10173,6 @@ IL_0332:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1502>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_172 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_173 = L_172.___nextTransformData;
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_174 = V_1;
@@ -10833,7 +10182,6 @@ IL_0332:
 		NullCheck(L_173);
 		L_173->___ParentBehaviour = L_175;
 		Il2CppCodeGenWriteBarrier((void**)(&L_173->___ParentBehaviour), (void*)L_175);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1503>
 		int32_t* L_176 = ___3_changedFull;
 		int32_t* L_177 = ___3_changedFull;
 		int32_t L_178 = *((int32_t*)L_177);
@@ -10843,7 +10191,6 @@ IL_0332:
 
 IL_0358:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1507>
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		NetworkTransform_U3CDeserializePacketU3Eg__UnnestU7C121_0_m429A1FAF83DE4A454CBA9E4DF77BEF3706827EBA((&V_0), NULL);
 		goto IL_0379;
@@ -10851,7 +10198,6 @@ IL_0358:
 
 IL_0361:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1513>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2 L_179 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_180 = L_179.___nextTransformData;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_181 = ___1_prevTransformData;
@@ -10859,18 +10205,15 @@ IL_0361:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_182 = L_181->___Scale;
 		NullCheck(L_180);
 		L_180->___Scale = L_182;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1514>
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		NetworkTransform_U3CDeserializePacketU3Eg__UnnestU7C121_0_m429A1FAF83DE4A454CBA9E4DF77BEF3706827EBA((&V_0), NULL);
 	}
 
 IL_0379:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1534>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_183 = V_1;
 		NullCheck(L_183);
 		PooledReader_Store_m9E30B12CCA6E9751A250F205FBB9092E83D46754(L_183, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1535>
 		return;
 	}
 }
@@ -10889,7 +10232,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_UpdateParentBehaviour_m
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1542>
 		bool L_0 = __this->____synchronizeParent;
 		if (L_0)
 		{
@@ -10897,13 +10239,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_UpdateParentBehaviour_m
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1543>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1545>
 		bool L_1;
 		L_1 = NetworkTransform_CanControl_m558DC483D5C820CD176F05E902F78F1809800DA0(__this, NULL);
 		if (L_1)
@@ -10912,19 +10252,16 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1546>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1547>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->____cachedTransform;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1550>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -10935,7 +10272,6 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1555>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_6;
 		L_6 = NetworkBehaviour_get_NetworkObject_m3EEBF47647F4FF04EE88BF6A321CBE2BA23FA64A_inline(__this, NULL);
 		NullCheck(L_6);
@@ -10949,7 +10285,6 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1556>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_9;
 		L_9 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
@@ -10964,9 +10299,7 @@ IL_0012:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1558>
 		NetworkTransform_set_ParentBehaviour_mD9AB7FE821272225C44B28124BE1E6AC91551A6B_inline(__this, (NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1559>
 		__this->____parentTransform = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____parentTransform), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
 		return;
@@ -10974,7 +10307,6 @@ IL_005a:
 
 IL_0069:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1565>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->____parentTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -10986,17 +10318,14 @@ IL_0069:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1566>
 		return;
 	}
 
 IL_0078:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1568>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = V_0;
 		__this->____parentTransform = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____parentTransform), (void*)L_16);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1571>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = V_0;
 		NullCheck(L_17);
 		bool L_18;
@@ -11007,19 +10336,15 @@ IL_0078:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1573>
 		NetworkTransform_set_ParentBehaviour_mD9AB7FE821272225C44B28124BE1E6AC91551A6B_inline(__this, (NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1574>
 		NetworkTransform_LogInvalidParent_m5E049A6D4A39FFBA1D390460A0293CBB86196E8F(__this, NULL);
 		return;
 	}
 
 IL_0097:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1578>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_19 = V_1;
 		NetworkTransform_set_ParentBehaviour_mD9AB7FE821272225C44B28124BE1E6AC91551A6B_inline(__this, L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1580>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_20;
 		L_20 = NetworkBehaviour_get_NetworkObject_m3EEBF47647F4FF04EE88BF6A321CBE2BA23FA64A_inline(__this, NULL);
 		NullCheck(L_20);
@@ -11036,7 +10361,6 @@ IL_0097:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1581>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_24;
 		L_24 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
@@ -11051,7 +10375,6 @@ IL_0097:
 
 IL_00d6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1584>
 		return;
 	}
 }
@@ -11070,7 +10393,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetParent_m7BE2E8F68A9C
 	memset((&V_2), 0, sizeof(V_2));
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1592>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_0 = ___0_parent;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11097,10 +10419,8 @@ IL_0011:
 IL_0012:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1593>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->____cachedTransform;
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1595>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = V_1;
 		NullCheck(L_6);
@@ -11115,19 +10435,16 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1596>
 		return;
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1598>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = V_1;
 		NullCheck(L_9);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_9, NULL);
 		V_2 = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1600>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -11138,7 +10455,6 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1601>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_13;
 		L_13 = NetworkBehaviour_get_NetworkObject_m3EEBF47647F4FF04EE88BF6A321CBE2BA23FA64A_inline(__this, NULL);
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_14 = ___0_parent;
@@ -11149,7 +10465,6 @@ IL_0029:
 
 IL_0047:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1603>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_15;
 		L_15 = NetworkBehaviour_get_NetworkObject_m3EEBF47647F4FF04EE88BF6A321CBE2BA23FA64A_inline(__this, NULL);
 		NullCheck(L_15);
@@ -11158,12 +10473,10 @@ IL_0047:
 
 IL_0052:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1605>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_2;
 		NullCheck(L_16);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_16, L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1609>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_18 = ___1_rd;
 		if (!L_18)
 		{
@@ -11171,7 +10484,6 @@ IL_0052:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1610>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_19 = ___1_rd;
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_20 = ___1_rd;
 		NullCheck(L_20);
@@ -11188,7 +10500,6 @@ IL_0052:
 
 IL_0083:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1611>
 		return;
 	}
 }
@@ -11222,7 +10533,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_MoveToTarget_m9B149AEAC
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B38_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B37_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1618>
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_MoveToTarget;
 		V_1 = L_0;
@@ -11243,7 +10553,6 @@ FINALLY_0218:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1620>
 				GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_2 = __this->____currentGoalData;
 				if (L_2)
 				{
@@ -11251,13 +10560,11 @@ FINALLY_0218:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1621>
 				goto IL_0226;
 			}
 
 IL_001b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1624>
 				bool L_3;
 				L_3 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
 				if (L_3)
@@ -11274,13 +10581,11 @@ IL_001b_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1625>
 				goto IL_0226;
 			}
 
 IL_0030_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1627>
 				bool L_5;
 				L_5 = NetworkTransform_DoSettingsAllowSmoothing_m19A4D263783DAC797CFDB7B6077002888968BDD2(__this, NULL);
 				if (L_5)
@@ -11289,23 +10594,19 @@ IL_0030_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1628>
 				goto IL_0226;
 			}
 
 IL_003d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1634>
 				GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_6 = __this->____currentGoalData;
 				NullCheck(L_6);
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_7 = L_6->___Transforms;
 				V_2 = L_7;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1635>
 				GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_8 = __this->____currentGoalData;
 				NullCheck(L_8);
 				RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_9 = L_8->___Rates;
 				V_3 = L_9;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1638>
 				bool L_10 = __this->____synchronizeParent;
 				if (!L_10)
 				{
@@ -11313,7 +10614,6 @@ IL_003d_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1639>
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_11 = V_2;
 				NullCheck(L_11);
 				NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_12 = L_11->___ParentBehaviour;
@@ -11323,15 +10623,12 @@ IL_003d_1:
 
 IL_006a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1641>
 				V_4 = (1.0f);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1642>
 				Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_14 = __this->____goalDataQueue;
 				NullCheck(L_14);
 				int32_t L_15;
 				L_15 = Queue_1_get_Count_m3334AB5CEE59E2E16485757D38886F4E808EF099_inline(L_14, Queue_1_get_Count_m3334AB5CEE59E2E16485757D38886F4E808EF099_RuntimeMethod_var);
 				V_5 = L_15;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1644>
 				int32_t L_16 = V_5;
 				uint16_t L_17 = __this->____interpolation;
 				if ((((int32_t)L_16) <= ((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_17, 1)))))
@@ -11340,20 +10637,16 @@ IL_006a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1645>
 				float L_18 = V_4;
 				V_4 = ((float)il2cpp_codegen_add(L_18, (0.0500000007f)));
 			}
 
 IL_0094_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1649>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = __this->____cachedTransform;
 				V_7 = L_19;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1652>
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_20 = V_2;
 				NetworkTransform_SnapProperties_mA5C282BCFAC87CD49948B45529ED68F17E12876F(__this, L_20, (bool)0, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1655>
 				bool L_21 = __this->____synchronizePosition;
 				if (!L_21)
 				{
@@ -11361,12 +10654,10 @@ IL_0094_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1657>
 				RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_22 = V_3;
 				NullCheck(L_22);
 				float L_23 = L_22->___Position;
 				V_6 = L_23;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1658>
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_24 = V_2;
 				NullCheck(L_24);
 				uint8_t L_25 = L_24->___ExtrapolationState;
@@ -11403,7 +10694,6 @@ IL_00cd_1:
 IL_00d3_1:
 			{
 				V_9 = G_B17_0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1660>
 				float L_31 = V_6;
 				if ((!(((float)L_31) == ((float)(-1.0f)))))
 				{
@@ -11411,7 +10701,6 @@ IL_00d3_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1661>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32 = V_7;
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_33 = V_2;
 				NullCheck(L_33);
@@ -11423,7 +10712,6 @@ IL_00d3_1:
 
 IL_00ed_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1663>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = V_7;
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36 = V_7;
 				NullCheck(L_36);
@@ -11441,7 +10729,6 @@ IL_00ed_1:
 
 IL_0109_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1667>
 				bool L_43 = __this->____synchronizeRotation;
 				if (!L_43)
 				{
@@ -11449,12 +10736,10 @@ IL_0109_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1669>
 				RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_44 = V_3;
 				NullCheck(L_44);
 				float L_45 = L_44->___Rotation;
 				V_6 = L_45;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1671>
 				float L_46 = V_6;
 				if ((!(((float)L_46) == ((float)(-1.0f)))))
 				{
@@ -11462,7 +10747,6 @@ IL_0109_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1672>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_47 = V_7;
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_48 = V_2;
 				NullCheck(L_48);
@@ -11474,7 +10758,6 @@ IL_0109_1:
 
 IL_0131_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1674>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_50 = V_7;
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_51 = V_7;
 				NullCheck(L_51);
@@ -11493,7 +10776,6 @@ IL_0131_1:
 
 IL_014e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1678>
 				bool L_58 = __this->____synchronizeScale;
 				if (!L_58)
 				{
@@ -11501,12 +10783,10 @@ IL_014e_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1680>
 				RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_59 = V_3;
 				NullCheck(L_59);
 				float L_60 = L_59->___Scale;
 				V_6 = L_60;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1682>
 				float L_61 = V_6;
 				if ((!(((float)L_61) == ((float)(-1.0f)))))
 				{
@@ -11514,7 +10794,6 @@ IL_014e_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1683>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_62 = V_7;
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_63 = V_2;
 				NullCheck(L_63);
@@ -11526,7 +10805,6 @@ IL_014e_1:
 
 IL_0176_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1685>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_65 = V_7;
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_66 = V_7;
 				NullCheck(L_66);
@@ -11545,14 +10823,12 @@ IL_0176_1:
 
 IL_0193_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1688>
 				RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_73 = V_3;
 				NullCheck(L_73);
 				float L_74 = L_73->___TimeRemaining;
 				float L_75 = ___0_delta;
 				float L_76 = V_4;
 				V_8 = ((float)il2cpp_codegen_subtract(L_74, ((float)il2cpp_codegen_multiply(L_75, L_76))));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1689>
 				float L_77 = V_8;
 				float L_78 = ___0_delta;
 				if ((!(((float)L_77) < ((float)((-L_78))))))
@@ -11561,19 +10837,16 @@ IL_0193_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1690>
 				float L_79 = ___0_delta;
 				V_8 = ((-L_79));
 			}
 
 IL_01aa_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1691>
 				RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_80 = V_3;
 				float L_81 = V_8;
 				NullCheck(L_80);
 				L_80->___TimeRemaining = L_81;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1693>
 				RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_82 = V_3;
 				NullCheck(L_82);
 				float L_83 = L_82->___TimeRemaining;
@@ -11583,14 +10856,12 @@ IL_01aa_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1695>
 				RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_84 = V_3;
 				NullCheck(L_84);
 				float L_85 = L_84->___TimeRemaining;
 				float L_86;
 				L_86 = fabsf(L_85);
 				V_10 = L_86;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1697>
 				int32_t L_87 = V_5;
 				if ((((int32_t)L_87) <= ((int32_t)0)))
 				{
@@ -11598,13 +10869,11 @@ IL_01aa_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1699>
 				Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_88 = __this->____goalDataQueue;
 				NullCheck(L_88);
 				GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_89;
 				L_89 = Queue_1_Dequeue_m2EEC09C117F427132369E9F03DC6ED0472CBF805(L_88, Queue_1_Dequeue_m2EEC09C117F427132369E9F03DC6ED0472CBF805_RuntimeMethod_var);
 				NetworkTransform_SetCurrentGoalData_m022279E471646D96B7CF9DC9C9377184096424A2(__this, L_89, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1700>
 				float L_90 = V_10;
 				if ((!(((float)L_90) > ((float)(0.0f)))))
 				{
@@ -11612,7 +10881,6 @@ IL_01aa_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1701>
 				float L_91 = V_10;
 				NetworkTransform_MoveToTarget_m9B149AEACCFA505561AE6CA26D44AA9BF3C74FB7(__this, L_91, NULL);
 				goto IL_0226;
@@ -11620,7 +10888,6 @@ IL_01aa_1:
 
 IL_01f5_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1711>
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_92 = V_2;
 				bool L_93;
 				L_93 = NetworkTransform_HasChanged_m39688C7026815F2D6A515CF63D188629A5C65F7B(__this, L_92, NULL);
@@ -11630,14 +10897,12 @@ IL_01f5_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1712>
 				__this->____currentGoalData = (GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344*)NULL;
 				Il2CppCodeGenWriteBarrier((void**)(&__this->____currentGoalData), (void*)(GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344*)NULL);
 			}
 
 IL_0205_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1713>
 				Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_94 = __this->___OnInterpolationComplete;
 				Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_95 = L_94;
 				if (L_95)
@@ -11659,7 +10924,6 @@ IL_0211_1:
 
 IL_0216_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1716>
 				goto IL_0226;
 			}
 		}
@@ -11671,7 +10935,6 @@ IL_0216_1:
 
 IL_0226:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1717>
 		return;
 	}
 }
@@ -11680,7 +10943,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_DoSettingsAllowSmoothin
 {
 	int32_t G_B10_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1726>
 		bool L_0 = __this->____clientAuthoritative;
 		if (!L_0)
 		{
@@ -11688,7 +10950,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_DoSettingsAllowSmoothin
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1728>
 		bool L_1;
 		L_1 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (L_1)
@@ -11707,13 +10968,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_DoSettingsAllowSmoothin
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1729>
 		return (bool)0;
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1734>
 		bool L_3;
 		L_3 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (!L_3)
@@ -11729,13 +10988,11 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1735>
 		return (bool)0;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1739>
 		bool L_5 = __this->____clientAuthoritative;
 		if (!L_5)
 		{
@@ -11759,7 +11016,6 @@ IL_0041:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1741>
 		if (G_B10_0)
 		{
 			goto IL_004e;
@@ -11774,13 +11030,11 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1742>
 		return (bool)0;
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1744>
 		return (bool)1;
 	}
 }
@@ -11804,7 +11058,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SendToClients_m3EEABC2A
 	uint32_t V_6 = 0;
 	int32_t G_B4_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1752>
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_SendToClients;
 		V_1 = L_0;
@@ -11825,7 +11078,6 @@ FINALLY_0163:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1755>
 				bool L_2 = __this->____clientAuthoritative;
 				if (!L_2)
 				{
@@ -11849,9 +11101,7 @@ IL_0023_1:
 
 IL_0024_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1757>
 				V_2 = 1;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1760>
 				if (!G_B4_0)
 				{
 					goto IL_00e7_1;
@@ -11869,7 +11119,6 @@ IL_0024_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1766>
 				ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_7 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 				bool L_8 = L_7->___HasData;
 				if (L_8)
@@ -11894,16 +11143,13 @@ IL_0024_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1770>
 				uint16_t L_13 = __this->____interpolation;
 				uint16_t L_14 = __this->____extrapolation;
 				V_3 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(1, (int32_t)L_13)), (int32_t)L_14));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1771>
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_15 = __this->____timeManager;
 				NullCheck(L_15);
 				uint32_t L_16;
 				L_16 = TimeManager_get_LocalTick_m33B90F5CF081E02D356737AB650141634B970275(L_15, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1772>
 				ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_17 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 				uint32_t L_18 = L_17->___LocalTick;
 				uint32_t L_19 = V_3;
@@ -11913,7 +11159,6 @@ IL_0024_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1773>
 				ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_20 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 				ReceivedClientData_SendReliably_m13A0A8C38FE7A442AAAF625D19B13BA772BD52C2(L_20, NULL);
 				goto IL_009e_1;
@@ -11921,13 +11166,11 @@ IL_0024_1:
 
 IL_0099_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1776>
 				goto IL_0171;
 			}
 
 IL_009e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1779>
 				ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_21 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 				bool L_22 = L_21->___HasData;
 				if (!L_22)
@@ -11936,9 +11179,7 @@ IL_009e_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1781>
 				__this->____changedSinceStart = (bool)1;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1783>
 				ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_23 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_24 = L_23->___Writer;
 				NullCheck(L_24);
@@ -11947,7 +11188,6 @@ IL_009e_1:
 				ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_26 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 				uint8_t L_27 = L_26->___Channel;
 				NetworkTransform_ObserversUpdateClientAuthoritativeTransform_mADB084C3C9E78DC045032E31DB204C9AB6AAE612(__this, L_25, L_27, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1785>
 				ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_28 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 				L_28->___HasData = (bool)0;
 				goto IL_0171;
@@ -11955,18 +11195,14 @@ IL_009e_1:
 
 IL_00e7_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1791>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_29 = __this->____toClientChangedWriter;
 				V_4 = L_29;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1793>
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_30 = __this->____lastSentTransformData;
 				V_5 = L_30;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1794>
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_31 = V_5;
 				uint32_t L_32;
 				L_32 = NetworkTransform_GetChanged_m63037462F40A440F1E9F7180C9E14D3D9F71BBAC(__this, L_31, NULL);
 				V_6 = L_32;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1797>
 				uint32_t L_33 = V_6;
 				if (L_33)
 				{
@@ -11974,7 +11210,6 @@ IL_00e7_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1800>
 				uint32_t L_34 = __this->____serverChangedSinceReliable;
 				if (L_34)
 				{
@@ -11982,39 +11217,30 @@ IL_00e7_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1801>
 				goto IL_0171;
 			}
 
 IL_010f_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1803>
 				__this->____serverChangedSinceReliable = 0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1804>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_35 = __this->____toClientChangedWriter;
 				V_4 = L_35;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1807>
 				V_2 = 0;
 				goto IL_0153_1;
 			}
 
 IL_0122_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1813>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_36 = V_4;
 				NullCheck(L_36);
 				Writer_Clear_m25168B80F7E7F14BD63C6E8131339233527921DA(L_36, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1815>
 				uint32_t L_37 = __this->____serverChangedSinceReliable;
 				uint32_t L_38 = V_6;
 				__this->____serverChangedSinceReliable = ((int32_t)((int32_t)L_37|(int32_t)L_38));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1817>
 				__this->____changedSinceStart = (bool)1;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1823>
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_39 = V_5;
 				NullCheck(L_39);
 				L_39->___Tick = 0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1825>
 				uint32_t L_40 = V_6;
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_41 = V_4;
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_42 = V_5;
@@ -12023,7 +11249,6 @@ IL_0122_1:
 
 IL_0153_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1828>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_43 = V_4;
 				NullCheck(L_43);
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_44;
@@ -12034,7 +11259,6 @@ IL_0153_1:
 
 IL_0161_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1830>
 				goto IL_0171;
 			}
 		}
@@ -12046,7 +11270,6 @@ IL_0161_1:
 
 IL_0171:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1831>
 		return;
 	}
 }
@@ -12068,7 +11291,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SendToServer_m71785A75C
 	uint32_t V_3 = 0;
 	PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* V_4 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1838>
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_SendToServer;
 		V_1 = L_0;
@@ -12089,7 +11311,6 @@ FINALLY_009a:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1845>
 				bool L_2;
 				L_2 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
 				if (!L_2)
@@ -12098,13 +11319,11 @@ FINALLY_009a:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1846>
 				goto IL_00a8;
 			}
 
 IL_001b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1849>
 				bool L_3 = __this->____clientAuthoritative;
 				if (!L_3)
 				{
@@ -12122,20 +11341,16 @@ IL_001b_1:
 
 IL_002b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1850>
 				goto IL_00a8;
 			}
 
 IL_002d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1853>
 				V_2 = 1;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1855>
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_5 = ___0_lastSentTransformData;
 				uint32_t L_6;
 				L_6 = NetworkTransform_GetChanged_m63037462F40A440F1E9F7180C9E14D3D9F71BBAC(__this, L_5, NULL);
 				V_3 = L_6;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1858>
 				uint32_t L_7 = V_3;
 				if (L_7)
 				{
@@ -12143,7 +11358,6 @@ IL_002d_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1861>
 				uint32_t L_8 = __this->____clientChangedSinceReliable;
 				if (L_8)
 				{
@@ -12151,25 +11365,20 @@ IL_002d_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1862>
 				goto IL_00a8;
 			}
 
 IL_0044_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1865>
 				uint32_t L_9 = __this->____clientChangedSinceReliable;
 				V_3 = L_9;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1866>
 				__this->____clientChangedSinceReliable = 0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1867>
 				V_2 = 0;
 				goto IL_0064_1;
 			}
 
 IL_0056_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1872>
 				uint32_t L_10 = __this->____clientChangedSinceReliable;
 				uint32_t L_11 = V_3;
 				__this->____clientChangedSinceReliable = ((int32_t)((int32_t)L_10|(int32_t)L_11));
@@ -12177,34 +11386,27 @@ IL_0056_1:
 
 IL_0064_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1877>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = __this->____cachedTransform;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1880>
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_13 = ___0_lastSentTransformData;
 				NullCheck(L_13);
 				L_13->___Tick = 0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1883>
 				il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_14;
 				L_14 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
 				V_4 = L_14;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1884>
 				uint32_t L_15 = V_3;
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_16 = V_4;
 				TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_17 = ___0_lastSentTransformData;
 				NetworkTransform_SerializeChanged_m73AE0B5323969896A0ABBD15303A8BF09FBAF3FC(__this, L_15, L_16, L_17, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1886>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_18 = V_4;
 				NullCheck(L_18);
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_19;
 				L_19 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE(L_18, NULL);
 				uint8_t L_20 = V_2;
 				NetworkTransform_ServerUpdateTransform_m939F6C8666B70D8D0016076DA7BE1F3EBD7AFA15(__this, L_19, L_20, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1888>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_21 = V_4;
 				NullCheck(L_21);
 				PooledWriter_Store_mECF2392E9D0E521B8A12BABCA50A6D39900CAAF2(L_21, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1889>
 				goto IL_00a8;
 			}
 		}
@@ -12216,7 +11418,6 @@ IL_0064_1:
 
 IL_00a8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1890>
 		return;
 	}
 }
@@ -12225,10 +11426,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_HasChanged_m39688C70268
 {
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1898>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____cachedTransform;
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1899>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_1 = ___0_td;
 		NullCheck(L_1);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = L_1->___Position;
@@ -12273,7 +11472,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_HasChanged_m39688C70268
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1901>
 		return (bool)1;
 	}
 }
@@ -12287,7 +11485,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_HasChanged_mC07BC59BEB2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1909>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_0 = ___0_a;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = L_0->___Position;
@@ -12351,7 +11548,6 @@ IL_004b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t NetworkTransform_GetChanged_m63037462F40A440F1E9F7180C9E14D3D9F71BBAC (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* ___0_transformData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1947>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_0 = ___0_transformData;
 		if (!L_0)
 		{
@@ -12371,7 +11567,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t NetworkTransform_GetChanged_m6303746
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1948>
 		uint32_t L_3;
 		L_3 = NetworkTransform_get__fullChanged_mBEF1ABBA946812AB5712EFA7B3F25B08133985D3(__this, NULL);
 		return L_3;
@@ -12379,7 +11574,6 @@ IL_000b:
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1955>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_4 = ___0_transformData;
 		NullCheck(L_4);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = L_4->___Position;
@@ -12436,12 +11630,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t NetworkTransform_GetChanged_m0E9E3A2
 	uint32_t G_B19_0 = 0;
 	uint32_t G_B20_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1963>
 		V_0 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1964>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____cachedTransform;
 		V_1 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1966>
 		bool L_1 = __this->____synchronizePosition;
 		if (!L_1)
 		{
@@ -12449,12 +11640,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t NetworkTransform_GetChanged_m0E9E3A2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1968>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = V_1;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1969>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3;
 		float L_5 = L_4.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_lastPosition;
@@ -12470,7 +11659,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t NetworkTransform_GetChanged_m0E9E3A2
 		G_B2_0 = L_4;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1970>
 		uint32_t L_10 = V_0;
 		V_0 = ((int32_t)((int32_t)L_10|1));
 		G_B3_0 = G_B2_0;
@@ -12478,7 +11666,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t NetworkTransform_GetChanged_m0E9E3A2
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1971>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = G_B3_0;
 		float L_12 = L_11.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_lastPosition;
@@ -12494,7 +11681,6 @@ IL_0035:
 		G_B4_0 = L_11;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1972>
 		uint32_t L_17 = V_0;
 		V_0 = ((int32_t)((int32_t)L_17|2));
 		G_B5_0 = G_B4_0;
@@ -12502,7 +11688,6 @@ IL_0035:
 
 IL_0053:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1973>
 		float L_18 = G_B5_0.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = ___0_lastPosition;
 		float L_20 = L_19.___z;
@@ -12515,14 +11700,12 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1974>
 		uint32_t L_23 = V_0;
 		V_0 = ((int32_t)((int32_t)L_23|4));
 	}
 
 IL_0070:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1977>
 		bool L_24 = __this->____synchronizeRotation;
 		if (!L_24)
 		{
@@ -12530,12 +11713,10 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1979>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = V_1;
 		NullCheck(L_25);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26;
 		L_26 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_25, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1980>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_27 = ___1_lastRotation;
 		bool L_28;
 		L_28 = Quaternions_Matches_mE5B4DE8B09CF5016FED1637EDAC9A332C49C38BE(L_26, L_27, (bool)1, NULL);
@@ -12545,16 +11726,13 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1981>
 		uint32_t L_29 = V_0;
 		V_0 = ((int32_t)((int32_t)L_29|8));
 	}
 
 IL_008b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1984>
 		uint32_t L_30 = V_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1986>
 		bool L_31 = __this->____synchronizeScale;
 		if (!L_31)
 		{
@@ -12564,12 +11742,10 @@ IL_008b:
 		G_B11_0 = L_30;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1988>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32 = V_1;
 		NullCheck(L_32);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
 		L_33 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_32, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1989>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = L_33;
 		float L_35 = L_34.___x;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = ___2_lastScale;
@@ -12587,7 +11763,6 @@ IL_008b:
 		G_B12_1 = G_B11_0;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1990>
 		uint32_t L_40 = V_0;
 		V_0 = ((int32_t)((int32_t)L_40|((int32_t)32)));
 		G_B13_0 = G_B12_0;
@@ -12596,7 +11771,6 @@ IL_008b:
 
 IL_00b9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1991>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = G_B13_0;
 		float L_42 = L_41.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = ___2_lastScale;
@@ -12614,7 +11788,6 @@ IL_00b9:
 		G_B14_1 = G_B13_1;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1992>
 		uint32_t L_47 = V_0;
 		V_0 = ((int32_t)((int32_t)L_47|((int32_t)64)));
 		G_B15_0 = G_B14_0;
@@ -12623,7 +11796,6 @@ IL_00b9:
 
 IL_00d8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1993>
 		float L_48 = G_B15_0.___z;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = ___2_lastScale;
 		float L_50 = L_49.___z;
@@ -12638,7 +11810,6 @@ IL_00d8:
 		G_B16_0 = G_B15_1;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1994>
 		uint32_t L_53 = V_0;
 		V_0 = ((int32_t)((int32_t)L_53|((int32_t)128)));
 		G_B17_0 = G_B16_0;
@@ -12646,7 +11817,6 @@ IL_00d8:
 
 IL_00f9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1997>
 		bool L_54 = __this->____synchronizeParent;
 		if (!L_54)
 		{
@@ -12678,7 +11848,6 @@ IL_00f9:
 		G_B20_0 = G_B19_0;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1998>
 		uint32_t L_58 = V_0;
 		V_0 = ((int32_t)((int32_t)L_58|((int32_t)256)));
 		G_B21_0 = G_B20_0;
@@ -12686,7 +11855,6 @@ IL_00f9:
 
 IL_011a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2001>
 		uint32_t L_59 = V_0;
 		if ((((int32_t)G_B21_0) == ((int32_t)L_59)))
 		{
@@ -12694,14 +11862,12 @@ IL_011a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2002>
 		uint32_t L_60 = V_0;
 		V_0 = ((int32_t)((int32_t)L_60|((int32_t)16)));
 	}
 
 IL_0122:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2004>
 		uint32_t L_61 = V_0;
 		return L_61;
 	}
@@ -12764,7 +11930,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SnapProperties_mA5C282B
 	float G_B43_0 = 0.0f;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B43_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2015>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_0 = ___0_transformData;
 		NullCheck(L_0);
 		bool L_1 = L_0->___SnappingChecked;
@@ -12774,20 +11939,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SnapProperties_mA5C282B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2016>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2018>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_2 = ___0_transformData;
 		NullCheck(L_2);
 		L_2->___SnappingChecked = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2019>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->____cachedTransform;
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2022>
 		bool L_4 = __this->____synchronizePosition;
 		if (!L_4)
 		{
@@ -12795,12 +11956,10 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2024>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = V_0;
 		NullCheck(L_5);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2026>
 		bool L_7 = ___1_force;
 		if (L_7)
 		{
@@ -12843,7 +12002,6 @@ IL_0048:
 IL_0053:
 	{
 		G_B7_1->___x = G_B7_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2027>
 		bool L_16 = ___1_force;
 		if (L_16)
 		{
@@ -12886,7 +12044,6 @@ IL_0077:
 IL_0082:
 	{
 		G_B11_1->___y = G_B11_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2028>
 		bool L_25 = ___1_force;
 		if (L_25)
 		{
@@ -12929,7 +12086,6 @@ IL_00a6:
 IL_00b1:
 	{
 		G_B15_1->___z = G_B15_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2029>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_1;
 		NullCheck(L_34);
@@ -12938,7 +12094,6 @@ IL_00b1:
 
 IL_00bd:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2033>
 		bool L_36 = __this->____synchronizeRotation;
 		if (!L_36)
 		{
@@ -12946,14 +12101,12 @@ IL_00bd:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2036>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_37 = ___0_transformData;
 		NullCheck(L_37);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* L_38 = (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974*)(&L_37->___Rotation);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
 		L_39 = Quaternion_get_eulerAngles_m2DB5158B5C3A71FD60FC8A6EE43D3AAA1CFED122_inline(L_38, NULL);
 		V_3 = L_39;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2037>
 		bool L_40 = ___1_force;
 		if (L_40)
 		{
@@ -12994,7 +12147,6 @@ IL_00f3:
 IL_00f9:
 	{
 		G_B21_1->___x = G_B21_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2038>
 		bool L_48 = ___1_force;
 		if (L_48)
 		{
@@ -13035,7 +12187,6 @@ IL_011d:
 IL_0123:
 	{
 		G_B25_1->___y = G_B25_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2039>
 		bool L_56 = ___1_force;
 		if (L_56)
 		{
@@ -13076,7 +12227,6 @@ IL_0147:
 IL_014d:
 	{
 		G_B29_1->___z = G_B29_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2040>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_64 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65 = V_2;
 		NullCheck(L_64);
@@ -13085,7 +12235,6 @@ IL_014d:
 
 IL_0159:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2044>
 		bool L_66 = __this->____synchronizeScale;
 		if (!L_66)
 		{
@@ -13093,7 +12242,6 @@ IL_0159:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2047>
 		bool L_67 = ___1_force;
 		if (L_67)
 		{
@@ -13136,7 +12284,6 @@ IL_0183:
 IL_018e:
 	{
 		G_B35_1->___x = G_B35_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2048>
 		bool L_76 = ___1_force;
 		if (L_76)
 		{
@@ -13179,7 +12326,6 @@ IL_01b2:
 IL_01bd:
 	{
 		G_B39_1->___y = G_B39_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2049>
 		bool L_85 = ___1_force;
 		if (L_85)
 		{
@@ -13222,7 +12368,6 @@ IL_01e1:
 IL_01ec:
 	{
 		G_B43_1->___z = G_B43_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2050>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_94 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_95 = V_4;
 		NullCheck(L_94);
@@ -13231,7 +12376,6 @@ IL_01ec:
 
 IL_01f9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2052>
 		return;
 	}
 }
@@ -13239,13 +12383,11 @@ IL_01f9:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetInstantRates_mA703A9D461B232999F34308F3D821AAB32ABA6FE (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* ___0_rd, uint32_t ___1_tickDifference, float ___2_timeRemaining, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2060>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_0 = ___0_rd;
 		uint32_t L_1 = ___1_tickDifference;
 		float L_2 = ___2_timeRemaining;
 		NullCheck(L_0);
 		RateData_Update_m0E5CDA4573B369ABA493BF04F0EAE0F07CC8213B(L_0, (-1.0f), (-1.0f), (-1.0f), (-1.0f), L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2061>
 		return;
 	}
 }
@@ -13271,12 +12413,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetCalculatedRates_m59A
 	float V_10 = 0.0f;
 	float V_11 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2074>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_0 = ___2_nextGd;
 		NullCheck(L_0);
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_1 = L_0->___Transforms;
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2075>
 		uint8_t L_2 = ___5_channel;
 		if (L_2)
 		{
@@ -13291,37 +12431,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetCalculatedRates_m59A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2077>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_4 = ___2_nextGd;
 		NullCheck(L_4);
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_5 = L_4->___Rates;
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_6 = ___1_prevRd;
 		NullCheck(L_5);
 		RateData_Update_mBAEDB8E89512F172538795C66C7CA424FBEC9538(L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2078>
 		return;
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2082>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_7 = ___0_prevTd;
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_8 = ___2_nextGd;
 		uint32_t L_9;
 		L_9 = NetworkTransform_GetTickDifference_mEB5230754B7F99FF1D7BF94B891A614DC196C113(__this, L_7, L_8, 1, (&V_1), NULL);
 		V_2 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2086>
 		V_4 = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2087>
 		V_5 = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2088>
 		V_6 = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2090>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_10 = ___2_nextGd;
 		NullCheck(L_10);
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_11 = L_10->___Rates;
 		V_7 = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2093>
 		int32_t L_12 = ___3_changedFull;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -13332,25 +12464,20 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2095>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_14 = V_7;
 		uint32_t L_15 = V_2;
 		float L_16 = V_1;
 		NetworkTransform_SetInstantRates_mA703A9D461B232999F34308F3D821AAB32ABA6FE(__this, L_14, L_15, L_16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2096>
 		return;
 	}
 
 IL_005b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2100>
 		V_8 = (1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2101>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_17 = V_7;
 		NullCheck(L_17);
 		float L_18 = L_17->___LastUnalteredPositionRate;
 		V_9 = L_18;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2104>
 		int32_t L_19 = ___3_changedFull;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_20;
@@ -13361,18 +12488,15 @@ IL_005b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2106>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_21 = ___0_prevTd;
 		NullCheck(L_21);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = L_21->___Position;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2107>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_23 = V_0;
 		NullCheck(L_23);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = L_23->___Position;
 		float L_25;
 		L_25 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_22, L_24, NULL);
 		V_3 = L_25;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2110>
 		bool L_26 = __this->____enableTeleport;
 		if (!L_26)
 		{
@@ -13380,7 +12504,6 @@ IL_005b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2113>
 		float L_27 = V_3;
 		float L_28 = __this->____teleportThreshold;
 		if ((!(((float)L_27) >= ((float)L_28))))
@@ -13389,18 +12512,15 @@ IL_005b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2115>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_29 = V_7;
 		uint32_t L_30 = V_2;
 		float L_31 = V_1;
 		NetworkTransform_SetInstantRates_mA703A9D461B232999F34308F3D821AAB32ABA6FE(__this, L_29, L_30, L_31, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2116>
 		return;
 	}
 
 IL_00a6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2121>
 		float L_32 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_33;
@@ -13411,20 +12531,16 @@ IL_00a6:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2123>
 		V_9 = (-1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2124>
 		V_4 = (-1.0f);
 		goto IL_015c;
 	}
 
 IL_00c2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2130>
 		float L_34 = V_3;
 		float L_35 = V_1;
 		V_9 = ((float)(L_34/L_35));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2148>
 		float L_36 = V_9;
 		if ((!(((float)L_36) > ((float)(0.0f)))))
 		{
@@ -13441,29 +12557,24 @@ IL_00c2:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2150>
 		float L_39 = V_9;
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_40 = V_7;
 		NullCheck(L_40);
 		float L_41 = L_40->___LastUnalteredPositionRate;
 		float L_42;
 		L_42 = fabsf(((float)il2cpp_codegen_subtract((1.0f), ((float)(L_39/L_41)))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2153>
 		if ((!(((float)L_42) > ((float)(0.25f)))))
 		{
 			goto IL_0145;
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2155>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_43 = V_7;
 		NullCheck(L_43);
 		float L_44 = L_43->___LastUnalteredPositionRate;
 		float L_45 = V_9;
 		V_10 = ((float)(L_44/L_45));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2161>
 		V_11 = (0.100000001f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2162>
 		float L_46 = V_10;
 		if ((!(((float)L_46) < ((float)(1.0f)))))
 		{
@@ -13502,18 +12613,15 @@ IL_0127:
 
 IL_0141:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2164>
 		float L_54 = V_10;
 		V_8 = L_54;
 	}
 
 IL_0145:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2176>
 		float L_55 = V_9;
 		float L_56 = V_8;
 		V_4 = ((float)il2cpp_codegen_multiply(L_55, L_56));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2177>
 		float L_57 = V_4;
 		if ((!(((float)L_57) <= ((float)(0.0f)))))
 		{
@@ -13521,13 +12629,11 @@ IL_0145:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2178>
 		V_4 = (-1.0f);
 	}
 
 IL_015c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2183>
 		int32_t L_58 = ___3_changedFull;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_59;
@@ -13538,18 +12644,15 @@ IL_015c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2185>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_60 = ___0_prevTd;
 		NullCheck(L_60);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_61 = L_60->___Rotation;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2186>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_62 = V_0;
 		NullCheck(L_62);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_63 = L_62->___Rotation;
 		float L_64;
 		L_64 = Quaternions_Angle_mECF5A040D7422A660671D7004C88A33A633ADB28(L_61, L_63, (bool)1, NULL);
 		V_3 = L_64;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2187>
 		float L_65 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_66;
@@ -13560,19 +12663,16 @@ IL_015c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2189>
 		V_5 = (-1.0f);
 		goto IL_01a3;
 	}
 
 IL_018b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2193>
 		float L_67 = V_3;
 		float L_68 = V_1;
 		float L_69 = V_8;
 		V_5 = ((float)il2cpp_codegen_multiply(((float)(L_67/L_68)), L_69));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2194>
 		float L_70 = V_5;
 		if ((!(((float)L_70) <= ((float)(0.0f)))))
 		{
@@ -13580,13 +12680,11 @@ IL_018b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2195>
 		V_5 = (-1.0f);
 	}
 
 IL_01a3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2200>
 		int32_t L_71 = ___3_changedFull;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_72;
@@ -13597,18 +12695,15 @@ IL_01a3:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2202>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_73 = ___0_prevTd;
 		NullCheck(L_73);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_74 = L_73->___Scale;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2203>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_75 = V_0;
 		NullCheck(L_75);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76 = L_75->___Scale;
 		float L_77;
 		L_77 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_74, L_76, NULL);
 		V_3 = L_77;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2204>
 		float L_78 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_79;
@@ -13619,19 +12714,16 @@ IL_01a3:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2206>
 		V_6 = (-1.0f);
 		goto IL_01e9;
 	}
 
 IL_01d1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2210>
 		float L_80 = V_3;
 		float L_81 = V_1;
 		float L_82 = V_8;
 		V_6 = ((float)il2cpp_codegen_multiply(((float)(L_80/L_81)), L_82));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2211>
 		float L_83 = V_6;
 		if ((!(((float)L_83) <= ((float)(0.0f)))))
 		{
@@ -13639,13 +12731,11 @@ IL_01d1:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2212>
 		V_6 = (-1.0f);
 	}
 
 IL_01e9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2216>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_84 = V_7;
 		float L_85 = V_4;
 		float L_86 = V_5;
@@ -13655,7 +12745,6 @@ IL_01e9:
 		float L_90 = V_1;
 		NullCheck(L_84);
 		RateData_Update_m0E5CDA4573B369ABA493BF04F0EAE0F07CC8213B(L_84, L_85, L_86, L_87, L_88, L_89, L_90, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2235>
 		return;
 	}
 }
@@ -13666,17 +12755,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t NetworkTransform_GetTickDifference_m
 	uint32_t V_1 = 0;
 	int64_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2242>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_0 = ___1_nextGd;
 		NullCheck(L_0);
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_1 = L_0->___Transforms;
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2244>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_2 = ___0_prevTd;
 		NullCheck(L_2);
 		uint32_t L_3 = L_2->___Tick;
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2248>
 		uint32_t L_4 = V_1;
 		if (L_4)
 		{
@@ -13684,7 +12770,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t NetworkTransform_GetTickDifference_m
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2249>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_5 = V_0;
 		NullCheck(L_5);
 		uint32_t L_6 = L_5->___Tick;
@@ -13694,13 +12779,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t NetworkTransform_GetTickDifference_m
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2251>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_8 = V_0;
 		NullCheck(L_8);
 		uint32_t L_9 = L_8->___Tick;
 		uint32_t L_10 = V_1;
 		V_2 = ((int64_t)(uint64_t)((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_9, (int32_t)L_10))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2252>
 		int64_t L_11 = V_2;
 		uint32_t L_12 = ___2_minimum;
 		if ((((int64_t)L_11) >= ((int64_t)((int64_t)(uint64_t)((uint32_t)L_12)))))
@@ -13709,14 +12792,12 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2253>
 		uint32_t L_13 = ___2_minimum;
 		V_2 = ((int64_t)(uint64_t)((uint32_t)L_13));
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2255>
 		float* L_14 = ___3_timePassed;
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_15;
 		L_15 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
@@ -13728,7 +12809,6 @@ IL_0031:
 		double L_18;
 		L_18 = TimeManager_TicksToTime_mEE106C796BDCF74DA6402048C11EC655C2E36CD9(L_16, ((int32_t)(uint32_t)L_17), NULL);
 		*((float*)L_14) = (float)((float)L_18);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2256>
 		int64_t L_19 = V_2;
 		return ((int32_t)(uint32_t)L_19);
 	}
@@ -13737,11 +12817,9 @@ IL_0031:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetExtrapolatedData_m9EB7C0D6297715C66ADDED2DA7FBF68C0750BCBC (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* ___0_prev, TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* ___1_next, uint8_t ___2_channel, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2266>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_0 = ___1_next;
 		NullCheck(L_0);
 		L_0->___ExtrapolationState = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2268>
 		return;
 	}
 }
@@ -13802,7 +12880,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_DataReceived_mD7E65B964
 	DataReceivedChanged_t808CEE410752C422D09372F9814EA9F64A2D337B* G_B7_0 = NULL;
 	DataReceivedChanged_t808CEE410752C422D09372F9814EA9F64A2D337B* G_B6_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2339>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsDeinitializing_mFACEE9BFBC1275C0373FA033A3B7E99E36033902(__this, NULL);
 		if (!L_0)
@@ -13811,13 +12888,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_DataReceived_mD7E65B964
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2340>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2342>
 		bool L_1 = ___2_asServer;
 		if (L_1)
 		{
@@ -13839,26 +12914,20 @@ IL_0014:
 IL_001a:
 	{
 		V_0 = G_B5_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2343>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_4 = __this->____lastCalculatedRateData;
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2345>
 		V_2 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2346>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_5;
 		L_5 = ResettableObjectCaches_1_Retrieve_m45B6A8F9D03CC2F35D31D637878BD581DB556CC7(ResettableObjectCaches_1_Retrieve_m45B6A8F9D03CC2F35D31D637878BD581DB556CC7_RuntimeMethod_var);
 		V_3 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2347>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_6 = V_3;
 		NullCheck(L_6);
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_7 = L_6->___Transforms;
 		V_4 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2348>
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_8 = ___0_data;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_9 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_10 = V_4;
 		NetworkTransform_UpdateTransformData_m4FBCFA0F22C2E75A14C992E593F298B748196C6C(__this, L_8, L_9, L_10, (&V_2), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2350>
 		DataReceivedChanged_t808CEE410752C422D09372F9814EA9F64A2D337B* L_11 = __this->___OnDataReceived;
 		DataReceivedChanged_t808CEE410752C422D09372F9814EA9F64A2D337B* L_12 = L_11;
 		if (L_12)
@@ -13882,18 +12951,15 @@ IL_004a:
 
 IL_0052:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2351>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_15 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_16 = V_4;
 		uint8_t L_17 = ___1_channel;
 		NetworkTransform_SetExtrapolatedData_m9EB7C0D6297715C66ADDED2DA7FBF68C0750BCBC(__this, L_15, L_16, L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2353>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_18 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_19 = V_4;
 		bool L_20;
 		L_20 = NetworkTransform_HasChanged_mC07BC59BEB29AFCAF1DFEB0FCFC7942D8DC37B6A(__this, L_18, L_19, NULL);
 		V_5 = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2356>
 		bool L_21 = ___2_asServer;
 		if (!L_21)
 		{
@@ -13909,13 +12975,11 @@ IL_0052:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2358>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_23 = V_0;
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_24 = V_3;
 		uint32_t L_25;
 		L_25 = NetworkTransform_GetTickDifference_mEB5230754B7F99FF1D7BF94B891A614DC196C113(__this, L_23, L_24, 1, (&V_8), NULL);
 		V_7 = L_25;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2359>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_26 = V_3;
 		NullCheck(L_26);
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_27 = L_26->___Rates;
@@ -13927,7 +12991,6 @@ IL_0052:
 
 IL_0091:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2364>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_30 = V_0;
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_31 = V_1;
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_32 = V_3;
@@ -13939,10 +13002,8 @@ IL_0091:
 
 IL_009e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2367>
 		uint8_t L_36 = ___1_channel;
 		__this->____lastReceiveReliable = (bool)((((int32_t)L_36) == ((int32_t)0))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2371>
 		uint8_t L_37 = ___1_channel;
 		if (L_37)
 		{
@@ -13950,7 +13011,6 @@ IL_009e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2372>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_38 = V_4;
 		NullCheck(L_38);
 		L_38->___Tick = 0;
@@ -13958,19 +13018,16 @@ IL_009e:
 
 IL_00b3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2374>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_39 = V_0;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_40 = V_4;
 		NullCheck(L_39);
 		TransformData_Update_mAB70B72C54CB9571C1A5C7B9022D9D8B6AE0D6A2(L_39, L_40, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2375>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_41 = V_1;
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_42 = V_3;
 		NullCheck(L_42);
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_43 = L_42->___Rates;
 		NullCheck(L_41);
 		RateData_Update_mBAEDB8E89512F172538795C66C7CA424FBEC9538(L_41, L_43, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2377>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_44 = V_3;
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_45 = __this->____timeManager;
 		NullCheck(L_45);
@@ -13978,10 +13035,8 @@ IL_00b3:
 		L_46 = TimeManager_get_LocalTick_m33B90F5CF081E02D356737AB650141634B970275(L_45, NULL);
 		NullCheck(L_44);
 		L_44->___ReceivedTick = L_46;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2379>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_47 = __this->____currentGoalData;
 		V_6 = (bool)((((RuntimeObject*)(GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344*)L_47) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2387>
 		bool L_48 = V_6;
 		if (L_48)
 		{
@@ -14000,7 +13055,6 @@ IL_00b3:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2389>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_52 = V_3;
 		NetworkTransform_SetCurrentGoalData_m022279E471646D96B7CF9DC9C9377184096424A2(__this, L_52, NULL);
 		goto IL_0163;
@@ -14008,7 +13062,6 @@ IL_00b3:
 
 IL_0103:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2396>
 		bool L_53 = V_6;
 		if (!L_53)
 		{
@@ -14038,7 +13091,6 @@ IL_011a:
 
 IL_011d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2398>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_58 = __this->____goalDataQueue;
 		NullCheck(L_58);
 		int32_t L_59;
@@ -14049,13 +13101,11 @@ IL_011d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2400>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_60 = __this->____goalDataQueue;
 		NullCheck(L_60);
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_61;
 		L_61 = Queue_1_Dequeue_m2EEC09C117F427132369E9F03DC6ED0472CBF805(L_60, Queue_1_Dequeue_m2EEC09C117F427132369E9F03DC6ED0472CBF805_RuntimeMethod_var);
 		NetworkTransform_SetCurrentGoalData_m022279E471646D96B7CF9DC9C9377184096424A2(__this, L_61, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2403>
 		bool L_62 = V_5;
 		if (!L_62)
 		{
@@ -14063,7 +13113,6 @@ IL_011d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2404>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_63 = __this->____goalDataQueue;
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_64 = V_3;
 		NullCheck(L_63);
@@ -14073,7 +13122,6 @@ IL_011d:
 
 IL_014e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2408>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_65 = V_3;
 		NetworkTransform_SetCurrentGoalData_m022279E471646D96B7CF9DC9C9377184096424A2(__this, L_65, NULL);
 		goto IL_0163;
@@ -14081,7 +13129,6 @@ IL_014e:
 
 IL_0157:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2415>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_66 = __this->____goalDataQueue;
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_67 = V_3;
 		NullCheck(L_66);
@@ -14090,7 +13137,6 @@ IL_0157:
 
 IL_0163:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2425>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_68 = __this->____goalDataQueue;
 		NullCheck(L_68);
 		int32_t L_69;
@@ -14107,18 +13153,15 @@ IL_0163:
 
 IL_017a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2429>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_71 = __this->____goalDataQueue;
 		NullCheck(L_71);
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_72;
 		L_72 = Queue_1_Dequeue_m2EEC09C117F427132369E9F03DC6ED0472CBF805(L_71, Queue_1_Dequeue_m2EEC09C117F427132369E9F03DC6ED0472CBF805_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2430>
 		ResettableObjectCaches_1_Store_mB5B8D45D7CD27A8C65AE12CFAEF53782C7B123AC(L_72, ResettableObjectCaches_1_Store_mB5B8D45D7CD27A8C65AE12CFAEF53782C7B123AC_RuntimeMethod_var);
 	}
 
 IL_018a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2427>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_73 = __this->____goalDataQueue;
 		NullCheck(L_73);
 		int32_t L_74;
@@ -14130,18 +13173,15 @@ IL_018a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2434>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_76 = __this->____goalDataQueue;
 		NullCheck(L_76);
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_77;
 		L_77 = Queue_1_Dequeue_m2EEC09C117F427132369E9F03DC6ED0472CBF805(L_76, Queue_1_Dequeue_m2EEC09C117F427132369E9F03DC6ED0472CBF805_RuntimeMethod_var);
 		NetworkTransform_SetCurrentGoalData_m022279E471646D96B7CF9DC9C9377184096424A2(__this, L_77, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2435>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_78 = __this->____currentGoalData;
 		NullCheck(L_78);
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_79 = L_78->___Rates;
 		NetworkTransform_SetInstantRates_mA703A9D461B232999F34308F3D821AAB32ABA6FE(__this, L_79, 1, (-1.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2436>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_80 = __this->____currentGoalData;
 		NullCheck(L_80);
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_81 = L_80->___Transforms;
@@ -14150,7 +13190,6 @@ IL_018a:
 
 IL_01d7:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2438>
 		return;
 	}
 }
@@ -14166,7 +13205,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetCurrentGoalData_m022
 	Action_1_tF952C36EC5F2452F03701B5A671EA4F22FC6F332* G_B4_0 = NULL;
 	Action_1_tF952C36EC5F2452F03701B5A671EA4F22FC6F332* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2445>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_0 = __this->____currentGoalData;
 		if (!L_0)
 		{
@@ -14174,18 +13212,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetCurrentGoalData_m022
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2446>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_1 = __this->____currentGoalData;
 		ResettableObjectCaches_1_Store_mB5B8D45D7CD27A8C65AE12CFAEF53782C7B123AC(L_1, ResettableObjectCaches_1_Store_mB5B8D45D7CD27A8C65AE12CFAEF53782C7B123AC_RuntimeMethod_var);
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2448>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_2 = ___0_data;
 		__this->____currentGoalData = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentGoalData), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2449>
 		Action_1_tF952C36EC5F2452F03701B5A671EA4F22FC6F332* L_3 = __this->___OnNextGoal;
 		Action_1_tF952C36EC5F2452F03701B5A671EA4F22FC6F332* L_4 = L_3;
 		if (L_4)
@@ -14204,7 +13239,6 @@ IL_0025:
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_5 = ___0_data;
 		NullCheck(G_B4_0);
 		Action_1_Invoke_m41D29AF028046B63AB4A4B9F8BE3457A929F2E96_inline(G_B4_0, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2450>
 		return;
 	}
 }
@@ -14222,7 +13256,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_UpdateTransformData_m4F
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2457>
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_UpdateTransformData;
 		V_1 = L_0;
@@ -14242,13 +13275,11 @@ FINALLY_0031:
 		});
 		try
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2459>
 			ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_2 = ___0_packetData;
 			TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_3 = ___1_prevTransformData;
 			TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_4 = ___2_nextTransformData;
 			int32_t* L_5 = ___3_changedFull;
 			NetworkTransform_DeserializePacket_mA6EDAF486A77CFDDA8FD449C01F978D714D29BD1(__this, L_2, L_3, L_4, L_5, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2460>
 			TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_6 = ___2_nextTransformData;
 			TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_7 = __this->____timeManager;
 			NullCheck(L_7);
@@ -14259,7 +13290,6 @@ FINALLY_0031:
 			L_9 = EstimatedTick_get_LastRemoteTick_m89081C30F90F3A4A2D8C686348B318A068F60AAB_inline(L_8, NULL);
 			NullCheck(L_6);
 			L_6->___Tick = L_9;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2461>
 			goto IL_003f;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -14270,7 +13300,6 @@ FINALLY_0031:
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2462>
 		return;
 	}
 }
@@ -14278,11 +13307,8 @@ IL_003f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ConfigureForPrediction_m3E060D3B890322FAAB7676C0504F104F83888438 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, uint8_t ___0_predictionType, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2469>
 		__this->____clientAuthoritative = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2470>
 		__this->____sendToOwner = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2473>
 		int32_t L_0 = __this->____componentConfiguration;
 		if (!L_0)
 		{
@@ -14290,7 +13316,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ConfigureForPrediction_
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2475>
 		uint8_t L_1 = ___0_predictionType;
 		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
 		{
@@ -14298,14 +13323,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ConfigureForPrediction_
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2476>
 		__this->____componentConfiguration = 2;
 		goto IL_003a;
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2477>
 		uint8_t L_2 = ___0_predictionType;
 		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
 		{
@@ -14313,14 +13336,12 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2478>
 		__this->____componentConfiguration = 3;
 		goto IL_003a;
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2479>
 		uint8_t L_3 = ___0_predictionType;
 		if (L_3)
 		{
@@ -14328,15 +13349,12 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2483>
 		__this->____componentConfiguration = 1;
 	}
 
 IL_003a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2486>
 		NetworkTransform_ConfigureComponents_m950A50302D89645244BC340BE6A7FD4E4C112001(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2487>
 		return;
 	}
 }
@@ -14344,7 +13362,6 @@ IL_003a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSynchronizedProperties_mF52A850004D7FC94BF8CD1952F9513FD14BCEAB9 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2496>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
 		if (!L_0)
@@ -14353,7 +13370,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSynchronizedProperti
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2499>
 		bool L_1;
 		L_1 = NetworkBehaviour_get_IsController_mB5B23244C080277D85C6DA6631CE7EEC9051D757(__this, NULL);
 		if (L_1)
@@ -14371,7 +13387,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSynchronizedProperti
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2500>
 		uint8_t L_3 = ___0_value;
 		NetworkTransform_ObserversSetSynchronizedProperties_mB3555B008E4A153E3A15CCD7113B05B45B77BB38(__this, L_3, NULL);
 		goto IL_003c;
@@ -14379,13 +13394,11 @@ IL_0018:
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2502>
 		return;
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2505>
 		bool L_4 = __this->____clientAuthoritative;
 		if (!L_4)
 		{
@@ -14401,7 +13414,6 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2507>
 		uint8_t L_6 = ___0_value;
 		NetworkTransform_ServerSetSynchronizedProperties_mCCEFBD684550622B6921794AF6BB5155B8983A45(__this, L_6, NULL);
 		goto IL_003c;
@@ -14409,16 +13421,13 @@ IL_0022:
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2512>
 		return;
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2516>
 		uint8_t L_7 = ___0_value;
 		NetworkTransform_SetSynchronizedPropertiesInternal_m53CFE7C5B4A1154290500D1C363981B7C3079411(__this, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2517>
 		return;
 	}
 }
@@ -14450,28 +13459,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_SetSynchronizedProperti
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2550>
 		uint8_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = NetworkTransform_U3CSetSynchronizedPropertiesInternalU3Eg__SynchronizedPropertyContainsU7C147_0_mE122A96E86224EE74566C6DD56E234107623E72C(L_0, 1, NULL);
 		__this->____synchronizeParent = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2551>
 		uint8_t L_2 = ___0_value;
 		bool L_3;
 		L_3 = NetworkTransform_U3CSetSynchronizedPropertiesInternalU3Eg__SynchronizedPropertyContainsU7C147_0_mE122A96E86224EE74566C6DD56E234107623E72C(L_2, 2, NULL);
 		__this->____synchronizePosition = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2552>
 		uint8_t L_4 = ___0_value;
 		bool L_5;
 		L_5 = NetworkTransform_U3CSetSynchronizedPropertiesInternalU3Eg__SynchronizedPropertyContainsU7C147_0_mE122A96E86224EE74566C6DD56E234107623E72C(L_4, 4, NULL);
 		__this->____synchronizeRotation = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2553>
 		uint8_t L_6 = ___0_value;
 		bool L_7;
 		L_7 = NetworkTransform_U3CSetSynchronizedPropertiesInternalU3Eg__SynchronizedPropertyContainsU7C147_0_mE122A96E86224EE74566C6DD56E234107623E72C(L_6, 8, NULL);
 		__this->____synchronizeScale = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2559>
 		return;
 	}
 }
@@ -14494,32 +13498,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ResetState_mAD7FD17CC4D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2566>
 		__this->____teleport = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2567>
 		NetworkTransform_ChangeTickSubscription_m1720D7694E55810B828C382683267D83C39696BD(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2571>
 		__this->____lastObserversRpcTick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2572>
 		ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_0 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 		ReceivedClientData_ResetState_m2CF8A9E2AA81E5C5584B0062826810450D1359F0(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2574>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3** L_1 = (PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3**)(&__this->____toClientChangedWriter);
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		WriterPool_StoreAndDefault_m77DE0A2D075A269FEB2B85F307EBFCA6EA69C1B8(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2576>
 		ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_2 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 		bool* L_3 = (bool*)(&L_2->___HasData);
 		il2cpp_codegen_runtime_class_init_inline(ObjectCaches_1_tA976EE914AC6DC39E8ED6B458478CF101342ACCE_il2cpp_TypeInfo_var);
 		ObjectCaches_1_StoreAndDefault_m1C8E825EE53751104EC6332635F72BCFEA4E9FBB_inline(L_3, ObjectCaches_1_StoreAndDefault_m1C8E825EE53751104EC6332635F72BCFEA4E9FBB_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2577>
 		uint32_t* L_4 = (uint32_t*)(&__this->____serverChangedSinceReliable);
 		il2cpp_codegen_runtime_class_init_inline(ObjectCaches_1_tEE3C82E43DB3A85C2D5A4B4DD0BE2A2449977185_il2cpp_TypeInfo_var);
 		ObjectCaches_1_StoreAndDefault_m7CC418BA5F7BA441E67BFFF637D4605FF1101E45_inline(L_4, ObjectCaches_1_StoreAndDefault_m7CC418BA5F7BA441E67BFFF637D4605FF1101E45_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2579>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F** L_5 = (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F**)(&__this->____lastReceivedClientTransformData);
 		ResettableObjectCaches_1_StoreAndDefault_mCB36D2181FAA5A76A4FE6315BEB018BF589CF280_inline(L_5, ResettableObjectCaches_1_StoreAndDefault_mCB36D2181FAA5A76A4FE6315BEB018BF589CF280_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2580>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F** L_6 = (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F**)(&__this->____lastReceivedServerTransformData);
 		ResettableObjectCaches_1_StoreAndDefault_mCB36D2181FAA5A76A4FE6315BEB018BF589CF280_inline(L_6, ResettableObjectCaches_1_StoreAndDefault_mCB36D2181FAA5A76A4FE6315BEB018BF589CF280_RuntimeMethod_var);
 		goto IL_006e;
@@ -14527,7 +13522,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ResetState_mAD7FD17CC4D
 
 IL_005e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2583>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_7 = __this->____goalDataQueue;
 		NullCheck(L_7);
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* L_8;
@@ -14537,7 +13531,6 @@ IL_005e:
 
 IL_006e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2582>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_9 = __this->____goalDataQueue;
 		NullCheck(L_9);
 		int32_t L_10;
@@ -14548,7 +13541,6 @@ IL_006e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2585>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_11 = __this->____lastSentTransformData;
 		if (!L_11)
 		{
@@ -14556,7 +13548,6 @@ IL_006e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2586>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_12 = __this->____lastSentTransformData;
 		NullCheck(L_12);
 		TransformData_ResetState_mE3F205F4C1486EEA08A3F7500BCB22D71C733C65(L_12, NULL);
@@ -14564,10 +13555,8 @@ IL_006e:
 
 IL_008f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2587>
 		GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344** L_13 = (GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344**)(&__this->____currentGoalData);
 		ResettableObjectCaches_1_StoreAndDefault_m1C5BF27CA4E5F18708165213F6756DBB591F0027_inline(L_13, ResettableObjectCaches_1_StoreAndDefault_m1C5BF27CA4E5F18708165213F6756DBB591F0027_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2588>
 		return;
 	}
 }
@@ -14582,14 +13571,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_ResetState_OnDestroy_mA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2595>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F** L_0 = (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F**)(&__this->____lastSentTransformData);
 		ResettableObjectCaches_1_StoreAndDefault_mCB36D2181FAA5A76A4FE6315BEB018BF589CF280_inline(L_0, ResettableObjectCaches_1_StoreAndDefault_mCB36D2181FAA5A76A4FE6315BEB018BF589CF280_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2596>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3** L_1 = (PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3**)(&__this->____toClientChangedWriter);
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		WriterPool_StoreAndDefault_m77DE0A2D075A269FEB2B85F307EBFCA6EA69C1B8(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2597>
 		return;
 	}
 }
@@ -14607,12 +13593,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform__ctor_mCA96A8CDE36085E1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:368>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:369>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:370>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:371>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:372>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:373>
 		TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7* L_0 = (TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7*)il2cpp_codegen_object_new(TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7_il2cpp_TypeInfo_var);
 		TransformPackingData__ctor_mD7F144E5947DD14DF377A6C537591210C3DA04A2(L_0, NULL);
 		TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7* L_1 = L_0;
@@ -14626,36 +13606,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform__ctor_mCA96A8CDE36085E1
 		L_3->___Scale = 0;
 		__this->____packing = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____packing), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:379>
 		__this->____useScaledTime = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:386>
 		__this->____interpolation = (uint16_t)2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:394>
 		__this->____extrapolation = (uint16_t)2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:408>
 		__this->____teleportThreshold = (1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:414>
 		__this->____clientAuthoritative = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:420>
 		__this->____sendToOwner = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:444>
 		__this->____interval = (uint8_t)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:450>
 		__this->____synchronizePosition = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:464>
 		__this->____positionSensitivity = (0.00100000005f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:483>
 		__this->____synchronizeRotation = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:509>
 		__this->____synchronizeScale = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:516>
 		__this->____scaleSensitivity = (0.00100000005f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:542>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:543>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:544>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:545>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:546>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:547>
 		TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7* L_4 = (TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7*)il2cpp_codegen_object_new(TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7_il2cpp_TypeInfo_var);
 		TransformPackingData__ctor_mD7F144E5947DD14DF377A6C537591210C3DA04A2(L_4, NULL);
 		TransformPackingData_t35EE83B115166550A8D19B0170D380B853094CA7* L_5 = L_4;
@@ -14669,14 +13631,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform__ctor_mCA96A8CDE36085E1
 		L_7->___Scale = 0;
 		__this->____unpacked = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____unpacked), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:551>
 		__this->____lastReceiveReliable = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:603>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_8 = (RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424*)il2cpp_codegen_object_new(RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424_il2cpp_TypeInfo_var);
 		RateData__ctor_m746098D6B74078E7EA89DE00778329E1C824AFC8(L_8, NULL);
 		__this->____lastCalculatedRateData = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____lastCalculatedRateData), (void*)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:607>
 		Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E* L_9 = (Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E*)il2cpp_codegen_object_new(Queue_1_tBA22CF4F0878349EE99251DD0DCCEF9FD668DD2E_il2cpp_TypeInfo_var);
 		Queue_1__ctor_mD1155626643C45579D8F620B83F87023552A08F2(L_9, Queue_1__ctor_mD1155626643C45579D8F620B83F87023552A08F2_RuntimeMethod_var);
 		__this->____goalDataQueue = L_9;
@@ -14704,42 +13663,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform__cctor_mDD1316E4DE360CF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:651>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_0), _stringLiteralA24CC14743EB384CDFBF8488E9AE06F7890FF68F, NULL);
 		((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_OnUpdate = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:652>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_1), _stringLiteral8843B1AD45383A1380DA4C393FA7C6E2F244DE31, NULL);
 		((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_OnPostTick = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:653>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_2), _stringLiteral3879984817E8C730FC84B612BB8E3C47013C5061, NULL);
 		((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_MoveToTarget = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:654>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_3), _stringLiteral595C0695D79F61A512B71F4FE75BCDCDD6FF8C88, NULL);
 		((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_UpdateTransformData = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:655>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_4), _stringLiteralB1E12E732CB137EE397F2B9AA76C000B3E5BE9BD, NULL);
 		((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_ForceSend0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:656>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_5), _stringLiteral117E0E8E05508CBE6BA5A68F7F919F520EBFA01E, NULL);
 		((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_ForceSend1 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:657>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_6), _stringLiteral60131BDF665BCD8A25CA0686947B2408D7731A65, NULL);
 		((NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_StaticFields*)il2cpp_codegen_static_fields_for(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923_il2cpp_TypeInfo_var))->____pm_SendToClients = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:658>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_7;
 		memset((&L_7), 0, sizeof(L_7));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_7), _stringLiteral0A4002130641D2FE8BCBC3636D4F22CA23D8A1FE, NULL);
@@ -14752,11 +13703,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CConfigureComponentsU
 {
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:899>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:902>
 		bool L_1 = __this->____clientAuthoritative;
 		if (L_1)
 		{
@@ -14764,14 +13713,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CConfigureComponentsU
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:903>
 		bool L_2 = V_0;
 		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:908>
 		bool L_3;
 		L_3 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (!L_3)
@@ -14780,13 +13727,11 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:909>
 		return (bool)0;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:912>
 		bool L_4 = V_0;
 		if (!L_4)
 		{
@@ -14805,13 +13750,11 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:913>
 		return (bool)0;
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:915>
 		return (bool)1;
 	}
 }
@@ -14819,7 +13762,6 @@ IL_0030:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_U3CSetDefaultGoalDataU3Eg__SetLastReceivedU7C118_0_m308F88F5F7786286E72B47B63DFD80EC4DEBD163 (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* ___0_td, U3CU3Ec__DisplayClass118_0_t53F56E307E4B749C88F6624713A7C9B7BC3F917F* ___1_p, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1178>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_0 = ___0_td;
 		if (L_0)
 		{
@@ -14827,13 +13769,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_U3CSetDefaultGoalDataU3
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1179>
 		return;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1181>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_1 = ___0_td;
 		U3CU3Ec__DisplayClass118_0_t53F56E307E4B749C88F6624713A7C9B7BC3F917F* L_2 = ___1_p;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = L_2->___t;
@@ -14859,7 +13799,6 @@ IL_0004:
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_15 = L_14->___parentBehaviour;
 		NullCheck(L_1);
 		TransformData_Update_m0C7177226549BA3D2CE3367C2383196BAB545E79(L_1, 0, L_4, L_7, L_10, L_13, L_15, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1182>
 		return;
 	}
 }
@@ -14867,7 +13806,6 @@ IL_0004:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CSerializeChangedU3Eg__ChangedContainsU7C120_0_m09E3923B38C350AFBD993A6236FEEC25F4DA37FF (uint32_t ___0_whole, uint32_t ___1_part, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1413>
 		uint32_t L_0 = ___0_whole;
 		uint32_t L_1 = ___1_part;
 		uint32_t L_2 = ___1_part;
@@ -14878,13 +13816,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CSerializeChangedU3Eg
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_U3CDeserializePacketU3Eg__UnnestU7C121_0_m429A1FAF83DE4A454CBA9E4DF77BEF3706827EBA (U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2* ___0_p, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1519>
 		U3CU3Ec__DisplayClass121_0_t5ACF6E9526E738ABDE607C5C7C64CA683E8223A2* L_0 = ___0_p;
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_1 = L_0->___nextTransformData;
 		NullCheck(L_1);
 		L_1->___ParentBehaviour = (NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___ParentBehaviour), (void*)(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1520>
 		return;
 	}
 }
@@ -14892,7 +13828,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_U3CDeserializePacketU3E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CDeserializePacketU3Eg__UpdateFlagAContainsU7C121_1_m739159B09841C31571BAA7CA3592F89F3C63B741 (uint8_t ___0_whole, uint8_t ___1_part, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1525>
 		uint8_t L_0 = ___0_whole;
 		uint8_t L_1 = ___1_part;
 		uint8_t L_2 = ___1_part;
@@ -14903,7 +13838,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CDeserializePacketU3E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CDeserializePacketU3Eg__UpdateFlagBContainsU7C121_2_m51E67B7FBA00C7C4812734A9C6FB5D523BA4CCA9 (uint8_t ___0_whole, uint8_t ___1_part, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1531>
 		uint8_t L_0 = ___0_whole;
 		uint8_t L_1 = ___1_part;
 		uint8_t L_2 = ___1_part;
@@ -14914,7 +13848,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CDeserializePacketU3E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CSetCalculatedRatesU3Eg__ChangedFullContainsU7C134_0_mFF6C902AD2A472C7E5F86B8F29FDD88778E83622 (int32_t ___0_whole, int32_t ___1_part, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2221>
 		int32_t L_0 = ___0_whole;
 		int32_t L_1 = ___1_part;
 		int32_t L_2 = ___1_part;
@@ -14925,7 +13858,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CSetCalculatedRatesU3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CSetCalculatedRatesU3Eg__LowDistanceU7C134_1_m3A85A9C95A3989107193C2027ED980DE5B702935 (float ___0_dist, bool ___1_rotation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2230>
 		bool L_0 = ___1_rotation;
 		if (!L_0)
 		{
@@ -14933,14 +13865,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CSetCalculatedRatesU3
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2231>
 		float L_1 = ___0_dist;
 		return (bool)((((float)L_1) < ((float)(1.0f)))? 1 : 0);
 	}
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2233>
 		float L_2 = ___0_dist;
 		return (bool)((((float)L_2) < ((float)(9.99999975E-05f)))? 1 : 0);
 	}
@@ -14949,7 +13879,6 @@ IL_000c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransform_U3CSetSynchronizedPropertiesInternalU3Eg__SynchronizedPropertyContainsU7C147_0_mE122A96E86224EE74566C6DD56E234107623E72C (uint8_t ___0_whole, uint8_t ___1_part, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2557>
 		uint8_t L_0 = ___0_whole;
 		uint8_t L_1 = ___1_part;
 		uint8_t L_2 = ___1_part;
@@ -15099,10 +14028,8 @@ IL_0025:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ObserversSetSendToOwner___1140765316_m31E7838AD300FA640E7DE1E88BEE1C3ADA2371CF (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, bool ___0_p, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1063>
 		bool L_0 = ___0_p;
 		__this->____sendToOwner = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1064>
 		return;
 	}
 }
@@ -15212,7 +14139,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ServerSetInt
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1127>
 		bool L_0 = __this->____clientAuthoritative;
 		if (L_0)
 		{
@@ -15220,7 +14146,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ServerSetInt
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1129>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_1;
 		L_1 = NetworkBehaviour_get_Owner_m8CA2A8A2D757CACD11B2D06DC06D244A2994EB05(__this, NULL);
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2;
@@ -15233,16 +14158,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ServerSetInt
 		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA60E51CBF31F228567B6F00C95BED7934FCD1D6D, L_5, NULL);
 		NullCheck(L_1);
 		NetworkConnection_Kick_m6B3EA6A374159D274F606E466B8DA549E20D2F46(L_1, 1, 3, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1130>
 		return;
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1133>
 		uint8_t L_7 = ___0_p;
 		NetworkTransform_SetIntervalInternal_mA575F2AB876A553C562A25B9BA292252A557DACB(__this, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1134>
 		return;
 	}
 }
@@ -15355,10 +14277,8 @@ IL_0025:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ObserversSetInterval___1246646286_m065F364163B9209C608C622431E2ADD136D92063 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, uint8_t ___0_p, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1142>
 		uint8_t L_0 = ___0_p;
 		NetworkTransform_SetIntervalInternal_mA575F2AB876A553C562A25B9BA292252A557DACB(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1143>
 		return;
 	}
 }
@@ -15464,7 +14384,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___TargetUpdate
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2284>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&___1_p), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
@@ -15474,17 +14393,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___TargetUpdate
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2285>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2287>
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_1 = ___1_p;
 		uint8_t L_2 = ___2_p;
 		NetworkTransform_DataReceived_mD7E65B9645591A6EBC8F27EBDA58BBB022DD452A(__this, L_1, L_2, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2288>
 		return;
 	}
 }
@@ -15574,7 +14490,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ObserversUpd
 {
 	uint32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2296>
 		bool L_0 = __this->____clientAuthoritative;
 		if (L_0)
 		{
@@ -15597,13 +14512,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ObserversUpd
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2297>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2298>
 		bool L_3 = __this->____clientAuthoritative;
 		if (!L_3)
 		{
@@ -15619,13 +14532,11 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2299>
 		return;
 	}
 
 IL_002a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2300>
 		bool L_5;
 		L_5 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
 		if (!L_5)
@@ -15634,13 +14545,11 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2301>
 		return;
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2303>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_6 = __this->____timeManager;
 		NullCheck(L_6);
 		EstimatedTick_t6BF50FF4950A287DE8A420FD5A96A9D7ED86AAF4* L_7;
@@ -15649,7 +14558,6 @@ IL_0033:
 		uint32_t L_8;
 		L_8 = EstimatedTick_get_LastRemoteTick_m89081C30F90F3A4A2D8C686348B318A068F60AAB_inline(L_7, NULL);
 		V_0 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2304>
 		uint32_t L_9 = V_0;
 		uint32_t L_10 = __this->____lastObserversRpcTick;
 		if ((!(((uint32_t)L_9) <= ((uint32_t)L_10))))
@@ -15658,20 +14566,16 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2305>
 		return;
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2307>
 		uint32_t L_11 = V_0;
 		__this->____lastObserversRpcTick = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2308>
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_12 = ___0_p;
 		uint8_t L_13 = ___1_p;
 		NetworkTransform_DataReceived_mD7E65B9645591A6EBC8F27EBDA58BBB022DD452A(__this, L_12, L_13, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2309>
 		return;
 	}
 }
@@ -15786,7 +14690,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ServerUpdate
 	TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* V_0 = NULL;
 	uint32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2317>
 		bool L_0 = __this->____clientAuthoritative;
 		if (L_0)
 		{
@@ -15794,7 +14697,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ServerUpdate
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2319>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_1;
 		L_1 = NetworkBehaviour_get_Owner_m8CA2A8A2D757CACD11B2D06DC06D244A2994EB05(__this, NULL);
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2;
@@ -15807,17 +14709,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ServerUpdate
 		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA60E51CBF31F228567B6F00C95BED7934FCD1D6D, L_5, NULL);
 		NullCheck(L_1);
 		NetworkConnection_Kick_m6B3EA6A374159D274F606E466B8DA549E20D2F46(L_1, 1, 3, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2320>
 		return;
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2323>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_7;
 		L_7 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2325>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_8 = V_0;
 		NullCheck(L_8);
 		EstimatedTick_t6BF50FF4950A287DE8A420FD5A96A9D7ED86AAF4* L_9;
@@ -15826,7 +14725,6 @@ IL_0030:
 		uint32_t L_10;
 		L_10 = EstimatedTick_get_LastRemoteTick_m89081C30F90F3A4A2D8C686348B318A068F60AAB_inline(L_9, NULL);
 		V_1 = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2326>
 		uint32_t L_11 = V_1;
 		uint32_t L_12 = __this->____lastServerRpcTick;
 		if ((!(((uint32_t)L_11) <= ((uint32_t)L_12))))
@@ -15835,16 +14733,13 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2327>
 		return;
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2328>
 		uint32_t L_13 = V_1;
 		__this->____lastServerRpcTick = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2330>
 		ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* L_14 = (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9*)(&__this->____authoritativeClientData);
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_15 = ___0_p;
 		uint8_t L_16 = ___1_p;
@@ -15853,11 +14748,9 @@ IL_004d:
 		uint32_t L_18;
 		L_18 = TimeManager_get_LocalTick_m33B90F5CF081E02D356737AB650141634B970275(L_17, NULL);
 		ReceivedClientData_Update_mD77DE02E240D8281AC691B9C4A0B47ADDD39F573(L_14, L_15, L_16, (bool)1, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2331>
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_19 = ___0_p;
 		uint8_t L_20 = ___1_p;
 		NetworkTransform_DataReceived_mD7E65B9645591A6EBC8F27EBDA58BBB022DD452A(__this, L_19, L_20, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2332>
 		return;
 	}
 }
@@ -15983,7 +14876,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ServerSetSyn
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2525>
 		bool L_0 = __this->____clientAuthoritative;
 		if (L_0)
 		{
@@ -15991,7 +14883,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ServerSetSyn
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2527>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_1;
 		L_1 = NetworkBehaviour_get_Owner_m8CA2A8A2D757CACD11B2D06DC06D244A2994EB05(__this, NULL);
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2;
@@ -16004,19 +14895,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ServerSetSyn
 		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA60E51CBF31F228567B6F00C95BED7934FCD1D6D, L_5, NULL);
 		NullCheck(L_1);
 		NetworkConnection_Kick_m6B3EA6A374159D274F606E466B8DA549E20D2F46(L_1, 1, 3, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2528>
 		return;
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2531>
 		uint8_t L_7 = ___0_p;
 		NetworkTransform_SetSynchronizedPropertiesInternal_m53CFE7C5B4A1154290500D1C363981B7C3079411(__this, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2533>
 		uint8_t L_8 = ___0_p;
 		NetworkTransform_ObserversSetSynchronizedProperties_mB3555B008E4A153E3A15CCD7113B05B45B77BB38(__this, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2534>
 		return;
 	}
 }
@@ -16114,10 +15001,8 @@ IL_0025:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ObserversSetSynchronizedProperties___535967898_m6D1864A4276906FE1CCD21C944B12A6D215E41B9 (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, uint8_t ___0_p, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2542>
 		uint8_t L_0 = ___0_p;
 		NetworkTransform_SetSynchronizedPropertiesInternal_m53CFE7C5B4A1154290500D1C363981B7C3079411(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:2543>
 		return;
 	}
 }
@@ -16158,13 +15043,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransform_Awake_UserLogic_FishNet
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:670>
 		uint8_t L_0 = __this->____interval;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		uint8_t L_1;
 		L_1 = Math_Max_m12FB4E1302123ADB441E3A7BDF52E8404DDE53A2(L_0, (uint8_t)1, NULL);
 		__this->____interval = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:671>
 		return;
 	}
 }
@@ -16248,7 +15131,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReceivedClientData_Update_mD77DE02E240D8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:62>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_0 = __this->___Writer;
 		if (L_0)
 		{
@@ -16256,7 +15138,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReceivedClientData_Update_mD77DE02E240D8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:63>
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_1;
 		L_1 = WriterPool_Retrieve_m24B1562CBE1B608A02654966D0962767ECFA08E2(NULL);
@@ -16266,22 +15147,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReceivedClientData_Update_mD77DE02E240D8
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:65>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_2 = __this->___Writer;
 		NullCheck(L_2);
 		Writer_Clear_m25168B80F7E7F14BD63C6E8131339233527921DA(L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:66>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_3 = __this->___Writer;
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_4 = ___0_data;
 		NullCheck(L_3);
 		Writer_WriteArraySegment_mB83124AC17607A71CD6CC81CF9ECC6BFD0A1EFD4(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:67>
 		uint8_t L_5 = ___1_channel;
 		__this->___Channel = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:68>
 		uint32_t L_6 = ___3_localTick;
 		__this->___LocalTick = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:70>
 		bool L_7 = ___2_updateHasData;
 		if (!L_7)
 		{
@@ -16289,13 +15165,11 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:71>
 		__this->___HasData = (bool)1;
 	}
 
 IL_0043:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:72>
 		return;
 	}
 }
@@ -16310,11 +15184,8 @@ IL2CPP_EXTERN_C  void ReceivedClientData_Update_mD77DE02E240D8281AC691B9C4A0B47A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReceivedClientData_SendReliably_m13A0A8C38FE7A442AAAF625D19B13BA772BD52C2 (ReceivedClientData_t6B11B25325EAD3227D4B3BDB8075088C02DAE9B9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:79>
 		__this->___HasData = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:80>
 		__this->___Channel = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:81>
 		return;
 	}
 }
@@ -16335,13 +15206,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReceivedClientData_ResetState_m2CF8A9E2A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:85>
 		__this->___HasData = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:86>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3** L_0 = (PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3**)(&__this->___Writer);
 		il2cpp_codegen_runtime_class_init_inline(WriterPool_t3840937DA01BDB68B74AEF6A678036C0B33ECE42_il2cpp_TypeInfo_var);
 		WriterPool_StoreAndDefault_m77DE0A2D075A269FEB2B85F307EBFCA6EA69C1B8(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:87>
 		return;
 	}
 }
@@ -16453,19 +15321,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalData__ctor_m3CDA1EE3A77B39811F942788
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:156>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_0 = (RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424*)il2cpp_codegen_object_new(RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424_il2cpp_TypeInfo_var);
 		RateData__ctor_m746098D6B74078E7EA89DE00778329E1C824AFC8(L_0, NULL);
 		__this->___Rates = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Rates), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:157>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_1 = (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F*)il2cpp_codegen_object_new(TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F_il2cpp_TypeInfo_var);
 		TransformData__ctor_m21C3630D4B32ACD7C24E01A48514C36F772AD0C6(L_1, NULL);
 		__this->___Transforms = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Transforms), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:160>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:160>
 		return;
 	}
 }
@@ -16473,17 +15337,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalData__ctor_m3CDA1EE3A77B39811F942788
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalData_ResetState_m41F80F5251EA0B3641F18F06812862E825A892A1 (GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:164>
 		__this->___ReceivedTick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:165>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_0 = __this->___Transforms;
 		NullCheck(L_0);
 		TransformData_ResetState_mE3F205F4C1486EEA08A3F7500BCB22D71C733C65(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:166>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_1 = __this->___Rates;
 		NullCheck(L_1);
 		RateData_ResetState_m5C03426CA9350528784F6571F1C60D3BD901A621(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:167>
 		return;
 	}
 }
@@ -16491,7 +15351,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalData_ResetState_m41F80F5251EA0B3641F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalData_InitializeState_mFB5F1264C20B8A208EF3F3BFA83F9E26BE40D0C7 (GoalData_t33B739E3F63C9E1D32D147FACED51A1E008DE344* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:169>
 		return;
 	}
 }
@@ -16507,9 +15366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoalData_InitializeState_mFB5F1264C20B8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RateData__ctor_m746098D6B74078E7EA89DE00778329E1C824AFC8 (RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:201>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:201>
 		return;
 	}
 }
@@ -16517,7 +15374,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RateData__ctor_m746098D6B74078E7EA89DE00
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RateData_Update_mBAEDB8E89512F172538795C66C7CA424FBEC9538 (RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* __this, RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* ___0_rd, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:205>
 		RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* L_0 = ___0_rd;
 		NullCheck(L_0);
 		float L_1 = L_0->___Position;
@@ -16537,7 +15393,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RateData_Update_mBAEDB8E89512F172538795C
 		NullCheck(L_10);
 		float L_11 = L_10->___TimeRemaining;
 		RateData_Update_m0E5CDA4573B369ABA493BF04F0EAE0F07CC8213B(__this, L_1, L_3, L_5, L_7, L_9, L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:206>
 		return;
 	}
 }
@@ -16545,25 +15400,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RateData_Update_mBAEDB8E89512F172538795C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RateData_Update_m0E5CDA4573B369ABA493BF04F0EAE0F07CC8213B (RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* __this, float ___0_position, float ___1_rotation, float ___2_scale, float ___3_unalteredPositionRate, uint32_t ___4_tickSpan, float ___5_timeRemaining, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:213>
 		float L_0 = ___0_position;
 		__this->___Position = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:214>
 		float L_1 = ___1_rotation;
 		__this->___Rotation = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:215>
 		float L_2 = ___2_scale;
 		__this->___Scale = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:216>
 		float L_3 = ___3_unalteredPositionRate;
 		__this->___LastUnalteredPositionRate = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:217>
 		uint32_t L_4 = ___4_tickSpan;
 		__this->___TickSpan = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:218>
 		float L_5 = ___5_timeRemaining;
 		__this->___TimeRemaining = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:219>
 		return;
 	}
 }
@@ -16571,19 +15419,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RateData_Update_m0E5CDA4573B369ABA493BF0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RateData_ResetState_m5C03426CA9350528784F6571F1C60D3BD901A621 (RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:223>
 		__this->___Position = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:224>
 		__this->___Rotation = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:225>
 		__this->___Scale = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:226>
 		__this->___LastUnalteredPositionRate = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:227>
 		__this->___TickSpan = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:228>
 		__this->___TimeRemaining = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:229>
 		return;
 	}
 }
@@ -16591,7 +15432,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RateData_ResetState_m5C03426CA9350528784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RateData_InitializeState_m8D4D791FEAAF5DEAC345044EB418E9E08FDA39E9 (RateData_tEC336234C27E8CC7DD17E1AD087A6BAB66951424* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:231>
 		return;
 	}
 }
@@ -16607,7 +15447,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RateData_InitializeState_m8D4D791FEAAF5D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TransformData_get_IsDefault_mB346D71C23DF7BB7F29B9E50C11ACF5B0ADAEC79 (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:246>
 		bool L_0 = __this->___U3CIsDefaultU3Ek__BackingField;
 		return L_0;
 	}
@@ -16616,7 +15455,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TransformData_get_IsDefault_mB346D71C23D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_set_IsDefault_mBECD5A2E2D923FD4C33975D769DAC0B6683DF368 (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:246>
 		bool L_0 = ___0_value;
 		__this->___U3CIsDefaultU3Ek__BackingField = L_0;
 		return;
@@ -16626,11 +15464,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_set_IsDefault_mBECD5A2E2D9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData__ctor_m21C3630D4B32ACD7C24E01A48514C36F772AD0C6 (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:246>
 		__this->___U3CIsDefaultU3Ek__BackingField = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:283>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:283>
 		return;
 	}
 }
@@ -16638,7 +15473,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData__ctor_m21C3630D4B32ACD7C24
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_SetIsDefaultToFalse_m86EF891035FC958F1C16DB11F757793C14E52626 (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:285>
 		TransformData_set_IsDefault_mBECD5A2E2D923FD4C33975D769DAC0B6683DF368_inline(__this, (bool)0, NULL);
 		return;
 	}
@@ -16647,7 +15481,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_SetIsDefaultToFalse_m86EF8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_Update_mAB70B72C54CB9571C1A5C7B9022D9D8B6AE0D6A2 (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* __this, TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* ___0_copy, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:289>
 		TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* L_0 = ___0_copy;
 		NullCheck(L_0);
 		uint32_t L_1 = L_0->___Tick;
@@ -16667,7 +15500,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_Update_mAB70B72C54CB9571C1
 		NullCheck(L_10);
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_11 = L_10->___ParentBehaviour;
 		TransformData_Update_m0C7177226549BA3D2CE3367C2383196BAB545E79(__this, L_1, L_3, L_5, L_7, L_9, L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:290>
 		return;
 	}
 }
@@ -16675,28 +15507,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_Update_mAB70B72C54CB9571C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_Update_m0C7177226549BA3D2CE3367C2383196BAB545E79 (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* __this, uint32_t ___0_tick, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_scale, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___4_extrapolatedPosition, NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* ___5_parentBehaviour, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:294>
 		TransformData_set_IsDefault_mBECD5A2E2D923FD4C33975D769DAC0B6683DF368_inline(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:295>
 		uint32_t L_0 = ___0_tick;
 		__this->___Tick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:296>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_position;
 		__this->___Position = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:297>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___2_rotation;
 		__this->___Rotation = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:298>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___3_scale;
 		__this->___Scale = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:299>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___4_extrapolatedPosition;
 		__this->___ExtrapolatedPosition = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:300>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_5 = ___5_parentBehaviour;
 		__this->___ParentBehaviour = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ParentBehaviour), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:301>
 		return;
 	}
 }
@@ -16704,34 +15528,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_Update_m0C7177226549BA3D2C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_ResetState_mE3F205F4C1486EEA08A3F7500BCB22D71C733C65 (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:305>
 		TransformData_set_IsDefault_mBECD5A2E2D923FD4C33975D769DAC0B6683DF368_inline(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:306>
 		__this->___Tick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:307>
 		__this->___SnappingChecked = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:308>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___Position = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:309>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
 		__this->___Rotation = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:310>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___Scale = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:311>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		__this->___ExtrapolatedPosition = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:312>
 		__this->___ExtrapolationState = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:313>
 		__this->___ParentBehaviour = (NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ParentBehaviour), (void*)(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:314>
 		return;
 	}
 }
@@ -16739,7 +15553,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_ResetState_mE3F205F4C1486E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformData_InitializeState_m5E2EB452CE7FBA9BC352016707CAB34643F26684 (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:316>
 		return;
 	}
 }
@@ -16927,9 +15740,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_Awake_m0E0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_OnDestroy_m91A5EB42953FE4F86E265A1C1DAB0257824BB8ED (DetachableNetworkTickSmoother_tD1C14C185779C2B415AECF6F26EC62D2EB592C23* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:111>
 		DetachableNetworkTickSmoother_ChangeSubscription_mC9A32982DDED264477DB890C612F39963DEA4BEC(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:112>
 		return;
 	}
 }
@@ -16947,9 +15758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_OnStartCli
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:116>
 		V_0 = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:117>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -16964,7 +15773,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_OnStartCli
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:119>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_3;
 		L_3 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		Type_t* L_4;
@@ -16980,13 +15788,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_OnStartCli
 		String_t* L_8;
 		L_8 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_5, _stringLiteral9E941E70B662EDC48DFA34653FFDB2F6828201F9, L_7, _stringLiteral1656AFE1E64641B9AD674CE0A972F532466AF717, NULL);
 		NetworkManagerExtensions_LogError_mD7BE80E7A765BD00754AB02E7E2252865C9B6568(L_3, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:120>
 		V_0 = (bool)1;
 	}
 
 IL_0047:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:122>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->____followObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -16997,7 +15803,6 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:124>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_11;
 		L_11 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		Type_t* L_12;
@@ -17015,13 +15820,11 @@ IL_0047:
 		String_t* L_17;
 		L_17 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral73A2346BCD4FB4382EA7B0E735815A8A10EF5E50, L_13, L_14, L_16, NULL);
 		NetworkManagerExtensions_LogError_mD7BE80E7A765BD00754AB02E7E2252865C9B6568(L_11, L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:125>
 		V_0 = (bool)1;
 	}
 
 IL_0088:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:128>
 		bool L_18 = V_0;
 		if (!L_18)
 		{
@@ -17029,13 +15832,11 @@ IL_0088:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:129>
 		return;
 	}
 
 IL_008c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:131>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
 		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_19);
@@ -17043,34 +15844,26 @@ IL_008c:
 		L_20 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_19, NULL);
 		__this->____parent = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____parent), (void*)L_20);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:132>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
 		L_21 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_21);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_21, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:134>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_22;
 		L_22 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		DetachableNetworkTickSmoother_SetTimeManager_mCF8A2F746505F2331E309FEAC1C837A5BBB4D2D1(__this, L_22, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:136>
 		DetachableNetworkTickSmoother_ChangeSubscription_mC9A32982DDED264477DB890C612F39963DEA4BEC(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:137>
 		DetachableNetworkTickSmoother_ChangeSubscription_mC9A32982DDED264477DB890C612F39963DEA4BEC(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:139>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = __this->____followObject;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_24;
 		L_24 = TransformFN_GetWorldProperties_mB43A3ECD9CCA6142F6BCD59D2D606C15E3C8D642(L_23, NULL);
 		__this->____postTickFollowObjectWorldProperties = L_24;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:140>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_25;
 		L_25 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		NullCheck(L_25);
 		double L_26;
 		L_26 = TimeManager_get_TickDelta_mAD7B3277F6932DB2CB2B3BD99748DDF43FC73A03_inline(L_25, NULL);
 		__this->____tickDelta = ((float)L_26);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:141>
 		__this->____initialized = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:142>
 		return;
 	}
 }
@@ -17084,7 +15877,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_OnStopClie
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:151>
 		bool L_0 = __this->____attachOnStop;
 		if (!L_0)
 		{
@@ -17102,13 +15894,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_OnStopClie
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:154>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->____parent;
 		NullCheck(L_3);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:156>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_6 = __this->____transformInstantiatedLocalProperties;
@@ -17117,14 +15907,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_OnStopClie
 
 IL_0038:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:159>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_7 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&__this->____postTickFollowObjectWorldProperties);
 		TransformProperties_ResetState_m3B909EA980EA7B7D27D8869BC8DE66006CF2F1FE(L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:160>
 		DetachableNetworkTickSmoother_ChangeSubscription_mC9A32982DDED264477DB890C612F39963DEA4BEC(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:162>
 		__this->____initialized = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:163>
 		return;
 	}
 }
@@ -17153,9 +15939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_Update_m00
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:168>
 		DetachableNetworkTickSmoother_MoveTowardsFollowTarget_m5373F754C9C004B3C54B8A8247A0025CC623EA3B(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:169>
 		return;
 	}
 }
@@ -17173,7 +15957,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother__timeManag
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:176>
 		il2cpp_codegen_runtime_class_init_inline(DetachableNetworkTickSmoother_tD1C14C185779C2B415AECF6F26EC62D2EB592C23_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((DetachableNetworkTickSmoother_tD1C14C185779C2B415AECF6F26EC62D2EB592C23_StaticFields*)il2cpp_codegen_static_fields_for(DetachableNetworkTickSmoother_tD1C14C185779C2B415AECF6F26EC62D2EB592C23_il2cpp_TypeInfo_var))->____pm_OnPostTick;
 		V_1 = L_0;
@@ -17194,7 +15977,6 @@ FINALLY_008e:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:178>
 				bool L_2 = __this->____initialized;
 				if (L_2)
 				{
@@ -17202,17 +15984,14 @@ FINALLY_008e:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:179>
 				goto IL_009c;
 			}
 
 IL_001b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:181>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_3 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&__this->____postTickFollowObjectWorldProperties);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->____followObject;
 				TransformProperties_Update_mEDA2148C8EB3E5359F790FB3B644AC7B999CE024(L_3, L_4, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:183>
 				bool L_5 = __this->____synchronizePosition;
 				if (L_5)
 				{
@@ -17220,7 +15999,6 @@ IL_001b_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:184>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_6 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&__this->____postTickFollowObjectWorldProperties);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
 				L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -17232,7 +16010,6 @@ IL_001b_1:
 
 IL_004a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:185>
 				bool L_9 = __this->____synchronizeRotation;
 				if (L_9)
 				{
@@ -17240,7 +16017,6 @@ IL_004a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:186>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_10 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&__this->____postTickFollowObjectWorldProperties);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
 				L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -17252,7 +16028,6 @@ IL_004a_1:
 
 IL_0068_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:187>
 				bool L_13 = __this->____synchronizeScale;
 				if (L_13)
 				{
@@ -17260,7 +16035,6 @@ IL_0068_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:188>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_14 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&__this->____postTickFollowObjectWorldProperties);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
 				L_15 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -17272,9 +16046,7 @@ IL_0068_1:
 
 IL_0086_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:189>
 				DetachableNetworkTickSmoother_SetMoveRates_mA41ACE3623F27E3EBC88A75D79D5C3A0188C3402(__this, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:190>
 				goto IL_009c;
 			}
 		}
@@ -17286,7 +16058,6 @@ IL_0086_1:
 
 IL_009c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:191>
 		return;
 	}
 }
@@ -17300,7 +16071,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_SetTimeMan
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:199>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0 = ___0_tm;
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_1 = __this->____timeManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -17312,21 +16082,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_SetTimeMan
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:200>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:203>
 		DetachableNetworkTickSmoother_ChangeSubscription_mC9A32982DDED264477DB890C612F39963DEA4BEC(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:205>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_3 = ___0_tm;
 		__this->____timeManager = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____timeManager), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:206>
 		DetachableNetworkTickSmoother_ChangeSubscription_mC9A32982DDED264477DB890C612F39963DEA4BEC(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:207>
 		return;
 	}
 }
@@ -17342,7 +16107,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_ChangeSubs
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:214>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0 = __this->____timeManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -17353,13 +16117,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_ChangeSubs
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:215>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:217>
 		bool L_2 = ___0_subscribe;
 		if (!L_2)
 		{
@@ -17367,7 +16129,6 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:218>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_3 = __this->____timeManager;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_4, __this, (intptr_t)((void*)DetachableNetworkTickSmoother__timeManager_OnPostTick_m477D452E98581D8775531D22598A332DF827AA0F_RuntimeMethod_var), NULL);
@@ -17378,13 +16139,11 @@ IL_000f:
 
 IL_002a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:220>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_5 = __this->____timeManager;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_6, __this, (intptr_t)((void*)DetachableNetworkTickSmoother__timeManager_OnPostTick_m477D452E98581D8775531D22598A332DF827AA0F_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		TimeManager_remove_OnPostTick_m61C92ED98B62A03F1D915DB9D86B7F0CF5E6881D(L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:221>
 		return;
 	}
 }
@@ -17398,7 +16157,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_MoveToward
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:228>
 		bool L_0 = __this->____initialized;
 		if (L_0)
 		{
@@ -17406,13 +16164,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_MoveToward
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:229>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:231>
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA* L_1 = (MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA*)(&__this->____moveRates);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -17421,7 +16177,6 @@ IL_0009:
 		L_4 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		il2cpp_codegen_runtime_class_init_inline(MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA_il2cpp_TypeInfo_var);
 		MoveRates_Move_mB4F94D56695FBA3956B8B58ABA1C5EBF097610CC(L_1, L_2, L_3, L_4, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:232>
 		return;
 	}
 }
@@ -17438,7 +16193,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_SetMoveRat
 	float V_1 = 0.0f;
 	float G_B7_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:236>
 		bool L_0 = __this->____initialized;
 		if (L_0)
 		{
@@ -17446,17 +16200,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_SetMoveRat
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:237>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:239>
 		float L_1 = __this->____tickDelta;
 		uint8_t L_2 = __this->____interpolation;
 		V_0 = ((float)il2cpp_codegen_multiply(L_1, ((float)L_2)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:244>
 		uint8_t L_3 = __this->____interpolation;
 		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
 		{
@@ -17464,7 +16215,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:245>
 		float L_4 = V_0;
 		float L_5;
 		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
@@ -17475,7 +16225,6 @@ IL_0009:
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:247>
 		bool L_7 = __this->____enableTeleport;
 		if (L_7)
 		{
@@ -17496,7 +16245,6 @@ IL_0042:
 IL_0048:
 	{
 		V_1 = G_B7_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:248>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->____followObject;
@@ -17506,7 +16254,6 @@ IL_0048:
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA L_13;
 		L_13 = MoveRates_GetWorldMoveRates_m0DE783D1F642A6DA851561B294AC586E4B89BF09(L_9, L_10, L_11, L_12, NULL);
 		__this->____moveRates = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:249>
 		return;
 	}
 }
@@ -17520,13 +16267,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother__ctor_mAB7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:24>
 		__this->____attachOnStop = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:37>
 		__this->____interpolation = (uint8_t)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:56>
 		__this->____synchronizePosition = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:91>
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		MoveRates__ctor_m0D9C4925620E1D08E92BE470B0053170B20DA583((&L_0), (std::numeric_limits<float>::infinity()), NULL);
@@ -17547,7 +16290,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother__cctor_mDF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:101>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_0), _stringLiteralCBBACD5CE658D36C98FA2F62209413167C109DE6, NULL);
@@ -17610,13 +16352,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_NetworkIni
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_Awake_UserLogic_FishNet_Component_Transforming_DetachableNetworkTickSmoother_FishNet_Runtime_dll_mF0180C7B43A94890D667A255079944A6CAE60816 (DetachableNetworkTickSmoother_tD1C14C185779C2B415AECF6F26EC62D2EB592C23* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:106>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_1;
 		L_1 = TransformFN_GetLocalProperties_mBC5B5AF7337DCB2D07D792877275848D95853184(L_0, NULL);
 		__this->____transformInstantiatedLocalProperties = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/DetachableNetworkTickSmoother.cs:107>
 		return;
 	}
 }
@@ -17632,9 +16372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetachableNetworkTickSmoother_Awake_User
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother_OnEnable_mBDEB28952B9A78D7D426033291521978800875B5 (MonoTickSmoother_tDF1AA0067F1FBC7B21DB3975732FC1583D8249F1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:72>
 		MonoTickSmoother_Initialize_m99514E02C549BF50FFB275E927F05442F438589E(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:73>
 		return;
 	}
 }
@@ -17649,17 +16387,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother_OnDisable_m31E8083D4EE3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:77>
 		LocalTransformTickSmoother_t4096DDF3498AC4964E7A45BA713D8DCB919B213A* L_0 = __this->____tickSmoother;
 		NullCheck(L_0);
 		LocalTransformTickSmoother_ResetState_m7468C2B3C76246A473AC53C165926F658FD9C2CC(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:78>
 		MonoTickSmoother_ChangeSubscription_m7A81AD51497C7D6CF95255C7F2483267B9175BB8(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:79>
 		LocalTransformTickSmoother_t4096DDF3498AC4964E7A45BA713D8DCB919B213A** L_1 = (LocalTransformTickSmoother_t4096DDF3498AC4964E7A45BA713D8DCB919B213A**)(&__this->____tickSmoother);
 		il2cpp_codegen_runtime_class_init_inline(ObjectCaches_1_t30045492254E33B1BF282F9F00C2647F99E2675B_il2cpp_TypeInfo_var);
 		ObjectCaches_1_StoreAndDefault_m5BD54880976A43062DCFB6D24EE78BE52F3EE5CF_inline(L_1, ObjectCaches_1_StoreAndDefault_m5BD54880976A43062DCFB6D24EE78BE52F3EE5CF_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:80>
 		return;
 	}
 }
@@ -17682,7 +16416,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother_Update_mD5C1E104FF0090B
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:85>
 		LocalTransformTickSmoother_t4096DDF3498AC4964E7A45BA713D8DCB919B213A* L_1 = __this->____tickSmoother;
 		LocalTransformTickSmoother_t4096DDF3498AC4964E7A45BA713D8DCB919B213A* L_2 = L_1;
 		if (L_2)
@@ -17700,7 +16433,6 @@ IL_0018:
 	{
 		NullCheck(G_B4_0);
 		LocalTransformTickSmoother_Update_mC829C63AF85AA2586E47F934E021BFA891475EA2(G_B4_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:86>
 		return;
 	}
 }
@@ -17715,13 +16447,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother_Initialize_m99514E02C54
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:93>
 		il2cpp_codegen_runtime_class_init_inline(ObjectCaches_1_t30045492254E33B1BF282F9F00C2647F99E2675B_il2cpp_TypeInfo_var);
 		LocalTransformTickSmoother_t4096DDF3498AC4964E7A45BA713D8DCB919B213A* L_0;
 		L_0 = ObjectCaches_1_Retrieve_m1F1EA668DA8E4349D1F0517103BDD69D23465818(ObjectCaches_1_Retrieve_m1F1EA668DA8E4349D1F0517103BDD69D23465818_RuntimeMethod_var);
 		__this->____tickSmoother = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____tickSmoother), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:94>
 		bool L_1 = __this->____useInstanceFinder;
 		if (!L_1)
 		{
@@ -17729,18 +16459,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother_Initialize_m99514E02C54
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:96>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_2;
 		L_2 = InstanceFinder_get_TimeManager_m03F400BBE40F6B4846D8CEA2872EE8D3353FF3E6(NULL);
 		__this->____timeManager = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____timeManager), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:97>
 		MonoTickSmoother_ChangeSubscription_m7A81AD51497C7D6CF95255C7F2483267B9175BB8(__this, (bool)1, NULL);
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:99>
 		return;
 	}
 }
@@ -17754,7 +16481,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother_SetTimeManager_mFF81937
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:107>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0 = ___0_tm;
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_1 = __this->____timeManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -17766,21 +16492,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother_SetTimeManager_mFF81937
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:108>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:111>
 		MonoTickSmoother_ChangeSubscription_m7A81AD51497C7D6CF95255C7F2483267B9175BB8(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:113>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_3 = ___0_tm;
 		__this->____timeManager = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____timeManager), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:114>
 		MonoTickSmoother_ChangeSubscription_m7A81AD51497C7D6CF95255C7F2483267B9175BB8(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:115>
 		return;
 	}
 }
@@ -17799,7 +16520,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother_ChangeSubscription_m7A8
 	float V_0 = 0.0f;
 	float G_B7_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:122>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0 = __this->____timeManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -17810,13 +16530,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother_ChangeSubscription_m7A8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:123>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:125>
 		bool L_2 = ___0_subscribe;
 		if (!L_2)
 		{
@@ -17824,7 +16542,6 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:127>
 		LocalTransformTickSmoother_t4096DDF3498AC4964E7A45BA713D8DCB919B213A* L_3 = __this->____tickSmoother;
 		if (!L_3)
 		{
@@ -17832,7 +16549,6 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:129>
 		bool L_4 = __this->____enableTeleport;
 		if (L_4)
 		{
@@ -17853,7 +16569,6 @@ IL_0029:
 IL_002f:
 	{
 		V_0 = G_B7_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:130>
 		LocalTransformTickSmoother_t4096DDF3498AC4964E7A45BA713D8DCB919B213A* L_6 = __this->____tickSmoother;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->____graphicalObject;
 		float L_8 = V_0;
@@ -17867,13 +16582,11 @@ IL_002f:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:132>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_11 = __this->____timeManager;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_12 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_12, __this, (intptr_t)((void*)MonoTickSmoother__timeManager_OnPreTick_m9631AC336462668336549BAC74FBAA9D909DB40C_RuntimeMethod_var), NULL);
 		NullCheck(L_11);
 		TimeManager_add_OnPreTick_m4DE798A04C380117CC83499C92E97ED71AEE308C(L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:133>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_13 = __this->____timeManager;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_14 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_14, __this, (intptr_t)((void*)MonoTickSmoother__timeManager_OnPostTick_m02988A56B53262FD11015C47DD2FBDD8BDD9D44A_RuntimeMethod_var), NULL);
@@ -17884,19 +16597,16 @@ IL_004f:
 
 IL_007e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:137>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_15 = __this->____timeManager;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_16 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_16, __this, (intptr_t)((void*)MonoTickSmoother__timeManager_OnPreTick_m9631AC336462668336549BAC74FBAA9D909DB40C_RuntimeMethod_var), NULL);
 		NullCheck(L_15);
 		TimeManager_remove_OnPreTick_mB2A92488D46347B1E51A1139CE26BC2EDAB8C3AA(L_15, L_16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:138>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_17 = __this->____timeManager;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_18 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_18, __this, (intptr_t)((void*)MonoTickSmoother__timeManager_OnPostTick_m02988A56B53262FD11015C47DD2FBDD8BDD9D44A_RuntimeMethod_var), NULL);
 		NullCheck(L_17);
 		TimeManager_remove_OnPostTick_m61C92ED98B62A03F1D915DB9D86B7F0CF5E6881D(L_17, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:140>
 		return;
 	}
 }
@@ -17914,7 +16624,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother__timeManager_OnPreTick_
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:147>
 		il2cpp_codegen_runtime_class_init_inline(MonoTickSmoother_tDF1AA0067F1FBC7B21DB3975732FC1583D8249F1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((MonoTickSmoother_tDF1AA0067F1FBC7B21DB3975732FC1583D8249F1_StaticFields*)il2cpp_codegen_static_fields_for(MonoTickSmoother_tDF1AA0067F1FBC7B21DB3975732FC1583D8249F1_il2cpp_TypeInfo_var))->____pm_OnPreTick;
 		V_1 = L_0;
@@ -17934,11 +16643,9 @@ FINALLY_001b:
 		});
 		try
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:149>
 			LocalTransformTickSmoother_t4096DDF3498AC4964E7A45BA713D8DCB919B213A* L_2 = __this->____tickSmoother;
 			NullCheck(L_2);
 			LocalTransformTickSmoother_OnPreTick_mB0AB80D9AE58D5A3BFB1F6C0BBB8CD745E87BBD0(L_2, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:150>
 			goto IL_0029;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -17949,7 +16656,6 @@ FINALLY_001b:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:151>
 		return;
 	}
 }
@@ -17967,7 +16673,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother__timeManager_OnPostTick
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:158>
 		il2cpp_codegen_runtime_class_init_inline(MonoTickSmoother_tDF1AA0067F1FBC7B21DB3975732FC1583D8249F1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((MonoTickSmoother_tDF1AA0067F1FBC7B21DB3975732FC1583D8249F1_StaticFields*)il2cpp_codegen_static_fields_for(MonoTickSmoother_tDF1AA0067F1FBC7B21DB3975732FC1583D8249F1_il2cpp_TypeInfo_var))->____pm_OnPostTick;
 		V_1 = L_0;
@@ -17987,11 +16692,9 @@ FINALLY_001b:
 		});
 		try
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:160>
 			LocalTransformTickSmoother_t4096DDF3498AC4964E7A45BA713D8DCB919B213A* L_2 = __this->____tickSmoother;
 			NullCheck(L_2);
 			LocalTransformTickSmoother_OnPostTick_m95235B92A45E49EC509B9E1D72396363D1A714FE(L_2, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:161>
 			goto IL_0029;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -18002,7 +16705,6 @@ FINALLY_001b:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:162>
 		return;
 	}
 }
@@ -18010,7 +16712,6 @@ IL_0029:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother__ctor_m90B97B6BDC4FDB305F5CC36AD200B2822C037EEC (MonoTickSmoother_tDF1AA0067F1FBC7B21DB3975732FC1583D8249F1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:30>
 		__this->____useInstanceFinder = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -18028,12 +16729,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother__cctor_m63FA3BFD6062320
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:65>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_0), _stringLiteralC9B9B3D9C7FF96B9454F901EBB01854F367404FF, NULL);
 		((MonoTickSmoother_tDF1AA0067F1FBC7B21DB3975732FC1583D8249F1_StaticFields*)il2cpp_codegen_static_fields_for(MonoTickSmoother_tDF1AA0067F1FBC7B21DB3975732FC1583D8249F1_il2cpp_TypeInfo_var))->____pm_OnPreTick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/MonoTickSmoother.cs:66>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_1), _stringLiteral6BA3A4605660BE11EA1807FA74A9E1235186E270, NULL);
@@ -18061,7 +16760,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTickSmoother__cctor_m63FA3BFD6062320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SnappedAxesExtensions_FastContains_mE2066068A5A600235F0025093D43234091CCAEC0 (uint32_t ___0_whole, uint32_t ___1_part, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/SnappedAxes.cs:21>
 		uint32_t L_0 = ___0_whole;
 		uint32_t L_1 = ___1_part;
 		uint32_t L_2 = ___1_part;
@@ -18080,7 +16778,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SnappedAxesExtensions_FastContains_mE206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetSmoothedProperties_m0CCF047CCB64EC5CCA04F29A1B69DB65932B2FB1 (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, uint32_t ___0_value, bool ___1_forSpectator, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:134>
 		bool L_0 = ___1_forSpectator;
 		if (!L_0)
 		{
@@ -18088,7 +16785,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetSmoothedPropert
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:135>
 		uint32_t L_1 = ___0_value;
 		__this->____spectatorSmoothedProperties = L_1;
 		return;
@@ -18096,10 +16792,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetSmoothedPropert
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:137>
 		uint32_t L_2 = ___0_value;
 		__this->____ownerSmoothedProperties = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:138>
 		return;
 	}
 }
@@ -18107,10 +16801,8 @@ IL_000b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetAdaptiveInterpolation_mBB82708C13D4FF3A1F46388FB19F54BA9DE3D535 (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, int32_t ___0_adaptiveInterpolation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:151>
 		int32_t L_0 = ___0_adaptiveInterpolation;
 		__this->____adaptiveInterpolation = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:152>
 		return;
 	}
 }
@@ -18118,10 +16810,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetAdaptiveInterpo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetSpectatorInterpolation_m7D2FFA527FB8D595AE72D50BBBF21EFC352FA255 (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, uint8_t ___0_value, bool ___1_disableAdaptiveInterpolation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:166>
 		uint8_t L_0 = ___0_value;
 		__this->____spectatorInterpolation = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:167>
 		bool L_1 = ___1_disableAdaptiveInterpolation;
 		if (!L_1)
 		{
@@ -18129,13 +16819,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetSpectatorInterp
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:168>
 		__this->____adaptiveInterpolation = 0;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:169>
 		return;
 	}
 }
@@ -18143,18 +16831,13 @@ IL_0011:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother__ctor_m2E730EFFA3B81AD6C52DD8E0CB463AC4A83666DF (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:81>
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		MoveRates__ctor_m0D9C4925620E1D08E92BE470B0053170B20DA583((&L_0), (-std::numeric_limits<float>::infinity()), NULL);
 		__this->____moveRates = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:113>
 		__this->____movementMultiplier = (1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:143>
 		__this->____adaptiveInterpolation = 2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:218>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:218>
 		return;
 	}
 }
@@ -18167,14 +16850,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_Finalize_mCBCBECB2
 
 FINALLY_0008:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:224>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:223>
 			TransformTickSmoother_ResetState_m3BA1D19F17AC4735EFF4151BDADF114486C0BB69(__this, NULL);
 			goto IL_000f;
 		}
@@ -18186,7 +16867,6 @@ FINALLY_0008:
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:224>
 		return;
 	}
 }
@@ -18194,19 +16874,14 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_InitializeNetworked_mA420B0CB4A833549961CE9E085AC1181628051E4 (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* ___0_nob, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_graphicalObject, bool ___2_detach, float ___3_teleportDistance, float ___4_tickDelta, uint8_t ___5_ownerInterpolation, uint32_t ___6_ownerSmoothedProperties, uint8_t ___7_spectatorInterpolation, uint32_t ___8_specatorSmoothedProperties, int32_t ___9_adaptiveInterpolation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:231>
 		TransformTickSmoother_ResetState_m3BA1D19F17AC4735EFF4151BDADF114486C0BB69(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:233>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_0 = ___0_nob;
 		__this->____networkObject = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____networkObject), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:234>
 		uint8_t L_1 = ___7_spectatorInterpolation;
 		__this->____spectatorInterpolation = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:235>
 		uint32_t L_2 = ___8_specatorSmoothedProperties;
 		__this->____spectatorSmoothedProperties = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:237>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_3 = ___0_nob;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -18218,12 +16893,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_InitializeNetworke
 		uint8_t L_9 = ___5_ownerInterpolation;
 		uint32_t L_10 = ___6_ownerSmoothedProperties;
 		TransformTickSmoother_Initialize_Internal_mA028A11019DF0F0EE331AFF44B864B359627AD51(__this, L_4, L_5, L_6, L_7, L_8, L_9, L_10, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:239>
 		int32_t L_11 = ___9_adaptiveInterpolation;
 		TransformTickSmoother_SetAdaptiveInterpolation_mBB82708C13D4FF3A1F46388FB19F54BA9DE3D535_inline(__this, L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:240>
 		TransformTickSmoother_UpdateInterpolation_mE9F0601EC185B3D79EC2347A5D133E0F9DC24C59(__this, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:241>
 		return;
 	}
 }
@@ -18242,42 +16914,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_Initialize_Interna
 	int32_t G_B3_0 = 0;
 	TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:245>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_rootTransform;
 		__this->____rootTransform = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____rootTransform), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:246>
 		bool L_1 = ___2_detach;
 		__this->____detach = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:247>
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_t51BD7BEA15539293E4C6F2A16D6ADB149525A7FD_il2cpp_TypeInfo_var);
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_2;
 		L_2 = CollectionCaches_1_RetrieveBasicQueue_mC14D0A82529C3D290274B71A47903A9BF938FEA4(CollectionCaches_1_RetrieveBasicQueue_mC14D0A82529C3D290274B71A47903A9BF938FEA4_RuntimeMethod_var);
 		__this->____transformProperties = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____transformProperties), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:248>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = ___0_rootTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___1_graphicalObject;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_5;
 		L_5 = TransformFN_GetTransformOffsets_mC99188BD2C807A476B940DCA75AE0CC715D37F05(L_3, L_4, NULL);
 		__this->____gfxInitializedOffsetValues = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:249>
 		float L_6 = ___4_tickDelta;
 		__this->____tickDelta = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:250>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = ___1_graphicalObject;
 		__this->____graphicalObject = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____graphicalObject), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:251>
 		float L_8 = ___3_teleportDistance;
 		__this->____teleportThreshold = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:252>
 		uint8_t L_9 = ___5_ownerInterpolation;
 		__this->____ownerInterpolation = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:254>
 		uint32_t L_10 = ___6_ownerSmoothedProperties;
 		__this->____ownerSmoothedProperties = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:255>
 		bool L_11 = ___7_forNetworked;
 		if (L_11)
 		{
@@ -18302,7 +16964,6 @@ IL_0056:
 	{
 		NullCheck(G_B3_1);
 		G_B3_1->____initializeType = G_B3_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:256>
 		return;
 	}
 }
@@ -18310,9 +16971,7 @@ IL_0056:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_Initialize_mC2DF9D021799D6F19BF2307260B3B719B78971FC (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_rootTransform, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_graphicalObject, bool ___2_detach, float ___3_teleportDistance, float ___4_tickDelta, uint8_t ___5_ownerInterpolation, uint32_t ___6_ownerSmoothedProperties, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:263>
 		TransformTickSmoother_ResetState_m3BA1D19F17AC4735EFF4151BDADF114486C0BB69(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:265>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_rootTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___1_graphicalObject;
 		bool L_2 = ___2_detach;
@@ -18321,9 +16980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_Initialize_mC2DF9D
 		uint8_t L_5 = ___5_ownerInterpolation;
 		uint32_t L_6 = ___6_ownerSmoothedProperties;
 		TransformTickSmoother_Initialize_Internal_mA028A11019DF0F0EE331AFF44B864B359627AD51(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:267>
 		TransformTickSmoother_SetAdaptiveInterpolation_mBB82708C13D4FF3A1F46388FB19F54BA9DE3D535_inline(__this, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:268>
 		return;
 	}
 }
@@ -18331,9 +16988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_Initialize_mC2DF9D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_Deinitialize_mB1ED4BC4581C95A4D5FADBE014B70D3187649D3B (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:275>
 		TransformTickSmoother_ResetState_m3BA1D19F17AC4735EFF4151BDADF114486C0BB69(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:276>
 		return;
 	}
 }
@@ -18343,7 +16998,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_UpdateInterpolatio
 	float V_0 = 0.0f;
 	TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:288>
 		int32_t L_0 = __this->____initializeType;
 		if ((((int32_t)L_0) == ((int32_t)2)))
 		{
@@ -18376,7 +17030,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_UpdateInterpolatio
 
 IL_0028:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:290>
 		uint8_t L_6 = __this->____ownerInterpolation;
 		__this->____interpolation = L_6;
 		return;
@@ -18384,7 +17037,6 @@ IL_0028:
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:295>
 		int32_t L_7 = __this->____adaptiveInterpolation;
 		if (L_7)
 		{
@@ -18392,7 +17044,6 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:297>
 		uint8_t L_8 = __this->____spectatorInterpolation;
 		__this->____interpolation = L_8;
 		return;
@@ -18400,13 +17051,11 @@ IL_0035:
 
 IL_004a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:302>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_9 = __this->____networkObject;
 		NullCheck(L_9);
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_10;
 		L_10 = NetworkObject_get_TimeManager_mB7C5B0F9D7F8201DF54C905F4B86BD5AA3FB3D4C_inline(L_9, NULL);
 		V_1 = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:303>
 		uint32_t L_11 = ___0_clientStateTick;
 		if (L_11)
 		{
@@ -18414,19 +17063,16 @@ IL_004a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:306>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_12 = V_1;
 		NullCheck(L_12);
 		int64_t L_13;
 		L_13 = TimeManager_get_RoundTripTime_m2BAC601F1FDE628203CFE265B57CAAC303F14CB0_inline(L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:307>
 		V_0 = ((float)(((float)L_13)/(10.0f)));
 		goto IL_0074;
 	}
 
 IL_0069:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:311>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_14 = V_1;
 		NullCheck(L_14);
 		uint32_t L_15;
@@ -18437,22 +17083,18 @@ IL_0069:
 
 IL_0074:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:314>
 		float L_17 = V_0;
 		float L_18;
 		L_18 = TransformTickSmoother_U3CUpdateInterpolationU3Eg__GetInterpolationMultiplierU7C37_0_mB0AFCA5F4B26AD950FA5149125FA71682456FFE6(__this, NULL);
 		V_0 = ((float)il2cpp_codegen_multiply(L_17, L_18));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:315>
 		float L_19 = V_0;
 		float L_20;
 		L_20 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_19, (2.0f), (255.0f), NULL);
 		V_0 = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:316>
 		float L_21 = V_0;
 		int32_t L_22;
 		L_22 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(L_21, NULL);
 		__this->____interpolation = (uint8_t)((int32_t)(uint8_t)L_22);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:342>
 		return;
 	}
 }
@@ -18462,7 +17104,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnStartClient_m085
 	TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:346>
 		bool L_0 = __this->____detach;
 		if (L_0)
 		{
@@ -18470,33 +17111,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnStartClient_m085
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:347>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:349>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->____graphicalObject;
 		NullCheck(L_1);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_1, NULL);
 		__this->____previousParent = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____previousParent), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:350>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->____graphicalObject;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_4;
 		L_4 = TransformFN_GetWorldProperties_mB43A3ECD9CCA6142F6BCD59D2D606C15E3C8D642(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:351>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->____graphicalObject;
 		NullCheck(L_5);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_5, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:352>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->____graphicalObject;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_7 = V_0;
 		TransformFN_SetWorldProperties_mE5AE79D82FA85913BE3BA5192C21A1FFBAEA754E(L_6, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:353>
 		return;
 	}
 }
@@ -18510,7 +17145,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnStopClient_m8828
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:357>
 		bool L_0 = __this->____detach;
 		if (!L_0)
 		{
@@ -18540,23 +17174,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnStopClient_m8828
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:358>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:360>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->____graphicalObject;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->____previousParent;
 		NullCheck(L_5);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:361>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->____graphicalObject;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_8;
 		L_8 = TransformTickSmoother_GetNetworkObjectWorldPropertiesWithOffset_m49478777B082C72134A22C81865D0A54B2083641(__this, NULL);
 		TransformFN_SetWorldProperties_mE5AE79D82FA85913BE3BA5192C21A1FFBAEA754E(L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:362>
 		return;
 	}
 }
@@ -18564,7 +17194,6 @@ IL_0025:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnUpdate_mB8E3F401C4C09BE205F08A4ED839B44D0641E8FA (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:369>
 		bool L_0;
 		L_0 = TransformTickSmoother_CanSmooth_m2DC68FB3B2FF9C682BC651ADDB55184B14316F0E(__this, NULL);
 		if (L_0)
@@ -18573,17 +17202,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnUpdate_mB8E3F401
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:370>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:372>
 		float L_1;
 		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		TransformTickSmoother_MoveToTarget_m901244B41BD94712126241E702F4EF100D93060F(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:373>
 		return;
 	}
 }
@@ -18601,7 +17227,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnPreTick_mA27AD6F
 	int32_t G_B5_0 = 0;
 	TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* G_B5_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:380>
 		bool L_0;
 		L_0 = TransformTickSmoother_CanSmooth_m2DC68FB3B2FF9C682BC651ADDB55184B14316F0E(__this, NULL);
 		if (L_0)
@@ -18610,15 +17235,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnPreTick_mA27AD6F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:381>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:383>
 		__this->____preTicked = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:384>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_1 = __this->____networkObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -18650,9 +17272,7 @@ IL_002d:
 	{
 		NullCheck(G_B5_1);
 		G_B5_1->____useOwnerSmoothing = (bool)G_B5_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:386>
 		TransformTickSmoother_DiscardExcessiveTransformPropertiesQueue_m33BDB485BC0A7C501876A5039BD2AEED2E18EAE5(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:389>
 		bool L_5 = __this->____detach;
 		if (L_5)
 		{
@@ -18660,7 +17280,6 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:390>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->____graphicalObject;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_7;
 		L_7 = TransformFN_GetWorldProperties_mB43A3ECD9CCA6142F6BCD59D2D606C15E3C8D642(L_6, NULL);
@@ -18669,7 +17288,6 @@ IL_002d:
 
 IL_0051:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:391>
 		return;
 	}
 }
@@ -18678,7 +17296,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnPreReconcile_mB5
 {
 	uint32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:398>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_0 = __this->____networkObject;
 		NullCheck(L_0);
 		bool L_1;
@@ -18689,13 +17306,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnPreReconcile_mB5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:399>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:400>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_2 = __this->____networkObject;
 		NullCheck(L_2);
 		bool L_3;
@@ -18715,13 +17330,11 @@ IL_000e:
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:401>
 		return;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:403>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_5 = __this->____networkObject;
 		NullCheck(L_5);
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_6;
@@ -18730,13 +17343,10 @@ IL_0024:
 		uint32_t L_7;
 		L_7 = PredictionManager_get_ClientStateTick_mE7DCF08F45DFB92889983DF07795D6E3CAC51648_inline(L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:404>
 		uint32_t L_8 = V_0;
 		__this->____lastReconcileTick = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:406>
 		uint32_t L_9 = V_0;
 		TransformTickSmoother_UpdateInterpolation_mE9F0601EC185B3D79EC2347A5D133E0F9DC24C59(__this, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:407>
 		return;
 	}
 }
@@ -18752,7 +17362,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnPostReplicateRep
 	}
 	uint32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:415>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_0 = __this->____networkObject;
 		NullCheck(L_0);
 		bool L_1;
@@ -18772,13 +17381,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnPostReplicateRep
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:416>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:417>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_3 = __this->____transformProperties;
 		NullCheck(L_3);
 		int32_t L_4;
@@ -18789,13 +17396,11 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:418>
 		return;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:419>
 		uint32_t L_5 = ___0_clientTick;
 		uint32_t L_6 = __this->____teleportedTick;
 		if ((!(((uint32_t)L_5) <= ((uint32_t)L_6))))
@@ -18804,20 +17409,17 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:420>
 		return;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:421>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_7 = __this->____transformProperties;
 		NullCheck(L_7);
 		TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11 L_8;
 		L_8 = BasicQueue_1_Peek_m252232178057435712C78682285CE0D1DF79F441(L_7, BasicQueue_1_Peek_m252232178057435712C78682285CE0D1DF79F441_RuntimeMethod_var);
 		uint32_t L_9 = L_8.___Tick;
 		V_0 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:423>
 		uint32_t L_10 = ___0_clientTick;
 		uint32_t L_11 = V_0;
 		if ((!(((uint32_t)L_10) <= ((uint32_t)L_11))))
@@ -18826,17 +17428,14 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:424>
 		return;
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:426>
 		uint32_t L_12 = ___0_clientTick;
 		uint32_t L_13 = V_0;
 		TransformTickSmoother_ModifyTransformProperties_m62A8B00FD1668921F1570B471F65A6E07FEE0CEB(__this, L_12, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:427>
 		return;
 	}
 }
@@ -18844,7 +17443,6 @@ IL_0044:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnPostTick_m363CF0FBE0A8A1465D7B3F10B971B7CE0DCCB418 (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, uint32_t ___0_clientTick, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:435>
 		bool L_0;
 		L_0 = TransformTickSmoother_CanSmooth_m2DC68FB3B2FF9C682BC651ADDB55184B14316F0E(__this, NULL);
 		if (L_0)
@@ -18853,13 +17451,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_OnPostTick_m363CF0
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:436>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:437>
 		uint32_t L_1 = ___0_clientTick;
 		uint32_t L_2 = __this->____teleportedTick;
 		if ((!(((uint32_t)L_1) <= ((uint32_t)L_2))))
@@ -18868,13 +17464,11 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:438>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:441>
 		bool L_3 = __this->____preTicked;
 		if (!L_3)
 		{
@@ -18882,9 +17476,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:443>
 		TransformTickSmoother_DiscardExcessiveTransformPropertiesQueue_m33BDB485BC0A7C501876A5039BD2AEED2E18EAE5(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:446>
 		bool L_4 = __this->____detach;
 		if (L_4)
 		{
@@ -18892,7 +17484,6 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:447>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->____graphicalObject;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_6 = __this->____gfxPreSimulateWorldValues;
 		TransformFN_SetWorldProperties_mE5AE79D82FA85913BE3BA5192C21A1FFBAEA754E(L_5, L_6, NULL);
@@ -18900,7 +17491,6 @@ IL_0013:
 
 IL_003a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:449>
 		uint32_t L_7 = ___0_clientTick;
 		TransformTickSmoother_AddTransformProperties_mF9F582FD4BD4069FFDA1187A6C68AF07C8303FD1(__this, L_7, NULL);
 		return;
@@ -18908,7 +17498,6 @@ IL_003a:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:455>
 		bool L_8 = __this->____detach;
 		if (L_8)
 		{
@@ -18916,7 +17505,6 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:456>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->____graphicalObject;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_10;
 		L_10 = TransformTickSmoother_GetNetworkObjectWorldPropertiesWithOffset_m49478777B082C72134A22C81865D0A54B2083641(__this, NULL);
@@ -18925,7 +17513,6 @@ IL_0042:
 
 IL_005b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:458>
 		return;
 	}
 }
@@ -18941,7 +17528,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_Teleport_mEBF05CF3
 	TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:465>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_0 = __this->____networkObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -18952,13 +17538,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_Teleport_mEBF05CF3
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:466>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:467>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_2 = __this->____networkObject;
 		NullCheck(L_2);
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_3;
@@ -18967,9 +17551,7 @@ IL_000f:
 		uint32_t L_4;
 		L_4 = TimeManager_get_LocalTick_m33B90F5CF081E02D356737AB650141634B970275(L_3, NULL);
 		__this->____teleportedTick = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:468>
 		TransformTickSmoother_ClearTransformPropertiesQueue_m91444150A8E4590300A2ECC929CF10D30F389835(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:469>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_5 = __this->____networkObject;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -18977,14 +17559,11 @@ IL_000f:
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_7;
 		L_7 = TransformFN_GetWorldProperties_mB43A3ECD9CCA6142F6BCD59D2D606C15E3C8D642(L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:470>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_8 = __this->____gfxInitializedOffsetValues;
 		TransformProperties_Add_m589A1FF12E8C4EB13B628C25A82A3D103E0B1DFC((&V_0), L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:471>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->____graphicalObject;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_10 = V_0;
 		TransformFN_SetWorldProperties_mE5AE79D82FA85913BE3BA5192C21A1FFBAEA754E(L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:472>
 		return;
 	}
 }
@@ -18998,16 +17577,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_ClearTransformProp
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:479>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_0 = __this->____transformProperties;
 		NullCheck(L_0);
 		BasicQueue_1_Clear_m98E64ABBF3FF463E4A0D85D4F4F605A598EC375F(L_0, BasicQueue_1_Clear_m98E64ABBF3FF463E4A0D85D4F4F605A598EC375F_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:481>
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		MoveRates__ctor_m0D9C4925620E1D08E92BE470B0053170B20DA583((&L_1), (-std::numeric_limits<float>::infinity()), NULL);
 		__this->____moveRates = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:482>
 		return;
 	}
 }
@@ -19026,15 +17602,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_DiscardExcessiveTr
 	memset((&V_1), 0, sizeof(V_1));
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:489>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_0 = __this->____transformProperties;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = BasicQueue_1_get_Count_m2A1DCAFF4F8293192F9C9C4A2CA916EF2705A556_inline(L_0, BasicQueue_1_get_Count_m2A1DCAFF4F8293192F9C9C4A2CA916EF2705A556_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:490>
 		uint8_t L_2 = __this->____interpolation;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, ((int32_t)il2cpp_codegen_add((int32_t)L_2, 3))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:492>
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) <= ((int32_t)0)))
 		{
@@ -19042,29 +17615,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_DiscardExcessiveTr
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:494>
 		il2cpp_codegen_initobj((&V_1), sizeof(TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:495>
 		V_2 = 0;
 		goto IL_0036;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:496>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_4 = __this->____transformProperties;
 		NullCheck(L_4);
 		TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11 L_5;
 		L_5 = BasicQueue_1_Dequeue_m992E3CECB275A3CE559091E9618D6CD6F7450707(L_4, (bool)1, BasicQueue_1_Dequeue_m992E3CECB275A3CE559091E9618D6CD6F7450707_RuntimeMethod_var);
 		V_1 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:495>
 		int32_t L_6 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_6, 1));
 	}
 
 IL_0036:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:495>
 		int32_t L_7 = V_2;
 		int32_t L_8 = V_0;
 		if ((((int32_t)L_7) < ((int32_t)L_8)))
@@ -19073,14 +17641,12 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:498>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_9 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&(&V_1)->___Properties);
 		TransformTickSmoother_SetMoveRates_m78BFE052183CC7946D996CAE5C69A5E04CC58CDE(__this, L_9, NULL);
 	}
 
 IL_0047:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:500>
 		return;
 	}
 }
@@ -19099,17 +17665,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_AddTransformProper
 	TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:507>
 		uint32_t L_0 = ___0_tick;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_1;
 		L_1 = TransformTickSmoother_GetNetworkObjectWorldPropertiesWithOffset_m49478777B082C72134A22C81865D0A54B2083641(__this, NULL);
 		TickTransformProperties__ctor_m1EE1F21A0D7C7AA1973D7810B3BDA18A801D5B08((&V_0), L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:508>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_2 = __this->____transformProperties;
 		TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11 L_3 = V_0;
 		NullCheck(L_2);
 		BasicQueue_1_Enqueue_mF060C0C72197E17DF2A621C43C78A45433192834(L_2, L_3, BasicQueue_1_Enqueue_mF060C0C72197E17DF2A621C43C78A45433192834_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:511>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_4 = __this->____transformProperties;
 		NullCheck(L_4);
 		int32_t L_5;
@@ -19120,14 +17683,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_AddTransformProper
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:513>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->____graphicalObject;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_7;
 		L_7 = TransformFN_GetWorldProperties_mB43A3ECD9CCA6142F6BCD59D2D606C15E3C8D642(L_6, NULL);
 		V_1 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:514>
 		TransformTickSmoother_SetMoveRates_m78BFE052183CC7946D996CAE5C69A5E04CC58CDE(__this, (&V_1), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:515>
 		int32_t L_8;
 		L_8 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 		__this->____startFrame = ((int32_t)il2cpp_codegen_add(L_8, 1));
@@ -19135,7 +17695,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_AddTransformProper
 
 IL_0049:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:517>
 		return;
 	}
 }
@@ -19153,14 +17712,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_ModifyTransformPro
 	uint32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:525>
 		uint32_t L_0 = ___0_clientTick;
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:528>
 		uint32_t L_1 = V_0;
 		uint32_t L_2 = ___1_firstTick;
 		V_1 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_1, (int32_t)L_2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:530>
 		int32_t L_3 = V_1;
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_4 = __this->____transformProperties;
 		NullCheck(L_4);
@@ -19172,7 +17728,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_ModifyTransformPro
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:532>
 		uint32_t L_6 = V_0;
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_7 = __this->____transformProperties;
 		int32_t L_8 = V_1;
@@ -19186,7 +17741,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_ModifyTransformPro
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:538>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_11 = __this->____transformProperties;
 		int32_t L_12 = V_1;
 		uint32_t L_13 = V_0;
@@ -19205,7 +17759,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_ModifyTransformPro
 
 IL_004b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:545>
 		return;
 	}
 }
@@ -19213,7 +17766,6 @@ IL_004b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 TransformTickSmoother_GetNetworkObjectWorldPropertiesWithOffset_m49478777B082C72134A22C81865D0A54B2083641 (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:551>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_0 = __this->____networkObject;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -19234,7 +17786,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TransformTickSmoother_CanSmooth_m2DC68FB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:559>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____graphicalObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -19245,13 +17796,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TransformTickSmoother_CanSmooth_m2DC68FB
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:560>
 		return (bool)0;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:561>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_2 = __this->____networkObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -19292,13 +17841,11 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:562>
 		return (bool)0;
 	}
 
 IL_0047:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:563>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_10 = __this->____networkObject;
 		NullCheck(L_10);
 		bool L_11;
@@ -19309,13 +17856,11 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:564>
 		return (bool)0;
 	}
 
 IL_0056:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:566>
 		return (bool)1;
 	}
 }
@@ -19335,7 +17880,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetMoveRates_m78BF
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:574>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_0 = __this->____transformProperties;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -19346,31 +17890,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetMoveRates_m78BF
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:576>
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		MoveRates__ctor_m0D9C4925620E1D08E92BE470B0053170B20DA583((&L_2), (-std::numeric_limits<float>::infinity()), NULL);
 		__this->____moveRates = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:577>
 		return;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:580>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_3 = __this->____transformProperties;
 		NullCheck(L_3);
 		TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11 L_4;
 		L_4 = BasicQueue_1_Peek_m252232178057435712C78682285CE0D1DF79F441(L_3, BasicQueue_1_Peek_m252232178057435712C78682285CE0D1DF79F441_RuntimeMethod_var);
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_5 = L_4.___Properties;
 		V_0 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:581>
 		float L_6 = __this->____tickDelta;
 		V_1 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:582>
 		float L_7 = __this->____teleportThreshold;
 		V_2 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:584>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_8 = ___0_prevValues;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_9 = (*(TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)L_8);
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_10 = V_0;
@@ -19380,13 +17918,10 @@ IL_001e:
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA L_13;
 		L_13 = MoveRates_GetMoveRates_mF5D2135E1E5D08FC0294408C4B4641702F8183FE(L_9, L_10, L_11, L_12, NULL);
 		__this->____moveRates = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:585>
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA* L_14 = (MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA*)(&__this->____moveRates);
 		float L_15 = V_1;
 		L_14->___TimeRemaining = L_15;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:587>
 		TransformTickSmoother_SetMovementMultiplier_mD1D7E66CEC1D60D85D3E34A90D226E9B84CA07AA(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:588>
 		return;
 	}
 }
@@ -19401,14 +17936,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetMovementMultipl
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:594>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_0 = __this->____transformProperties;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = BasicQueue_1_get_Count_m2A1DCAFF4F8293192F9C9C4A2CA916EF2705A556_inline(L_0, BasicQueue_1_get_Count_m2A1DCAFF4F8293192F9C9C4A2CA916EF2705A556_RuntimeMethod_var);
 		uint8_t L_2 = __this->____interpolation;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, (int32_t)L_2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:596>
 		int32_t L_3 = V_0;
 		if (!L_3)
 		{
@@ -19416,7 +17949,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetMovementMultipl
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:598>
 		float L_4 = __this->____movementMultiplier;
 		int32_t L_5 = V_0;
 		__this->____movementMultiplier = ((float)il2cpp_codegen_add(L_4, ((float)il2cpp_codegen_multiply((0.0149999997f), ((float)L_5)))));
@@ -19425,7 +17957,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_SetMovementMultipl
 
 IL_002d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:604>
 		uint8_t L_6 = __this->____interpolation;
 		if ((!(((uint32_t)L_6) == ((uint32_t)1))))
 		{
@@ -19433,18 +17964,15 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:605>
 		__this->____movementMultiplier = (1.0f);
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:608>
 		float L_7 = __this->____movementMultiplier;
 		float L_8;
 		L_8 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_7, (0.949999988f), (1.04999995f), NULL);
 		__this->____movementMultiplier = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:609>
 		return;
 	}
 }
@@ -19467,7 +17995,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_MoveToTarget_m9012
 	float V_3 = 0.0f;
 	uint32_t G_B9_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:616>
 		int32_t L_0;
 		L_0 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 		int32_t L_1 = __this->____startFrame;
@@ -19477,19 +18004,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_MoveToTarget_m9012
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:617>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:618>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_2 = __this->____transformProperties;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = BasicQueue_1_get_Count_m2A1DCAFF4F8293192F9C9C4A2CA916EF2705A556_inline(L_2, BasicQueue_1_get_Count_m2A1DCAFF4F8293192F9C9C4A2CA916EF2705A556_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:620>
 		int32_t L_4 = V_0;
 		if (L_4)
 		{
@@ -19497,13 +18021,11 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:621>
 		return;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:624>
 		int32_t L_5 = V_0;
 		uint8_t L_6 = __this->____interpolation;
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_5, (int32_t)L_6))) >= ((int32_t)((int32_t)-4))))
@@ -19512,19 +18034,16 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:625>
 		return;
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:627>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_7 = __this->____transformProperties;
 		NullCheck(L_7);
 		TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11 L_8;
 		L_8 = BasicQueue_1_Peek_m252232178057435712C78682285CE0D1DF79F441(L_7, BasicQueue_1_Peek_m252232178057435712C78682285CE0D1DF79F441_RuntimeMethod_var);
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:628>
 		bool L_9 = __this->____useOwnerSmoothing;
 		if (L_9)
 		{
@@ -19546,7 +18065,6 @@ IL_0047:
 IL_004d:
 	{
 		V_2 = G_B9_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:629>
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA* L_12 = (MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA*)(&__this->____moveRates);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->____graphicalObject;
 		TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11 L_14 = V_1;
@@ -19556,11 +18074,9 @@ IL_004d:
 		float L_18 = __this->____movementMultiplier;
 		il2cpp_codegen_runtime_class_init_inline(MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA_il2cpp_TypeInfo_var);
 		MoveRates_Move_m4D3D7EA2DB136903F13D0792AB8845F060BE1077(L_12, L_13, L_15, L_16, ((float)il2cpp_codegen_multiply(L_17, L_18)), (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:631>
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA* L_19 = (MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA*)(&__this->____moveRates);
 		float L_20 = L_19->___TimeRemaining;
 		V_3 = L_20;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:633>
 		float L_21 = V_3;
 		if ((!(((float)L_21) <= ((float)(0.0f)))))
 		{
@@ -19568,12 +18084,10 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:636>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_22 = __this->____transformProperties;
 		NullCheck(L_22);
 		TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11 L_23;
 		L_23 = BasicQueue_1_Dequeue_m992E3CECB275A3CE559091E9618D6CD6F7450707(L_22, (bool)1, BasicQueue_1_Dequeue_m992E3CECB275A3CE559091E9618D6CD6F7450707_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:639>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_24 = __this->____transformProperties;
 		NullCheck(L_24);
 		int32_t L_25;
@@ -19584,10 +18098,8 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:641>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_26 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&(&V_1)->___Properties);
 		TransformTickSmoother_SetMoveRates_m78BFE052183CC7946D996CAE5C69A5E04CC58CDE(__this, L_26, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:643>
 		float L_27 = V_3;
 		if ((!(((float)L_27) < ((float)(0.0f)))))
 		{
@@ -19595,7 +18107,6 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:644>
 		float L_28 = V_3;
 		float L_29;
 		L_29 = fabsf(L_28);
@@ -19605,13 +18116,11 @@ IL_004d:
 
 IL_00c0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:649>
 		TransformTickSmoother_ClearTransformPropertiesQueue_m91444150A8E4590300A2ECC929CF10D30F389835(__this, NULL);
 	}
 
 IL_00c6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:652>
 		return;
 	}
 }
@@ -19628,7 +18137,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_ResetState_m3BA1D1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:656>
 		int32_t L_0 = __this->____initializeType;
 		if (L_0)
 		{
@@ -19636,13 +18144,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_ResetState_m3BA1D1
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:657>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:659>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->____graphicalObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -19653,7 +18159,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:661>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->____rootTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -19664,7 +18169,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:664>
 		bool L_5 = __this->____detach;
 		if (!L_5)
 		{
@@ -19681,7 +18185,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:665>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->____graphicalObject;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->____rootTransform;
 		NullCheck(L_7);
@@ -19690,12 +18193,10 @@ IL_0009:
 
 IL_0045:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:666>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->____graphicalObject;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_10;
 		L_10 = TransformTickSmoother_GetNetworkObjectWorldPropertiesWithOffset_m49478777B082C72134A22C81865D0A54B2083641(__this, NULL);
 		TransformFN_SetWorldProperties_mE5AE79D82FA85913BE3BA5192C21A1FFBAEA754E(L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:667>
 		__this->____graphicalObject = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____graphicalObject), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
 		goto IL_0077;
@@ -19703,7 +18204,6 @@ IL_0045:
 
 IL_005f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:669>
 		bool L_11 = __this->____detach;
 		if (!L_11)
 		{
@@ -19711,7 +18211,6 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:671>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = __this->____graphicalObject;
 		NullCheck(L_12);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
@@ -19722,37 +18221,24 @@ IL_005f:
 
 IL_0077:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:675>
 		__this->____networkObject = (NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____networkObject), (void*)(NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:676>
 		__this->____teleportedTick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:677>
 		__this->____lastReconcileTick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:678>
 		__this->____movementMultiplier = (1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:679>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154** L_14 = (BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154**)(&__this->____transformProperties);
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_t51BD7BEA15539293E4C6F2A16D6ADB149525A7FD_il2cpp_TypeInfo_var);
 		CollectionCaches_1_StoreAndDefault_mFAD4707176E0AEC36DBDE884A421294E87FFD6FB_inline(L_14, CollectionCaches_1_StoreAndDefault_mFAD4707176E0AEC36DBDE884A421294E87FFD6FB_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:680>
 		__this->____teleportThreshold = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:681>
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA* L_15 = (MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA*)(&__this->____moveRates);
 		il2cpp_codegen_initobj(L_15, sizeof(MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:682>
 		__this->____preTicked = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:683>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_16 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&__this->____gfxInitializedOffsetValues);
 		il2cpp_codegen_initobj(L_16, sizeof(TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:684>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_17 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&__this->____gfxPreSimulateWorldValues);
 		il2cpp_codegen_initobj(L_17, sizeof(TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:685>
 		__this->____tickDelta = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:686>
 		__this->____interpolation = (uint8_t)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:687>
 		return;
 	}
 }
@@ -19760,7 +18246,6 @@ IL_0077:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformTickSmoother_InitializeState_m6A72F4B1331961A32F5DEB3189A2B71B133587D9 (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:689>
 		return;
 	}
 }
@@ -19776,7 +18261,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TransformTickSmoother_U3CUpdateInterpol
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:320>
 		int32_t L_0 = __this->____adaptiveInterpolation;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -19814,43 +18298,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TransformTickSmoother_U3CUpdateInterpol
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:323>
 		return (0.200000003f);
 	}
 
 IL_002f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:325>
 		return (0.449999988f);
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:327>
 		return (0.800000012f);
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:329>
 		return (1.04999995f);
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:331>
 		return (1.25f);
 	}
 
 IL_0047:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:333>
 		return (1.5f);
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:336>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_2 = __this->____networkObject;
 		NullCheck(L_2);
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_3;
@@ -19861,7 +18338,6 @@ IL_004d:
 		String_t* L_7;
 		L_7 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralFBB397BA045D9BD4C362F1A8B59F6209A65C5679, L_6, NULL);
 		NetworkManagerExtensions_LogError_mD7BE80E7A765BD00754AB02E7E2252865C9B6568(L_3, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:337>
 		return (1.0f);
 	}
 }
@@ -19927,10 +18403,8 @@ IL2CPP_EXTERN_C void TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_mBCC3759E0D993BA98E9A66312D46528F0BC4CD5D (TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11* __this, uint32_t ___0_tick, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:44>
 		uint32_t L_0 = ___0_tick;
 		__this->___Tick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:45>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___1_t;
 		NullCheck(L_1);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -19947,7 +18421,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_mBCC3759E0
 		memset((&L_7), 0, sizeof(L_7));
 		TransformProperties__ctor_m455F7412A3EE452C3F3CBB40965529526DDD0CC9((&L_7), L_2, L_4, L_6, NULL);
 		__this->___Properties = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:46>
 		return;
 	}
 }
@@ -19962,10 +18435,8 @@ IL2CPP_EXTERN_C  void TickTransformProperties__ctor_mBCC3759E0D993BA98E9A66312D4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_mDE825F751D29D4308C351B0296EB3B4A7F11BBB4 (TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11* __this, uint32_t ___0_tick, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_localScale, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:50>
 		uint32_t L_0 = ___0_tick;
 		__this->___Tick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:51>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___1_t;
 		NullCheck(L_1);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -19979,7 +18450,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_mDE825F751
 		memset((&L_6), 0, sizeof(L_6));
 		TransformProperties__ctor_m455F7412A3EE452C3F3CBB40965529526DDD0CC9((&L_6), L_2, L_4, L_5, NULL);
 		__this->___Properties = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:52>
 		return;
 	}
 }
@@ -19994,13 +18464,10 @@ IL2CPP_EXTERN_C  void TickTransformProperties__ctor_mDE825F751D29D4308C351B0296E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_m1EE1F21A0D7C7AA1973D7810B3BDA18A801D5B08 (TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11* __this, uint32_t ___0_tick, TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 ___1_tp, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:56>
 		uint32_t L_0 = ___0_tick;
 		__this->___Tick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:57>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_1 = ___1_tp;
 		__this->___Properties = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:58>
 		return;
 	}
 }
@@ -20015,16 +18482,12 @@ IL2CPP_EXTERN_C  void TickTransformProperties__ctor_m1EE1F21A0D7C7AA1973D7810B3B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_m259E50C3602CBC97F7C306110536547148D5D73D (TickTransformProperties_t33A6E3DB0A81D80AEFF03398BF416B9683D8FF11* __this, uint32_t ___0_tick, TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 ___1_tp, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_localScale, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:62>
 		uint32_t L_0 = ___0_tick;
 		__this->___Tick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:63>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___2_localScale;
 		(&___1_tp)->___Scale = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:64>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_2 = ___1_tp;
 		__this->___Properties = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:65>
 		return;
 	}
 }
@@ -20101,7 +18564,6 @@ IL2CPP_EXTERN_C void InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InitializationSettings_get_MoveImmediately_m6B7464F2BD15A07AC9F53AA94EF7609BF1DCF952 (InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/InitializationSettings.cs:37>
 		return (bool)0;
 	}
 }
@@ -20118,25 +18580,20 @@ IL2CPP_EXTERN_C  bool InitializationSettings_get_MoveImmediately_m6B7464F2BD15A0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationSettings_SetNetworkedRuntimeValues_mA2FAD5FD9BCDF74E846DD297433033D3DC7CCA23 (InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A* __this, NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* ___0_initializingNetworkBehaviour, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_graphicalTransform, bool ___2_favorPredictionNetworkTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/InitializationSettings.cs:56>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_0 = ___0_initializingNetworkBehaviour;
 		__this->___InitializingNetworkBehaviour = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InitializingNetworkBehaviour), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/InitializationSettings.cs:57>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_1 = ___0_initializingNetworkBehaviour;
 		NullCheck(L_1);
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_2;
 		L_2 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(L_1, NULL);
 		__this->___InitializingTimeManager = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InitializingTimeManager), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/InitializationSettings.cs:58>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = ___1_graphicalTransform;
 		__this->___GraphicalTransform = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___GraphicalTransform), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/InitializationSettings.cs:60>
 		bool L_4 = ___2_favorPredictionNetworkTransform;
 		__this->___FavorPredictionNetworkTransform = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/InitializationSettings.cs:61>
 		return;
 	}
 }
@@ -20151,20 +18608,15 @@ IL2CPP_EXTERN_C  void InitializationSettings_SetNetworkedRuntimeValues_mA2FAD5FD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InitializationSettings_SetOfflineRuntimeValues_m90E189FCF5BA0E73C9C7BB63420AA1EFDA16938B (InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A* __this, TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* ___0_timeManager, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_graphicalTransform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/InitializationSettings.cs:68>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___1_graphicalTransform;
 		__this->___GraphicalTransform = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___GraphicalTransform), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/InitializationSettings.cs:69>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_1 = ___0_timeManager;
 		__this->___InitializingTimeManager = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InitializingTimeManager), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/InitializationSettings.cs:71>
 		__this->___InitializingNetworkBehaviour = (NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InitializingNetworkBehaviour), (void*)(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/InitializationSettings.cs:72>
 		__this->___FavorPredictionNetworkTransform = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/InitializationSettings.cs:73>
 		return;
 	}
 }
@@ -20253,19 +18705,12 @@ IL2CPP_EXTERN_C void MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovementSettings__ctor_mA89837D42EA7B312294437B372BE3AB8C119BA65 (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* __this, bool ___0_unityReallyNeedsToSupportParameterlessInitializersOnStructsAlready, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/MovementSettings.cs:45>
 		__this->___EnableTeleport = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/MovementSettings.cs:46>
 		__this->___TeleportThreshold = (0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/MovementSettings.cs:47>
 		__this->___AdaptiveInterpolationValue = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/MovementSettings.cs:48>
 		__this->___InterpolationValue = (uint8_t)2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/MovementSettings.cs:49>
 		__this->___SmoothedProperties = (-1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/MovementSettings.cs:50>
 		__this->___SnapNonSmoothedProperties = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/MovementSettings.cs:51>
 		return;
 	}
 }
@@ -20288,7 +18733,6 @@ IL2CPP_EXTERN_C  void MovementSettings__ctor_mA89837D42EA7B312294437B372BE3AB8C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* NetworkTickSmoother_get_SmootherController_mD21F07017510CF5DEC766A769C96BD4072029D53 (NetworkTickSmoother_t7D942F293E25A10BB792DBBA1CDC8BB11C7231D4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:17>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0 = __this->___U3CSmootherControllerU3Ek__BackingField;
 		return L_0;
 	}
@@ -20297,7 +18741,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TickSmootherController_t0EE3C7B9AB90A2A0CDF6B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_set_SmootherController_mEC90FC337E83E98891EAC3381A113CEA7A9F2BAB (NetworkTickSmoother_t7D942F293E25A10BB792DBBA1CDC8BB11C7231D4* __this, TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:17>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0 = ___0_value;
 		__this->___U3CSmootherControllerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSmootherControllerU3Ek__BackingField), (void*)L_0);
@@ -20308,7 +18751,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_set_SmootherControll
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_OnDestroy_m67C5B80E5B7BFDD740F94304E041A10AE219258A (NetworkTickSmoother_t7D942F293E25A10BB792DBBA1CDC8BB11C7231D4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:47>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0;
 		L_0 = NetworkTickSmoother_get_SmootherController_mD21F07017510CF5DEC766A769C96BD4072029D53_inline(__this, NULL);
 		if (!L_0)
@@ -20317,7 +18759,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_OnDestroy_m67C5B80E5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:48>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_1;
 		L_1 = NetworkTickSmoother_get_SmootherController_mD21F07017510CF5DEC766A769C96BD4072029D53_inline(__this, NULL);
 		NullCheck(L_1);
@@ -20326,9 +18767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_OnDestroy_m67C5B80E5
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:49>
 		NetworkTickSmoother_StoreControllers_m2C52D892E3B6F05EE39B5C17769BAC49BA621F28(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:50>
 		return;
 	}
 }
@@ -20336,15 +18775,12 @@ IL_0013:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_OnStartClient_m4755F87E77AB8B531321EA5B56C6596603D17689 (NetworkTickSmoother_t7D942F293E25A10BB792DBBA1CDC8BB11C7231D4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:54>
 		NetworkTickSmoother_RetrieveControllers_m84C5DC527806FBB89A4AD67F02FCAD4C59D940DA(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:56>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A* L_0 = (InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A*)(&__this->____initializationSettings);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		bool L_2 = __this->____favorPredictionNetworkTransform;
 		InitializationSettings_SetNetworkedRuntimeValues_mA2FAD5FD9BCDF74E846DD297433033D3DC7CCA23(L_0, __this, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:57>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_3;
 		L_3 = NetworkTickSmoother_get_SmootherController_mD21F07017510CF5DEC766A769C96BD4072029D53_inline(__this, NULL);
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_4 = __this->____initializationSettings;
@@ -20352,12 +18788,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_OnStartClient_m4755F
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_6 = __this->____spectatorMovementSettings;
 		NullCheck(L_3);
 		TickSmootherController_Initialize_mDC6A72754FBBBE4A8614AEC7E8E664DA327ECAEE(L_3, L_4, L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:59>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_7;
 		L_7 = NetworkTickSmoother_get_SmootherController_mD21F07017510CF5DEC766A769C96BD4072029D53_inline(__this, NULL);
 		NullCheck(L_7);
 		TickSmootherController_StartSmoother_mD8C4BE3F4C96FEA74D66B1C6CF45163200E6C3E4(L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:60>
 		return;
 	}
 }
@@ -20365,7 +18799,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_OnStartClient_m4755F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_OnStopClient_m13675D2ED1DD5BF84BAC20817ADC7B627067DE2C (NetworkTickSmoother_t7D942F293E25A10BB792DBBA1CDC8BB11C7231D4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:64>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0;
 		L_0 = NetworkTickSmoother_get_SmootherController_mD21F07017510CF5DEC766A769C96BD4072029D53_inline(__this, NULL);
 		if (L_0)
@@ -20374,18 +18807,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_OnStopClient_m13675D
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:65>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:67>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_1;
 		L_1 = NetworkTickSmoother_get_SmootherController_mD21F07017510CF5DEC766A769C96BD4072029D53_inline(__this, NULL);
 		NullCheck(L_1);
 		TickSmootherController_StopSmoother_mA828A8857CB8D3878AAA5BD69EE3BC34EB24097F(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:68>
 		return;
 	}
 }
@@ -20399,7 +18829,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_StoreControllers_m2C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:75>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0;
 		L_0 = NetworkTickSmoother_get_SmootherController_mD21F07017510CF5DEC766A769C96BD4072029D53_inline(__this, NULL);
 		if (L_0)
@@ -20408,19 +18837,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_StoreControllers_m2C
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:76>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:78>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_1;
 		L_1 = NetworkTickSmoother_get_SmootherController_mD21F07017510CF5DEC766A769C96BD4072029D53_inline(__this, NULL);
 		ResettableObjectCaches_1_Store_m82039A94447B0B7FBD83336A14E54E090B2B3CF4(L_1, ResettableObjectCaches_1_Store_m82039A94447B0B7FBD83336A14E54E090B2B3CF4_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:79>
 		NetworkTickSmoother_set_SmootherController_mEC90FC337E83E98891EAC3381A113CEA7A9F2BAB_inline(__this, (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:80>
 		return;
 	}
 }
@@ -20434,13 +18859,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_RetrieveControllers_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:87>
 		NetworkTickSmoother_StoreControllers_m2C52D892E3B6F05EE39B5C17769BAC49BA621F28(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:88>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0;
 		L_0 = ResettableObjectCaches_1_Retrieve_m6721314AA2B494DFD2A897A227EF2C2A7C7DD4BF(ResettableObjectCaches_1_Retrieve_m6721314AA2B494DFD2A897A227EF2C2A7C7DD4BF_RuntimeMethod_var);
 		NetworkTickSmoother_set_SmootherController_mEC90FC337E83E98891EAC3381A113CEA7A9F2BAB_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:89>
 		return;
 	}
 }
@@ -20454,14 +18876,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother__ctor_m986FD2E0155E1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:31>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		MovementSettings__ctor_mA89837D42EA7B312294437B372BE3AB8C119BA65((&L_0), (bool)1, NULL);
 		__this->____controllerMovementSettings = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:37>
 		__this->____favorPredictionNetworkTransform = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:43>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		MovementSettings__ctor_mA89837D42EA7B312294437B372BE3AB8C119BA65((&L_1), (bool)1, NULL);
@@ -20543,7 +18962,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTickSmoother_Awake_mB90F5309898E9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* OfflineTickSmoother_get_SmootherController_mE2B02C19EE46A97187C6D37E1E9BA8B48BB34236 (OfflineTickSmoother_tB5E34629E6B4F4214ED3F8B3617A8B206CAEB2BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:19>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0 = __this->___U3CSmootherControllerU3Ek__BackingField;
 		return L_0;
 	}
@@ -20552,7 +18970,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TickSmootherController_t0EE3C7B9AB90A2A0CDF6B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_set_SmootherController_m28465551E7140094828EBA5E111C2ED0BDC2EFCD (OfflineTickSmoother_tB5E34629E6B4F4214ED3F8B3617A8B206CAEB2BD* __this, TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:19>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0 = ___0_value;
 		__this->___U3CSmootherControllerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSmootherControllerU3Ek__BackingField), (void*)L_0);
@@ -20563,7 +18980,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_set_SmootherControll
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OfflineTickSmoother_get_IsInitialized_m0684FA3378A962E1C078A2CCA6C38699B3A4E232 (OfflineTickSmoother_tB5E34629E6B4F4214ED3F8B3617A8B206CAEB2BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:24>
 		bool L_0 = __this->___U3CIsInitializedU3Ek__BackingField;
 		return L_0;
 	}
@@ -20572,7 +18988,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OfflineTickSmoother_get_IsInitialized_m0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_set_IsInitialized_m0C9DBD792BE70A3C8D97E0AEAB3C0CC0DF303B33 (OfflineTickSmoother_tB5E34629E6B4F4214ED3F8B3617A8B206CAEB2BD* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:24>
 		bool L_0 = ___0_value;
 		__this->___U3CIsInitializedU3Ek__BackingField = L_0;
 		return;
@@ -20582,11 +18997,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_set_IsInitialized_m0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_Awake_m2F75C147FB7C1691BD14FFA5FA118CFC3177B89F (OfflineTickSmoother_tB5E34629E6B4F4214ED3F8B3617A8B206CAEB2BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:51>
 		OfflineTickSmoother_RetrieveControllers_mFA1120471B6FBBBF64211251538DB220E06D3B7E(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:52>
 		OfflineTickSmoother_AutomaticallyInitialize_m2157FFD7387FBAE2EC8DC7C831D04901946C5055(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:53>
 		return;
 	}
 }
@@ -20594,7 +19006,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_Awake_m2F75C147FB7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_OnDestroy_mBFBAD190AA280349F1B3E1726BDAC5A4DE8E196B (OfflineTickSmoother_tB5E34629E6B4F4214ED3F8B3617A8B206CAEB2BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:57>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0;
 		L_0 = OfflineTickSmoother_get_SmootherController_mE2B02C19EE46A97187C6D37E1E9BA8B48BB34236_inline(__this, NULL);
 		if (!L_0)
@@ -20603,12 +19014,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_OnDestroy_mBFBAD190A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:59>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_1;
 		L_1 = OfflineTickSmoother_get_SmootherController_mE2B02C19EE46A97187C6D37E1E9BA8B48BB34236_inline(__this, NULL);
 		NullCheck(L_1);
 		TickSmootherController_StopSmoother_mA828A8857CB8D3878AAA5BD69EE3BC34EB24097F(L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:60>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_2;
 		L_2 = OfflineTickSmoother_get_SmootherController_mE2B02C19EE46A97187C6D37E1E9BA8B48BB34236_inline(__this, NULL);
 		NullCheck(L_2);
@@ -20617,11 +19026,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_OnDestroy_mBFBAD190A
 
 IL_001e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:63>
 		OfflineTickSmoother_StoreControllers_m36B1C98B9E35964ECBF68DC8CA6863BE2376D45A(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:65>
 		OfflineTickSmoother_set_IsInitialized_m0C9DBD792BE70A3C8D97E0AEAB3C0CC0DF303B33_inline(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:66>
 		return;
 	}
 }
@@ -20638,7 +19044,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_AutomaticallyInitial
 	}
 	TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:73>
 		bool L_0 = __this->____automaticallyInitialize;
 		if (L_0)
 		{
@@ -20646,17 +19051,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_AutomaticallyInitial
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:74>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:76>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_1;
 		L_1 = InstanceFinder_get_TimeManager_m03F400BBE40F6B4846D8CEA2872EE8D3353FF3E6(NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:77>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -20667,7 +19069,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:79>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_4);
@@ -20676,16 +19077,13 @@ IL_0009:
 		String_t* L_6;
 		L_6 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral04AC979B55188A2E618B7E65FE4E2B19096076B1, L_5, _stringLiteralBDA4AADB3796A92037EDDB22B1455A1607BCD25D, NULL);
 		NetworkManagerExtensions_LogWarning_mDBB853BF9111911CC799C39BB344186DF08E7CAD(L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:80>
 		return;
 	}
 
 IL_0038:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:83>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_7 = V_0;
 		OfflineTickSmoother_Initialize_m0B03E994668D3E0C239E42097CC41BE5E8634A4A(__this, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:84>
 		return;
 	}
 }
@@ -20702,7 +19100,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_Initialize_m0B03E994
 	MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:92>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0 = ___0_timeManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -20713,27 +19110,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_Initialize_m0B03E994
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:94>
 		NetworkManagerExtensions_LogError_mC1B78DC995427B4DE27C7136AEAD3CB1F3B25CB3(_stringLiteralC8C20788DAC48D545A5533609A7EC65152E1F5CA, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:95>
 		return;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:98>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_2;
 		L_2 = OfflineTickSmoother_get_SmootherController_mE2B02C19EE46A97187C6D37E1E9BA8B48BB34236_inline(__this, NULL);
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_3 = ___0_timeManager;
 		NullCheck(L_2);
 		TickSmootherController_SetTimeManager_m2DE0CA0A9831763F9BB734BBADC8A99C8BCC9ABE(L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:100>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A* L_4 = (InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A*)(&__this->____initializationSettings);
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_5 = ___0_timeManager;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		InitializationSettings_SetOfflineRuntimeValues_m90E189FCF5BA0E73C9C7BB63420AA1EFDA16938B(L_4, L_5, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:101>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_7;
 		L_7 = OfflineTickSmoother_get_SmootherController_mE2B02C19EE46A97187C6D37E1E9BA8B48BB34236_inline(__this, NULL);
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_8 = __this->____initializationSettings;
@@ -20742,14 +19134,11 @@ IL_0014:
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_10 = V_0;
 		NullCheck(L_7);
 		TickSmootherController_Initialize_mDC6A72754FBBBE4A8614AEC7E8E664DA327ECAEE(L_7, L_8, L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:102>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_11;
 		L_11 = OfflineTickSmoother_get_SmootherController_mE2B02C19EE46A97187C6D37E1E9BA8B48BB34236_inline(__this, NULL);
 		NullCheck(L_11);
 		TickSmootherController_StartSmoother_mD8C4BE3F4C96FEA74D66B1C6CF45163200E6C3E4(L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:104>
 		OfflineTickSmoother_set_IsInitialized_m0C9DBD792BE70A3C8D97E0AEAB3C0CC0DF303B33_inline(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:105>
 		return;
 	}
 }
@@ -20763,7 +19152,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_SetTargetTransform_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:113>
 		bool L_0;
 		L_0 = OfflineTickSmoother_get_IsInitialized_m0684FA3378A962E1C078A2CCA6C38699B3A4E232_inline(__this, NULL);
 		if (!L_0)
@@ -20772,20 +19160,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_SetTargetTransform_m
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:115>
 		NetworkManagerExtensions_LogError_mC1B78DC995427B4DE27C7136AEAD3CB1F3B25CB3(_stringLiteral2A39298BA290B22490F968CF6AEFB77CE96D74BF, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:116>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:119>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A* L_1 = (InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A*)(&__this->____initializationSettings);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = ___0_value;
 		L_1->___TargetTransform = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___TargetTransform), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:120>
 		return;
 	}
 }
@@ -20799,7 +19183,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_StoreControllers_m36
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:127>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0;
 		L_0 = OfflineTickSmoother_get_SmootherController_mE2B02C19EE46A97187C6D37E1E9BA8B48BB34236_inline(__this, NULL);
 		if (L_0)
@@ -20808,19 +19191,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_StoreControllers_m36
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:128>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:130>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_1;
 		L_1 = OfflineTickSmoother_get_SmootherController_mE2B02C19EE46A97187C6D37E1E9BA8B48BB34236_inline(__this, NULL);
 		ResettableObjectCaches_1_Store_m82039A94447B0B7FBD83336A14E54E090B2B3CF4(L_1, ResettableObjectCaches_1_Store_m82039A94447B0B7FBD83336A14E54E090B2B3CF4_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:131>
 		OfflineTickSmoother_set_SmootherController_m28465551E7140094828EBA5E111C2ED0BDC2EFCD_inline(__this, (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:132>
 		return;
 	}
 }
@@ -20834,13 +19213,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_RetrieveControllers_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:139>
 		OfflineTickSmoother_StoreControllers_m36B1C98B9E35964ECBF68DC8CA6863BE2376D45A(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:140>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0;
 		L_0 = ResettableObjectCaches_1_Retrieve_m6721314AA2B494DFD2A897A227EF2C2A7C7DD4BF(ResettableObjectCaches_1_Retrieve_m6721314AA2B494DFD2A897A227EF2C2A7C7DD4BF_RuntimeMethod_var);
 		OfflineTickSmoother_set_SmootherController_m28465551E7140094828EBA5E111C2ED0BDC2EFCD_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:141>
 		return;
 	}
 }
@@ -20848,9 +19224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother_RetrieveControllers_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother__ctor_m4F4DC1925285D0D9AA1084F25209B277D375304C (OfflineTickSmoother_tB5E34629E6B4F4214ED3F8B3617A8B206CAEB2BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:33>
 		__this->____automaticallyInitialize = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:46>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		MovementSettings__ctor_mA89837D42EA7B312294437B372BE3AB8C119BA65((&L_0), (bool)1, NULL);
@@ -20871,7 +19245,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OfflineTickSmoother__ctor_m4F4DC1925285D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7 (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:21>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_0 = __this->___U3CUniversalSmootherU3Ek__BackingField;
 		return L_0;
 	}
@@ -20880,7 +19253,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UniversalTickSmoother_t6A2A0ED1F5FA1086620588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_set_UniversalSmoother_m5AEA1BE2B1301D55767CC111F14088B6C086696E (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* __this, UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:21>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_0 = ___0_value;
 		__this->___U3CUniversalSmootherU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUniversalSmootherU3Ek__BackingField), (void*)L_0);
@@ -20897,17 +19269,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_Initialize_mDC6A7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:73>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_0 = ___0_initializationSettings;
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_1 = L_0.___InitializingNetworkBehaviour;
 		__this->____initializingNetworkBehaviour = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____initializingNetworkBehaviour), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:74>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_2 = ___0_initializationSettings;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = L_2.___GraphicalTransform;
 		__this->____graphicalTransform = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____graphicalTransform), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:76>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_4 = ___0_initializationSettings;
 		__this->____initializationSettings = L_4;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____initializationSettings))->___TargetTransform), (void*)NULL);
@@ -20920,22 +19289,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_Initialize_mDC6A7
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____initializationSettings))->___InitializingTimeManager), (void*)NULL);
 		#endif
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:77>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_5 = ___1_controllerSettings;
 		__this->____controllerMovementSettings = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:78>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_6 = ___2_spectatorSettings;
 		__this->____spectatorMovementSettings = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:80>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_7 = ___0_initializationSettings;
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_8 = L_7.___InitializingNetworkBehaviour;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
 		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		__this->____initializedOffline = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:82>
 		__this->____isInitialized = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:83>
 		return;
 	}
 }
@@ -20943,15 +19307,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_Initialize_mDC6A7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_OnDestroy_m81DAB2EBD779C0B567548692DDFA085EFCF0E9D9 (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:87>
 		TickSmootherController_ChangeSubscriptions_m824017D114F3786F768AFAD0BCAF8EC4C6170DA2(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:88>
 		TickSmootherController_StoreSmoother_mA9D7DDDD4E4005CB3591B77EF71C1B5BC125E2DD(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:89>
 		__this->____destroyed = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:90>
 		__this->____isInitialized = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:91>
 		return;
 	}
 }
@@ -20960,7 +19319,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_StartSmoother_mD8
 {
 	bool G_B5_0 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:95>
 		bool L_0 = __this->____isInitialized;
 		if (L_0)
 		{
@@ -20968,13 +19326,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_StartSmoother_mD8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:96>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:98>
 		bool L_1 = __this->____initializedOffline;
 		if (L_1)
 		{
@@ -20997,22 +19353,18 @@ IL_0019:
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:100>
 		if (G_B5_0)
 		{
 			goto IL_0022;
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:101>
 		return;
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:103>
 		TickSmootherController_RetrieveSmoothers_m0ED14A4758229FA12B505E5F749A9AD9238A83C0(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:105>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_4;
 		L_4 = TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline(__this, NULL);
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_5 = __this->____initializationSettings;
@@ -21020,12 +19372,10 @@ IL_0022:
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_7 = __this->____spectatorMovementSettings;
 		NullCheck(L_4);
 		UniversalTickSmoother_Initialize_mB72B47DE41E705EABCD90CBDDA969F8E76702BAC(L_4, L_5, L_6, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:107>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_8;
 		L_8 = TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline(__this, NULL);
 		NullCheck(L_8);
 		UniversalTickSmoother_StartSmoother_mBBC4273B83B68DECCCB0D268538CBEEA00E9C116(L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:125>
 		return;
 	}
 }
@@ -21033,9 +19383,7 @@ IL_0022:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_StopSmoother_mA828A8857CB8D3878AAA5BD69EE3BC34EB24097F (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:129>
 		TickSmootherController_ChangeSubscriptions_m824017D114F3786F768AFAD0BCAF8EC4C6170DA2(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:131>
 		bool L_0 = __this->____initializedOffline;
 		if (L_0)
 		{
@@ -21043,13 +19391,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_StopSmoother_mA82
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:132>
 		TickSmootherController_U3CStopSmootherU3Eg__StopOnlineU7C21_0_mCD168D1DF834CB38039D9BA3DA0AB4440FBAA4D6(__this, NULL);
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:134>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_1;
 		L_1 = TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline(__this, NULL);
 		if (!L_1)
@@ -21058,7 +19404,6 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:135>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_2;
 		L_2 = TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline(__this, NULL);
 		NullCheck(L_2);
@@ -21067,7 +19412,6 @@ IL_0015:
 
 IL_0028:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:144>
 		return;
 	}
 }
@@ -21085,7 +19429,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_TimeManager_OnUpd
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:148>
 		il2cpp_codegen_runtime_class_init_inline(TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_StaticFields*)il2cpp_codegen_static_fields_for(TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_il2cpp_TypeInfo_var))->____pm_OnUpdate;
 		V_1 = L_0;
@@ -21105,14 +19448,12 @@ FINALLY_0020:
 		});
 		try
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:150>
 			UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_2;
 			L_2 = TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline(__this, NULL);
 			float L_3;
 			L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 			NullCheck(L_2);
 			UniversalTickSmoother_OnUpdate_m725919F376DDC0BE37CB7E46E5EA0FB272CEC4FE(L_2, L_3, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:151>
 			goto IL_002e;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -21123,7 +19464,6 @@ FINALLY_0020:
 
 IL_002e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:152>
 		return;
 	}
 }
@@ -21141,7 +19481,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_TimeManager_OnPre
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:156>
 		il2cpp_codegen_runtime_class_init_inline(TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_StaticFields*)il2cpp_codegen_static_fields_for(TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_il2cpp_TypeInfo_var))->____pm_OnPreTick;
 		V_1 = L_0;
@@ -21161,12 +19500,10 @@ FINALLY_001b:
 		});
 		try
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:158>
 			UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_2;
 			L_2 = TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline(__this, NULL);
 			NullCheck(L_2);
 			UniversalTickSmoother_OnPreTick_mC4E3480BD6D8DAD5210D28E51C5C580A74AD7146(L_2, NULL);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:159>
 			goto IL_0029;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -21177,7 +19514,6 @@ FINALLY_001b:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:160>
 		return;
 	}
 }
@@ -21196,7 +19532,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_TimeManager_OnPos
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:167>
 		il2cpp_codegen_runtime_class_init_inline(TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_StaticFields*)il2cpp_codegen_static_fields_for(TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_il2cpp_TypeInfo_var))->____pm_OnPostTick;
 		V_1 = L_0;
@@ -21217,7 +19552,6 @@ FINALLY_0034:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:169>
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_2 = __this->____timeManager;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_3;
@@ -21228,7 +19562,6 @@ FINALLY_0034:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:170>
 				UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_4;
 				L_4 = TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline(__this, NULL);
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_5 = __this->____timeManager;
@@ -21241,7 +19574,6 @@ FINALLY_0034:
 
 IL_0032_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:171>
 				goto IL_0042;
 			}
 		}
@@ -21253,7 +19585,6 @@ IL_0032_1:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:172>
 		return;
 	}
 }
@@ -21261,13 +19592,11 @@ IL_0042:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_PredictionManager_OnPostReplicateReplay_m58B306EB8252A17D064D3015187C3CB85CDC5668 (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* __this, uint32_t ___0_clientTick, uint32_t ___1_serverTick, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:176>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_0;
 		L_0 = TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline(__this, NULL);
 		uint32_t L_1 = ___0_clientTick;
 		NullCheck(L_0);
 		UniversalTickSmoother_OnPostReplicateReplay_mD70213B52703F0E789AD62C3B9FE1F99FDD05A07(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:177>
 		return;
 	}
 }
@@ -21275,12 +19604,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_PredictionManager
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_TimeManager_OnRoundTripTimeUpdated_m7E114471BD5A90A866021587D1647DCBEA0C170F (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* __this, int64_t ___0_rttMs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:181>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_0;
 		L_0 = TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline(__this, NULL);
 		NullCheck(L_0);
 		UniversalTickSmoother_UpdateRealtimeInterpolation_m81EA36068D3FD079FD0FB85A5E5FCE011FE82CB4(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:182>
 		return;
 	}
 }
@@ -21294,7 +19621,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_StoreSmoother_mA9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:189>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_0;
 		L_0 = TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline(__this, NULL);
 		if (L_0)
@@ -21303,19 +19629,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_StoreSmoother_mA9
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:190>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:192>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_1;
 		L_1 = TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline(__this, NULL);
 		ResettableObjectCaches_1_Store_m7937F6508219F4E1C9EE305BE7DA0AF1823EA5BD(L_1, ResettableObjectCaches_1_Store_m7937F6508219F4E1C9EE305BE7DA0AF1823EA5BD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:193>
 		TickSmootherController_set_UniversalSmoother_m5AEA1BE2B1301D55767CC111F14088B6C086696E_inline(__this, (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:194>
 		return;
 	}
 }
@@ -21329,13 +19651,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_RetrieveSmoothers
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:201>
 		TickSmootherController_StoreSmoother_mA9D7DDDD4E4005CB3591B77EF71C1B5BC125E2DD(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:202>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_0;
 		L_0 = ResettableObjectCaches_1_Retrieve_m8709D40627B17BDF209C7C9B8F091499C41A2B01(ResettableObjectCaches_1_Retrieve_m8709D40627B17BDF209C7C9B8F091499C41A2B01_RuntimeMethod_var);
 		TickSmootherController_set_UniversalSmoother_m5AEA1BE2B1301D55767CC111F14088B6C086696E_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:203>
 		return;
 	}
 }
@@ -21349,7 +19668,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_SetTimeManager_m2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:233>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0 = ___0_tm;
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_1 = __this->____timeManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -21361,21 +19679,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_SetTimeManager_m2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:234>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:237>
 		TickSmootherController_ChangeSubscriptions_m824017D114F3786F768AFAD0BCAF8EC4C6170DA2(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:239>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_3 = ___0_tm;
 		__this->____timeManager = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____timeManager), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:240>
 		TickSmootherController_ChangeSubscriptions_m824017D114F3786F768AFAD0BCAF8EC4C6170DA2(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:241>
 		return;
 	}
 }
@@ -21400,7 +19713,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_ChangeSubscriptio
 	bool V_1 = false;
 	int32_t G_B9_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:248>
 		bool L_0 = __this->____destroyed;
 		if (!L_0)
 		{
@@ -21408,16 +19720,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_ChangeSubscriptio
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:249>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:250>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_1 = __this->____timeManager;
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:251>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -21428,13 +19737,11 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:252>
 		return;
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:254>
 		bool L_4 = ___0_subscribe;
 		bool L_5 = __this->____subscribed;
 		if ((!(((uint32_t)L_4) == ((uint32_t)L_5))))
@@ -21443,16 +19750,13 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:255>
 		return;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:256>
 		bool L_6 = ___0_subscribe;
 		__this->____subscribed = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:258>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_7 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____controllerMovementSettings);
 		int32_t L_8 = L_7->___AdaptiveInterpolationValue;
 		if (L_8)
@@ -21475,7 +19779,6 @@ IL_0048:
 IL_0049:
 	{
 		V_1 = (bool)G_B9_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:260>
 		bool L_11 = ___0_subscribe;
 		if (!L_11)
 		{
@@ -21483,25 +19786,21 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:262>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_12 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_13 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_13, __this, (intptr_t)((void*)TickSmootherController_TimeManager_OnUpdate_mBBAEC8F34731C1CBDAC68DA2E84BB6CC641D9C98_RuntimeMethod_var), NULL);
 		NullCheck(L_12);
 		TimeManager_add_OnUpdate_mB185776D0063EAF28F806616CCEC7478E43FC7C4(L_12, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:263>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_14 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_15 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_15, __this, (intptr_t)((void*)TickSmootherController_TimeManager_OnPreTick_m47C51227F5204689F1FB6A05806DDE4E7AB1D829_RuntimeMethod_var), NULL);
 		NullCheck(L_14);
 		TimeManager_add_OnPreTick_m4DE798A04C380117CC83499C92E97ED71AEE308C(L_14, L_15, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:264>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_16 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_17 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_17, __this, (intptr_t)((void*)TickSmootherController_TimeManager_OnPostTick_mB51087388B80F55AE3D8BDFC20F9B44CD963B1DA_RuntimeMethod_var), NULL);
 		NullCheck(L_16);
 		TimeManager_add_OnPostTick_m6BF20060A2EFFF60AD5FB8DFCCE26B5AF0EA1FBC(L_16, L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:266>
 		bool L_18 = V_1;
 		if (L_18)
 		{
@@ -21509,13 +19808,11 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:268>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_19 = V_0;
 		Action_1_tBB5A52E9AEFBC4F0C8D94D39CAD16BCB6B8B5929* L_20 = (Action_1_tBB5A52E9AEFBC4F0C8D94D39CAD16BCB6B8B5929*)il2cpp_codegen_object_new(Action_1_tBB5A52E9AEFBC4F0C8D94D39CAD16BCB6B8B5929_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC0FC430617EB8A9B54D1632C5BD95979ED5C2C2A(L_20, __this, (intptr_t)((void*)TickSmootherController_TimeManager_OnRoundTripTimeUpdated_m7E114471BD5A90A866021587D1647DCBEA0C170F_RuntimeMethod_var), NULL);
 		NullCheck(L_19);
 		TimeManager_add_OnRoundTripTimeUpdated_m09B34D2AB35291EE1833FBC6950F06E14E0DCDCD(L_19, L_20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:269>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_21 = V_0;
 		NullCheck(L_21);
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_22;
@@ -21523,37 +19820,31 @@ IL_0049:
 		NullCheck(L_22);
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_23;
 		L_23 = NetworkManager_get_PredictionManager_mCC117FAF959E4E7839D9A90DFDC6FCEC82B1A45D_inline(L_22, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:270>
 		PostReplicateReplayDel_tA5FA54A5B232D67BBAA3E4419CF8CC515C2B267A* L_24 = (PostReplicateReplayDel_tA5FA54A5B232D67BBAA3E4419CF8CC515C2B267A*)il2cpp_codegen_object_new(PostReplicateReplayDel_tA5FA54A5B232D67BBAA3E4419CF8CC515C2B267A_il2cpp_TypeInfo_var);
 		PostReplicateReplayDel__ctor_m8551A471DCA85039C991B3442F37EBA7DDC13593(L_24, __this, (intptr_t)((void*)TickSmootherController_PredictionManager_OnPostReplicateReplay_m58B306EB8252A17D064D3015187C3CB85CDC5668_RuntimeMethod_var), NULL);
 		NullCheck(L_23);
 		PredictionManager_add_OnPostReplicateReplay_m7ABF7EBC82579891C76F2750C1CB3E4FAF30DAD6(L_23, L_24, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:271>
 		__this->____subscribedToAdaptiveEvents = (bool)1;
 		return;
 	}
 
 IL_00bf:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:276>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_25 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_26 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_26, __this, (intptr_t)((void*)TickSmootherController_TimeManager_OnUpdate_mBBAEC8F34731C1CBDAC68DA2E84BB6CC641D9C98_RuntimeMethod_var), NULL);
 		NullCheck(L_25);
 		TimeManager_remove_OnUpdate_m5E64FB568CF9E9F9C7A59E15964DAD995A89A461(L_25, L_26, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:277>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_27 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_28 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_28, __this, (intptr_t)((void*)TickSmootherController_TimeManager_OnPreTick_m47C51227F5204689F1FB6A05806DDE4E7AB1D829_RuntimeMethod_var), NULL);
 		NullCheck(L_27);
 		TimeManager_remove_OnPreTick_mB2A92488D46347B1E51A1139CE26BC2EDAB8C3AA(L_27, L_28, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:278>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_29 = V_0;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_30 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_30, __this, (intptr_t)((void*)TickSmootherController_TimeManager_OnPostTick_mB51087388B80F55AE3D8BDFC20F9B44CD963B1DA_RuntimeMethod_var), NULL);
 		NullCheck(L_29);
 		TimeManager_remove_OnPostTick_m61C92ED98B62A03F1D915DB9D86B7F0CF5E6881D(L_29, L_30, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:280>
 		bool L_31 = __this->____subscribedToAdaptiveEvents;
 		if (!L_31)
 		{
@@ -21561,13 +19852,11 @@ IL_00bf:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:282>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_32 = V_0;
 		Action_1_tBB5A52E9AEFBC4F0C8D94D39CAD16BCB6B8B5929* L_33 = (Action_1_tBB5A52E9AEFBC4F0C8D94D39CAD16BCB6B8B5929*)il2cpp_codegen_object_new(Action_1_tBB5A52E9AEFBC4F0C8D94D39CAD16BCB6B8B5929_il2cpp_TypeInfo_var);
 		Action_1__ctor_mC0FC430617EB8A9B54D1632C5BD95979ED5C2C2A(L_33, __this, (intptr_t)((void*)TickSmootherController_TimeManager_OnRoundTripTimeUpdated_m7E114471BD5A90A866021587D1647DCBEA0C170F_RuntimeMethod_var), NULL);
 		NullCheck(L_32);
 		TimeManager_remove_OnRoundTripTimeUpdated_mADE34E23F4DCE344C23B626FDC3A928FBB6DBAB4(L_32, L_33, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:283>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_34 = V_0;
 		NullCheck(L_34);
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_35;
@@ -21575,7 +19864,6 @@ IL_00bf:
 		NullCheck(L_35);
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_36;
 		L_36 = NetworkManager_get_PredictionManager_mCC117FAF959E4E7839D9A90DFDC6FCEC82B1A45D_inline(L_35, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:284>
 		PostReplicateReplayDel_tA5FA54A5B232D67BBAA3E4419CF8CC515C2B267A* L_37 = (PostReplicateReplayDel_tA5FA54A5B232D67BBAA3E4419CF8CC515C2B267A*)il2cpp_codegen_object_new(PostReplicateReplayDel_tA5FA54A5B232D67BBAA3E4419CF8CC515C2B267A_il2cpp_TypeInfo_var);
 		PostReplicateReplayDel__ctor_m8551A471DCA85039C991B3442F37EBA7DDC13593(L_37, __this, (intptr_t)((void*)TickSmootherController_PredictionManager_OnPostReplicateReplay_m58B306EB8252A17D064D3015187C3CB85CDC5668_RuntimeMethod_var), NULL);
 		NullCheck(L_36);
@@ -21584,7 +19872,6 @@ IL_00bf:
 
 IL_012b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:287>
 		return;
 	}
 }
@@ -21592,33 +19879,22 @@ IL_012b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_ResetState_m3E073ED8FC6A3FD9AFBE714D9940F919DDAC8F73 (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:291>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A* L_0 = (InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A*)(&__this->____initializationSettings);
 		il2cpp_codegen_initobj(L_0, sizeof(InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:292>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_1 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____controllerMovementSettings);
 		il2cpp_codegen_initobj(L_1, sizeof(MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:293>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_2 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____spectatorMovementSettings);
 		il2cpp_codegen_initobj(L_2, sizeof(MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:295>
 		__this->____destroyed = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:296>
 		__this->____timeManager = (TimeManager_tC7ABD26ED98438244671E717BA653CE562333891*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____timeManager), (void*)(TimeManager_tC7ABD26ED98438244671E717BA653CE562333891*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:297>
 		__this->____initializingNetworkBehaviour = (NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____initializingNetworkBehaviour), (void*)(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:298>
 		__this->____graphicalTransform = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____graphicalTransform), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:300>
 		__this->____subscribed = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:301>
 		__this->____subscribedToAdaptiveEvents = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:303>
 		__this->____isInitialized = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:304>
 		return;
 	}
 }
@@ -21626,7 +19902,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_ResetState_m3E073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_InitializeState_m90A9A4E7561006DE278530664E715D1F4BD59D81 (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:306>
 		return;
 	}
 }
@@ -21651,17 +19926,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController__cctor_m84806D3BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:66>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_0), _stringLiteral751432495C2129B4AED28894872F37B187A90392, NULL);
 		((TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_StaticFields*)il2cpp_codegen_static_fields_for(TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_il2cpp_TypeInfo_var))->____pm_OnUpdate = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:67>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_1), _stringLiteral9A28AA12B019A1B9B7EFAFFE63DA3828CA467776, NULL);
 		((TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_StaticFields*)il2cpp_codegen_static_fields_for(TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5_il2cpp_TypeInfo_var))->____pm_OnPreTick = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:68>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_2), _stringLiteral1E99864EC30230B764E66189164FE25A93E901A5, NULL);
@@ -21674,16 +19946,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TickSmootherController_U3CStartSmootherU
 {
 	NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:111>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_0 = __this->____initializingNetworkBehaviour;
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:113>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_1 = V_0;
 		NullCheck(L_1);
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_2;
 		L_2 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(L_1, NULL);
 		TickSmootherController_SetTimeManager_m2DE0CA0A9831763F9BB734BBADC8A99C8BCC9ABE(__this, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:115>
 		return (bool)1;
 	}
 }
@@ -21697,7 +19966,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TickSmootherController_U3CStartSmootherU
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:120>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0 = __this->____timeManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -21708,13 +19976,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TickSmootherController_U3CStartSmootherU
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:121>
 		return (bool)0;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:123>
 		return (bool)1;
 	}
 }
@@ -21722,9 +19988,7 @@ IL_0010:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_U3CStopSmootherU3Eg__StopOnlineU7C21_0_mCD168D1DF834CB38039D9BA3DA0AB4440FBAA4D6 (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:139>
 		TickSmootherController_SetTimeManager_m2DE0CA0A9831763F9BB734BBADC8A99C8BCC9ABE(__this, (TimeManager_tC7ABD26ED98438244671E717BA653CE562333891*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:140>
 		return;
 	}
 }
@@ -21740,7 +20004,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickSmootherController_U3CStopSmootherU3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_get_IsInitialized_m1648DEAD1B51550D1175638389E94B7BB17D4430 (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:58>
 		bool L_0 = __this->___U3CIsInitializedU3Ek__BackingField;
 		return L_0;
 	}
@@ -21749,7 +20012,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_get_IsInitialized_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_set_IsInitialized_mA14B00E5968B016E2310C4D01CF6A769FDBD67DE (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:58>
 		bool L_0 = ___0_value;
 		__this->___U3CIsInitializedU3Ek__BackingField = L_0;
 		return;
@@ -21759,11 +20021,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_set_IsInitialized_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother__ctor_mAB78EF70507D8602960054402C74F98CC8F99E73 (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:139>
 		__this->____movementMultiplier = (1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:194>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:194>
 		return;
 	}
 }
@@ -21776,14 +20035,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_Finalize_mE8BA2719
 
 FINALLY_0008:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:200>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:199>
 			UniversalTickSmoother_ResetState_m777731355916F8C901D1B2A87C883DE0E2C8426A(__this, NULL);
 			goto IL_000f;
 		}
@@ -21795,7 +20052,6 @@ FINALLY_0008:
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:200>
 		return;
 	}
 }
@@ -21803,7 +20059,6 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetGraphicalInitializedOffsetValues_mDD5EB3D91EF643E5DCC776122976933FF6F136C5 (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:203>
 		return;
 	}
 }
@@ -21813,7 +20068,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TransformProperties_t19CF25A6BC8F4EF672C33BDC
 	TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:206>
 		il2cpp_codegen_initobj((&V_0), sizeof(TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4));
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_0 = V_0;
 		return L_0;
@@ -21831,7 +20085,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_TrySetGraphicalTra
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:216>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____trackerTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -21852,21 +20105,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_TrySetGraphicalTra
 
 IL_0017:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:218>
 		Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD L_3 = ___0_localValues;
 		__this->____queuedTrackerProperties = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:219>
 		return (bool)0;
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:223>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->____trackerTransform;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_5;
 		L_5 = Nullable_1_get_Value_m3B32591BAA430025DC598288072D1B5E3B1155A2((&___0_localValues), Nullable_1_get_Value_m3B32591BAA430025DC598288072D1B5E3B1155A2_RuntimeMethod_var);
 		TransformFN_SetLocalProperties_mA8610C88935DB779C952DCE467825CE695A9A6F5(L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:224>
 		return (bool)1;
 	}
 }
@@ -21874,7 +20123,6 @@ IL_0020:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetAdditionalGraphicalOffsetValues_mA9AF35E3531FF5FE1ADE7D38FF67B5E37CA6C86B (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 ___0_localValues, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:228>
 		return;
 	}
 }
@@ -21884,7 +20132,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TransformProperties_t19CF25A6BC8F4EF672C33BDC
 	TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:231>
 		il2cpp_codegen_initobj((&V_0), sizeof(TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4));
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_0 = V_0;
 		return L_0;
@@ -21906,7 +20153,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TransformProperties_t19CF25A6BC8F4EF672C33BDC
 	memset((&V_0), 0, sizeof(V_0));
 	NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* G_B7_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:235>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____trackerTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -21917,7 +20163,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TransformProperties_t19CF25A6BC8F4EF672C33BDC
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:236>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->____trackerTransform;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
@@ -21938,7 +20183,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TransformProperties_t19CF25A6BC8F4EF672C33BDC
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:237>
 		Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD* L_9 = (Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD*)(&__this->____queuedTrackerProperties);
 		bool L_10;
 		L_10 = Nullable_1_get_HasValue_mDF9C9371FBB3B0CC3FEC63C7056F3B5451544324_inline(L_9, Nullable_1_get_HasValue_mDF9C9371FBB3B0CC3FEC63C7056F3B5451544324_RuntimeMethod_var);
@@ -21948,7 +20192,6 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:238>
 		Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD* L_11 = (Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD*)(&__this->____queuedTrackerProperties);
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_12;
 		L_12 = Nullable_1_get_Value_m3B32591BAA430025DC598288072D1B5E3B1155A2(L_11, Nullable_1_get_Value_m3B32591BAA430025DC598288072D1B5E3B1155A2_RuntimeMethod_var);
@@ -21957,7 +20200,6 @@ IL_0035:
 
 IL_004e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:241>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_13 = __this->____initializingNetworkBehaviour;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -21983,9 +20225,7 @@ IL_0069:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:242>
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(G_B7_0, _stringLiteralF7A60595771A334D033302B32C6218000EFF387D, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:243>
 		il2cpp_codegen_initobj((&V_0), sizeof(TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4));
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_17 = V_0;
 		return L_17;
@@ -21995,14 +20235,11 @@ IL_006a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetSmoothedProperties_m8B125BFD6E62ED06D75C46AA462464CE8DABF1FF (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, uint32_t ___0_value, bool ___1_forController, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:258>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_0 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____controllerMovementSettings);
 		uint32_t L_1 = ___0_value;
 		L_0->___SmoothedProperties = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:259>
 		bool L_2 = ___1_forController;
 		UniversalTickSmoother_SetCaches_m89D68B28E7A34197C98D6EB27BAD1AC1619F48C1(__this, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:260>
 		return;
 	}
 }
@@ -22010,7 +20247,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetSmoothedPropert
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetInterpolationValue_m4D82D4C74853C2B071BE14B2FF769EB61742EC20 (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, uint8_t ___0_value, bool ___1_forOwnerOrOfflineSmoother, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:266>
 		uint8_t L_0 = ___0_value;
 		bool L_1 = ___1_forOwnerOrOfflineSmoother;
 		UniversalTickSmoother_SetInterpolationValue_m0FF50BA16B44BDD4D5ED5BF56647C86EA7833FF1(__this, L_0, L_1, (bool)1, NULL);
@@ -22021,7 +20257,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetInterpolationVa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetInterpolationValue_m0FF50BA16B44BDD4D5ED5BF56647C86EA7833FF1 (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, uint8_t ___0_value, bool ___1_forOwnerOrOfflineSmoother, bool ___2_unsetAdaptiveInterpolation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:273>
 		uint8_t L_0 = ___0_value;
 		if ((((int32_t)L_0) >= ((int32_t)1)))
 		{
@@ -22029,13 +20264,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetInterpolationVa
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:274>
 		___0_value = (uint8_t)1;
 	}
 
 IL_0007:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:276>
 		bool L_1 = ___1_forOwnerOrOfflineSmoother;
 		if (!L_1)
 		{
@@ -22043,7 +20276,6 @@ IL_0007:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:277>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_2 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____controllerMovementSettings);
 		uint8_t L_3 = ___0_value;
 		L_2->___InterpolationValue = L_3;
@@ -22052,7 +20284,6 @@ IL_0007:
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:279>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_4 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____spectatorMovementSettings);
 		uint8_t L_5 = ___0_value;
 		L_4->___InterpolationValue = L_5;
@@ -22060,7 +20291,6 @@ IL_0018:
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:281>
 		bool L_6 = ___2_unsetAdaptiveInterpolation;
 		if (!L_6)
 		{
@@ -22068,14 +20298,12 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:282>
 		bool L_7 = ___1_forOwnerOrOfflineSmoother;
 		UniversalTickSmoother_SetAdaptiveInterpolation_m281F0CA1B93FA165FA15EAD6D2F86DBA3F80080D(__this, 0, L_7, NULL);
 	}
 
 IL_002f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:283>
 		return;
 	}
 }
@@ -22083,7 +20311,6 @@ IL_002f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetAdaptiveInterpolation_m281F0CA1B93FA165FA15EAD6D2F86DBA3F80080D (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, int32_t ___0_value, bool ___1_forOwnerOrOfflineSmoother, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:291>
 		bool L_0 = ___1_forOwnerOrOfflineSmoother;
 		if (!L_0)
 		{
@@ -22091,7 +20318,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetAdaptiveInterpo
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:292>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_1 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____controllerMovementSettings);
 		int32_t L_2 = ___0_value;
 		L_1->___AdaptiveInterpolationValue = L_2;
@@ -22100,7 +20326,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetAdaptiveInterpo
 
 IL_0011:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:294>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_3 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____spectatorMovementSettings);
 		int32_t L_4 = ___0_value;
 		L_3->___AdaptiveInterpolationValue = L_4;
@@ -22108,9 +20333,7 @@ IL_0011:
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:296>
 		UniversalTickSmoother_UpdateRealtimeInterpolation_m81EA36068D3FD079FD0FB85A5E5FCE011FE82CB4(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:297>
 		return;
 	}
 }
@@ -22134,19 +20357,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_Initialize_mB72B47
 	{
 		(&V_0)->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this), (void*)__this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:301>
 		UniversalTickSmoother_ResetState_m777731355916F8C901D1B2A87C883DE0E2C8426A(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:303>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_0 = ___0_initializationSettings;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = L_0.___GraphicalTransform;
 		(&V_0)->___graphicalTransform = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___graphicalTransform), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:304>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_2 = ___0_initializationSettings;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = L_2.___TargetTransform;
 		(&V_0)->___targetTransform = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___targetTransform), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:306>
 		U3CU3Ec__DisplayClass56_0_t91F4CE7C900D0CFE6D1908EF433A578596B886D9 L_4 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = L_4.___graphicalTransform;
 		U3CU3Ec__DisplayClass56_0_t91F4CE7C900D0CFE6D1908EF433A578596B886D9 L_6 = V_0;
@@ -22159,25 +20378,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_Initialize_mB72B47
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:307>
 		return;
 	}
 
 IL_003d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:309>
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_t3D87D08F94AD4FC142B1ABD9B7C27390086207D3_il2cpp_TypeInfo_var);
 		BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_9;
 		L_9 = CollectionCaches_1_RetrieveBasicQueue_mA5ACAE7D94594C137C2C2219E95A6CA5EE34AED4(CollectionCaches_1_RetrieveBasicQueue_mA5ACAE7D94594C137C2C2219E95A6CA5EE34AED4_RuntimeMethod_var);
 		__this->____transformProperties = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____transformProperties), (void*)L_9);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:310>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_10 = ___1_controllerSettings;
 		__this->____controllerMovementSettings = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:311>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_11 = ___2_spectatorSettings;
 		__this->____spectatorMovementSettings = L_11;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:317>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_12 = ___0_initializationSettings;
 		bool L_13 = L_12.___DetachOnStart;
 		if (L_13)
@@ -22186,13 +20400,11 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:319>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_14 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____controllerMovementSettings);
 		uint32_t* L_15 = (uint32_t*)(&L_14->___SmoothedProperties);
 		uint32_t* L_16 = L_15;
 		int32_t L_17 = *((uint32_t*)L_16);
 		*((int32_t*)L_16) = (int32_t)((int32_t)(L_17&((int32_t)-5)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:320>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_18 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____spectatorMovementSettings);
 		uint32_t* L_19 = (uint32_t*)(&L_18->___SmoothedProperties);
 		uint32_t* L_20 = L_19;
@@ -22202,46 +20414,37 @@ IL_003d:
 
 IL_0080:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:323>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_22 = ___0_initializationSettings;
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_23 = L_22.___InitializingNetworkBehaviour;
 		__this->____initializingNetworkBehaviour = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____initializingNetworkBehaviour), (void*)L_23);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:324>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_24 = ___0_initializationSettings;
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_25 = L_24.___InitializingTimeManager;
 		__this->____initializingTimeManager = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____initializingTimeManager), (void*)L_25);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:325>
 		U3CU3Ec__DisplayClass56_0_t91F4CE7C900D0CFE6D1908EF433A578596B886D9 L_26 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = L_26.___targetTransform;
 		__this->____targetTransform = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____targetTransform), (void*)L_27);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:326>
 		U3CU3Ec__DisplayClass56_0_t91F4CE7C900D0CFE6D1908EF433A578596B886D9 L_28 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = L_28.___graphicalTransform;
 		__this->____graphicalTransform = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____graphicalTransform), (void*)L_29);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:327>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_30 = ___0_initializationSettings;
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_31 = L_30.___InitializingTimeManager;
 		NullCheck(L_31);
 		double L_32;
 		L_32 = TimeManager_get_TickDelta_mAD7B3277F6932DB2CB2B3BD99748DDF43FC73A03_inline(L_31, NULL);
 		__this->____tickDelta = ((float)L_32);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:328>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_33 = ___0_initializationSettings;
 		bool L_34 = L_33.___DetachOnStart;
 		__this->____detachOnStart = L_34;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:329>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_35 = ___0_initializationSettings;
 		bool L_36 = L_35.___AttachOnStop;
 		__this->____attachOnStop = L_36;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:330>
 		bool L_37;
 		L_37 = InitializationSettings_get_MoveImmediately_m6B7464F2BD15A07AC9F53AA94EF7609BF1DCF952((&___0_initializationSettings), NULL);
 		__this->____moveImmediately = L_37;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:332>
 		InitializationSettings_t4C96D72F1998A133678E7183939EE8C5F0D7991A L_38 = ___0_initializationSettings;
 		bool L_39 = L_38.___FavorPredictionNetworkTransform;
 		if (!L_39)
@@ -22260,13 +20463,11 @@ IL_0080:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:334>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_42 = __this->____initializingNetworkBehaviour;
 		NullCheck(L_42);
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_43;
 		L_43 = NetworkBehaviour_get_NetworkObject_m3EEBF47647F4FF04EE88BF6A321CBE2BA23FA64A_inline(L_42, NULL);
 		V_1 = L_43;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:335>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_44 = V_1;
 		NullCheck(L_44);
 		bool L_45 = L_44->___IsRigidbodyPredictionType;
@@ -22276,7 +20477,6 @@ IL_0080:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:336>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_46 = V_1;
 		NullCheck(L_46);
 		NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* L_47;
@@ -22288,7 +20488,6 @@ IL_0080:
 
 IL_011f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:338>
 		__this->____predictionNetworkTransform = (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____predictionNetworkTransform), (void*)(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923*)NULL);
 		goto IL_012f;
@@ -22296,36 +20495,28 @@ IL_011f:
 
 IL_0128:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:342>
 		__this->____predictionNetworkTransform = (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____predictionNetworkTransform), (void*)(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923*)NULL);
 	}
 
 IL_012f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:345>
 		bool L_48;
 		L_48 = UniversalTickSmoother_GetUseOwnerSettings_mAABDC9002A656021F1FED06DEBAB7EBABFEEDF86(__this, NULL);
 		UniversalTickSmoother_SetCaches_m89D68B28E7A34197C98D6EB27BAD1AC1619F48C1(__this, L_48, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:348>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_49 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____controllerMovementSettings);
 		uint8_t L_50 = L_49->___InterpolationValue;
 		UniversalTickSmoother_SetInterpolationValue_m0FF50BA16B44BDD4D5ED5BF56647C86EA7833FF1(__this, L_50, (bool)1, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:349>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_51 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____spectatorMovementSettings);
 		uint8_t L_52 = L_51->___InterpolationValue;
 		UniversalTickSmoother_SetInterpolationValue_m0FF50BA16B44BDD4D5ED5BF56647C86EA7833FF1(__this, L_52, (bool)0, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:351>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_53 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____controllerMovementSettings);
 		int32_t L_54 = L_53->___AdaptiveInterpolationValue;
 		UniversalTickSmoother_SetAdaptiveInterpolation_m281F0CA1B93FA165FA15EAD6D2F86DBA3F80080D(__this, L_54, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:352>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_55 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____spectatorMovementSettings);
 		int32_t L_56 = L_55->___AdaptiveInterpolationValue;
 		UniversalTickSmoother_SetAdaptiveInterpolation_m281F0CA1B93FA165FA15EAD6D2F86DBA3F80080D(__this, L_56, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:354>
 		UniversalTickSmoother_U3CInitializeU3Eg__SetupTrackerTransformU7C56_0_m9615F32397A3C71B0AB04DE3A9300B198F4FA099(__this, (&V_0), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:357>
 		Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD* L_57 = (Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD*)(&__this->____queuedTrackerProperties);
 		bool L_58;
 		L_58 = Nullable_1_get_HasValue_mDF9C9371FBB3B0CC3FEC63C7056F3B5451544324_inline(L_57, Nullable_1_get_HasValue_mDF9C9371FBB3B0CC3FEC63C7056F3B5451544324_RuntimeMethod_var);
@@ -22335,7 +20526,6 @@ IL_012f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:358>
 		Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD* L_59 = (Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD*)(&__this->____queuedTrackerProperties);
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_60;
 		L_60 = Nullable_1_get_Value_m3B32591BAA430025DC598288072D1B5E3B1155A2(L_59, Nullable_1_get_Value_m3B32591BAA430025DC598288072D1B5E3B1155A2_RuntimeMethod_var);
@@ -22348,9 +20538,7 @@ IL_012f:
 
 IL_01b1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:377>
 		UniversalTickSmoother_set_IsInitialized_mA14B00E5968B016E2310C4D01CF6A769FDBD67DE_inline(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:378>
 		return;
 	}
 }
@@ -22367,7 +20555,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_TransformsAreValid
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:386>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_graphicalTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -22378,15 +20565,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_TransformsAreValid
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:388>
 		NetworkManagerExtensions_LogError_mC1B78DC995427B4DE27C7136AEAD3CB1F3B25CB3(_stringLiteralF7781DE83B450D07103D42B72685AE920C2C38B7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:389>
 		return (bool)0;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:391>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = ___1_targetTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -22397,18 +20581,15 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:393>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___0_graphicalTransform;
 		String_t* L_5;
 		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral91C10973235962C7FEE2C884AA2B589F96CC8B31, L_4, NULL);
 		NetworkManagerExtensions_LogError_mC1B78DC995427B4DE27C7136AEAD3CB1F3B25CB3(L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:394>
 		return (bool)0;
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:396>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = ___1_targetTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = ___0_graphicalTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -22420,18 +20601,15 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:398>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = ___0_graphicalTransform;
 		String_t* L_10;
 		L_10 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralD5150D9F99B1F256B5377748736B3536B60441BA, L_9, NULL);
 		NetworkManagerExtensions_LogError_mC1B78DC995427B4DE27C7136AEAD3CB1F3B25CB3(L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:399>
 		return (bool)0;
 	}
 
 IL_004b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:402>
 		return (bool)1;
 	}
 }
@@ -22439,7 +20617,6 @@ IL_004b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_GetUseAdaptiveInterpolation_mFF3534CEA1C03687C48388395AD9CF66CB6E038E (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:411>
 		int32_t L_0 = __this->____cachedAdaptiveInterpolationValue;
 		if (!L_0)
 		{
@@ -22462,13 +20639,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_GetUseAdaptiveInte
 
 IL_001a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:412>
 		return (bool)0;
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:414>
 		return (bool)1;
 	}
 }
@@ -22482,7 +20657,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_GetUseOwnerSetting
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:426>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_0 = __this->____initializingNetworkBehaviour;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -22493,13 +20667,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_GetUseOwnerSetting
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:427>
 		return (bool)1;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:429>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_2 = __this->____initializingNetworkBehaviour;
 		NullCheck(L_2);
 		bool L_3;
@@ -22510,13 +20682,11 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:430>
 		return (bool)1;
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:432>
 		return (bool)0;
 	}
 }
@@ -22532,7 +20702,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetCaches_m89D68B2
 	float G_B6_0 = 0.0f;
 	UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:441>
 		bool L_0 = ___0_useOwnerSettings;
 		if (L_0)
 		{
@@ -22554,23 +20723,18 @@ IL_000b:
 IL_0011:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:443>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_3 = V_0;
 		uint32_t L_4 = L_3.___SmoothedProperties;
 		__this->____cachedSmoothedProperties = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:444>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_5 = V_0;
 		bool L_6 = L_5.___SnapNonSmoothedProperties;
 		__this->____cachedSnapNonSmoothedProperties = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:445>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_7 = V_0;
 		int32_t L_8 = L_7.___AdaptiveInterpolationValue;
 		__this->____cachedAdaptiveInterpolationValue = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:446>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_9 = V_0;
 		uint8_t L_10 = L_9.___InterpolationValue;
 		__this->____cachedInterpolationValue = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:448>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01 L_11 = V_0;
 		bool L_12 = L_11.___EnableTeleport;
 		if (L_12)
@@ -22600,7 +20764,6 @@ IL_005f:
 	{
 		NullCheck(G_B6_1);
 		G_B6_1->____cachedTeleportThreshold = G_B6_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:449>
 		return;
 	}
 }
@@ -22608,11 +20771,8 @@ IL_005f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_Deinitialize_m769DE9630F4A8D06C5BD610DB958D1CD15D9DE00 (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:456>
 		UniversalTickSmoother_ResetState_m777731355916F8C901D1B2A87C883DE0E2C8426A(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:457>
 		UniversalTickSmoother_set_IsInitialized_mA14B00E5968B016E2310C4D01CF6A769FDBD67DE_inline(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:458>
 		return;
 	}
 }
@@ -22637,7 +20797,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_UpdateRealtimeInte
 	uint32_t V_6 = 0;
 	float V_7 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:465>
 		il2cpp_codegen_runtime_class_init_inline(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_UpdateRealtimeInterpolation;
 		V_1 = L_0;
@@ -22658,7 +20817,6 @@ FINALLY_00c2:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:470>
 				bool L_2;
 				L_2 = UniversalTickSmoother_GetUseAdaptiveInterpolation_mFF3534CEA1C03687C48388395AD9CF66CB6E038E(__this, NULL);
 				if (L_2)
@@ -22667,25 +20825,20 @@ FINALLY_00c2:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:472>
 				uint8_t L_3 = __this->____cachedInterpolationValue;
 				__this->____realtimeInterpolation = L_3;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:473>
 				goto IL_00d0;
 			}
 
 IL_0027_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:478>
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_4 = __this->____initializingTimeManager;
 				V_2 = L_4;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:481>
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_5 = V_2;
 				NullCheck(L_5);
 				uint32_t L_6;
 				L_6 = TimeManager_get_LocalTick_m33B90F5CF081E02D356737AB650141634B970275(L_5, NULL);
 				V_3 = L_6;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:483>
 				uint32_t L_7 = V_3;
 				if (L_7)
 				{
@@ -22693,38 +20846,31 @@ IL_0027_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:484>
 				goto IL_00d0;
 			}
 
 IL_003d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:487>
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_8 = V_2;
 				NullCheck(L_8);
 				int64_t L_9;
 				L_9 = TimeManager_get_RoundTripTime_m2BAC601F1FDE628203CFE265B57CAAC303F14CB0_inline(L_8, NULL);
 				V_4 = L_9;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:488>
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_10 = V_2;
 				int64_t L_11 = V_4;
 				NullCheck(L_10);
 				uint32_t L_12;
 				L_12 = TimeManager_TimeToTicks_m35F7DEF1CF56C35FF90778A21F2376068B46B506(L_10, L_11, 2, NULL);
 				V_5 = ((int32_t)il2cpp_codegen_add((int32_t)L_12, 1));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:490>
 				uint32_t L_13 = V_3;
 				uint32_t L_14 = V_5;
 				V_6 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_13, (int32_t)L_14));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:491>
 				uint32_t L_15 = V_3;
 				uint32_t L_16 = V_6;
 				V_7 = ((float)((double)(uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_15, (int32_t)L_16))));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:494>
 				float L_17 = V_7;
 				int32_t L_18 = __this->____cachedAdaptiveInterpolationValue;
 				V_7 = ((float)il2cpp_codegen_add(L_17, ((float)((int32_t)(uint8_t)L_18))));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:497>
 				float L_19 = V_7;
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_20 = V_2;
 				NullCheck(L_20);
@@ -22736,7 +20882,6 @@ IL_003d_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:498>
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_22 = V_2;
 				NullCheck(L_22);
 				uint16_t L_23;
@@ -22747,7 +20892,6 @@ IL_003d_1:
 
 IL_0083_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:499>
 				float L_24 = V_7;
 				if ((!(((float)L_24) > ((float)(255.0f)))))
 				{
@@ -22755,13 +20899,11 @@ IL_0083_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:500>
 				V_7 = (255.0f);
 			}
 
 IL_0093_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:506>
 				uint8_t L_25 = __this->____realtimeInterpolation;
 				if (!L_25)
 				{
@@ -22782,7 +20924,6 @@ IL_0093_1:
 
 IL_00b1_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:507>
 				float L_29 = V_7;
 				il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 				double L_30;
@@ -22792,7 +20933,6 @@ IL_00b1_1:
 
 IL_00c0_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:508>
 				goto IL_00d0;
 			}
 		}
@@ -22804,7 +20944,6 @@ IL_00c0_1:
 
 IL_00d0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:509>
 		return;
 	}
 }
@@ -22812,9 +20951,7 @@ IL_00d0:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_StartSmoother_mBBC4273B83B68DECCCB0D268538CBEEA00E9C116 (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:517>
 		UniversalTickSmoother_DetachOnStart_mB89B57E676DE1BF15BF2D68D6296A3371D02AB43(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:518>
 		return;
 	}
 }
@@ -22822,9 +20959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_StartSmoother_mBBC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_StopSmoother_mF1EB11904D069C0F872751596BC88953BD91AF14 (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:526>
 		UniversalTickSmoother_AttachOnStop_m4F723A81398FDEAA12F2816E3B4E19F79D255384(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:527>
 		return;
 	}
 }
@@ -22842,7 +20977,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_OnUpdate_m725919F3
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:534>
 		il2cpp_codegen_runtime_class_init_inline(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_OnUpdate;
 		V_1 = L_0;
@@ -22863,7 +20997,6 @@ FINALLY_0021:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:536>
 				bool L_2;
 				L_2 = UniversalTickSmoother_CanSmooth_m89D9AA8FE5C78DAB0506562685719515DAF88643(__this, NULL);
 				if (L_2)
@@ -22872,16 +21005,13 @@ FINALLY_0021:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:537>
 				goto IL_002f;
 			}
 
 IL_0018_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:539>
 				float L_3 = ___0_delta;
 				UniversalTickSmoother_MoveToTarget_m7B420794F28773484EED7348306A3E233A06F696(__this, L_3, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:540>
 				goto IL_002f;
 			}
 		}
@@ -22893,7 +21023,6 @@ IL_0018_1:
 
 IL_002f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:541>
 		return;
 	}
 }
@@ -22911,7 +21040,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_OnPreTick_mC4E3480
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:548>
 		il2cpp_codegen_runtime_class_init_inline(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_OnPreTick;
 		V_1 = L_0;
@@ -22932,7 +21060,6 @@ FINALLY_0050:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:550>
 				bool L_2;
 				L_2 = UniversalTickSmoother_CanSmooth_m89D9AA8FE5C78DAB0506562685719515DAF88643(__this, NULL);
 				if (L_2)
@@ -22941,30 +21068,23 @@ FINALLY_0050:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:551>
 				goto IL_005e;
 			}
 
 IL_0018_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:553>
 				bool L_3;
 				L_3 = UniversalTickSmoother_GetUseOwnerSettings_mAABDC9002A656021F1FED06DEBAB7EBABFEEDF86(__this, NULL);
 				UniversalTickSmoother_SetCaches_m89D68B28E7A34197C98D6EB27BAD1AC1619F48C1(__this, L_3, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:555>
 				__this->____preTicked = (bool)1;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:556>
 				UniversalTickSmoother_DiscardExcessiveTransformPropertiesQueue_m011DF7468D73D5B76C4A8317573F34CD8FA6DB0B(__this, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:557>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->____graphicalTransform;
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_5;
 				L_5 = TransformFN_GetWorldProperties_mB43A3ECD9CCA6142F6BCD59D2D606C15E3C8D642(L_4, NULL);
 				__this->____graphicsPreTickWorldValues = L_5;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:558>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_6;
 				L_6 = UniversalTickSmoother_GetTrackerWorldProperties_m74BE6B8D7B7D0BB44FB47FD13B4233FCC58D7847(__this, NULL);
 				__this->____trackerPreTickWorldValues = L_6;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:559>
 				goto IL_005e;
 			}
 		}
@@ -22976,7 +21096,6 @@ IL_0018_1:
 
 IL_005e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:560>
 		return;
 	}
 }
@@ -22997,7 +21116,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_OnPostReplicateRep
 	memset((&V_1), 0, sizeof(V_1));
 	uint32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:569>
 		il2cpp_codegen_runtime_class_init_inline(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_OnPostReplicateReplay;
 		V_1 = L_0;
@@ -23018,7 +21136,6 @@ FINALLY_0053:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:571>
 				bool L_2;
 				L_2 = UniversalTickSmoother_NetworkObjectIsReconciling_m5EE170E3B8CFCCAFE319B9F2A83786F0971BEFB1(__this, NULL);
 				if (L_2)
@@ -23027,13 +21144,11 @@ FINALLY_0053:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:572>
 				goto IL_0061;
 			}
 
 IL_0018_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:574>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_3 = __this->____transformProperties;
 				NullCheck(L_3);
 				int32_t L_4;
@@ -23044,13 +21159,11 @@ IL_0018_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:575>
 				goto IL_0061;
 			}
 
 IL_0027_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:576>
 				uint32_t L_5 = ___0_clientTick;
 				uint32_t L_6 = __this->____teleportedTick;
 				if ((!(((uint32_t)L_5) <= ((uint32_t)L_6))))
@@ -23059,20 +21172,17 @@ IL_0027_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:577>
 				goto IL_0061;
 			}
 
 IL_0032_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:578>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_7 = __this->____transformProperties;
 				NullCheck(L_7);
 				TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168 L_8;
 				L_8 = BasicQueue_1_Peek_m634C665D19B749D9BF2714B5AB55151E59C1C7CA(L_7, BasicQueue_1_Peek_m634C665D19B749D9BF2714B5AB55151E59C1C7CA_RuntimeMethod_var);
 				uint32_t L_9 = L_8.___Tick;
 				V_2 = L_9;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:580>
 				uint32_t L_10 = ___0_clientTick;
 				uint32_t L_11 = V_2;
 				if ((!(((uint32_t)L_10) <= ((uint32_t)L_11))))
@@ -23081,17 +21191,14 @@ IL_0032_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:581>
 				goto IL_0061;
 			}
 
 IL_0049_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:583>
 				uint32_t L_12 = ___0_clientTick;
 				uint32_t L_13 = V_2;
 				UniversalTickSmoother_ModifyTransformProperties_m9DA7B65C579941B27FE089A2C75990A609B82CBC(__this, L_12, L_13, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:584>
 				goto IL_0061;
 			}
 		}
@@ -23103,7 +21210,6 @@ IL_0049_1:
 
 IL_0061:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:585>
 		return;
 	}
 }
@@ -23121,7 +21227,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_OnPostTick_mE62D83
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:593>
 		il2cpp_codegen_runtime_class_init_inline(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_OnPostTick;
 		V_1 = L_0;
@@ -23142,7 +21247,6 @@ FINALLY_006e:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:595>
 				bool L_2;
 				L_2 = UniversalTickSmoother_CanSmooth_m89D9AA8FE5C78DAB0506562685719515DAF88643(__this, NULL);
 				if (L_2)
@@ -23151,13 +21255,11 @@ FINALLY_006e:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:596>
 				goto IL_007c;
 			}
 
 IL_0018_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:597>
 				uint32_t L_3 = ___0_clientTick;
 				uint32_t L_4 = __this->____teleportedTick;
 				if ((!(((uint32_t)L_3) <= ((uint32_t)L_4))))
@@ -23166,13 +21268,11 @@ IL_0018_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:598>
 				goto IL_007c;
 			}
 
 IL_0023_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:601>
 				bool L_5 = __this->____preTicked;
 				if (!L_5)
 				{
@@ -23180,9 +21280,7 @@ IL_0023_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:603>
 				UniversalTickSmoother_DiscardExcessiveTransformPropertiesQueue_m011DF7468D73D5B76C4A8317573F34CD8FA6DB0B(__this, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:606>
 				bool L_6 = __this->____detachOnStart;
 				if (L_6)
 				{
@@ -23190,7 +21288,6 @@ IL_0023_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:607>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->____graphicalTransform;
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_8 = __this->____graphicsPreTickWorldValues;
 				TransformFN_SetWorldProperties_mE5AE79D82FA85913BE3BA5192C21A1FFBAEA754E(L_7, L_8, NULL);
@@ -23198,7 +21295,6 @@ IL_0023_1:
 
 IL_004a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:610>
 				uint32_t L_9 = ___0_clientTick;
 				UniversalTickSmoother_AddTransformProperties_m479C77140CA5469A5D8627DD68F6374ACF0CDE35(__this, L_9, NULL);
 				goto IL_007c;
@@ -23206,7 +21302,6 @@ IL_004a_1:
 
 IL_0053_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:616>
 				bool L_10 = __this->____detachOnStart;
 				if (L_10)
 				{
@@ -23214,7 +21309,6 @@ IL_0053_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:617>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->____graphicalTransform;
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_12;
 				L_12 = UniversalTickSmoother_GetTrackerWorldProperties_m74BE6B8D7B7D0BB44FB47FD13B4233FCC58D7847(__this, NULL);
@@ -23223,7 +21317,6 @@ IL_0053_1:
 
 IL_006c_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:619>
 				goto IL_007c;
 			}
 		}
@@ -23235,7 +21328,6 @@ IL_006c_1:
 
 IL_007c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:620>
 		return;
 	}
 }
@@ -23246,7 +21338,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SnapNonSmoothedPro
 	TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:628>
 		bool L_0 = __this->____cachedSnapNonSmoothedProperties;
 		if (L_0)
 		{
@@ -23254,16 +21345,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SnapNonSmoothedPro
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:629>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:631>
 		uint32_t L_1 = __this->____cachedSmoothedProperties;
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:634>
 		uint32_t L_2 = V_0;
 		if ((!(((uint32_t)L_2) == ((uint32_t)(-1)))))
 		{
@@ -23271,17 +21359,14 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:635>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:637>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_3;
 		L_3 = UniversalTickSmoother_GetTrackerWorldProperties_m74BE6B8D7B7D0BB44FB47FD13B4233FCC58D7847(__this, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:639>
 		uint32_t L_4 = V_0;
 		bool L_5;
 		L_5 = TransformPropertiesOptionExtensions_FastContains_mA29E8F4B0C294E2A8823000CB5FCA1382A58415D(L_4, 1, NULL);
@@ -23291,7 +21376,6 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:640>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->____graphicalTransform;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_7 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = L_7.___Position;
@@ -23301,7 +21385,6 @@ IL_0015:
 
 IL_0036:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:641>
 		uint32_t L_9 = V_0;
 		bool L_10;
 		L_10 = TransformPropertiesOptionExtensions_FastContains_mA29E8F4B0C294E2A8823000CB5FCA1382A58415D(L_9, 2, NULL);
@@ -23311,7 +21394,6 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:642>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->____graphicalTransform;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_12 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13 = L_12.___Rotation;
@@ -23321,7 +21403,6 @@ IL_0036:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:643>
 		uint32_t L_14 = V_0;
 		bool L_15;
 		L_15 = TransformPropertiesOptionExtensions_FastContains_mA29E8F4B0C294E2A8823000CB5FCA1382A58415D(L_14, 4, NULL);
@@ -23331,7 +21412,6 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:644>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = __this->____graphicalTransform;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_17 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = L_17.___Scale;
@@ -23341,7 +21421,6 @@ IL_0050:
 
 IL_006a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:645>
 		return;
 	}
 }
@@ -23355,7 +21434,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_NetworkObjectIsRec
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:650>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_0 = __this->____initializingNetworkBehaviour;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -23393,7 +21471,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_Teleport_m505B594A
 	TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* V_0 = NULL;
 	TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* G_B6_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:657>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0 = __this->____initializingTimeManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -23404,13 +21481,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_Teleport_m505B594A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:658>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:661>
 		MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01* L_2 = (MovementSettings_tD988B646EE6F8268529DE264A7B684CA42427B01*)(&__this->____controllerMovementSettings);
 		int32_t L_3 = L_2->___AdaptiveInterpolationValue;
 		if (!L_3)
@@ -23419,7 +21494,6 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:663>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_4 = __this->____initializingTimeManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -23445,7 +21519,6 @@ IL_0032:
 IL_0037:
 	{
 		V_0 = G_B6_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:664>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_8 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -23456,7 +21529,6 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:665>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_10 = V_0;
 		NullCheck(L_10);
 		uint32_t L_11;
@@ -23466,15 +21538,12 @@ IL_0037:
 
 IL_004d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:668>
 		UniversalTickSmoother_ClearTransformPropertiesQueue_m96637C5AA5153BA535EEA09AE4B1BE1EEE6CC86C(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:670>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = __this->____graphicalTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->____trackerTransform;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_14;
 		L_14 = TransformFN_GetWorldProperties_mB43A3ECD9CCA6142F6BCD59D2D606C15E3C8D642(L_13, NULL);
 		TransformFN_SetWorldProperties_mE5AE79D82FA85913BE3BA5192C21A1FFBAEA754E(L_12, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:671>
 		return;
 	}
 }
@@ -23493,7 +21562,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_ClearTransformProp
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:678>
 		il2cpp_codegen_runtime_class_init_inline(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_ClearTPQ;
 		V_1 = L_0;
@@ -23513,16 +21581,13 @@ FINALLY_002b:
 		});
 		try
 		{
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:680>
 			BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_2 = __this->____transformProperties;
 			NullCheck(L_2);
 			BasicQueue_1_Clear_m738BB5E8114C3B0383FED6D41E17110D998973BA(L_2, BasicQueue_1_Clear_m738BB5E8114C3B0383FED6D41E17110D998973BA_RuntimeMethod_var);
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:682>
 			MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA L_3;
 			memset((&L_3), 0, sizeof(L_3));
 			MoveRates__ctor_m0D9C4925620E1D08E92BE470B0053170B20DA583((&L_3), (-std::numeric_limits<float>::infinity()), NULL);
 			__this->____moveRates = L_3;
-			//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:683>
 			goto IL_0039;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -23533,7 +21598,6 @@ FINALLY_002b:
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:684>
 		return;
 	}
 }
@@ -23557,7 +21621,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_DiscardExcessiveTr
 	memset((&V_3), 0, sizeof(V_3));
 	int32_t V_4 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:691>
 		il2cpp_codegen_runtime_class_init_inline(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_DiscardTPQ;
 		V_1 = L_0;
@@ -23578,15 +21641,12 @@ FINALLY_005b:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:693>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_2 = __this->____transformProperties;
 				NullCheck(L_2);
 				int32_t L_3;
 				L_3 = BasicQueue_1_get_Count_m959D1092E8CB0303E2D0F03F04094C0B7D757254_inline(L_2, BasicQueue_1_get_Count_m959D1092E8CB0303E2D0F03F04094C0B7D757254_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:694>
 				uint8_t L_4 = __this->____realtimeInterpolation;
 				V_2 = ((int32_t)il2cpp_codegen_subtract(L_3, ((int32_t)il2cpp_codegen_add((int32_t)L_4, 3))));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:697>
 				int32_t L_5 = V_2;
 				if ((((int32_t)L_5) <= ((int32_t)0)))
 				{
@@ -23594,29 +21654,24 @@ FINALLY_005b:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:699>
 				il2cpp_codegen_initobj((&V_3), sizeof(TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:700>
 				V_4 = 0;
 				goto IL_0047_1;
 			}
 
 IL_0034_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:701>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_6 = __this->____transformProperties;
 				NullCheck(L_6);
 				TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168 L_7;
 				L_7 = BasicQueue_1_Dequeue_m75F00571960BE567A4A6ABA95AF3736A7EE9BAA1(L_6, (bool)1, BasicQueue_1_Dequeue_m75F00571960BE567A4A6ABA95AF3736A7EE9BAA1_RuntimeMethod_var);
 				V_3 = L_7;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:700>
 				int32_t L_8 = V_4;
 				V_4 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 			}
 
 IL_0047_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:700>
 				int32_t L_9 = V_4;
 				int32_t L_10 = V_2;
 				if ((((int32_t)L_9) < ((int32_t)L_10)))
@@ -23625,14 +21680,12 @@ IL_0047_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:703>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_11 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&(&V_3)->___Properties);
 				UniversalTickSmoother_SetMoveRates_mA67DB4E5B983894145B846A8A0C325BC01DFD4B4(__this, L_11, NULL);
 			}
 
 IL_0059_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:705>
 				goto IL_0069;
 			}
 		}
@@ -23644,7 +21697,6 @@ IL_0059_1:
 
 IL_0069:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:706>
 		return;
 	}
 }
@@ -23668,7 +21720,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_AddTransformProper
 	TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:713>
 		il2cpp_codegen_runtime_class_init_inline(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_AddTP;
 		V_1 = L_0;
@@ -23689,17 +21740,14 @@ FINALLY_004c:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:715>
 				uint32_t L_2 = ___0_tick;
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_3;
 				L_3 = UniversalTickSmoother_GetTrackerWorldProperties_m74BE6B8D7B7D0BB44FB47FD13B4233FCC58D7847(__this, NULL);
 				TickTransformProperties__ctor_m7DBDA92CB4E35CE5B2419BBFC718EE67CD17A224((&V_2), L_2, L_3, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:716>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_4 = __this->____transformProperties;
 				TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168 L_5 = V_2;
 				NullCheck(L_4);
 				BasicQueue_1_Enqueue_mECD857722DBF790582CC13B967D1A021C3FF5233(L_4, L_5, BasicQueue_1_Enqueue_mECD857722DBF790582CC13B967D1A021C3FF5233_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:719>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_6 = __this->____transformProperties;
 				NullCheck(L_6);
 				int32_t L_7;
@@ -23710,18 +21758,15 @@ FINALLY_004c:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:721>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->____graphicalTransform;
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_9;
 				L_9 = TransformFN_GetWorldProperties_mB43A3ECD9CCA6142F6BCD59D2D606C15E3C8D642(L_8, NULL);
 				V_3 = L_9;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:722>
 				UniversalTickSmoother_SetMoveRates_mA67DB4E5B983894145B846A8A0C325BC01DFD4B4(__this, (&V_3), NULL);
 			}
 
 IL_004a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:724>
 				goto IL_005a;
 			}
 		}
@@ -23733,7 +21778,6 @@ IL_004a_1:
 
 IL_005a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:725>
 		return;
 	}
 }
@@ -23764,7 +21808,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_ModifyTransformPro
 	TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 V_8;
 	memset((&V_8), 0, sizeof(V_8));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:733>
 		il2cpp_codegen_runtime_class_init_inline(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_ModifyTP;
 		V_1 = L_0;
@@ -23785,20 +21828,16 @@ FINALLY_0108:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:735>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_2 = __this->____transformProperties;
 				NullCheck(L_2);
 				int32_t L_3;
 				L_3 = BasicQueue_1_get_Count_m959D1092E8CB0303E2D0F03F04094C0B7D757254_inline(L_2, BasicQueue_1_get_Count_m959D1092E8CB0303E2D0F03F04094C0B7D757254_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:736>
 				uint32_t L_4 = ___0_clientTick;
 				V_3 = L_4;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:739>
 				uint32_t L_5 = V_3;
 				uint32_t L_6 = ___1_firstTick;
 				V_4 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_5, (int32_t)L_6));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:741>
 				int32_t L_7 = V_4;
 				int32_t L_8 = V_2;
 				if ((((int32_t)L_7) >= ((int32_t)L_8)))
@@ -23807,7 +21846,6 @@ FINALLY_0108:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:743>
 				uint32_t L_9 = V_3;
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_10 = __this->____transformProperties;
 				int32_t L_11 = V_4;
@@ -23826,15 +21864,11 @@ FINALLY_0108:
 
 IL_0043_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:749>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_14;
 				L_14 = UniversalTickSmoother_GetTrackerWorldProperties_m74BE6B8D7B7D0BB44FB47FD13B4233FCC58D7847(__this, NULL);
 				V_5 = L_14;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:755>
 				int32_t L_15 = V_2;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:756>
 				V_6 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_15, 1)), 1));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:757>
 				int32_t L_16 = V_6;
 				if ((((int32_t)L_16) >= ((int32_t)1)))
 				{
@@ -23842,17 +21876,14 @@ IL_0043_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:758>
 				V_6 = 1;
 			}
 
 IL_005a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:759>
 				int32_t L_17 = V_4;
 				int32_t L_18 = V_6;
 				V_7 = ((float)(((float)L_17)/((float)L_18)));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:762>
 				float L_19 = V_7;
 				if ((!(((float)L_19) < ((float)(1.0f)))))
 				{
@@ -23860,7 +21891,6 @@ IL_005a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:764>
 				float L_20 = V_7;
 				if ((!(((float)L_20) < ((float)(1.0f)))))
 				{
@@ -23868,7 +21898,6 @@ IL_005a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:765>
 				float L_21 = V_7;
 				int32_t L_22 = V_6;
 				int32_t L_23 = V_4;
@@ -23880,7 +21909,6 @@ IL_005a_1:
 
 IL_0089_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:767>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_25 = __this->____transformProperties;
 				int32_t L_26 = V_4;
 				NullCheck(L_25);
@@ -23888,7 +21916,6 @@ IL_0089_1:
 				L_27 = BasicQueue_1_get_Item_mF3D005CF00DA1DE2F97B15AD393FFCFCCD7E1E44(L_25, L_26, BasicQueue_1_get_Item_mF3D005CF00DA1DE2F97B15AD393FFCFCCD7E1E44_RuntimeMethod_var);
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_28 = L_27.___Properties;
 				V_8 = L_28;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:768>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_29 = V_8;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = L_29.___Position;
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_31 = V_5;
@@ -23897,7 +21924,6 @@ IL_0089_1:
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
 				L_34 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_30, L_32, L_33, NULL);
 				(&V_5)->___Position = L_34;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:769>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_35 = V_8;
 				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = L_35.___Rotation;
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_37 = V_5;
@@ -23906,7 +21932,6 @@ IL_0089_1:
 				Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40;
 				L_40 = Quaternion_Lerp_m259606226726C2F46E079A5A688B9E24FF7E9A0D_inline(L_36, L_38, L_39, NULL);
 				(&V_5)->___Rotation = L_40;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:770>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_41 = V_8;
 				Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = L_41.___Scale;
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_43 = V_5;
@@ -23919,7 +21944,6 @@ IL_0089_1:
 
 IL_00f1_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:773>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_47 = __this->____transformProperties;
 				int32_t L_48 = V_4;
 				uint32_t L_49 = V_3;
@@ -23933,7 +21957,6 @@ IL_00f1_1:
 
 IL_0106_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:780>
 				goto IL_0116;
 			}
 		}
@@ -23945,7 +21968,6 @@ IL_0106_1:
 
 IL_0116:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:781>
 		return;
 	}
 }
@@ -23957,7 +21979,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TransformProperties_t19CF25A6BC8F4EF672C33BDC
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_0;
 	memset((&G_B3_0), 0, sizeof(G_B3_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:792>
 		bool L_0 = __this->____detachOnStart;
 		if (L_0)
 		{
@@ -23985,7 +22006,6 @@ IL_0015:
 IL_0020:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:793>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->____trackerTransform;
 		NullCheck(L_5);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
@@ -24011,7 +22031,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_CanSmooth_m89D9AA8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:803>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____graphicalTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -24022,13 +22041,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalTickSmoother_CanSmooth_m89D9AA8
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:804>
 		return (bool)0;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:808>
 		NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* L_2 = __this->____predictionNetworkTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -24049,13 +22066,11 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:809>
 		return (bool)0;
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:811>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_6 = __this->____initializingTimeManager;
 		NullCheck(L_6);
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_7;
@@ -24086,7 +22101,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetMoveRates_mA67D
 	memset((&V_2), 0, sizeof(V_2));
 	float V_3 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:819>
 		il2cpp_codegen_runtime_class_init_inline(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_SetMoveRates;
 		V_1 = L_0;
@@ -24107,7 +22121,6 @@ FINALLY_0072:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:821>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_2 = __this->____transformProperties;
 				NullCheck(L_2);
 				int32_t L_3;
@@ -24118,28 +22131,23 @@ FINALLY_0072:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:823>
 				MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA L_4;
 				memset((&L_4), 0, sizeof(L_4));
 				MoveRates__ctor_m0D9C4925620E1D08E92BE470B0053170B20DA583((&L_4), (-std::numeric_limits<float>::infinity()), NULL);
 				__this->____moveRates = L_4;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:824>
 				goto IL_0080;
 			}
 
 IL_002d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:827>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_5 = __this->____transformProperties;
 				NullCheck(L_5);
 				TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168 L_6;
 				L_6 = BasicQueue_1_Peek_m634C665D19B749D9BF2714B5AB55151E59C1C7CA(L_5, BasicQueue_1_Peek_m634C665D19B749D9BF2714B5AB55151E59C1C7CA_RuntimeMethod_var);
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_7 = L_6.___Properties;
 				V_2 = L_7;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:829>
 				float L_8 = __this->____tickDelta;
 				V_3 = L_8;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:831>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_9 = ___0_prevValues;
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_10 = (*(TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)L_9);
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_11 = V_2;
@@ -24149,13 +22157,10 @@ IL_002d_1:
 				MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA L_14;
 				L_14 = MoveRates_GetMoveRates_mF5D2135E1E5D08FC0294408C4B4641702F8183FE(L_10, L_11, L_12, L_13, NULL);
 				__this->____moveRates = L_14;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:832>
 				MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA* L_15 = (MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA*)(&__this->____moveRates);
 				float L_16 = V_3;
 				L_15->___TimeRemaining = L_16;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:834>
 				UniversalTickSmoother_SetMovementMultiplier_m74E2FCAEAB9E2B3E64F38D67048F1617F2E5432D(__this, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:835>
 				goto IL_0080;
 			}
 		}
@@ -24167,7 +22172,6 @@ IL_002d_1:
 
 IL_0080:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:836>
 		return;
 	}
 }
@@ -24183,7 +22187,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetMovementMultipl
 	float V_0 = 0.0f;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:840>
 		bool L_0 = __this->____moveImmediately;
 		if (!L_0)
 		{
@@ -24191,7 +22194,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetMovementMultipl
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:842>
 		uint8_t L_1 = __this->____realtimeInterpolation;
 		BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_2 = __this->____transformProperties;
 		NullCheck(L_2);
@@ -24200,10 +22202,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetMovementMultipl
 		float L_4;
 		L_4 = Mathf_InverseLerp_mBD7EC6A7173CE082226077E1557D5BC2D2AE0D9D_inline((0.0f), ((float)L_1), ((float)L_3), NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:843>
 		float L_5 = V_0;
 		__this->____movementMultiplier = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:845>
 		float L_6 = __this->____movementMultiplier;
 		float L_7;
 		L_7 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_6, (0.5f), (1.04999995f), NULL);
@@ -24213,14 +22213,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_SetMovementMultipl
 
 IL_0049:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:852>
 		BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_8 = __this->____transformProperties;
 		NullCheck(L_8);
 		int32_t L_9;
 		L_9 = BasicQueue_1_get_Count_m959D1092E8CB0303E2D0F03F04094C0B7D757254_inline(L_8, BasicQueue_1_get_Count_m959D1092E8CB0303E2D0F03F04094C0B7D757254_RuntimeMethod_var);
 		uint8_t L_10 = __this->____realtimeInterpolation;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_9, (int32_t)L_10));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:854>
 		int32_t L_11 = V_1;
 		if (!L_11)
 		{
@@ -24228,7 +22226,6 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:856>
 		float L_12 = __this->____movementMultiplier;
 		int32_t L_13 = V_1;
 		__this->____movementMultiplier = ((float)il2cpp_codegen_add(L_12, ((float)il2cpp_codegen_multiply((0.0149999997f), ((float)L_13)))));
@@ -24237,7 +22234,6 @@ IL_0049:
 
 IL_0076:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:862>
 		uint8_t L_14 = __this->____realtimeInterpolation;
 		if ((!(((uint32_t)L_14) == ((uint32_t)1))))
 		{
@@ -24245,18 +22241,15 @@ IL_0076:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:863>
 		__this->____movementMultiplier = (1.0f);
 	}
 
 IL_008a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:866>
 		float L_15 = __this->____movementMultiplier;
 		float L_16;
 		L_16 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_15, (0.949999988f), (1.04999995f), NULL);
 		__this->____movementMultiplier = L_16;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:868>
 		return;
 	}
 }
@@ -24283,7 +22276,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_MoveToTarget_m7B42
 	uint32_t V_4 = 0;
 	float V_5 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:875>
 		il2cpp_codegen_runtime_class_init_inline(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_MoveToTarget;
 		V_1 = L_0;
@@ -24304,13 +22296,11 @@ FINALLY_00fe:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:877>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_2 = __this->____transformProperties;
 				NullCheck(L_2);
 				int32_t L_3;
 				L_3 = BasicQueue_1_get_Count_m959D1092E8CB0303E2D0F03F04094C0B7D757254_inline(L_2, BasicQueue_1_get_Count_m959D1092E8CB0303E2D0F03F04094C0B7D757254_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:880>
 				int32_t L_4 = V_2;
 				if (L_4)
 				{
@@ -24318,13 +22308,11 @@ FINALLY_00fe:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:881>
 				goto IL_010c;
 			}
 
 IL_0022_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:883>
 				bool L_5 = __this->____moveImmediately;
 				if (!L_5)
 				{
@@ -24332,14 +22320,12 @@ IL_0022_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:885>
 				__this->____isMoving = (bool)1;
 				goto IL_006a_1;
 			}
 
 IL_0033_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:890>
 				int32_t L_6 = V_2;
 				uint8_t L_7 = __this->____realtimeInterpolation;
 				if ((((int32_t)L_6) < ((int32_t)L_7)))
@@ -24348,14 +22334,12 @@ IL_0033_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:892>
 				__this->____isMoving = (bool)1;
 				goto IL_006a_1;
 			}
 
 IL_0045_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:894>
 				bool L_8 = __this->____isMoving;
 				if (L_8)
 				{
@@ -24363,13 +22347,11 @@ IL_0045_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:896>
 				goto IL_010c;
 			}
 
 IL_0052_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:900>
 				int32_t L_9 = V_2;
 				uint8_t L_10 = __this->____realtimeInterpolation;
 				if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_9, (int32_t)L_10))) >= ((int32_t)((int32_t)-4))))
@@ -24378,24 +22360,19 @@ IL_0052_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:902>
 				__this->____isMoving = (bool)0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:903>
 				goto IL_010c;
 			}
 
 IL_006a_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:907>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_11 = __this->____transformProperties;
 				NullCheck(L_11);
 				TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168 L_12;
 				L_12 = BasicQueue_1_Peek_m634C665D19B749D9BF2714B5AB55151E59C1C7CA(L_11, BasicQueue_1_Peek_m634C665D19B749D9BF2714B5AB55151E59C1C7CA_RuntimeMethod_var);
 				V_3 = L_12;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:909>
 				uint32_t L_13 = __this->____cachedSmoothedProperties;
 				V_4 = L_13;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:911>
 				MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA* L_14 = (MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA*)(&__this->____moveRates);
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = __this->____graphicalTransform;
 				TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168 L_16 = V_3;
@@ -24405,11 +22382,9 @@ IL_006a_1:
 				float L_20 = __this->____movementMultiplier;
 				il2cpp_codegen_runtime_class_init_inline(MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA_il2cpp_TypeInfo_var);
 				MoveRates_Move_m4D3D7EA2DB136903F13D0792AB8845F060BE1077(L_14, L_15, L_17, L_18, ((float)il2cpp_codegen_multiply(L_19, L_20)), (bool)1, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:913>
 				MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA* L_21 = (MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA*)(&__this->____moveRates);
 				float L_22 = L_21->___TimeRemaining;
 				V_5 = L_22;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:915>
 				float L_23 = V_5;
 				if ((!(((float)L_23) <= ((float)(0.0f)))))
 				{
@@ -24417,12 +22392,10 @@ IL_006a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:918>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_24 = __this->____transformProperties;
 				NullCheck(L_24);
 				TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168 L_25;
 				L_25 = BasicQueue_1_Dequeue_m75F00571960BE567A4A6ABA95AF3736A7EE9BAA1(L_24, (bool)1, BasicQueue_1_Dequeue_m75F00571960BE567A4A6ABA95AF3736A7EE9BAA1_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:921>
 				BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_26 = __this->____transformProperties;
 				NullCheck(L_26);
 				int32_t L_27;
@@ -24433,10 +22406,8 @@ IL_006a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:923>
 				TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_28 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&(&V_3)->___Properties);
 				UniversalTickSmoother_SetMoveRates_mA67DB4E5B983894145B846A8A0C325BC01DFD4B4(__this, L_28, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:925>
 				float L_29 = V_5;
 				if ((!(((float)L_29) < ((float)(0.0f)))))
 				{
@@ -24444,7 +22415,6 @@ IL_006a_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:926>
 				float L_30 = V_5;
 				float L_31;
 				L_31 = fabsf(L_30);
@@ -24454,13 +22424,11 @@ IL_006a_1:
 
 IL_00f6_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:931>
 				UniversalTickSmoother_ClearTransformPropertiesQueue_m96637C5AA5153BA535EEA09AE4B1BE1EEE6CC86C(__this, NULL);
 			}
 
 IL_00fc_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:934>
 				goto IL_010c;
 			}
 		}
@@ -24472,7 +22440,6 @@ IL_00fc_1:
 
 IL_010c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:935>
 		return;
 	}
 }
@@ -24482,7 +22449,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_DetachOnStart_mB89
 	TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:939>
 		bool L_0 = __this->____detachOnStart;
 		if (L_0)
 		{
@@ -24490,26 +22456,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_DetachOnStart_mB89
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:940>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:942>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->____graphicalTransform;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_2;
 		L_2 = TransformFN_GetWorldProperties_mB43A3ECD9CCA6142F6BCD59D2D606C15E3C8D642(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:943>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->____graphicalTransform;
 		NullCheck(L_3);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_3, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:944>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->____graphicalTransform;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_5 = V_0;
 		TransformFN_SetWorldProperties_mE5AE79D82FA85913BE3BA5192C21A1FFBAEA754E(L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:945>
 		return;
 	}
 }
@@ -24525,7 +22486,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_AttachOnStop_m4F72
 	}
 	int32_t G_B9_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:953>
 		bool L_0 = __this->____detachOnStart;
 		if (L_0)
 		{
@@ -24533,13 +22493,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_AttachOnStop_m4F72
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:954>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:956>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->____graphicalTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -24550,13 +22508,11 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:957>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:958>
 		il2cpp_codegen_runtime_class_init_inline(ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = ApplicationState_IsQuitting_m14D8FBF40D3737D8AD1AB93AFC8CBD52E8185D69_inline(NULL);
@@ -24566,13 +22522,11 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:959>
 		return;
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:963>
 		bool L_4 = __this->____attachOnStop;
 		if (!L_4)
 		{
@@ -24595,38 +22549,32 @@ IL_0036:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:965>
 		if (!G_B9_0)
 		{
 			goto IL_004a;
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:967>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->____graphicalTransform;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
 		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:968>
 		return;
 	}
 
 IL_004a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:978>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->____graphicalTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->____targetTransform;
 		NullCheck(L_9);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_9, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:979>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->____graphicalTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = __this->____trackerTransform;
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_13;
 		L_13 = TransformFN_GetLocalProperties_mBC5B5AF7337DCB2D07D792877275848D95853184(L_12, NULL);
 		TransformFN_SetLocalProperties_mA8610C88935DB779C952DCE467825CE695A9A6F5(L_11, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:980>
 		return;
 	}
 }
@@ -24642,7 +22590,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_ResetState_m777731
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:984>
 		bool L_0;
 		L_0 = UniversalTickSmoother_get_IsInitialized_m1648DEAD1B51550D1175638389E94B7BB17D4430_inline(__this, NULL);
 		if (L_0)
@@ -24651,56 +22598,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_ResetState_m777731
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:985>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:987>
 		UniversalTickSmoother_AttachOnStop_m4F723A81398FDEAA12F2816E3B4E19F79D255384(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:989>
 		__this->____initializingNetworkBehaviour = (NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____initializingNetworkBehaviour), (void*)(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:990>
 		__this->____initializingTimeManager = (TimeManager_tC7ABD26ED98438244671E717BA653CE562333891*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____initializingTimeManager), (void*)(TimeManager_tC7ABD26ED98438244671E717BA653CE562333891*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:991>
 		__this->____graphicalTransform = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____graphicalTransform), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:992>
 		__this->____targetTransform = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____targetTransform), (void*)(Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:994>
 		__this->____teleportedTick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:995>
 		__this->____movementMultiplier = (1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:996>
 		BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264** L_1 = (BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264**)(&__this->____transformProperties);
 		il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_t3D87D08F94AD4FC142B1ABD9B7C27390086207D3_il2cpp_TypeInfo_var);
 		CollectionCaches_1_StoreAndDefault_m92F4B7C0A7C7E7D9009AD135919A039834F18429_inline(L_1, CollectionCaches_1_StoreAndDefault_m92F4B7C0A7C7E7D9009AD135919A039834F18429_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:997>
 		MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA* L_2 = (MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA*)(&__this->____moveRates);
 		il2cpp_codegen_initobj(L_2, sizeof(MoveRates_tECF7015E40928AD3801B407D3BAD71919381C5EA));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:998>
 		__this->____preTicked = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:999>
 		Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD* L_3 = (Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD*)(&__this->____queuedTrackerProperties);
 		il2cpp_codegen_initobj(L_3, sizeof(Nullable_1_t5CCDCB87431117AE303E41935E6385D3BD6470AD));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:1000>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_4 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&__this->____trackerPreTickWorldValues);
 		il2cpp_codegen_initobj(L_4, sizeof(TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:1001>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4* L_5 = (TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4*)(&__this->____graphicsPreTickWorldValues);
 		il2cpp_codegen_initobj(L_5, sizeof(TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:1002>
 		__this->____realtimeInterpolation = (uint8_t)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:1003>
 		__this->____isMoving = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:1004>
 		__this->____predictionNetworkTransform = (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____predictionNetworkTransform), (void*)(NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:1006>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->____trackerTransform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -24711,7 +22640,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:1007>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->____trackerTransform;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
@@ -24722,7 +22650,6 @@ IL_0009:
 
 IL_00b2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:1008>
 		return;
 	}
 }
@@ -24730,7 +22657,6 @@ IL_00b2:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_InitializeState_m98D1C2599231B7FAA64721D20147203198C4123A (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:1010>
 		return;
 	}
 }
@@ -24755,57 +22681,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother__cctor_m2397D05A2A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:173>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_0), _stringLiteral3AF7A93B66C735B87E282189FB9509352955A9BF, NULL);
 		((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_UpdateRealtimeInterpolation = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:174>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_1), _stringLiteralDF9B80048A511BDDC3E272827BDAA4D24F3A20D6, NULL);
 		((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_OnUpdate = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:175>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_2), _stringLiteral530148C7605881555993B00BBBBC68F944BB43FF, NULL);
 		((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_OnPreTick = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:176>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_3), _stringLiteral1E9E7FB3B78F77DD1B6F038C4973CB2166B13066, NULL);
 		((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_OnPostReplicateReplay = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:177>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_4), _stringLiteralE2813C5D46B075171168FFCD11DE4CA6417845EE, NULL);
 		((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_OnPostTick = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:178>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_5), _stringLiteral129C5038F21820DA04CFEFDFC8D9038FFD3DC171, NULL);
 		((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_ClearTPQ = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:179>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_6), _stringLiteral5240EF8DF715C2E10605634DE7AE04EAE00AD094, NULL);
 		((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_DiscardTPQ = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:180>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_7;
 		memset((&L_7), 0, sizeof(L_7));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_7), _stringLiteralE1414946E1B02EA1D5E1511643E21D1CBD82C0AC, NULL);
 		((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_AddTP = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:181>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_8), _stringLiteral8B73437809D083A67E773B2AA3C92A409D95DEB9, NULL);
 		((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_ModifyTP = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:182>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_9), _stringLiteral805620D0E8CA4B7C7314FFBAEE260136188993B2, NULL);
 		((UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_StaticFields*)il2cpp_codegen_static_fields_for(UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1_il2cpp_TypeInfo_var))->____pm_SetMoveRates = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:183>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_10), _stringLiteral717726EF7989EA86B90479C14C4F9E405E4E66F5, NULL);
@@ -24826,7 +22741,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_U3CInitializeU3Eg_
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* G_B5_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:362>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____graphicalTransform;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -24840,7 +22754,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_U3CInitializeU3Eg_
 		L_4 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_3, NULL);
 		__this->____trackerTransform = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____trackerTransform), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:364>
 		bool L_5 = __this->____detachOnStart;
 		if (!L_5)
 		{
@@ -24848,7 +22761,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_U3CInitializeU3Eg_
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:366>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->____trackerTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->____targetTransform;
 		NullCheck(L_6);
@@ -24858,7 +22770,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniversalTickSmoother_U3CInitializeU3Eg_
 
 IL_0040:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:370>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->____graphicalTransform;
 		U3CU3Ec__DisplayClass56_0_t91F4CE7C900D0CFE6D1908EF433A578596B886D9* L_9 = ___0_p;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = L_9->___targetTransform;
@@ -24889,7 +22800,6 @@ IL_005b:
 IL_0066:
 	{
 		V_0 = G_B5_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:371>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = __this->____trackerTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = V_0;
 		NullCheck(L_16);
@@ -24898,7 +22808,6 @@ IL_0066:
 
 IL_0073:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:374>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18 = __this->____trackerTransform;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = __this->____graphicalTransform;
 		NullCheck(L_19);
@@ -24915,7 +22824,6 @@ IL_0073:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
 		L_26 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_25, NULL);
 		TransformFN_SetLocalPositionRotationAndScale_m4D11C7CA38BB4B092734FCB7EABDC626593F8A86(L_18, L_20, L_23, L_26, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:375>
 		return;
 	}
 }
@@ -24973,10 +22881,8 @@ IL2CPP_EXTERN_C void TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_m381601324142236B6D2491770DF58FE2D0B37EA4 (TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168* __this, uint32_t ___0_tick, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:29>
 		uint32_t L_0 = ___0_tick;
 		__this->___Tick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:30>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___1_t;
 		NullCheck(L_1);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -24993,7 +22899,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_m381601324
 		memset((&L_7), 0, sizeof(L_7));
 		TransformProperties__ctor_m455F7412A3EE452C3F3CBB40965529526DDD0CC9((&L_7), L_2, L_4, L_6, NULL);
 		__this->___Properties = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:31>
 		return;
 	}
 }
@@ -25008,10 +22913,8 @@ IL2CPP_EXTERN_C  void TickTransformProperties__ctor_m381601324142236B6D2491770DF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_m90E2F7FDA016888169E232F3286D0580B77B2A58 (TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168* __this, uint32_t ___0_tick, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_localScale, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:35>
 		uint32_t L_0 = ___0_tick;
 		__this->___Tick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:36>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___1_t;
 		NullCheck(L_1);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -25025,7 +22928,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_m90E2F7FDA
 		memset((&L_6), 0, sizeof(L_6));
 		TransformProperties__ctor_m455F7412A3EE452C3F3CBB40965529526DDD0CC9((&L_6), L_2, L_4, L_5, NULL);
 		__this->___Properties = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:37>
 		return;
 	}
 }
@@ -25040,13 +22942,10 @@ IL2CPP_EXTERN_C  void TickTransformProperties__ctor_m90E2F7FDA016888169E232F3286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_m7DBDA92CB4E35CE5B2419BBFC718EE67CD17A224 (TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168* __this, uint32_t ___0_tick, TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 ___1_tp, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:41>
 		uint32_t L_0 = ___0_tick;
 		__this->___Tick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:42>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_1 = ___1_tp;
 		__this->___Properties = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:43>
 		return;
 	}
 }
@@ -25061,16 +22960,12 @@ IL2CPP_EXTERN_C  void TickTransformProperties__ctor_m7DBDA92CB4E35CE5B2419BBFC71
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TickTransformProperties__ctor_m0435F77DC5B6645B1740D67B7A1403F2A29CEE1B (TickTransformProperties_tFBF93C3B49CE0ECC3CF9E3261EE0413FAA106168* __this, uint32_t ___0_tick, TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 ___1_tp, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_localScale, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:47>
 		uint32_t L_0 = ___0_tick;
 		__this->___Tick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:48>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___2_localScale;
 		(&___1_tp)->___Scale = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:49>
 		TransformProperties_t19CF25A6BC8F4EF672C33BDC58A9A7F166BE15C4 L_2 = ___1_tp;
 		__this->___Properties = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:50>
 		return;
 	}
 }
@@ -25101,7 +22996,6 @@ IL2CPP_EXTERN_C  void TickTransformProperties__ctor_m0435F77DC5B6645B1740D67B7A1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* NetworkAnimator_get_Animator_mD3798025F18E24A30289937D5E51A9401380496D (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:298>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->____animator;
 		return L_0;
 	}
@@ -25110,7 +23004,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkAnimator_get_ClientAuthoritative_mF88702ED1FCDCB35F7DA58F6E94A920E6A34E0A1 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:329>
 		bool L_0 = __this->____clientAuthoritative;
 		return L_0;
 	}
@@ -25119,7 +23012,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkAnimator_get_ClientAuthoritative_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:379>
 		bool L_0;
 		L_0 = NetworkAnimator_get__isAnimatorSet_mEFB13708569D596F4271EFCA0E138C4DC123D101(__this, NULL);
 		if (L_0)
@@ -25128,13 +23020,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkAnimator_get__canSynchronizeAnima
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:380>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:382>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->____animator;
 		NullCheck(L_1);
 		bool L_2;
@@ -25154,13 +23044,11 @@ IL_000a:
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:383>
 		return (bool)1;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:385>
 		return (bool)0;
 	}
 }
@@ -25175,7 +23063,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkAnimator_get__isAnimatorSet_mEFB1
 	}
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:395>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->____animator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -25204,7 +23091,6 @@ IL_0021:
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:396>
 		return (bool)((((int32_t)G_B3_0) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -25212,7 +23098,6 @@ IL_0022:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkAnimator_get__canSmoothFloats_mA2442E48D034DD62D73694EC1241E83D4C782D52 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:411>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsClientStarted_m9F98EFA1FF86EC869AB8DD34ACFE7990E57DD74D(__this, NULL);
 		if (L_0)
@@ -25221,13 +23106,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkAnimator_get__canSmoothFloats_mA2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:412>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:414>
 		bool L_1 = __this->____smoothFloats;
 		if (L_1)
 		{
@@ -25235,13 +23118,11 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:415>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:417>
 		bool L_2;
 		L_2 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (!L_2)
@@ -25258,13 +23139,11 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:418>
 		return (bool)0;
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:421>
 		return (bool)1;
 	}
 }
@@ -25282,9 +23161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Awake_m57F862BC48E4A486E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnDestroy_m9FD708B5BC4CF24E00C2149CBE8B47FF2263A6B6 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:503>
 		NetworkAnimator_ChangeTickSubscription_m98740E6DC3E3954CB347372280233441594FA410(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:504>
 		return;
 	}
 }
@@ -25294,7 +23171,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnSpawnServer_m16693195D
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:509>
 		bool L_0;
 		L_0 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 		if (L_0)
@@ -25303,13 +23179,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnSpawnServer_m16693195D
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:510>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:511>
 		bool L_1;
 		L_1 = NetworkAnimator_AnimatorUpdated_m1772DBDB78EB2270F3BFF3BD3A3F52166177B855(__this, (&V_0), (bool)1, NULL);
 		if (!L_1)
@@ -25318,7 +23192,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:512>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2 = ___0_connection;
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_3 = V_0;
 		NetworkAnimator_TargetAnimatorUpdated_m420782F34D109F739320AB0FB3984B9068FEE49A(__this, L_2, L_3, NULL);
@@ -25326,7 +23199,6 @@ IL_0009:
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:513>
 		return;
 	}
 }
@@ -25334,9 +23206,7 @@ IL_001c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnStartNetwork_m8DC07F1878E20F8C16CB53B85083C12CFC1D8DA4 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:517>
 		NetworkAnimator_ChangeTickSubscription_m98740E6DC3E3954CB347372280233441594FA410(__this, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:518>
 		return;
 	}
 }
@@ -25350,7 +23220,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnStartServer_mD31495078
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:524>
 		bool L_0 = __this->____clientAuthoritative;
 		if (!L_0)
 		{
@@ -25358,7 +23227,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnStartServer_mD31495078
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:526>
 		ClientAuthoritativeUpdate_t1A37AA2FCB3908E98EF789A28189E22055DEFDBA* L_1 = (ClientAuthoritativeUpdate_t1A37AA2FCB3908E98EF789A28189E22055DEFDBA*)il2cpp_codegen_object_new(ClientAuthoritativeUpdate_t1A37AA2FCB3908E98EF789A28189E22055DEFDBA_il2cpp_TypeInfo_var);
 		ClientAuthoritativeUpdate__ctor_m931F297B417D64169C35A116F63104B262E5A81A(L_1, NULL);
 		__this->____clientAuthoritativeUpdates = L_1;
@@ -25367,7 +23235,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnStartServer_mD31495078
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:535>
 		return;
 	}
 }
@@ -25382,14 +23249,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnStartClient_mAF3FA0C69
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:539>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0;
 		L_0 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_1, __this, (intptr_t)((void*)NetworkAnimator_TimeManager_OnUpdate_m95D4DA2CE045B7167A3D5A5683DCF3EE7DDCD18A_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		TimeManager_add_OnUpdate_mB185776D0063EAF28F806616CCEC7478E43FC7C4(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:540>
 		return;
 	}
 }
@@ -25405,7 +23270,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnStopClient_m1ABAC7ABF0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:544>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0;
 		L_0 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -25417,7 +23281,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnStopClient_m1ABAC7ABF0
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:545>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_2;
 		L_2 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
@@ -25428,7 +23291,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnStopClient_m1ABAC7ABF0
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:546>
 		return;
 	}
 }
@@ -25442,13 +23304,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_OnStopNetwork_m7398E36D8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:550>
 		Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A* L_0 = __this->____unsynchronizedLayerStates;
 		NullCheck(L_0);
 		Dictionary_2_Clear_m5E97CE4BC8A4983498CC37B0B73E0CFE1AE63179(L_0, Dictionary_2_Clear_m5E97CE4BC8A4983498CC37B0B73E0CFE1AE63179_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:551>
 		NetworkAnimator_ChangeTickSubscription_m98740E6DC3E3954CB347372280233441594FA410(__this, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:552>
 		return;
 	}
 }
@@ -25465,7 +23324,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_ChangeTickSubscription_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:559>
 		bool L_0 = ___0_subscribe;
 		bool L_1 = __this->____subscribedToTicks;
 		if ((((int32_t)L_0) == ((int32_t)L_1)))
@@ -25487,16 +23345,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_ChangeTickSubscription_m
 
 IL_0017:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:560>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:562>
 		bool L_4 = ___0_subscribe;
 		__this->____subscribedToTicks = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:563>
 		bool L_5 = ___0_subscribe;
 		if (!L_5)
 		{
@@ -25504,7 +23359,6 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:565>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_6;
 		L_6 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		NullCheck(L_6);
@@ -25514,7 +23368,6 @@ IL_0018:
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, __this, (intptr_t)((void*)NetworkAnimator_TimeManager_OnPreTick_m9E7B810C95EA672E2680BE061A26137CD837EBE7_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		TimeManager_add_OnPreTick_m4DE798A04C380117CC83499C92E97ED71AEE308C(L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:566>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_9;
 		L_9 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		NullCheck(L_9);
@@ -25529,7 +23382,6 @@ IL_0018:
 
 IL_005b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:570>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_12;
 		L_12 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		NullCheck(L_12);
@@ -25539,7 +23391,6 @@ IL_005b:
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_14, __this, (intptr_t)((void*)NetworkAnimator_TimeManager_OnPreTick_m9E7B810C95EA672E2680BE061A26137CD837EBE7_RuntimeMethod_var), NULL);
 		NullCheck(L_13);
 		TimeManager_remove_OnPreTick_mB2A92488D46347B1E51A1139CE26BC2EDAB8C3AA(L_13, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:571>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_15;
 		L_15 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		NullCheck(L_15);
@@ -25549,7 +23400,6 @@ IL_005b:
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_17, __this, (intptr_t)((void*)NetworkAnimator_TimeManager_OnPostTick_m83ECC4F8BD75920C21898C1DCB8C7A46243A4C66_RuntimeMethod_var), NULL);
 		NullCheck(L_16);
 		TimeManager_remove_OnPostTick_m61C92ED98B62A03F1D915DB9D86B7F0CF5E6881D(L_16, L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:573>
 		return;
 	}
 }
@@ -25574,7 +23424,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_TimeManager_OnPreTick_m9
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:580>
 		il2cpp_codegen_runtime_class_init_inline(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_OnPreTick;
 		V_1 = L_0;
@@ -25595,7 +23444,6 @@ FINALLY_007d:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:582>
 				bool L_2;
 				L_2 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 				if (L_2)
@@ -25604,17 +23452,14 @@ FINALLY_007d:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:584>
 				Queue_1_t47248C4B33150BB09CEB91CA23EF17040509FC20* L_3 = __this->____fromServerBuffer;
 				NullCheck(L_3);
 				Queue_1_Clear_m91704B6647FDF6506DB595CA4D07A954D397B5C8(L_3, Queue_1_Clear_m91704B6647FDF6506DB595CA4D07A954D397B5C8_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:585>
 				goto IL_008b;
 			}
 
 IL_0023_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:588>
 				uint32_t L_4 = __this->____startTick;
 				if (L_4)
 				{
@@ -25622,13 +23467,11 @@ IL_0023_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:589>
 				goto IL_008b;
 			}
 
 IL_002d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:591>
 				Queue_1_t47248C4B33150BB09CEB91CA23EF17040509FC20* L_5 = __this->____fromServerBuffer;
 				NullCheck(L_5);
 				int32_t L_6;
@@ -25639,15 +23482,12 @@ IL_002d_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:593>
 				__this->____startTick = 0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:594>
 				goto IL_008b;
 			}
 
 IL_0043_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:597>
 				TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_7;
 				L_7 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 				NullCheck(L_7);
@@ -25660,27 +23500,21 @@ IL_0043_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:598>
 				goto IL_008b;
 			}
 
 IL_0058_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:600>
 				Queue_1_t47248C4B33150BB09CEB91CA23EF17040509FC20* L_10 = __this->____fromServerBuffer;
 				NullCheck(L_10);
 				ReceivedServerData_tD21C24690C3CED9855FC6A6B423B219D79844C54 L_11;
 				L_11 = Queue_1_Dequeue_m98C87CD3B75585ED8F19694D126A3CA49227068C(L_10, Queue_1_Dequeue_m98C87CD3B75585ED8F19694D126A3CA49227068C_RuntimeMethod_var);
 				V_2 = L_11;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:601>
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_12;
 				L_12 = ReceivedServerData_GetArraySegment_m2347EDC975D1A5D4B70BDEE400F737A329BB1014((&V_2), NULL);
 				V_3 = L_12;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:602>
 				NetworkAnimator_ApplyParametersUpdated_m0C0ECDD04ABFC2658CD5B190C05C710873D8E90A(__this, (&V_3), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:603>
 				ReceivedServerData_Dispose_m331F81D31110C10F90EA5CA352EFE8F5CA74F333((&V_2), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:604>
 				goto IL_008b;
 			}
 		}
@@ -25692,7 +23526,6 @@ IL_0058_1:
 
 IL_008b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:605>
 		return;
 	}
 }
@@ -25710,7 +23543,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_TimeManager_OnPostTick_m
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:614>
 		il2cpp_codegen_runtime_class_init_inline(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_OnPostTick;
 		V_1 = L_0;
@@ -25731,7 +23563,6 @@ FINALLY_0026:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:617>
 				bool L_2;
 				L_2 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 				if (L_2)
@@ -25740,17 +23571,13 @@ FINALLY_0026:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:618>
 				goto IL_0034;
 			}
 
 IL_0018_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:620>
 				NetworkAnimator_CheckSendToServer_mB1EC2B787ABBEB1373E66AEC9A5C1E62FBE7813D(__this, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:621>
 				NetworkAnimator_CheckSendToClients_mA7B5CEA3C599D292B4FFBDAD5673E58F0C2CE460(__this, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:622>
 				goto IL_0034;
 			}
 		}
@@ -25762,7 +23589,6 @@ IL_0018_1:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:623>
 		return;
 	}
 }
@@ -25780,7 +23606,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_TimeManager_OnUpdate_m95
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:627>
 		il2cpp_codegen_runtime_class_init_inline(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_OnUpdate;
 		V_1 = L_0;
@@ -25801,7 +23626,6 @@ FINALLY_0028:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:629>
 				bool L_2;
 				L_2 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 				if (L_2)
@@ -25810,13 +23634,11 @@ FINALLY_0028:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:630>
 				goto IL_0036;
 			}
 
 IL_0018_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:632>
 				bool L_3;
 				L_3 = NetworkBehaviour_get_IsClientStarted_m9F98EFA1FF86EC869AB8DD34ACFE7990E57DD74D(__this, NULL);
 				if (!L_3)
@@ -25825,13 +23647,11 @@ IL_0018_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:633>
 				NetworkAnimator_SmoothFloats_m5A80A8B26E4DFCB0E1652D3D577B715DAD606B61(__this, NULL);
 			}
 
 IL_0026_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:634>
 				goto IL_0036;
 			}
 		}
@@ -25843,7 +23663,6 @@ IL_0026_1:
 
 IL_0036:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:635>
 		return;
 	}
 }
@@ -25880,7 +23699,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_InitializeOnce_mD4EF4FB2
 	AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* V_3 = NULL;
 	int32_t V_4 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:642>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->____animator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -25891,7 +23709,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_InitializeOnce_mD4EF4FB2
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:643>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_2;
 		L_2 = Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE(__this, Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
 		__this->____animator = L_2;
@@ -25900,7 +23717,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_InitializeOnce_mD4EF4FB2
 
 IL_001a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:646>
 		il2cpp_codegen_runtime_class_init_inline(ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_il2cpp_TypeInfo_var);
 		bool L_3;
 		L_3 = ApplicationState_IsPlaying_mFF4006DCCEADA71381FB3EC7FAE12790581C4239(NULL);
@@ -25910,13 +23726,11 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:647>
 		return;
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:649>
 		bool L_4;
 		L_4 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 		if (L_4)
@@ -25925,19 +23739,16 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:652>
 		return;
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:656>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = __this->____animator;
 		NullCheck(L_5);
 		float L_6;
 		L_6 = Animator_get_speed_m41AFD6B0AB3FF4FFF8855CCAF684813BA1148CD2(L_5, NULL);
 		__this->____speed = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:659>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_7 = __this->____animator;
 		NullCheck(L_7);
 		int32_t L_8;
@@ -25945,14 +23756,12 @@ IL_002b:
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)L_8);
 		__this->____layerWeights = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____layerWeights), (void*)L_9);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:660>
 		V_0 = 0;
 		goto IL_006e;
 	}
 
 IL_0056:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:661>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_10 = __this->____layerWeights;
 		int32_t L_11 = V_0;
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_12 = __this->____animator;
@@ -25962,14 +23771,12 @@ IL_0056:
 		L_14 = Animator_GetLayerWeight_m24EB83CB3CFC724CB77461A26BB794E7DEE15BCA(L_12, L_13, NULL);
 		NullCheck(L_10);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (float)L_14);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:660>
 		int32_t L_15 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
 IL_006e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:660>
 		int32_t L_16 = V_0;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = __this->____layerWeights;
 		NullCheck(L_17);
@@ -25979,23 +23786,18 @@ IL_006e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:663>
 		List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_18 = __this->____parameterDetails;
 		NullCheck(L_18);
 		List_1_Clear_mA0353BCC8874B49FC085323D6493A8B5C5DA4D9F_inline(L_18, List_1_Clear_mA0353BCC8874B49FC085323D6493A8B5C5DA4D9F_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:664>
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_19 = __this->____bools;
 		NullCheck(L_19);
 		List_1_Clear_mAD42099EBC7E640561281C5FEDF47997858D9073_inline(L_19, List_1_Clear_mAD42099EBC7E640561281C5FEDF47997858D9073_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:665>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_20 = __this->____floats;
 		NullCheck(L_20);
 		List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_inline(L_20, List_1_Clear_m6CD2E5AAE6552A27AECCC57936767B4DCFC902B1_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:666>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_21 = __this->____ints;
 		NullCheck(L_21);
 		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_21, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:668>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_22 = __this->____animator;
 		NullCheck(L_22);
 		AnimatorControllerParameterU5BU5D_tAB05125F5DC0D98F59351CD7D8C9880DFFA8EA21* L_23;
@@ -26007,14 +23809,12 @@ IL_006e:
 
 IL_00b8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:668>
 		AnimatorControllerParameterU5BU5D_tAB05125F5DC0D98F59351CD7D8C9880DFFA8EA21* L_24 = V_1;
 		int32_t L_25 = V_2;
 		NullCheck(L_24);
 		int32_t L_26 = L_25;
 		AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_27 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
 		V_3 = L_27;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:670>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_28 = __this->____animator;
 		AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_29 = V_3;
 		NullCheck(L_29);
@@ -26023,14 +23823,12 @@ IL_00b8:
 		NullCheck(L_28);
 		bool L_31;
 		L_31 = Animator_IsParameterControlledByCurve_mC65B475495D9A4B01BF5BD33E2899E87245375DE(L_28, L_30, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:671>
 		if (!((((int32_t)L_31) == ((int32_t)0))? 1 : 0))
 		{
 			goto IL_01cc;
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:674>
 		List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_32 = __this->____parameterDetails;
 		NullCheck(L_32);
 		int32_t L_33;
@@ -26041,7 +23839,6 @@ IL_00b8:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:676>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_34;
 		L_34 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_35 = V_3;
@@ -26051,15 +23848,12 @@ IL_00b8:
 		String_t* L_37;
 		L_37 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralE10CE76A36830983737AFC7AB5662B41A8D7111B, L_36, _stringLiteral42BCBCB8A06B349EE2748AE47E15E91055C16B8D, NULL);
 		NetworkManagerExtensions_LogError_mD7BE80E7A765BD00754AB02E7E2252865C9B6568(L_34, L_37, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:677>
 		goto IL_01cc;
 	}
 
 IL_010c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:680>
 		V_4 = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:682>
 		AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_38 = V_3;
 		NullCheck(L_38);
 		int32_t L_39;
@@ -26070,13 +23864,11 @@ IL_010c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:684>
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_40 = __this->____bools;
 		NullCheck(L_40);
 		int32_t L_41;
 		L_41 = List_1_get_Count_m4573A12BFDA535926500C04E88A94540C95C395D_inline(L_40, List_1_get_Count_m4573A12BFDA535926500C04E88A94540C95C395D_RuntimeMethod_var);
 		V_4 = L_41;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:685>
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_42 = __this->____bools;
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_43 = __this->____animator;
 		AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_44 = V_3;
@@ -26093,7 +23885,6 @@ IL_010c:
 
 IL_0143:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:688>
 		AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_47 = V_3;
 		NullCheck(L_47);
 		int32_t L_48;
@@ -26104,13 +23895,11 @@ IL_0143:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:690>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_49 = __this->____floats;
 		NullCheck(L_49);
 		int32_t L_50;
 		L_50 = List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline(L_49, List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
 		V_4 = L_50;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:691>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_51 = __this->____floats;
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_52 = __this->____animator;
 		AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_53 = V_3;
@@ -26127,7 +23916,6 @@ IL_0143:
 
 IL_0177:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:694>
 		AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_56 = V_3;
 		NullCheck(L_56);
 		int32_t L_57;
@@ -26138,13 +23926,11 @@ IL_0177:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:696>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_58 = __this->____ints;
 		NullCheck(L_58);
 		int32_t L_59;
 		L_59 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_58, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
 		V_4 = L_59;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:697>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_60 = __this->____ints;
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_61 = __this->____animator;
 		AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_62 = V_3;
@@ -26161,7 +23947,6 @@ IL_0177:
 
 IL_01ab:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:700>
 		AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_65 = V_3;
 		NullCheck(L_65);
 		int32_t L_66;
@@ -26172,13 +23957,11 @@ IL_01ab:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:704>
 		V_4 = (-1);
 	}
 
 IL_01b8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:707>
 		List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_67 = __this->____parameterDetails;
 		AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_68 = V_3;
 		int32_t L_69 = V_4;
@@ -26196,7 +23979,6 @@ IL_01cc:
 
 IL_01d0:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:668>
 		int32_t L_72 = V_2;
 		AnimatorControllerParameterU5BU5D_tAB05125F5DC0D98F59351CD7D8C9880DFFA8EA21* L_73 = V_1;
 		NullCheck(L_73);
@@ -26206,7 +23988,6 @@ IL_01d0:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:710>
 		return;
 	}
 }
@@ -26220,7 +24001,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_SetAnimator_mC3FDBC402EA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:719>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = ___0_animator;
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->____lastAnimator;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -26232,23 +24012,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_SetAnimator_mC3FDBC402EA
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:720>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:722>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_3 = ___0_animator;
 		__this->____animator = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____animator), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:723>
 		NetworkAnimator_InitializeOnce_mD4EF4FB2C9FC8F33D0F92E88CE39972A5F08583F(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:724>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_4 = ___0_animator;
 		__this->____lastAnimator = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____lastAnimator), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:725>
 		return;
 	}
 }
@@ -26262,7 +24037,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_SetController_m2E363089D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:734>
 		RuntimeAnimatorController_t6F7C753402B42EC23C163099CF935C5E0D7A7254* L_0 = ___0_controller;
 		RuntimeAnimatorController_t6F7C753402B42EC23C163099CF935C5E0D7A7254* L_1 = __this->____lastController;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -26274,24 +24048,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_SetController_m2E363089D
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:735>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:737>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_3 = __this->____animator;
 		RuntimeAnimatorController_t6F7C753402B42EC23C163099CF935C5E0D7A7254* L_4 = ___0_controller;
 		NullCheck(L_3);
 		Animator_set_runtimeAnimatorController_m505ACBA1D2E59814239EF3760A9F537D03301311(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:738>
 		NetworkAnimator_InitializeOnce_mD4EF4FB2C9FC8F33D0F92E88CE39972A5F08583F(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:739>
 		RuntimeAnimatorController_t6F7C753402B42EC23C163099CF935C5E0D7A7254* L_5 = ___0_controller;
 		__this->____lastController = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____lastController), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:740>
 		return;
 	}
 }
@@ -26311,7 +24080,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_CheckSendToServer_mB1EC2
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:747>
 		il2cpp_codegen_runtime_class_init_inline(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_CheckSendToServer;
 		V_1 = L_0;
@@ -26332,7 +24100,6 @@ FINALLY_0052:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:750>
 				bool L_2;
 				L_2 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 				if (L_2)
@@ -26351,13 +24118,11 @@ FINALLY_0052:
 
 IL_001e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:751>
 				goto IL_0060;
 			}
 
 IL_0020_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:753>
 				bool L_4;
 				L_4 = NetworkAnimator_get_ClientAuthoritative_mF88702ED1FCDCB35F7DA58F6E94A920E6A34E0A1_inline(__this, NULL);
 				if (!L_4)
@@ -26376,13 +24141,11 @@ IL_0020_1:
 
 IL_0030_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:754>
 				goto IL_0060;
 			}
 
 IL_0032_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:761>
 				bool L_6 = __this->____forceAllOnTimed;
 				bool L_7;
 				L_7 = NetworkAnimator_AnimatorUpdated_m1772DBDB78EB2270F3BFF3BD3A3F52166177B855(__this, (&V_2), L_6, NULL);
@@ -26392,16 +24155,13 @@ IL_0032_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:762>
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_8 = V_2;
 				NetworkAnimator_ServerAnimatorUpdated_m48DE1F7A99D232232AB4C3B696E559814922DBE2(__this, L_8, NULL);
 			}
 
 IL_0049_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:764>
 				__this->____forceAllOnTimed = (bool)0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:765>
 				goto IL_0060;
 			}
 		}
@@ -26413,7 +24173,6 @@ IL_0049_1:
 
 IL_0060:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:766>
 		return;
 	}
 }
@@ -26438,7 +24197,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_CheckSendToClients_mA7B5
 	ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 V_6;
 	memset((&V_6), 0, sizeof(V_6));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:773>
 		il2cpp_codegen_runtime_class_init_inline(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_CheckSendToClients;
 		V_1 = L_0;
@@ -26459,7 +24217,6 @@ FINALLY_00eb:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:776>
 				bool L_2;
 				L_2 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
 				if (L_2)
@@ -26468,13 +24225,11 @@ FINALLY_00eb:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:777>
 				goto IL_00f9;
 			}
 
 IL_001b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:781>
 				bool L_3;
 				L_3 = NetworkAnimator_get_ClientAuthoritative_mF88702ED1FCDCB35F7DA58F6E94A920E6A34E0A1_inline(__this, NULL);
 				if (!L_3)
@@ -26483,7 +24238,6 @@ IL_001b_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:784>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_4;
 				L_4 = NetworkBehaviour_get_Owner_m8CA2A8A2D757CACD11B2D06DC06D244A2994EB05(__this, NULL);
 				NullCheck(L_4);
@@ -26495,14 +24249,12 @@ IL_001b_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:786>
 				V_2 = (bool)1;
 				goto IL_0074_1;
 			}
 
 IL_0034_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:792>
 				bool L_6;
 				L_6 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 				if (!L_6)
@@ -26511,14 +24263,12 @@ IL_0034_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:794>
 				V_2 = (bool)1;
 				goto IL_0074_1;
 			}
 
 IL_0040_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:800>
 				ClientAuthoritativeUpdate_t1A37AA2FCB3908E98EF789A28189E22055DEFDBA* L_7 = __this->____clientAuthoritativeUpdates;
 				NullCheck(L_7);
 				int32_t L_8 = L_7->___BufferCount;
@@ -26528,13 +24278,11 @@ IL_0040_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:802>
 				goto IL_00f9;
 			}
 
 IL_0052_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:814>
 				ClientAuthoritativeUpdate_t1A37AA2FCB3908E98EF789A28189E22055DEFDBA* L_9 = __this->____clientAuthoritativeUpdates;
 				NullCheck(L_9);
 				bool L_10;
@@ -26545,9 +24293,7 @@ IL_0052_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:816>
 				V_2 = (bool)1;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:817>
 				ClientAuthoritativeUpdate_t1A37AA2FCB3908E98EF789A28189E22055DEFDBA* L_11 = __this->____clientAuthoritativeUpdates;
 				NullCheck(L_11);
 				ClientAuthoritativeUpdate_Reset_m3A6F46F64EE353A70C72EA4421A3BE7047D6F096(L_11, NULL);
@@ -26556,20 +24302,17 @@ IL_0052_1:
 
 IL_006e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:821>
 				V_2 = (bool)0;
 				goto IL_0074_1;
 			}
 
 IL_0072_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:830>
 				V_2 = (bool)1;
 			}
 
 IL_0074_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:835>
 				bool L_12 = V_2;
 				if (L_12)
 				{
@@ -26577,23 +24320,18 @@ IL_0074_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:837>
 				V_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:838>
 				V_4 = 0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:839>
 				V_5 = 0;
 				goto IL_00ae_1;
 			}
 
 IL_0081_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:841>
 				ClientAuthoritativeUpdate_t1A37AA2FCB3908E98EF789A28189E22055DEFDBA* L_13 = __this->____clientAuthoritativeUpdates;
 				int32_t L_14 = V_5;
 				NullCheck(L_13);
 				ClientAuthoritativeUpdate_GetBuffer_mE96A3DFAC01E8F05C950CF483471DAB09DA052F8(L_13, L_14, (&V_3), (&V_4), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:844>
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = V_3;
 				if (!L_15)
 				{
@@ -26608,7 +24346,6 @@ IL_0081_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:847>
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_17 = V_3;
 				int32_t L_18 = V_4;
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_19;
@@ -26619,14 +24356,12 @@ IL_0081_1:
 
 IL_00a8_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:839>
 				int32_t L_20 = V_5;
 				V_5 = ((int32_t)il2cpp_codegen_add(L_20, 1));
 			}
 
 IL_00ae_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:839>
 				int32_t L_21 = V_5;
 				ClientAuthoritativeUpdate_t1A37AA2FCB3908E98EF789A28189E22055DEFDBA* L_22 = __this->____clientAuthoritativeUpdates;
 				NullCheck(L_22);
@@ -26637,7 +24372,6 @@ IL_00ae_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:850>
 				ClientAuthoritativeUpdate_t1A37AA2FCB3908E98EF789A28189E22055DEFDBA* L_24 = __this->____clientAuthoritativeUpdates;
 				NullCheck(L_24);
 				ClientAuthoritativeUpdate_Reset_m3A6F46F64EE353A70C72EA4421A3BE7047D6F096(L_24, NULL);
@@ -26646,7 +24380,6 @@ IL_00ae_1:
 
 IL_00ca_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:855>
 				bool L_25 = __this->____forceAllOnTimed;
 				bool L_26;
 				L_26 = NetworkAnimator_AnimatorUpdated_m1772DBDB78EB2270F3BFF3BD3A3F52166177B855(__this, (&V_6), L_25, NULL);
@@ -26656,16 +24389,13 @@ IL_00ca_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:856>
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_27 = V_6;
 				NetworkAnimator_U3CCheckSendToClientsU3Eg__SendSegmentU7C68_0_m5740A867B145A34C67A94B6323885615255BF56D(__this, L_27, NULL);
 			}
 
 IL_00e2_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:858>
 				__this->____forceAllOnTimed = (bool)0;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:872>
 				goto IL_00f9;
 			}
 		}
@@ -26677,7 +24407,6 @@ IL_00e2_1:
 
 IL_00f9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:873>
 		return;
 	}
 }
@@ -26716,7 +24445,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_SmoothFloats_m5A80A8B26E
 	float V_6 = 0.0f;
 	int32_t V_7 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:880>
 		il2cpp_codegen_runtime_class_init_inline(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_SmoothFloats;
 		V_1 = L_0;
@@ -26737,7 +24465,6 @@ FINALLY_00f9:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:883>
 				bool L_2;
 				L_2 = NetworkAnimator_get__canSmoothFloats_mA2442E48D034DD62D73694EC1241E83D4C782D52(__this, NULL);
 				if (L_2)
@@ -26746,13 +24473,11 @@ FINALLY_00f9:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:884>
 				goto IL_0107;
 			}
 
 IL_001b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:886>
 				Dictionary_2_t28173977E1F118AB91983A04FCF0D43C36FE040A* L_3 = __this->____smoothedFloats;
 				NullCheck(L_3);
 				int32_t L_4;
@@ -26763,21 +24488,17 @@ IL_001b_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:887>
 				goto IL_0107;
 			}
 
 IL_002d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:889>
 				float L_5;
 				L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 				V_2 = L_5;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:891>
 				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_6 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 				List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_6, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
 				V_3 = L_6;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:895>
 				Dictionary_2_t28173977E1F118AB91983A04FCF0D43C36FE040A* L_7 = __this->____smoothedFloats;
 				NullCheck(L_7);
 				Enumerator_t7E340AAE7481B330267BCC8880FCFBEBE0A81CFE L_8;
@@ -26802,18 +24523,15 @@ FINALLY_00c0_1:
 
 IL_0048_2:
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:895>
 						KeyValuePair_2_tBBB1100E5DDBEFC377AE47ADC5560E8E1093903C L_9;
 						L_9 = Enumerator_get_Current_mAB77AE5811BE4AFD3EB54F617788D00A7753CCAC_inline((&V_4), Enumerator_get_Current_mAB77AE5811BE4AFD3EB54F617788D00A7753CCAC_RuntimeMethod_var);
 						V_5 = L_9;
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:897>
 						Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_10 = __this->____animator;
 						int32_t L_11;
 						L_11 = KeyValuePair_2_get_Key_m9FBEB46EFB2DDCC50CCABC00804C953B1B041018_inline((&V_5), KeyValuePair_2_get_Key_m9FBEB46EFB2DDCC50CCABC00804C953B1B041018_RuntimeMethod_var);
 						NullCheck(L_10);
 						float L_12;
 						L_12 = Animator_GetFloat_mEFA968AD9EEB92E6A03AEEB968600798E61F9B1D(L_10, L_11, NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:898>
 						SmoothedFloat_t6EC3C73C4DF32974C3BC1A9D7812258599A3D0EE L_13;
 						L_13 = KeyValuePair_2_get_Value_m807D37F9187014CB552BF926EB33F5FDFAB9CB89_inline((&V_5), KeyValuePair_2_get_Value_m807D37F9187014CB552BF926EB33F5FDFAB9CB89_RuntimeMethod_var);
 						float L_14 = L_13.___Target;
@@ -26824,14 +24542,12 @@ IL_0048_2:
 						float L_18;
 						L_18 = Mathf_MoveTowards_m69751B5EC50D8E7127D4BB2C8D908E38808AF45D_inline(L_12, L_14, ((float)il2cpp_codegen_multiply(L_16, L_17)), NULL);
 						V_6 = L_18;
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:899>
 						Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_19 = __this->____animator;
 						int32_t L_20;
 						L_20 = KeyValuePair_2_get_Key_m9FBEB46EFB2DDCC50CCABC00804C953B1B041018_inline((&V_5), KeyValuePair_2_get_Key_m9FBEB46EFB2DDCC50CCABC00804C953B1B041018_RuntimeMethod_var);
 						float L_21 = V_6;
 						NullCheck(L_19);
 						Animator_SetFloat_m2CDA219BBAB214F4069C9844780EBCE6CCF579F5(L_19, L_20, L_21, NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:901>
 						float L_22 = V_6;
 						SmoothedFloat_t6EC3C73C4DF32974C3BC1A9D7812258599A3D0EE L_23;
 						L_23 = KeyValuePair_2_get_Value_m807D37F9187014CB552BF926EB33F5FDFAB9CB89_inline((&V_5), KeyValuePair_2_get_Value_m807D37F9187014CB552BF926EB33F5FDFAB9CB89_RuntimeMethod_var);
@@ -26842,7 +24558,6 @@ IL_0048_2:
 						}
 					}
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:902>
 						List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_25 = V_3;
 						int32_t L_26;
 						L_26 = KeyValuePair_2_get_Key_m9FBEB46EFB2DDCC50CCABC00804C953B1B041018_inline((&V_5), KeyValuePair_2_get_Key_m9FBEB46EFB2DDCC50CCABC00804C953B1B041018_RuntimeMethod_var);
@@ -26852,7 +24567,6 @@ IL_0048_2:
 
 IL_00b5_2:
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:895>
 						bool L_27;
 						L_27 = Enumerator_MoveNext_m852A48BBEC6B7408113CD85FF28A178CD340D990((&V_4), Enumerator_MoveNext_m852A48BBEC6B7408113CD85FF28A178CD340D990_RuntimeMethod_var);
 						if (L_27)
@@ -26872,14 +24586,12 @@ IL_00b5_2:
 
 IL_00ce_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:906>
 				V_7 = 0;
 				goto IL_00ed_1;
 			}
 
 IL_00d3_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:907>
 				Dictionary_2_t28173977E1F118AB91983A04FCF0D43C36FE040A* L_28 = __this->____smoothedFloats;
 				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_29 = V_3;
 				int32_t L_30 = V_7;
@@ -26889,14 +24601,12 @@ IL_00d3_1:
 				NullCheck(L_28);
 				bool L_32;
 				L_32 = Dictionary_2_Remove_m1EC84B5DCCAD262A07C7CC462A8EC73C07E0DE53(L_28, L_31, Dictionary_2_Remove_m1EC84B5DCCAD262A07C7CC462A8EC73C07E0DE53_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:906>
 				int32_t L_33 = V_7;
 				V_7 = ((int32_t)il2cpp_codegen_add(L_33, 1));
 			}
 
 IL_00ed_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:906>
 				int32_t L_34 = V_7;
 				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_35 = V_3;
 				NullCheck(L_35);
@@ -26908,7 +24618,6 @@ IL_00ed_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:908>
 				goto IL_0107;
 			}
 		}
@@ -26920,7 +24629,6 @@ IL_00ed_1:
 
 IL_0107:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:909>
 		return;
 	}
 }
@@ -26986,7 +24694,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkAnimator_AnimatorUpdated_m1772DBD
 	int32_t V_20 = 0;
 	float V_21 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:917>
 		il2cpp_codegen_runtime_class_init_inline(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_AnimatorUpdated;
 		V_1 = L_0;
@@ -27007,10 +24714,8 @@ FINALLY_049b:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:919>
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093* L_2 = ___0_updatedBytes;
 				il2cpp_codegen_initobj(L_2, sizeof(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093));
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:921>
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = __this->____layerWeights;
 				if (L_3)
 				{
@@ -27018,32 +24723,27 @@ FINALLY_049b:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:922>
 				V_3 = (bool)0;
 				goto IL_04a9;
 			}
 
 IL_0024_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:924>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_4 = __this->____writer;
 				NullCheck(L_4);
 				Writer_Clear_m25168B80F7E7F14BD63C6E8131339233527921DA(L_4, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:933>
 				V_4 = (uint8_t)0;
 				goto IL_0198_1;
 			}
 
 IL_0037_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:935>
 				List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_5 = __this->____parameterDetails;
 				uint8_t L_6 = V_4;
 				NullCheck(L_5);
 				ParameterDetail_t4EB89D0D52515A82C9403E267C57BD4A15951ED8* L_7;
 				L_7 = List_1_get_Item_m7C3050E20AAFC285120680D42E7803DD6477B2C7(L_5, L_6, List_1_get_Item_m7C3050E20AAFC285120680D42E7803DD6477B2C7_RuntimeMethod_var);
 				V_5 = L_7;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:937>
 				ParameterDetail_t4EB89D0D52515A82C9403E267C57BD4A15951ED8* L_8 = V_5;
 				NullCheck(L_8);
 				AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_9 = L_8->___ControllerParameter;
@@ -27056,7 +24756,6 @@ IL_0037_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:939>
 				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_11 = __this->____animator;
 				ParameterDetail_t4EB89D0D52515A82C9403E267C57BD4A15951ED8* L_12 = V_5;
 				NullCheck(L_12);
@@ -27065,7 +24764,6 @@ IL_0037_1:
 				bool L_14;
 				L_14 = Animator_GetBool_mFEC9C0565C52965FBD5D6A02084484F00F8ECE2C(L_11, L_13, NULL);
 				V_6 = L_14;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:941>
 				bool L_15 = ___1_forceAll;
 				if (L_15)
 				{
@@ -27089,17 +24787,14 @@ IL_0037_1:
 
 IL_0085_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:943>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_21 = __this->____writer;
 				uint8_t L_22 = V_4;
 				NullCheck(L_21);
 				Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_21, L_22, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:944>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_23 = __this->____writer;
 				bool L_24 = V_6;
 				NullCheck(L_23);
 				Writer_WriteBoolean_m817C7111AA3410A0C4C1C17FA98789A08D08B0D2(L_23, L_24, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:945>
 				List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_25 = __this->____bools;
 				ParameterDetail_t4EB89D0D52515A82C9403E267C57BD4A15951ED8* L_26 = V_5;
 				NullCheck(L_26);
@@ -27112,7 +24807,6 @@ IL_0085_1:
 
 IL_00b8_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:949>
 				ParameterDetail_t4EB89D0D52515A82C9403E267C57BD4A15951ED8* L_29 = V_5;
 				NullCheck(L_29);
 				AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_30 = L_29->___ControllerParameter;
@@ -27125,7 +24819,6 @@ IL_00b8_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:951>
 				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_32 = __this->____animator;
 				ParameterDetail_t4EB89D0D52515A82C9403E267C57BD4A15951ED8* L_33 = V_5;
 				NullCheck(L_33);
@@ -27134,7 +24827,6 @@ IL_00b8_1:
 				float L_35;
 				L_35 = Animator_GetFloat_mEFA968AD9EEB92E6A03AEEB968600798E61F9B1D(L_32, L_34, NULL);
 				V_7 = L_35;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:953>
 				bool L_36 = ___1_forceAll;
 				if (L_36)
 				{
@@ -27158,17 +24850,14 @@ IL_00b8_1:
 
 IL_00f7_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:955>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_42 = __this->____writer;
 				uint8_t L_43 = V_4;
 				NullCheck(L_42);
 				Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_42, L_43, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:956>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_44 = __this->____writer;
 				float L_45 = V_7;
 				NullCheck(L_44);
 				Writer_WriteSingle_mC5F44F4BF31ED228F90950C1CA7C9B756F19D6E8(L_44, L_45, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:957>
 				List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_46 = __this->____floats;
 				ParameterDetail_t4EB89D0D52515A82C9403E267C57BD4A15951ED8* L_47 = V_5;
 				NullCheck(L_47);
@@ -27181,7 +24870,6 @@ IL_00f7_1:
 
 IL_0127_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:961>
 				ParameterDetail_t4EB89D0D52515A82C9403E267C57BD4A15951ED8* L_50 = V_5;
 				NullCheck(L_50);
 				AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02* L_51 = L_50->___ControllerParameter;
@@ -27194,7 +24882,6 @@ IL_0127_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:963>
 				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_53 = __this->____animator;
 				ParameterDetail_t4EB89D0D52515A82C9403E267C57BD4A15951ED8* L_54 = V_5;
 				NullCheck(L_54);
@@ -27203,7 +24890,6 @@ IL_0127_1:
 				int32_t L_56;
 				L_56 = Animator_GetInteger_mF4E1564D3791C968FA8952954B5AAC4C4E2C8B91(L_53, L_55, NULL);
 				V_8 = L_56;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:965>
 				bool L_57 = ___1_forceAll;
 				if (L_57)
 				{
@@ -27227,17 +24913,14 @@ IL_0127_1:
 
 IL_0163_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:967>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_63 = __this->____writer;
 				uint8_t L_64 = V_4;
 				NullCheck(L_63);
 				Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_63, L_64, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:968>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_65 = __this->____writer;
 				int32_t L_66 = V_8;
 				NullCheck(L_65);
 				Writer_WriteInt32_mBF2AC2EDEED5CF91177396064070C045487E1451(L_65, L_66, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:969>
 				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_67 = __this->____ints;
 				ParameterDetail_t4EB89D0D52515A82C9403E267C57BD4A15951ED8* L_68 = V_5;
 				NullCheck(L_68);
@@ -27249,14 +24932,12 @@ IL_0163_1:
 
 IL_0191_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:933>
 				uint8_t L_71 = V_4;
 				V_4 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_71, 1)));
 			}
 
 IL_0198_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:933>
 				uint8_t L_72 = V_4;
 				List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_73 = __this->____parameterDetails;
 				NullCheck(L_73);
@@ -27268,14 +24949,12 @@ IL_0198_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:976>
 				V_9 = 0;
 				goto IL_01ef_1;
 			}
 
 IL_01af_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:978>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_75 = __this->____writer;
 				List_1_t13BA0B4979A63D4DA3155786CA0E26144993DE6A* L_76 = __this->____triggerUpdates;
 				int32_t L_77 = V_9;
@@ -27285,7 +24964,6 @@ IL_01af_1:
 				uint8_t L_79 = L_78.___ParameterIndex;
 				NullCheck(L_75);
 				Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_75, L_79, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:979>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_80 = __this->____writer;
 				List_1_t13BA0B4979A63D4DA3155786CA0E26144993DE6A* L_81 = __this->____triggerUpdates;
 				int32_t L_82 = V_9;
@@ -27295,14 +24973,12 @@ IL_01af_1:
 				bool L_84 = L_83.___Setting;
 				NullCheck(L_80);
 				Writer_WriteBoolean_m817C7111AA3410A0C4C1C17FA98789A08D08B0D2(L_80, L_84, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:976>
 				int32_t L_85 = V_9;
 				V_9 = ((int32_t)il2cpp_codegen_add(L_85, 1));
 			}
 
 IL_01ef_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:976>
 				int32_t L_86 = V_9;
 				List_1_t13BA0B4979A63D4DA3155786CA0E26144993DE6A* L_87 = __this->____triggerUpdates;
 				NullCheck(L_87);
@@ -27314,11 +24990,9 @@ IL_01ef_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:981>
 				List_1_t13BA0B4979A63D4DA3155786CA0E26144993DE6A* L_89 = __this->____triggerUpdates;
 				NullCheck(L_89);
 				List_1_Clear_m3E3EA6C293D67E9A5569CD7CD30C230E71C9DDA5_inline(L_89, List_1_Clear_m3E3EA6C293D67E9A5569CD7CD30C230E71C9DDA5_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:984>
 				bool L_90 = ___1_forceAll;
 				if (!L_90)
 				{
@@ -27326,14 +25000,12 @@ IL_01ef_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:987>
 				V_10 = 0;
 				goto IL_022e_1;
 			}
 
 IL_0211_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:988>
 				Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A* L_91 = __this->____unsynchronizedLayerStates;
 				int32_t L_92 = V_10;
 				int32_t L_93;
@@ -27343,14 +25015,12 @@ IL_0211_1:
 				StateChange__ctor_mF3B268199FDC5E6FF9CAC0B849CEA46D0B772321((&L_94), L_93, NULL);
 				NullCheck(L_91);
 				Dictionary_2_set_Item_mB386B7BF25B03ED32160A55F2F4B0C10AC6FA9D4(L_91, L_92, L_94, Dictionary_2_set_Item_mB386B7BF25B03ED32160A55F2F4B0C10AC6FA9D4_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:987>
 				int32_t L_95 = V_10;
 				V_10 = ((int32_t)il2cpp_codegen_add(L_95, 1));
 			}
 
 IL_022e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:987>
 				int32_t L_96 = V_10;
 				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_97 = __this->____animator;
 				NullCheck(L_97);
@@ -27364,7 +25034,6 @@ IL_022e_1:
 
 IL_023d_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:993>
 				Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A* L_99 = __this->____unsynchronizedLayerStates;
 				NullCheck(L_99);
 				int32_t L_100;
@@ -27375,16 +25044,13 @@ IL_023d_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:995>
 				int32_t L_101;
 				L_101 = Time_get_frameCount_m4A42E558A71301A216BDC49EC402D62F19C79667(NULL);
 				V_11 = L_101;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:996>
 				il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_t60C4C644422DF73EF2FC20B4161B9ADDDECE1F30_il2cpp_TypeInfo_var);
 				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_102;
 				L_102 = CollectionCaches_1_RetrieveList_m55120ADC9ED77822292A24AA8936A4C282853ADF(CollectionCaches_1_RetrieveList_m55120ADC9ED77822292A24AA8936A4C282853ADF_RuntimeMethod_var);
 				V_12 = L_102;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:998>
 				Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A* L_103 = __this->____unsynchronizedLayerStates;
 				NullCheck(L_103);
 				Enumerator_t7CEFDD54F9A4973551D69687E52FD9161910F6F6 L_104;
@@ -27409,11 +25075,9 @@ FINALLY_0384_1:
 
 IL_026e_2:
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:998>
 						KeyValuePair_2_tD014F8FDE0B56E2E47363BF9324B8649CAE747C0 L_105;
 						L_105 = Enumerator_get_Current_m4156742C4E40C0C2630A7EEA89AF25AC7764EDE5_inline((&V_13), Enumerator_get_Current_m4156742C4E40C0C2630A7EEA89AF25AC7764EDE5_RuntimeMethod_var);
 						V_14 = L_105;
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1003>
 						int32_t L_106 = V_11;
 						StateChange_t81E913DFF4E7CC9FFDCA96ABDF8EC9D99D917D11 L_107;
 						L_107 = KeyValuePair_2_get_Value_mE991AA58A2A578A9D876BF4557FAC572FC2DF980_inline((&V_14), KeyValuePair_2_get_Value_mE991AA58A2A578A9D876BF4557FAC572FC2DF980_RuntimeMethod_var);
@@ -27424,21 +25088,17 @@ IL_026e_2:
 						}
 					}
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1007>
 						List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_109 = V_12;
 						int32_t L_110;
 						L_110 = KeyValuePair_2_get_Key_m0BAB8FCFA6ABA2CB53E20BE9AFD88288D6058188_inline((&V_14), KeyValuePair_2_get_Key_m0BAB8FCFA6ABA2CB53E20BE9AFD88288D6058188_RuntimeMethod_var);
 						NullCheck(L_109);
 						List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_109, L_110, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1008>
 						int32_t L_111;
 						L_111 = KeyValuePair_2_get_Key_m0BAB8FCFA6ABA2CB53E20BE9AFD88288D6058188_inline((&V_14), KeyValuePair_2_get_Key_m0BAB8FCFA6ABA2CB53E20BE9AFD88288D6058188_RuntimeMethod_var);
 						V_15 = L_111;
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1009>
 						StateChange_t81E913DFF4E7CC9FFDCA96ABDF8EC9D99D917D11 L_112;
 						L_112 = KeyValuePair_2_get_Value_mE991AA58A2A578A9D876BF4557FAC572FC2DF980_inline((&V_14), KeyValuePair_2_get_Value_mE991AA58A2A578A9D876BF4557FAC572FC2DF980_RuntimeMethod_var);
 						V_16 = L_112;
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1011>
 						StateChange_t81E913DFF4E7CC9FFDCA96ABDF8EC9D99D917D11 L_113 = V_16;
 						bool L_114 = L_113.___IsCrossfade;
 						if (L_114)
@@ -27447,7 +25107,6 @@ IL_026e_2:
 						}
 					}
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1013>
 						int32_t L_115 = V_15;
 						bool L_116;
 						L_116 = NetworkAnimator_ReturnCurrentLayerState_mEB0E90CDECFB2D688A01C0F91B6560AA51D81AC8(__this, (&V_17), (&V_18), L_115, NULL);
@@ -27457,21 +25116,17 @@ IL_026e_2:
 						}
 					}
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1015>
 						PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_117 = __this->____writer;
 						NullCheck(L_117);
 						Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_117, (uint8_t)((int32_t)242), NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1016>
 						PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_118 = __this->____writer;
 						int32_t L_119 = V_15;
 						NullCheck(L_118);
 						Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_118, (uint8_t)((int32_t)(uint8_t)L_119), NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1018>
 						PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_120 = __this->____writer;
 						int32_t L_121 = V_17;
 						NullCheck(L_120);
 						Writer_WriteInt32Unpacked_mC79E9D5DB6FF1CA710E67056DA27524C1EB98550(L_120, L_121, NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1019>
 						PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_122 = __this->____writer;
 						float L_123 = V_18;
 						NullCheck(L_122);
@@ -27481,40 +25136,33 @@ IL_026e_2:
 
 IL_02fe_2:
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1025>
 						PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_124 = __this->____writer;
 						NullCheck(L_124);
 						Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_124, (uint8_t)((int32_t)243), NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1026>
 						PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_125 = __this->____writer;
 						int32_t L_126 = V_15;
 						NullCheck(L_125);
 						Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_125, (uint8_t)((int32_t)(uint8_t)L_126), NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1028>
 						PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_127 = __this->____writer;
 						StateChange_t81E913DFF4E7CC9FFDCA96ABDF8EC9D99D917D11 L_128 = V_16;
 						int32_t L_129 = L_128.___Hash;
 						NullCheck(L_127);
 						Writer_WriteInt32_mBF2AC2EDEED5CF91177396064070C045487E1451(L_127, L_129, NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1029>
 						PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_130 = __this->____writer;
 						StateChange_t81E913DFF4E7CC9FFDCA96ABDF8EC9D99D917D11 L_131 = V_16;
 						bool L_132 = L_131.___FixedTime;
 						NullCheck(L_130);
 						Writer_WriteBoolean_m817C7111AA3410A0C4C1C17FA98789A08D08B0D2(L_130, L_132, NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1031>
 						PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_133 = __this->____writer;
 						StateChange_t81E913DFF4E7CC9FFDCA96ABDF8EC9D99D917D11 L_134 = V_16;
 						float L_135 = L_134.___DurationTime;
 						NullCheck(L_133);
 						Writer_WriteSingle_mC5F44F4BF31ED228F90950C1CA7C9B756F19D6E8(L_133, L_135, NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1032>
 						PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_136 = __this->____writer;
 						StateChange_t81E913DFF4E7CC9FFDCA96ABDF8EC9D99D917D11 L_137 = V_16;
 						float L_138 = L_137.___OffsetTime;
 						NullCheck(L_136);
 						Writer_WriteSingle_mC5F44F4BF31ED228F90950C1CA7C9B756F19D6E8(L_136, L_138, NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1033>
 						PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_139 = __this->____writer;
 						StateChange_t81E913DFF4E7CC9FFDCA96ABDF8EC9D99D917D11 L_140 = V_16;
 						float L_141 = L_140.___NormalizedTransitionTime;
@@ -27524,7 +25172,6 @@ IL_02fe_2:
 
 IL_0376_2:
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:998>
 						bool L_142;
 						L_142 = Enumerator_MoveNext_mE6C1C850E5359B39999B0EC5F6244A5B965BE4DD((&V_13), Enumerator_MoveNext_mE6C1C850E5359B39999B0EC5F6244A5B965BE4DD_RuntimeMethod_var);
 						if (L_142)
@@ -27544,7 +25191,6 @@ IL_0376_2:
 
 IL_0392_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1037>
 				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_143 = V_12;
 				NullCheck(L_143);
 				int32_t L_144;
@@ -27555,14 +25201,12 @@ IL_0392_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1039>
 				V_19 = 0;
 				goto IL_03bc_1;
 			}
 
 IL_03a1_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1040>
 				Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A* L_145 = __this->____unsynchronizedLayerStates;
 				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_146 = V_12;
 				int32_t L_147 = V_19;
@@ -27572,14 +25216,12 @@ IL_03a1_1:
 				NullCheck(L_145);
 				bool L_149;
 				L_149 = Dictionary_2_Remove_mF3B784FF9BE8709FB3012B7F2773ADEA84C85D82(L_145, L_148, Dictionary_2_Remove_mF3B784FF9BE8709FB3012B7F2773ADEA84C85D82_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1039>
 				int32_t L_150 = V_19;
 				V_19 = ((int32_t)il2cpp_codegen_add(L_150, 1));
 			}
 
 IL_03bc_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1039>
 				int32_t L_151 = V_19;
 				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_152 = V_12;
 				NullCheck(L_152);
@@ -27591,7 +25233,6 @@ IL_03bc_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1042>
 				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_154 = V_12;
 				il2cpp_codegen_runtime_class_init_inline(CollectionCaches_1_t60C4C644422DF73EF2FC20B4161B9ADDDECE1F30_il2cpp_TypeInfo_var);
 				CollectionCaches_1_Store_m14686F20A3C9C153DA2888E1069CEF827964E117(L_154, CollectionCaches_1_Store_m14686F20A3C9C153DA2888E1069CEF827964E117_RuntimeMethod_var);
@@ -27599,21 +25240,18 @@ IL_03bc_1:
 
 IL_03ce_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1047>
 				V_20 = 0;
 				goto IL_042e_1;
 			}
 
 IL_03d3_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1049>
 				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_155 = __this->____animator;
 				int32_t L_156 = V_20;
 				NullCheck(L_155);
 				float L_157;
 				L_157 = Animator_GetLayerWeight_m24EB83CB3CFC724CB77461A26BB794E7DEE15BCA(L_155, L_156, NULL);
 				V_21 = L_157;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1050>
 				bool L_158 = ___1_forceAll;
 				if (L_158)
 				{
@@ -27635,21 +25273,17 @@ IL_03d3_1:
 
 IL_03f2_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1052>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_164 = __this->____writer;
 				NullCheck(L_164);
 				Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_164, (uint8_t)((int32_t)240), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1053>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_165 = __this->____writer;
 				int32_t L_166 = V_20;
 				NullCheck(L_165);
 				Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_165, (uint8_t)((int32_t)(uint8_t)L_166), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1054>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_167 = __this->____writer;
 				float L_168 = V_21;
 				NullCheck(L_167);
 				Writer_WriteSingle_mC5F44F4BF31ED228F90950C1CA7C9B756F19D6E8(L_167, L_168, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1055>
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_169 = __this->____layerWeights;
 				int32_t L_170 = V_20;
 				float L_171 = V_21;
@@ -27659,14 +25293,12 @@ IL_03f2_1:
 
 IL_0428_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1047>
 				int32_t L_172 = V_20;
 				V_20 = ((int32_t)il2cpp_codegen_add(L_172, 1));
 			}
 
 IL_042e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1047>
 				int32_t L_173 = V_20;
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_174 = __this->____layerWeights;
 				NullCheck(L_174);
@@ -27676,13 +25308,11 @@ IL_042e_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1061>
 				Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_175 = __this->____animator;
 				NullCheck(L_175);
 				float L_176;
 				L_176 = Animator_get_speed_m41AFD6B0AB3FF4FFF8855CCAF684813BA1148CD2(L_175, NULL);
 				V_2 = L_176;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1062>
 				bool L_177 = ___1_forceAll;
 				if (L_177)
 				{
@@ -27700,23 +25330,19 @@ IL_042e_1:
 
 IL_0452_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1064>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_180 = __this->____writer;
 				NullCheck(L_180);
 				Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_180, (uint8_t)((int32_t)241), NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1065>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_181 = __this->____writer;
 				float L_182 = V_2;
 				NullCheck(L_181);
 				Writer_WriteSingle_mC5F44F4BF31ED228F90950C1CA7C9B756F19D6E8(L_181, L_182, NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1066>
 				float L_183 = V_2;
 				__this->____speed = L_183;
 			}
 
 IL_0475_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1070>
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_184 = __this->____writer;
 				NullCheck(L_184);
 				int32_t L_185 = ((Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B*)L_184)->___Position;
@@ -27726,14 +25352,12 @@ IL_0475_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1071>
 				V_3 = (bool)0;
 				goto IL_04a9;
 			}
 
 IL_0486_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1073>
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093* L_186 = ___0_updatedBytes;
 				PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_187 = __this->____writer;
 				NullCheck(L_187);
@@ -27741,7 +25365,6 @@ IL_0486_1:
 				L_188 = Writer_GetArraySegment_mF8B70E138067860A83C270FC9AD93E362738FCBE(L_187, NULL);
 				*(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093*)L_186 = L_188;
 				Il2CppCodeGenWriteBarrier((void**)&(((ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093*)L_186)->____array), (void*)NULL);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1074>
 				V_3 = (bool)1;
 				goto IL_04a9;
 			}
@@ -27754,7 +25377,6 @@ IL_0486_1:
 
 IL_04a9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1076>
 		bool L_189 = V_3;
 		return L_189;
 	}
@@ -27801,7 +25423,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_ApplyParametersUpdated_m
 	int32_t V_21 = 0;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1084>
 		il2cpp_codegen_runtime_class_init_inline(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var);
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0 = ((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_ApplyParametersUpdated;
 		V_1 = L_0;
@@ -27822,7 +25443,6 @@ FINALLY_02ea:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1086>
 				bool L_2;
 				L_2 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 				if (L_2)
@@ -27831,13 +25451,11 @@ FINALLY_02ea:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1087>
 				goto IL_02f8;
 			}
 
 IL_001b_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1088>
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = __this->____layerWeights;
 				if (L_3)
 				{
@@ -27845,13 +25463,11 @@ IL_001b_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1089>
 				goto IL_02f8;
 			}
 
 IL_0028_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1090>
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093* L_4 = ___0_updatedParameters;
 				il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 				int32_t L_5;
@@ -27862,13 +25478,11 @@ IL_0028_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1091>
 				goto IL_02f8;
 			}
 
 IL_0035_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1093>
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093* L_6 = ___0_updatedParameters;
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_7 = (*(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093*)L_6);
 				NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_8;
@@ -27885,7 +25499,6 @@ IL_0035_1:
 FINALLY_02e0_1:
 					{
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1196>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_10 = V_2;
 							if (!L_10)
 							{
@@ -27900,7 +25513,6 @@ FINALLY_02e0_1:
 
 IL_02e9_1:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1197>
 							return;
 						}
 					}
@@ -27915,13 +25527,11 @@ IL_02e9_1:
 
 IL_004d_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1099>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_12 = V_2;
 							NullCheck(L_12);
 							uint8_t L_13;
 							L_13 = Reader_ReadUInt8Unpacked_m91AB70E5EA28BAB0E10F693CCB16D54B9F1B9737(L_12, NULL);
 							V_3 = L_13;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1101>
 							uint8_t L_14 = V_3;
 							if ((!(((uint32_t)L_14) == ((uint32_t)((int32_t)240)))))
 							{
@@ -27929,19 +25539,16 @@ IL_004d_3:
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1103>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_15 = V_2;
 							NullCheck(L_15);
 							uint8_t L_16;
 							L_16 = Reader_ReadUInt8Unpacked_m91AB70E5EA28BAB0E10F693CCB16D54B9F1B9737(L_15, NULL);
 							V_4 = L_16;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1104>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_17 = V_2;
 							NullCheck(L_17);
 							float L_18;
 							L_18 = Reader_ReadSingle_m9F3E4618132C7BE983BF08608BBCC4567BE2226A(L_17, NULL);
 							V_5 = L_18;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1105>
 							Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_19 = __this->____animator;
 							uint8_t L_20 = V_4;
 							float L_21 = V_5;
@@ -27952,7 +25559,6 @@ IL_004d_3:
 
 IL_0080_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1108>
 							uint8_t L_22 = V_3;
 							if ((!(((uint32_t)L_22) == ((uint32_t)((int32_t)241)))))
 							{
@@ -27960,13 +25566,11 @@ IL_0080_3:
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1110>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_23 = V_2;
 							NullCheck(L_23);
 							float L_24;
 							L_24 = Reader_ReadSingle_m9F3E4618132C7BE983BF08608BBCC4567BE2226A(L_23, NULL);
 							V_6 = L_24;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1111>
 							Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_25 = __this->____animator;
 							float L_26 = V_6;
 							NullCheck(L_25);
@@ -27976,7 +25580,6 @@ IL_0080_3:
 
 IL_00a2_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1114>
 							uint8_t L_27 = V_3;
 							if ((!(((uint32_t)L_27) == ((uint32_t)((int32_t)242)))))
 							{
@@ -27984,25 +25587,21 @@ IL_00a2_3:
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1116>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_28 = V_2;
 							NullCheck(L_28);
 							uint8_t L_29;
 							L_29 = Reader_ReadUInt8Unpacked_m91AB70E5EA28BAB0E10F693CCB16D54B9F1B9737(L_28, NULL);
 							V_7 = L_29;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1118>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_30 = V_2;
 							NullCheck(L_30);
 							int32_t L_31;
 							L_31 = Reader_ReadInt32Unpacked_mAEF6129B138D7B5FD8800F8AC489600DCC9FE614(L_30, NULL);
 							V_8 = L_31;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1119>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_32 = V_2;
 							NullCheck(L_32);
 							float L_33;
 							L_33 = Reader_ReadSingle_m9F3E4618132C7BE983BF08608BBCC4567BE2226A(L_32, NULL);
 							V_9 = L_33;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1121>
 							Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_34 = __this->____animator;
 							int32_t L_35 = V_8;
 							uint8_t L_36 = V_7;
@@ -28014,7 +25613,6 @@ IL_00a2_3:
 
 IL_00d8_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1124>
 							uint8_t L_38 = V_3;
 							if ((!(((uint32_t)L_38) == ((uint32_t)((int32_t)243)))))
 							{
@@ -28022,43 +25620,36 @@ IL_00d8_3:
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1126>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_39 = V_2;
 							NullCheck(L_39);
 							uint8_t L_40;
 							L_40 = Reader_ReadUInt8Unpacked_m91AB70E5EA28BAB0E10F693CCB16D54B9F1B9737(L_39, NULL);
 							V_10 = L_40;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1128>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_41 = V_2;
 							NullCheck(L_41);
 							int32_t L_42;
 							L_42 = Reader_ReadInt32_mA51A748FDF4D7F5B2206E64B9B4E41B4DA9E57F0(L_41, NULL);
 							V_11 = L_42;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1129>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_43 = V_2;
 							NullCheck(L_43);
 							bool L_44;
 							L_44 = Reader_ReadBoolean_m92C697DEC278FFB88C842D1553309A5F18F9A110(L_43, NULL);
 							V_12 = L_44;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1131>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_45 = V_2;
 							NullCheck(L_45);
 							float L_46;
 							L_46 = Reader_ReadSingle_m9F3E4618132C7BE983BF08608BBCC4567BE2226A(L_45, NULL);
 							V_13 = L_46;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1132>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_47 = V_2;
 							NullCheck(L_47);
 							float L_48;
 							L_48 = Reader_ReadSingle_m9F3E4618132C7BE983BF08608BBCC4567BE2226A(L_47, NULL);
 							V_14 = L_48;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1133>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_49 = V_2;
 							NullCheck(L_49);
 							float L_50;
 							L_50 = Reader_ReadSingle_m9F3E4618132C7BE983BF08608BBCC4567BE2226A(L_49, NULL);
 							V_15 = L_50;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1135>
 							bool L_51 = V_12;
 							if (!L_51)
 							{
@@ -28066,7 +25657,6 @@ IL_00d8_3:
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1136>
 							Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_52 = __this->____animator;
 							int32_t L_53 = V_11;
 							float L_54 = V_13;
@@ -28080,7 +25670,6 @@ IL_00d8_3:
 
 IL_012e_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1138>
 							Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_58 = __this->____animator;
 							int32_t L_59 = V_11;
 							float L_60 = V_13;
@@ -28094,7 +25683,6 @@ IL_012e_3:
 
 IL_0148_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1143>
 							List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_64 = __this->____parameterDetails;
 							uint8_t L_65 = V_3;
 							NullCheck(L_64);
@@ -28106,7 +25694,6 @@ IL_0148_3:
 							int32_t L_68;
 							L_68 = AnimatorControllerParameter_get_type_mACEB110E346B27168F177E7A909CFB8586A2B966(L_67, NULL);
 							V_16 = L_68;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1144>
 							int32_t L_69 = V_16;
 							if ((!(((uint32_t)L_69) == ((uint32_t)4))))
 							{
@@ -28114,13 +25701,11 @@ IL_0148_3:
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1146>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_70 = V_2;
 							NullCheck(L_70);
 							bool L_71;
 							L_71 = Reader_ReadBoolean_m92C697DEC278FFB88C842D1553309A5F18F9A110(L_70, NULL);
 							V_17 = L_71;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1147>
 							Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_72 = __this->____animator;
 							List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_73 = __this->____parameterDetails;
 							uint8_t L_74 = V_3;
@@ -28137,7 +25722,6 @@ IL_0148_3:
 
 IL_0190_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1150>
 							int32_t L_78 = V_16;
 							if ((!(((uint32_t)L_78) == ((uint32_t)1))))
 							{
@@ -28145,13 +25729,11 @@ IL_0190_3:
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1152>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_79 = V_2;
 							NullCheck(L_79);
 							float L_80;
 							L_80 = Reader_ReadSingle_m9F3E4618132C7BE983BF08608BBCC4567BE2226A(L_79, NULL);
 							V_18 = L_80;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1154>
 							bool L_81;
 							L_81 = NetworkAnimator_get__canSmoothFloats_mA2442E48D034DD62D73694EC1241E83D4C782D52(__this, NULL);
 							if (!L_81)
@@ -28160,7 +25742,6 @@ IL_0190_3:
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1156>
 							Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_82 = __this->____animator;
 							List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_83 = __this->____parameterDetails;
 							uint8_t L_84 = V_3;
@@ -28172,20 +25753,17 @@ IL_0190_3:
 							NullCheck(L_82);
 							float L_87;
 							L_87 = Animator_GetFloat_mEFA968AD9EEB92E6A03AEEB968600798E61F9B1D(L_82, L_86, NULL);
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1157>
 							TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_88;
 							L_88 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 							NullCheck(L_88);
 							double L_89;
 							L_89 = TimeManager_get_TickDelta_mAD7B3277F6932DB2CB2B3BD99748DDF43FC73A03_inline(L_88, NULL);
 							V_19 = ((float)L_89);
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1159>
 							float L_90 = V_18;
 							float L_91;
 							L_91 = fabsf(((float)il2cpp_codegen_subtract(L_87, L_90)));
 							float L_92 = V_19;
 							V_20 = ((float)(L_91/L_92));
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1160>
 							Dictionary_2_t28173977E1F118AB91983A04FCF0D43C36FE040A* L_93 = __this->____smoothedFloats;
 							List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_94 = __this->____parameterDetails;
 							uint8_t L_95 = V_3;
@@ -28206,7 +25784,6 @@ IL_0190_3:
 
 IL_0209_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1164>
 							Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_101 = __this->____animator;
 							List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_102 = __this->____parameterDetails;
 							uint8_t L_103 = V_3;
@@ -28223,7 +25800,6 @@ IL_0209_3:
 
 IL_022c_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1168>
 							int32_t L_107 = V_16;
 							if ((!(((uint32_t)L_107) == ((uint32_t)3))))
 							{
@@ -28231,13 +25807,11 @@ IL_022c_3:
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1170>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_108 = V_2;
 							NullCheck(L_108);
 							int32_t L_109;
 							L_109 = Reader_ReadInt32_mA51A748FDF4D7F5B2206E64B9B4E41B4DA9E57F0(L_108, NULL);
 							V_21 = L_109;
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1171>
 							Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_110 = __this->____animator;
 							List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_111 = __this->____parameterDetails;
 							uint8_t L_112 = V_3;
@@ -28254,7 +25828,6 @@ IL_022c_3:
 
 IL_0259_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1174>
 							int32_t L_116 = V_16;
 							if ((!(((uint32_t)L_116) == ((uint32_t)((int32_t)9)))))
 							{
@@ -28262,19 +25835,16 @@ IL_0259_3:
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1176>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_117 = V_2;
 							NullCheck(L_117);
 							bool L_118;
 							L_118 = Reader_ReadBoolean_m92C697DEC278FFB88C842D1553309A5F18F9A110(L_117, NULL);
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1177>
 							if (!L_118)
 							{
 								goto IL_0285_3;
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1178>
 							Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_119 = __this->____animator;
 							List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_120 = __this->____parameterDetails;
 							uint8_t L_121 = V_3;
@@ -28290,7 +25860,6 @@ IL_0259_3:
 
 IL_0285_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1180>
 							Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_124 = __this->____animator;
 							List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_125 = __this->____parameterDetails;
 							uint8_t L_126 = V_3;
@@ -28306,7 +25875,6 @@ IL_0285_3:
 
 IL_02a3_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1185>
 							NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_129;
 							L_129 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 							int32_t L_130 = V_16;
@@ -28319,7 +25887,6 @@ IL_02a3_3:
 
 IL_02bf_3:
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1097>
 							PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_134 = V_2;
 							NullCheck(L_134);
 							int32_t L_135;
@@ -28330,7 +25897,6 @@ IL_02bf_3:
 							}
 						}
 						{
-							//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1189>
 							goto IL_02f8;
 						}
 					}
@@ -28347,12 +25913,9 @@ IL_02bf_3:
 CATCH_02cd_2:
 					{
 						RuntimeObject* L_136 = ((RuntimeObject*)IL2CPP_GET_ACTIVE_EXCEPTION(RuntimeObject*));;
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1190>
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1192>
 						NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_137;
 						L_137 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 						NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_137, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral06BE780E8944A84A18DAA9C6C6057A0A26AFACF9)), NULL);
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1193>
 						IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 						goto IL_02f8;
 					}
@@ -28371,7 +25934,6 @@ CATCH_02cd_2:
 
 IL_02f8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1199>
 		return;
 	}
 }
@@ -28381,13 +25943,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkAnimator_ReturnCurrentLayerState_
 	AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1211>
 		int32_t* L_0 = ___0_stateHash;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1212>
 		float* L_1 = ___1_normalizedTime;
 		*((float*)L_1) = (float)(0.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1214>
 		bool L_2;
 		L_2 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 		if (L_2)
@@ -28396,30 +25955,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkAnimator_ReturnCurrentLayerState_
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1215>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1217>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_3 = __this->____animator;
 		int32_t L_4 = ___2_layerIndex;
 		NullCheck(L_3);
 		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 L_5;
 		L_5 = Animator_GetCurrentAnimatorStateInfo_mD5B526FA605F6CFBC31B7DE36740F6AD1E534CAD(L_3, L_4, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1218>
 		int32_t* L_6 = ___0_stateHash;
 		int32_t L_7;
 		L_7 = AnimatorStateInfo_get_fullPathHash_m583FA8FAAC28BF65A65166D100949833E515210F((&V_0), NULL);
 		*((int32_t*)L_6) = (int32_t)L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1219>
 		float* L_8 = ___1_normalizedTime;
 		float L_9;
 		L_9 = AnimatorStateInfo_get_normalizedTime_m087C7E5A72122ADF18EBB4AC8391103B9119CCC6((&V_0), NULL);
 		*((float*)L_8) = (float)L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1221>
 		int32_t* L_10 = ___0_stateHash;
 		int32_t L_11 = *((int32_t*)L_10);
 		return (bool)((!(((uint32_t)L_11) <= ((uint32_t)0)))? 1 : 0);
@@ -28429,9 +25983,7 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_SendAll_m06B4AF3CB251F2D8470430A00D6D1654B0BB8382 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1230>
 		__this->____forceAllOnTimed = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1231>
 		return;
 	}
 }
@@ -28439,12 +25991,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_SendAll_m06B4AF3CB251F2D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Play_m4CDAF8C6D172D36DCCC08261790EA2DF66277DA4 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1239>
 		String_t* L_0 = ___0_name;
 		int32_t L_1;
 		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(L_0, NULL);
 		NetworkAnimator_Play_m1470FF4F6B61224E3525EAD4C0A52262E80FA4C2(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1240>
 		return;
 	}
 }
@@ -28453,25 +26003,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Play_m1470FF4F6B61224E35
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1247>
 		V_0 = 0;
 		goto IL_0015;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1248>
 		int32_t L_0 = ___0_hash;
 		int32_t L_1 = V_0;
 		NetworkAnimator_Play_mFB952E14DD5225C5C661B391C8E50F740446C970(__this, L_0, L_1, (0.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1247>
 		int32_t L_2 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_2, 1));
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1247>
 		int32_t L_3 = V_0;
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_4 = __this->____animator;
 		NullCheck(L_4);
@@ -28483,7 +26029,6 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1249>
 		return;
 	}
 }
@@ -28491,13 +26036,11 @@ IL_0015:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Play_mEB47E694442CE4FD75F44C7B63829F0719576F6F (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, String_t* ___0_name, int32_t ___1_layer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1256>
 		String_t* L_0 = ___0_name;
 		int32_t L_1;
 		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(L_0, NULL);
 		int32_t L_2 = ___1_layer;
 		NetworkAnimator_Play_mBAE315855A1A40690DC35396B0F42E4E3B6B38F4(__this, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1257>
 		return;
 	}
 }
@@ -28505,11 +26048,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Play_mEB47E694442CE4FD75
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Play_mBAE315855A1A40690DC35396B0F42E4E3B6B38F4 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, int32_t ___0_hash, int32_t ___1_layer, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1264>
 		int32_t L_0 = ___0_hash;
 		int32_t L_1 = ___1_layer;
 		NetworkAnimator_Play_mFB952E14DD5225C5C661B391C8E50F740446C970(__this, L_0, L_1, (0.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1265>
 		return;
 	}
 }
@@ -28517,14 +26058,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Play_mBAE315855A1A40690D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Play_mBB2B0505981EECF91BB4CDE2292413B03A04ACF3 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, String_t* ___0_name, int32_t ___1_layer, float ___2_normalizedTime, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1272>
 		String_t* L_0 = ___0_name;
 		int32_t L_1;
 		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(L_0, NULL);
 		int32_t L_2 = ___1_layer;
 		float L_3 = ___2_normalizedTime;
 		NetworkAnimator_Play_mFB952E14DD5225C5C661B391C8E50F740446C970(__this, L_1, L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1273>
 		return;
 	}
 }
@@ -28538,7 +26077,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Play_mFB952E14DD5225C5C6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1280>
 		bool L_0;
 		L_0 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 		if (L_0)
@@ -28547,13 +26085,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Play_mFB952E14DD5225C5C6
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1281>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1282>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->____animator;
 		int32_t L_2 = ___1_layer;
 		int32_t L_3 = ___0_hash;
@@ -28575,14 +26111,12 @@ IL_0009:
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1284>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_6 = __this->____animator;
 		int32_t L_7 = ___0_hash;
 		int32_t L_8 = ___1_layer;
 		float L_9 = ___2_normalizedTime;
 		NullCheck(L_6);
 		Animator_Play_m3011727F1A3F331EE7F5D7CF9B98EFEADE547BBD(L_6, L_7, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1285>
 		Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A* L_10 = __this->____unsynchronizedLayerStates;
 		int32_t L_11 = ___1_layer;
 		int32_t L_12;
@@ -28596,7 +26130,6 @@ IL_001b:
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1287>
 		return;
 	}
 }
@@ -28604,13 +26137,11 @@ IL_003f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_PlayInFixedTime_m0EA23F678F9C0ADCB957FCCDB881E29730C93EB8 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, String_t* ___0_name, float ___1_fixedTime, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1294>
 		String_t* L_0 = ___0_name;
 		int32_t L_1;
 		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(L_0, NULL);
 		float L_2 = ___1_fixedTime;
 		NetworkAnimator_PlayInFixedTime_m028CABF35DE689A482954FD82B946EB059E76930(__this, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1295>
 		return;
 	}
 }
@@ -28619,26 +26150,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_PlayInFixedTime_m028CABF
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1302>
 		V_0 = 0;
 		goto IL_0011;
 	}
 
 IL_0004:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1303>
 		int32_t L_0 = ___0_hash;
 		int32_t L_1 = V_0;
 		float L_2 = ___1_fixedTime;
 		NetworkAnimator_PlayInFixedTime_m1308F5F6B919E9A89EBD6B43EF09C76E84F0738F(__this, L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1302>
 		int32_t L_3 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_3, 1));
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1302>
 		int32_t L_4 = V_0;
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = __this->____animator;
 		NullCheck(L_5);
@@ -28650,7 +26177,6 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1304>
 		return;
 	}
 }
@@ -28658,14 +26184,12 @@ IL_0011:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_PlayInFixedTime_m22C46906D07D00AF3C86B574B81B26B157C4FD60 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, String_t* ___0_name, int32_t ___1_layer, float ___2_fixedTime, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1311>
 		String_t* L_0 = ___0_name;
 		int32_t L_1;
 		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(L_0, NULL);
 		int32_t L_2 = ___1_layer;
 		float L_3 = ___2_fixedTime;
 		NetworkAnimator_PlayInFixedTime_m1308F5F6B919E9A89EBD6B43EF09C76E84F0738F(__this, L_1, L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1312>
 		return;
 	}
 }
@@ -28679,7 +26203,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_PlayInFixedTime_m1308F5F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1319>
 		bool L_0;
 		L_0 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 		if (L_0)
@@ -28688,13 +26211,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_PlayInFixedTime_m1308F5F
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1320>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1321>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->____animator;
 		int32_t L_2 = ___1_layer;
 		int32_t L_3 = ___0_hash;
@@ -28716,14 +26237,12 @@ IL_0009:
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1323>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_6 = __this->____animator;
 		int32_t L_7 = ___0_hash;
 		int32_t L_8 = ___1_layer;
 		float L_9 = ___2_fixedTime;
 		NullCheck(L_6);
 		Animator_PlayInFixedTime_mED55F3D6ADF43C009FBD4C447126381D954C027D(L_6, L_7, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1324>
 		Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A* L_10 = __this->____unsynchronizedLayerStates;
 		int32_t L_11 = ___1_layer;
 		int32_t L_12;
@@ -28737,7 +26256,6 @@ IL_001b:
 
 IL_003f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1326>
 		return;
 	}
 }
@@ -28745,7 +26263,6 @@ IL_003f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_CrossFade_m5EB2AEA198615FF15CB55934723E05488374A2EC (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, String_t* ___0_stateName, float ___1_normalizedTransitionDuration, int32_t ___2_layer, float ___3_normalizedTimeOffset, float ___4_normalizedTransitionTime, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1340>
 		String_t* L_0 = ___0_stateName;
 		int32_t L_1;
 		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(L_0, NULL);
@@ -28754,7 +26271,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_CrossFade_m5EB2AEA198615
 		float L_4 = ___3_normalizedTimeOffset;
 		float L_5 = ___4_normalizedTransitionTime;
 		NetworkAnimator_CrossFade_mA82B20C4763F50ED881FC0925410033785DA78E0(__this, L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1341>
 		return;
 	}
 }
@@ -28768,7 +26284,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_CrossFade_mA82B20C4763F5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1353>
 		bool L_0;
 		L_0 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 		if (L_0)
@@ -28777,13 +26292,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_CrossFade_mA82B20C4763F5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1354>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1355>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->____animator;
 		int32_t L_2 = ___2_layer;
 		int32_t L_3 = ___0_hash;
@@ -28805,7 +26318,6 @@ IL_0009:
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1357>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_6 = __this->____animator;
 		int32_t L_7 = ___0_hash;
 		float L_8 = ___1_normalizedTransitionDuration;
@@ -28814,7 +26326,6 @@ IL_001b:
 		float L_11 = ___4_normalizedTransitionTime;
 		NullCheck(L_6);
 		Animator_CrossFade_m34D1F0B5D8E14FC3D685D91D412ACA3F69F16186(L_6, L_7, L_8, L_9, L_10, L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1358>
 		Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A* L_12 = __this->____unsynchronizedLayerStates;
 		int32_t L_13 = ___2_layer;
 		int32_t L_14;
@@ -28832,7 +26343,6 @@ IL_001b:
 
 IL_004a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1360>
 		return;
 	}
 }
@@ -28840,7 +26350,6 @@ IL_004a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_CrossFadeInFixedTime_mA12A9D5D08D37339D7CD2E43DE04AE347898D3C6 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, String_t* ___0_stateName, float ___1_fixedTransitionDuration, int32_t ___2_layer, float ___3_fixedTimeOffset, float ___4_normalizedTransitionTime, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1372>
 		String_t* L_0 = ___0_stateName;
 		int32_t L_1;
 		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(L_0, NULL);
@@ -28849,7 +26358,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_CrossFadeInFixedTime_mA1
 		float L_4 = ___3_fixedTimeOffset;
 		float L_5 = ___4_normalizedTransitionTime;
 		NetworkAnimator_CrossFadeInFixedTime_mCF26D8B322AE3BA2BAFA0F7FBD862967D9C6F5E9(__this, L_1, L_2, L_3, L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1373>
 		return;
 	}
 }
@@ -28863,7 +26371,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_CrossFadeInFixedTime_mCF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1385>
 		bool L_0;
 		L_0 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 		if (L_0)
@@ -28872,13 +26379,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_CrossFadeInFixedTime_mCF
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1386>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1387>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->____animator;
 		int32_t L_2 = ___2_layer;
 		int32_t L_3 = ___0_hash;
@@ -28900,7 +26405,6 @@ IL_0009:
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1389>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_6 = __this->____animator;
 		int32_t L_7 = ___0_hash;
 		float L_8 = ___1_fixedTransitionDuration;
@@ -28909,7 +26413,6 @@ IL_001b:
 		float L_11 = ___4_normalizedTransitionTime;
 		NullCheck(L_6);
 		Animator_CrossFadeInFixedTime_m93D7442691AF96BD416878312D71B8EBD248340D(L_6, L_7, L_8, L_9, L_10, L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1390>
 		Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A* L_12 = __this->____unsynchronizedLayerStates;
 		int32_t L_13 = ___2_layer;
 		int32_t L_14;
@@ -28927,7 +26430,6 @@ IL_001b:
 
 IL_004a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1392>
 		return;
 	}
 }
@@ -28935,7 +26437,6 @@ IL_004a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_SetTrigger_m91237B682FC1B0CC99BB92D4AF116226CEDDFC7A (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, int32_t ___0_hash, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1402>
 		bool L_0;
 		L_0 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 		if (L_0)
@@ -28944,16 +26445,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_SetTrigger_m91237B682FC1
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1403>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1404>
 		int32_t L_1 = ___0_hash;
 		NetworkAnimator_UpdateTrigger_mADBF8CBD11B9CEFCFA24116D05B4593E6CD91ABD(__this, L_1, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1405>
 		return;
 	}
 }
@@ -28961,12 +26459,10 @@ IL_0009:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_SetTrigger_mA1E733408579A1EAB38BD4896F25C79F604FB82B (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1413>
 		String_t* L_0 = ___0_name;
 		int32_t L_1;
 		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(L_0, NULL);
 		NetworkAnimator_SetTrigger_m91237B682FC1B0CC99BB92D4AF116226CEDDFC7A(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1414>
 		return;
 	}
 }
@@ -28974,10 +26470,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_SetTrigger_mA1E733408579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_ResetTrigger_m92C39E1F3CF320E6AEB7A34AC276F9C480FA6BC2 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, int32_t ___0_hash, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1422>
 		int32_t L_0 = ___0_hash;
 		NetworkAnimator_UpdateTrigger_mADBF8CBD11B9CEFCFA24116D05B4593E6CD91ABD(__this, L_0, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1423>
 		return;
 	}
 }
@@ -28985,12 +26479,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_ResetTrigger_m92C39E1F3C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_ResetTrigger_m1269E2692C8B1301FE2BE4957AC5B1CF6A5D9C0D (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1431>
 		String_t* L_0 = ___0_name;
 		int32_t L_1;
 		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(L_0, NULL);
 		NetworkAnimator_ResetTrigger_m92C39E1F3CF320E6AEB7A34AC276F9C480FA6BC2(__this, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1432>
 		return;
 	}
 }
@@ -29010,7 +26502,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_UpdateTrigger_mADBF8CBD1
 	uint8_t V_1 = 0x0;
 	int32_t G_B19_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1440>
 		bool L_0;
 		L_0 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 		if (L_0)
@@ -29019,17 +26510,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_UpdateTrigger_mADBF8CBD1
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1441>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1443>
 		bool L_1;
 		L_1 = NetworkAnimator_get_ClientAuthoritative_mF88702ED1FCDCB35F7DA58F6E94A920E6A34E0A1_inline(__this, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1445>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2;
 		L_2 = NetworkBehaviour_get_Owner_m8CA2A8A2D757CACD11B2D06DC06D244A2994EB05(__this, NULL);
 		NullCheck(L_2);
@@ -29041,7 +26529,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1448>
 		bool L_4 = V_0;
 		if (!L_4)
 		{
@@ -29057,13 +26544,11 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1449>
 		return;
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1454>
 		bool L_6;
 		L_6 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		if (L_6)
@@ -29072,13 +26557,11 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1455>
 		return;
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1459>
 		bool L_7 = ___1_set;
 		if (!L_7)
 		{
@@ -29086,7 +26569,6 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1460>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_8 = __this->____animator;
 		int32_t L_9 = ___0_hash;
 		NullCheck(L_8);
@@ -29096,7 +26578,6 @@ IL_0032:
 
 IL_0043:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1462>
 		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_10 = __this->____animator;
 		int32_t L_11 = ___0_hash;
 		NullCheck(L_10);
@@ -29105,7 +26586,6 @@ IL_0043:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1468>
 		bool L_12 = V_0;
 		if (!L_12)
 		{
@@ -29169,21 +26649,18 @@ IL_0078:
 
 IL_0079:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1471>
 		if (!G_B19_0)
 		{
 			goto IL_00d4;
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1473>
 		V_1 = (uint8_t)0;
 		goto IL_00ab;
 	}
 
 IL_007f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1475>
 		List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_19 = __this->____parameterDetails;
 		uint8_t L_20 = V_1;
 		NullCheck(L_19);
@@ -29198,7 +26675,6 @@ IL_007f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1477>
 		List_1_t13BA0B4979A63D4DA3155786CA0E26144993DE6A* L_24 = __this->____triggerUpdates;
 		uint8_t L_25 = V_1;
 		bool L_26 = ___1_set;
@@ -29207,20 +26683,17 @@ IL_007f:
 		TriggerUpdate__ctor_m3E80173B4BE5C13632CCC4A0ADE95AECDA27A266((&L_27), L_25, L_26, NULL);
 		NullCheck(L_24);
 		List_1_Add_m91E960F4799A9313A61E2553B3F22599DF4D588D_inline(L_24, L_27, List_1_Add_m91E960F4799A9313A61E2553B3F22599DF4D588D_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1478>
 		return;
 	}
 
 IL_00a6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1473>
 		uint8_t L_28 = V_1;
 		V_1 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_28, 1)));
 	}
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1473>
 		uint8_t L_29 = V_1;
 		List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_30 = __this->____parameterDetails;
 		NullCheck(L_30);
@@ -29232,7 +26705,6 @@ IL_00ab:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1482>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_32;
 		L_32 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		int32_t L_33 = ___0_hash;
@@ -29245,7 +26717,6 @@ IL_00ab:
 
 IL_00d4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1484>
 		return;
 	}
 }
@@ -29297,58 +26768,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator__ctor_mFF14FC3535D9084D8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:283>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		__this->___IgnoredParameters = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___IgnoredParameters), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:311>
 		__this->____smoothFloats = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:318>
 		__this->____interpolation = (uint16_t)2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:323>
 		__this->____clientAuthoritative = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:343>
 		List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308* L_1 = (List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308*)il2cpp_codegen_object_new(List_1_t5C6E1DD0D35C60EF57C052BB6346B9944B211308_il2cpp_TypeInfo_var);
 		List_1__ctor_mF50B66E3F5B464EC06EAAB088B247D7110FCA259(L_1, List_1__ctor_mF50B66E3F5B464EC06EAAB088B247D7110FCA259_RuntimeMethod_var);
 		__this->____parameterDetails = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____parameterDetails), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:347>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_2 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_2, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
 		__this->____ints = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____ints), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:351>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_3 = (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*)il2cpp_codegen_object_new(List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var);
 		List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802(L_3, List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var);
 		__this->____floats = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____floats), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:355>
 		List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A* L_4 = (List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A*)il2cpp_codegen_object_new(List_1_t01207CE5982A7640E56B1F9F672A06F96B09367A_il2cpp_TypeInfo_var);
 		List_1__ctor_m87539832B82A3453971F3BCC702C7346E8D3F953(L_4, List_1__ctor_m87539832B82A3453971F3BCC702C7346E8D3F953_RuntimeMethod_var);
 		__this->____bools = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____bools), (void*)L_4);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:367>
 		List_1_t13BA0B4979A63D4DA3155786CA0E26144993DE6A* L_5 = (List_1_t13BA0B4979A63D4DA3155786CA0E26144993DE6A*)il2cpp_codegen_object_new(List_1_t13BA0B4979A63D4DA3155786CA0E26144993DE6A_il2cpp_TypeInfo_var);
 		List_1__ctor_m0A46A3A283BF65051F6F8FB3EC487F0A55CDBC93(L_5, List_1__ctor_m0A46A3A283BF65051F6F8FB3EC487F0A55CDBC93_RuntimeMethod_var);
 		__this->____triggerUpdates = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____triggerUpdates), (void*)L_5);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:402>
 		Dictionary_2_t28173977E1F118AB91983A04FCF0D43C36FE040A* L_6 = (Dictionary_2_t28173977E1F118AB91983A04FCF0D43C36FE040A*)il2cpp_codegen_object_new(Dictionary_2_t28173977E1F118AB91983A04FCF0D43C36FE040A_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m7BE93BF400B724617FFA06FC055FE8AE7ED7DB69(L_6, Dictionary_2__ctor_m7BE93BF400B724617FFA06FC055FE8AE7ED7DB69_RuntimeMethod_var);
 		__this->____smoothedFloats = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____smoothedFloats), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:427>
 		Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A* L_7 = (Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A*)il2cpp_codegen_object_new(Dictionary_2_t22AAFC5D04B9C542F2B63E1F8FF60B8976211F1A_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m30B73AC850FBE3880D07D1343EF066FA17DC0337(L_7, Dictionary_2__ctor_m30B73AC850FBE3880D07D1343EF066FA17DC0337_RuntimeMethod_var);
 		__this->____unsynchronizedLayerStates = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____unsynchronizedLayerStates), (void*)L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:439>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = (PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3*)il2cpp_codegen_object_new(PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3_il2cpp_TypeInfo_var);
 		PooledWriter__ctor_m0475AD961F74F25B86D2F87726DC4DA5A1447D6F(L_8, NULL);
 		__this->____writer = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____writer), (void*)L_8);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:451>
 		Queue_1_t47248C4B33150BB09CEB91CA23EF17040509FC20* L_9 = (Queue_1_t47248C4B33150BB09CEB91CA23EF17040509FC20*)il2cpp_codegen_object_new(Queue_1_t47248C4B33150BB09CEB91CA23EF17040509FC20_il2cpp_TypeInfo_var);
 		Queue_1__ctor_mA5F004F487A631707117DFDA97A1C33110C34E27(L_9, Queue_1__ctor_mA5F004F487A631707117DFDA97A1C33110C34E27_RuntimeMethod_var);
 		__this->____fromServerBuffer = L_9;
@@ -29376,42 +26834,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator__cctor_m14B6E3362D176628
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:463>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_0), _stringLiteral4F547FF05700143B508CA3B7854C64C02033F261, NULL);
 		((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_OnPreTick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:464>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_1), _stringLiteralC8C21BFBC87776A195CC940E15445BCBD1691874, NULL);
 		((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_OnPostTick = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:465>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_2;
 		memset((&L_2), 0, sizeof(L_2));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_2), _stringLiteral148B2C5DB74EC860EC5BA7897FBA77540D50AEFC, NULL);
 		((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_OnUpdate = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:466>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_3), _stringLiteral62F4CE81BC3FFBAD06CACE4E97F4AA01BB1F5342, NULL);
 		((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_CheckSendToServer = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:467>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_4), _stringLiteral595E7769C054FD5B1397A25A78A4CE4A09CCE173, NULL);
 		((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_CheckSendToClients = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:468>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_5), _stringLiteralF65F95752517E82A679DB39A7823739048D52696, NULL);
 		((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_SmoothFloats = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:469>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_6), _stringLiteral975E21C9C46584D84DE66455C602472FB0790045, NULL);
 		((NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_StaticFields*)il2cpp_codegen_static_fields_for(NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7_il2cpp_TypeInfo_var))->____pm_AnimatorUpdated = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:470>
 		ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD L_7;
 		memset((&L_7), 0, sizeof(L_7));
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&L_7), _stringLiteral97B69A87A53548A77961558589715BF6EF14D402, NULL);
@@ -29435,7 +26885,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_U3CCheckSendToClientsU3E
 	memset((&V_0), 0, sizeof(V_0));
 	NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:864>
 		HashSet_1_t41A9F1F7CB7A9AA6F8F9BC55D44E9C5138738CA5* L_0;
 		L_0 = NetworkBehaviour_get_Observers_m18F4920C9C03787155A1CEAFADCA858B0AB14358(__this, NULL);
 		NullCheck(L_0);
@@ -29461,11 +26910,9 @@ FINALLY_003f:
 
 IL_000e_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:864>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2;
 				L_2 = Enumerator_get_Current_mA88ED20EEA1FDB9580447067382A9DC6F82EB04C_inline((&V_0), Enumerator_get_Current_mA88ED20EEA1FDB9580447067382A9DC6F82EB04C_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:867>
 				bool L_3 = __this->____sendToOwner;
 				if (L_3)
 				{
@@ -29486,7 +26933,6 @@ IL_000e_1:
 
 IL_002c_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:869>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_7 = V_1;
 				ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_8 = ___0_data;
 				NetworkAnimator_TargetAnimatorUpdated_m420782F34D109F739320AB0FB3984B9068FEE49A(__this, L_7, L_8, NULL);
@@ -29494,7 +26940,6 @@ IL_002c_1:
 
 IL_0034_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:864>
 				bool L_9;
 				L_9 = Enumerator_MoveNext_m8E9656E0228D773187F5B3E86F939576EEDE11C8((&V_0), Enumerator_MoveNext_m8E9656E0228D773187F5B3E86F939576EEDE11C8_RuntimeMethod_var);
 				if (L_9)
@@ -29514,7 +26959,6 @@ IL_0034_1:
 
 IL_004d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:871>
 		return;
 	}
 }
@@ -29649,7 +27093,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_RpcLogic___TargetAnimato
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t G_B10_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1495>
 		bool L_0;
 		L_0 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 		if (L_0)
@@ -29658,13 +27101,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_RpcLogic___TargetAnimato
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1496>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1499>
 		bool L_1;
 		L_1 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
 		if (!L_1)
@@ -29683,21 +27124,17 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1500>
 		return;
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1502>
 		bool L_4;
 		L_4 = NetworkAnimator_get_ClientAuthoritative_mF88702ED1FCDCB35F7DA58F6E94A920E6A34E0A1_inline(__this, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1503>
 		bool L_5;
 		L_5 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1509>
 		bool L_6 = V_0;
 		bool L_7 = V_1;
 		if (!((int32_t)((int32_t)L_6&(int32_t)L_7)))
@@ -29706,13 +27143,11 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1510>
 		return;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1513>
 		bool L_8 = V_0;
 		if (L_8)
 		{
@@ -29739,21 +27174,17 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1514>
 		return;
 	}
 
 IL_0042:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1516>
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_11 = ___1_p;
 		ReceivedServerData__ctor_m962B52A6B3261573CB2F6D43FA68FD6353CCB1CA((&V_2), L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1517>
 		Queue_1_t47248C4B33150BB09CEB91CA23EF17040509FC20* L_12 = __this->____fromServerBuffer;
 		ReceivedServerData_tD21C24690C3CED9855FC6A6B423B219D79844C54 L_13 = V_2;
 		NullCheck(L_12);
 		Queue_1_Enqueue_m88F3FCFCF03459E7A10F1363D168C6C6CD288CE1(L_12, L_13, Queue_1_Enqueue_m88F3FCFCF03459E7A10F1363D168C6C6CD288CE1_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1519>
 		uint32_t L_14 = __this->____startTick;
 		if (L_14)
 		{
@@ -29761,7 +27192,6 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1520>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_15;
 		L_15 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		NullCheck(L_15);
@@ -29773,7 +27203,6 @@ IL_0042:
 
 IL_0076:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1521>
 		return;
 	}
 }
@@ -29886,7 +27315,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_RpcLogic___ServerAnimato
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1530>
 		bool L_0;
 		L_0 = NetworkAnimator_get__canSynchronizeAnimator_m886FCBDD164C59A51DC4377D69B52A2560AEE9D1(__this, NULL);
 		if (L_0)
@@ -29895,13 +27323,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_RpcLogic___ServerAnimato
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1531>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1532>
 		bool L_1;
 		L_1 = NetworkAnimator_get_ClientAuthoritative_mF88702ED1FCDCB35F7DA58F6E94A920E6A34E0A1_inline(__this, NULL);
 		if (L_1)
@@ -29910,7 +27336,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1534>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2;
 		L_2 = NetworkBehaviour_get_Owner_m8CA2A8A2D757CACD11B2D06DC06D244A2994EB05(__this, NULL);
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_3;
@@ -29923,19 +27348,15 @@ IL_0009:
 		L_7 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA60E51CBF31F228567B6F00C95BED7934FCD1D6D, L_6, NULL);
 		NullCheck(L_2);
 		NetworkConnection_Kick_m6B3EA6A374159D274F606E466B8DA549E20D2F46(L_2, 1, 3, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1535>
 		return;
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1543>
 		NetworkAnimator_ApplyParametersUpdated_m0C0ECDD04ABFC2658CD5B190C05C710873D8E90A(__this, (&___0_p), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1544>
 		ClientAuthoritativeUpdate_t1A37AA2FCB3908E98EF789A28189E22055DEFDBA* L_8 = __this->____clientAuthoritativeUpdates;
 		NullCheck(L_8);
 		ClientAuthoritativeUpdate_AddToBuffer_m1E03EC89DB0E2AC6A3E96D3BCCCFB2DB3C3429F7(L_8, (&___0_p), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:1545>
 		return;
 	}
 }
@@ -29985,9 +27406,7 @@ IL_002b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Awake_UserLogic_FishNet_Component_Animating_NetworkAnimator_FishNet_Runtime_dll_mCDD3692C65C286876F30F00A5C0F1F6E9905AA66 (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:498>
 		NetworkAnimator_InitializeOnce_mD4EF4FB2C9FC8F33D0F92E88CE39972A5F08583F(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:499>
 		return;
 	}
 }
@@ -29998,7 +27417,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkAnimator_Awake_UserLogic_FishNet_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool RigidbodyPauser_get_Paused_mD611273C2154BD9334739FA67ADA52E7E890A2F0_inline (RigidbodyPauser_t55FBD739114E5ADE64B466A20512708D3E4C6BC5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:137>
 		bool L_0 = __this->___U3CPausedU3Ek__BackingField;
 		return L_0;
 	}
@@ -30007,7 +27425,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool RigidbodyPauser_get_Paused_m
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RigidbodyPauser_set_Paused_m867AF82985D6A1BA976B6A3A0EAE012CD7D184EB_inline (RigidbodyPauser_t55FBD739114E5ADE64B466A20512708D3E4C6BC5* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Prediction/RigidbodyPauser.cs:137>
 		bool L_0 = ___0_value;
 		__this->___U3CPausedU3Ek__BackingField = L_0;
 		return;
@@ -30045,7 +27462,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* NetworkBehaviour_get_NetworkObject_m3EEBF47647F4FF04EE88BF6A321CBE2BA23FA64A_inline (NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/NetworkBehaviour/NetworkBehaviour.cs:62>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_0 = __this->____networkObjectCache;
 		return L_0;
 	}
@@ -30099,7 +27515,6 @@ IL_0021:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double TimeManager_get_TickDelta_mAD7B3277F6932DB2CB2B3BD99748DDF43FC73A03_inline (TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Timing/TimeManager.cs:136>
 		double L_0 = __this->___U3CTickDeltaU3Ek__BackingField;
 		return L_0;
 	}
@@ -30108,7 +27523,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double TimeManager_get_TickDelta_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* NetworkManager_get_TimeManager_m4A9673E14C609D2DD9B3D07EF33D17643F71CA2A_inline (NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/NetworkManager.cs:115>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0 = __this->___U3CTimeManagerU3Ek__BackingField;
 		return L_0;
 	}
@@ -30154,7 +27568,6 @@ IL_000c:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetworkTransform_set_ParentBehaviour_mD9AB7FE821272225C44B28124BE1E6AC91551A6B_inline (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:347>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_0 = ___0_value;
 		__this->___U3CParentBehaviourU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CParentBehaviourU3Ek__BackingField), (void*)L_0);
@@ -30165,7 +27578,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetworkTransform_set_ParentB
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* NetworkTransform_get_ParentBehaviour_mE85AF8D53315730DFB5D801B4FF880B33FF16BDC_inline (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:347>
 		NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* L_0 = __this->___U3CParentBehaviourU3Ek__BackingField;
 		return L_0;
 	}
@@ -30355,7 +27767,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkTransform_get_TakenOwnership_m078F6360B15FD489A1A366EBEB5FFC6EC934DE3D_inline (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:343>
 		bool L_0 = __this->___U3CTakenOwnershipU3Ek__BackingField;
 		return L_0;
 	}
@@ -30386,7 +27797,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_op_Inequality_m4E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TransformData_get_IsDefault_mB346D71C23DF7BB7F29B9E50C11ACF5B0ADAEC79_inline (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:246>
 		bool L_0 = __this->___U3CIsDefaultU3Ek__BackingField;
 		return L_0;
 	}
@@ -30462,7 +27872,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DataReceivedChanged_Invoke_m
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EstimatedTick_t6BF50FF4950A287DE8A420FD5A96A9D7ED86AAF4* TimeManager_get_LastPacketTick_mC13909D7493394A10422554A2B4FEF4B2C6CE89B_inline (TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Timing/TimeManager.cs:122>
 		EstimatedTick_t6BF50FF4950A287DE8A420FD5A96A9D7ED86AAF4* L_0 = __this->___U3CLastPacketTickU3Ek__BackingField;
 		return L_0;
 	}
@@ -30471,7 +27880,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EstimatedTick_t6BF50FF4950A287DE8
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t EstimatedTick_get_LastRemoteTick_m89081C30F90F3A4A2D8C686348B318A068F60AAB_inline (EstimatedTick_t6BF50FF4950A287DE8A420FD5A96A9D7ED86AAF4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Connection/EstimatedTick.cs:39>
 		uint32_t L_0 = __this->___U3CLastRemoteTickU3Ek__BackingField;
 		return L_0;
 	}
@@ -30491,10 +27899,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker__ctor_mDD68B0
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___ObserversSetSendToOwner___1140765316_m31E7838AD300FA640E7DE1E88BEE1C3ADA2371CF_inline (NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* __this, bool ___0_p, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1063>
 		bool L_0 = ___0_p;
 		__this->____sendToOwner = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:1064>
 		return;
 	}
 }
@@ -30502,7 +27908,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetworkTransform_RpcLogic___
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TransformData_set_IsDefault_mBECD5A2E2D923FD4C33975D769DAC0B6683DF368_inline (TransformData_t7D51E09EA69C4432068B2A51E3201C62D366D54F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkTransform/NetworkTransform.cs:246>
 		bool L_0 = ___0_value;
 		__this->___U3CIsDefaultU3Ek__BackingField = L_0;
 		return;
@@ -30563,10 +27968,8 @@ IL_000c:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TransformTickSmoother_SetAdaptiveInterpolation_mBB82708C13D4FF3A1F46388FB19F54BA9DE3D535_inline (TransformTickSmoother_t08409FFFC26D010DBF17651894E6C0CE1CCF3397* __this, int32_t ___0_adaptiveInterpolation, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:151>
 		int32_t L_0 = ___0_adaptiveInterpolation;
 		__this->____adaptiveInterpolation = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Utility/TransformTickSmoother.cs:152>
 		return;
 	}
 }
@@ -30574,7 +27977,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TransformTickSmoother_SetAda
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkObject_get_IsServerInitialized_mEC48A94618FCD3D78AC8DDB9FD6D04D2FFBDC7DF_inline (NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/NetworkObject/NetworkObject.QOL.cs:88>
 		bool L_0 = __this->___U3CIsServerInitializedU3Ek__BackingField;
 		return L_0;
 	}
@@ -30583,7 +27985,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkObject_get_IsServerIn
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* NetworkObject_get_TimeManager_mB7C5B0F9D7F8201DF54C905F4B86BD5AA3FB3D4C_inline (NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/NetworkObject/NetworkObject.QOL.cs:227>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0 = __this->___U3CTimeManagerU3Ek__BackingField;
 		return L_0;
 	}
@@ -30592,7 +27993,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TimeManager_tC7ABD26ED98438244671
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t TimeManager_get_RoundTripTime_m2BAC601F1FDE628203CFE265B57CAAC303F14CB0_inline (TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Timing/TimeManager.cs:105>
 		int64_t L_0 = __this->___U3CRoundTripTimeU3Ek__BackingField;
 		return L_0;
 	}
@@ -30677,7 +28077,6 @@ IL_000c:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkObject_get_IsObjectReconciling_m7BC238B7C39D1595519E281A8DE0044933348CB0_inline (NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/NetworkObject/NetworkObject.Prediction.cs:108>
 		bool L_0 = __this->___U3CIsObjectReconcilingU3Ek__BackingField;
 		return L_0;
 	}
@@ -30686,7 +28085,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkObject_get_IsObjectRe
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* NetworkObject_get_PredictionManager_m9042DF8AE2B93C10AAC0F8E4FE33EFD9EB61B8F2_inline (NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/NetworkObject/NetworkObject.QOL.cs:235>
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_0 = __this->___U3CPredictionManagerU3Ek__BackingField;
 		return L_0;
 	}
@@ -30695,7 +28093,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PredictionManager_t8BB914EA74A2C8
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t PredictionManager_get_ClientStateTick_mE7DCF08F45DFB92889983DF07795D6E3CAC51648_inline (PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Prediction/PredictionManager.cs:248>
 		uint32_t L_0 = __this->___U3CClientStateTickU3Ek__BackingField;
 		return L_0;
 	}
@@ -30704,12 +28101,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t PredictionManager_get_Cl
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkObject_get_EnablePrediction_mC1621F64F674EFBD449602C5A2872E4B78F13760_inline (NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/NetworkObject/NetworkObject.Prediction.cs:132>
 		bool L_0 = __this->____enablePrediction;
 		return L_0;
 	}
 }
-// Method Definition Index: 75323
+// Method Definition Index: 75316
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ApplicationState_IsQuitting_m14D8FBF40D3737D8AD1AB93AFC8CBD52E8185D69_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -30719,7 +28115,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ApplicationState_IsQuitting_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ApplicationState.cs:47>
 		il2cpp_codegen_runtime_class_init_inline(ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_il2cpp_TypeInfo_var);
 		bool L_0 = ((ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_StaticFields*)il2cpp_codegen_static_fields_for(ApplicationState_tA96D168E847A237D20FE79D7BC103CBB4A46E61B_il2cpp_TypeInfo_var))->____isQuitting;
 		return L_0;
@@ -30729,7 +28124,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ApplicationState_IsQuitting_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* NetworkObject_get_NetworkManager_mA1F5B1B71090739932906228AE7103149CD143E5_inline (NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/NetworkObject/NetworkObject.QOL.cs:207>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0 = __this->___U3CNetworkManagerU3Ek__BackingField;
 		return L_0;
 	}
@@ -30738,7 +28132,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3CF56E00215CFB653
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* NetworkTickSmoother_get_SmootherController_mD21F07017510CF5DEC766A769C96BD4072029D53_inline (NetworkTickSmoother_t7D942F293E25A10BB792DBBA1CDC8BB11C7231D4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:17>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0 = __this->___U3CSmootherControllerU3Ek__BackingField;
 		return L_0;
 	}
@@ -30747,7 +28140,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TickSmootherController_t0EE3C7B9A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetworkTickSmoother_set_SmootherController_mEC90FC337E83E98891EAC3381A113CEA7A9F2BAB_inline (NetworkTickSmoother_t7D942F293E25A10BB792DBBA1CDC8BB11C7231D4* __this, TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/NetworkTickSmoother.cs:17>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0 = ___0_value;
 		__this->___U3CSmootherControllerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSmootherControllerU3Ek__BackingField), (void*)L_0);
@@ -30758,7 +28150,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void NetworkTickSmoother_set_Smoo
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* OfflineTickSmoother_get_SmootherController_mE2B02C19EE46A97187C6D37E1E9BA8B48BB34236_inline (OfflineTickSmoother_tB5E34629E6B4F4214ED3F8B3617A8B206CAEB2BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:19>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0 = __this->___U3CSmootherControllerU3Ek__BackingField;
 		return L_0;
 	}
@@ -30767,7 +28158,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TickSmootherController_t0EE3C7B9A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OfflineTickSmoother_set_IsInitialized_m0C9DBD792BE70A3C8D97E0AEAB3C0CC0DF303B33_inline (OfflineTickSmoother_tB5E34629E6B4F4214ED3F8B3617A8B206CAEB2BD* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:24>
 		bool L_0 = ___0_value;
 		__this->___U3CIsInitializedU3Ek__BackingField = L_0;
 		return;
@@ -30777,7 +28167,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OfflineTickSmoother_set_IsIn
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OfflineTickSmoother_get_IsInitialized_m0684FA3378A962E1C078A2CCA6C38699B3A4E232_inline (OfflineTickSmoother_tB5E34629E6B4F4214ED3F8B3617A8B206CAEB2BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:24>
 		bool L_0 = __this->___U3CIsInitializedU3Ek__BackingField;
 		return L_0;
 	}
@@ -30786,7 +28175,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OfflineTickSmoother_get_IsIn
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OfflineTickSmoother_set_SmootherController_m28465551E7140094828EBA5E111C2ED0BDC2EFCD_inline (OfflineTickSmoother_tB5E34629E6B4F4214ED3F8B3617A8B206CAEB2BD* __this, TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/OfflineTickSmoother.cs:19>
 		TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* L_0 = ___0_value;
 		__this->___U3CSmootherControllerU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSmootherControllerU3Ek__BackingField), (void*)L_0);
@@ -30797,7 +28185,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OfflineTickSmoother_set_Smoo
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* TickSmootherController_get_UniversalSmoother_m9F48C0171C731D6D2EAABC6E190E781B98C04CB7_inline (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:21>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_0 = __this->___U3CUniversalSmootherU3Ek__BackingField;
 		return L_0;
 	}
@@ -30806,7 +28193,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR UniversalTickSmoother_t6A2A0ED1F5
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TickSmootherController_set_UniversalSmoother_m5AEA1BE2B1301D55767CC111F14088B6C086696E_inline (TickSmootherController_t0EE3C7B9AB90A2A0CDF6B29816230ADECBE928B5* __this, UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/TickSmootherController.cs:21>
 		UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* L_0 = ___0_value;
 		__this->___U3CUniversalSmootherU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUniversalSmootherU3Ek__BackingField), (void*)L_0);
@@ -30817,7 +28203,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TickSmootherController_set_U
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* TimeManager_get_NetworkManager_mA33B3E4940F27ACC7A8D2C570B2075C75C95351A_inline (TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Timing/TimeManager.cs:57>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0 = __this->___U3CNetworkManagerU3Ek__BackingField;
 		return L_0;
 	}
@@ -30826,7 +28211,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3CF56E00215CFB653
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* NetworkManager_get_PredictionManager_mCC117FAF959E4E7839D9A90DFDC6FCEC82B1A45D_inline (NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/NetworkManager.cs:99>
 		PredictionManager_t8BB914EA74A2C8D879BA7924B5540F56ADA28383* L_0 = __this->___U3CPredictionManagerU3Ek__BackingField;
 		return L_0;
 	}
@@ -30835,7 +28219,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PredictionManager_t8BB914EA74A2C8
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* NetworkObject_get_PredictionNetworkTransform_m5392797152A4F72DAE0F431EDF9A2B4B55848E64_inline (NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/NetworkObject/NetworkObject.Prediction.cs:192>
 		NetworkTransform_t2FE6D5EE7A19E2328EC5BBAFC41EA0DBD97CD923* L_0 = __this->____networkTransform;
 		return L_0;
 	}
@@ -30844,7 +28227,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkTransform_t2FE6D5EE7A19E23
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UniversalTickSmoother_set_IsInitialized_mA14B00E5968B016E2310C4D01CF6A769FDBD67DE_inline (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:58>
 		bool L_0 = ___0_value;
 		__this->___U3CIsInitializedU3Ek__BackingField = L_0;
 		return;
@@ -30854,7 +28236,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UniversalTickSmoother_set_Is
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t TimeManager_get_TickRate_m82924518D1C59038F7F69BEAA57C0179F78FA8A6_inline (TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Timing/TimeManager.cs:189>
 		uint16_t L_0 = __this->____tickRate;
 		return L_0;
 	}
@@ -30958,7 +28339,6 @@ IL_0023:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool UniversalTickSmoother_get_IsInitialized_m1648DEAD1B51550D1175638389E94B7BB17D4430_inline (UniversalTickSmoother_t6A2A0ED1F5FA10866205884381A010FC499478A1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/TickSmoothing/UniversalTickSmoother.cs:58>
 		bool L_0 = __this->___U3CIsInitializedU3Ek__BackingField;
 		return L_0;
 	}
@@ -30967,7 +28347,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool UniversalTickSmoother_get_Is
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkAnimator_get_ClientAuthoritative_mF88702ED1FCDCB35F7DA58F6E94A920E6A34E0A1_inline (NetworkAnimator_t35A1153A874A27C4771B3000F53BFF5DB23D6CC7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:329>
 		bool L_0 = __this->____clientAuthoritative;
 		return L_0;
 	}
@@ -30976,7 +28355,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkAnimator_get_ClientAu
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ClientAuthoritativeUpdate_get_ForceAll_m65CE628922ADAEA96CFD5D39294869242E32CD8C_inline (ClientAuthoritativeUpdate_t1A37AA2FCB3908E98EF789A28189E22055DEFDBA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/NetworkAnimator/NetworkAnimator.cs:135>
 		bool L_0 = __this->___U3CForceAllU3Ek__BackingField;
 		return L_0;
 	}
@@ -31243,50 +28621,41 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 75474
+// Method Definition Index: 75467
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ObjectCaches_1_StoreAndDefault_m1C8E825EE53751104EC6332635F72BCFEA4E9FBB_gshared_inline (bool* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:874>
 		bool* L_0 = ___0_value;
 		bool L_1 = (*(bool*)L_0);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ObjectCaches_1_Store_mDDFC81F11274B1A064B730CFD469F8DA4873E392(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:875>
 		bool* L_2 = ___0_value;
 		il2cpp_codegen_initobj(L_2, sizeof(bool));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:876>
 		return;
 	}
 }
-// Method Definition Index: 75474
+// Method Definition Index: 75467
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ObjectCaches_1_StoreAndDefault_m97A6394E751F68E921E718E112F7351AC5C74E0C_gshared_inline (uint32_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:874>
 		uint32_t* L_0 = ___0_value;
 		uint32_t L_1 = (*(uint32_t*)L_0);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ObjectCaches_1_Store_m100623277322318E9E3256EC8F48E891214F7835(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:875>
 		uint32_t* L_2 = ___0_value;
 		il2cpp_codegen_initobj(L_2, sizeof(uint32_t));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:876>
 		return;
 	}
 }
-// Method Definition Index: 75445
+// Method Definition Index: 75438
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ResettableObjectCaches_1_StoreAndDefault_m0BFFEA2E15FA2CC5348536C24B1F81F61380FA8A_gshared_inline (RuntimeObject** ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:435>
 		RuntimeObject** L_0 = ___0_value;
 		RuntimeObject* L_1 = (*(RuntimeObject**)L_0);
 		ResettableObjectCaches_1_Store_mDB336FA2DF176C79D1801174EB6751CEC14B98DA(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:436>
 		RuntimeObject** L_2 = ___0_value;
 		il2cpp_codegen_initobj(L_2, sizeof(RuntimeObject*));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:437>
 		return;
 	}
 }
@@ -31298,45 +28667,38 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ArraySegment_1_get_Count_
 		return L_0;
 	}
 }
-// Method Definition Index: 75474
+// Method Definition Index: 75467
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ObjectCaches_1_StoreAndDefault_mA42EF1D3DA1F37726E1077F3F96AAA4DC2EF2E8D_gshared_inline (RuntimeObject** ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:874>
 		RuntimeObject** L_0 = ___0_value;
 		RuntimeObject* L_1 = (*(RuntimeObject**)L_0);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ObjectCaches_1_Store_m2287743B5E40C8C5630D9834453B77B032DC6410(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:875>
 		RuntimeObject** L_2 = ___0_value;
 		il2cpp_codegen_initobj(L_2, sizeof(RuntimeObject*));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:876>
 		return;
 	}
 }
-// Method Definition Index: 75511
+// Method Definition Index: 75504
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BasicQueue_1_get_Count_m2A1DCAFF4F8293192F9C9C4A2CA916EF2705A556_gshared_inline (BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/BasicQueue.cs:20>
 		int32_t L_0 = __this->____written;
 		return L_0;
 	}
 }
-// Method Definition Index: 75469
+// Method Definition Index: 75462
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CollectionCaches_1_StoreAndDefault_mFAD4707176E0AEC36DBDE884A421294E87FFD6FB_gshared_inline (BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154** ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:792>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154** L_0 = ___0_value;
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154* L_1 = *((BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154**)L_0);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		CollectionCaches_1_Store_m1D5CED4C911B7437C57AD87B8D92EBF6EC9A840D(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 57));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:793>
 		BasicQueue_1_tFC3491F08EF0AE609D8965BB77E9AE9A3BD78154** L_2 = ___0_value;
 		*((RuntimeObject**)L_2) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_2, (void*)(RuntimeObject*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:794>
 		return;
 	}
 }
@@ -31348,29 +28710,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_mDF9
 		return L_0;
 	}
 }
-// Method Definition Index: 75511
+// Method Definition Index: 75504
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BasicQueue_1_get_Count_m959D1092E8CB0303E2D0F03F04094C0B7D757254_gshared_inline (BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/Types/BasicQueue.cs:20>
 		int32_t L_0 = __this->____written;
 		return L_0;
 	}
 }
-// Method Definition Index: 75469
+// Method Definition Index: 75462
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CollectionCaches_1_StoreAndDefault_m92F4B7C0A7C7E7D9009AD135919A039834F18429_gshared_inline (BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264** ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:792>
 		BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264** L_0 = ___0_value;
 		BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264* L_1 = *((BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264**)L_0);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		CollectionCaches_1_Store_m7ABCB36E1969913D7E804A0F3D0DA4B69E0CD6AE(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 57));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:793>
 		BasicQueue_1_t862E65315FB7C828E226E689577246D654C65264** L_2 = ___0_value;
 		*((RuntimeObject**)L_2) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_2, (void*)(RuntimeObject*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Plugins/GameKit/Dependencies/Utilities/ObjectCaching.cs:794>
 		return;
 	}
 }
@@ -31732,7 +29090,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 77187
+// Method Definition Index: 77182
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m139A176CD271A0532D75BE08DA7831C8C45CE28F_gshared_inline (Enumerator_t72556E98D7DDBE118A973D782D523D15A96461C8* __this, const RuntimeMethod* method) 
 {
 	{

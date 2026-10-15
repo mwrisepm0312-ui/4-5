@@ -19,6 +19,8 @@ public class DataManager : MonoBehaviour
     public List<string> SharedEvidences { get; set; }
         = new List<string>();
 
+    public bool TutorialShown { get; set; } = false;
+
     // 현재 스테이지
     public int CurrentStage { get; set; } = 1;
 

@@ -5353,7 +5353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76190
+// Method Definition Index: 76185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t79FCF1E8BF6BE19B47339D3D57A4555F94F5A777 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mCE6F16C5E455FC5C8A54AF49E5639E81FDC0AF6A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5387,7 +5387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t79FCF1E8BF6BE19B47339D3D57A45
 		return L_6;
 	}
 }
-// Method Definition Index: 76191
+// Method Definition Index: 76186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m57ABC3553486DBB7C11764CE261B4ED2E0B9E761 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t43B6D62D6E3ECC64191AF977B6BFD9E89EF22943* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5473,7 +5473,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t79FCF1E8BF6BE19B47339D3D57A4555F94F5A777_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76192
+// Method Definition Index: 76187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_OnTriggerEnter_m36EE8E693C077E09317B3256FBEE4E5CA5E382BA (LevelLoader_t88294FAAF09D410FADFB8BE59E2D73254F407E98* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5491,7 +5491,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_OnTriggerEnter_m36EE8E693C07
 	SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* V_2 = NULL;
 	SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* V_3 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:11>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		if (L_0)
@@ -5500,18 +5499,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_OnTriggerEnter_m36EE8E693C07
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:12>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:14>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_1 = ___0_other;
 		Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* L_2;
 		L_2 = LevelLoader_GetPlayerOwnedObject_mAC083BF6D4CDB043EF4374D3E8B6BE1F00CFD753(__this, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:15>
 		Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -5522,13 +5518,11 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:16>
 		return;
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:21>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_5);
@@ -5537,23 +5531,6 @@ IL_001b:
 		SceneLookupData_t8F9A7C4B10AE575DE8310E9AA16618CEBC15E6E3* L_7 = (SceneLookupData_t8F9A7C4B10AE575DE8310E9AA16618CEBC15E6E3*)il2cpp_codegen_object_new(SceneLookupData_t8F9A7C4B10AE575DE8310E9AA16618CEBC15E6E3_il2cpp_TypeInfo_var);
 		SceneLookupData__ctor_m70FF549B233CCD947913DB9C2F4C9B94168D04B7(L_7, L_6, NULL);
 		V_1 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:22>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:23>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:24>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:25>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:26>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:27>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:28>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:29>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:30>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:31>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:32>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:33>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:34>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:35>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:36>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:37>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:38>
 		SceneLookupData_t8F9A7C4B10AE575DE8310E9AA16618CEBC15E6E3* L_8 = V_1;
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_9 = (SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3*)il2cpp_codegen_object_new(SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3_il2cpp_TypeInfo_var);
 		SceneLoadData__ctor_mAE9379AC418E6F70F9E4CFDF20FC94546EC56060(L_9, L_8, NULL);
@@ -5596,7 +5573,6 @@ IL_001b:
 		#endif
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_22 = V_3;
 		V_2 = L_22;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:40>
 		SceneManager_t8C570C55CF16F714895A0FD786058027920CF888* L_23;
 		L_23 = NetworkBehaviour_get_SceneManager_m7E71B7C5BB8D6F28E949C4159012D28B58DD7B36(__this, NULL);
 		Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* L_24 = V_0;
@@ -5606,11 +5582,10 @@ IL_001b:
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_26 = V_2;
 		NullCheck(L_23);
 		SceneManager_LoadConnectionScenes_m8064F8F8C8CB0FE71012442EF841E3AB626AFD35(L_23, L_25, L_26, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 76193
+// Method Definition Index: 76188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_OnTriggerExit_mA3448D1E2E3B6FF56B19A72211BFDD5F4016A7B6 (LevelLoader_t88294FAAF09D410FADFB8BE59E2D73254F407E98* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5625,7 +5600,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_OnTriggerExit_mA3448D1E2E3B6
 	Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* V_0 = NULL;
 	SceneUnloadData_tA5D6442B1CDE3B59393C428C87C5A0FAD7888B40* V_1 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:45>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		if (L_0)
@@ -5634,18 +5608,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_OnTriggerExit_mA3448D1E2E3B6
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:46>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:48>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_1 = ___0_other;
 		Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* L_2;
 		L_2 = LevelLoader_GetPlayerOwnedObject_mAC083BF6D4CDB043EF4374D3E8B6BE1F00CFD753(__this, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:49>
 		Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -5656,13 +5627,11 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:50>
 		return;
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:55>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_5);
@@ -5670,13 +5639,6 @@ IL_001b:
 		L_6 = GameObject_get_scene_m747D45E8CECC56DD47D1E103F9E51D5FBEDA4B01(L_5, NULL);
 		SceneLookupData_t8F9A7C4B10AE575DE8310E9AA16618CEBC15E6E3* L_7 = (SceneLookupData_t8F9A7C4B10AE575DE8310E9AA16618CEBC15E6E3*)il2cpp_codegen_object_new(SceneLookupData_t8F9A7C4B10AE575DE8310E9AA16618CEBC15E6E3_il2cpp_TypeInfo_var);
 		SceneLookupData__ctor_m70FF549B233CCD947913DB9C2F4C9B94168D04B7(L_7, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:64>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:65>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:66>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:67>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:68>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:69>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:70>
 		SceneUnloadData_tA5D6442B1CDE3B59393C428C87C5A0FAD7888B40* L_8 = (SceneUnloadData_tA5D6442B1CDE3B59393C428C87C5A0FAD7888B40*)il2cpp_codegen_object_new(SceneUnloadData_tA5D6442B1CDE3B59393C428C87C5A0FAD7888B40_il2cpp_TypeInfo_var);
 		SceneUnloadData__ctor_mFC778BC930CFD4B23CEA9714FBBD72B089C9FF8B(L_8, L_7, NULL);
 		SceneUnloadData_tA5D6442B1CDE3B59393C428C87C5A0FAD7888B40* L_9 = L_8;
@@ -5689,7 +5651,6 @@ IL_001b:
 		L_9->___Options = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___Options), (void*)L_11);
 		V_1 = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:72>
 		SceneManager_t8C570C55CF16F714895A0FD786058027920CF888* L_12;
 		L_12 = NetworkBehaviour_get_SceneManager_m7E71B7C5BB8D6F28E949C4159012D28B58DD7B36(__this, NULL);
 		Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* L_13 = V_0;
@@ -5699,11 +5660,10 @@ IL_001b:
 		SceneUnloadData_tA5D6442B1CDE3B59393C428C87C5A0FAD7888B40* L_15 = V_1;
 		NullCheck(L_12);
 		SceneManager_UnloadConnectionScenes_m8FE2BB275FB50B25B9EE47C0E229395DC53262A5(L_12, L_14, L_15, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:73>
 		return;
 	}
 }
-// Method Definition Index: 76194
+// Method Definition Index: 76189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* LevelLoader_GetPlayerOwnedObject_mAC083BF6D4CDB043EF4374D3E8B6BE1F00CFD753 (LevelLoader_t88294FAAF09D410FADFB8BE59E2D73254F407E98* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5715,13 +5675,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Player_t73E4A5594D88EF91306CA56FA076B7234AB52
 	}
 	Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:83>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_other;
 		NullCheck(L_0);
 		Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* L_1;
 		L_1 = Component_GetComponent_TisPlayer_t73E4A5594D88EF91306CA56FA076B7234AB52121_mBA6D55B102B39D22785D7E2859FAA066C8394C05(L_0, Component_GetComponent_TisPlayer_t73E4A5594D88EF91306CA56FA076B7234AB52121_mBA6D55B102B39D22785D7E2859FAA066C8394C05_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:85>
 		Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -5732,13 +5690,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Player_t73E4A5594D88EF91306CA56FA076B7234AB52
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:86>
 		return (Player_t73E4A5594D88EF91306CA56FA076B7234AB52121*)NULL;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:88>
 		Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* L_4 = V_0;
 		NullCheck(L_4);
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_5;
@@ -5752,18 +5708,16 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:89>
 		return (Player_t73E4A5594D88EF91306CA56FA076B7234AB52121*)NULL;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/LevelLoader.cs:91>
 		Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* L_7 = V_0;
 		return L_7;
 	}
 }
-// Method Definition Index: 76195
+// Method Definition Index: 76190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader__ctor_m9245266A1A6884480D0F4882576C3405B5CD0C61 (LevelLoader_t88294FAAF09D410FADFB8BE59E2D73254F407E98* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5778,7 +5732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader__ctor_m9245266A1A6884480D0F4
 		return;
 	}
 }
-// Method Definition Index: 76196
+// Method Definition Index: 76191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_NetworkInitialize___Early_mA5C866B17F03B522E11FF7B3D1CA581040E6E301 (LevelLoader_t88294FAAF09D410FADFB8BE59E2D73254F407E98* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5799,7 +5753,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76197
+// Method Definition Index: 76192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_NetworkInitialize___Late_m68BE042F5186E48D2B27E4151A183340B302DD6E (LevelLoader_t88294FAAF09D410FADFB8BE59E2D73254F407E98* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5820,7 +5774,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76198
+// Method Definition Index: 76193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_NetworkInitializeIfDisabled_m4CF658F6A04881022E5A6410CD672DCAC787B1D3 (LevelLoader_t88294FAAF09D410FADFB8BE59E2D73254F407E98* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5829,7 +5783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_NetworkInitializeIfDisabled_
 		return;
 	}
 }
-// Method Definition Index: 76199
+// Method Definition Index: 76194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_Awake_mC0DC7CB485110E051E5F5D7C590DEDB361F70A7D (LevelLoader_t88294FAAF09D410FADFB8BE59E2D73254F407E98* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5846,11 +5800,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelLoader_Awake_mC0DC7CB485110E051E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76200
+// Method Definition Index: 76195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_OnOwnershipClient_mAC41010B6D10E0A74ADB1829A9F0C8F734EDBD9C (Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_prevOwner, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:24>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____ownerObjects;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -5859,11 +5812,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_OnOwnershipClient_mAC41010B6D10E0
 		L_2 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 76201
+// Method Definition Index: 76196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_Update_mE13501EC173CF09E44752BE2458D6D519FCA3A27 (Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5880,7 +5832,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_Update_mE13501EC173CF09E44752BE24
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:30>
 		bool L_0;
 		L_0 = Player_TryFindWaypoints_mF603073F67EE65EBBE1CA88A84DCFCE396D53564(__this, NULL);
 		if (L_0)
@@ -5889,13 +5840,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_Update_mE13501EC173CF09E44752BE24
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:31>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:33>
 		List_1_tC41C2FF96ABEE27704363CA6D0043177D79599A7* L_1 = __this->____wayPoints;
 		int32_t L_2 = __this->____goalIndex;
 		NullCheck(L_1);
@@ -5911,7 +5860,6 @@ IL_0009:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_5, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:34>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
 		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
@@ -5927,7 +5875,6 @@ IL_0009:
 		L_14 = Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline(L_10, L_11, ((float)il2cpp_codegen_multiply(L_12, L_13)), NULL);
 		NullCheck(L_8);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_8, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:36>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -5939,7 +5886,6 @@ IL_0009:
 		V_1 = L_18;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
 		L_19 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_1), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:38>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
 		L_20 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		bool L_21;
@@ -5950,7 +5896,6 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:40>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
 		L_23 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -5970,7 +5915,6 @@ IL_0009:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29;
 		L_29 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307_inline(L_26, L_28, NULL);
 		V_2 = L_29;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:41>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
 		L_30 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
@@ -5989,7 +5933,6 @@ IL_0009:
 
 IL_00ce:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:45>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36;
 		L_36 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_36);
@@ -6004,10 +5947,8 @@ IL_00ce:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:47>
 		int32_t L_40 = __this->____goalIndex;
 		__this->____goalIndex = ((int32_t)il2cpp_codegen_add(L_40, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:49>
 		int32_t L_41 = __this->____goalIndex;
 		List_1_tC41C2FF96ABEE27704363CA6D0043177D79599A7* L_42 = __this->____wayPoints;
 		NullCheck(L_42);
@@ -6019,17 +5960,15 @@ IL_00ce:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:50>
 		__this->____goalIndex = 0;
 	}
 
 IL_0109:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76202
+// Method Definition Index: 76197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Player_TryFindWaypoints_mF603073F67EE65EBBE1CA88A84DCFCE396D53564 (Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6062,7 +6001,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Player_TryFindWaypoints_mF603073F67EE65E
 	List_1_tC41C2FF96ABEE27704363CA6D0043177D79599A7* G_B11_1 = NULL;
 	Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* G_B11_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:57>
 		bool L_0 = __this->____foundWaypoints;
 		if (!L_0)
 		{
@@ -6070,13 +6008,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Player_TryFindWaypoints_mF603073F67EE65E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:58>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:60>
 		bool L_1;
 		L_1 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		if (L_1)
@@ -6085,13 +6021,11 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:61>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:63>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		WaypointU5BU5D_tADC7EB82E91E38AE2C775D838B07A929C86E7433* L_2;
 		L_2 = Object_FindObjectsOfType_TisWaypoint_tD7B4CD873C0C2DEE164C8BF61573A3D419CD9829_m003DFF876402F3018AF67ED3436BEB25586CB098(Object_FindObjectsOfType_TisWaypoint_tD7B4CD873C0C2DEE164C8BF61573A3D419CD9829_m003DFF876402F3018AF67ED3436BEB25586CB098_RuntimeMethod_var);
@@ -6099,7 +6033,6 @@ IL_0014:
 		L_3 = Enumerable_ToList_TisWaypoint_tD7B4CD873C0C2DEE164C8BF61573A3D419CD9829_m2E833C091329D52A31BF8AC9963841CCC64AF797((RuntimeObject*)L_2, Enumerable_ToList_TisWaypoint_tD7B4CD873C0C2DEE164C8BF61573A3D419CD9829_m2E833C091329D52A31BF8AC9963841CCC64AF797_RuntimeMethod_var);
 		__this->____wayPoints = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____wayPoints), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:66>
 		List_1_tC41C2FF96ABEE27704363CA6D0043177D79599A7* L_4 = __this->____wayPoints;
 		NullCheck(L_4);
 		int32_t L_5;
@@ -6110,13 +6043,11 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:67>
 		return (bool)0;
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:72>
 		ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* L_6;
 		L_6 = NetworkBehaviour_get_ServerManager_m28A7E14C7EC4C02D5C7A922D08F30529CC4D9D32(__this, NULL);
 		NullCheck(L_6);
@@ -6130,12 +6061,10 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:74>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), (-0.5f), (0.0f), (0.0f), NULL);
 		__this->____goalOffset = L_9;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:75>
 		List_1_tC41C2FF96ABEE27704363CA6D0043177D79599A7* L_10 = __this->____wayPoints;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tDB61BE91F28C526D20DC2AC3F2725BCEF0419392_il2cpp_TypeInfo_var);
 		Func_2_t2C1DCAF36D89BC97CF8B8ABEFD811287BF28D659* L_11 = ((U3CU3Ec_tDB61BE91F28C526D20DC2AC3F2725BCEF0419392_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tDB61BE91F28C526D20DC2AC3F2725BCEF0419392_il2cpp_TypeInfo_var))->___U3CU3E9__8_0;
@@ -6178,12 +6107,10 @@ IL_0088:
 
 IL_0099:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:79>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
 		memset((&L_18), 0, sizeof(L_18));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_18), (0.5f), (0.0f), (0.0f), NULL);
 		__this->____goalOffset = L_18;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:80>
 		List_1_tC41C2FF96ABEE27704363CA6D0043177D79599A7* L_19 = __this->____wayPoints;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tDB61BE91F28C526D20DC2AC3F2725BCEF0419392_il2cpp_TypeInfo_var);
 		Func_2_t2C1DCAF36D89BC97CF8B8ABEFD811287BF28D659* L_20 = ((U3CU3Ec_tDB61BE91F28C526D20DC2AC3F2725BCEF0419392_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tDB61BE91F28C526D20DC2AC3F2725BCEF0419392_il2cpp_TypeInfo_var))->___U3CU3E9__8_1;
@@ -6225,7 +6152,6 @@ IL_00d9:
 
 IL_00e8:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:84>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
 		L_27 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		List_1_tC41C2FF96ABEE27704363CA6D0043177D79599A7* L_28 = __this->____wayPoints;
@@ -6243,15 +6169,12 @@ IL_00e8:
 		L_33 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_31, L_32, NULL);
 		NullCheck(L_27);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_27, L_33, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:86>
 		__this->____goalIndex = 1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:88>
 		__this->____foundWaypoints = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:90>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 76203
+// Method Definition Index: 76198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player__ctor_mFA0ED5AD682D04078D852A78B22413AC3E98ABC6 (Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6263,9 +6186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player__ctor_mFA0ED5AD682D04078D852A78B2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:14>
 		__this->____moveRate = (2.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:15>
 		List_1_tC41C2FF96ABEE27704363CA6D0043177D79599A7* L_0 = (List_1_tC41C2FF96ABEE27704363CA6D0043177D79599A7*)il2cpp_codegen_object_new(List_1_tC41C2FF96ABEE27704363CA6D0043177D79599A7_il2cpp_TypeInfo_var);
 		List_1__ctor_m90D40F75C5F112377543C0F5E0D73F61D2DACF04(L_0, List_1__ctor_m90D40F75C5F112377543C0F5E0D73F61D2DACF04_RuntimeMethod_var);
 		__this->____wayPoints = L_0;
@@ -6275,7 +6196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player__ctor_mFA0ED5AD682D04078D852A78B2
 		return;
 	}
 }
-// Method Definition Index: 76204
+// Method Definition Index: 76199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_NetworkInitialize___Early_mDEA211FD702B234D8B1B1DA25113DAF521257EF4 (Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6296,7 +6217,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76205
+// Method Definition Index: 76200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_NetworkInitialize___Late_m6D055DE8FAB5D3BDA71B942CE0624F607E3DBF75 (Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6317,7 +6238,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76206
+// Method Definition Index: 76201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_NetworkInitializeIfDisabled_m9982635FBC4CFFC682A98150B7F8E8E8CBC3F479 (Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6326,7 +6247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_NetworkInitializeIfDisabled_m9982
 		return;
 	}
 }
-// Method Definition Index: 76207
+// Method Definition Index: 76202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_Awake_m1FCDAAEEC181985D09FFB93BFCA6E21D6E2A87E2 (Player_t73E4A5594D88EF91306CA56FA076B7234AB52121* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6343,7 +6264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Player_Awake_m1FCDAAEEC181985D09FFB93BFC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76208
+// Method Definition Index: 76203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m4348665BEC133304372A60F890A3CCE95347FFAF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6360,7 +6281,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m4348665BEC133304372A60F8
 		return;
 	}
 }
-// Method Definition Index: 76209
+// Method Definition Index: 76204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mED223E6EBC5B5BE1608326614477512E667640B4 (U3CU3Ec_tDB61BE91F28C526D20DC2AC3F2725BCEF0419392* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6368,22 +6289,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mED223E6EBC5B5BE1608326614
 		return;
 	}
 }
-// Method Definition Index: 76210
+// Method Definition Index: 76205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t U3CU3Ec_U3CTryFindWaypointsU3Eb__8_0_mF5EF837B76EE8B4D1A8B8D8C8E3793CFCEDF2860 (U3CU3Ec_tDB61BE91F28C526D20DC2AC3F2725BCEF0419392* __this, Waypoint_tD7B4CD873C0C2DEE164C8BF61573A3D419CD9829* ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:75>
 		Waypoint_tD7B4CD873C0C2DEE164C8BF61573A3D419CD9829* L_0 = ___0_x;
 		NullCheck(L_0);
 		uint8_t L_1 = L_0->___WaypointIndex;
 		return L_1;
 	}
 }
-// Method Definition Index: 76211
+// Method Definition Index: 76206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t U3CU3Ec_U3CTryFindWaypointsU3Eb__8_1_m4ED964B3A3CC56142CE14F4FE11D359E15023357 (U3CU3Ec_tDB61BE91F28C526D20DC2AC3F2725BCEF0419392* __this, Waypoint_tD7B4CD873C0C2DEE164C8BF61573A3D419CD9829* ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/Player.cs:80>
 		Waypoint_tD7B4CD873C0C2DEE164C8BF61573A3D419CD9829* L_0 = ___0_x;
 		NullCheck(L_0);
 		uint8_t L_1 = L_0->___WaypointIndex;
@@ -6398,7 +6317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t U3CU3Ec_U3CTryFindWaypointsU3Eb__8_1_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76212
+// Method Definition Index: 76207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer_OnStartServer_mDFF441E0B9A4C4198A119EA43B98CF66B83A7D05 (ServerScenePrewarmer_tBCD8260A38B3FE124687FD1AAAC7B9ED02238501* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6413,7 +6332,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer_OnStartServer_mDFF4
 	int32_t V_1 = 0;
 	SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* V_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:27>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = __this->____scenes;
 		V_0 = L_0;
 		V_1 = 0;
@@ -6422,22 +6340,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer_OnStartServer_mDFF4
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:27>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		String_t* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:29>
 		SceneLookupData_t8F9A7C4B10AE575DE8310E9AA16618CEBC15E6E3* L_5 = (SceneLookupData_t8F9A7C4B10AE575DE8310E9AA16618CEBC15E6E3*)il2cpp_codegen_object_new(SceneLookupData_t8F9A7C4B10AE575DE8310E9AA16618CEBC15E6E3_il2cpp_TypeInfo_var);
 		SceneLookupData__ctor_m07D958594DE044BB554E7706E0AB14E1ED9076A0(L_5, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:30>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:31>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:32>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:33>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:34>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:35>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:36>
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_6 = (SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3*)il2cpp_codegen_object_new(SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3_il2cpp_TypeInfo_var);
 		SceneLoadData__ctor_mAE9379AC418E6F70F9E4CFDF20FC94546EC56060(L_6, L_5, NULL);
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_7 = L_6;
@@ -6450,7 +6359,6 @@ IL_000b:
 		L_7->___Options = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___Options), (void*)L_9);
 		V_2 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:38>
 		SceneManager_t8C570C55CF16F714895A0FD786058027920CF888* L_10;
 		L_10 = NetworkBehaviour_get_SceneManager_m7E71B7C5BB8D6F28E949C4159012D28B58DD7B36(__this, NULL);
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_11 = V_2;
@@ -6462,7 +6370,6 @@ IL_000b:
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:27>
 		int32_t L_13 = V_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = V_0;
 		NullCheck(L_14);
@@ -6472,11 +6379,10 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 76213
+// Method Definition Index: 76208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer__ctor_mDA7558A334C0897243BBC12068E6C1FCD21CC8D3 (ServerScenePrewarmer_tBCD8260A38B3FE124687FD1AAAC7B9ED02238501* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6487,7 +6393,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer__ctor_mDA7558A334C0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager/Additive Scenes/Scripts/ServerScenePrewarmer.cs:13>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)0);
 		__this->____scenes = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____scenes), (void*)L_0);
@@ -6496,7 +6401,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer__ctor_mDA7558A334C0
 		return;
 	}
 }
-// Method Definition Index: 76214
+// Method Definition Index: 76209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer_NetworkInitialize___Early_m852DEC9FFFE2F1C6F3043EE1A294A316CEC1CE32 (ServerScenePrewarmer_tBCD8260A38B3FE124687FD1AAAC7B9ED02238501* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6517,7 +6422,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76215
+// Method Definition Index: 76210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer_NetworkInitialize___Late_mBB1EF3117167DA4B6558AC0257F37AB2C9E97AED (ServerScenePrewarmer_tBCD8260A38B3FE124687FD1AAAC7B9ED02238501* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6538,7 +6443,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76216
+// Method Definition Index: 76211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer_NetworkInitializeIfDisabled_m9C996D0B0937AE26BE418E4F415DE23AF627FB1F (ServerScenePrewarmer_tBCD8260A38B3FE124687FD1AAAC7B9ED02238501* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6547,7 +6452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer_NetworkInitializeIf
 		return;
 	}
 }
-// Method Definition Index: 76217
+// Method Definition Index: 76212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer_Awake_m2C748436861B873FD600B4A44467CAAD9BD07C44 (ServerScenePrewarmer_tBCD8260A38B3FE124687FD1AAAC7B9ED02238501* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6564,7 +6469,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerScenePrewarmer_Awake_m2C748436861B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76218
+// Method Definition Index: 76213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint__ctor_m70D5363CE396CBA38AEEEAF7975ECAEB967AE1EA (Waypoint_tD7B4CD873C0C2DEE164C8BF61573A3D419CD9829* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6580,7 +6485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Waypoint__ctor_m70D5363CE396CBA38AEEEAF7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76219
+// Method Definition Index: 76214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_Awake_m9B44B6C3F7FF667E0D05F0D053B38AC749FB3D57 (Boost_tB982320F09707A3F9D040684239427CBDA6D8CA2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6590,11 +6495,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_Awake_m9B44B6C3F7FF667E0D05F0D053B
 		return;
 	}
 }
-// Method Definition Index: 76220
+// Method Definition Index: 76215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_Update_m909E03F584CA35CB16A5E260FB5463FFC3C7EEC9 (Boost_tB982320F09707A3F9D040684239427CBDA6D8CA2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Boost.cs:22>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -6607,11 +6511,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_Update_m909E03F584CA35CB16A5E260FB
 		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, ((float)il2cpp_codegen_multiply(L_2, L_3)), NULL);
 		NullCheck(L_0);
 		Transform_Rotate_m2A308205498AFEEA3DF784B1C86E4F7C126CA2EE(L_0, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Boost.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 76221
+// Method Definition Index: 76216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_NetworkTrigger_OnEnter_m03EB67232557ABA30ED1950FF0278A0B20D6765F (Boost_tB982320F09707A3F9D040684239427CBDA6D8CA2* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_c, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6622,7 +6525,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_NetworkTrigger_OnEnter_m03EB672325
 	}
 	RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Boost.cs:27>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_c;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -6639,21 +6541,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_NetworkTrigger_OnEnter_m03EB672325
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Boost.cs:28>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Boost.cs:34>
 		RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* L_4 = V_0;
 		NullCheck(L_4);
 		RigidbodyPrediction_BoostHit_m575CA20B5B5E8C1C72A2DC30235576F83F3B6322(L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Boost.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 76222
+// Method Definition Index: 76217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost__ctor_mCA145C13E2A939ACE8DE395D61DF647AECCE6C5F (Boost_tB982320F09707A3F9D040684239427CBDA6D8CA2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6663,14 +6562,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost__ctor_mCA145C13E2A939ACE8DE395D61D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Boost.cs:10>
 		__this->____rotateRate = (90.0f);
 		il2cpp_codegen_runtime_class_init_inline(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F_il2cpp_TypeInfo_var);
 		NetworkBehaviour__ctor_m97641A3DBD926AA90E244C75CA2DCA48E877377E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76223
+// Method Definition Index: 76218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_NetworkInitialize___Early_m47FF53BD7A261496B4B75D1685203007F3AA4CAE (Boost_tB982320F09707A3F9D040684239427CBDA6D8CA2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6691,7 +6589,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76224
+// Method Definition Index: 76219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_NetworkInitialize___Late_mDB5008C7B33F3EA09AD2386D2DA271894AA15F88 (Boost_tB982320F09707A3F9D040684239427CBDA6D8CA2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6712,7 +6610,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76225
+// Method Definition Index: 76220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_NetworkInitializeIfDisabled_mB932E25FE8C99A938ECD39E487E2E252C146086D (Boost_tB982320F09707A3F9D040684239427CBDA6D8CA2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6721,7 +6619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_NetworkInitializeIfDisabled_mB932E
 		return;
 	}
 }
-// Method Definition Index: 76226
+// Method Definition Index: 76221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_Awake_UserLogic_FishNet_Demo_Prediction_Rigidbodies_Boost_FishNet_Demos_dll_mAD77F4741BF5D0BFBBA114422530C096283488CE (Boost_tB982320F09707A3F9D040684239427CBDA6D8CA2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6733,15 +6631,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_Awake_UserLogic_FishNet_Demo_Predi
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Boost.cs:14>
 		NetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9* L_0;
 		L_0 = Component_GetComponent_TisNetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9_m4CD5836CD0A7E468E3DB438BD5FE7911E0EF570E(__this, Component_GetComponent_TisNetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9_m4CD5836CD0A7E468E3DB438BD5FE7911E0EF570E_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Boost.cs:17>
 		Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* L_1 = (Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B*)il2cpp_codegen_object_new(Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B_il2cpp_TypeInfo_var);
 		Action_1__ctor_m418A172390F959B212680FA280D7027AA7A628F3(L_1, __this, (intptr_t)((void*)Boost_NetworkTrigger_OnEnter_m03EB67232557ABA30ED1950FF0278A0B20D6765F_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		NetworkCollider_add_OnEnter_mB0EAFD2FAD2E0F7C345E04116DBD84BB4C6539BF(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Boost.cs:18>
 		return;
 	}
 }
@@ -6753,7 +6648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Boost_Awake_UserLogic_FishNet_Demo_Predi
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76227
+// Method Definition Index: 76222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Awake_m3936811737C01B35A8D874AA513A35FE72357A63 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6763,39 +6658,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Awake_m3936811737C01
 		return;
 	}
 }
-// Method Definition Index: 76228
+// Method Definition Index: 76223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_OnStartNetwork_mEC50FB1F18B4E315E05A4B03CE8028B7675E148B (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:145>
 		TickNetworkBehaviour_SetTickCallbacks_mE647008CBE0BDAC72AE17A2E5C2277F54547A2A3(__this, 6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:146>
 		return;
 	}
 }
-// Method Definition Index: 76229
+// Method Definition Index: 76224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_TimeManager_OnTick_m606304975F52348A0E0EB3A1AF8AB206C6665F4F (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:150>
 		ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 L_0;
 		L_0 = RigidbodyPrediction_BuildMoveData_mE9188ADB30812DFD0DF16D4BEC4F0A6F1EF8317C(__this, NULL);
 		RigidbodyPrediction_PerformReplicate_m5AC2A46EDA36B40F0BF2D2C0A734238788C8FB53(__this, L_0, 0, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:151>
 		return;
 	}
 }
-// Method Definition Index: 76230
+// Method Definition Index: 76225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_TimeManager_OnPostTick_mBD23B521275A0E0ABC19255961A4C03523101EF6 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:155>
 		VirtualActionInvoker0::Invoke(21, __this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:156>
 		return;
 	}
 }
-// Method Definition Index: 76231
+// Method Definition Index: 76226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 RigidbodyPrediction_BuildMoveData_mE9188ADB30812DFD0DF16D4BEC4F0A6F1EF8317C (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6811,7 +6700,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B
 	ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:166>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (L_0)
@@ -6820,7 +6708,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:167>
 		il2cpp_codegen_initobj((&V_3), sizeof(ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8));
 		ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 L_1 = V_3;
 		return L_1;
@@ -6828,19 +6715,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:169>
 		float L_2;
 		L_2 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:170>
 		float L_3;
 		L_3 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:172>
 		bool L_4;
 		L_4 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)304), NULL);
 		V_2 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:174>
 		float L_5 = V_0;
 		float L_6 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
@@ -6850,31 +6733,27 @@ IL_0012:
 		ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		ReplicateData__ctor_m8DAEC15830D79A42EA46CFA4BCDE55D2063CBDE4((&L_9), L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:176>
 		return L_9;
 	}
 }
-// Method Definition Index: 76232
+// Method Definition Index: 76227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_CreateReconcile_m7153673F244DE5FF5A7901C8B0D849CDBBC7073B (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:208>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_0 = __this->____root;
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_1 = __this->____frontWheel;
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_2 = __this->____rearWheel;
 		uint32_t L_3 = __this->____boostStartTick;
 		bool L_4 = __this->____springNextReplicate;
 		ReconcileData__ctor_mAE86856846EA6EFC19F7C8F084128785357D0C3C((&V_0), L_0, L_1, L_2, L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:209>
 		ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5 L_5 = V_0;
 		RigidbodyPrediction_PerformReconcile_m87B566D7CF93FB419747FCB0F8CB828F5A7C233A(__this, L_5, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:210>
 		return;
 	}
 }
-// Method Definition Index: 76233
+// Method Definition Index: 76228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_PerformReplicate_m5AC2A46EDA36B40F0BF2D2C0A734238788C8FB53 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 ___0_rd, uint8_t ___1_state, uint8_t ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6897,7 +6776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_PerformReplicate_m5A
 		return;
 	}
 }
-// Method Definition Index: 76234
+// Method Definition Index: 76229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_PerformReconcile_m87B566D7CF93FB419747FCB0F8CB828F5A7C233A (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5 ___0_rd, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6915,22 +6794,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_PerformReconcile_m87
 		return;
 	}
 }
-// Method Definition Index: 76235
+// Method Definition Index: 76230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_BoostHit_m575CA20B5B5E8C1C72A2DC30235576F83F3B6322 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:305>
 		uint32_t L_0 = __this->____lastReplicateTick;
 		__this->____boostStartTick = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:306>
 		return;
 	}
 }
-// Method Definition Index: 76236
+// Method Definition Index: 76231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_SpringHit_m38DCB5DC96CC0AB993B446FFB5BD954C2EC18C2E (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:314>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_0 = __this->____root;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
@@ -6938,11 +6814,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_SpringHit_m38DCB5DC9
 		L_2 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, (10.0f), NULL);
 		NullCheck(L_0);
 		PredictionRigidbody_AddForce_m804E05A4ED73CDD3CB38198DC9CCA7A261CDFC70(L_0, L_2, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:315>
 		return;
 	}
 }
-// Method Definition Index: 76237
+// Method Definition Index: 76232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction__ctor_m44CA4E07EA04AE6BB1CD97BD2D0DFD8204CDBD4C (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6952,25 +6827,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction__ctor_m44CA4E07EA04A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:99>
 		__this->____boostDuration = (1.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:101>
 		__this->____boostForce = (20.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:103>
 		__this->____moveRate = (4.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:105>
 		__this->____turnRate = (4.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:109>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_0 = (PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB*)il2cpp_codegen_object_new(PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB_il2cpp_TypeInfo_var);
 		PredictionRigidbody__ctor_m808D796B07467DF97A2D93F2F19C490D3C2B57B2(L_0, NULL);
 		__this->____root = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____root), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:113>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_1 = (PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB*)il2cpp_codegen_object_new(PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB_il2cpp_TypeInfo_var);
 		PredictionRigidbody__ctor_m808D796B07467DF97A2D93F2F19C490D3C2B57B2(L_1, NULL);
 		__this->____frontWheel = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____frontWheel), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:117>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_2 = (PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB*)il2cpp_codegen_object_new(PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB_il2cpp_TypeInfo_var);
 		PredictionRigidbody__ctor_m808D796B07467DF97A2D93F2F19C490D3C2B57B2(L_2, NULL);
 		__this->____rearWheel = L_2;
@@ -6979,7 +6847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction__ctor_m44CA4E07EA04A
 		return;
 	}
 }
-// Method Definition Index: 76238
+// Method Definition Index: 76233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_NetworkInitialize___Early_m4935F2CA73C947A47D404E33373EA6202FA543EF (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7045,7 +6913,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76239
+// Method Definition Index: 76234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_NetworkInitialize___Late_m54E2F5F28FFBF6CC5AFC2D25D863F905B403056B (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7066,7 +6934,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76240
+// Method Definition Index: 76235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_NetworkInitializeIfDisabled_m0F6CD06C5BD6AE0E31E419B93BAE10997732322D (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7075,7 +6943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_NetworkInitializeIfD
 		return;
 	}
 }
-// Method Definition Index: 76241
+// Method Definition Index: 76236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_PerformReplicate___UL_m2862F57F1BC7D69710A919A50A311223E976D837 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 ___0_rd, uint8_t ___1_state, uint8_t ___2_channel, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
@@ -7088,26 +6956,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_PerformReplicate___U
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:215>
 		uint32_t L_0;
 		L_0 = ReplicateData_GetTick_m8B28BDE3D326CCB7B7794E72EA6646427138C60A_inline((&___0_rd), NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:216>
 		uint32_t L_1 = V_0;
 		__this->____lastReplicateTick = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:225>
 		ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 L_2 = ___0_rd;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = L_2.___Input;
 		float L_4 = L_3.___x;
 		float L_5 = __this->____turnRate;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), ((float)il2cpp_codegen_multiply(L_4, L_5)), (0.0f), (0.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:226>
 		ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 L_6 = ___0_rd;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = L_6.___Input;
 		float L_8 = L_7.___y;
 		float L_9 = __this->____moveRate;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), (0.0f), (0.0f), ((float)il2cpp_codegen_multiply(L_8, L_9)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:233>
 		uint32_t L_10 = __this->____boostStartTick;
 		if (!L_10)
 		{
@@ -7123,7 +6986,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_PerformReplicate___U
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:236>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_2;
 		float L_14 = __this->____boostForce;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
@@ -7132,7 +6994,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_PerformReplicate___U
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_13, L_15, NULL);
 		V_2 = L_16;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:238>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_17;
 		L_17 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		float L_18 = __this->____boostDuration;
@@ -7140,11 +7001,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_PerformReplicate___U
 		uint32_t L_19;
 		L_19 = TimeManager_TimeToTicks_m1E4D9A685FAEA0FE7768E73EB0EC1A07420B4853(L_17, ((double)L_18), 0, NULL);
 		V_3 = L_19;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:240>
 		uint32_t L_20 = __this->____boostStartTick;
 		uint32_t L_21 = V_3;
 		V_4 = ((int32_t)il2cpp_codegen_add((int32_t)L_20, (int32_t)L_21));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:243>
 		uint32_t L_22 = V_0;
 		uint32_t L_23 = V_4;
 		if ((!(((uint32_t)L_22) >= ((uint32_t)L_23))))
@@ -7153,13 +7012,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_PerformReplicate___U
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:244>
 		__this->____boostStartTick = 0;
 	}
 
 IL_00ac:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:247>
 		bool L_24 = __this->____springNextReplicate;
 		if (!L_24)
 		{
@@ -7167,24 +7024,20 @@ IL_00ac:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:249>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
 		L_26 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_25, (10.0f), NULL);
 		V_5 = L_26;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:250>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_27 = __this->____root;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_5;
 		NullCheck(L_27);
 		PredictionRigidbody_AddForce_m804E05A4ED73CDD3CB38198DC9CCA7A261CDFC70(L_27, L_28, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:252>
 		__this->____springNextReplicate = (bool)0;
 	}
 
 IL_00da:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:256>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_29 = __this->____root;
 		NullCheck(L_29);
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_30;
@@ -7192,21 +7045,18 @@ IL_00da:
 		NullCheck(L_30);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
 		L_31 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_30, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:257>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32 = L_31;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_1;
 		NullCheck(L_32);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
 		L_34 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_32, L_33, NULL);
 		V_1 = L_34;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:258>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = L_32;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = V_2;
 		NullCheck(L_35);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
 		L_37 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_35, L_36, NULL);
 		V_2 = L_37;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:261>
 		NullCheck(L_35);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
 		L_38 = Transform_get_up_mE47A9D9D96422224DD0539AA5524DA5440145BB2(L_35, NULL);
@@ -7217,7 +7067,6 @@ IL_00da:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:262>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
 		L_41 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_40, (-1.0f), NULL);
@@ -7226,67 +7075,55 @@ IL_00da:
 
 IL_0117:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:269>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_42 = __this->____frontWheel;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_1;
 		NullCheck(L_42);
 		PredictionRigidbody_AddForce_m804E05A4ED73CDD3CB38198DC9CCA7A261CDFC70(L_42, L_43, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:270>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_44 = __this->____rearWheel;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_2;
 		NullCheck(L_44);
 		PredictionRigidbody_AddForce_m804E05A4ED73CDD3CB38198DC9CCA7A261CDFC70(L_44, L_45, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:272>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_46 = __this->____root;
 		NullCheck(L_46);
 		PredictionRigidbody_Simulate_m3E3726D44F512CAA8947B031F9F915FD8AF44E0A(L_46, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:273>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_47 = __this->____frontWheel;
 		NullCheck(L_47);
 		PredictionRigidbody_Simulate_m3E3726D44F512CAA8947B031F9F915FD8AF44E0A(L_47, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:274>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_48 = __this->____rearWheel;
 		NullCheck(L_48);
 		PredictionRigidbody_Simulate_m3E3726D44F512CAA8947B031F9F915FD8AF44E0A(L_48, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:275>
 		return;
 	}
 }
-// Method Definition Index: 76242
+// Method Definition Index: 76237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_PerformReconcile___UL_m69DB20F2C4E6E7149A6DA9864F9F8EF66616705E (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5 ___0_rd, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:284>
 		ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5 L_0 = ___0_rd;
 		uint32_t L_1 = L_0.___BoostStartTick;
 		__this->____boostStartTick = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:285>
 		ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5 L_2 = ___0_rd;
 		bool L_3 = L_2.___SpringNextReplicate;
 		__this->____springNextReplicate = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:287>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_4 = __this->____root;
 		ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5 L_5 = ___0_rd;
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_6 = L_5.___Root;
 		NullCheck(L_4);
 		PredictionRigidbody_Reconcile_mA61335FAB4B450103EEFB94F8D7F44A78EB0EF53(L_4, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:288>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_7 = __this->____frontWheel;
 		ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5 L_8 = ___0_rd;
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_9 = L_8.___FrontWheel;
 		NullCheck(L_7);
 		PredictionRigidbody_Reconcile_mA61335FAB4B450103EEFB94F8D7F44A78EB0EF53(L_7, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:289>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_10 = __this->____rearWheel;
 		ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5 L_11 = ___0_rd;
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_12 = L_11.___RearWheel;
 		NullCheck(L_10);
 		PredictionRigidbody_Reconcile_mA61335FAB4B450103EEFB94F8D7F44A78EB0EF53(L_10, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:290>
 		return;
 	}
 }
-// Method Definition Index: 76243
+// Method Definition Index: 76238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_EmptyReplicatesQueueIntoHistory_Start_mA9121D1E728F1999B04C7C8653202D68BC13F136 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7302,7 +7139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_EmptyReplicatesQueue
 		return;
 	}
 }
-// Method Definition Index: 76244
+// Method Definition Index: 76239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Reconcile_Client_Start_m839B7EAB96EFD5F78A8831CB58DCB02F1C428065 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7320,7 +7157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Reconcile_Client_Sta
 		return;
 	}
 }
-// Method Definition Index: 76245
+// Method Definition Index: 76240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Replicate_Replay_Start_m897131BA4AB7C0B72A3D39C79A7AC4078DD6A812 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, uint32_t ___0_replayTick0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7337,7 +7174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Replicate_Replay_Sta
 		return;
 	}
 }
-// Method Definition Index: 76246
+// Method Definition Index: 76241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_ClearReplicateCache_m222F0F78CD19807F1832A74C570338A75C472846 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7357,7 +7194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_ClearReplicateCache_
 		return;
 	}
 }
-// Method Definition Index: 76247
+// Method Definition Index: 76242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Reader_Replicate___PerformReplicate_mBFFB41E68FC9A072C394806CC7BB54059F181BD0 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_NetworkConnection1, uint8_t ___2_Channel2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7377,7 +7214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Reader_Replicate___P
 		return;
 	}
 }
-// Method Definition Index: 76248
+// Method Definition Index: 76243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Reader_Reconcile___PerformReconcile_mFE86937E2F34C3D0096A3BF10C5E1CDC72437C19 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_Channel1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7393,7 +7230,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Reader_Reconcile___P
 		return;
 	}
 }
-// Method Definition Index: 76249
+// Method Definition Index: 76244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Awake_UserLogic_FishNet_Demo_Prediction_Rigidbodies_RigidbodyPrediction_FishNet_Demos_dll_m62554E5A8D89110DD4D64A1EF936F78F1A3EABE9 (RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7403,23 +7240,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RigidbodyPrediction_Awake_UserLogic_Fish
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:137>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_0 = __this->____root;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_1;
 		L_1 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		NullCheck(L_0);
 		PredictionRigidbody_Initialize_m9B7827D231FBB048F919BB39099F12A27F0189EA(L_0, L_1, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:138>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_2 = __this->____frontWheel;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_3 = __this->____frontWheelRigidbody;
 		NullCheck(L_2);
 		PredictionRigidbody_Initialize_m9B7827D231FBB048F919BB39099F12A27F0189EA(L_2, L_3, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:139>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_4 = __this->____rearWheel;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5 = __this->____rearWheelRigidbody;
 		NullCheck(L_4);
 		PredictionRigidbody_Initialize_m9B7827D231FBB048F919BB39099F12A27F0189EA(L_4, L_5, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:140>
 		return;
 	}
 }
@@ -7475,19 +7308,15 @@ IL2CPP_EXTERN_C void ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8_mar
 IL2CPP_EXTERN_C void ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8_marshal_com_cleanup(ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 76250
+// Method Definition Index: 76245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReplicateData__ctor_m8DAEC15830D79A42EA46CFA4BCDE55D2063CBDE4 (ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_input, bool ___1_fire, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:25>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_input;
 		__this->___Input = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:26>
 		bool L_1 = ___1_fire;
 		__this->___Fire = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:28>
 		__this->____tick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:29>
 		return;
 	}
 }
@@ -7498,11 +7327,10 @@ IL2CPP_EXTERN_C  void ReplicateData__ctor_m8DAEC15830D79A42EA46CFA4BCDE55D2063CB
 	_thisAdjusted = reinterpret_cast<ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8*>(__this + _offset);
 	ReplicateData__ctor_m8DAEC15830D79A42EA46CFA4BCDE55D2063CBDE4(_thisAdjusted, ___0_input, ___1_fire, method);
 }
-// Method Definition Index: 76251
+// Method Definition Index: 76246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReplicateData_Dispose_m832993478AB727A5BAAB6EE76B672A44A5285C39 (ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:43>
 		return;
 	}
 }
@@ -7513,11 +7341,10 @@ IL2CPP_EXTERN_C  void ReplicateData_Dispose_m832993478AB727A5BAAB6EE76B672A44A52
 	_thisAdjusted = reinterpret_cast<ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8*>(__this + _offset);
 	ReplicateData_Dispose_m832993478AB727A5BAAB6EE76B672A44A5285C39(_thisAdjusted, method);
 }
-// Method Definition Index: 76252
+// Method Definition Index: 76247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t ReplicateData_GetTick_m8B28BDE3D326CCB7B7794E72EA6646427138C60A (ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:44>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
@@ -7531,11 +7358,10 @@ IL2CPP_EXTERN_C  uint32_t ReplicateData_GetTick_m8B28BDE3D326CCB7B7794E72EA66464
 	_returnValue = ReplicateData_GetTick_m8B28BDE3D326CCB7B7794E72EA6646427138C60A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76253
+// Method Definition Index: 76248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReplicateData_SetTick_m70A341258B9EF09F32F059861444B61C759C117D (ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:45>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
@@ -7610,31 +7436,24 @@ IL2CPP_EXTERN_C void ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5_mar
 IL2CPP_EXTERN_C void ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5_marshal_com_cleanup(ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 76254
+// Method Definition Index: 76249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReconcileData__ctor_mAE86856846EA6EFC19F7C8F084128785357D0C3C (ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5* __this, PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* ___0_root, PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* ___1_frontWheel, PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* ___2_rearWheel, uint32_t ___3_boostStartTick, bool ___4_springNextReplicate, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:77>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_0 = ___0_root;
 		__this->___Root = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Root), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:78>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_1 = ___1_frontWheel;
 		__this->___FrontWheel = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___FrontWheel), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:79>
 		PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* L_2 = ___2_rearWheel;
 		__this->___RearWheel = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RearWheel), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:80>
 		uint32_t L_3 = ___3_boostStartTick;
 		__this->___BoostStartTick = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:81>
 		bool L_4 = ___4_springNextReplicate;
 		__this->___SpringNextReplicate = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:83>
 		__this->____tick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:84>
 		return;
 	}
 }
@@ -7645,11 +7464,10 @@ IL2CPP_EXTERN_C  void ReconcileData__ctor_mAE86856846EA6EFC19F7C8F084128785357D0
 	_thisAdjusted = reinterpret_cast<ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5*>(__this + _offset);
 	ReconcileData__ctor_mAE86856846EA6EFC19F7C8F084128785357D0C3C(_thisAdjusted, ___0_root, ___1_frontWheel, ___2_rearWheel, ___3_boostStartTick, ___4_springNextReplicate, method);
 }
-// Method Definition Index: 76255
+// Method Definition Index: 76250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReconcileData_Dispose_m3B6BA6ECE759E7E101C79C21C5541CD4609A5CB7 (ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:88>
 		return;
 	}
 }
@@ -7660,11 +7478,10 @@ IL2CPP_EXTERN_C  void ReconcileData_Dispose_m3B6BA6ECE759E7E101C79C21C5541CD4609
 	_thisAdjusted = reinterpret_cast<ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5*>(__this + _offset);
 	ReconcileData_Dispose_m3B6BA6ECE759E7E101C79C21C5541CD4609A5CB7(_thisAdjusted, method);
 }
-// Method Definition Index: 76256
+// Method Definition Index: 76251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t ReconcileData_GetTick_mC633E2D811C2451EFA92434CD1AF6E67E31C15AE (ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:89>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
@@ -7678,11 +7495,10 @@ IL2CPP_EXTERN_C  uint32_t ReconcileData_GetTick_mC633E2D811C2451EFA92434CD1AF6E6
 	_returnValue = ReconcileData_GetTick_mC633E2D811C2451EFA92434CD1AF6E67E31C15AE_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76257
+// Method Definition Index: 76252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReconcileData_SetTick_m86E222612CE64D60D8576F6ECD053F7B89FE67A1 (ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:90>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
@@ -7703,7 +7519,7 @@ IL2CPP_EXTERN_C  void ReconcileData_SetTick_m86E222612CE64D60D8576F6ECD053F7B89F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76258
+// Method Definition Index: 76253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_Awake_mAFA281C4EAC7A8E853E7722EC476416054DF5B4F (Spring_t21E8AE8BAF3131D9632780F38E00D8A87378296B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7713,11 +7529,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_Awake_mAFA281C4EAC7A8E853E7722EC4
 		return;
 	}
 }
-// Method Definition Index: 76259
+// Method Definition Index: 76254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_Update_m78F957CF0CB79572234428E10C5EFA67B0EE57D4 (Spring_t21E8AE8BAF3131D9632780F38E00D8A87378296B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Spring.cs:22>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -7730,11 +7545,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_Update_m78F957CF0CB79572234428E10
 		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, ((float)il2cpp_codegen_multiply(L_2, L_3)), NULL);
 		NullCheck(L_0);
 		Transform_Rotate_m2A308205498AFEEA3DF784B1C86E4F7C126CA2EE(L_0, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Spring.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 76260
+// Method Definition Index: 76255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_NetworkTrigger_OnEnter_m87A24AFCA4A27FF55BF8E73DB5E348039ACC5A92 (Spring_t21E8AE8BAF3131D9632780F38E00D8A87378296B* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_c, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7745,7 +7559,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_NetworkTrigger_OnEnter_m87A24AFCA
 	}
 	RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Spring.cs:27>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_c;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -7762,21 +7575,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_NetworkTrigger_OnEnter_m87A24AFCA
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Spring.cs:28>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Spring.cs:34>
 		RigidbodyPrediction_t261343AED211EFF8F1EA275A5121910C658B8BC4* L_4 = V_0;
 		NullCheck(L_4);
 		RigidbodyPrediction_SpringHit_m38DCB5DC96CC0AB993B446FFB5BD954C2EC18C2E(L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Spring.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 76261
+// Method Definition Index: 76256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring__ctor_m7AE849A22BB5F7971BE2403F8852B52C589181FC (Spring_t21E8AE8BAF3131D9632780F38E00D8A87378296B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7786,14 +7596,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring__ctor_m7AE849A22BB5F7971BE2403F88
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Spring.cs:10>
 		__this->____rotateRate = (90.0f);
 		il2cpp_codegen_runtime_class_init_inline(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F_il2cpp_TypeInfo_var);
 		NetworkBehaviour__ctor_m97641A3DBD926AA90E244C75CA2DCA48E877377E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76262
+// Method Definition Index: 76257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_NetworkInitialize___Early_m8A4A235D9E9280857AF30B8AB43727441957CF56 (Spring_t21E8AE8BAF3131D9632780F38E00D8A87378296B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7814,7 +7623,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76263
+// Method Definition Index: 76258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_NetworkInitialize___Late_m3E83B24B63CE85CBC09309054787E06A76C8AA45 (Spring_t21E8AE8BAF3131D9632780F38E00D8A87378296B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7835,7 +7644,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76264
+// Method Definition Index: 76259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_NetworkInitializeIfDisabled_m421203A586604267121CCC0D0A080226EB6C8479 (Spring_t21E8AE8BAF3131D9632780F38E00D8A87378296B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7844,7 +7653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_NetworkInitializeIfDisabled_m4212
 		return;
 	}
 }
-// Method Definition Index: 76265
+// Method Definition Index: 76260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_Awake_UserLogic_FishNet_Demo_Prediction_Rigidbodies_Spring_FishNet_Demos_dll_mE7FF05DA41419942DA16224D3D27DC5A4516CA5C (Spring_t21E8AE8BAF3131D9632780F38E00D8A87378296B* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7856,15 +7665,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_Awake_UserLogic_FishNet_Demo_Pred
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Spring.cs:14>
 		NetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9* L_0;
 		L_0 = Component_GetComponent_TisNetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9_m4CD5836CD0A7E468E3DB438BD5FE7911E0EF570E(__this, Component_GetComponent_TisNetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9_m4CD5836CD0A7E468E3DB438BD5FE7911E0EF570E_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Spring.cs:17>
 		Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* L_1 = (Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B*)il2cpp_codegen_object_new(Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B_il2cpp_TypeInfo_var);
 		Action_1__ctor_m418A172390F959B212680FA280D7027AA7A628F3(L_1, __this, (intptr_t)((void*)Spring_NetworkTrigger_OnEnter_m87A24AFCA4A27FF55BF8E73DB5E348039ACC5A92_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		NetworkCollider_add_OnEnter_mB0EAFD2FAD2E0F7C345E04116DBD84BB4C6539BF(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/Spring.cs:18>
 		return;
 	}
 }
@@ -7876,7 +7682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Spring_Awake_UserLogic_FishNet_Demo_Pred
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76266
+// Method Definition Index: 76261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_add_OnOwner_m4E1439464512F8F6F548276C0A1CFD55BB670234 (Action_1_t0C1829268DB40E012B4FF5A198907DEEEA6AFC2B* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7919,7 +7725,7 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 76267
+// Method Definition Index: 76262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_remove_OnOwner_m6160E93808E7E861904321CDB6E7E779EAFC60BD (Action_1_t0C1829268DB40E012B4FF5A198907DEEEA6AFC2B* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7962,26 +7768,24 @@ IL_0006:
 		return;
 	}
 }
-// Method Definition Index: 76268
+// Method Definition Index: 76263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CharacterControllerPrediction_get_Stamina_mB7D66192E38421C619C8324DA9B71384709A4D51 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:113>
 		float L_0 = __this->___U3CStaminaU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76269
+// Method Definition Index: 76264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_set_Stamina_m28C61A9CE8639A91E11D8A98CD76F79DA58454AB (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:113>
 		float L_0 = ___0_value;
 		__this->___U3CStaminaU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76270
+// Method Definition Index: 76265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Awake_m16D1FC8AF1BEEDC04E7DCF9285833A6F0CAD3F66 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7991,7 +7795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Awake_m16D
 		return;
 	}
 }
-// Method Definition Index: 76271
+// Method Definition Index: 76266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_OnOwnershipClient_m77AD4C928085FB8E0082DBC81CC3A072D3F60D0E (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_prevOwner, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8003,7 +7807,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_OnOwnershi
 	Action_1_t0C1829268DB40E012B4FF5A198907DEEEA6AFC2B* G_B3_0 = NULL;
 	Action_1_t0C1829268DB40E012B4FF5A198907DEEEA6AFC2B* G_B2_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:168>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (!L_0)
@@ -8012,7 +7815,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_OnOwnershi
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:169>
 		Action_1_t0C1829268DB40E012B4FF5A198907DEEEA6AFC2B* L_1 = ((CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E_StaticFields*)il2cpp_codegen_static_fields_for(CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E_il2cpp_TypeInfo_var))->___OnOwner;
 		Action_1_t0C1829268DB40E012B4FF5A198907DEEEA6AFC2B* L_2 = L_1;
 		if (L_2)
@@ -8034,25 +7836,21 @@ IL_0012:
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:170>
 		return;
 	}
 }
-// Method Definition Index: 76272
+// Method Definition Index: 76267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Update_m035AFC53E459D04792946F1C27C3B083104D614F (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:174>
 		CharacterControllerPrediction_SetOneTimeInputs_mEA9EF7EDE2DB615CDA1152CFDA57F0CA3502F1D8(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:175>
 		return;
 	}
 }
-// Method Definition Index: 76273
+// Method Definition Index: 76268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_SetOneTimeInputs_mEA9EF7EDE2DB615CDA1152CFDA57F0CA3502F1D8 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:182>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (L_0)
@@ -8061,13 +7859,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_SetOneTime
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:183>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:186>
 		bool L_1;
 		L_1 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)32), NULL);
 		if (!L_1)
@@ -8076,40 +7872,34 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:187>
 		OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39* L_2 = (OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39*)(&__this->____oneTimeInputs);
 		L_2->___Jump = (bool)1;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:188>
 		return;
 	}
 }
-// Method Definition Index: 76274
+// Method Definition Index: 76269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_TimeManager_OnTick_m0676B38ECF7079DB5259148EF5AC7C2D7B521BA9 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:192>
 		ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 L_0;
 		L_0 = CharacterControllerPrediction_BuildMoveData_mCED3C9D9CA64C4988F618DDBE16BC4A25ED06A0A(__this, NULL);
 		CharacterControllerPrediction_PerformReplicate_mFDFB340515A73DD8B7E4A5AAA2BB7BC517FDBC71(__this, L_0, 0, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:193>
 		return;
 	}
 }
-// Method Definition Index: 76275
+// Method Definition Index: 76270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_TimeManager_OnPostTick_mD02F5656E199161E7BD1703F7CD32CB517C644D5 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:203>
 		VirtualActionInvoker0::Invoke(21, __this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:204>
 		return;
 	}
 }
-// Method Definition Index: 76276
+// Method Definition Index: 76271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 CharacterControllerPrediction_BuildMoveData_mCED3C9D9CA64C4988F618DDBE16BC4A25ED06A0A (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8125,7 +7915,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t4FA3F289800D5A2B673D96E8DF97D9
 	ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:214>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (L_0)
@@ -8134,7 +7923,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t4FA3F289800D5A2B673D96E8DF97D9
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:215>
 		il2cpp_codegen_initobj((&V_3), sizeof(ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461));
 		ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 L_1 = V_3;
 		return L_1;
@@ -8142,19 +7930,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t4FA3F289800D5A2B673D96E8DF97D9
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:217>
 		float L_2;
 		L_2 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:218>
 		float L_3;
 		L_3 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
 		V_1 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:220>
 		bool L_4;
 		L_4 = Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434(((int32_t)304), NULL);
 		V_2 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:222>
 		float L_5 = V_0;
 		float L_6 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
@@ -8165,20 +7949,17 @@ IL_0012:
 		ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 L_10;
 		memset((&L_10), 0, sizeof(L_10));
 		ReplicateData__ctor_mCB3979C183D6217575612B6B01A7FEBBC7232FA0((&L_10), L_7, L_8, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:225>
 		OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39* L_11 = (OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39*)(&__this->____oneTimeInputs);
 		OneTimeInput_ResetState_mB0AAB944F626462B3893C8B511923AA54B46EDC1(L_11, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:227>
 		return L_10;
 	}
 }
-// Method Definition Index: 76277
+// Method Definition Index: 76272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_CreateReconcile_m52D55A9A95A504FA300D2A578C4B9971CE33E2D1 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:259>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -8189,14 +7970,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_CreateReco
 		L_3 = CharacterControllerPrediction_get_Stamina_mB7D66192E38421C619C8324DA9B71384709A4D51_inline(__this, NULL);
 		MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* L_4 = __this->____currentPlatform;
 		ReconcileData__ctor_m63B47A5E7652679EC1B41A54F9079C5EB8BA4C95((&V_0), L_1, L_2, L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:260>
 		ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056 L_5 = V_0;
 		CharacterControllerPrediction_PerformReconcile_mD84148BAA93628D095857236A21B123546A07B68(__this, L_5, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:261>
 		return;
 	}
 }
-// Method Definition Index: 76278
+// Method Definition Index: 76273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_PerformReplicate_mFDFB340515A73DD8B7E4A5AAA2BB7BC517FDBC71 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 ___0_rd, uint8_t ___1_state, uint8_t ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8219,7 +7998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_PerformRep
 		return;
 	}
 }
-// Method Definition Index: 76279
+// Method Definition Index: 76274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_PerformReconcile_mD84148BAA93628D095857236A21B123546A07B68 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056 ___0_rd, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8237,7 +8016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_PerformRec
 		return;
 	}
 }
-// Method Definition Index: 76280
+// Method Definition Index: 76275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_CharacterTrigger_OnEnter_m321F1F2AA08207F0C870195363D1709570E773A1 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_c, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8248,7 +8027,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_CharacterT
 	}
 	MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:437>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_c;
 		NullCheck(L_0);
 		bool L_1;
@@ -8259,23 +8037,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_CharacterT
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:438>
 		return;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:440>
 		MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* L_2 = V_0;
 		__this->____currentPlatform = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentPlatform), (void*)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:441>
 		CharacterControllerPrediction_SetParent_m6A29A978EACD61034699DE1D6952050E47E792AF(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:442>
 		return;
 	}
 }
-// Method Definition Index: 76281
+// Method Definition Index: 76276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_CharacterTrigger_OnExit_mEBEE543067FF578EC9514D2FA6D3A359FE6A3385 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_c, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8287,7 +8061,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_CharacterT
 	}
 	MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:449>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_c;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8298,13 +8071,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_CharacterT
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:450>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:451>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___0_c;
 		NullCheck(L_2);
 		bool L_3;
@@ -8315,13 +8086,11 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:452>
 		return;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:455>
 		MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* L_4 = __this->____currentPlatform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -8332,13 +8101,11 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:456>
 		return;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:458>
 		MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* L_6 = __this->____currentPlatform;
 		MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -8350,22 +8117,18 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:459>
 		return;
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:462>
 		__this->____currentPlatform = (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentPlatform), (void*)(MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:463>
 		CharacterControllerPrediction_SetParent_m6A29A978EACD61034699DE1D6952050E47E792AF(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:464>
 		return;
 	}
 }
-// Method Definition Index: 76282
+// Method Definition Index: 76277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_SetParent_m6A29A978EACD61034699DE1D6952050E47E792AF (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8375,7 +8138,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_SetParent_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:471>
 		MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* L_0 = __this->____currentPlatform;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8386,7 +8148,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_SetParent_
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:472>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* L_3 = __this->____currentPlatform;
@@ -8400,39 +8161,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_SetParent_
 
 IL_0025:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:474>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_5);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_5, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:475>
 		return;
 	}
 }
-// Method Definition Index: 76283
+// Method Definition Index: 76278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_ModifyStamina_m0F81420F8E924D8C2A2D0DF0E2AEFBD7F73B896C (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:482>
 		float L_0;
 		L_0 = CharacterControllerPrediction_get_Stamina_mB7D66192E38421C619C8324DA9B71384709A4D51_inline(__this, NULL);
 		float L_1 = ___0_value;
 		V_0 = ((float)il2cpp_codegen_add(L_0, L_1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:483>
 		float L_2 = V_0;
 		float L_3;
 		L_3 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_2, (0.0f), (50.0f), NULL);
 		CharacterControllerPrediction_set_Stamina_m28C61A9CE8639A91E11D8A98CD76F79DA58454AB_inline(__this, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:484>
 		return;
 	}
 }
-// Method Definition Index: 76284
+// Method Definition Index: 76279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterControllerPrediction_TryRemoveStamina_m91EA8635EF823C2B27471F3A180F7F8BCB6E04C7 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:492>
 		float L_0;
 		L_0 = CharacterControllerPrediction_get_Stamina_mB7D66192E38421C619C8324DA9B71384709A4D51_inline(__this, NULL);
 		float L_1 = ___0_value;
@@ -8442,34 +8197,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterControllerPrediction_TryRemoveS
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:493>
 		return (bool)0;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:495>
 		float L_2;
 		L_2 = CharacterControllerPrediction_get_Stamina_mB7D66192E38421C619C8324DA9B71384709A4D51_inline(__this, NULL);
 		float L_3 = ___0_value;
 		CharacterControllerPrediction_set_Stamina_m28C61A9CE8639A91E11D8A98CD76F79DA58454AB_inline(__this, ((float)il2cpp_codegen_subtract(L_2, L_3)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:496>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 76285
+// Method Definition Index: 76280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction__ctor_mCA48DC2154939FB358976F12B6E1D87C522FD5E7 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:119>
 		__this->____jumpForce = (30.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:125>
 		__this->____moveRate = (4.0f);
 		TickNetworkBehaviour__ctor_m3FC7C5D879A0695B83D78CCB6A1AD48B48A623E0(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76286
+// Method Definition Index: 76281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_NetworkInitialize___Early_mD12EB7589DD34CBA4ACEBB4CACBB936F628ADD58 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8535,7 +8285,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76287
+// Method Definition Index: 76282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_NetworkInitialize___Late_m4A93A8018B63958C509DE3A1FA26142F719D7B0A (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8556,7 +8306,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76288
+// Method Definition Index: 76283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_NetworkInitializeIfDisabled_mC8BF0271AC9DFFFC9D84669AB71AD3B55481016D (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8565,7 +8315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_NetworkIni
 		return;
 	}
 }
-// Method Definition Index: 76289
+// Method Definition Index: 76284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_PerformReplicate___UL_mBCD2DC40EADCEC04EB62BB940DCC1EA9DC3D8FC3 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 ___0_rd, uint8_t ___1_state, uint8_t ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8580,16 +8330,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_PerformRep
 	memset((&V_2), 0, sizeof(V_2));
 	float V_3 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:267>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0;
 		L_0 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		NullCheck(L_0);
 		double L_1;
 		L_1 = TimeManager_get_TickDelta_mAD7B3277F6932DB2CB2B3BD99748DDF43FC73A03_inline(L_0, NULL);
 		V_0 = ((float)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:268>
 		V_1 = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:280>
 		bool L_2;
 		L_2 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		if (L_2)
@@ -8606,7 +8353,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_PerformRep
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:285>
 		uint8_t L_4 = ___1_state;
 		bool L_5;
 		L_5 = ReplicateStateExtensions_ContainsTicked_m99A6C72AC29C5AFF6347632D328A082D2722CC7C(L_4, NULL);
@@ -8616,10 +8362,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_PerformRep
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:290>
 		ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461* L_6 = (ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461*)(&__this->____lastTickedReplicateData);
 		ReplicateData_Dispose_mBD832561AB6B0FEF2A883011D56389DD1C60A83D(L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:292>
 		ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 L_7 = ___0_rd;
 		__this->____lastTickedReplicateData = L_7;
 		goto IL_0079;
@@ -8627,7 +8371,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_PerformRep
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:305>
 		uint8_t L_8 = ___1_state;
 		bool L_9;
 		L_9 = ReplicateStateExtensions_IsFuture_m50F8EBD26A18AA6C884C648CF7AB5FDB61B01CCD(L_8, NULL);
@@ -8637,7 +8380,6 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:308>
 		uint32_t L_10;
 		L_10 = ReplicateData_GetTick_m0882019BB87C4693A1ADFBD985B006C9C64AE83F_inline((&___0_rd), NULL);
 		ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461* L_11 = (ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461*)(&__this->____lastTickedReplicateData);
@@ -8649,26 +8391,21 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:310>
 		V_1 = (bool)1;
 		goto IL_0079;
 	}
 
 IL_005d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:319>
 		ReplicateData_Dispose_mBD832561AB6B0FEF2A883011D56389DD1C60A83D((&___0_rd), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:321>
 		ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 L_13 = __this->____lastTickedReplicateData;
 		___0_rd = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:328>
 		OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39* L_14 = (OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39*)(&(&___0_rd)->___OneTimeInputs);
 		L_14->___Jump = (bool)0;
 	}
 
 IL_0079:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:339>
 		bool L_15 = V_1;
 		if (!L_15)
 		{
@@ -8676,17 +8413,14 @@ IL_0079:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:350>
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), (0.0f), (-1.0f), (0.0f), NULL);
 		goto IL_0174;
 	}
 
 IL_0097:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:358>
 		float L_16 = V_0;
 		CharacterControllerPrediction_ModifyStamina_m0F81420F8E924D8C2A2D0DF0E2AEFBD7F73B896C(__this, ((float)il2cpp_codegen_multiply((25.0f), L_16)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:361>
 		float L_17 = __this->____verticalVelocity;
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
@@ -8694,7 +8428,6 @@ IL_0097:
 		float L_19 = L_18.___y;
 		float L_20 = V_0;
 		__this->____verticalVelocity = ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_19, L_20)), (3.0f)))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:363>
 		float L_21 = __this->____verticalVelocity;
 		if ((!(((float)L_21) < ((float)(-40.0f)))))
 		{
@@ -8702,18 +8435,15 @@ IL_0097:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:364>
 		__this->____verticalVelocity = (-40.0f);
 	}
 
 IL_00db:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:367>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_22 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&(&___0_rd)->___Input);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23;
 		L_23 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline(L_22, NULL);
 		(&___0_rd)->___Input = L_23;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:376>
 		ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 L_24 = ___0_rd;
 		bool L_25 = L_24.___Run;
 		if (!L_25)
@@ -8731,20 +8461,17 @@ IL_00db:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:377>
 		V_3 = (1.5f);
 		goto IL_0113;
 	}
 
 IL_010d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:379>
 		V_3 = (1.0f);
 	}
 
 IL_0113:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:385>
 		ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 L_28 = ___0_rd;
 		OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39 L_29 = L_28.___OneTimeInputs;
 		bool L_30 = L_29.___Jump;
@@ -8762,14 +8489,12 @@ IL_0113:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:386>
 		float L_32 = __this->____jumpForce;
 		__this->____verticalVelocity = L_32;
 	}
 
 IL_0139:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:388>
 		ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 L_33 = ___0_rd;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = L_33.___Input;
 		float L_35 = L_34.___x;
@@ -8784,14 +8509,12 @@ IL_0139:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
 		L_42 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_39, ((float)il2cpp_codegen_multiply(L_40, L_41)), NULL);
 		V_2 = L_42;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:390>
 		float L_43 = __this->____verticalVelocity;
 		(&V_2)->___y = L_43;
 	}
 
 IL_0174:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:393>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_44 = __this->____characterController;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_2;
 		float L_46 = V_0;
@@ -8800,49 +8523,40 @@ IL_0174:
 		NullCheck(L_44);
 		int32_t L_48;
 		L_48 = CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4(L_44, L_47, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:394>
 		return;
 	}
 }
-// Method Definition Index: 76290
+// Method Definition Index: 76285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_PerformReconcile___UL_m8F4CB7B448FFCEF56BCCEEDC4C74B840D4621583 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056 ___0_rd, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:401>
 		ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056 L_0 = ___0_rd;
 		float L_1 = L_0.___VerticalVelocity;
 		__this->____verticalVelocity = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:402>
 		ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056 L_2 = ___0_rd;
 		float L_3 = L_2.___Stamina;
 		CharacterControllerPrediction_set_Stamina_m28C61A9CE8639A91E11D8A98CD76F79DA58454AB_inline(__this, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:410>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_4 = __this->____characterController;
 		NullCheck(L_4);
 		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:420>
 		ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056 L_5 = ___0_rd;
 		MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* L_6 = L_5.___CurrentPlatform;
 		__this->____currentPlatform = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentPlatform), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:422>
 		CharacterControllerPrediction_SetParent_m6A29A978EACD61034699DE1D6952050E47E792AF(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:426>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
 		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056 L_8 = ___0_rd;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = L_8.___Position;
 		NullCheck(L_7);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_7, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:428>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_10 = __this->____characterController;
 		NullCheck(L_10);
 		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_10, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:429>
 		return;
 	}
 }
-// Method Definition Index: 76291
+// Method Definition Index: 76286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_EmptyReplicatesQueueIntoHistory_Start_m2FBC784483E362A240147E1DAA0B52FC9C1E1284 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8858,7 +8572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_EmptyRepli
 		return;
 	}
 }
-// Method Definition Index: 76292
+// Method Definition Index: 76287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Reconcile_Client_Start_m7C743B99A3D7BD60E6D4A1C656A317A507971474 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8876,7 +8590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Reconcile_
 		return;
 	}
 }
-// Method Definition Index: 76293
+// Method Definition Index: 76288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Replicate_Replay_Start_mFD31A15131FCBFA5256B112CE5692E4FE3237427 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, uint32_t ___0_replayTick0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8893,7 +8607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Replicate_
 		return;
 	}
 }
-// Method Definition Index: 76294
+// Method Definition Index: 76289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_ClearReplicateCache_mD00FFEAFA26A7094AE976690C7CB4569F52C7A6F (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8913,7 +8627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_ClearRepli
 		return;
 	}
 }
-// Method Definition Index: 76295
+// Method Definition Index: 76290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Reader_Replicate___PerformReplicate_m91E83EAEBC75179772983C3F3500FBCE976CAE11 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_NetworkConnection1, uint8_t ___2_Channel2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8933,7 +8647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Reader_Rep
 		return;
 	}
 }
-// Method Definition Index: 76296
+// Method Definition Index: 76291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Reader_Reconcile___PerformReconcile_mE1A3F5E8DDA74DD9B701B0BDA81BC5E328F923EE (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_Channel1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8949,7 +8663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Reader_Rec
 		return;
 	}
 }
-// Method Definition Index: 76297
+// Method Definition Index: 76292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Awake_UserLogic_FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_FishNet_Demos_dll_mF9456ECC5500FC1C1E170B7D83E2037B865425E8 (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8963,31 +8677,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterControllerPrediction_Awake_User
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:157>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_0;
 		L_0 = Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040(__this, Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var);
 		__this->____characterController = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____characterController), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:159>
 		NetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9* L_1;
 		L_1 = Component_GetComponentInChildren_TisNetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9_m3376247909DA82493A1BF3F84820BE4CC629B752(__this, Component_GetComponentInChildren_TisNetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9_m3376247909DA82493A1BF3F84820BE4CC629B752_RuntimeMethod_var);
 		__this->____characterTrigger = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____characterTrigger), (void*)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:160>
 		NetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9* L_2 = __this->____characterTrigger;
 		Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* L_3 = (Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B*)il2cpp_codegen_object_new(Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B_il2cpp_TypeInfo_var);
 		Action_1__ctor_m418A172390F959B212680FA280D7027AA7A628F3(L_3, __this, (intptr_t)((void*)CharacterControllerPrediction_CharacterTrigger_OnEnter_m321F1F2AA08207F0C870195363D1709570E773A1_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		NetworkCollider_add_OnEnter_mB0EAFD2FAD2E0F7C345E04116DBD84BB4C6539BF(L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:161>
 		NetworkTrigger_tC3D480DC86DC341572B69F5C89319E743A686AC9* L_4 = __this->____characterTrigger;
 		Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B* L_5 = (Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B*)il2cpp_codegen_object_new(Action_1_tD0234E34999F357F14B4BB50CB666A608A594D8B_il2cpp_TypeInfo_var);
 		Action_1__ctor_m418A172390F959B212680FA280D7027AA7A628F3(L_5, __this, (intptr_t)((void*)CharacterControllerPrediction_CharacterTrigger_OnExit_mEBEE543067FF578EC9514D2FA6D3A359FE6A3385_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		NetworkCollider_add_OnExit_mA35A63E1352018B1E6A85B5A8FA37045A40FBE90(L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:163>
 		TickNetworkBehaviour_SetTickCallbacks_mE647008CBE0BDAC72AE17A2E5C2277F54547A2A3(__this, 6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:164>
 		return;
 	}
 }
@@ -9025,13 +8733,11 @@ IL2CPP_EXTERN_C void OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39_mars
 IL2CPP_EXTERN_C void OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39_marshal_com_cleanup(OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 76298
+// Method Definition Index: 76293
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OneTimeInput_ResetState_mB0AAB944F626462B3893C8B511923AA54B46EDC1 (OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:29>
 		__this->___Jump = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:30>
 		return;
 	}
 }
@@ -9110,22 +8816,17 @@ IL2CPP_EXTERN_C void ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461_mar
 {
 	OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39_marshal_com_cleanup(marshaled.___OneTimeInputs);
 }
-// Method Definition Index: 76299
+// Method Definition Index: 76294
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReplicateData__ctor_mCB3979C183D6217575612B6B01A7FEBBC7232FA0 (ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_input, bool ___1_run, OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39 ___2_oneTimeInputs, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:37>
 		OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39 L_0 = ___2_oneTimeInputs;
 		__this->___OneTimeInputs = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:38>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_input;
 		__this->___Input = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:39>
 		bool L_2 = ___1_run;
 		__this->___Run = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:41>
 		__this->____tick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:42>
 		return;
 	}
 }
@@ -9136,14 +8837,12 @@ IL2CPP_EXTERN_C  void ReplicateData__ctor_mCB3979C183D6217575612B6B01A7FEBBC7232
 	_thisAdjusted = reinterpret_cast<ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461*>(__this + _offset);
 	ReplicateData__ctor_mCB3979C183D6217575612B6B01A7FEBBC7232FA0(_thisAdjusted, ___0_input, ___1_run, ___2_oneTimeInputs, method);
 }
-// Method Definition Index: 76300
+// Method Definition Index: 76295
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReplicateData_Dispose_mBD832561AB6B0FEF2A883011D56389DD1C60A83D (ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:63>
 		OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39* L_0 = (OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39*)(&__this->___OneTimeInputs);
 		OneTimeInput_ResetState_mB0AAB944F626462B3893C8B511923AA54B46EDC1(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:64>
 		return;
 	}
 }
@@ -9154,11 +8853,10 @@ IL2CPP_EXTERN_C  void ReplicateData_Dispose_mBD832561AB6B0FEF2A883011D56389DD1C6
 	_thisAdjusted = reinterpret_cast<ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461*>(__this + _offset);
 	ReplicateData_Dispose_mBD832561AB6B0FEF2A883011D56389DD1C60A83D(_thisAdjusted, method);
 }
-// Method Definition Index: 76301
+// Method Definition Index: 76296
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t ReplicateData_GetTick_m0882019BB87C4693A1ADFBD985B006C9C64AE83F (ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:66>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
@@ -9172,11 +8870,10 @@ IL2CPP_EXTERN_C  uint32_t ReplicateData_GetTick_m0882019BB87C4693A1ADFBD985B006C
 	_returnValue = ReplicateData_GetTick_m0882019BB87C4693A1ADFBD985B006C9C64AE83F_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76302
+// Method Definition Index: 76297
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReplicateData_SetTick_m270CC71D314DE3E606711AB750EE9BE399FE2AA7 (ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:67>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
@@ -9251,26 +8948,20 @@ IL2CPP_EXTERN_C void ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056_mar
 IL2CPP_EXTERN_C void ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056_marshal_com_cleanup(ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 76303
+// Method Definition Index: 76298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReconcileData__ctor_m63B47A5E7652679EC1B41A54F9079C5EB8BA4C95 (ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, float ___1_verticalVelocity, float ___2_stamina, MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* ___3_currentPlatform, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:74>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
 		__this->___Position = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:75>
 		float L_1 = ___1_verticalVelocity;
 		__this->___VerticalVelocity = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:76>
 		float L_2 = ___2_stamina;
 		__this->___Stamina = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:77>
 		MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* L_3 = ___3_currentPlatform;
 		__this->___CurrentPlatform = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___CurrentPlatform), (void*)L_3);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:79>
 		__this->____tick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:80>
 		return;
 	}
 }
@@ -9281,11 +8972,10 @@ IL2CPP_EXTERN_C  void ReconcileData__ctor_m63B47A5E7652679EC1B41A54F9079C5EB8BA4
 	_thisAdjusted = reinterpret_cast<ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056*>(__this + _offset);
 	ReconcileData__ctor_m63B47A5E7652679EC1B41A54F9079C5EB8BA4C95(_thisAdjusted, ___0_position, ___1_verticalVelocity, ___2_stamina, ___3_currentPlatform, method);
 }
-// Method Definition Index: 76304
+// Method Definition Index: 76299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReconcileData_Dispose_m6BC64BE19C4731EDD47403CD5565D95F136EEE0C (ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:100>
 		return;
 	}
 }
@@ -9296,11 +8986,10 @@ IL2CPP_EXTERN_C  void ReconcileData_Dispose_m6BC64BE19C4731EDD47403CD5565D95F136
 	_thisAdjusted = reinterpret_cast<ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056*>(__this + _offset);
 	ReconcileData_Dispose_m6BC64BE19C4731EDD47403CD5565D95F136EEE0C(_thisAdjusted, method);
 }
-// Method Definition Index: 76305
+// Method Definition Index: 76300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t ReconcileData_GetTick_mD9C38697E5602742C12B32CE1B83DEB4391774B4 (ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:101>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
@@ -9314,11 +9003,10 @@ IL2CPP_EXTERN_C  uint32_t ReconcileData_GetTick_mD9C38697E5602742C12B32CE1B83DEB
 	_returnValue = ReconcileData_GetTick_mD9C38697E5602742C12B32CE1B83DEB4391774B4_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76306
+// Method Definition Index: 76301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReconcileData_SetTick_m2C60FD4823B6C8EC4CB95728222E90C182831205 (ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:102>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
@@ -9339,7 +9027,7 @@ IL2CPP_EXTERN_C  void ReconcileData_SetTick_m2C60FD4823B6C8EC4CB95728222E90C1828
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76307
+// Method Definition Index: 76302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Awake_mECB0819874843058C8DBAF4F0EC83C2DB2365A8C (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9349,39 +9037,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Awake_mECB0819874843058C8
 		return;
 	}
 }
-// Method Definition Index: 76308
+// Method Definition Index: 76303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_OnStartNetwork_mB1CA80DBB5CF00103B75686217344D6A5F4DB50F (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:78>
 		TickNetworkBehaviour_SetTickCallbacks_mE647008CBE0BDAC72AE17A2E5C2277F54547A2A3(__this, 2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 76309
+// Method Definition Index: 76304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_TimeManager_OnTick_m7F3C93FC90DB964C371987A5995240C8B19AB461 (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:83>
 		il2cpp_codegen_initobj((&V_0), sizeof(ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD));
 		ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD L_0 = V_0;
 		MovingPlatform_PerformReplicate_m496CF2F8E876BACE3BAA82815DF3316F994B700E(__this, L_0, 0, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:84>
 		VirtualActionInvoker0::Invoke(21, __this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:85>
 		return;
 	}
 }
-// Method Definition Index: 76310
+// Method Definition Index: 76305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_CreateReconcile_m353C2690BEF1418DF21CB28DB17FB6FB3EDE628A (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:92>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -9389,14 +9071,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_CreateReconcile_m353C2690
 		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
 		uint8_t L_2 = __this->____goalIndex;
 		ReconcileData__ctor_mECE275ACC025941B0DBE62230A22ECBAE0490465((&V_0), L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:93>
 		ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4 L_3 = V_0;
 		MovingPlatform_PerformReconcile_m0D203364C7CA3F34A9F1EA57A2DA38810580F225(__this, L_3, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:94>
 		return;
 	}
 }
-// Method Definition Index: 76311
+// Method Definition Index: 76306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_PerformReplicate_m496CF2F8E876BACE3BAA82815DF3316F994B700E (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD ___0_rd, uint8_t ___1_state, uint8_t ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9419,7 +9099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_PerformReplicate_m496CF2F
 		return;
 	}
 }
-// Method Definition Index: 76312
+// Method Definition Index: 76307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_PerformReconcile_m0D203364C7CA3F34A9F1EA57A2DA38810580F225 (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4 ___0_rd, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9437,7 +9117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_PerformReconcile_m0D20336
 		return;
 	}
 }
-// Method Definition Index: 76313
+// Method Definition Index: 76308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform__ctor_m65B70B8CE2C6AE83B12E70C336D5F5D3274D9A6A (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9448,9 +9128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform__ctor_m65B70B8CE2C6AE83B1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:58>
 		__this->____moveRate = (4.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:66>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_0 = (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)il2cpp_codegen_object_new(List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var);
 		List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C(L_0, List_1__ctor_mC54E2BCBE43279A96FC082F5CDE2D76388BD8F9C_RuntimeMethod_var);
 		__this->____goals = L_0;
@@ -9459,7 +9137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform__ctor_m65B70B8CE2C6AE83B1
 		return;
 	}
 }
-// Method Definition Index: 76314
+// Method Definition Index: 76309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_NetworkInitialize___Early_m3E35D209B0D732A18D7CCD6E408377EDBE9F6C60 (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9525,7 +9203,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76315
+// Method Definition Index: 76310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_NetworkInitialize___Late_mDC70282369BBB17780B93BF5981C38E17F345634 (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9546,7 +9224,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76316
+// Method Definition Index: 76311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_NetworkInitializeIfDisabled_m55FE05323E828DDBC4C5C7BB5C5A16C51744A50A (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9555,7 +9233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_NetworkInitializeIfDisabl
 		return;
 	}
 }
-// Method Definition Index: 76317
+// Method Definition Index: 76312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_PerformReplicate___UL_mFC4121DD742785B97BFE01187C6F4FCBF06946EE (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD ___0_rd, uint8_t ___1_state, uint8_t ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9571,21 +9249,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_PerformReplicate___UL_mFC
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:122>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_0;
 		L_0 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		NullCheck(L_0);
 		double L_1;
 		L_1 = TimeManager_get_TickDelta_mAD7B3277F6932DB2CB2B3BD99748DDF43FC73A03_inline(L_0, NULL);
 		V_0 = ((float)L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:124>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_2 = __this->____goals;
 		uint8_t L_3 = __this->____goalIndex;
 		NullCheck(L_2);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_2, L_3, List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:125>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_5);
@@ -9597,13 +9272,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_PerformReplicate___UL_mFC
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline(L_6, L_7, ((float)il2cpp_codegen_multiply(L_8, L_9)), NULL);
 		V_2 = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:127>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
 		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_2;
 		NullCheck(L_11);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:129>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_1;
 		bool L_15;
@@ -9614,10 +9287,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_PerformReplicate___UL_mFC
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:131>
 		uint8_t L_16 = __this->____goalIndex;
 		__this->____goalIndex = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_16, 1)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:132>
 		uint8_t L_17 = __this->____goalIndex;
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_18 = __this->____goals;
 		NullCheck(L_18);
@@ -9629,36 +9300,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_PerformReplicate___UL_mFC
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:133>
 		__this->____goalIndex = (uint8_t)0;
 	}
 
 IL_0077:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:135>
 		return;
 	}
 }
-// Method Definition Index: 76318
+// Method Definition Index: 76313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_PerformReconcile___UL_m0FBBA6CD005D2C8E5A7AFCA2E94A7F2E4772A720 (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4 ___0_rd, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:140>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4 L_1 = ___0_rd;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = L_1.___Position;
 		NullCheck(L_0);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_0, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:141>
 		ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4 L_3 = ___0_rd;
 		uint8_t L_4 = L_3.___GoalIndex;
 		__this->____goalIndex = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:142>
 		return;
 	}
 }
-// Method Definition Index: 76319
+// Method Definition Index: 76314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_EmptyReplicatesQueueIntoHistory_Start_m0FC2F3FEDA7938712B283B408574E0BCCDAFDB80 (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9674,7 +9340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_EmptyReplicatesQueueIntoH
 		return;
 	}
 }
-// Method Definition Index: 76320
+// Method Definition Index: 76315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Reconcile_Client_Start_mE8E185DFBDD98DF0623B370A76C04888E948F9F0 (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9692,7 +9358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Reconcile_Client_Start_mE
 		return;
 	}
 }
-// Method Definition Index: 76321
+// Method Definition Index: 76316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Replicate_Replay_Start_m0F1855F52FFEDE1C9B1958991C294E87D9349622 (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, uint32_t ___0_replayTick0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9709,7 +9375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Replicate_Replay_Start_m0
 		return;
 	}
 }
-// Method Definition Index: 76322
+// Method Definition Index: 76317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_ClearReplicateCache_mB98611C2F3C8137D0CA1A495A38DDBBDF4D55130 (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9729,7 +9395,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_ClearReplicateCache_mB986
 		return;
 	}
 }
-// Method Definition Index: 76323
+// Method Definition Index: 76318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Reader_Replicate___PerformReplicate_m29ADAE4DD1A869B0BE2F30FB9BCAE25191364E76 (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___1_NetworkConnection1, uint8_t ___2_Channel2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9749,7 +9415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Reader_Replicate___Perfor
 		return;
 	}
 }
-// Method Definition Index: 76324
+// Method Definition Index: 76319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Reader_Reconcile___PerformReconcile_mF71A3BB272A0FBCC55B9BE80D91BC4EF8B9DEC6E (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_Channel1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9765,7 +9431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Reader_Reconcile___Perfor
 		return;
 	}
 }
-// Method Definition Index: 76325
+// Method Definition Index: 76320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Awake_UserLogic_FishNet_Demo_Prediction_CharacterControllers_MovingPlatform_FishNet_Demos_dll_m87504A3F299B804B9FB26614C3B7D452E9EFE348 (MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9777,14 +9443,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Awake_UserLogic_FishNet_D
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:71>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:72>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_2 = __this->____goals;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
@@ -9794,7 +9458,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Awake_UserLogic_FishNet_D
 		L_5 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3, L_4, NULL);
 		NullCheck(L_2);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_2, L_5, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:73>
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_6 = __this->____goals;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
@@ -9804,7 +9467,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Awake_UserLogic_FishNet_D
 		L_9 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_7, L_8, NULL);
 		NullCheck(L_6);
 		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_6, L_9, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:74>
 		return;
 	}
 }
@@ -9816,13 +9478,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovingPlatform_Awake_UserLogic_FishNet_D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76326
+// Method Definition Index: 76321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReplicateData__ctor_mDAD7D807A9853CDFD7865E7D0489024AF87E6ABE (ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD* __this, uint32_t ___0_unused, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:17>
 		__this->____tick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:18>
 		return;
 	}
 }
@@ -9833,11 +9493,10 @@ IL2CPP_EXTERN_C  void ReplicateData__ctor_mDAD7D807A9853CDFD7865E7D0489024AF87E6
 	_thisAdjusted = reinterpret_cast<ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD*>(__this + _offset);
 	ReplicateData__ctor_mDAD7D807A9853CDFD7865E7D0489024AF87E6ABE(_thisAdjusted, ___0_unused, method);
 }
-// Method Definition Index: 76327
+// Method Definition Index: 76322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReplicateData_Dispose_m17F88165AE0ADB3041D15C924B50019F73B0CBBD (ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:24>
 		return;
 	}
 }
@@ -9848,11 +9507,10 @@ IL2CPP_EXTERN_C  void ReplicateData_Dispose_m17F88165AE0ADB3041D15C924B50019F73B
 	_thisAdjusted = reinterpret_cast<ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD*>(__this + _offset);
 	ReplicateData_Dispose_m17F88165AE0ADB3041D15C924B50019F73B0CBBD(_thisAdjusted, method);
 }
-// Method Definition Index: 76328
+// Method Definition Index: 76323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t ReplicateData_GetTick_mCEDC472206FB45E1710A3702923224EB4DBF29E2 (ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:25>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
@@ -9866,11 +9524,10 @@ IL2CPP_EXTERN_C  uint32_t ReplicateData_GetTick_mCEDC472206FB45E1710A3702923224E
 	_returnValue = ReplicateData_GetTick_mCEDC472206FB45E1710A3702923224EB4DBF29E2_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76329
+// Method Definition Index: 76324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReplicateData_SetTick_m42D0F2937D2E20C851E129618681538346E4663B (ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:26>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
@@ -9891,19 +9548,15 @@ IL2CPP_EXTERN_C  void ReplicateData_SetTick_m42D0F2937D2E20C851E129618681538346E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76330
+// Method Definition Index: 76325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReconcileData__ctor_mECE275ACC025941B0DBE62230A22ECBAE0490465 (ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, uint8_t ___1_goalIndex, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:33>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
 		__this->___Position = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:34>
 		uint8_t L_1 = ___1_goalIndex;
 		__this->___GoalIndex = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:35>
 		__this->____tick = 0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:36>
 		return;
 	}
 }
@@ -9914,11 +9567,10 @@ IL2CPP_EXTERN_C  void ReconcileData__ctor_mECE275ACC025941B0DBE62230A22ECBAE0490
 	_thisAdjusted = reinterpret_cast<ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4*>(__this + _offset);
 	ReconcileData__ctor_mECE275ACC025941B0DBE62230A22ECBAE0490465(_thisAdjusted, ___0_position, ___1_goalIndex, method);
 }
-// Method Definition Index: 76331
+// Method Definition Index: 76326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReconcileData_Dispose_mEC292C20046F6DFBF5BF25E51111E102F7AF0BAF (ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:51>
 		return;
 	}
 }
@@ -9929,11 +9581,10 @@ IL2CPP_EXTERN_C  void ReconcileData_Dispose_mEC292C20046F6DFBF5BF25E51111E102F7A
 	_thisAdjusted = reinterpret_cast<ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4*>(__this + _offset);
 	ReconcileData_Dispose_mEC292C20046F6DFBF5BF25E51111E102F7AF0BAF(_thisAdjusted, method);
 }
-// Method Definition Index: 76332
+// Method Definition Index: 76327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t ReconcileData_GetTick_m6263FC4AD45E83840FD2F70F67724FFC87D2BA92 (ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:52>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
@@ -9947,11 +9598,10 @@ IL2CPP_EXTERN_C  uint32_t ReconcileData_GetTick_m6263FC4AD45E83840FD2F70F67724FF
 	_returnValue = ReconcileData_GetTick_m6263FC4AD45E83840FD2F70F67724FFC87D2BA92_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 76333
+// Method Definition Index: 76328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReconcileData_SetTick_m28924142D81BB3C53DC0F15C66ACF97A1F061181 (ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:53>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
@@ -9972,15 +9622,14 @@ IL2CPP_EXTERN_C  void ReconcileData_SetTick_m28924142D81BB3C53DC0F15C66ACF97A1F0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76334
+// Method Definition Index: 76329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float GridSpawner_get__range_mA3571A73C5F1094325C8F5152FDB5EC2C3CF62E5 (GridSpawner_tF19D9F322B68085A72CE153B89E78CACB4BC3B44* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:16>
 		return (25.0f);
 	}
 }
-// Method Definition Index: 76335
+// Method Definition Index: 76330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridSpawner_OnStartServer_m997E569F5B01F8A701B3FFEE06CA6E84AB91FA52 (GridSpawner_tF19D9F322B68085A72CE153B89E78CACB4BC3B44* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9998,7 +9647,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridSpawner_OnStartServer_m997E569F5B01F
 	int32_t V_4 = 0;
 	NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* V_5 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:20>
 		float L_0;
 		L_0 = GridSpawner_get__range_mA3571A73C5F1094325C8F5152FDB5EC2C3CF62E5(__this, NULL);
 		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_0, (-1.0f))));
@@ -10007,7 +9655,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridSpawner_OnStartServer_m997E569F5B01F
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:22>
 		float L_1;
 		L_1 = GridSpawner_get__range_mA3571A73C5F1094325C8F5152FDB5EC2C3CF62E5(__this, NULL);
 		V_1 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_1, (-1.0f))));
@@ -10016,7 +9663,6 @@ IL_0010:
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:24>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_2 = __this->____staticPrefab;
 		int32_t L_3 = V_0;
 		int32_t L_4 = V_1;
@@ -10035,19 +9681,16 @@ IL_0020:
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_10;
 		L_10 = Object_Instantiate_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m21D73E09041190F9C1F6E74FFC6287D5EC4FB8AF(L_2, L_8, L_9, Object_Instantiate_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m21D73E09041190F9C1F6E74FFC6287D5EC4FB8AF_RuntimeMethod_var);
 		V_2 = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:25>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_11 = V_2;
 		il2cpp_codegen_initobj((&V_3), sizeof(Scene_tA1DC762B79745EB5140F054C884855B922318356));
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_12 = V_3;
 		NetworkBehaviour_Spawn_m7210938ECAD47A19C3D82F37EB07605101F68553(__this, L_11, (NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C*)NULL, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:22>
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_005f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:22>
 		int32_t L_14 = V_1;
 		float L_15;
 		L_15 = GridSpawner_get__range_mA3571A73C5F1094325C8F5152FDB5EC2C3CF62E5(__this, NULL);
@@ -10057,7 +9700,6 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:20>
 		int32_t L_16 = V_0;
 		uint8_t L_17 = __this->____spacing;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_16, (int32_t)L_17));
@@ -10065,7 +9707,6 @@ IL_005f:
 
 IL_0072:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:20>
 		int32_t L_18 = V_0;
 		float L_19;
 		L_19 = GridSpawner_get__range_mA3571A73C5F1094325C8F5152FDB5EC2C3CF62E5(__this, NULL);
@@ -10075,14 +9716,12 @@ IL_0072:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:29>
 		V_4 = 0;
 		goto IL_00bc;
 	}
 
 IL_0081:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:31>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_20 = __this->____movingPrefab;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
 		L_21 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -10098,19 +9737,16 @@ IL_0081:
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_25;
 		L_25 = Object_Instantiate_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m21D73E09041190F9C1F6E74FFC6287D5EC4FB8AF(L_20, L_22, L_24, Object_Instantiate_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m21D73E09041190F9C1F6E74FFC6287D5EC4FB8AF_RuntimeMethod_var);
 		V_5 = L_25;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:32>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_26 = V_5;
 		il2cpp_codegen_initobj((&V_3), sizeof(Scene_tA1DC762B79745EB5140F054C884855B922318356));
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_27 = V_3;
 		NetworkBehaviour_Spawn_m7210938ECAD47A19C3D82F37EB07605101F68553(__this, L_26, (NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C*)NULL, L_27, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:29>
 		int32_t L_28 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_28, 1));
 	}
 
 IL_00bc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:29>
 		int32_t L_29 = V_4;
 		int32_t L_30 = __this->____movingCount;
 		if ((((int32_t)L_29) < ((int32_t)L_30)))
@@ -10119,11 +9755,10 @@ IL_00bc:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 76336
+// Method Definition Index: 76331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridSpawner__ctor_m25199FDA4DF6FAF650CE8F0FA33B03636E2C0623 (GridSpawner_tF19D9F322B68085A72CE153B89E78CACB4BC3B44* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10133,16 +9768,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridSpawner__ctor_m25199FDA4DF6FAF650CE8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:13>
 		__this->____movingCount = ((int32_t)100);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/GridSpawner.cs:15>
 		__this->____spacing = (uint8_t)2;
 		il2cpp_codegen_runtime_class_init_inline(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F_il2cpp_TypeInfo_var);
 		NetworkBehaviour__ctor_m97641A3DBD926AA90E244C75CA2DCA48E877377E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76337
+// Method Definition Index: 76332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridSpawner_NetworkInitialize___Early_m53D33AF48D6123875AAA615D17A43DCB5B5F5BF6 (GridSpawner_tF19D9F322B68085A72CE153B89E78CACB4BC3B44* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10163,7 +9796,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76338
+// Method Definition Index: 76333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridSpawner_NetworkInitialize___Late_mF792CF7FC6205AABA660FCFEB974417CF083FF7D (GridSpawner_tF19D9F322B68085A72CE153B89E78CACB4BC3B44* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10184,7 +9817,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76339
+// Method Definition Index: 76334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridSpawner_NetworkInitializeIfDisabled_m9D9A2B1D5395258F0565996E137318AF247F898A (GridSpawner_tF19D9F322B68085A72CE153B89E78CACB4BC3B44* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10193,7 +9826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridSpawner_NetworkInitializeIfDisabled_
 		return;
 	}
 }
-// Method Definition Index: 76340
+// Method Definition Index: 76335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridSpawner_Awake_mD228775D74030B4684CDA2C81ADC622CB484104B (GridSpawner_tF19D9F322B68085A72CE153B89E78CACB4BC3B44* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10210,11 +9843,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GridSpawner_Awake_mD228775D74030B4684CDA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76341
+// Method Definition Index: 76336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_Update_mE91FE45EBA0086EA7F48A990908C142E5F3E0B94 (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:23>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsController_mB5B23244C080277D85C6DA6631CE7EEC9051D757(__this, NULL);
 		if (L_0)
@@ -10223,13 +9855,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_Update_mE91FE45EBA0086EA7F4
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:24>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:26>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
@@ -10245,7 +9875,6 @@ IL_0009:
 		L_7 = Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline(L_3, L_4, ((float)il2cpp_codegen_multiply(L_5, L_6)), NULL);
 		NullCheck(L_1);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_1, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:27>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
 		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_8);
@@ -10260,38 +9889,32 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:28>
 		MoveRandomly_RandomizeGoal_mB678D5677ED2AB129ED0F82BF409970CBA522953(__this, NULL);
 	}
 
 IL_0054:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 76342
+// Method Definition Index: 76337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStartNetwork_m3079D3616A03FAE4332B5C2817C0A89E50EBE8DD (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:33>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
 		__this->____start = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:34>
 		MoveRandomly_RandomizeGoal_mB678D5677ED2AB129ED0F82BF409970CBA522953(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 76343
+// Method Definition Index: 76338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStartServer_m743B9885442A0EA41E57AB88664AF5EBC0C137CC (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:39>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_0;
 		L_0 = NetworkBehaviour_get_Owner_m8CA2A8A2D757CACD11B2D06DC06D244A2994EB05(__this, NULL);
 		NullCheck(L_0);
@@ -10303,7 +9926,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStartServer_m743B9885442A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:40>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->____start;
@@ -10317,15 +9939,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStartServer_m743B9885442A
 
 IL_0029:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:41>
 		return;
 	}
 }
-// Method Definition Index: 76344
+// Method Definition Index: 76339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStartClient_mA102693EC52968D62B6E64F0B6757AE68C49099D (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:45>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_0;
 		L_0 = NetworkBehaviour_get_Owner_m8CA2A8A2D757CACD11B2D06DC06D244A2994EB05(__this, NULL);
 		NullCheck(L_0);
@@ -10337,7 +9957,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStartClient_mA102693EC529
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:47>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_2 = __this->____renderer;
 		NullCheck(L_2);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
@@ -10346,10 +9965,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStartClient_mA102693EC529
 		L_4 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
 		NullCheck(L_3);
 		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:48>
 		float L_5 = __this->____moveRate;
 		__this->____moveRate = ((float)il2cpp_codegen_multiply(L_5, (3.0f)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:49>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = L_6;
@@ -10363,10 +9980,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStartClient_mA102693EC529
 		L_10 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_8, L_9, NULL);
 		NullCheck(L_7);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_7, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:50>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_11;
 		L_11 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:51>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_12 = L_11;
 		NullCheck(L_12);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
@@ -10375,7 +9990,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStartClient_mA102693EC529
 		L_14 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_13);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_13, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:52>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_15 = L_12;
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
@@ -10384,7 +9998,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStartClient_mA102693EC529
 		L_17 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		NullCheck(L_16);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_16, L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:53>
 		NullCheck(L_15);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
 		L_18 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_15, NULL);
@@ -10398,7 +10011,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStartClient_mA102693EC529
 
 IL_00a6:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:57>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_20 = __this->____renderer;
 		NullCheck(L_20);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_21;
@@ -10407,11 +10019,10 @@ IL_00a6:
 		L_22 = Color_get_gray_m6D01087E0F20F34718EBA5B213853B4BB49F1DEF(NULL);
 		NullCheck(L_21);
 		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_21, L_22, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:59>
 		return;
 	}
 }
-// Method Definition Index: 76345
+// Method Definition Index: 76340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStopClient_m7A8B93DCF8493883500F6F2E5B02088B726CB017 (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10422,7 +10033,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStopClient_m7A8B93DCF8493
 	}
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:63>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (!L_0)
@@ -10431,11 +10041,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStopClient_m7A8B93DCF8493
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:65>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1;
 		L_1 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:66>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -10446,14 +10054,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStopClient_m7A8B93DCF8493
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:68>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4 = V_0;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_4, NULL);
 		NullCheck(L_5);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_5, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:69>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6 = V_0;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -10466,38 +10072,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_OnStopClient_m7A8B93DCF8493
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 76346
+// Method Definition Index: 76341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_RandomizeGoal_mB678D5677ED2AB129ED0F82BF409970CBA522953 (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:76>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = __this->____start;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = MoveRandomly_RandomInsideRange_m42A586A7595F29F7CB28BD8852F44ACC389CA1C3(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_0, L_1, NULL);
 		__this->____goal = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:77>
 		return;
 	}
 }
-// Method Definition Index: 76347
+// Method Definition Index: 76342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MoveRandomly_RandomInsideRange_m42A586A7595F29F7CB28BD8852F44ACC389CA1C3 (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:81>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Random_get_insideUnitSphere_mA488D6859560B73565B8D890ED6B39DB4091C54F(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_0, (25.0f), NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:82>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_2);
@@ -10505,12 +10106,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
 		float L_4 = L_3.___z;
 		(&V_0)->___z = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:83>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
 		return L_5;
 	}
 }
-// Method Definition Index: 76348
+// Method Definition Index: 76343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly__ctor_m18818A399F5B3BE1B7493293204FEA7D73D4FBB0 (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10520,14 +10120,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly__ctor_m18818A399F5B3BE1B749
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/HashGrid/Scripts/MoveRandomly.cs:13>
 		__this->____moveRate = (0.5f);
 		il2cpp_codegen_runtime_class_init_inline(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F_il2cpp_TypeInfo_var);
 		NetworkBehaviour__ctor_m97641A3DBD926AA90E244C75CA2DCA48E877377E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76349
+// Method Definition Index: 76344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_NetworkInitialize___Early_m9A2894BA09167998EE919572AFC98A563B135EF5 (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10548,7 +10147,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76350
+// Method Definition Index: 76345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_NetworkInitialize___Late_mFDD72AF7B27FB687C22B55C4A665EACE130066BC (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10569,7 +10168,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76351
+// Method Definition Index: 76346
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_NetworkInitializeIfDisabled_m1FB536EF462D3AE9AA34BDB999C0352D1D02E3A8 (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10578,7 +10177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_NetworkInitializeIfDisabled
 		return;
 	}
 }
-// Method Definition Index: 76352
+// Method Definition Index: 76347
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_Awake_m8B7ECB9A54A2C5F32A3EF56E516A934C95D67D8C (MoveRandomly_t2720B2D6A2B6EE8D734F6D46873581568451B359* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10595,7 +10194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomly_Awake_m8B7ECB9A54A2C5F32A3E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76353
+// Method Definition Index: 76348
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_OnStartNetwork_m6E6341A91AF8C99F98B00F0A22B1ADE3CE32208C (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10605,7 +10204,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_OnStartNetwork_m6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:64>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		if (L_0)
@@ -10625,9 +10223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_OnStartNetwork_m6
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:66>
 		TickNetworkBehaviour_SetTickCallbacks_mE647008CBE0BDAC72AE17A2E5C2277F54547A2A3(__this, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:67>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(__this, NULL);
 		return;
@@ -10635,7 +10231,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_OnStartNetwork_m6
 
 IL_0023:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:71>
 		bool L_3 = __this->____moveInUpdate;
 		if (!L_3)
 		{
@@ -10643,24 +10238,20 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:72>
 		TickNetworkBehaviour_SetTickCallbacks_mE647008CBE0BDAC72AE17A2E5C2277F54547A2A3(__this, 8, NULL);
 		return;
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:74>
 		TickNetworkBehaviour_SetTickCallbacks_mE647008CBE0BDAC72AE17A2E5C2277F54547A2A3(__this, 2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:76>
 		return;
 	}
 }
-// Method Definition Index: 76354
+// Method Definition Index: 76349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_TimeManager_OnUpdate_m7AC7B9ECCC30A019661E0ECC9BFD497F45A779E5 (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:80>
 		bool L_0 = __this->____moveInUpdate;
 		if (!L_0)
 		{
@@ -10668,7 +10259,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_TimeManager_OnUpd
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:81>
 		float L_1;
 		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		MoveRandomlyNonPhysics_Move_m38E8FAD69A9710FE1736E5B6B41E780AFB2F5D7F(__this, L_1, NULL);
@@ -10676,16 +10266,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_TimeManager_OnUpd
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 76355
+// Method Definition Index: 76350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_TimeManager_OnTick_m9D4B50539147EBDCA5DED774716FB0C8FACF5671 (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:86>
 		bool L_0 = __this->____moveInUpdate;
 		if (L_0)
 		{
@@ -10693,29 +10281,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_TimeManager_OnTic
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:88>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_1;
 		L_1 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		NullCheck(L_1);
 		double L_2;
 		L_2 = TimeManager_get_TickDelta_mAD7B3277F6932DB2CB2B3BD99748DDF43FC73A03_inline(L_1, NULL);
 		V_0 = ((float)L_2);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:89>
 		float L_3 = V_0;
 		MoveRandomlyNonPhysics_Move_m38E8FAD69A9710FE1736E5B6B41E780AFB2F5D7F(__this, L_3, NULL);
 	}
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:91>
 		return;
 	}
 }
-// Method Definition Index: 76356
+// Method Definition Index: 76351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_Move_m38E8FAD69A9710FE1736E5B6B41E780AFB2F5D7F (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, float ___0_delta, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:95>
 		bool L_0 = __this->____isActive;
 		if (L_0)
 		{
@@ -10723,13 +10307,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_Move_m38E8FAD69A9
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:96>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:97>
 		bool L_1;
 		L_1 = NetworkBehaviour_get_IsController_mB5B23244C080277D85C6DA6631CE7EEC9051D757(__this, NULL);
 		if (L_1)
@@ -10738,13 +10320,11 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:98>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:99>
 		float L_2;
 		L_2 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_3 = __this->____nextMoveTime;
@@ -10754,13 +10334,11 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:100>
 		return;
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:102>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -10775,7 +10353,6 @@ IL_0020:
 		L_10 = Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline(L_6, L_7, ((float)il2cpp_codegen_multiply(L_8, L_9)), NULL);
 		NullCheck(L_4);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_4, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:103>
 		bool L_11 = __this->____is2d;
 		if (L_11)
 		{
@@ -10783,7 +10360,6 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:104>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
@@ -10803,7 +10379,6 @@ IL_0020:
 
 IL_007c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:106>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
 		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = __this->____goalRotation;
@@ -10813,7 +10388,6 @@ IL_007c:
 
 IL_008d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:108>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
 		L_21 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_21);
@@ -10828,41 +10402,34 @@ IL_008d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:109>
 		MoveRandomlyNonPhysics_SetNextGoal_m2970E3E1F308559A59B25C2468F53619A0FAF96C(__this, NULL);
 	}
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:110>
 		return;
 	}
 }
-// Method Definition Index: 76357
+// Method Definition Index: 76352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_OnStartServer_m1BA22B7E69E9F426957AC11013DAA54637C55C76 (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:114>
 		MoveRandomlyNonPhysics_TrySetFirstGoal_mF003944896317E4F7289DE2DCB723B2E23D6C814(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:115>
 		return;
 	}
 }
-// Method Definition Index: 76358
+// Method Definition Index: 76353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_OnStartClient_mD9550C7BBDF2331A218800930AA586069B998263 (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:119>
 		MoveRandomlyNonPhysics_TrySetFirstGoal_mF003944896317E4F7289DE2DCB723B2E23D6C814(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:120>
 		return;
 	}
 }
-// Method Definition Index: 76359
+// Method Definition Index: 76354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_TrySetFirstGoal_mF003944896317E4F7289DE2DCB723B2E23D6C814 (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:124>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsController_mB5B23244C080277D85C6DA6631CE7EEC9051D757(__this, NULL);
 		if (L_0)
@@ -10871,37 +10438,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_TrySetFirstGoal_m
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:125>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:127>
 		MoveRandomlyNonPhysics_SetNextGoal_m2970E3E1F308559A59B25C2468F53619A0FAF96C(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:129>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->____goalPosition;
 		NullCheck(L_1);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_1, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:130>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = __this->____goalRotation;
 		NullCheck(L_3);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:132>
 		__this->____nextMoveTime = (-(std::numeric_limits<float>::max)());
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:133>
 		return;
 	}
 }
-// Method Definition Index: 76360
+// Method Definition Index: 76355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_SetNextGoal_m2970E3E1F308559A59B25C2468F53619A0FAF96C (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:137>
 		bool L_0 = __this->____randomMovement;
 		if (!L_0)
 		{
@@ -10909,29 +10469,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_SetNextGoal_m2970
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:138>
 		MoveRandomlyNonPhysics_U3CSetNextGoalU3Eg__SetRandomGoalU7C26_1_m662CE5A198248EC9CCB88F6B80C2A707308A04F1(__this, NULL);
 		goto IL_0016;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:140>
 		MoveRandomlyNonPhysics_U3CSetNextGoalU3Eg__SetSpecifiedGoalU7C26_0_mE14508EA549726FDBC0A4BB7CC1D8E7ED9AF2784(__this, NULL);
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:142>
 		float L_1;
 		L_1 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_2 = __this->____delayBetweenMovements;
 		__this->____nextMoveTime = ((float)il2cpp_codegen_add(L_1, L_2));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:205>
 		return;
 	}
 }
-// Method Definition Index: 76361
+// Method Definition Index: 76356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics__ctor_mD800BCA58CD01678D150594F7C113B613288DDCD (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10942,36 +10498,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics__ctor_mD800BCA58C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:19>
 		__this->____isActive = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:25>
 		__this->____axes = (uint8_t)3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:28>
 		__this->____chancePerAxes = (0.800000012f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:31>
 		__this->____rotationChance = (0.330000013f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:35>
 		__this->____delayBetweenMovements = (1.5f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:39>
 		__this->____randomMovement = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:41>
 		List_1_tDA2550A540AB84155C3B6D8EE5396C4547D84225* L_0 = (List_1_tDA2550A540AB84155C3B6D8EE5396C4547D84225*)il2cpp_codegen_object_new(List_1_tDA2550A540AB84155C3B6D8EE5396C4547D84225_il2cpp_TypeInfo_var);
 		List_1__ctor_mE898276697951CD63A7C7B907CABBCFC8EEB0AAB(L_0, List_1__ctor_mE898276697951CD63A7C7B907CABBCFC8EEB0AAB_RuntimeMethod_var);
 		__this->____goalDatas = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____goalDatas), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:46>
 		__this->____moveRate = (3.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:49>
 		__this->____rotateRate = (30.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:52>
 		__this->____range = (6.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:60>
 		__this->____nextMoveTime = (-(std::numeric_limits<float>::max)());
 		TickNetworkBehaviour__ctor_m3FC7C5D879A0695B83D78CCB6A1AD48B48A623E0(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76362
+// Method Definition Index: 76357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_U3CSetNextGoalU3Eg__SetSpecifiedGoalU7C26_0_mE14508EA549726FDBC0A4BB7CC1D8E7ED9AF2784 (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10983,7 +10528,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_U3CSetNextGoalU3E
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:146>
 		List_1_tDA2550A540AB84155C3B6D8EE5396C4547D84225* L_0 = __this->____goalDatas;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -10994,13 +10538,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_U3CSetNextGoalU3E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:147>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:149>
 		int32_t L_2 = __this->____nextGoalDataIndex;
 		List_1_tDA2550A540AB84155C3B6D8EE5396C4547D84225* L_3 = __this->____goalDatas;
 		NullCheck(L_3);
@@ -11012,19 +10554,15 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:150>
 		__this->____nextGoalDataIndex = 0;
 	}
 
 IL_0028:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:152>
 		int32_t L_5 = __this->____nextGoalDataIndex;
 		V_0 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:153>
 		int32_t L_6 = __this->____nextGoalDataIndex;
 		__this->____nextGoalDataIndex = ((int32_t)il2cpp_codegen_add(L_6, 1));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:155>
 		List_1_tDA2550A540AB84155C3B6D8EE5396C4547D84225* L_7 = __this->____goalDatas;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
@@ -11032,7 +10570,6 @@ IL_0028:
 		L_9 = List_1_get_Item_mC66EFB27D844770B2826079F4FF758E277BAC0D1(L_7, L_8, List_1_get_Item_mC66EFB27D844770B2826079F4FF758E277BAC0D1_RuntimeMethod_var);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = L_9.___Position;
 		__this->____goalPosition = L_10;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:156>
 		List_1_tDA2550A540AB84155C3B6D8EE5396C4547D84225* L_11 = __this->____goalDatas;
 		int32_t L_12 = V_0;
 		NullCheck(L_11);
@@ -11042,11 +10579,10 @@ IL_0028:
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15;
 		L_15 = Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline(L_14, NULL);
 		__this->____goalRotation = L_15;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:157>
 		return;
 	}
 }
-// Method Definition Index: 76363
+// Method Definition Index: 76358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_U3CSetNextGoalU3Eg__SetRandomGoalU7C26_1_m662CE5A198248EC9CCB88F6B80C2A707308A04F1 (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -11058,7 +10594,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_U3CSetNextGoalU3E
 	float V_3 = 0.0f;
 	float G_B20_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:161>
 		uint8_t L_0 = __this->____axes;
 		if ((((int32_t)L_0) <= ((int32_t)0)))
 		{
@@ -11066,21 +10601,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_U3CSetNextGoalU3E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:163>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Random_get_insideUnitSphere_mA488D6859560B73565B8D890ED6B39DB4091C54F(NULL);
 		float L_2 = __this->____range;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:164>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_4);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
 		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:166>
 		uint8_t L_6 = __this->____axes;
 		if ((((int32_t)L_6) < ((int32_t)1)))
 		{
@@ -11096,7 +10628,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_U3CSetNextGoalU3E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:167>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_0;
 		float L_9 = L_8.___x;
 		(&V_1)->___x = L_9;
@@ -11104,7 +10635,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_U3CSetNextGoalU3E
 
 IL_0047:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:168>
 		uint8_t L_10 = __this->____axes;
 		if ((((int32_t)L_10) < ((int32_t)2)))
 		{
@@ -11120,7 +10650,6 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:169>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
 		float L_13 = L_12.___y;
 		(&V_1)->___y = L_13;
@@ -11128,7 +10657,6 @@ IL_0047:
 
 IL_0065:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:170>
 		uint8_t L_14 = __this->____axes;
 		if ((((int32_t)L_14) < ((int32_t)3)))
 		{
@@ -11144,7 +10672,6 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:171>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_0;
 		float L_17 = L_16.___z;
 		(&V_1)->___z = L_17;
@@ -11152,7 +10679,6 @@ IL_0065:
 
 IL_0083:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:174>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
 		L_19 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -11167,7 +10693,6 @@ IL_0083:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:175>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_0;
 		float L_23 = L_22.___x;
 		(&V_1)->___x = L_23;
@@ -11175,14 +10700,12 @@ IL_0083:
 
 IL_00a3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:179>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_1;
 		__this->____goalPosition = L_24;
 	}
 
 IL_00aa:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:182>
 		float L_25 = __this->____rotationChance;
 		if ((!(((float)L_25) > ((float)(0.0f)))))
 		{
@@ -11190,7 +10713,6 @@ IL_00aa:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:184>
 		float L_26;
 		L_26 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.0f), (1.0f), NULL);
 		float L_27 = __this->____rotationChance;
@@ -11200,7 +10722,6 @@ IL_00aa:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:187>
 		bool L_28 = __this->____is2d;
 		if (L_28)
 		{
@@ -11208,7 +10729,6 @@ IL_00aa:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:189>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
 		L_29 = Random_get_insideUnitSphere_mA488D6859560B73565B8D890ED6B39DB4091C54F(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30;
@@ -11219,7 +10739,6 @@ IL_00aa:
 
 IL_00eb:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:193>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
 		L_31 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_31);
@@ -11244,14 +10763,12 @@ IL_0109:
 IL_010e:
 	{
 		V_3 = G_B20_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:194>
 		float L_34 = V_3;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_2), (0.0f), L_34, (0.0f), NULL);
 	}
 
 IL_0121:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:197>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_2;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36;
 		L_36 = Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline(L_35, NULL);
@@ -11261,7 +10778,6 @@ IL_0121:
 
 IL_012e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:201>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
 		L_37 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_37);
@@ -11272,22 +10788,20 @@ IL_012e:
 
 IL_013f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:204>
 		return;
 	}
 }
-// Method Definition Index: 76364
+// Method Definition Index: 76359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MoveRandomlyNonPhysics_U3CSetNextGoalU3Eg__RandomizeAxesU7C26_2_mB1A4446EFF84261C42196A86C7370544022E8426 (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyNonPhysics.cs:177>
 		float L_0;
 		L_0 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.0f), (1.0f), NULL);
 		float L_1 = __this->____chancePerAxes;
 		return (bool)((((int32_t)((!(((float)L_0) <= ((float)L_1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 76365
+// Method Definition Index: 76360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_NetworkInitialize___Early_m0D29B7545EE6D19074C0F3A152295B010B9FD170 (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11308,7 +10822,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76366
+// Method Definition Index: 76361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_NetworkInitialize___Late_mFD26F395BD6ADC77AA5F7CB0F1ECB71F02AC74CB (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11329,7 +10843,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76367
+// Method Definition Index: 76362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_NetworkInitializeIfDisabled_m5C5E2AB253B632F5FF5CE0C3A82F9F26B52810D7 (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11338,7 +10852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_NetworkInitialize
 		return;
 	}
 }
-// Method Definition Index: 76368
+// Method Definition Index: 76363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_Awake_m74B4CA23300FC7C1D34F11D9B5C7202525506614 (MoveRandomlyNonPhysics_tA5635CE4487F3EF4FC0C7EFAC56BE1B7C8F7AFC3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11364,7 +10878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyNonPhysics_Awake_m74B4CA2330
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76369
+// Method Definition Index: 76364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_Awake_m9745C5A735C61D4BB1347CC6AA723D2673A184ED (MoveRandomlyPhysics_t03AB1FB0F0248A5AED71102D9EE2FD3DBD8404FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11374,7 +10888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_Awake_m9745C5A735C61
 		return;
 	}
 }
-// Method Definition Index: 76370
+// Method Definition Index: 76365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_OnStartNetwork_m5D40BC31A54BCEF1FF95308C050F83CD1B05A5B5 (MoveRandomlyPhysics_t03AB1FB0F0248A5AED71102D9EE2FD3DBD8404FD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11384,7 +10898,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_OnStartNetwork_m5D40
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:33>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		if (L_0)
@@ -11393,13 +10906,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_OnStartNetwork_m5D40
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:35>
 		TickNetworkBehaviour_SetTickCallbacks_mE647008CBE0BDAC72AE17A2E5C2277F54547A2A3(__this, 0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:36>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_1 = __this->____rigidbody;
 		NullCheck(L_1);
 		Rigidbody_set_isKinematic_m6C3FD3EA358DADA3B191F2449CF1C4F8B22695ED(L_1, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:37>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(__this, NULL);
 		return;
@@ -11407,23 +10917,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_OnStartNetwork_m5D40
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:41>
 		TickNetworkBehaviour_SetTickCallbacks_mE647008CBE0BDAC72AE17A2E5C2277F54547A2A3(__this, 2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 76371
+// Method Definition Index: 76366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_TimeManager_OnTick_mDBD3C631581B43ED3BD67EB62FEA6B8645D5589B (MoveRandomlyPhysics_t03AB1FB0F0248A5AED71102D9EE2FD3DBD8404FD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:47>
 		MoveRandomlyPhysics_Move_m6893AFC7F5AC48F9F3F065493AB61980446B10BB(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 76372
+// Method Definition Index: 76367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_Move_m6893AFC7F5AC48F9F3F065493AB61980446B10BB (MoveRandomlyPhysics_t03AB1FB0F0248A5AED71102D9EE2FD3DBD8404FD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11436,7 +10942,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_Move_m6893AFC7F5AC48
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:52>
 		bool L_0 = __this->____isActive;
 		if (L_0)
 		{
@@ -11444,20 +10949,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_Move_m6893AFC7F5AC48
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:53>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:55>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_1;
 		L_1 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		NullCheck(L_1);
 		uint32_t L_2;
 		L_2 = TimeManager_get_LocalTick_m33B90F5CF081E02D356737AB650141634B970275(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:56>
 		uint32_t L_3 = V_0;
 		uint32_t L_4 = __this->____nextForceTick;
 		if ((!(((uint32_t)L_3) < ((uint32_t)L_4))))
@@ -11466,13 +10968,11 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:57>
 		return;
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:59>
 		uint32_t L_5 = V_0;
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_6;
 		L_6 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
@@ -11483,14 +10983,12 @@ IL_001f:
 		uint32_t L_9;
 		L_9 = TimeManager_TimeToTicks_m1E4D9A685FAEA0FE7768E73EB0EC1A07420B4853(L_6, ((double)L_8), 0, NULL);
 		__this->____nextForceTick = ((int32_t)il2cpp_codegen_add((int32_t)L_5, (int32_t)L_9));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:61>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Random_get_insideUnitSphere_mA488D6859560B73565B8D890ED6B39DB4091C54F(NULL);
 		float L_11 = __this->____force;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_10, L_11, NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:64>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
 		float L_14 = L_13.___x;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
@@ -11510,7 +11008,6 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:65>
 		float* L_20 = (float*)(&(&V_1)->___x);
 		float* L_21 = L_20;
 		float L_22 = *((float*)L_21);
@@ -11519,10 +11016,8 @@ IL_001f:
 
 IL_0082:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:66>
 		float L_23 = __this->____force;
 		(&V_1)->___y = L_23;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:67>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_1;
 		float L_25 = L_24.___z;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
@@ -11542,7 +11037,6 @@ IL_0082:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:68>
 		float* L_31 = (float*)(&(&V_1)->___z);
 		float* L_32 = L_31;
 		float L_33 = *((float*)L_32);
@@ -11551,24 +11045,19 @@ IL_0082:
 
 IL_00c1:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:70>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_34 = __this->____rigidbody;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_1;
 		NullCheck(L_34);
 		Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC(L_34, L_35, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:71>
 		return;
 	}
 }
-// Method Definition Index: 76373
+// Method Definition Index: 76368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics__ctor_mAF6E54E8F30A858009FB99E01A4D158C997604DF (MoveRandomlyPhysics_t03AB1FB0F0248A5AED71102D9EE2FD3DBD8404FD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:14>
 		__this->____isActive = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:19>
 		__this->____force = (10.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:22>
 		FloatRange_tEA6B86356EA817365D3F1759BCE0D10CD8091A96 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		FloatRange__ctor_m9EE180C6C3AA894E8E2E49FA22EC5289650F1075((&L_0), (3.0f), (10.0f), NULL);
@@ -11577,7 +11066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics__ctor_mAF6E54E8F30A8
 		return;
 	}
 }
-// Method Definition Index: 76374
+// Method Definition Index: 76369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_NetworkInitialize___Early_mCC343D3F8F13EEA54DA95BFAEC3BA7399E88A090 (MoveRandomlyPhysics_t03AB1FB0F0248A5AED71102D9EE2FD3DBD8404FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11598,7 +11087,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76375
+// Method Definition Index: 76370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_NetworkInitialize___Late_m8A94E54B5FC4575264B5391E7ACFE2AC1951E645 (MoveRandomlyPhysics_t03AB1FB0F0248A5AED71102D9EE2FD3DBD8404FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11619,7 +11108,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76376
+// Method Definition Index: 76371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_NetworkInitializeIfDisabled_mEB091537D2ABEFDCF680FBAE9F3F155C4CB7F556 (MoveRandomlyPhysics_t03AB1FB0F0248A5AED71102D9EE2FD3DBD8404FD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -11628,7 +11117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_NetworkInitializeIfD
 		return;
 	}
 }
-// Method Definition Index: 76377
+// Method Definition Index: 76372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_Awake_UserLogic_FishNet_Demo_Benchmarks_NetworkTransforms_MoveRandomlyPhysics_FishNet_Demos_dll_mD346F3B34278A0F4A24FC25F8B9FD78F1A3F4CFA (MoveRandomlyPhysics_t03AB1FB0F0248A5AED71102D9EE2FD3DBD8404FD* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11638,12 +11127,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_Awake_UserLogic_Fish
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:28>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0;
 		L_0 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
 		__this->____rigidbody = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____rigidbody), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/MoveRandomlyPhysics.cs:29>
 		return;
 	}
 }
@@ -11655,7 +11142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoveRandomlyPhysics_Awake_UserLogic_Fish
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76378
+// Method Definition Index: 76373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_OnStartServer_m3354BCD02BCFF4F54177B27666F71E152DFC7369 (PrefabSpawner_tFD242AAEE33921846D61C2AF9575F3CE880D585C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11675,7 +11162,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_OnStartServer_m3354BCD02BC
 	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:32>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_0 = __this->____prefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11686,33 +11172,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_OnStartServer_m3354BCD02BC
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:34>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral6B4D168E7ED16781FAD117DB99AC452824291667, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:35>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:38>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_2 = __this->____prefab;
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:39>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_3);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
 		V_1 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:41>
 		V_2 = 0;
 		goto IL_0053;
 	}
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:43>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_5 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_1;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7;
@@ -11721,19 +11201,16 @@ IL_0030:
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_8;
 		L_8 = Object_Instantiate_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m21D73E09041190F9C1F6E74FFC6287D5EC4FB8AF(L_5, L_6, L_7, Object_Instantiate_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m21D73E09041190F9C1F6E74FFC6287D5EC4FB8AF_RuntimeMethod_var);
 		V_3 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:44>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_9 = V_3;
 		il2cpp_codegen_initobj((&V_4), sizeof(Scene_tA1DC762B79745EB5140F054C884855B922318356));
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_10 = V_4;
 		NetworkBehaviour_Spawn_m7210938ECAD47A19C3D82F37EB07605101F68553(__this, L_9, (NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C*)NULL, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:41>
 		int32_t L_11 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_0053:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:41>
 		int32_t L_12 = V_2;
 		int32_t L_13 = __this->____count;
 		if ((((int32_t)L_12) < ((int32_t)L_13)))
@@ -11742,23 +11219,20 @@ IL_0053:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 76379
+// Method Definition Index: 76374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_OnSpawnServer_m9831943A884A3DD07A441522CB92CBF8A3275DD3 (PrefabSpawner_tFD242AAEE33921846D61C2AF9575F3CE880D585C* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_connection, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:51>
 		float L_0;
 		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		__this->____resetBandwidthTime = ((float)il2cpp_codegen_add(L_0, (1.0f)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:52>
 		return;
 	}
 }
-// Method Definition Index: 76380
+// Method Definition Index: 76375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_Update_m20273851FA2ED86BF7CBD690C084B59A92B3AFBA (PrefabSpawner_tFD242AAEE33921846D61C2AF9575F3CE880D585C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11783,7 +11257,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_Update_m20273851FA2ED86BF7
 	uint16_t V_3 = 0;
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* V_4 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:56>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->____displayText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11794,13 +11267,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_Update_m20273851FA2ED86BF7
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:57>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:58>
 		bool L_2;
 		L_2 = NetworkBehaviour_get_IsServerInitialized_mFC7177578BCB5DF0AE6633ADEB8F03E4D62DE42A(__this, NULL);
 		if (L_2)
@@ -11809,13 +11280,11 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:59>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:61>
 		float L_3 = __this->____resetBandwidthTime;
 		if ((((float)L_3) == ((float)(-std::numeric_limits<float>::infinity()))))
 		{
@@ -11832,14 +11301,11 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:63>
 		__this->____resetBandwidthTime = (-std::numeric_limits<float>::infinity());
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		BandwidthDisplay_t2DC3E664999F744EA1B758EA658893F509B94F2E* L_6;
 		L_6 = Object_FindObjectOfType_TisBandwidthDisplay_t2DC3E664999F744EA1B758EA658893F509B94F2E_m611D5E744215012951AEB1D7D04552F7037CE758(Object_FindObjectOfType_TisBandwidthDisplay_t2DC3E664999F744EA1B758EA658893F509B94F2E_m611D5E744215012951AEB1D7D04552F7037CE758_RuntimeMethod_var);
 		V_1 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:65>
 		BandwidthDisplay_t2DC3E664999F744EA1B758EA658893F509B94F2E* L_7 = V_1;
 		bool L_8;
 		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -11849,18 +11315,15 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:67>
 		BandwidthDisplay_t2DC3E664999F744EA1B758EA658893F509B94F2E* L_9 = V_1;
 		NullCheck(L_9);
 		BandwidthDisplay_ResetAverages_mA882E4EC68816076D37D9039B94CA138EA14130C(L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:68>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralCA5F92040DC361EC2CE069CF9B3461E1E5162B1D, NULL);
 	}
 
 IL_005c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:72>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_10;
 		L_10 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		NullCheck(L_10);
@@ -11869,7 +11332,6 @@ IL_005c:
 		int32_t L_12;
 		L_12 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)(((float)L_11)/(4.0f))), NULL);
 		V_0 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:73>
 		uint32_t L_13 = V_0;
 		if ((!(((uint32_t)L_13) < ((uint32_t)1))))
 		{
@@ -11877,13 +11339,11 @@ IL_005c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:74>
 		V_0 = 1;
 	}
 
 IL_007a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:76>
 		TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* L_14;
 		L_14 = NetworkBehaviour_get_TimeManager_m104242F56940440A8CCD95A35328B957EAE0356D(__this, NULL);
 		NullCheck(L_14);
@@ -11896,7 +11356,6 @@ IL_007a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:78>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->____displayText;
 		int32_t* L_18 = (int32_t*)(&__this->____count);
 		String_t* L_19;
@@ -11905,7 +11364,6 @@ IL_007a:
 		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA50F052B50F35E13B49A92D3F6B57C4D34A4059C, L_19, NULL);
 		NullCheck(L_17);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_17, L_20);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:79>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_21 = __this->____displayText;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_22 = L_21;
 		NullCheck(L_22);
@@ -11925,7 +11383,6 @@ IL_007a:
 		L_28 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_23, L_24, _stringLiteral7BA6BF9DAE51F176E0764767E54A22F7ED11DBCD, L_27, NULL);
 		NullCheck(L_22);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_22, L_28);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:81>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_29;
 		L_29 = NetworkBehaviour_get_NetworkManager_m7C58BEBD68C8BA2DF9DB1FAF86ACB63E5FD57327(__this, NULL);
 		NullCheck(L_29);
@@ -11934,17 +11391,14 @@ IL_007a:
 		NullCheck(L_30);
 		BandwidthDisplay_t2DC3E664999F744EA1B758EA658893F509B94F2E* L_31;
 		L_31 = GameObject_GetComponent_TisBandwidthDisplay_t2DC3E664999F744EA1B758EA658893F509B94F2E_m2493EF83B1A5E6EF3FE36B20BE63295CA46E44FA(L_30, GameObject_GetComponent_TisBandwidthDisplay_t2DC3E664999F744EA1B758EA658893F509B94F2E_m2493EF83B1A5E6EF3FE36B20BE63295CA46E44FA_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:82>
 		NullCheck(L_31);
 		InOutAverage_t194246D30BA77B14306F01335D83095DE28BDB91* L_32;
 		L_32 = BandwidthDisplay_get_ServerAverages_mA97BEE3E582C0AD5B3CEA43C777F651DE51DAA12_inline(L_31, NULL);
 		NullCheck(L_32);
 		float L_33;
 		L_33 = InOutAverage_GetAverage_mC6DA78AE578DB9432DBEA7E3C9CB1CEB5246DD1B(L_32, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:84>
 		int32_t L_34 = __this->____count;
 		V_2 = ((float)(L_33/((float)L_34)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:85>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = __this->____displayText;
 		V_4 = L_35;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_36 = V_4;
@@ -11982,11 +11436,10 @@ IL_007a:
 
 IL_0148:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:87>
 		return;
 	}
 }
-// Method Definition Index: 76381
+// Method Definition Index: 76376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner__ctor_m1381C1B8E0B68822BF2CAD5834A3F8FFE96226B0 (PrefabSpawner_tFD242AAEE33921846D61C2AF9575F3CE880D585C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11996,16 +11449,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner__ctor_m1381C1B8E0B68822BF2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:19>
 		__this->____count = ((int32_t)500);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Benchmarks/NetworkTransform/Scripts/PrefabSpawner.cs:28>
 		__this->____resetBandwidthTime = (-std::numeric_limits<float>::infinity());
 		il2cpp_codegen_runtime_class_init_inline(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F_il2cpp_TypeInfo_var);
 		NetworkBehaviour__ctor_m97641A3DBD926AA90E244C75CA2DCA48E877377E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76382
+// Method Definition Index: 76377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_NetworkInitialize___Early_m62E1E224BF19935F6938DE7401A721DED57CECD7 (PrefabSpawner_tFD242AAEE33921846D61C2AF9575F3CE880D585C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12026,7 +11477,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76383
+// Method Definition Index: 76378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_NetworkInitialize___Late_mF190FBFB95F8CC6608F5DA75995E4795E6676F7F (PrefabSpawner_tFD242AAEE33921846D61C2AF9575F3CE880D585C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12047,7 +11498,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76384
+// Method Definition Index: 76379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_NetworkInitializeIfDisabled_m0094E6B84D175654368141A8FA77D7C3A55BB865 (PrefabSpawner_tFD242AAEE33921846D61C2AF9575F3CE880D585C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12056,7 +11507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_NetworkInitializeIfDisable
 		return;
 	}
 }
-// Method Definition Index: 76385
+// Method Definition Index: 76380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_Awake_m5F0D8074C45640BDD55733B3DF94DFC940D4134F (PrefabSpawner_tFD242AAEE33921846D61C2AF9575F3CE880D585C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12073,26 +11524,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PrefabSpawner_Awake_m5F0D8074C45640BDD55
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76386
+// Method Definition Index: 76381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_SetAllowHostAuthentication_mF5129A59ABBFA4B9B9A3CF687A03A53458D438BE (HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:30>
 		bool L_0 = ___0_value;
 		__this->____allowHostAuthentication = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76387
+// Method Definition Index: 76382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HostAuthenticator_GetAllowHostAuthentication_m5096D0D9AFAEB8A52E54DE9509138034CD021165 (HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:36>
 		bool L_0 = __this->____allowHostAuthentication;
 		return L_0;
 	}
 }
-// Method Definition Index: 76388
+// Method Definition Index: 76383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_InitializeOnce_m80D5601C6F5E8E91B41E352E2794E94CE8D7D747 (HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3* __this, NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* ___0_networkManager, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12106,10 +11555,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_InitializeOnce_m80D560
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:52>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0 = ___0_networkManager;
 		Authenticator_InitializeOnce_m15E7183D981976BD2C527BAF88A7BCDA1977949F(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:54>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = Authenticator_get_NetworkManager_m6E83AF25D5E1F5B7BB819E6DD6D7473E2B393E47_inline(__this, NULL);
 		NullCheck(L_1);
@@ -12119,7 +11566,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_InitializeOnce_m80D560
 		Action_1__ctor_m048681A8AC8A03B21254FF612BBD498CC5C61211(L_3, __this, (intptr_t)((void*)HostAuthenticator_ServerManager_OnServerConnectionState_mF610DCBB34492F535E59D34E0D139CFAFC13B006_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		ServerManager_add_OnServerConnectionState_mDC16272B770E62F6CDBB7FE5259776EDF6767AAC(L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:56>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_4;
 		L_4 = Authenticator_get_NetworkManager_m6E83AF25D5E1F5B7BB819E6DD6D7473E2B393E47_inline(__this, NULL);
 		NullCheck(L_4);
@@ -12129,17 +11575,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_InitializeOnce_m80D560
 		Action_3__ctor_m998710DB5065ACF009EFE751045152951DBFEFC7(L_6, __this, (intptr_t)((void*)HostAuthenticator_OnHostPasswordBroadcast_m4390DD49324CEF429A1B4FE848C66769BBF419DA_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		ServerManager_RegisterBroadcast_TisHostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A_m47CAB3B8C322772707B6F20B54918FFAD4F8C4AF(L_5, L_6, (bool)0, ServerManager_RegisterBroadcast_TisHostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A_m47CAB3B8C322772707B6F20B54918FFAD4F8C4AF_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:57>
 		return;
 	}
 }
-// Method Definition Index: 76389
+// Method Definition Index: 76384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_ServerManager_OnServerConnectionState_mF610DCBB34492F535E59D34E0D139CFAFC13B006 (HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3* __this, ServerConnectionStateArgs_t00983A7C26F33832269034FCAFD16FFDB2C65165 ___0_obj, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:64>
 		ServerConnectionStateArgs_t00983A7C26F33832269034FCAFD16FFDB2C65165 L_0 = ___0_obj;
 		int32_t L_1 = L_0.___ConnectionState;
 		if ((((int32_t)L_1) == ((int32_t)8)))
@@ -12160,14 +11604,12 @@ IL_000c:
 IL_000e:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:65>
 		int32_t L_2 = V_0;
 		HostAuthenticator_SetHostHash_mB2C682D0ED7941801CCD4EAEC64474DE492D4BF2(__this, L_2, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:66>
 		return;
 	}
 }
-// Method Definition Index: 76390
+// Method Definition Index: 76385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_OnHostPasswordBroadcast_m4390DD49324CEF429A1B4FE848C66769BBF419DA (HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, HostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A ___1_hpb, uint8_t ___2_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12178,7 +11620,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_OnHostPasswordBroadcas
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:76>
 		bool L_0 = __this->____allowHostAuthentication;
 		if (L_0)
 		{
@@ -12186,17 +11627,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_OnHostPasswordBroadcas
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:78>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_1 = ___0_conn;
 		NullCheck(L_1);
 		NetworkConnection_Disconnect_m063BF633EB7B581BD13467D0AB3ADEEFFCAABEB7(L_1, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:79>
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:84>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2 = ___0_conn;
 		NullCheck(L_2);
 		bool L_3;
@@ -12207,17 +11645,14 @@ IL_0010:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:86>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_4 = ___0_conn;
 		NullCheck(L_4);
 		NetworkConnection_Disconnect_m063BF633EB7B581BD13467D0AB3ADEEFFCAABEB7(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:87>
 		return;
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:90>
 		HostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A L_5 = ___1_hpb;
 		String_t* L_6 = L_5.___Password;
 		il2cpp_codegen_runtime_class_init_inline(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var);
@@ -12225,15 +11660,13 @@ IL_0020:
 		bool L_8;
 		L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_6, L_7, NULL);
 		V_0 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:91>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_9 = ___0_conn;
 		bool L_10 = V_0;
 		VirtualActionInvoker2< NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C*, bool >::Invoke(8, __this, L_9, L_10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:92>
 		return;
 	}
 }
-// Method Definition Index: 76392
+// Method Definition Index: 76387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_SetHostHash_mB2C682D0ED7941801CCD4EAEC64474DE492D4BF2 (HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3* __this, int32_t ___0_length, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12252,7 +11685,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_SetHostHash_mB2C682D0E
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_2 = NULL;
 	uint32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:107>
 		int32_t L_0 = ___0_length;
 		if ((((int32_t)L_0) > ((int32_t)0)))
 		{
@@ -12260,7 +11692,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_SetHostHash_mB2C682D0E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:109>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		il2cpp_codegen_runtime_class_init_inline(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var);
 		((HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_StaticFields*)il2cpp_codegen_static_fields_for(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var))->____hostHash = L_1;
@@ -12270,11 +11701,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator_SetHostHash_mB2C682D0E
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:114>
 		StringBuilder_t* L_2 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_2, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:115>
 		RNGCryptoServiceProvider_tAD9D75EFF3D2ED0929EEE27A53BE82AB83D78170* L_3 = (RNGCryptoServiceProvider_tAD9D75EFF3D2ED0929EEE27A53BE82AB83D78170*)il2cpp_codegen_object_new(RNGCryptoServiceProvider_tAD9D75EFF3D2ED0929EEE27A53BE82AB83D78170_il2cpp_TypeInfo_var);
 		RNGCryptoServiceProvider__ctor_m605146E692C0209B3FFE83F7AC94335CA089CA09(L_3, NULL);
 		V_1 = L_3;
@@ -12307,7 +11736,6 @@ IL_0064:
 		try
 		{
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:117>
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)4);
 				V_2 = L_6;
 				goto IL_0050_1;
@@ -12315,17 +11743,14 @@ IL_0064:
 
 IL_0024_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:120>
 				RNGCryptoServiceProvider_tAD9D75EFF3D2ED0929EEE27A53BE82AB83D78170* L_7 = V_1;
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = V_2;
 				NullCheck(L_7);
 				VirtualActionInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(6, L_7, L_8);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:121>
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = V_2;
 				uint32_t L_10;
 				L_10 = BitConverter_ToUInt32_m177FADD1E9B033C11D74E8DD1F957F62EF0BA177(L_9, 0, NULL);
 				V_3 = L_10;
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:122>
 				StringBuilder_t* L_11 = V_0;
 				uint32_t L_12 = V_3;
 				NullCheck(_stringLiteralDF8A055951041B659CB58F0943B52A541C50D4BB);
@@ -12341,7 +11766,6 @@ IL_0024_1:
 
 IL_0050_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:118>
 				int32_t L_16 = ___0_length;
 				int32_t L_17 = L_16;
 				___0_length = ((int32_t)il2cpp_codegen_subtract(L_17, 1));
@@ -12351,7 +11775,6 @@ IL_0050_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:124>
 				goto IL_0065;
 			}
 		}
@@ -12363,7 +11786,6 @@ IL_0050_1:
 
 IL_0065:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:126>
 		StringBuilder_t* L_18 = V_0;
 		NullCheck(L_18);
 		String_t* L_19;
@@ -12371,11 +11793,10 @@ IL_0065:
 		il2cpp_codegen_runtime_class_init_inline(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var);
 		((HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_StaticFields*)il2cpp_codegen_static_fields_for(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var))->____hostHash = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&((HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_StaticFields*)il2cpp_codegen_static_fields_for(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var))->____hostHash), (void*)L_19);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:128>
 		return;
 	}
 }
-// Method Definition Index: 76393
+// Method Definition Index: 76388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HostAuthenticator_TryAuthenticateAsClientHost_mC03532E56E1E2AE5DBD60CC4524990CC3661B34B (HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12390,7 +11811,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HostAuthenticator_TryAuthenticateAsClien
 	HostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:136>
 		bool L_0 = __this->____allowHostAuthentication;
 		if (L_0)
 		{
@@ -12398,13 +11818,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HostAuthenticator_TryAuthenticateAsClien
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:137>
 		return (bool)0;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:140>
 		il2cpp_codegen_runtime_class_init_inline(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_StaticFields*)il2cpp_codegen_static_fields_for(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var))->____hostHash;
 		String_t* L_2 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
@@ -12416,16 +11834,11 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:141>
 		return (bool)0;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:144>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:145>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:146>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:147>
 		il2cpp_codegen_initobj((&V_1), sizeof(HostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A));
 		il2cpp_codegen_runtime_class_init_inline(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var);
 		String_t* L_4 = ((HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_StaticFields*)il2cpp_codegen_static_fields_for(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var))->____hostHash;
@@ -12433,7 +11846,6 @@ IL_001d:
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___Password), (void*)L_4);
 		HostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A L_5 = V_1;
 		V_0 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:149>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_6;
 		L_6 = Authenticator_get_NetworkManager_m6E83AF25D5E1F5B7BB819E6DD6D7473E2B393E47_inline(__this, NULL);
 		NullCheck(L_6);
@@ -12442,11 +11854,10 @@ IL_001d:
 		HostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A L_8 = V_0;
 		NullCheck(L_7);
 		ClientManager_Broadcast_TisHostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A_m16888EA6E4F84CDEEA8D3D0486194FE06CDB7341(L_7, L_8, 0, ClientManager_Broadcast_TisHostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A_m16888EA6E4F84CDEEA8D3D0486194FE06CDB7341_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:150>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 76394
+// Method Definition Index: 76389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator__ctor_m48F4AE66F6E40A00F6EA3CB3919F471EFF9D5BE0 (HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12454,7 +11865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator__ctor_m48F4AE66F6E40A0
 		return;
 	}
 }
-// Method Definition Index: 76395
+// Method Definition Index: 76390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator__cctor_mA463D713A36B678EC5A293D322B71F6E04F5499F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12464,7 +11875,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator__cctor_mA463D713A36B67
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/HostAuthenticator.cs:43>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		((HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_StaticFields*)il2cpp_codegen_static_fields_for(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var))->____hostHash = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_StaticFields*)il2cpp_codegen_static_fields_for(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var))->____hostHash), (void*)L_0);
@@ -12479,7 +11889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HostAuthenticator__cctor_mA463D713A36B67
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76396
+// Method Definition Index: 76391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnGUI_m559ECB7C5F8B68D9FE90408173903A311211435A (NetworkHudCanvases_t680353C151606BD1925E15FA455A183AD0D9CA89* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12500,14 +11910,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnGUI_m559ECB7C5F8B68
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:102>
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_0), (4.0f), (110.0f), (256.0f), (9000.0f), NULL);
 		GUILayout_BeginArea_m4D894562C97A0F6793450A0DF379B63F60121F64(L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:103>
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_0), (1920.0f), (1080.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:104>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
@@ -12527,26 +11934,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnGUI_m559ECB7C5F8B68
 		L_10 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_1, L_2, L_9, NULL);
 		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
 		GUI_set_matrix_m7759FEC96FBCB97E02B1BA44D2EC1B3FEEFA257F(L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:106>
 		GUISkin_t8C65CE1424D4B5D8D73022E266BDAD3BDE8612D9* L_11;
 		L_11 = GUI_get_skin_m97EC9EB4628B311C0DB7DF9FB19FAD82D6790A1B(NULL);
 		NullCheck(L_11);
 		GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* L_12;
 		L_12 = GUISkin_GetStyle_mF024BC5177A2AD477ACF44D87BE6A629C91562CA(L_11, _stringLiteral3A5D56B26B1A9CEDE88C8DBEC1D7FF8296992654, NULL);
 		V_1 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:107>
 		GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* L_13 = V_1;
 		NullCheck(L_13);
 		int32_t L_14;
 		L_14 = GUIStyle_get_fontSize_mBD6EEA6C9C09825DACE0395B1EC8D773FE94F8CF(L_13, NULL);
 		V_2 = L_14;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:109>
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_3), (165.0f), (42.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:110>
 		GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* L_15 = V_1;
 		NullCheck(L_15);
 		GUIStyle_set_fontSize_m7F6DFD61AC55072C95DC3825B77FAE3F75F1CCFF(L_15, ((int32_t)26), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:112>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_16;
 		L_16 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
@@ -12556,7 +11958,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnGUI_m559ECB7C5F8B68
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:114>
 		int32_t L_17 = __this->____serverState;
 		String_t* L_18;
 		L_18 = NetworkHudCanvases_U3COnGUIU3Eg__GetNextStateTextU7C10_0_m2DF3FFFB3C7DADA7F9AFD90E72E02F4210A31502(L_17, NULL);
@@ -12585,19 +11986,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnGUI_m559ECB7C5F8B68
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:115>
 		NetworkHudCanvases_OnClick_Server_mF64F18EE3A9F4B4BC1CF310D822C55D3DB7750E8(__this, NULL);
 	}
 
 IL_00e4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:116>
 		GUILayout_Space_m9254FBF173F9260DDB6C83C0066447FC9D9CA597((10.0f), NULL);
 	}
 
 IL_00ee:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:120>
 		int32_t L_30 = __this->____clientState;
 		String_t* L_31;
 		L_31 = NetworkHudCanvases_U3COnGUIU3Eg__GetNextStateTextU7C10_0_m2DF3FFFB3C7DADA7F9AFD90E72E02F4210A31502(L_30, NULL);
@@ -12626,24 +12024,20 @@ IL_00ee:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:121>
 		NetworkHudCanvases_OnClick_Client_mB2265087236F7B1F86FE090F013CFB51CC8C0ED2(__this, NULL);
 	}
 
 IL_0132:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:123>
 		GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580* L_43 = V_1;
 		int32_t L_44 = V_2;
 		NullCheck(L_43);
 		GUIStyle_set_fontSize_m7F6DFD61AC55072C95DC3825B77FAE3F75F1CCFF(L_43, L_44, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:125>
 		GUILayout_EndArea_m3A9C6B4D373E8A871A71E0D8D2D9249D9F62F079(NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:127>
 		return;
 	}
 }
-// Method Definition Index: 76397
+// Method Definition Index: 76392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_Start_m1D9B089E97AE5EA35291F072573EE813B05B5A0D (NetworkHudCanvases_t680353C151606BD1925E15FA455A183AD0D9CA89* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12661,7 +12055,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_Start_m1D9B089E97AE5E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:137>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->____serverIndicator;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -12671,7 +12064,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_Start_m1D9B089E97AE5E
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:138>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3 = __this->____clientIndicator;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -12681,13 +12073,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_Start_m1D9B089E97AE5E
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_6;
 		L_6 = Object_FindObjectOfType_TisNetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF_m78D53C61CEB86F2E4BAFDEE62DDBFE7A647947F3(Object_FindObjectOfType_TisNetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF_m78D53C61CEB86F2E4BAFDEE62DDBFE7A647947F3_RuntimeMethod_var);
 		__this->____networkManager = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____networkManager), (void*)L_6);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:142>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_7 = __this->____networkManager;
 		bool L_8;
 		L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -12697,22 +12087,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_Start_m1D9B089E97AE5E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:144>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral02BFBD83487AAF2118C78BEC8377371B8E1E2CB4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:145>
 		return;
 	}
 
 IL_0050:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:149>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E** L_9 = (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E**)(&__this->____serverIndicator);
 		NetworkHudCanvases_UpdateColor_m050D27FBC74D8C932F1E9F5BA8C3E4E35D0E4FC7(__this, 1, L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:150>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E** L_10 = (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E**)(&__this->____clientIndicator);
 		NetworkHudCanvases_UpdateColor_m050D27FBC74D8C932F1E9F5BA8C3E4E35D0E4FC7(__this, 1, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:151>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_11 = __this->____networkManager;
 		NullCheck(L_11);
 		ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* L_12;
@@ -12721,7 +12106,6 @@ IL_0050:
 		Action_1__ctor_m048681A8AC8A03B21254FF612BBD498CC5C61211(L_13, __this, (intptr_t)((void*)NetworkHudCanvases_ServerManager_OnServerConnectionState_m08EF0D36B9BDEF57E8F98645BB2378C05B0C23C6_RuntimeMethod_var), NULL);
 		NullCheck(L_12);
 		ServerManager_add_OnServerConnectionState_mDC16272B770E62F6CDBB7FE5259776EDF6767AAC(L_12, L_13, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:152>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_14 = __this->____networkManager;
 		NullCheck(L_14);
 		ClientManager_t4C708A22F4C0BD3CB5EB1E131909D787D5198FA4* L_15;
@@ -12730,7 +12114,6 @@ IL_0050:
 		Action_1__ctor_mF6E47E991B0A64C730507127FB96AF69E6CBE84E(L_16, __this, (intptr_t)((void*)NetworkHudCanvases_ClientManager_OnClientConnectionState_mA290D857CD7FDCD254DA227E47C4A762ECA717D9_RuntimeMethod_var), NULL);
 		NullCheck(L_15);
 		ClientManager_add_OnClientConnectionState_m11B448872D7AF07AA2350590DE7C7792B2A01AA3(L_15, L_16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:155>
 		int32_t L_17 = __this->____autoStartType;
 		if ((((int32_t)L_17) == ((int32_t)1)))
 		{
@@ -12747,13 +12130,11 @@ IL_0050:
 
 IL_00b4:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:156>
 		NetworkHudCanvases_OnClick_Server_mF64F18EE3A9F4B4BC1CF310D822C55D3DB7750E8(__this, NULL);
 	}
 
 IL_00ba:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:157>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_19;
 		L_19 = Application_get_isBatchMode_mDE2DA11B2DAC8D8239BACD75A56A6EE6BAA4DC36(NULL);
@@ -12779,17 +12160,15 @@ IL_00ba:
 
 IL_00d3:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:158>
 		NetworkHudCanvases_OnClick_Client_mB2265087236F7B1F86FE090F013CFB51CC8C0ED2(__this, NULL);
 	}
 
 IL_00d9:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:159>
 		return;
 	}
 }
-// Method Definition Index: 76398
+// Method Definition Index: 76393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnDestroy_m89426988716B53FB2F11C3F4F4766F8A6042EABF (NetworkHudCanvases_t680353C151606BD1925E15FA455A183AD0D9CA89* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12803,7 +12182,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnDestroy_m8942698871
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:163>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0 = __this->____networkManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12814,13 +12192,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnDestroy_m8942698871
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:164>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:166>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_2 = __this->____networkManager;
 		NullCheck(L_2);
 		ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* L_3;
@@ -12829,7 +12205,6 @@ IL_000f:
 		Action_1__ctor_m048681A8AC8A03B21254FF612BBD498CC5C61211(L_4, __this, (intptr_t)((void*)NetworkHudCanvases_ServerManager_OnServerConnectionState_m08EF0D36B9BDEF57E8F98645BB2378C05B0C23C6_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		ServerManager_remove_OnServerConnectionState_mCEF5B3C4043461E79DC18D5F688102E29AB44CE8(L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:167>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_5 = __this->____networkManager;
 		NullCheck(L_5);
 		ClientManager_t4C708A22F4C0BD3CB5EB1E131909D787D5198FA4* L_6;
@@ -12838,17 +12213,15 @@ IL_000f:
 		Action_1__ctor_mF6E47E991B0A64C730507127FB96AF69E6CBE84E(L_7, __this, (intptr_t)((void*)NetworkHudCanvases_ClientManager_OnClientConnectionState_mA290D857CD7FDCD254DA227E47C4A762ECA717D9_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
 		ClientManager_remove_OnClientConnectionState_mF144BF473A23E23B1F3DB5D48FA6CEFBBCB2ABE1(L_6, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:168>
 		return;
 	}
 }
-// Method Definition Index: 76399
+// Method Definition Index: 76394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_UpdateColor_m050D27FBC74D8C932F1E9F5BA8C3E4E35D0E4FC7 (NetworkHudCanvases_t680353C151606BD1925E15FA455A183AD0D9CA89* __this, int32_t ___0_state, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E** ___1_img, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:178>
 		int32_t L_0 = ___0_state;
 		if ((!(((uint32_t)L_0) == ((uint32_t)8))))
 		{
@@ -12856,7 +12229,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_UpdateColor_m050D27FB
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:179>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = __this->____startedColor;
 		V_0 = L_1;
 		goto IL_0021;
@@ -12864,7 +12236,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_UpdateColor_m050D27FB
 
 IL_000d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:180>
 		int32_t L_2 = ___0_state;
 		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
 		{
@@ -12872,7 +12243,6 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:181>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->____stoppedColor;
 		V_0 = L_3;
 		goto IL_0021;
@@ -12880,58 +12250,49 @@ IL_000d:
 
 IL_001a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:183>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = __this->____changingColor;
 		V_0 = L_4;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:185>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E** L_5 = ___1_img;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = *((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E**)L_5);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = V_0;
 		NullCheck(L_6);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_6, L_7);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:186>
 		return;
 	}
 }
-// Method Definition Index: 76400
+// Method Definition Index: 76395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_ClientManager_OnClientConnectionState_mA290D857CD7FDCD254DA227E47C4A762ECA717D9 (NetworkHudCanvases_t680353C151606BD1925E15FA455A183AD0D9CA89* __this, ClientConnectionStateArgs_tD41B01C830E5D6189B4B8BD680F3FFB2A669C40B ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:190>
 		ClientConnectionStateArgs_tD41B01C830E5D6189B4B8BD680F3FFB2A669C40B L_0 = ___0_obj;
 		int32_t L_1 = L_0.___ConnectionState;
 		__this->____clientState = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:191>
 		ClientConnectionStateArgs_tD41B01C830E5D6189B4B8BD680F3FFB2A669C40B L_2 = ___0_obj;
 		int32_t L_3 = L_2.___ConnectionState;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E** L_4 = (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E**)(&__this->____clientIndicator);
 		NetworkHudCanvases_UpdateColor_m050D27FBC74D8C932F1E9F5BA8C3E4E35D0E4FC7(__this, L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:192>
 		return;
 	}
 }
-// Method Definition Index: 76401
+// Method Definition Index: 76396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_ServerManager_OnServerConnectionState_m08EF0D36B9BDEF57E8F98645BB2378C05B0C23C6 (NetworkHudCanvases_t680353C151606BD1925E15FA455A183AD0D9CA89* __this, ServerConnectionStateArgs_t00983A7C26F33832269034FCAFD16FFDB2C65165 ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:196>
 		ServerConnectionStateArgs_t00983A7C26F33832269034FCAFD16FFDB2C65165 L_0 = ___0_obj;
 		int32_t L_1 = L_0.___ConnectionState;
 		__this->____serverState = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:197>
 		ServerConnectionStateArgs_t00983A7C26F33832269034FCAFD16FFDB2C65165 L_2 = ___0_obj;
 		int32_t L_3 = L_2.___ConnectionState;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E** L_4 = (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E**)(&__this->____serverIndicator);
 		NetworkHudCanvases_UpdateColor_m050D27FBC74D8C932F1E9F5BA8C3E4E35D0E4FC7(__this, L_3, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:198>
 		return;
 	}
 }
-// Method Definition Index: 76402
+// Method Definition Index: 76397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnClick_Server_mF64F18EE3A9F4B4BC1CF310D822C55D3DB7750E8 (NetworkHudCanvases_t680353C151606BD1925E15FA455A183AD0D9CA89* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12941,7 +12302,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnClick_Server_mF64F1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:202>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0 = __this->____networkManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12952,13 +12312,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnClick_Server_mF64F1
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:203>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:205>
 		int32_t L_2 = __this->____serverState;
 		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
@@ -12966,7 +12324,6 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:206>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_3 = __this->____networkManager;
 		NullCheck(L_3);
 		ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* L_4;
@@ -12979,7 +12336,6 @@ IL_000f:
 
 IL_002c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:208>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_6 = __this->____networkManager;
 		NullCheck(L_6);
 		ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* L_7;
@@ -12991,13 +12347,11 @@ IL_002c:
 
 IL_003d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:210>
 		NetworkHudCanvases_DeselectButtons_m876190780E82E09FBFF2C84387A3F98B2AA46A34(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:211>
 		return;
 	}
 }
-// Method Definition Index: 76403
+// Method Definition Index: 76398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnClick_Client_mB2265087236F7B1F86FE090F013CFB51CC8C0ED2 (NetworkHudCanvases_t680353C151606BD1925E15FA455A183AD0D9CA89* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13007,7 +12361,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnClick_Client_mB2265
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:215>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0 = __this->____networkManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13018,13 +12371,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_OnClick_Client_mB2265
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:216>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:218>
 		int32_t L_2 = __this->____clientState;
 		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
@@ -13032,7 +12383,6 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:219>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_3 = __this->____networkManager;
 		NullCheck(L_3);
 		ClientManager_t4C708A22F4C0BD3CB5EB1E131909D787D5198FA4* L_4;
@@ -13045,7 +12395,6 @@ IL_000f:
 
 IL_002b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:221>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_6 = __this->____networkManager;
 		NullCheck(L_6);
 		ClientManager_t4C708A22F4C0BD3CB5EB1E131909D787D5198FA4* L_7;
@@ -13057,41 +12406,35 @@ IL_002b:
 
 IL_003c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:223>
 		NetworkHudCanvases_DeselectButtons_m876190780E82E09FBFF2C84387A3F98B2AA46A34(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:224>
 		return;
 	}
 }
-// Method Definition Index: 76404
+// Method Definition Index: 76399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_SetEventSystem_m0C10DCC95511FC97C336326ABDF5E0949569CBAE (NetworkHudCanvases_t680353C151606BD1925E15FA455A183AD0D9CA89* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:235>
 		return;
 	}
 }
-// Method Definition Index: 76405
+// Method Definition Index: 76400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases_DeselectButtons_m876190780E82E09FBFF2C84387A3F98B2AA46A34 (NetworkHudCanvases_t680353C151606BD1925E15FA455A183AD0D9CA89* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:243>
 		return;
 	}
 }
-// Method Definition Index: 76406
+// Method Definition Index: 76401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkHudCanvases__ctor_m6BBB0E2554515325A31C56ECB5AB57FFEB6BAF6A (NetworkHudCanvases_t680353C151606BD1925E15FA455A183AD0D9CA89* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:72>
 		__this->____clientState = 1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:76>
 		__this->____serverState = 1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76407
+// Method Definition Index: 76402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NetworkHudCanvases_U3COnGUIU3Eg__GetNextStateTextU7C10_0_m2DF3FFFB3C7DADA7F9AFD90E72E02F4210A31502 (int32_t ___0_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13105,7 +12448,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NetworkHudCanvases_U3COnGUIU3Eg__Ge
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:90>
 		int32_t L_0 = ___0_state;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
@@ -13113,13 +12455,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NetworkHudCanvases_U3COnGUIU3Eg__Ge
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:91>
 		return _stringLiteral8243A16D425F93AF62CAAB2BFAE01A2D6246A5FE;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:92>
 		int32_t L_1 = ___0_state;
 		if ((!(((uint32_t)L_1) == ((uint32_t)4))))
 		{
@@ -13127,13 +12467,11 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:93>
 		return _stringLiteral59FBA4715B07AAEA6020C7F1178AAFE2DF553DD1;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:94>
 		int32_t L_2 = ___0_state;
 		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
 		{
@@ -13141,13 +12479,11 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:95>
 		return _stringLiteralC627B7EB283B93AF36808F8CB32E5EE6303ABD8D;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:96>
 		int32_t L_3 = ___0_state;
 		if ((!(((uint32_t)L_3) == ((uint32_t)8))))
 		{
@@ -13155,13 +12491,11 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:97>
 		return _stringLiteral800C762D9EF92B399EC87C776239043ACEEC0717;
 	}
 
 IL_0028:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Scripts/NetworkHudCanvases.cs:99>
 		return _stringLiteral6DD798540816CF95355537E350E0B22DB63ACF5E;
 	}
 }
@@ -13181,7 +12515,7 @@ IL_0028:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76408
+// Method Definition Index: 76403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Awake_m975B61157A21AA382CC830973FA54EB3CA691EA4 (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13191,11 +12525,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Awake_m975B61157A21AA38
 		return;
 	}
 }
-// Method Definition Index: 76409
+// Method Definition Index: 76404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnStartClient_m7B6B44696C5A33672C15C341F607ADA8F7EFF654 (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:23>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (!L_0)
@@ -13204,7 +12537,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnStartClient_m7B6B4469
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:24>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->____camera;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
@@ -13212,11 +12544,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnStartClient_m7B6B4469
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 76410
+// Method Definition Index: 76405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Update_m50FA30C0CA1A0E176885CB1063E0FA7BF53A7A0E (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13230,7 +12561,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Update_m50FA30C0CA1A0E1
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:29>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (L_0)
@@ -13239,21 +12569,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Update_m50FA30C0CA1A0E1
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:30>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:32>
 		float L_1;
 		L_1 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:33>
 		float L_2;
 		L_2 = Input_GetAxisRaw_m47C0CF8E090561A2F407A4E11D5F2A45044EB8E4(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:38>
 		bool L_3 = __this->____clientAuth;
 		if (L_3)
 		{
@@ -13278,7 +12604,6 @@ IL_0009:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:40>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_6);
@@ -13309,7 +12634,6 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:41>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = L_16;
@@ -13327,7 +12651,6 @@ IL_0037:
 
 IL_00ab:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:44>
 		bool L_21 = __this->____clientAuth;
 		if (!L_21)
 		{
@@ -13335,7 +12658,6 @@ IL_00ab:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:45>
 		float L_22 = V_0;
 		float L_23 = V_1;
 		PlayerController_Move_mA82F29EB26805251E832CCC30DF8087F64DE93F6(__this, L_22, L_23, NULL);
@@ -13344,15 +12666,13 @@ IL_00ab:
 
 IL_00bc:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:47>
 		float L_24 = V_0;
 		float L_25 = V_1;
 		PlayerController_ServerMove_m43C4A5C31E5FAE39E99D880301B1A0A22624E26E(__this, L_24, L_25, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:48>
 		return;
 	}
 }
-// Method Definition Index: 76411
+// Method Definition Index: 76406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_ServerMove_m43C4A5C31E5FAE39E99D880301B1A0A22624E26E (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, float ___0_hor, float ___1_ver, const RuntimeMethod* method) 
 {
 	{
@@ -13362,7 +12682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_ServerMove_m43C4A5C31E5
 		return;
 	}
 }
-// Method Definition Index: 76412
+// Method Definition Index: 76407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Move_mA82F29EB26805251E832CCC30DF8087F64DE93F6 (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, float ___0_hor, float ___1_ver, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13375,11 +12695,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Move_mA82F29EB26805251E
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:58>
 		float L_0;
 		L_0 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		V_0 = ((float)il2cpp_codegen_multiply((-10.0f), L_0));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:60>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
 		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_1);
@@ -13397,7 +12715,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Move_mA82F29EB26805251E
 		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_7;
 		memset((&L_7), 0, sizeof(L_7));
 		Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline((&L_7), L_4, L_6, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:61>
 		float L_8 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -13408,20 +12725,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Move_mA82F29EB26805251E
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:62>
 		V_0 = (0.0f);
 	}
 
 IL_0054:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:65>
 		float L_10 = V_0;
 		float L_11 = ___1_ver;
 		float L_12 = __this->____moveRate;
 		float L_13;
 		L_13 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), (0.0f), L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_11, L_12)), L_13)), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:67>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
 		L_14 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = L_14;
@@ -13438,7 +12752,6 @@ IL_0054:
 		L_20 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_16, L_19, NULL);
 		NullCheck(L_15);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_15, L_20, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:68>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
 		L_21 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		float L_22 = ___0_hor;
@@ -13449,11 +12762,10 @@ IL_0054:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_24), (0.0f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_22, (100.0f))), L_23)), (0.0f), NULL);
 		NullCheck(L_21);
 		Transform_Rotate_m2A308205498AFEEA3DF784B1C86E4F7C126CA2EE(L_21, L_24, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 76413
+// Method Definition Index: 76408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController__ctor_mFEEB1E7E601CA9BD0074CBBB06A4781E355CBF7E (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13463,16 +12775,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController__ctor_mFEEB1E7E601CA9BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:12>
 		__this->____moveRate = (4.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:14>
 		__this->____clientAuth = (bool)1;
 		il2cpp_codegen_runtime_class_init_inline(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F_il2cpp_TypeInfo_var);
 		NetworkBehaviour__ctor_m97641A3DBD926AA90E244C75CA2DCA48E877377E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76414
+// Method Definition Index: 76409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_NetworkInitialize___Early_m707493770A019C253A8C97E8A50F801487A632A7 (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13503,7 +12813,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76415
+// Method Definition Index: 76410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_NetworkInitialize___Late_mF7A9B6F3E8BA22023B9C5D986BDE42D85D2F12B8 (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13524,7 +12834,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76416
+// Method Definition Index: 76411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_NetworkInitializeIfDisabled_m79E6B82D804542C9AD4CA92204F9E4CD1639E032 (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13533,7 +12843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_NetworkInitializeIfDisa
 		return;
 	}
 }
-// Method Definition Index: 76417
+// Method Definition Index: 76412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_RpcWriter___Server_ServerMove___1138564871_m119FB707A1F065462FB0A980BFB87189E36E88D3 (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, float ___0_hor, float ___1_ver, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13607,19 +12917,17 @@ IL_004a:
 		return;
 	}
 }
-// Method Definition Index: 76418
+// Method Definition Index: 76413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_RpcLogic___ServerMove___1138564871_m2626458C8C66A945B280BC869D444FD4D42F186D (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, float ___0_p, float ___1_p, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:53>
 		float L_0 = ___0_p;
 		float L_1 = ___1_p;
 		PlayerController_Move_mA82F29EB26805251E832CCC30DF8087F64DE93F6(__this, L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 76419
+// Method Definition Index: 76414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_RpcReader___Server_ServerMove___1138564871_m2C2DE47A0E4365BBA0F1F8E18FDE0EE7DD63C74B (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___2_conn, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -13668,7 +12976,7 @@ IL_0038:
 		return;
 	}
 }
-// Method Definition Index: 76420
+// Method Definition Index: 76415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Awake_UserLogic_FishNet_Example_Scened_PlayerController_FishNet_Demos_dll_m801376A41C3CC3022EFFBA2400A7FB6CEB1A4486 (PlayerController_tC1130F6ED7E101166892FA6F9A59EAA74525D029* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13679,7 +12987,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Awake_UserLogic_FishNet
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:18>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -13689,7 +12996,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Awake_UserLogic_FishNet
 		RuntimeObject* L_3 = Box(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var, &L_2);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/PlayerController.cs:19>
 		return;
 	}
 }
@@ -13701,7 +13007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Awake_UserLogic_FishNet
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76421
+// Method Definition Index: 76416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoaderExample_OnTriggerEnter_mDD98026C12F6A66E43A0C96204EB9C4DEDC71DB1 (SceneLoaderExample_tBAEF585C24FEACF8737F211AD1D4D2A6B448D9C8* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13724,7 +13030,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoaderExample_OnTriggerEnter_mDD980
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:69>
 		bool L_1 = __this->____onTriggerEnter;
 		if (L_1)
 		{
@@ -13732,23 +13037,20 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:70>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:72>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___0_other;
 		NullCheck(L_2);
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_3;
 		L_3 = Component_GetComponent_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m4FB19B602F50F144B346C3720AC62B9D52102B5B(L_2, Component_GetComponent_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m4FB19B602F50F144B346C3720AC62B9D52102B5B_RuntimeMethod_var);
 		SceneLoaderExample_LoadScene_m223888BADDD27B6C9672D44C46427FE239873CE3(__this, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:73>
 		return;
 	}
 }
-// Method Definition Index: 76422
+// Method Definition Index: 76417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoaderExample_OnTriggerExit_mB5AFBC2C1710EE7D788C73C133DB8EFDF84935CD (SceneLoaderExample_tBAEF585C24FEACF8737F211AD1D4D2A6B448D9C8* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13771,7 +13073,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoaderExample_OnTriggerExit_mB5AFBC
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:78>
 		bool L_1 = __this->____onTriggerEnter;
 		if (!L_1)
 		{
@@ -13779,23 +13080,20 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:79>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:81>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___0_other;
 		NullCheck(L_2);
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_3;
 		L_3 = Component_GetComponent_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m4FB19B602F50F144B346C3720AC62B9D52102B5B(L_2, Component_GetComponent_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m4FB19B602F50F144B346C3720AC62B9D52102B5B_RuntimeMethod_var);
 		SceneLoaderExample_LoadScene_m223888BADDD27B6C9672D44C46427FE239873CE3(__this, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:82>
 		return;
 	}
 }
-// Method Definition Index: 76423
+// Method Definition Index: 76418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoaderExample_LoadScene_m223888BADDD27B6C9672D44C46427FE239873CE3 (SceneLoaderExample_tBAEF585C24FEACF8737F211AD1D4D2A6B448D9C8* __this, NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* ___0_triggeringIdentity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13831,7 +13129,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoaderExample_LoadScene_m223888BADD
 	memset((&V_5), 0, sizeof(V_5));
 	NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* V_6 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:86>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0;
 		L_0 = InstanceFinder_get_NetworkManager_m6B47BBD6E0F75FF5798CA210DD19F6B0868554E7(NULL);
 		NullCheck(L_0);
@@ -13843,13 +13140,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoaderExample_LoadScene_m223888BADD
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:87>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:90>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_2 = ___0_triggeringIdentity;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -13860,13 +13155,11 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:91>
 		return;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:95>
 		Dictionary_2_t4BFB97F1924749368BB601163786AB69D55809D7* L_4 = __this->____triggeredTimes;
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_5 = ___0_triggeringIdentity;
 		NullCheck(L_5);
@@ -13881,7 +13174,6 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:97>
 		float L_8;
 		L_8 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		float L_9 = V_0;
@@ -13891,13 +13183,11 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:98>
 		return;
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:100>
 		Dictionary_2_t4BFB97F1924749368BB601163786AB69D55809D7* L_10 = __this->____triggeredTimes;
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_11 = ___0_triggeringIdentity;
 		NullCheck(L_11);
@@ -13907,11 +13197,9 @@ IL_003b:
 		L_13 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		NullCheck(L_10);
 		Dictionary_2_set_Item_mA96C2C04BE3DCCBFC16C3405250C354BEAA8E4A1(L_10, L_12, L_13, Dictionary_2_set_Item_mA96C2C04BE3DCCBFC16C3405250C354BEAA8E4A1_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:103>
 		List_1_t762542A548AFEBFC9DD5CA278456B8AF2FACE3A6* L_14 = (List_1_t762542A548AFEBFC9DD5CA278456B8AF2FACE3A6*)il2cpp_codegen_object_new(List_1_t762542A548AFEBFC9DD5CA278456B8AF2FACE3A6_il2cpp_TypeInfo_var);
 		List_1__ctor_m6DD6AA3253CF89AFEBA288A02C4C54264D59E2F9(L_14, List_1__ctor_m6DD6AA3253CF89AFEBA288A02C4C54264D59E2F9_RuntimeMethod_var);
 		V_1 = L_14;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:104>
 		bool L_15 = __this->____moveAllObjects;
 		if (!L_15)
 		{
@@ -13919,7 +13207,6 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:106>
 		ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* L_16;
 		L_16 = InstanceFinder_get_ServerManager_m6BF5361EE7E5DB19213FB837F85673A38C8C4046(NULL);
 		NullCheck(L_16);
@@ -13950,10 +13237,8 @@ FINALLY_00c1:
 
 IL_0077_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:106>
 				NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_20;
 				L_20 = Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_inline((&V_4), Enumerator_get_Current_mA9F46ED765A44E9F599C73891DC0DB64F4F54DEB_RuntimeMethod_var);
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:108>
 				NullCheck(L_20);
 				HashSet_1_t521764AA06C3080DD826EB2C2C43B542FF824ACB* L_21 = L_20->___Objects;
 				NullCheck(L_21);
@@ -13979,11 +13264,9 @@ FINALLY_00a8_1:
 
 IL_008c_2:
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:108>
 						NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_23;
 						L_23 = Enumerator_get_Current_mA972D352088D654DF59B06C0095DDAE0B77459AF_inline((&V_5), Enumerator_get_Current_mA972D352088D654DF59B06C0095DDAE0B77459AF_RuntimeMethod_var);
 						V_6 = L_23;
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:109>
 						List_1_t762542A548AFEBFC9DD5CA278456B8AF2FACE3A6* L_24 = V_1;
 						NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_25 = V_6;
 						NullCheck(L_24);
@@ -13992,7 +13275,6 @@ IL_008c_2:
 
 IL_009d_2:
 					{
-						//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:108>
 						bool L_26;
 						L_26 = Enumerator_MoveNext_mD13D30A03DD3D35113B70DF258E4E47C1F280EEA((&V_5), Enumerator_MoveNext_mD13D30A03DD3D35113B70DF258E4E47C1F280EEA_RuntimeMethod_var);
 						if (L_26)
@@ -14012,7 +13294,6 @@ IL_009d_2:
 
 IL_00b6_1:
 			{
-				//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:106>
 				bool L_27;
 				L_27 = Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC((&V_4), Enumerator_MoveNext_m25806A1810AD501BED9474B67B0CAC70D5F235DC_RuntimeMethod_var);
 				if (L_27)
@@ -14032,7 +13313,6 @@ IL_00b6_1:
 
 IL_00cf:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:112>
 		bool L_28 = __this->____moveObject;
 		if (!L_28)
 		{
@@ -14040,7 +13320,6 @@ IL_00cf:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:114>
 		List_1_t762542A548AFEBFC9DD5CA278456B8AF2FACE3A6* L_29 = V_1;
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_30 = ___0_triggeringIdentity;
 		NullCheck(L_29);
@@ -14049,10 +13328,6 @@ IL_00cf:
 
 IL_00de:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:117>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:118>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:119>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:120>
 		LoadOptions_t098F0F306CA755EBA68DA6890C77FC00AC4086A3* L_31 = (LoadOptions_t098F0F306CA755EBA68DA6890C77FC00AC4086A3*)il2cpp_codegen_object_new(LoadOptions_t098F0F306CA755EBA68DA6890C77FC00AC4086A3_il2cpp_TypeInfo_var);
 		LoadOptions__ctor_mAEB55E4A4BC15B32628184FED7DC6FE3588D3BD6(L_31, NULL);
 		LoadOptions_t098F0F306CA755EBA68DA6890C77FC00AC4086A3* L_32 = L_31;
@@ -14060,12 +13335,10 @@ IL_00de:
 		NullCheck(L_32);
 		L_32->___AutomaticallyUnload = L_33;
 		V_2 = L_32;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:123>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = __this->____scenes;
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_35 = (SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3*)il2cpp_codegen_object_new(SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3_il2cpp_TypeInfo_var);
 		SceneLoadData__ctor_m317BE21BC05ECA61D93E674D115284275204CC21(L_35, L_34, NULL);
 		V_3 = L_35;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:124>
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_36 = V_3;
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_37 = V_3;
 		NullCheck(L_37);
@@ -14082,18 +13355,15 @@ IL_00de:
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
 		Il2CppCodeGenWriteBarrier((void**)&(((&L_36->___PreferredActiveScene))->___Server), (void*)NULL);
 		#endif
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:125>
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_42 = V_3;
 		uint8_t L_43 = __this->____replaceOption;
 		NullCheck(L_42);
 		L_42->___ReplaceScenes = L_43;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:126>
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_44 = V_3;
 		LoadOptions_t098F0F306CA755EBA68DA6890C77FC00AC4086A3* L_45 = V_2;
 		NullCheck(L_44);
 		L_44->___Options = L_45;
 		Il2CppCodeGenWriteBarrier((void**)(&L_44->___Options), (void*)L_45);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:127>
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_46 = V_3;
 		List_1_t762542A548AFEBFC9DD5CA278456B8AF2FACE3A6* L_47 = V_1;
 		NullCheck(L_47);
@@ -14102,7 +13372,6 @@ IL_00de:
 		NullCheck(L_46);
 		L_46->___MovedNetworkObjects = L_48;
 		Il2CppCodeGenWriteBarrier((void**)(&L_46->___MovedNetworkObjects), (void*)L_48);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:130>
 		bool L_49 = __this->____connectionOnly;
 		if (!L_49)
 		{
@@ -14110,7 +13379,6 @@ IL_00de:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:131>
 		SceneManager_t8C570C55CF16F714895A0FD786058027920CF888* L_50;
 		L_50 = InstanceFinder_get_SceneManager_mEF0B66C39AAD22D5734AAF6652440C0901337AF3(NULL);
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_51 = ___0_triggeringIdentity;
@@ -14125,17 +13393,15 @@ IL_00de:
 
 IL_0148:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:134>
 		SceneManager_t8C570C55CF16F714895A0FD786058027920CF888* L_54;
 		L_54 = InstanceFinder_get_SceneManager_mEF0B66C39AAD22D5734AAF6652440C0901337AF3(NULL);
 		SceneLoadData_tF49F5D521904D018DCC9E7E8B36906717B143FA3* L_55 = V_3;
 		NullCheck(L_54);
 		SceneManager_LoadGlobalScenes_mDD9B08D3BEF47D3A1585167B3F84C1AAE6A4DE2C(L_54, L_55, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:135>
 		return;
 	}
 }
-// Method Definition Index: 76424
+// Method Definition Index: 76419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoaderExample__ctor_m2DACA1CE78B320B1E730DDC75C7B0F62AC0DEF8E (SceneLoaderExample_tBAEF585C24FEACF8737F211AD1D4D2A6B448D9C8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14147,19 +13413,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoaderExample__ctor_m2DACA1CE78B320
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:21>
 		__this->____moveObject = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:33>
 		__this->____replaceOption = 2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:39>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)0);
 		__this->____scenes = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____scenes), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:51>
 		__this->____automaticallyUnload = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:57>
 		__this->____onTriggerEnter = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneLoaderExample.cs:64>
 		Dictionary_2_t4BFB97F1924749368BB601163786AB69D55809D7* L_1 = (Dictionary_2_t4BFB97F1924749368BB601163786AB69D55809D7*)il2cpp_codegen_object_new(Dictionary_2_t4BFB97F1924749368BB601163786AB69D55809D7_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m2BFB454F780DCA49C89ABE9E9B946FEE72507805(L_1, Dictionary_2__ctor_m2BFB454F780DCA49C89ABE9E9B946FEE72507805_RuntimeMethod_var);
 		__this->____triggeredTimes = L_1;
@@ -14176,7 +13436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneLoaderExample__ctor_m2DACA1CE78B320
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76425
+// Method Definition Index: 76420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneUnloaderExample_OnTriggerEnter_m30E04568A69FF9E90C81774FE2F7794380C4019E (SceneUnloaderExample_tF8A559FE3F5847044221BED687E3121F234DDA9C* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14199,7 +13459,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneUnloaderExample_OnTriggerEnter_m30E
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:41>
 		bool L_1 = __this->____onTriggerEnter;
 		if (L_1)
 		{
@@ -14207,13 +13466,11 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:42>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:44>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___0_other;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
@@ -14222,11 +13479,10 @@ IL_0016:
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_4;
 		L_4 = GameObject_GetComponent_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m2002DD86A637211E55D29C8B9EB951A47824B4ED(L_3, GameObject_GetComponent_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m2002DD86A637211E55D29C8B9EB951A47824B4ED_RuntimeMethod_var);
 		SceneUnloaderExample_UnloadScenes_m9A34B80CF4693966ACD57DE82E138E8960FBFDCE(__this, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:45>
 		return;
 	}
 }
-// Method Definition Index: 76426
+// Method Definition Index: 76421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneUnloaderExample_OnTriggerExit_mECF32669B15A0E14F61346376AE93EEF746F0025 (SceneUnloaderExample_tF8A559FE3F5847044221BED687E3121F234DDA9C* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14249,7 +13505,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneUnloaderExample_OnTriggerExit_mECF3
 
 IL_000c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:50>
 		bool L_1 = __this->____onTriggerEnter;
 		if (!L_1)
 		{
@@ -14257,13 +13512,11 @@ IL_000c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:51>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:53>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___0_other;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
@@ -14272,11 +13525,10 @@ IL_0016:
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_4;
 		L_4 = GameObject_GetComponent_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m2002DD86A637211E55D29C8B9EB951A47824B4ED(L_3, GameObject_GetComponent_TisNetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D_m2002DD86A637211E55D29C8B9EB951A47824B4ED_RuntimeMethod_var);
 		SceneUnloaderExample_UnloadScenes_m9A34B80CF4693966ACD57DE82E138E8960FBFDCE(__this, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 76427
+// Method Definition Index: 76422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneUnloaderExample_UnloadScenes_m9A34B80CF4693966ACD57DE82E138E8960FBFDCE (SceneUnloaderExample_tF8A559FE3F5847044221BED687E3121F234DDA9C* __this, NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* ___0_triggeringIdentity, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14297,7 +13549,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneUnloaderExample_UnloadScenes_m9A34B
 	UnloadOptions_t49564D79455E7FF6A53FD160566AD425FB421426* G_B7_1 = NULL;
 	UnloadOptions_t49564D79455E7FF6A53FD160566AD425FB421426* G_B7_2 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:62>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0;
 		L_0 = InstanceFinder_get_NetworkManager_m6B47BBD6E0F75FF5798CA210DD19F6B0868554E7(NULL);
 		NullCheck(L_0);
@@ -14309,13 +13560,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneUnloaderExample_UnloadScenes_m9A34B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:63>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:66>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_2 = ___0_triggeringIdentity;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -14326,16 +13575,11 @@ IL_000d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:67>
 		return;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:69>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:70>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:71>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:72>
 		UnloadOptions_t49564D79455E7FF6A53FD160566AD425FB421426* L_4 = (UnloadOptions_t49564D79455E7FF6A53FD160566AD425FB421426*)il2cpp_codegen_object_new(UnloadOptions_t49564D79455E7FF6A53FD160566AD425FB421426_il2cpp_TypeInfo_var);
 		UnloadOptions__ctor_mE0BBF5CB0719FA0694E23F6FC561D3A0875E803F(L_4, NULL);
 		UnloadOptions_t49564D79455E7FF6A53FD160566AD425FB421426* L_5 = L_4;
@@ -14368,18 +13612,15 @@ IL_0029:
 		NullCheck(G_B7_1);
 		G_B7_1->___Mode = G_B7_0;
 		V_0 = G_B7_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:74>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = __this->____scenes;
 		SceneUnloadData_tA5D6442B1CDE3B59393C428C87C5A0FAD7888B40* L_8 = (SceneUnloadData_tA5D6442B1CDE3B59393C428C87C5A0FAD7888B40*)il2cpp_codegen_object_new(SceneUnloadData_tA5D6442B1CDE3B59393C428C87C5A0FAD7888B40_il2cpp_TypeInfo_var);
 		SceneUnloadData__ctor_m1AFB4641D86D2844BD18CEEDF284E5F1764FB0B1(L_8, L_7, NULL);
 		V_1 = L_8;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:75>
 		SceneUnloadData_tA5D6442B1CDE3B59393C428C87C5A0FAD7888B40* L_9 = V_1;
 		UnloadOptions_t49564D79455E7FF6A53FD160566AD425FB421426* L_10 = V_0;
 		NullCheck(L_9);
 		L_9->___Options = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___Options), (void*)L_10);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:78>
 		bool L_11 = __this->____connectionOnly;
 		if (!L_11)
 		{
@@ -14387,7 +13628,6 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:79>
 		SceneManager_t8C570C55CF16F714895A0FD786058027920CF888* L_12;
 		L_12 = InstanceFinder_get_SceneManager_mEF0B66C39AAD22D5734AAF6652440C0901337AF3(NULL);
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_13 = ___0_triggeringIdentity;
@@ -14402,17 +13642,15 @@ IL_0029:
 
 IL_005c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:82>
 		SceneManager_t8C570C55CF16F714895A0FD786058027920CF888* L_16;
 		L_16 = InstanceFinder_get_SceneManager_mEF0B66C39AAD22D5734AAF6652440C0901337AF3(NULL);
 		SceneUnloadData_tA5D6442B1CDE3B59393C428C87C5A0FAD7888B40* L_17 = V_1;
 		NullCheck(L_16);
 		SceneManager_UnloadGlobalScenes_mFC26BBABF5BA3F84895F288FF32E8F675F04F6F8(L_16, L_17, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:83>
 		return;
 	}
 }
-// Method Definition Index: 76428
+// Method Definition Index: 76423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneUnloaderExample__ctor_m3AE55B255F325685D7ACB0E81255AEE8FF34E351 (SceneUnloaderExample_tF8A559FE3F5847044221BED687E3121F234DDA9C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14422,13 +13660,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneUnloaderExample__ctor_m3AE55B255F32
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:18>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)0);
 		__this->____scenes = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____scenes), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:30>
 		__this->____unloadUnused = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/SceneManager (Old Examples)/Scripts/SceneUnloaderExample.cs:36>
 		__this->____onTriggerEnter = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -14442,7 +13677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneUnloaderExample__ctor_m3AE55B255F32
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76429
+// Method Definition Index: 76424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 IntermediateLayerCipher_HandleIncoming_m3D59677F59324B081049699CDD59349C03DAC071 (IntermediateLayerCipher_t25BF47F8BBFE9FA8A3F5E7170C8E94BAE90FCEE3* __this, ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 ___0_src, bool ___1_fromServer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14460,20 +13695,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArraySegment_1_t3DC888623B720A071D69279F1FCB9
 	int32_t V_3 = 0;
 	int16_t V_4 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:28>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0;
 		L_0 = ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_inline((&___0_src), ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:29>
 		int32_t L_1;
 		L_1 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&___0_src), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:30>
 		int32_t L_2;
 		L_2 = ArraySegment_1_get_Offset_m28FEFF65E8FA9A92DF84966071346BFD426CC3AA_inline((&___0_src), ArraySegment_1_get_Offset_m28FEFF65E8FA9A92DF84966071346BFD426CC3AA_RuntimeMethod_var);
 		V_2 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:32>
 		int32_t L_3;
 		L_3 = ArraySegment_1_get_Offset_m28FEFF65E8FA9A92DF84966071346BFD426CC3AA_inline((&___0_src), ArraySegment_1_get_Offset_m28FEFF65E8FA9A92DF84966071346BFD426CC3AA_RuntimeMethod_var);
 		V_3 = L_3;
@@ -14482,14 +13713,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArraySegment_1_t3DC888623B720A071D69279F1FCB9
 
 IL_0022:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:34>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
 		int32_t L_5 = V_3;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		uint8_t L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		V_4 = ((int16_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_7, 5)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:35>
 		int16_t L_8 = V_4;
 		if ((((int32_t)L_8) >= ((int32_t)0)))
 		{
@@ -14497,27 +13726,23 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:36>
 		int16_t L_9 = V_4;
 		V_4 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)L_9, ((int32_t)256))));
 	}
 
 IL_003a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:37>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = V_0;
 		int32_t L_11 = V_3;
 		int16_t L_12 = V_4;
 		NullCheck(L_10);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (uint8_t)((int32_t)(uint8_t)L_12));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:32>
 		int32_t L_13 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:32>
 		int32_t L_14 = V_3;
 		int32_t L_15 = V_2;
 		int32_t L_16 = V_1;
@@ -14527,12 +13752,11 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:40>
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_17 = ___0_src;
 		return L_17;
 	}
 }
-// Method Definition Index: 76430
+// Method Definition Index: 76425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 IntermediateLayerCipher_HandleOutgoing_m5133D9F9E67EA7B0D6DFC659E3C9390774B45765 (IntermediateLayerCipher_t25BF47F8BBFE9FA8A3F5E7170C8E94BAE90FCEE3* __this, ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 ___0_src, bool ___1_toServer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14550,20 +13774,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArraySegment_1_t3DC888623B720A071D69279F1FCB9
 	int32_t V_3 = 0;
 	int16_t V_4 = 0;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:46>
 		il2cpp_codegen_runtime_class_init_inline(ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0;
 		L_0 = ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_inline((&___0_src), ArraySegment_1_get_Array_m85F374406C1E34FDEFA7F160336A247891AF8105_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:47>
 		int32_t L_1;
 		L_1 = ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_inline((&___0_src), ArraySegment_1_get_Count_m7B026228B16D905890B805EA70E9114D1517B053_RuntimeMethod_var);
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:48>
 		int32_t L_2;
 		L_2 = ArraySegment_1_get_Offset_m28FEFF65E8FA9A92DF84966071346BFD426CC3AA_inline((&___0_src), ArraySegment_1_get_Offset_m28FEFF65E8FA9A92DF84966071346BFD426CC3AA_RuntimeMethod_var);
 		V_2 = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:50>
 		int32_t L_3 = V_2;
 		V_3 = L_3;
 		goto IL_0042;
@@ -14571,14 +13791,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArraySegment_1_t3DC888623B720A071D69279F1FCB9
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:52>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
 		int32_t L_5 = V_3;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		uint8_t L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		V_4 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)L_7, 5)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:53>
 		int16_t L_8 = V_4;
 		if ((((int32_t)L_8) <= ((int32_t)((int32_t)255))))
 		{
@@ -14586,27 +13804,23 @@ IL_001c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:54>
 		int16_t L_9 = V_4;
 		V_4 = ((int16_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_9, ((int32_t)256))));
 	}
 
 IL_0038:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:55>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = V_0;
 		int32_t L_11 = V_3;
 		int16_t L_12 = V_4;
 		NullCheck(L_10);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(L_11), (uint8_t)((int32_t)(uint8_t)L_12));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:50>
 		int32_t L_13 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0042:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:50>
 		int32_t L_14 = V_3;
 		int32_t L_15 = V_2;
 		int32_t L_16 = V_1;
@@ -14616,12 +13830,11 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/IntermediateLayer/Scripts/IntermediateLayerCipher.cs:58>
 		ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 L_17 = ___0_src;
 		return L_17;
 	}
 }
-// Method Definition Index: 76431
+// Method Definition Index: 76426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntermediateLayerCipher__ctor_m5817BB8B5C014958CE551CFB7CFE6B12361211A2 (IntermediateLayerCipher_t25BF47F8BBFE9FA8A3F5E7170C8E94BAE90FCEE3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14637,7 +13850,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IntermediateLayerCipher__ctor_m5817BB8B5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76432
+// Method Definition Index: 76427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_Awake_mB134C04495BA6AC5076DFD0A6A204043257C8937 (StructSyncBehaviour_tC98ACBCCCCDC3EA24E5E593C8EEF4A99A1EA98F1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14647,7 +13860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_Awake_mB134C04495BA6
 		return;
 	}
 }
-// Method Definition Index: 76433
+// Method Definition Index: 76428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour__structy_OnChange_m955637EFC334B5E548FA900CAD53FDD1638D8EFE (StructSyncBehaviour_tC98ACBCCCCDC3EA24E5E593C8EEF4A99A1EA98F1* __this, uint8_t ___0_op, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___1_oldItem, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___2_newItem, bool ___3_asServer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14661,7 +13874,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour__structy_OnChange_m9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructSyncBehaviour.cs:22>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -14694,15 +13906,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour__structy_OnChange_m9
 		L_12 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_10, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructSyncBehaviour.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 76434
+// Method Definition Index: 76429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_Update_mC18EA456DC3AC839EDE5E12DD409EC9FB4B44902 (StructSyncBehaviour_tC98ACBCCCCDC3EA24E5E593C8EEF4A99A1EA98F1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructSyncBehaviour.cs:28>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		if (!L_0)
@@ -14719,7 +13929,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_Update_mC18EA456DC3A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructSyncBehaviour.cs:31>
 		StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* L_2 = __this->____structy;
 		NullCheck(L_2);
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF* L_3 = (Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF*)(&L_2->___Value);
@@ -14727,7 +13936,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_Update_mC18EA456DC3A
 		uint16_t* L_5 = L_4;
 		int32_t L_6 = *((uint16_t*)L_5);
 		*((int16_t*)L_5) = (int16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add(L_6, 1)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructSyncBehaviour.cs:32>
 		StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* L_7 = __this->____structy;
 		NullCheck(L_7);
 		StructySync_ValuesChanged_m8CBADE062FBA5524682918D7ACC98F09AEF0349D(L_7, NULL);
@@ -14735,11 +13943,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_Update_mC18EA456DC3A
 
 IL_0036:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructSyncBehaviour.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 76435
+// Method Definition Index: 76430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour__ctor_mA1199757C732AE4AF783C1C497AD98F490DF3499 (StructSyncBehaviour_tC98ACBCCCCDC3EA24E5E593C8EEF4A99A1EA98F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14750,7 +13957,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour__ctor_mA1199757C732A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructSyncBehaviour.cs:12>
 		StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* L_0 = (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A*)il2cpp_codegen_object_new(StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A_il2cpp_TypeInfo_var);
 		StructySync__ctor_m0D4E0CB985B84A795FB73ADE6B8B499EB7B0B91B(L_0, NULL);
 		__this->____structy = L_0;
@@ -14760,7 +13966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour__ctor_mA1199757C732A
 		return;
 	}
 }
-// Method Definition Index: 76436
+// Method Definition Index: 76431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_NetworkInitialize___Early_mF5733C4737C58968F55613C9E4066792B1D4CF3A (StructSyncBehaviour_tC98ACBCCCCDC3EA24E5E593C8EEF4A99A1EA98F1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14784,7 +13990,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76437
+// Method Definition Index: 76432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_NetworkInitialize___Late_m81149D95CA7685D404642F26CBA0F9179E638F92 (StructSyncBehaviour_tC98ACBCCCCDC3EA24E5E593C8EEF4A99A1EA98F1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14808,7 +14014,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76438
+// Method Definition Index: 76433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_NetworkInitializeIfDisabled_m50DDA13A66230A97B13A825D1A6C1E6A6596EB5C (StructSyncBehaviour_tC98ACBCCCCDC3EA24E5E593C8EEF4A99A1EA98F1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14817,7 +14023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_NetworkInitializeIfD
 		return;
 	}
 }
-// Method Definition Index: 76439
+// Method Definition Index: 76434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_Awake_UserLogic_FishNet_Example_CustomSyncObject_StructSyncBehaviour_FishNet_Demos_dll_mCADE8E6CCE194E3A92968356F0AF4152A1E86EB6 (StructSyncBehaviour_tC98ACBCCCCDC3EA24E5E593C8EEF4A99A1EA98F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14828,13 +14034,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructSyncBehaviour_Awake_UserLogic_Fish
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructSyncBehaviour.cs:17>
 		StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* L_0 = __this->____structy;
 		CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* L_1 = (CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69*)il2cpp_codegen_object_new(CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69_il2cpp_TypeInfo_var);
 		CustomChanged__ctor_mFF7177B7136C8EB247B59FA0E08E7BE5F2E9384F(L_1, __this, (intptr_t)((void*)StructSyncBehaviour__structy_OnChange_m955637EFC334B5E548FA900CAD53FDD1638D8EFE_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		StructySync_add_OnChange_mCAD5C9D3824503A00EAE3CAB20392CD902AA363B(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructSyncBehaviour.cs:18>
 		return;
 	}
 }
@@ -14882,18 +14086,15 @@ IL2CPP_EXTERN_C void Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF_marshal_c
 	il2cpp_codegen_marshal_free_bstring(marshaled.___Name);
 	marshaled.___Name = NULL;
 }
-// Method Definition Index: 76440
+// Method Definition Index: 76435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Structy__ctor_m322EEAA7689975E30AE4F3296F697CFE1EAB4E6D (Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF* __this, String_t* ___0_name, uint16_t ___1_age, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:21>
 		String_t* L_0 = ___0_name;
 		__this->___Name = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Name), (void*)L_0);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:22>
 		uint16_t L_1 = ___1_age;
 		__this->___Age = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:23>
 		return;
 	}
 }
@@ -14912,7 +14113,7 @@ IL2CPP_EXTERN_C  void Structy__ctor_m322EEAA7689975E30AE4F3296F697CFE1EAB4E6D_Ad
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76441
+// Method Definition Index: 76436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_add_OnChange_mCAD5C9D3824503A00EAE3CAB20392CD902AA363B (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* __this, CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14955,7 +14156,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76442
+// Method Definition Index: 76437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_remove_OnChange_m327228E84BBF12E179A45B79EDDE6A9D4CC44BF5 (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* __this, CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14998,21 +14199,18 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76443
+// Method Definition Index: 76438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_Initialized_mD0247FA23F920DFB5183CBD6EC4179923137AA46 (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:103>
 		SyncBase_Initialized_mF95BF82A67301CB8B4729189B6F8D7FE93E77F25(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:104>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_0 = __this->___Value;
 		__this->____initialValue = L_0;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____initialValue))->___Name), (void*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:105>
 		return;
 	}
 }
-// Method Definition Index: 76444
+// Method Definition Index: 76439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_AddOperation_m360A6797F533E7EBD350A36DBDB280424515CEB8 (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* __this, uint8_t ___0_operation, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___1_prev, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___2_next, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15029,7 +14227,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_AddOperation_m360A6797F533E7
 	CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* G_B7_0 = NULL;
 	CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* G_B6_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:116>
 		bool L_0;
 		L_0 = SyncBase_get_IsInitialized_m953427A1256C4170AF0C6289C83B74D67C9F33E1_inline(__this, NULL);
 		if (L_0)
@@ -15038,13 +14235,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_AddOperation_m360A6797F533E7
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:117>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:119>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1 = ((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this)->___NetworkManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -15065,32 +14260,24 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:121>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_5 = ((SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D*)__this)->___NetworkManager;
 		NetworkManagerExtensions_LogWarning_m99816E891AC92D8D31D94F2E085E746A21F98CC0(L_5, _stringLiteralF65366778C101ECCD6BFC52FE30EA0BC930569C1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:122>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:130>
 		__this->____valuesChanged = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:131>
 		bool L_6;
 		L_6 = SyncBase_Dirty_mA90F50CFAADEBDA0872E940807D150A830F8B475(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:134>
 		V_0 = (bool)1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:136>
 		uint8_t L_7 = ___0_operation;
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_8 = ___2_next;
 		ChangeData__ctor_m3C5CE9C86ABD706623A82DD199DB4270731AA59F((&V_1), L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:137>
 		List_1_t6B4EFD9DDB5B2A7699DAF377EB6E1623A58623DF* L_9 = __this->____changed;
 		ChangeData_tA6218042EF118E53D087451E0B81EC89EB5BA5EE L_10 = V_1;
 		NullCheck(L_9);
 		List_1_Add_m1168315383070F7A0B825DF69E51B44EE911B17B_inline(L_9, L_10, List_1_Add_m1168315383070F7A0B825DF69E51B44EE911B17B_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:138>
 		CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* L_11 = __this->___OnChange;
 		CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* L_12 = L_11;
 		if (L_12)
@@ -15112,11 +14299,10 @@ IL_0065:
 		bool L_16 = V_0;
 		NullCheck(G_B7_0);
 		CustomChanged_Invoke_m60BF27976DA02B4489ABF667763BDCB65F8EF6CB_inline(G_B7_0, L_13, L_14, L_15, L_16, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:139>
 		return;
 	}
 }
-// Method Definition Index: 76445
+// Method Definition Index: 76440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_WriteDelta_mACDA37DDF1A5F60E2C133D6B1C206E06914D632C (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* __this, PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* ___0_writer, bool ___1_resetSyncTick, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15131,11 +14317,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_WriteDelta_mACDA37DDF1A5F60E
 	ChangeData_tA6218042EF118E53D087451E0B81EC89EB5BA5EE V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:148>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_0 = ___0_writer;
 		bool L_1 = ___1_resetSyncTick;
 		SyncBase_WriteDelta_mB56F58D656BE83F98FAF749F4F4169596D15BB8F(__this, L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:149>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_2 = ___0_writer;
 		List_1_t6B4EFD9DDB5B2A7699DAF377EB6E1623A58623DF* L_3 = __this->____changed;
 		NullCheck(L_3);
@@ -15143,27 +14327,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_WriteDelta_mACDA37DDF1A5F60E
 		L_4 = List_1_get_Count_m203174CCF20ABDE1C9743A6B016025F2ABF86F32_inline(L_3, List_1_get_Count_m203174CCF20ABDE1C9743A6B016025F2ABF86F32_RuntimeMethod_var);
 		NullCheck(L_2);
 		Writer_WriteInt32_mBF2AC2EDEED5CF91177396064070C045487E1451(L_2, L_4, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:151>
 		V_0 = 0;
 		goto IL_0070;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:153>
 		List_1_t6B4EFD9DDB5B2A7699DAF377EB6E1623A58623DF* L_5 = __this->____changed;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
 		ChangeData_tA6218042EF118E53D087451E0B81EC89EB5BA5EE L_7;
 		L_7 = List_1_get_Item_m6FF30B85124FAD3A492E8BC407255A810D12B2EE(L_5, L_6, List_1_get_Item_m6FF30B85124FAD3A492E8BC407255A810D12B2EE_RuntimeMethod_var);
 		V_1 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:154>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_8 = ___0_writer;
 		ChangeData_tA6218042EF118E53D087451E0B81EC89EB5BA5EE L_9 = V_1;
 		uint8_t L_10 = L_9.___Operation;
 		NullCheck(L_8);
 		Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_8, L_10, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:157>
 		ChangeData_tA6218042EF118E53D087451E0B81EC89EB5BA5EE L_11 = V_1;
 		uint8_t L_12 = L_11.___Operation;
 		if ((!(((uint32_t)L_12) == ((uint32_t)2))))
@@ -15172,7 +14352,6 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:159>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_13 = ___0_writer;
 		ChangeData_tA6218042EF118E53D087451E0B81EC89EB5BA5EE L_14 = V_1;
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_15 = L_14.___Data;
@@ -15184,7 +14363,6 @@ IL_001d:
 
 IL_0052:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:161>
 		ChangeData_tA6218042EF118E53D087451E0B81EC89EB5BA5EE L_17 = V_1;
 		uint8_t L_18 = L_17.___Operation;
 		if ((!(((uint32_t)L_18) == ((uint32_t)1))))
@@ -15193,7 +14371,6 @@ IL_0052:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:163>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_19 = ___0_writer;
 		ChangeData_tA6218042EF118E53D087451E0B81EC89EB5BA5EE L_20 = V_1;
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_21 = L_20.___Data;
@@ -15204,14 +14381,12 @@ IL_0052:
 
 IL_006c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:151>
 		int32_t L_23 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_23, 1));
 	}
 
 IL_0070:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:151>
 		int32_t L_24 = V_0;
 		List_1_t6B4EFD9DDB5B2A7699DAF377EB6E1623A58623DF* L_25 = __this->____changed;
 		NullCheck(L_25);
@@ -15223,15 +14398,13 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:167>
 		List_1_t6B4EFD9DDB5B2A7699DAF377EB6E1623A58623DF* L_27 = __this->____changed;
 		NullCheck(L_27);
 		List_1_Clear_mCC5FF69B4991EB0D6E51F757C695E79AD78AC2AD_inline(L_27, List_1_Clear_mCC5FF69B4991EB0D6E51F757C695E79AD78AC2AD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:168>
 		return;
 	}
 }
-// Method Definition Index: 76446
+// Method Definition Index: 76441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_WriteFull_m28990314B98E7E181CA5960FD3346BAC4EC20607 (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* __this, PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* ___0_writer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15241,7 +14414,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_WriteFull_m28990314B98E7E181
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:176>
 		bool L_0 = __this->____valuesChanged;
 		if (L_0)
 		{
@@ -15249,33 +14421,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_WriteFull_m28990314B98E7E181
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:177>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:179>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_1 = ___0_writer;
 		SyncBase_WriteHeader_m1806717BBF45C4AE042308ED0877EAAA1492187D(__this, L_1, (bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:181>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_2 = ___0_writer;
 		NullCheck(L_2);
 		Writer_WriteInt32_mBF2AC2EDEED5CF91177396064070C045487E1451(L_2, 1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:183>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_3 = ___0_writer;
 		NullCheck(L_3);
 		Writer_WriteUInt8Unpacked_mC36CB1E3EC109F8A074366FED518FBF8AD80036A(L_3, (uint8_t)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:185>
 		PooledWriter_tF7ADFC89674F8C1A5FAF14C1FA904D6FD93F2EB3* L_4 = ___0_writer;
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_5 = __this->___Value;
 		NullCheck(L_4);
 		Writer_Write_TisStructy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF_m3D537943985A12A92E80DA248AE1D36AE74117A6(L_4, L_5, Writer_Write_TisStructy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF_m3D537943985A12A92E80DA248AE1D36AE74117A6_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:186>
 		return;
 	}
 }
-// Method Definition Index: 76447
+// Method Definition Index: 76442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_Read_m6FF5CB718DA0C10F50E92F0A76CCEBC2AD7FED58 (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_reader, bool ___1_asServer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15297,36 +14463,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_Read_m6FF5CB718DA0C10F50E92F
 	CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* G_B12_0 = NULL;
 	CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* G_B11_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:195>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_0 = ___0_reader;
 		bool L_1 = ___1_asServer;
 		SyncBase_SetReadArguments_m6C44D32322DC896CA791C10C710F3A75C197AEB8(__this, L_0, L_1, (&V_0), (&V_3), (&V_1), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:197>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_2 = ___0_reader;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = Reader_ReadInt32_mA51A748FDF4D7F5B2206E64B9B4E41B4DA9E57F0(L_2, NULL);
 		V_2 = L_3;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:198>
 		V_4 = 0;
 		goto IL_008e;
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:200>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_4 = ___0_reader;
 		NullCheck(L_4);
 		uint8_t L_5;
 		L_5 = Reader_ReadUInt8Unpacked_m91AB70E5EA28BAB0E10F693CCB16D54B9F1B9737(L_4, NULL);
 		V_5 = L_5;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:201>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_6 = __this->___Value;
 		V_6 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:202>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_7 = V_6;
 		V_7 = L_7;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:205>
 		uint8_t L_8 = V_5;
 		if (L_8)
 		{
@@ -15334,7 +14493,6 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:206>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_9 = ___0_reader;
 		NullCheck(L_9);
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_10;
@@ -15345,7 +14503,6 @@ IL_001a:
 
 IL_003c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:208>
 		uint8_t L_11 = V_5;
 		if ((!(((uint32_t)L_11) == ((uint32_t)1))))
 		{
@@ -15353,7 +14510,6 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:209>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_12 = ___0_reader;
 		NullCheck(L_12);
 		String_t* L_13;
@@ -15365,7 +14521,6 @@ IL_003c:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:211>
 		uint8_t L_14 = V_5;
 		if ((!(((uint32_t)L_14) == ((uint32_t)2))))
 		{
@@ -15373,7 +14528,6 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:212>
 		PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* L_15 = ___0_reader;
 		NullCheck(L_15);
 		uint16_t L_16;
@@ -15383,7 +14537,6 @@ IL_0050:
 
 IL_0062:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:214>
 		bool L_17 = V_1;
 		if (!L_17)
 		{
@@ -15391,7 +14544,6 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:215>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_18 = V_7;
 		__this->___Value = L_18;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___Value))->___Name), (void*)NULL);
@@ -15399,7 +14551,6 @@ IL_0062:
 
 IL_006d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:217>
 		bool L_19 = V_0;
 		if (!L_19)
 		{
@@ -15407,7 +14558,6 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:218>
 		CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* L_20 = __this->___OnChange;
 		CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* L_21 = L_20;
 		if (L_21)
@@ -15433,14 +14583,12 @@ IL_007c:
 
 IL_0088:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:198>
 		int32_t L_26 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_26, 1));
 	}
 
 IL_008e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:198>
 		int32_t L_27 = V_4;
 		int32_t L_28 = V_2;
 		if ((((int32_t)L_27) < ((int32_t)L_28)))
@@ -15449,11 +14597,10 @@ IL_008e:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:220>
 		return;
 	}
 }
-// Method Definition Index: 76448
+// Method Definition Index: 76443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_ValuesChanged_m8CBADE062FBA5524682918D7ACC98F09AEF0349D (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* __this, const RuntimeMethod* method) 
 {
 	Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF V_0;
@@ -15461,13 +14608,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_ValuesChanged_m8CBADE062FBA5
 	Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:227>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_0 = __this->____lastDirtied;
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:228>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_1 = __this->___Value;
 		V_1 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:230>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_2 = V_0;
 		String_t* L_3 = L_2.___Name;
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_4 = V_1;
@@ -15480,7 +14624,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_ValuesChanged_m8CBADE062FBA5
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:231>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_7 = V_0;
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_8 = V_1;
 		StructySync_AddOperation_m360A6797F533E7EBD350A36DBDB280424515CEB8(__this, 1, L_7, L_8, NULL);
@@ -15488,7 +14631,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_ValuesChanged_m8CBADE062FBA5
 
 IL_002a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:232>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_9 = V_0;
 		uint16_t L_10 = L_9.___Age;
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_11 = V_1;
@@ -15499,7 +14641,6 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:233>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_13 = V_0;
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_14 = V_1;
 		StructySync_AddOperation_m360A6797F533E7EBD350A36DBDB280424515CEB8(__this, 2, L_13, L_14, NULL);
@@ -15507,15 +14648,13 @@ IL_002a:
 
 IL_0041:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:235>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_15 = __this->___Value;
 		__this->____lastDirtied = L_15;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____lastDirtied))->___Name), (void*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:236>
 		return;
 	}
 }
-// Method Definition Index: 76449
+// Method Definition Index: 76444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_ResetState_mD4B9082440756242040BDC05527B183D335A61CF (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* __this, bool ___0_asServer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15525,24 +14664,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync_ResetState_mD4B9082440756242
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:243>
 		bool L_0 = ___0_asServer;
 		SyncBase_ResetState_m2621DB6403DBADDB3C259DDE032D6469B28F9D01(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:244>
 		List_1_t6B4EFD9DDB5B2A7699DAF377EB6E1623A58623DF* L_1 = __this->____changed;
 		NullCheck(L_1);
 		List_1_Clear_mCC5FF69B4991EB0D6E51F757C695E79AD78AC2AD_inline(L_1, List_1_Clear_mCC5FF69B4991EB0D6E51F757C695E79AD78AC2AD_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:245>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_2 = __this->____initialValue;
 		__this->___Value = L_2;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___Value))->___Name), (void*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:246>
 		__this->____valuesChanged = (bool)0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:247>
 		return;
 	}
 }
-// Method Definition Index: 76450
+// Method Definition Index: 76445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StructySync_GetSerializedType_m0F428205FFDBFAA97E80C000F91B34F6C95D551E (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15552,7 +14686,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StructySync_GetSerializedType_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:253>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_1;
@@ -15560,7 +14693,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StructySync_GetSerializedType_
 		return L_1;
 	}
 }
-// Method Definition Index: 76451
+// Method Definition Index: 76446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync__ctor_m0D4E0CB985B84A795FB73ADE6B8B499EB7B0B91B (StructySync_tBFF2CB3293AA78E7A5DF1E4EA6B0B8AF4808840A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15571,7 +14704,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StructySync__ctor_m0D4E0CB985B84A795FB73
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:90>
 		List_1_t6B4EFD9DDB5B2A7699DAF377EB6E1623A58623DF* L_0 = (List_1_t6B4EFD9DDB5B2A7699DAF377EB6E1623A58623DF*)il2cpp_codegen_object_new(List_1_t6B4EFD9DDB5B2A7699DAF377EB6E1623A58623DF_il2cpp_TypeInfo_var);
 		List_1__ctor_mB737850A46537B4734A558D640D931C134978006(L_0, List_1__ctor_mB737850A46537B4734A558D640D931C134978006_RuntimeMethod_var);
 		__this->____changed = L_0;
@@ -15632,18 +14764,15 @@ IL2CPP_EXTERN_C void ChangeData_tA6218042EF118E53D087451E0B81EC89EB5BA5EE_marsha
 {
 	Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF_marshal_com_cleanup(marshaled.___Data);
 }
-// Method Definition Index: 76452
+// Method Definition Index: 76447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChangeData__ctor_m3C5CE9C86ABD706623A82DD199DB4270731AA59F (ChangeData_tA6218042EF118E53D087451E0B81EC89EB5BA5EE* __this, uint8_t ___0_operation, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___1_data, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:46>
 		uint8_t L_0 = ___0_operation;
 		__this->___Operation = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:47>
 		Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF L_1 = ___1_data;
 		__this->___Data = L_1;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___Data))->___Name), (void*)NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Custom Struct Sync/StructySync.cs:48>
 		return;
 	}
 }
@@ -15712,7 +14841,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CustomChanged_t1735AE59FFAB7268FAAB
 	Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF_marshal_pinvoke_cleanup(____2_newItem_marshaled);
 
 }
-// Method Definition Index: 76453
+// Method Definition Index: 76448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomChanged__ctor_mFF7177B7136C8EB247B59FA0E08E7BE5F2E9384F (CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15741,13 +14870,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomChanged__ctor_mFF7177B7136C8EB247B
 	}
 	__this->___extra_arg = (intptr_t)&CustomChanged_Invoke_m60BF27976DA02B4489ABF667763BDCB65F8EF6CB_Multicast;
 }
-// Method Definition Index: 76454
+// Method Definition Index: 76449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomChanged_Invoke_m60BF27976DA02B4489ABF667763BDCB65F8EF6CB (CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* __this, uint8_t ___0_op, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___1_oldItem, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___2_newItem, bool ___3_asServer, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint8_t, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF, bool, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_op, ___1_oldItem, ___2_newItem, ___3_asServer, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76455
+// Method Definition Index: 76450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomChanged_BeginInvoke_m928B09CAA192E10ADDF0337DB5D57DE92305E7C7 (CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* __this, uint8_t ___0_op, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___1_oldItem, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___2_newItem, bool ___3_asServer, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15764,7 +14893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomChanged_BeginInvoke_m928
 	__d_args[3] = Box(il2cpp_defaults.boolean_class, &___3_asServer);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 76456
+// Method Definition Index: 76451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomChanged_EndInvoke_mF7021418C97B2D5DF91AFF0B17C2B61546F11CCD (CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -15777,15 +14906,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomChanged_EndInvoke_mF7021418C97B2D5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76457
+// Method Definition Index: 76452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AMonoScript_Start_mE80BEC19BF6C73EFE40AE2F5DCA7FC0D029713E7 (AMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/AMonoScript.cs:10>
 		return;
 	}
 }
-// Method Definition Index: 76458
+// Method Definition Index: 76453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AMonoScript__ctor_m78501DA89AF1330740A8D9A7AB5112944DE901D9 (AMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15801,19 +14929,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AMonoScript__ctor_m78501DA89AF1330740A8D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76478
+// Method Definition Index: 76473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AMSSerializer_WriteAMS_m0D17CF191BA3B2EFFF685E60A7901667F1C8612B (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_w, AMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF* ___1_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:10>
 		return;
 	}
 }
-// Method Definition Index: 76479
+// Method Definition Index: 76474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF* AMSSerializer_ReadAMS_mFDEA3A24750F45338B976C36A8BD34A7D2B8A62C (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_r, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:14>
 		return (AMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF*)NULL;
 	}
 }
@@ -15825,7 +14951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76480
+// Method Definition Index: 76475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_Awake_m2A4CEA65A8CC6CCBBB301898EA4A4EDA68B92616 (ComponentSyncStateBehaviour_t480B6C1EBE8629A83AD89172686804A2ED2EB5CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15835,7 +14961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_Awake_m2A4CE
 		return;
 	}
 }
-// Method Definition Index: 76481
+// Method Definition Index: 76476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour__syncScript_OnChange_m980C22E92C7D6FEEB103BEE7B0FD4EEAB8D17BD0 (ComponentSyncStateBehaviour_t480B6C1EBE8629A83AD89172686804A2ED2EB5CB* __this, AMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF* ___0_component, bool ___1_prevState, bool ___2_nextState, bool ___3_asServer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15846,7 +14972,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour__syncScript_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:39>
 		AMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF* L_0 = ___0_component;
 		NullCheck(L_0);
 		Type_t* L_1;
@@ -15864,11 +14989,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour__syncScript_
 		L_9 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral1FF07067CD6D8D3A836BDBABDC280A5321F1323C, L_2, L_5, L_8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 76482
+// Method Definition Index: 76477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_Update_m2B12920246FAB85304F3BFEBE2C278AC7F934315 (ComponentSyncStateBehaviour_t480B6C1EBE8629A83AD89172686804A2ED2EB5CB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15879,7 +15003,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_Update_m2B12
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:45>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		if (!L_0)
@@ -15896,7 +15019,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_Update_m2B12
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:46>
 		ComponentStateSync_1_tC25B3D584C1FAA3D18F76A917D45F3DE485BC4AB* L_2 = __this->____syncScript;
 		ComponentStateSync_1_tC25B3D584C1FAA3D18F76A917D45F3DE485BC4AB* L_3 = __this->____syncScript;
 		NullCheck(L_3);
@@ -15908,11 +15030,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_Update_m2B12
 
 IL_002e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 76483
+// Method Definition Index: 76478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour__ctor_m4512EF0F8E74939D0BDD226D3CCC16DDA18AF028 (ComponentSyncStateBehaviour_t480B6C1EBE8629A83AD89172686804A2ED2EB5CB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15924,7 +15045,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour__ctor_m4512E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:23>
 		ComponentStateSync_1_tC25B3D584C1FAA3D18F76A917D45F3DE485BC4AB* L_0 = (ComponentStateSync_1_tC25B3D584C1FAA3D18F76A917D45F3DE485BC4AB*)il2cpp_codegen_object_new(ComponentStateSync_1_tC25B3D584C1FAA3D18F76A917D45F3DE485BC4AB_il2cpp_TypeInfo_var);
 		ComponentStateSync_1__ctor_m39AC37400A49AC0175529B8EA2DC6C8748612655(L_0, ComponentStateSync_1__ctor_m39AC37400A49AC0175529B8EA2DC6C8748612655_RuntimeMethod_var);
 		__this->____syncScript = L_0;
@@ -15934,7 +15054,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour__ctor_m4512E
 		return;
 	}
 }
-// Method Definition Index: 76484
+// Method Definition Index: 76479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_NetworkInitialize___Early_m9DE52641A5B80082F29F5388F17E8638392CA8A3 (ComponentSyncStateBehaviour_t480B6C1EBE8629A83AD89172686804A2ED2EB5CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15958,7 +15078,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76485
+// Method Definition Index: 76480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_NetworkInitialize___Late_m7171476F0F156970199540CEF45DA963641A97FB (ComponentSyncStateBehaviour_t480B6C1EBE8629A83AD89172686804A2ED2EB5CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15982,7 +15102,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76486
+// Method Definition Index: 76481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_NetworkInitializeIfDisabled_m06267F99107BAB9B65A157249877478B544012D5 (ComponentSyncStateBehaviour_t480B6C1EBE8629A83AD89172686804A2ED2EB5CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15991,7 +15111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_NetworkIniti
 		return;
 	}
 }
-// Method Definition Index: 76487
+// Method Definition Index: 76482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_Awake_UserLogic_FishNet_Example_ComponentStateSync_ComponentSyncStateBehaviour_FishNet_Demos_dll_mF89D775055A69BBFF0DE6CD54AB1F61D33C5FCAA (ComponentSyncStateBehaviour_t480B6C1EBE8629A83AD89172686804A2ED2EB5CB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16006,22 +15126,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_Awake_UserLo
 	}
 	AMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF* V_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:27>
 		AMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF* L_0;
 		L_0 = Component_GetComponent_TisAMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF_m8C674BEEFB622B5B6B869D1D4C236DD15137319B(__this, Component_GetComponent_TisAMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF_m8C674BEEFB622B5B6B869D1D4C236DD15137319B_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:29>
 		ComponentStateSync_1_tC25B3D584C1FAA3D18F76A917D45F3DE485BC4AB* L_1 = __this->____syncScript;
 		AMonoScript_t017A0D6FF6A11A4E3902DAAA90636F1B451509EF* L_2 = V_0;
 		NullCheck(L_1);
 		ComponentStateSync_1_Initialize_mC281D959585897A67E3012D3A205D723B332D87B(L_1, L_2, ComponentStateSync_1_Initialize_mC281D959585897A67E3012D3A205D723B332D87B_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:31>
 		ComponentStateSync_1_tC25B3D584C1FAA3D18F76A917D45F3DE485BC4AB* L_3 = __this->____syncScript;
 		StateChanged_t34F766C5C4DFFDB4FE8092640A0F1CF7E20B4139* L_4 = (StateChanged_t34F766C5C4DFFDB4FE8092640A0F1CF7E20B4139*)il2cpp_codegen_object_new(StateChanged_t34F766C5C4DFFDB4FE8092640A0F1CF7E20B4139_il2cpp_TypeInfo_var);
 		StateChanged__ctor_mB003F4819AFCAA3741672156BB45E85567F11220(L_4, __this, (intptr_t)((void*)ComponentSyncStateBehaviour__syncScript_OnChange_m980C22E92C7D6FEEB103BEE7B0FD4EEAB8D17BD0_RuntimeMethod_var), NULL);
 		NullCheck(L_3);
 		ComponentStateSync_1_add_OnChange_m256B38F0D8AFD91E97975B38AA08C85B4AAA7423(L_3, L_4, ComponentStateSync_1_add_OnChange_m256B38F0D8AFD91E97975B38AA08C85B4AAA7423_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/CustomSyncType/Component State Sync/ComponentSyncStateBehaviour.cs:32>
 		return;
 	}
 }
@@ -16033,7 +15149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComponentSyncStateBehaviour_Awake_UserLo
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76488
+// Method Definition Index: 76483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroyAfterDelay_Awake_m2528F6F8F5E1E60CE65748C6B4C94DB0E9B60812 (DestroyAfterDelay_tA2866F4CF9BA97038972528DC8DA257DAB4DAC77* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16043,21 +15159,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroyAfterDelay_Awake_m2528F6F8F5E1E60
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/DestroyAfterDelay.cs:12>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		float L_1 = __this->____delay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/DestroyAfterDelay.cs:13>
 		return;
 	}
 }
-// Method Definition Index: 76489
+// Method Definition Index: 76484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroyAfterDelay__ctor_mAC4DAE11D0240B08A5AD669190F776D6C4EA9EDC (DestroyAfterDelay_tA2866F4CF9BA97038972528DC8DA257DAB4DAC77* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/DestroyAfterDelay.cs:8>
 		__this->____delay = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -16071,27 +15184,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroyAfterDelay__ctor_mAC4DAE11D0240B0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76490
+// Method Definition Index: 76485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* Aim_get_PlayerCamera_m40D24F736CCDD9ACDF94A799A3428D86985D5507 (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:12>
 		PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* L_0 = __this->___U3CPlayerCameraU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76491
+// Method Definition Index: 76486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_set_PlayerCamera_m80128407CA99117E85D53D13DD69BA6279B11A89 (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:12>
 		PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* L_0 = ___0_value;
 		__this->___U3CPlayerCameraU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPlayerCameraU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76492
+// Method Definition Index: 76487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_OnStartClient_m3D4FB33C4A0FD9CC116D60FB9BD5A8C8A34333E9 (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16101,7 +15212,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_OnStartClient_m3D4FB33C4A0FD9CC116D6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:17>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (!L_0)
@@ -16110,7 +15220,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_OnStartClient_m3D4FB33C4A0FD9CC116D6
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:18>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_1;
 		L_1 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		NullCheck(L_1);
@@ -16124,11 +15233,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_OnStartClient_m3D4FB33C4A0FD9CC116D6
 
 IL_001d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 76493
+// Method Definition Index: 76488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_Update_mA8DED4E1F2AF3890498223E7FD4054DC465FB189 (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16138,7 +15246,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_Update_mA8DED4E1F2AF3890498223E7FD40
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:23>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (!L_0)
@@ -16160,25 +15267,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_Update_mA8DED4E1F2AF3890498223E7FD40
 
 IL_0016:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:24>
 		return;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:26>
 		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:27>
 		Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7((bool)0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:28>
 		Aim_MoveAim_m2A2C712D7739F999E806CA06BEFB1E9E59F6360B(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:29>
 		Aim_MoveCamera_m32AFA36102672D1A63CA0B038B34D77091D8538D(__this, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:30>
 		return;
 	}
 }
-// Method Definition Index: 76494
+// Method Definition Index: 76489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_MoveAim_m2A2C712D7739F999E806CA06BEFB1E9E59F6360B (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16191,9 +15292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_MoveAim_m2A2C712D7739F999E806CA06BEF
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:37>
 		V_0 = (2.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:39>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		float L_1;
@@ -16204,7 +15303,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_MoveAim_m2A2C712D7739F999E806CA06BEF
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), (0.0f), ((float)il2cpp_codegen_multiply(L_1, L_2)), (0.0f), NULL);
 		NullCheck(L_0);
 		Transform_Rotate_m2A308205498AFEEA3DF784B1C86E4F7C126CA2EE(L_0, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:41>
 		PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* L_4;
 		L_4 = Aim_get_PlayerCamera_m40D24F736CCDD9ACDF94A799A3428D86985D5507_inline(__this, NULL);
 		NullCheck(L_4);
@@ -16218,7 +15316,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_MoveAim_m2A2C712D7739F999E806CA06BEF
 		L_8 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0, NULL);
 		float L_9 = V_0;
 		V_1 = ((float)il2cpp_codegen_subtract(L_7, ((float)il2cpp_codegen_multiply(L_8, L_9))));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:44>
 		float L_10 = V_1;
 		if ((!(((float)L_10) > ((float)(180.0f)))))
 		{
@@ -16226,19 +15323,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_MoveAim_m2A2C712D7739F999E806CA06BEF
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:45>
 		float L_11 = V_1;
 		V_1 = ((float)il2cpp_codegen_subtract(L_11, (360.0f)));
 	}
 
 IL_005f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:46>
 		float L_12 = V_1;
 		float L_13;
 		L_13 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_12, (-89.0f), (89.0f), NULL);
 		V_1 = L_13;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:48>
 		PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* L_14;
 		L_14 = Aim_get_PlayerCamera_m40D24F736CCDD9ACDF94A799A3428D86985D5507_inline(__this, NULL);
 		NullCheck(L_14);
@@ -16262,15 +15356,13 @@ IL_005f:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_23), L_16, L_19, L_22, NULL);
 		NullCheck(L_15);
 		Transform_set_eulerAngles_m9F0BC484A7915A51FAB87230644229B75BACA004(L_15, L_23, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 76495
+// Method Definition Index: 76490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_MoveCamera_m32AFA36102672D1A63CA0B038B34D77091D8538D (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:56>
 		PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* L_0;
 		L_0 = Aim_get_PlayerCamera_m40D24F736CCDD9ACDF94A799A3428D86985D5507_inline(__this, NULL);
 		NullCheck(L_0);
@@ -16286,7 +15378,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_MoveCamera_m32AFA36102672D1A63CA0B03
 		L_5 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_3, L_4, NULL);
 		NullCheck(L_1);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_1, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:57>
 		PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* L_6;
 		L_6 = Aim_get_PlayerCamera_m40D24F736CCDD9ACDF94A799A3428D86985D5507_inline(__this, NULL);
 		NullCheck(L_6);
@@ -16317,11 +15408,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_MoveCamera_m32AFA36102672D1A63CA0B03
 		L_18 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline(L_11, L_14, L_17, NULL);
 		NullCheck(L_7);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_7, L_18, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:58>
 		return;
 	}
 }
-// Method Definition Index: 76496
+// Method Definition Index: 76491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim__ctor_m61A0129DC05F46887E3A5E9BCC14DA8468546316 (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16331,7 +15421,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim__ctor_m61A0129DC05F46887E3A5E9BCC14D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:13>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (0.0f), (1.64999998f), (0.0f), NULL);
@@ -16341,7 +15430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim__ctor_m61A0129DC05F46887E3A5E9BCC14D
 		return;
 	}
 }
-// Method Definition Index: 76497
+// Method Definition Index: 76492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_NetworkInitialize___Early_mEAE0A64834956BE202BB845B3099ABAACFCE66B5 (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16362,7 +15451,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76498
+// Method Definition Index: 76493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_NetworkInitialize___Late_m86A3949A97CAA71D7244147AEBF5D5703D881160 (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16383,7 +15472,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76499
+// Method Definition Index: 76494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_NetworkInitializeIfDisabled_m85A0055D97308B4CB5AB41ABE6326127DAEA2B5A (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16392,7 +15481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_NetworkInitializeIfDisabled_m85A0055
 		return;
 	}
 }
-// Method Definition Index: 76500
+// Method Definition Index: 76495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_Awake_m5373F31942F74E1BBA10FCD8B667766224AD0685 (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16409,7 +15498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Aim_Awake_m5373F31942F74E1BBA10FCD8B6677
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76501
+// Method Definition Index: 76496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fire__ctor_m7657A0D048DC552AD86DFFDAFD718C8D3A5085B6 (Fire_t8599DE1AD0C34E7256EED7E71B7ED512C02B57B8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16424,7 +15513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fire__ctor_m7657A0D048DC552AD86DFFDAFD71
 		return;
 	}
 }
-// Method Definition Index: 76502
+// Method Definition Index: 76497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fire_NetworkInitialize___Early_mF1D7FC860697D021D2A9261B18E03C7D4BAD6979 (Fire_t8599DE1AD0C34E7256EED7E71B7ED512C02B57B8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16445,7 +15534,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76503
+// Method Definition Index: 76498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fire_NetworkInitialize___Late_mACD8D943C88EE7BF4064F20C7282DF579360B454 (Fire_t8599DE1AD0C34E7256EED7E71B7ED512C02B57B8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16466,7 +15555,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76504
+// Method Definition Index: 76499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fire_NetworkInitializeIfDisabled_m94627DE40EBD70A744FC0A62CAE48DA466A96CA8 (Fire_t8599DE1AD0C34E7256EED7E71B7ED512C02B57B8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16475,7 +15564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fire_NetworkInitializeIfDisabled_m94627D
 		return;
 	}
 }
-// Method Definition Index: 76505
+// Method Definition Index: 76500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fire_Awake_mB9617EE522986233FC0AFFD5D60A14749857ECA2 (Fire_t8599DE1AD0C34E7256EED7E71B7ED512C02B57B8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16492,7 +15581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Fire_Awake_mB9617EE522986233FC0AFFD5D60A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76506
+// Method Definition Index: 76501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCamera__ctor_m07B41A235F1E21197E21719A33BE1A31A57C4D8B (PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16508,7 +15597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerCamera__ctor_m07B41A235F1E21197E21
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76507
+// Method Definition Index: 76502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_OnStartClient_m3606A39127D9BEB0A22BE574E30BE45B626CA47A (PlayerMotor_t1869355696646E3BB27F0CBBB8F545B5733A0F68* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16518,7 +15607,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_OnStartClient_m3606A39127D9B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:18>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (!L_0)
@@ -16527,7 +15615,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_OnStartClient_m3606A39127D9B
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:19>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_1;
 		L_1 = Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040(__this, Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var);
 		__this->____characterController = L_1;
@@ -16536,15 +15623,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_OnStartClient_m3606A39127D9B
 
 IL_0014:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 76508
+// Method Definition Index: 76503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_Update_m0D69F1798A3989DBBF7AA4081C997865FA16346E (PlayerMotor_t1869355696646E3BB27F0CBBB8F545B5733A0F68* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:24>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsOwner_mB7C23CED62A216796F3F0DF460E8B66E940F31BF(__this, NULL);
 		if (!L_0)
@@ -16553,17 +15638,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_Update_m0D69F1798A3989DBBF7A
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:26>
 		PlayerMotor_Move_m18C5EDAC957C8C54E47525028D08A53EA27D531F(__this, NULL);
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 76509
+// Method Definition Index: 76504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_Move_m18C5EDAC957C8C54E47525028D08A53EA27D531F (PlayerMotor_t1869355696646E3BB27F0CBBB8F545B5733A0F68* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16579,7 +15662,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_Move_m18C5EDAC957C8C54E47525
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:32>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_0 = __this->____characterController;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -16590,15 +15672,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_Move_m18C5EDAC957C8C54E47525
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:33>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:35>
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_0), (0.0f), (-10.0f), (0.0f), NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:36>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		float L_3;
@@ -16612,7 +15691,6 @@ IL_000f:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_2, L_5, NULL);
 		V_1 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:38>
 		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_7 = __this->____characterController;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_1;
@@ -16628,11 +15706,10 @@ IL_000f:
 		NullCheck(L_7);
 		int32_t L_15;
 		L_15 = CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4(L_7, L_14, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:39>
 		return;
 	}
 }
-// Method Definition Index: 76510
+// Method Definition Index: 76505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor__ctor_mD4E8175EA8FE93238F4709071131666EC946D7C5 (PlayerMotor_t1869355696646E3BB27F0CBBB8F545B5733A0F68* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16642,14 +15719,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor__ctor_mD4E8175EA8FE93238F470
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/PlayerMotor.cs:13>
 		__this->____moveRate = (3.0f);
 		il2cpp_codegen_runtime_class_init_inline(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F_il2cpp_TypeInfo_var);
 		NetworkBehaviour__ctor_m97641A3DBD926AA90E244C75CA2DCA48E877377E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76511
+// Method Definition Index: 76506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_NetworkInitialize___Early_m43F1E170A670E928619CD1CC98EB99E0D5FE291B (PlayerMotor_t1869355696646E3BB27F0CBBB8F545B5733A0F68* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16670,7 +15746,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76512
+// Method Definition Index: 76507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_NetworkInitialize___Late_m8EEAA3118841E25A4174364F6D38D2059A960DD6 (PlayerMotor_t1869355696646E3BB27F0CBBB8F545B5733A0F68* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16691,7 +15767,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76513
+// Method Definition Index: 76508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_NetworkInitializeIfDisabled_m3EA14558D0B6E85FA39DF54728D1E14FDA3AA5B8 (PlayerMotor_t1869355696646E3BB27F0CBBB8F545B5733A0F68* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16700,7 +15776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_NetworkInitializeIfDisabled_
 		return;
 	}
 }
-// Method Definition Index: 76514
+// Method Definition Index: 76509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_Awake_m3301D00D70BFB63AF6750DA6F52013353938C335 (PlayerMotor_t1869355696646E3BB27F0CBBB8F545B5733A0F68* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16717,7 +15793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerMotor_Awake_m3301D00D70BFB63AF6750
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76515
+// Method Definition Index: 76510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_ShowDifference_m0031EEB94762A94C50F40470E28F2D018C4F63D9 (RollbackVisualizer_t3BCBAFF0800C36865A8C41011A05BB5FEDFA0B31* __this, NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* ___0_clientObject, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_rolledBack, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16756,7 +15832,6 @@ IL_0016:
 
 IL_0030:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:31>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_4 = ___0_clientObject;
 		NullCheck(L_4);
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_5;
@@ -16764,11 +15839,10 @@ IL_0030:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_original;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___2_rolledBack;
 		RollbackVisualizer_TargetShowDifference_m295304BE320E35D19E5BFF2FDB03130735A5B357(__this, L_5, L_6, L_7, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 76516
+// Method Definition Index: 76511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_TargetShowDifference_m295304BE320E35D19E5BFF2FDB03130735A5B357 (RollbackVisualizer_t3BCBAFF0800C36865A8C41011A05BB5FEDFA0B31* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_rollback, const RuntimeMethod* method) 
 {
 	{
@@ -16779,7 +15853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_TargetShowDifference_
 		return;
 	}
 }
-// Method Definition Index: 76517
+// Method Definition Index: 76512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer__ctor_m08FA4E2F454DBCE9EE3F920D13ADC91AE9EC900D (RollbackVisualizer_t3BCBAFF0800C36865A8C41011A05BB5FEDFA0B31* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16791,7 +15865,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer__ctor_m08FA4E2F454DBC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:56>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_0 = (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*)il2cpp_codegen_object_new(List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_il2cpp_TypeInfo_var);
 		List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802(L_0, List_1__ctor_mC29D3D824786832A31096310B3B3016B8B42B802_RuntimeMethod_var);
 		__this->____differences = L_0;
@@ -16801,7 +15874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer__ctor_m08FA4E2F454DBC
 		return;
 	}
 }
-// Method Definition Index: 76518
+// Method Definition Index: 76513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_NetworkInitialize___Early_m45011580B5370A0BC44764C545890B57531D4585 (RollbackVisualizer_t3BCBAFF0800C36865A8C41011A05BB5FEDFA0B31* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16832,7 +15905,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76519
+// Method Definition Index: 76514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_NetworkInitialize___Late_m8B8CDECC9445CE249F20DEDBD2EDF7C198A90938 (RollbackVisualizer_t3BCBAFF0800C36865A8C41011A05BB5FEDFA0B31* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16853,7 +15926,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76520
+// Method Definition Index: 76515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_NetworkInitializeIfDisabled_m4908A801CCD329D1C5E34D13E52D04AD83F22C9D (RollbackVisualizer_t3BCBAFF0800C36865A8C41011A05BB5FEDFA0B31* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16862,7 +15935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_NetworkInitializeIfDi
 		return;
 	}
 }
-// Method Definition Index: 76521
+// Method Definition Index: 76516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_RpcWriter___Target_TargetShowDifference___2390343144_mB5D8A7326ED05915FBFB59508BCBCFA9A609CC5A (RollbackVisualizer_t3BCBAFF0800C36865A8C41011A05BB5FEDFA0B31* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_rollback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16917,7 +15990,7 @@ IL_0025:
 		return;
 	}
 }
-// Method Definition Index: 76522
+// Method Definition Index: 76517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_RpcLogic___TargetShowDifference___2390343144_m34E5AF2A07E2DFF6E7F91E662337893665B50B6E (RollbackVisualizer_t3BCBAFF0800C36865A8C41011A05BB5FEDFA0B31* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_p, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_p, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16944,7 +16017,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_RpcLogic___TargetShow
 	String_t* V_2 = NULL;
 	String_t* G_B7_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:37>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____originalPrefab;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_p;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
@@ -16955,7 +16027,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_RpcLogic___TargetShow
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_0, L_1, L_3, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:38>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->____rollbackPrefab;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___2_p;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -16965,13 +16036,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_RpcLogic___TargetShow
 		L_8 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_7, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_5, L_6, L_8, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:40>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_p;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___2_p;
 		float L_12;
 		L_12 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_10, L_11, NULL);
 		V_0 = L_12;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:41>
 		float L_13 = V_0;
 		if ((!(((float)L_13) <= ((float)(9.99999975E-06f)))))
 		{
@@ -16979,18 +16048,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_RpcLogic___TargetShow
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:42>
 		V_0 = (0.0f);
 	}
 
 IL_0046:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:44>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_14 = __this->____differences;
 		float L_15 = V_0;
 		NullCheck(L_14);
 		List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_inline(L_14, L_15, List_1_Add_m2F86E252D086E288E02FA1C830B7E86C0A431E51_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:45>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_16 = __this->____differences;
 		NullCheck(L_16);
 		int32_t L_17;
@@ -17001,7 +16067,6 @@ IL_0046:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:46>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_18 = __this->____differences;
 		NullCheck(L_18);
 		List_1_RemoveAt_m02AAC9739BBFB220DD397843A7825154D07F2C93(L_18, 0, List_1_RemoveAt_m02AAC9739BBFB220DD397843A7825154D07F2C93_RuntimeMethod_var);
@@ -17009,7 +16074,6 @@ IL_0046:
 
 IL_006d:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:47>
 		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_19 = __this->____differences;
 		float L_20;
 		L_20 = Enumerable_Sum_m1374719E4DC4497F0842561BCCA42070CECA9AD0(L_19, NULL);
@@ -17018,7 +16082,6 @@ IL_006d:
 		int32_t L_22;
 		L_22 = List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline(L_21, List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
 		V_1 = ((float)(L_20/((float)L_22)));
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:49>
 		bool L_23;
 		L_23 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		if (L_23)
@@ -17065,24 +16128,20 @@ IL_00d1:
 IL_00e5:
 	{
 		V_2 = G_B7_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:51>
 		TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F* L_35 = __this->____textCanvasPrefab;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F* L_36;
 		L_36 = Object_Instantiate_TisTextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F_m8BB486E312B492FB3450D02B69BE52E1363775DC(L_35, Object_Instantiate_TisTextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F_m8BB486E312B492FB3450D02B69BE52E1363775DC_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:52>
 		String_t* L_37 = V_2;
 		NullCheck(L_36);
 		TextCanvas_SetText_mF7F8505E7D4E18952381CAF0835C2BC5B223A2B6(L_36, L_37, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:53>
 		String_t* L_38 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_38, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/RollbackVisualizer.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 76523
+// Method Definition Index: 76518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_RpcReader___Target_TargetShowDifference___2390343144_m82DFA21E1DA0478D0DA0BED977F12AB00B82E6D4 (RollbackVisualizer_t3BCBAFF0800C36865A8C41011A05BB5FEDFA0B31* __this, PooledReader_t9534917D71978827C99AB5F767B74EE807D9B448* ___0_PooledReader0, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -17121,7 +16180,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 76524
+// Method Definition Index: 76519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_Awake_m6E5AF5DE25BA4B16F3026D3F546FDC9293883ACE (RollbackVisualizer_t3BCBAFF0800C36865A8C41011A05BB5FEDFA0B31* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17138,7 +16197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RollbackVisualizer_Awake_m6E5AF5DE25BA4B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76525
+// Method Definition Index: 76520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextCanvas_Awake_mED5A5E06911553EB35CB554DF119C6F1450E2568 (TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17149,7 +16208,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextCanvas_Awake_mED5A5E06911553EB35CB55
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/TextCanvas.cs:14>
 		TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F* L_0 = ((TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F_StaticFields*)il2cpp_codegen_static_fields_for(TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F_il2cpp_TypeInfo_var))->____instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -17160,7 +16218,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextCanvas_Awake_mED5A5E06911553EB35CB55
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/TextCanvas.cs:15>
 		TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F* L_2 = ((TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F_StaticFields*)il2cpp_codegen_static_fields_for(TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F_il2cpp_TypeInfo_var))->____instance;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
@@ -17171,27 +16228,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextCanvas_Awake_mED5A5E06911553EB35CB55
 
 IL_001c:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/TextCanvas.cs:17>
 		((TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F_StaticFields*)il2cpp_codegen_static_fields_for(TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F_il2cpp_TypeInfo_var))->____instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F_StaticFields*)il2cpp_codegen_static_fields_for(TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F_il2cpp_TypeInfo_var))->____instance), (void*)__this);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/TextCanvas.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 76526
+// Method Definition Index: 76521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextCanvas_SetText_mF7F8505E7D4E18952381CAF0835C2BC5B223A2B6 (TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/TextCanvas.cs:22>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->____text;
 		String_t* L_1 = ___0_text;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_1);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Rollback Visualization/TextCanvas.cs:23>
 		return;
 	}
 }
-// Method Definition Index: 76527
+// Method Definition Index: 76522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextCanvas__ctor_mE042589116554734F374160E93023BE10CDD41DD (TextCanvas_tF1B8D4568E8AF47B0800F3371888814B6EBA721F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17207,11 +16260,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextCanvas__ctor_mE042589116554734F37416
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76528
+// Method Definition Index: 76523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe_OnStartServer_m1B6789D6E3AF0C00652317698E2F5CDB1056EB1F (Strafe_t9F03FCB7C98D1EEF645BD5D4E2AE5884907F9F7E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:15>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -17219,11 +16271,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe_OnStartServer_m1B6789D6E3AF0C0065
 		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
 		float L_2 = L_1.___x;
 		__this->____startX = L_2;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:16>
 		return;
 	}
 }
-// Method Definition Index: 76529
+// Method Definition Index: 76524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe_Update_m3DA2FDD202F999887A084D0AD314A8BEEAA78D88 (Strafe_t9F03FCB7C98D1EEF645BD5D4E2AE5884907F9F7E* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -17231,7 +16282,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe_Update_m3DA2FDD202F999887A084D0AD
 	memset((&V_1), 0, sizeof(V_1));
 	float G_B4_0 = 0.0f;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:20>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServerStarted_m2C9620DB99905E83F9ABE705B9CD7EE515E7EEE0(__this, NULL);
 		if (!L_0)
@@ -17240,7 +16290,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe_Update_m3DA2FDD202F999887A084D0AD
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:22>
 		bool L_1 = __this->____movingRight;
 		if (L_1)
 		{
@@ -17264,7 +16313,6 @@ IL_0022:
 IL_002f:
 	{
 		V_0 = G_B4_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:23>
 		float L_6 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
 		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -17279,7 +16327,6 @@ IL_002f:
 		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
 		float L_12 = L_11.___z;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), L_6, L_9, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:24>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
 		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
@@ -17295,7 +16342,6 @@ IL_002f:
 		L_19 = Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline(L_15, L_16, ((float)il2cpp_codegen_multiply(L_17, L_18)), NULL);
 		NullCheck(L_13);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_13, L_19, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
 		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_20);
@@ -17310,18 +16356,16 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:26>
 		bool L_24 = __this->____movingRight;
 		__this->____movingRight = (bool)((((int32_t)L_24) == ((int32_t)0))? 1 : 0);
 	}
 
 IL_00a2:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 76530
+// Method Definition Index: 76525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe__ctor_m5C43B2D7A7FFDE42E0D62C260BDD8A9DD3090C66 (Strafe_t9F03FCB7C98D1EEF645BD5D4E2AE5884907F9F7E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17331,18 +16375,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe__ctor_m5C43B2D7A7FFDE42E0D62C260B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:8>
 		__this->___MoveRate = (2.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:9>
 		__this->___MoveDistance = (3.0f);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Strafe.cs:10>
 		__this->____movingRight = (bool)1;
 		il2cpp_codegen_runtime_class_init_inline(NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F_il2cpp_TypeInfo_var);
 		NetworkBehaviour__ctor_m97641A3DBD926AA90E244C75CA2DCA48E877377E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 76531
+// Method Definition Index: 76526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe_NetworkInitialize___Early_mA48A2FBF14CEFF70B9D3F7D1288C46B4ADF6034B (Strafe_t9F03FCB7C98D1EEF645BD5D4E2AE5884907F9F7E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17363,7 +16404,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76532
+// Method Definition Index: 76527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe_NetworkInitialize___Late_mB3BFE6E1495F31253363EC45F000DD95623E40CF (Strafe_t9F03FCB7C98D1EEF645BD5D4E2AE5884907F9F7E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17384,7 +16425,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 76533
+// Method Definition Index: 76528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe_NetworkInitializeIfDisabled_m0508196C5CF89A5049AA8E2BDC2906A1AD462B98 (Strafe_t9F03FCB7C98D1EEF645BD5D4E2AE5884907F9F7E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17393,7 +16434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe_NetworkInitializeIfDisabled_m0508
 		return;
 	}
 }
-// Method Definition Index: 76534
+// Method Definition Index: 76529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Strafe_Awake_m1B82283372417A037F1BAEB9C3AA8BF05BC3E26F (Strafe_t9F03FCB7C98D1EEF645BD5D4E2AE5884907F9F7E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17516,7 +16557,7 @@ IL2CPP_EXTERN_C void ResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76535
+// Method Definition Index: 76530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_add_OnAuthenticationResult_m106503B9CF6EF694329D92B9E2443C1BD6A365F9 (PasswordAuthenticator_t36F2A68A1FA1ACFDF6A780D2608D680EA116CCCB* __this, Action_2_tADEFA7D9250C23780AA85B4147709663FBDA8F39* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17559,7 +16600,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76536
+// Method Definition Index: 76531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_remove_OnAuthenticationResult_m3175D83B89D93810C13BF6094ECF3B5BABC45411 (PasswordAuthenticator_t36F2A68A1FA1ACFDF6A780D2608D680EA116CCCB* __this, Action_2_tADEFA7D9250C23780AA85B4147709663FBDA8F39* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17602,7 +16643,7 @@ IL_0007:
 		return;
 	}
 }
-// Method Definition Index: 76537
+// Method Definition Index: 76532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_InitializeOnce_m3030B527A7CBFB97DF6B8FBEA7D2045DAC13B059 (PasswordAuthenticator_t36F2A68A1FA1ACFDF6A780D2608D680EA116CCCB* __this, NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* ___0_networkManager, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17619,10 +16660,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_InitializeOnce_m30
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:37>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0 = ___0_networkManager;
 		HostAuthenticator_InitializeOnce_m80D5601C6F5E8E91B41E352E2794E94CE8D7D747(__this, L_0, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:40>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_1;
 		L_1 = Authenticator_get_NetworkManager_m6E83AF25D5E1F5B7BB819E6DD6D7473E2B393E47_inline(__this, NULL);
 		NullCheck(L_1);
@@ -17632,7 +16671,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_InitializeOnce_m30
 		Action_1__ctor_mF6E47E991B0A64C730507127FB96AF69E6CBE84E(L_3, __this, (intptr_t)((void*)PasswordAuthenticator_ClientManager_OnClientConnectionState_m8F24DAB6A6D658E01C89C40E8C9C1F4044537C1E_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		ClientManager_add_OnClientConnectionState_m11B448872D7AF07AA2350590DE7C7792B2A01AA3(L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:42>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_4;
 		L_4 = Authenticator_get_NetworkManager_m6E83AF25D5E1F5B7BB819E6DD6D7473E2B393E47_inline(__this, NULL);
 		NullCheck(L_4);
@@ -17642,7 +16680,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_InitializeOnce_m30
 		Action_3__ctor_m28F59EED5FE3A83ED2B7EF1CBC9B31C4CC057C52(L_6, __this, (intptr_t)((void*)PasswordAuthenticator_OnPasswordBroadcast_m4CC2D57681A4826517ADC4CB7D9ED1D638439982_RuntimeMethod_var), NULL);
 		NullCheck(L_5);
 		ServerManager_RegisterBroadcast_TisPasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0_m1D09FCF2159DBDBCEC408B14C330626C62A1811D(L_5, L_6, (bool)0, ServerManager_RegisterBroadcast_TisPasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0_m1D09FCF2159DBDBCEC408B14C330626C62A1811D_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:44>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_7;
 		L_7 = Authenticator_get_NetworkManager_m6E83AF25D5E1F5B7BB819E6DD6D7473E2B393E47_inline(__this, NULL);
 		NullCheck(L_7);
@@ -17652,11 +16689,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_InitializeOnce_m30
 		Action_2__ctor_m8AE8E15F1D2BA82F23CEFBA54653EBE6A941D62C(L_9, __this, (intptr_t)((void*)PasswordAuthenticator_OnResponseBroadcast_m7B31D4133E59DF3656AAFECBFEC486A68B4002F0_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		ClientManager_RegisterBroadcast_TisResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8_mF4ECD1F43436D5169C54F1EC86DCF53DB285B9C3(L_8, L_9, ClientManager_RegisterBroadcast_TisResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8_mF4ECD1F43436D5169C54F1EC86DCF53DB285B9C3_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:45>
 		return;
 	}
 }
-// Method Definition Index: 76538
+// Method Definition Index: 76533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_ClientManager_OnClientConnectionState_m8F24DAB6A6D658E01C89C40E8C9C1F4044537C1E (PasswordAuthenticator_t36F2A68A1FA1ACFDF6A780D2608D680EA116CCCB* __this, ClientConnectionStateArgs_tD41B01C830E5D6189B4B8BD680F3FFB2A669C40B ___0_args, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17670,7 +16706,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_ClientManager_OnCl
 	PasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:57>
 		ClientConnectionStateArgs_tD41B01C830E5D6189B4B8BD680F3FFB2A669C40B L_0 = ___0_args;
 		int32_t L_1 = L_0.___ConnectionState;
 		if ((((int32_t)L_1) == ((int32_t)8)))
@@ -17679,13 +16714,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_ClientManager_OnCl
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:58>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:63>
 		bool L_2;
 		L_2 = HostAuthenticator_TryAuthenticateAsClientHost_mC03532E56E1E2AE5DBD60CC4524990CC3661B34B(__this, NULL);
 		if (!L_2)
@@ -17694,23 +16727,17 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:64>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:68>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:69>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:70>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:71>
 		il2cpp_codegen_initobj((&V_1), sizeof(PasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0));
 		String_t* L_3 = __this->____password;
 		(&V_1)->___Password = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->___Password), (void*)L_3);
 		PasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0 L_4 = V_1;
 		V_0 = L_4;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:73>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_5;
 		L_5 = Authenticator_get_NetworkManager_m6E83AF25D5E1F5B7BB819E6DD6D7473E2B393E47_inline(__this, NULL);
 		NullCheck(L_5);
@@ -17719,18 +16746,16 @@ IL_0013:
 		PasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0 L_7 = V_0;
 		NullCheck(L_6);
 		ClientManager_Broadcast_TisPasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0_mA729AEAE583A617CA16A0B2DA6C8B769A31C3E45(L_6, L_7, 0, ClientManager_Broadcast_TisPasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0_mA729AEAE583A617CA16A0B2DA6C8B769A31C3E45_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 76539
+// Method Definition Index: 76534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_OnPasswordBroadcast_m4CC2D57681A4826517ADC4CB7D9ED1D638439982 (PasswordAuthenticator_t36F2A68A1FA1ACFDF6A780D2608D680EA116CCCB* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, PasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0 ___1_pb, uint8_t ___2_channel, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	Action_2_tADEFA7D9250C23780AA85B4147709663FBDA8F39* G_B4_0 = NULL;
 	Action_2_tADEFA7D9250C23780AA85B4147709663FBDA8F39* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:86>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_0 = ___0_conn;
 		NullCheck(L_0);
 		bool L_1;
@@ -17741,28 +16766,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_OnPasswordBroadcas
 		}
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:88>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_2 = ___0_conn;
 		NullCheck(L_2);
 		NetworkConnection_Disconnect_m063BF633EB7B581BD13467D0AB3ADEEFFCAABEB7(L_2, (bool)1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:89>
 		return;
 	}
 
 IL_0010:
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:92>
 		PasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0 L_3 = ___1_pb;
 		String_t* L_4 = L_3.___Password;
 		String_t* L_5 = __this->____password;
 		bool L_6;
 		L_6 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_4, L_5, NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:93>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_7 = ___0_conn;
 		bool L_8 = V_0;
 		PasswordAuthenticator_SendAuthenticationResponse_mE62097916A929DFAC1353E0A9002D39415B909E0(__this, L_7, L_8, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:97>
 		Action_2_tADEFA7D9250C23780AA85B4147709663FBDA8F39* L_9 = __this->___OnAuthenticationResult;
 		Action_2_tADEFA7D9250C23780AA85B4147709663FBDA8F39* L_10 = L_9;
 		if (L_10)
@@ -17782,11 +16802,10 @@ IL_0035:
 		bool L_12 = V_0;
 		NullCheck(G_B4_0);
 		Action_2_Invoke_m99D22936005A923A5C452AB50D3863C2F8F6CD3B_inline(G_B4_0, L_11, L_12, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:98>
 		return;
 	}
 }
-// Method Definition Index: 76540
+// Method Definition Index: 76535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_OnResponseBroadcast_m7B31D4133E59DF3656AAFECBFEC486A68B4002F0 (PasswordAuthenticator_t36F2A68A1FA1ACFDF6A780D2608D680EA116CCCB* __this, ResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8 ___0_rb, uint8_t ___1_channel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17799,7 +16818,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_OnResponseBroadcas
 	String_t* V_0 = NULL;
 	String_t* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:106>
 		ResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8 L_0 = ___0_rb;
 		bool L_1 = L_0.___Passed;
 		if (L_1)
@@ -17820,16 +16838,14 @@ IL_000f:
 IL_0014:
 	{
 		V_0 = G_B3_0;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:107>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_2;
 		L_2 = Authenticator_get_NetworkManager_m6E83AF25D5E1F5B7BB819E6DD6D7473E2B393E47_inline(__this, NULL);
 		String_t* L_3 = V_0;
 		NetworkManagerExtensions_Log_mA6A91DA55F12B921C230FDAB77D0A4904CD6D8D9(L_2, L_3, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:108>
 		return;
 	}
 }
-// Method Definition Index: 76541
+// Method Definition Index: 76536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_SendAuthenticationResponse_mE62097916A929DFAC1353E0A9002D39415B909E0 (PasswordAuthenticator_t36F2A68A1FA1ACFDF6A780D2608D680EA116CCCB* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, bool ___1_authenticated, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17843,16 +16859,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_SendAuthentication
 	ResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:118>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:119>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:120>
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:121>
 		il2cpp_codegen_initobj((&V_1), sizeof(ResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8));
 		bool L_0 = ___1_authenticated;
 		(&V_1)->___Passed = L_0;
 		ResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8 L_1 = V_1;
 		V_0 = L_1;
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:122>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_2;
 		L_2 = Authenticator_get_NetworkManager_m6E83AF25D5E1F5B7BB819E6DD6D7473E2B393E47_inline(__this, NULL);
 		NullCheck(L_2);
@@ -17862,21 +16873,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_SendAuthentication
 		ResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8 L_5 = V_0;
 		NullCheck(L_3);
 		ServerManager_Broadcast_TisResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8_m82177461A754821EC39DA6251388EC774CACC12C(L_3, L_4, L_5, (bool)0, 0, ServerManager_Broadcast_TisResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8_m82177461A754821EC39DA6251388EC774CACC12C_RuntimeMethod_var);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:123>
 		return;
 	}
 }
-// Method Definition Index: 76542
+// Method Definition Index: 76537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator_OnHostAuthenticationResult_mAECDB3C657CCC97887C7DF1E7BE8C1CAA4A5EEBE (PasswordAuthenticator_t36F2A68A1FA1ACFDF6A780D2608D680EA116CCCB* __this, NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* ___0_conn, bool ___1_authenticated, const RuntimeMethod* method) 
 {
 	Action_2_tADEFA7D9250C23780AA85B4147709663FBDA8F39* G_B2_0 = NULL;
 	Action_2_tADEFA7D9250C23780AA85B4147709663FBDA8F39* G_B1_0 = NULL;
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:132>
 		NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* L_0 = ___0_conn;
 		bool L_1 = ___1_authenticated;
 		PasswordAuthenticator_SendAuthenticationResponse_mE62097916A929DFAC1353E0A9002D39415B909E0(__this, L_0, L_1, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:133>
 		Action_2_tADEFA7D9250C23780AA85B4147709663FBDA8F39* L_2 = __this->___OnAuthenticationResult;
 		Action_2_tADEFA7D9250C23780AA85B4147709663FBDA8F39* L_3 = L_2;
 		if (L_3)
@@ -17896,11 +16904,10 @@ IL_0013:
 		bool L_5 = ___1_authenticated;
 		NullCheck(G_B2_0);
 		Action_2_Invoke_m99D22936005A923A5C452AB50D3863C2F8F6CD3B_inline(G_B2_0, L_4, L_5, NULL);
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:134>
 		return;
 	}
 }
-// Method Definition Index: 76543
+// Method Definition Index: 76538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator__ctor_m4C98223C518C527D91D3957717C971E1FA7CEFC3 (PasswordAuthenticator_t36F2A68A1FA1ACFDF6A780D2608D680EA116CCCB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17911,7 +16918,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator__ctor_m4C98223C518
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Authenticator/Scripts/PasswordAuthenticator.cs:32>
 		__this->____password = _stringLiteralA02BE1EBB0991F6003E6D6ACE9580E1EA5A55BFA;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____password), (void*)_stringLiteralA02BE1EBB0991F6003E6D6ACE9580E1EA5A55BFA);
 		il2cpp_codegen_runtime_class_init_inline(HostAuthenticator_t0D6643ED686B6F834567F269C05033CDB81DB5E3_il2cpp_TypeInfo_var);
@@ -17951,7 +16957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PasswordAuthenticator__ctor_m4C98223C518
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76544
+// Method Definition Index: 76539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedComparers___Internal_InitializeOnce_m4AB9FEB7CD7F4BCD5948AB10C980589C48672BA9 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18017,7 +17023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedComparers___Internal_Initialize
 		return;
 	}
 }
-// Method Definition Index: 76545
+// Method Definition Index: 76540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_Comparer___FishNet_Demo_Prediction_Rigidbodies_RigidbodyPrediction_ReplicateData_mB4F4B1782F0E109DAEC41E4691CBB5A8CDC682CF (ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 ___0_value0, ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 ___1_value1, const RuntimeMethod* method) 
 {
 	{
@@ -18047,14 +17053,14 @@ IL_0035:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76546
+// Method Definition Index: 76541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_Comparer___UnityEngine_Vector2_mD85C81843F1AB3F5C28696B00A232AA997A257CB (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_value1, const RuntimeMethod* method) 
 {
 	{
 		return (bool)((((RuntimeObject*)(intptr_t)(&___0_value0)) == ((RuntimeObject*)(intptr_t)(&___1_value1)))? 1 : 0);
 	}
 }
-// Method Definition Index: 76547
+// Method Definition Index: 76542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_Comparer___System_Boolean_m57C5A52ABD4493E51A9149156E035888F244847E (bool ___0_value0, bool ___1_value1, const RuntimeMethod* method) 
 {
 	{
@@ -18063,7 +17069,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_Comparer__
 		return (bool)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0);
 	}
 }
-// Method Definition Index: 76548
+// Method Definition Index: 76543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_IsDefault___FishNet_Demo_Prediction_Rigidbodies_RigidbodyPrediction_ReplicateData_mB9657C3D10E06B2ADD98880C7E7DC6B5D82E0AC4 (ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 ___0_value0, const RuntimeMethod* method) 
 {
 	ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 V_0;
@@ -18077,7 +17083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_IsDefault_
 		return L_2;
 	}
 }
-// Method Definition Index: 76549
+// Method Definition Index: 76544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_Comparer___FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_ReplicateData_m448FA0388583AE8FA22CCA5F2A28C6FFEC6C58C2 (ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 ___0_value0, ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 ___1_value1, const RuntimeMethod* method) 
 {
 	{
@@ -18117,7 +17123,7 @@ IL_0051:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76550
+// Method Definition Index: 76545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_Comparer___FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_OneTimeInput_m270AC07CFBB93E19BEE4CC13CEE385B8D09B065D (OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39 ___0_value0, OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39 ___1_value1, const RuntimeMethod* method) 
 {
 	{
@@ -18137,7 +17143,7 @@ IL_0019:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 76551
+// Method Definition Index: 76546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_IsDefault___FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_ReplicateData_m5248D6FB93B16596BB232B880D610AD37F77E51C (ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 ___0_value0, const RuntimeMethod* method) 
 {
 	ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 V_0;
@@ -18151,14 +17157,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_IsDefault_
 		return L_2;
 	}
 }
-// Method Definition Index: 76552
+// Method Definition Index: 76547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_Comparer___FishNet_Demo_Prediction_CharacterControllers_MovingPlatform_ReplicateData_mEDF4ECFFCF959ABB4C84EA33E2F77F4371F2FFF5 (ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD ___0_value0, ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD ___1_value1, const RuntimeMethod* method) 
 {
 	{
 		return (bool)1;
 	}
 }
-// Method Definition Index: 76553
+// Method Definition Index: 76548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_IsDefault___FishNet_Demo_Prediction_CharacterControllers_MovingPlatform_ReplicateData_m14676E90592658A1D1F935391EB8995B1CD6B874 (ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD ___0_value0, const RuntimeMethod* method) 
 {
 	ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD V_0;
@@ -18180,7 +17186,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GeneratedComparers___Internal_IsDefault_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76554
+// Method Definition Index: 76549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_InitializeOnce_m0BC37BE145AD6260653DA8CF2647EF22C35B6147 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18288,7 +17294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_InitializeOn
 		return;
 	}
 }
-// Method Definition Index: 76555
+// Method Definition Index: 76550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Example_Authenticating_HostPasswordBroadcastFishNet_Serializing_Generated_mCB6A0FEF947633D007C4C8332EA161BD09DFCD3D (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, HostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -18300,7 +17306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76556
+// Method Definition Index: 76551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Example_Authenticating_PasswordBroadcastFishNet_Serializing_Generated_m312B07D5273B88A1E992E34120F794D465B1ACEF (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, PasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0 ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -18312,7 +17318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76557
+// Method Definition Index: 76552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Example_Authenticating_ResponseBroadcastFishNet_Serializing_Generated_m5F7FEE3C438FBB04CBCCAED8C370E1B8DB4C5C37 (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, ResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8 ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -18324,7 +17330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76558
+// Method Definition Index: 76553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Demo_Prediction_Rigidbodies_RigidbodyPrediction_ReplicateDataFishNet_Serializing_Generated_mB17838FB82A264CAD8C1DA3FE0CB98189A21D5FA (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -18341,7 +17347,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76559
+// Method Definition Index: 76554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Demo_Prediction_Rigidbodies_RigidbodyPrediction_ReplicateDataU5BU5DFishNet_Serializing_Generated_mA3477A4D653FE399424BD7B179A9E36784C84168 (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, ReplicateDataU5BU5D_tFAB57A860AF1FA7BE550A1DD0E302AA5810423A7* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18358,7 +17364,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76560
+// Method Definition Index: 76555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Demo_Prediction_Rigidbodies_RigidbodyPrediction_ReconcileDataFishNet_Serializing_Generated_mE4E77702CCB428B5646E03EE645AF77A5F48ADDE (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5 ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18396,7 +17402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76561
+// Method Definition Index: 76556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Object_Prediction_PredictionRigidbodyFishNet_Serializing_Generated_mBD556002832EE0FB19C4B237AB0BDB4A415C43CD (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -18421,7 +17427,7 @@ IL_0018:
 		return;
 	}
 }
-// Method Definition Index: 76562
+// Method Definition Index: 76557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_ReplicateDataFishNet_Serializing_Generated_m300CB23FDFC09744B6CEF0836EA284EFFF2C958D (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -18442,7 +17448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76563
+// Method Definition Index: 76558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_OneTimeInputFishNet_Serializing_Generated_mF2CE5C662F203A4493BA93CBE7DA66B2E733B8EB (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39 ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -18454,7 +17460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76564
+// Method Definition Index: 76559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_ReplicateDataU5BU5DFishNet_Serializing_Generated_m35D1F163732A6092380937CC8E0B0C43ED4ED042 (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, ReplicateDataU5BU5D_t5FCF7E62F6302AF1422FCEEFE81E023682175E19* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18471,7 +17477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76565
+// Method Definition Index: 76560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_ReconcileDataFishNet_Serializing_Generated_mC054B666FFF66FBBCF5E640DA2B29F1E9181B979 (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056 ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -18497,7 +17503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76566
+// Method Definition Index: 76561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Demo_Prediction_CharacterControllers_MovingPlatformFishNet_Serializing_Generated_m61AE7E13DB033D9A35D8DD2D2F498C0CB430997A (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -18508,14 +17514,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76567
+// Method Definition Index: 76562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Demo_Prediction_CharacterControllers_MovingPlatform_ReplicateDataFishNet_Serializing_Generated_mF41DCC1A9E8B4E43387759B8B104165810D374FF (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD ___1_value, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 76568
+// Method Definition Index: 76563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Demo_Prediction_CharacterControllers_MovingPlatform_ReplicateDataU5BU5DFishNet_Serializing_Generated_m1DDE4F153F9AD6CFECF63911AC564950DD144E56 (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, ReplicateDataU5BU5D_tD2A02056F23F483A25064B0E05FC7040AC043281* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18532,7 +17538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76569
+// Method Definition Index: 76564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Demo_Prediction_CharacterControllers_MovingPlatform_ReconcileDataFishNet_Serializing_Generated_m005A24C280C82A1B027A5E1E003D957F97C737C5 (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4 ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -18549,7 +17555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 		return;
 	}
 }
-// Method Definition Index: 76570
+// Method Definition Index: 76565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___FishNet_Example_CustomSyncObject_StructyFishNet_Serializing_Generated_m07984E6BC1855BF655551BACC1FAE9D6EB5CD057 (Writer_tCAA1EDF933A12E7970BA243F6B87AEAA551FF02B* ___0_writer, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___1_value, const RuntimeMethod* method) 
 {
 	{
@@ -18574,7 +17580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedWriters___Internal_GWrite___Fis
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 76571
+// Method Definition Index: 76566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedReaders___Internal_InitializeOnce_mBD82471BC72BE0C16DD914DB19C1FEA973B36A9A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18682,7 +17688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GeneratedReaders___Internal_InitializeOn
 		return;
 	}
 }
-// Method Definition Index: 76572
+// Method Definition Index: 76567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A GeneratedReaders___Internal_GRead___FishNet_Example_Authenticating_HostPasswordBroadcastFishNet_Serializing_Generateds_m3A6690395A6631637ECAE330AFE7A6B5309D9393 (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	HostPasswordBroadcast_t103974BABA4EFB66BA607DD3FFD25B6D1324537A V_0;
@@ -18699,7 +17705,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HostPasswordBroadcast_t103974BABA4EFB66BA607D
 		return L_2;
 	}
 }
-// Method Definition Index: 76573
+// Method Definition Index: 76568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0 GeneratedReaders___Internal_GRead___FishNet_Example_Authenticating_PasswordBroadcastFishNet_Serializing_Generateds_m2E795D9012AAECCB1177CC9EA5807D09E9ABB536 (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	PasswordBroadcast_t750C98E990E8611061552674012929A7F5B30BB0 V_0;
@@ -18716,7 +17722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PasswordBroadcast_t750C98E990E861106155267401
 		return L_2;
 	}
 }
-// Method Definition Index: 76574
+// Method Definition Index: 76569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8 GeneratedReaders___Internal_GRead___FishNet_Example_Authenticating_ResponseBroadcastFishNet_Serializing_Generateds_m0CEF733DA452381C821BB23999CCE1879F7376BB (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	ResponseBroadcast_t9D2F4C8589FE7819F65203FC178F6B2EEF6570A8 V_0;
@@ -18732,7 +17738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ResponseBroadcast_t9D2F4C8589FE7819F65203FC17
 		return L_2;
 	}
 }
-// Method Definition Index: 76575
+// Method Definition Index: 76570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 GeneratedReaders___Internal_GRead___FishNet_Demo_Prediction_Rigidbodies_RigidbodyPrediction_ReplicateDataFishNet_Serializing_Generateds_m16770B6D9FCB37711DB3E473DCF340B785D4CE27 (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8 V_0;
@@ -18753,7 +17759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B
 		return L_4;
 	}
 }
-// Method Definition Index: 76576
+// Method Definition Index: 76571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateDataU5BU5D_tFAB57A860AF1FA7BE550A1DD0E302AA5810423A7* GeneratedReaders___Internal_GRead___FishNet_Demo_Prediction_Rigidbodies_RigidbodyPrediction_ReplicateDataU5BU5DFishNet_Serializing_Generateds_mCCFE8EDDC89740205BDE3632B8C375FE5DC13431 (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18770,7 +17776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateDataU5BU5D_tFAB57A860AF1FA7BE550A1DD
 		return L_1;
 	}
 }
-// Method Definition Index: 76577
+// Method Definition Index: 76572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5 GeneratedReaders___Internal_GRead___FishNet_Demo_Prediction_Rigidbodies_RigidbodyPrediction_ReconcileDataFishNet_Serializing_Generateds_m086D3D6B25BDFDC02F403CAF4BA436153EEA8D07 (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18815,7 +17821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReconcileData_t93BA4611851EFCA110BF249F093D0F
 		return L_10;
 	}
 }
-// Method Definition Index: 76578
+// Method Definition Index: 76573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* GeneratedReaders___Internal_GRead___FishNet_Object_Prediction_PredictionRigidbodyFishNet_Serializing_Generateds_m33E02495FF21B12CE1C7924189A037D920C99187 (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18851,7 +17857,7 @@ IL_0018:
 		return L_4;
 	}
 }
-// Method Definition Index: 76579
+// Method Definition Index: 76574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 GeneratedReaders___Internal_GRead___FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_ReplicateDataFishNet_Serializing_Generateds_m97D76795927A0D6C2B87B6F9ECB5E46D7B9C5658 (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461 V_0;
@@ -18876,7 +17882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t4FA3F289800D5A2B673D96E8DF97D9
 		return L_6;
 	}
 }
-// Method Definition Index: 76580
+// Method Definition Index: 76575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39 GeneratedReaders___Internal_GRead___FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_OneTimeInputFishNet_Serializing_Generateds_m0E821154F68688E195B296FF3987E22C4504871B (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C20D6E40C39 V_0;
@@ -18892,7 +17898,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OneTimeInput_tE22826DEE4D8EE59D203B158C7AC6C2
 		return L_2;
 	}
 }
-// Method Definition Index: 76581
+// Method Definition Index: 76576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateDataU5BU5D_t5FCF7E62F6302AF1422FCEEFE81E023682175E19* GeneratedReaders___Internal_GRead___FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_ReplicateDataU5BU5DFishNet_Serializing_Generateds_m241C4444F8F70AA681CD1CBF87974E520E43553A (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18909,7 +17915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateDataU5BU5D_t5FCF7E62F6302AF1422FCEEF
 		return L_1;
 	}
 }
-// Method Definition Index: 76582
+// Method Definition Index: 76577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056 GeneratedReaders___Internal_GRead___FishNet_Demo_Prediction_CharacterControllers_CharacterControllerPrediction_ReconcileDataFishNet_Serializing_Generateds_m9645EB718D79BD512D9C1C8DB47272B96B6A967C (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056 V_0;
@@ -18940,7 +17946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70
 		return L_8;
 	}
 }
-// Method Definition Index: 76583
+// Method Definition Index: 76578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1* GeneratedReaders___Internal_GRead___FishNet_Demo_Prediction_CharacterControllers_MovingPlatformFishNet_Serializing_Generateds_mD0434F30397F831C5AA3BFC9BB4409B68611DFB9 (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18957,7 +17963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MovingPlatform_t3CE273018A26629EE0C62EA118DDA
 		return ((MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1*)CastclassClass((RuntimeObject*)L_1, MovingPlatform_t3CE273018A26629EE0C62EA118DDA74D152F3BD1_il2cpp_TypeInfo_var));
 	}
 }
-// Method Definition Index: 76584
+// Method Definition Index: 76579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD GeneratedReaders___Internal_GRead___FishNet_Demo_Prediction_CharacterControllers_MovingPlatform_ReplicateDataFishNet_Serializing_Generateds_m9D56F8EEEAEDBED18237E92CF31BFCC520381CFE (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD V_0;
@@ -18968,7 +17974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateData_t841CED3BD1195C975F4F546B1B4B28
 		return L_0;
 	}
 }
-// Method Definition Index: 76585
+// Method Definition Index: 76580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateDataU5BU5D_tD2A02056F23F483A25064B0E05FC7040AC043281* GeneratedReaders___Internal_GRead___FishNet_Demo_Prediction_CharacterControllers_MovingPlatform_ReplicateDataU5BU5DFishNet_Serializing_Generateds_m91E8A2AD51BFED604B6E1F10166384A4F5645183 (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18985,7 +17991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReplicateDataU5BU5D_tD2A02056F23F483A25064B0E
 		return L_1;
 	}
 }
-// Method Definition Index: 76586
+// Method Definition Index: 76581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4 GeneratedReaders___Internal_GRead___FishNet_Demo_Prediction_CharacterControllers_MovingPlatform_ReconcileDataFishNet_Serializing_Generateds_mC29E758AFEA5DD720CC62ADEF6E76F8039FFF430 (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4 V_0;
@@ -19006,7 +18012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D771
 		return L_4;
 	}
 }
-// Method Definition Index: 76587
+// Method Definition Index: 76582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF GeneratedReaders___Internal_GRead___FishNet_Example_CustomSyncObject_StructyFishNet_Serializing_Generateds_m35DEE7D94119BD05CD8C4E4FE01E17D57FFFE54F (Reader_t309A9B13BD9C2974ED67A140EC99505C84C7B1ED* ___0_reader, const RuntimeMethod* method) 
 {
 	Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF V_0;
@@ -19035,7 +18041,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* NetworkBehaviour_get_NetworkObject_m3EEBF47647F4FF04EE88BF6A321CBE2BA23FA64A_inline (NetworkBehaviour_t656DE977C2B8950187BBC215DADD8630C393A73F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/NetworkBehaviour/NetworkBehaviour.cs:62>
 		NetworkObject_tF16653E72A1AB4D78279E81890A691907E35ED7D* L_0 = __this->____networkObjectCache;
 		return L_0;
 	}
@@ -19413,11 +18418,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 76252
+// Method Definition Index: 76247
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ReplicateData_GetTick_m8B28BDE3D326CCB7B7794E72EA6646427138C60A_inline (ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:44>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
@@ -19426,45 +18430,40 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ReplicateData_GetTick_m8
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* PredictionRigidbody_get_Rigidbody_m87FFA61164D95E170AE39B5A68012669856910E9_inline (PredictionRigidbody_tCDCB81B5FB43C452F930BB83961C804D8D2DF1DB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/Prediction/PredictionRigidbody.cs:256>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_0 = __this->___U3CRigidbodyU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76253
+// Method Definition Index: 76248
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ReplicateData_SetTick_m70A341258B9EF09F32F059861444B61C759C117D_inline (ReplicateData_t1BA36838E376335C6BD4E63FAF9F7B99169750E8* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:45>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76256
+// Method Definition Index: 76251
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ReconcileData_GetTick_mC633E2D811C2451EFA92434CD1AF6E67E31C15AE_inline (ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:89>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
 }
-// Method Definition Index: 76257
+// Method Definition Index: 76252
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ReconcileData_SetTick_m86E222612CE64D60D8576F6ECD053F7B89FE67A1_inline (ReconcileData_t93BA4611851EFCA110BF249F093D0FD9C618A5F5* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/Rigidbody/Scripts/RigidbodyPrediction.cs:90>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76268
+// Method Definition Index: 76263
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CharacterControllerPrediction_get_Stamina_mB7D66192E38421C619C8324DA9B71384709A4D51_inline (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:113>
 		float L_0 = __this->___U3CStaminaU3Ek__BackingField;
 		return L_0;
 	}
@@ -19520,11 +18519,10 @@ IL_001d:
 		return L_9;
 	}
 }
-// Method Definition Index: 76269
+// Method Definition Index: 76264
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CharacterControllerPrediction_set_Stamina_m28C61A9CE8639A91E11D8A98CD76F79DA58454AB_inline (CharacterControllerPrediction_t5C957FD930287E3CA3860F6DB18997397EB32A1E* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:113>
 		float L_0 = ___0_value;
 		__this->___U3CStaminaU3Ek__BackingField = L_0;
 		return;
@@ -19534,16 +18532,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CharacterControllerPredictio
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double TimeManager_get_TickDelta_mAD7B3277F6932DB2CB2B3BD99748DDF43FC73A03_inline (TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Timing/TimeManager.cs:136>
 		double L_0 = __this->___U3CTickDeltaU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76301
+// Method Definition Index: 76296
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ReplicateData_GetTick_m0882019BB87C4693A1ADFBD985B006C9C64AE83F_inline (ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:66>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
@@ -19557,68 +18553,61 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
-// Method Definition Index: 76302
+// Method Definition Index: 76297
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ReplicateData_SetTick_m270CC71D314DE3E606711AB750EE9BE399FE2AA7_inline (ReplicateData_t4FA3F289800D5A2B673D96E8DF97D95B0D093461* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:67>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76305
+// Method Definition Index: 76300
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ReconcileData_GetTick_mD9C38697E5602742C12B32CE1B83DEB4391774B4_inline (ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:101>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
 }
-// Method Definition Index: 76306
+// Method Definition Index: 76301
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ReconcileData_SetTick_m2C60FD4823B6C8EC4CB95728222E90C182831205_inline (ReconcileData_t56AEEB3712F8DE7DF3A647E020DB70693C37C056* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/CharacterControllerPrediction.cs:102>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76328
+// Method Definition Index: 76323
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ReplicateData_GetTick_mCEDC472206FB45E1710A3702923224EB4DBF29E2_inline (ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:25>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
 }
-// Method Definition Index: 76329
+// Method Definition Index: 76324
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ReplicateData_SetTick_m42D0F2937D2E20C851E129618681538346E4663B_inline (ReplicateData_t841CED3BD1195C975F4F546B1B4B283706CCBCAD* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:26>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
 	}
 }
-// Method Definition Index: 76332
+// Method Definition Index: 76327
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t ReconcileData_GetTick_m6263FC4AD45E83840FD2F70F67724FFC87D2BA92_inline (ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:52>
 		uint32_t L_0 = __this->____tick;
 		return L_0;
 	}
 }
-// Method Definition Index: 76333
+// Method Definition Index: 76328
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ReconcileData_SetTick_m28924142D81BB3C53DC0F15C66ACF97A1F061181_inline (ReconcileData_tF75B5A78F48AAB9E8AD257A6B2D7711B84B55EC4* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/Prediction/CharacterController/Scripts/MovingPlatform.cs:53>
 		uint32_t L_0 = ___0_value;
 		__this->____tick = L_0;
 		return;
@@ -19681,7 +18670,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t TimeManager_get_TickRate_m82924518D1C59038F7F69BEAA57C0179F78FA8A6_inline (TimeManager_tC7ABD26ED98438244671E717BA653CE562333891* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/Timing/TimeManager.cs:189>
 		uint16_t L_0 = __this->____tickRate;
 		return L_0;
 	}
@@ -19715,7 +18703,6 @@ IL_000c:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InOutAverage_t194246D30BA77B14306F01335D83095DE28BDB91* BandwidthDisplay_get_ServerAverages_mA97BEE3E582C0AD5B3CEA43C777F651DE51DAA12_inline (BandwidthDisplay_t2DC3E664999F744EA1B758EA658893F509B94F2E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Generated/Component/Utility/BandwidthDisplay.cs:89>
 		InOutAverage_t194246D30BA77B14306F01335D83095DE28BDB91* L_0 = __this->___U3CServerAveragesU3Ek__BackingField;
 		return L_0;
 	}
@@ -19724,7 +18711,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InOutAverage_t194246D30BA77B14306
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* Authenticator_get_NetworkManager_m6E83AF25D5E1F5B7BB819E6DD6D7473E2B393E47_inline (Authenticator_tE8723F8FD1952857C160B9288FCD4E415433F238* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Authenticating/Authenticator.cs:24>
 		NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* L_0 = __this->___U3CNetworkManagerU3Ek__BackingField;
 		return L_0;
 	}
@@ -19733,7 +18719,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NetworkManager_t3CF56E00215CFB653
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* NetworkManager_get_ServerManager_m32E7F02C9CB3A1AD788743D76789FD354D08200A_inline (NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/NetworkManager.cs:103>
 		ServerManager_tDBBF56D80FF61E862EFF37E29B4D0934E0B7DA59* L_0 = __this->___U3CServerManagerU3Ek__BackingField;
 		return L_0;
 	}
@@ -19742,7 +18727,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ServerManager_tDBBF56D80FF61E862E
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NetworkConnection_get_IsAuthenticated_mE4D6289CC2DEDB78437ED9E9DE0F19931CF3A808_inline (NetworkConnection_tFE41A2309E8A7E07677B7E6A6CD2DB3A0E94B30C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Connection/NetworkConnection.cs:112>
 		bool L_0 = __this->___U3CIsAuthenticatedU3Ek__BackingField;
 		return L_0;
 	}
@@ -19759,7 +18743,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ClientManager_t4C708A22F4C0BD3CB5EB1E131909D787D5198FA4* NetworkManager_get_ClientManager_mD5B9A88CFAC2F93A669483088DC42F0C61A564CA_inline (NetworkManager_t3CF56E00215CFB653E23B2207E7BE9A958E975BF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Managing/NetworkManager.cs:107>
 		ClientManager_t4C708A22F4C0BD3CB5EB1E131909D787D5198FA4* L_0 = __this->___U3CClientManagerU3Ek__BackingField;
 		return L_0;
 	}
@@ -19825,33 +18808,30 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray__ctor_mE298992FD10A3894C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SyncBase_get_IsInitialized_m953427A1256C4170AF0C6289C83B74D67C9F33E1_inline (SyncBase_t76EBEEC00F8300C5890886038B9872E72128829D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Object/Synchronizing/SyncBase.cs:19>
 		bool L_0 = __this->___U3CIsInitializedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 76454
+// Method Definition Index: 76449
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CustomChanged_Invoke_m60BF27976DA02B4489ABF667763BDCB65F8EF6CB_inline (CustomChanged_t1735AE59FFAB7268FAAB01C88621284C20B2BD69* __this, uint8_t ___0_op, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___1_oldItem, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF ___2_newItem, bool ___3_asServer, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, uint8_t, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF, Structy_tCDD00FA69F789D90924F9BAFFDE219CFB16E33BF, bool, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_op, ___1_oldItem, ___2_newItem, ___3_asServer, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76491
+// Method Definition Index: 76486
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Aim_set_PlayerCamera_m80128407CA99117E85D53D13DD69BA6279B11A89_inline (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:12>
 		PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* L_0 = ___0_value;
 		__this->___U3CPlayerCameraU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CPlayerCameraU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 76490
+// Method Definition Index: 76485
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* Aim_get_PlayerCamera_m40D24F736CCDD9ACDF94A799A3428D86985D5507_inline (Aim_t81C00999979545ED7D6166CA74EFC586D5CFBADC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Demos/ColliderRollback/Scripts/Player/Aim.cs:12>
 		PlayerCamera_tA490CD125789BAA7737A7B712A319EADC30097C2* L_0 = __this->___U3CPlayerCameraU3Ek__BackingField;
 		return L_0;
 	}
@@ -20029,7 +19009,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-// Method Definition Index: 77187
+// Method Definition Index: 77182
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m139A176CD271A0532D75BE08DA7831C8C45CE28F_gshared_inline (Enumerator_t72556E98D7DDBE118A973D782D523D15A96461C8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -20231,7 +19211,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_mB2DD87F61EB
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set_IsDefault_mE9B1F0219C7E9946DF248E9EFF99CE545F092D93_gshared_inline (Func_2_t5EA4D31E10151048C64853212938BF0EDFA0946B* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Serializing/Helping/Comparers.cs:12>
 		Func_2_t5EA4D31E10151048C64853212938BF0EDFA0946B* L_0 = ___0_value;
 		((PublicPropertyComparer_1_t3027FC2BAAEA98B835A9FF5AD788B3D0394BD26D_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CIsDefaultU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((PublicPropertyComparer_1_t3027FC2BAAEA98B835A9FF5AD788B3D0394BD26D_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CIsDefaultU3Ek__BackingField), (void*)L_0);
@@ -20242,7 +19221,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set_Compare_mBE3F625F9CFAD6AC2A76A8E8B60989BF714073F8_gshared_inline (Func_3_t533766DEADE2660311942F85F945755095AB10DF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Serializing/Helping/Comparers.cs:16>
 		Func_3_t533766DEADE2660311942F85F945755095AB10DF* L_0 = ___0_value;
 		((PublicPropertyComparer_1_t3027FC2BAAEA98B835A9FF5AD788B3D0394BD26D_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((PublicPropertyComparer_1_t3027FC2BAAEA98B835A9FF5AD788B3D0394BD26D_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField), (void*)L_0);
@@ -20253,7 +19231,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set_IsDefault_mD91381E33E8D0F02450357DF984137889FFD940F_gshared_inline (Func_2_t8C8EFDBB67D8DD17B179709B68DF09107AFCAB08* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Serializing/Helping/Comparers.cs:12>
 		Func_2_t8C8EFDBB67D8DD17B179709B68DF09107AFCAB08* L_0 = ___0_value;
 		((PublicPropertyComparer_1_t1ED7C173D3BFAE684AEFEF22E05EA446FD1C7BAE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CIsDefaultU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((PublicPropertyComparer_1_t1ED7C173D3BFAE684AEFEF22E05EA446FD1C7BAE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CIsDefaultU3Ek__BackingField), (void*)L_0);
@@ -20264,7 +19241,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set_Compare_m415B733830C530794D5479F1CF584265A61BF8DD_gshared_inline (Func_3_t1977F84BF4C8AF22460919F2B17831A9885AB859* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Serializing/Helping/Comparers.cs:16>
 		Func_3_t1977F84BF4C8AF22460919F2B17831A9885AB859* L_0 = ___0_value;
 		((PublicPropertyComparer_1_t1ED7C173D3BFAE684AEFEF22E05EA446FD1C7BAE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((PublicPropertyComparer_1_t1ED7C173D3BFAE684AEFEF22E05EA446FD1C7BAE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField), (void*)L_0);
@@ -20275,7 +19251,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set_Compare_mC5D46B0896E245F2F7E8E256B40AAB2DFC805D20_gshared_inline (Func_3_tE2867DA915514BA60DD731A5E8961D4720F39935* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Serializing/Helping/Comparers.cs:16>
 		Func_3_tE2867DA915514BA60DD731A5E8961D4720F39935* L_0 = ___0_value;
 		((PublicPropertyComparer_1_tB77413CA2852F1C5D598E1F2C814A60B0594B70E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((PublicPropertyComparer_1_tB77413CA2852F1C5D598E1F2C814A60B0594B70E_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField), (void*)L_0);
@@ -20286,7 +19261,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set_IsDefault_m84CABF17EC5FEC2AD17373835D8332EB0DEE1B50_gshared_inline (Func_2_t5CA9DFC48A0F7E702013B80CF739BFB787D1F96A* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Serializing/Helping/Comparers.cs:12>
 		Func_2_t5CA9DFC48A0F7E702013B80CF739BFB787D1F96A* L_0 = ___0_value;
 		((PublicPropertyComparer_1_tDE79854BE1AAE50DF2BD645D51A57B8B47886346_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CIsDefaultU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((PublicPropertyComparer_1_tDE79854BE1AAE50DF2BD645D51A57B8B47886346_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CIsDefaultU3Ek__BackingField), (void*)L_0);
@@ -20297,7 +19271,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set_Compare_m56651D56AA60E5150D7F3C117C5EE4AFBB6856E7_gshared_inline (Func_3_t29CDB430BF2E39509FA4E867BAACB0344948A3ED* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Serializing/Helping/Comparers.cs:16>
 		Func_3_t29CDB430BF2E39509FA4E867BAACB0344948A3ED* L_0 = ___0_value;
 		((PublicPropertyComparer_1_tDE79854BE1AAE50DF2BD645D51A57B8B47886346_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((PublicPropertyComparer_1_tDE79854BE1AAE50DF2BD645D51A57B8B47886346_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField), (void*)L_0);
@@ -20308,7 +19281,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set_Compare_mEC7A895DBF857C3BD35E7EE4A14A467F1CF922F3_gshared_inline (Func_3_t8405246FA4174D01D5F07F8A51737739EE5376F3* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Serializing/Helping/Comparers.cs:16>
 		Func_3_t8405246FA4174D01D5F07F8A51737739EE5376F3* L_0 = ___0_value;
 		((PublicPropertyComparer_1_t29C489737CFDB97C808246C951BF0E4911737C59_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((PublicPropertyComparer_1_t29C489737CFDB97C808246C951BF0E4911737C59_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField), (void*)L_0);
@@ -20319,7 +19291,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PublicPropertyComparer_1_set_Compare_m62AD8DA19DDD928E4E06EDDC4267D8517578C721_gshared_inline (Func_3_t5C21403860EED861F6CFC91F620024C13321FC72* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/D511/Downloads/4-4-main/MoblieClient/Assets/FishNet/Runtime/Serializing/Helping/Comparers.cs:16>
 		Func_3_t5C21403860EED861F6CFC91F620024C13321FC72* L_0 = ___0_value;
 		((PublicPropertyComparer_1_tB7320700531149E2542FE50F61D5C8986B37666B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((PublicPropertyComparer_1_tB7320700531149E2542FE50F61D5C8986B37666B_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CCompareU3Ek__BackingField), (void*)L_0);
