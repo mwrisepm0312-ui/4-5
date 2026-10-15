@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.police.mobile">
+
+	<!-- 네트워크 권한 -->
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+	<!-- NFC 권한 -->
+	<uses-permission android:name="android.permission.NFC"/>
+	<uses-feature android:name="android.hardware.nfc"
+                  android:required="true"/>
+
+	<application
+        android:allowBackup="false"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:replace="android:allowBackup,android:theme">
+
+		<activity
+            android:name="com.unity3d.player.UnityPlayerGameActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="fullSensor"
+            android:configChanges="orientation|screenSize|keyboardHidden|keyboard|smallestScreenSize|screenLayout|uiMode">
+
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+
+			<!-- NFC 태그 감지 -->
+			<intent-filter>
+				<action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+				<action android:name="android.nfc.action.TAG_DISCOVERED"/>
+				<action android:name="android.nfc.action.TECH_DISCOVERED"/>
+				<category android:name="android.intent.category.DEFAULT"/>
+			</intent-filter>
+
+			<meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
+		</activity>
+	</application>
+</manifest>
