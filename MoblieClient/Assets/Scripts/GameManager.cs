@@ -208,4 +208,21 @@ public class GameManager : NetworkBehaviour
         MobileJobSelect.Instance?.UnlockJobSelect();
 #endif
     }
+
+    // ──────────────────────────────────────
+    // 게임 종료 후 모바일 클라이언트씬 이동
+    // ──────────────────────────────────────
+    [ServerRpc(RequireOwnership = false)]
+    public void LoadClientSceneServerRpc(NetworkConnection sender = null)
+    {
+        LoadClientSceneClientRpc();
+    }
+
+    [ObserversRpc]
+    void LoadClientSceneClientRpc()
+    {
+#if UNITY_ANDROID
+    UnityEngine.SceneManagement.SceneManager.LoadScene("Mobile_LobbyScene");
+#endif
+    }
 }

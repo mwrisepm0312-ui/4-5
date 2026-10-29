@@ -143,11 +143,24 @@ public class StoryStepManager : MonoBehaviour
             gm?.UnlockJobSelectServerRpc();
 
         if (closeServer)
-        {
-            var nm = FishNet.InstanceFinder.NetworkManager;
-            if (nm != null && nm.IsServerStarted)
-                nm.ServerManager.StopConnection(true);
-        }
+            StartCoroutine(CloseServerAfterRpc(gm));
+        else
+            SceneManager.LoadScene(nextScene);
+    }
+
+    private IEnumerator CloseServerAfterRpc(GameManager gm)
+    {
+        // 모바일에 씬 이동 RPC 전송
+        gm?.LoadClientSceneServerRpc();
+
+        // RPC 전송 완료 대기 (2프레임)
+        yield return null;
+        yield return null;
+
+        // 서버 종료 후 PC 씬 전환
+        var nm = FishNet.InstanceFinder.NetworkManager;
+        if (nm != null && nm.IsServerStarted)
+            nm.ServerManager.StopConnection(true);
 
         SceneManager.LoadScene(nextScene);
     }

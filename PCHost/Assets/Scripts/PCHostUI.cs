@@ -1,11 +1,12 @@
-﻿using FishNet;
+﻿using DG.Tweening;
+using FishNet;
 using FishNet.Transporting.Tugboat;
 using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
-using DG.Tweening;
+using UnityEngine.UI;
 
 public class PCHostUI : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class PCHostUI : MonoBehaviour
 
     [Header("시작 버튼")]
     public Button startButton;
+
+    [Header("게임종료 버튼")]
+    public Button quitButton;
 
     [Header("팝업 UI")]
     public GameObject dimBG;
@@ -24,10 +28,12 @@ public class PCHostUI : MonoBehaviour
     public Button confirmButton;
 
     private int maxPlayers = 2;
+    private Tween quitFloatTween;
+    private float quitBaseY;
+
 
     void Start()
     {
-        // 타이틀 타이핑 효과
         if (titleText != null)
         {
             string title = titleText.text;
@@ -35,16 +41,44 @@ public class PCHostUI : MonoBehaviour
             titleText.DOText(title, 1.5f).SetEase(Ease.Linear);
         }
 
-        // 버튼 둥실둥실 애니메이션
         startButton.transform
             .DOLocalMoveY(startButton.transform.localPosition.y + 20f, 0.8f)
             .SetEase(Ease.InOutSine)
             .SetLoops(-1, LoopType.Yoyo);
 
+        quitBaseY = quitButton.transform.localPosition.y;
+
+        var trigger = quitButton.gameObject.AddComponent<EventTrigger>();
+
+        var enterEntry = new EventTrigger.Entry { eventID = EventTriggerType.PointerEnter };
+        enterEntry.callback.AddListener(_ =>
+        {
+            quitFloatTween?.Kill();
+            quitButton.transform.localPosition = new Vector3(
+                quitButton.transform.localPosition.x, quitBaseY, quitButton.transform.localPosition.z);
+            quitFloatTween = quitButton.transform
+                .DOLocalMoveY(quitBaseY + 20f, 0.8f)
+                .SetEase(Ease.InOutSine)
+                .SetLoops(-1, LoopType.Yoyo);
+        });
+        trigger.triggers.Add(enterEntry);
+
+
+        var exitEntry = new EventTrigger.Entry { eventID = EventTriggerType.PointerExit };
+        exitEntry.callback.AddListener(_ =>
+        {
+            quitFloatTween?.Kill();
+            quitButton.transform
+                .DOLocalMoveY(quitBaseY, 0.15f)
+                .SetEase(Ease.OutSine);
+        });
+        trigger.triggers.Add(exitEntry);
+
         startButton.onClick.AddListener(OnStartClicked);
         minusButton.onClick.AddListener(OnMinusClicked);
         plusButton.onClick.AddListener(OnPlusClicked);
         confirmButton.onClick.AddListener(OnConfirmClicked);
+        quitButton.onClick.AddListener(OnQuitClicked);
         UpdateCountText();
     }
 
@@ -62,6 +96,7 @@ public class PCHostUI : MonoBehaviour
 
     void OnPlusClicked()
     {
+
         if (maxPlayers < 4) maxPlayers++;
         UpdateCountText();
     }
@@ -79,6 +114,9 @@ public class PCHostUI : MonoBehaviour
         popupPanel.SetActive(false);
         startButton.interactable = false;
 
+        // 새 게임 시작 시 증거 초기화
+        GameManager.ReceivedEvidences.Clear();
+
         var tugboat = InstanceFinder.NetworkManager.GetComponent<Tugboat>();
         tugboat.SetPort(7770);
         tugboat.SetMaximumClients(maxPlayers + 1);
@@ -87,6 +125,22 @@ public class PCHostUI : MonoBehaviour
         InstanceFinder.ServerManager.StartConnection();
         InstanceFinder.ClientManager.StartConnection();
         StartCoroutine(SpawnGameManagerAndMove());
+    }
+
+    void OnQuitClicked()
+    {
+        if (InstanceFinder.IsServerStarted)
+            InstanceFinder.ServerManager.StopConnection(true);
+
+
+        if (InstanceFinder.IsClientStarted)
+            InstanceFinder.ClientManager.StopConnection();
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 
     IEnumerator SpawnGameManagerAndMove()
@@ -100,5 +154,10 @@ public class PCHostUI : MonoBehaviour
         }
         yield return new WaitForSeconds(0.3f);
         SceneManager.LoadScene("WaitingScene");
+    }
+
+    void OnDestroy()
+    {
+        quitFloatTween?.Kill();
     }
 }
