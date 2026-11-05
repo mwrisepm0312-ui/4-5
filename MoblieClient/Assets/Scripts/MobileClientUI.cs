@@ -30,7 +30,6 @@ public class MobileClientUI : MonoBehaviour
     [Header("Scene")]
     public string nextSceneName = "JobSelectScene";
 
-
     private UdpClient udpClient;
     private Thread listenThread;
 
@@ -51,13 +50,28 @@ public class MobileClientUI : MonoBehaviour
 
     void Start()
     {
+        // ClientMobile 씬 진입 시 상태 완전 초기화
+        isSearching = false;
+        stopListening = false;
+        connecting = false;
+        sceneLoaded = false;
+        foundIP = null;
+
+        // 모바일 증거 초기화
+        if (DataManager.Instance != null)
+            DataManager.Instance.CollectedEvidences.Clear();
+
+        // 씬의 NetworkManager가 DestroyNewest로 파괴되는 경우 InstanceFinder로 대체
+        networkManager = FishNet.InstanceFinder.NetworkManager;
         if (networkManager == null)
         {
-            Debug.LogError("[Mobile] NetworkManager가 연결되지 않았습니다.");
+            Debug.LogError("[Mobile] NetworkManager를 찾을 수 없습니다.");
             return;
         }
 
         statusText.text = "연결 버튼을 눌러주세요";
+        statusText.gameObject.SetActive(true);
+        connectButton.interactable = true;
         connectButton.onClick.AddListener(OnConnectButtonClicked);
         quitButton.onClick.AddListener(OnQuitClicked);
 
@@ -96,7 +110,6 @@ public class MobileClientUI : MonoBehaviour
         var connectDown = new EventTrigger.Entry { eventID = EventTriggerType.PointerDown };
         connectDown.callback.AddListener(_ =>
         {
-
             connectFloatTween?.Kill();
             connectButton.transform.localPosition = new Vector3(
                 connectButton.transform.localPosition.x, connectBaseY, connectButton.transform.localPosition.z);
@@ -129,7 +142,6 @@ public class MobileClientUI : MonoBehaviour
         udpClient?.Close();
 
         if (networkManager != null && networkManager.ClientManager.Started)
-
             networkManager.ClientManager.StopConnection();
 
 #if UNITY_EDITOR
@@ -163,7 +175,6 @@ public class MobileClientUI : MonoBehaviour
             udpClient = new UdpClient(broadcastPort);
             IPEndPoint endPoint = new IPEndPoint(IPAddress.Any, broadcastPort);
 
-
             Debug.Log($"[Mobile] UDP {broadcastPort} 수신 대기");
 
             while (!stopListening)
@@ -195,7 +206,6 @@ public class MobileClientUI : MonoBehaviour
         }
         catch (System.Exception e)
         {
-
             Debug.LogError($"[Mobile] UDP 오류: {e}");
         }
         finally
@@ -228,7 +238,6 @@ public class MobileClientUI : MonoBehaviour
         if (tugboat == null)
         {
             Debug.LogError("[Mobile] Tugboat 컴포넌트를 찾을 수 없습니다.");
-
             statusText.text = "Tugboat를 찾을 수 없습니다.";
             connecting = false;
             connectButton.interactable = true;
@@ -251,7 +260,7 @@ public class MobileClientUI : MonoBehaviour
 
     void OnClientConnectionState(ClientConnectionStateArgs args)
     {
-        Debug.Log($"[Mobile] ConnectionState = {args.ConnectionState}");
+        Debug.Log($"[Mobile] ConnectionState = {args.ConnectionState} / sceneLoaded={sceneLoaded} / connecting={connecting}");
 
         switch (args.ConnectionState)
         {
@@ -261,7 +270,6 @@ public class MobileClientUI : MonoBehaviour
 
             case LocalConnectionState.Started:
                 statusText.text = "연결 완료!";
-
                 Debug.Log("[Mobile] 연결 성공 → 씬 이동");
                 if (!sceneLoaded)
                 {
@@ -270,8 +278,14 @@ public class MobileClientUI : MonoBehaviour
                 }
                 break;
 
+            case LocalConnectionState.Stopping:
+                Debug.Log("[Mobile] Stopping 수신 — 무시");
+                break;
+
             case LocalConnectionState.Stopped:
-                if (!sceneLoaded)
+                Debug.Log($"[Mobile] Stopped 수신 — sceneLoaded={sceneLoaded}, connecting={connecting}");
+                // 씬 복귀 직후 오는 Stopped는 무시 (connecting=false이고 sceneLoaded=false인 초기 상태)
+                if (connecting && !sceneLoaded)
                 {
                     statusText.text = "서버 연결 실패";
                     Debug.LogError("[Mobile] FishNet 연결 실패/종료");
@@ -294,7 +308,6 @@ public class MobileClientUI : MonoBehaviour
         quitFloatTween?.Kill();
         connectFloatTween?.Kill();
         stopListening = true;
-
 
         if (networkManager != null)
             networkManager.ClientManager.OnClientConnectionState

@@ -27,16 +27,19 @@ public class StoryStepManager : MonoBehaviour
     [Header("타이핑 완료 후 다음 스텝까지 대기 시간 (초)")]
     public float waitAfterTyping = 2f;
 
+    [Header("완료 후 설정")]
+    public string nextScene = "PC_LobbyScene";
+    public bool unlockJobSelect = false;
+    public bool closeServer = false;
+
     private AudioSource _audioSource;
     private bool _finishedAll = false;
 
     void Start()
     {
-        // AudioSource 자동 추가
         _audioSource = gameObject.AddComponent<AudioSource>();
         _audioSource.playOnAwake = false;
 
-        // 이미지 전부 숨기기
         if (imageGroups != null)
         {
             foreach (var cg in imageGroups)
@@ -62,33 +65,18 @@ public class StoryStepManager : MonoBehaviour
 
         for (int i = 0; i < maxSteps; i++)
         {
-            // 1) 이미지 페이드인
-            if (imageGroups != null &&
-                i < imageGroups.Length &&
-                imageGroups[i] != null)
-            {
+            if (imageGroups != null && i < imageGroups.Length && imageGroups[i] != null)
                 yield return StartCoroutine(FadeIn(imageGroups[i]));
-            }
 
-            // 2) 나레이션 오디오 재생 (자막 타이핑과 동시)
-            if (narrationClips != null &&
-                i < narrationClips.Length &&
-                narrationClips[i] != null)
+            if (narrationClips != null && i < narrationClips.Length && narrationClips[i] != null)
             {
                 _audioSource.clip = narrationClips[i];
                 _audioSource.Play();
             }
 
-            // 3) 하단 텍스트 타이핑
-            if (storyText != null &&
-                storyLines != null &&
-                i < storyLines.Length)
-            {
+            if (storyText != null && storyLines != null && i < storyLines.Length)
                 yield return StartCoroutine(TypeLine(storyLines[i]));
-            }
 
-            // 4) 타이핑 완료 후 대기
-            // 오디오가 아직 재생 중이면 끝날 때까지 기다림
             if (_audioSource.isPlaying)
                 yield return new WaitWhile(() => _audioSource.isPlaying);
             else
@@ -127,11 +115,6 @@ public class StoryStepManager : MonoBehaviour
         }
     }
 
-    [Header("완료 후 설정")]
-    public string nextScene = "PC_LobbyScene";
-    public bool unlockJobSelect = false;  // 오프닝씬에서만 true
-    public bool closeServer = false;      // 성공/실패씬에서만 true
-
     private void OnAllStepsFinished()
     {
         if (_finishedAll) return;
@@ -150,17 +133,30 @@ public class StoryStepManager : MonoBehaviour
 
     private IEnumerator CloseServerAfterRpc(GameManager gm)
     {
-        // 모바일에 씬 이동 RPC 전송
-        gm?.LoadClientSceneServerRpc();
-
-        // RPC 전송 완료 대기 (2프레임)
-        yield return null;
-        yield return null;
-
-        // 서버 종료 후 PC 씬 전환
         var nm = FishNet.InstanceFinder.NetworkManager;
-        if (nm != null && nm.IsServerStarted)
+
+        if (gm == null || nm == null || !nm.IsServerStarted)
+        {
+            Debug.LogWarning("[StoryStep] GameManager 또는 서버 없음 — 그냥 씬 전환");
+            SceneManager.LoadScene(nextScene);
+            yield break;
+        }
+
+        // ObserversRpc를 ServerRpc 거치지 않고 서버에서 직접 호출
+        // gm.LoadClientSceneServerRpc() 대신 아래처럼:
+        // ServerRpc → ObserversRpc 체인 대신, 서버에서 바로 ObserversRpc 트리거
+        gm.SendClientToLobbyFromServer();
+
+        Debug.Log("[StoryStep] SendClientToLobbyFromServer 호출 — 2초 대기");
+
+        // 모바일이 씬 로드할 충분한 시간 확보
+        yield return new WaitForSeconds(2f);
+
+        Debug.Log("[StoryStep] 서버 종료");
+        if (nm.IsServerStarted)
             nm.ServerManager.StopConnection(true);
+
+        yield return new WaitForSeconds(0.1f);
 
         SceneManager.LoadScene(nextScene);
     }
