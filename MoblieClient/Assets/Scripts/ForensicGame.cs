@@ -44,6 +44,9 @@ public class ForensicGame : MonoBehaviour
     public Button powderButton;
     public TextMeshProUGUI powderBtnText;
 
+    [Header("가이드 손가락 이미지")]
+    public GameObject fingerGuideImage;
+
     [Header("지문 발견 팝업")]
     public GameObject evidencePopup;
     public Image fingerprintPopupImage;
@@ -92,6 +95,8 @@ public class ForensicGame : MonoBehaviour
     private GameObject currentFingerprintImage;
     private List<bool> locationCleared = new List<bool> { false, false, false };
 
+    private bool fingerGuideActive = false;
+
     void Start()
     {
         guidePopup.SetActive(true);
@@ -110,6 +115,9 @@ public class ForensicGame : MonoBehaviour
         clearDescText.SetActive(false);
         if (countdownText != null)
             countdownText.gameObject.SetActive(false);
+
+        if (fingerGuideImage != null)
+            fingerGuideImage.SetActive(false);
 
         if (foundSprite == null) foundSprite = Resources.Load<Sprite>("Fingerprints/found_fingerprint");
         if (fpSprite1 == null) fpSprite1 = Resources.Load<Sprite>("Fingerprints/fingerprint_1");
@@ -179,7 +187,6 @@ public class ForensicGame : MonoBehaviour
         DOTween.Kill(clickedBtn.transform);
         clickedBtn.transform.localScale = Vector3.one;
 
-        // 나머지 버튼 숨기기
         if (location != 0) exclamationBtn1.gameObject.SetActive(false);
         if (location != 1) exclamationBtn2.gameObject.SetActive(false);
         if (location != 2) exclamationBtn3.gameObject.SetActive(false);
@@ -228,13 +235,119 @@ public class ForensicGame : MonoBehaviour
     void OnPowderClicked()
     {
         if (powderSpread) return;
-        powderSpread = true;
         powderButton.interactable = false;
-        powderBtnText.text = "느낌표 주위을 문질러보세요!";
+        powderBtnText.text = "느낌표 주위를 문질러보세요!";
+
+        StartCoroutine(PlayFingerGuide());
+    }
+
+    IEnumerator PlayFingerGuide()
+    {
+        if (fingerGuideImage == null)
+        {
+            powderSpread = true;
+            yield break;
+        }
+
+        fingerGuideActive = true;
+
+        RectTransform guideRect = fingerGuideImage.GetComponent<RectTransform>();
+        RectTransform areaRect = currentBrushArea;
+
+        // brushArea의 월드 포지션 → FingerGuide 부모 기준 로컬 포지션으로 변환
+        RectTransform guideParent = fingerGuideImage.transform.parent as RectTransform;
+        Canvas canvas = fingerGuideImage.GetComponentInParent<Canvas>();
+
+        Vector3[] areaCorners = new Vector3[4];
+        areaRect.GetWorldCorners(areaCorners);
+        // 0:좌하, 1:좌상, 2:우상, 3:우하
+        Vector3 worldCenter = (areaCorners[0] + areaCorners[2]) * 0.5f;
+        Vector3 worldTop = (areaCorners[1] + areaCorners[2]) * 0.5f;
+        Vector3 worldBottom = (areaCorners[0] + areaCorners[3]) * 0.5f;
+
+        Camera cam = canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera;
+
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent,
+            RectTransformUtility.WorldToScreenPoint(cam, worldCenter), cam, out Vector2 localCenter);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent,
+            RectTransformUtility.WorldToScreenPoint(cam, worldTop), cam, out Vector2 localTop);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent,
+            RectTransformUtility.WorldToScreenPoint(cam, worldBottom), cam, out Vector2 localBottom);
+
+        // 시작: brushArea 위쪽, 끝: brushArea 아래쪽
+        Vector2 startPos = localTop + new Vector2(0f, 30f);
+        Vector2 endPos = localBottom + new Vector2(0f, -10f);
+        float swingWidth = (areaRect.rect.width * 0.3f) *
+                           (canvas.scaleFactor > 0 ? 1f : 1f); // 좌우 흔들림 범위 (로컬 단위)
+
+        guideRect.anchoredPosition = startPos;
+        fingerGuideImage.SetActive(true);
+
+        for (int i = 0; i < 3; i++)
+        {
+            if (!fingerGuideActive) break;
+
+            float duration = 0.7f;
+            float elapsed = 0f;
+
+            while (elapsed < duration)
+            {
+                if (!fingerGuideActive) break;
+
+                // 터치/클릭 감지 → 중단
+#if UNITY_ANDROID && !UNITY_EDITOR
+                if (Input.touchCount > 0)
+                {
+                    fingerGuideActive = false;
+                    break;
+                }
+#else
+                if (Input.GetMouseButtonDown(0))
+                {
+                    fingerGuideActive = false;
+                    break;
+                }
+#endif
+                elapsed += Time.deltaTime;
+                float t = elapsed / duration;
+
+                float yPos = Mathf.Lerp(startPos.y, endPos.y, t);
+                float xOffset = Mathf.Sin(t * Mathf.PI * 3f) * swingWidth;
+                guideRect.anchoredPosition = new Vector2(localCenter.x + xOffset, yPos);
+
+                yield return null;
+            }
+
+            if (!fingerGuideActive) break;
+
+            // 한 번 내려갔으면 순간이동 후 잠깐 대기
+            guideRect.anchoredPosition = startPos;
+            yield return new WaitForSeconds(0.08f);
+        }
+
+        fingerGuideImage.SetActive(false);
+        fingerGuideActive = false;
+        powderSpread = true;
     }
 
     void Update()
     {
+        // 손가락 가이드 중 터치 감지해서 즉시 중단
+        if (fingerGuideActive)
+        {
+#if UNITY_ANDROID && !UNITY_EDITOR
+            if (Input.touchCount > 0)
+            {
+                fingerGuideActive = false;
+            }
+#else
+            if (Input.GetMouseButtonDown(0))
+            {
+                fingerGuideActive = false;
+            }
+#endif
+        }
+
         if (!powderSpread || fingerFound || currentBrushArea == null) return;
 
 #if UNITY_ANDROID && !UNITY_EDITOR
@@ -368,7 +481,6 @@ public class ForensicGame : MonoBehaviour
         currentFingerprintImage.SetActive(false);
         powderButton.gameObject.SetActive(false);
 
-        // 클리어 안 된 버튼만 다시 표시 + 애니메이션
         if (!locationCleared[0]) { exclamationBtn1.gameObject.SetActive(true); AnimateExclamationBtn(exclamationBtn1, 0f); }
         else exclamationBtn1.gameObject.SetActive(false);
 
@@ -400,5 +512,10 @@ public class ForensicGame : MonoBehaviour
         }
 
         SceneManager.LoadScene("Mobile_LobbyScene");
+    }
+
+    void OnDestroy()
+    {
+        fingerGuideActive = false;
     }
 }

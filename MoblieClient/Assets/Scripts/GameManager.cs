@@ -94,7 +94,6 @@ public class GameManager : NetworkBehaviour
         Debug.Log($"증거 수신 완료: {ReceivedEvidences.Count}개");
 
 #if !UNITY_ANDROID
-        // PC에서만 SuspectScene 업데이트
         var suspectScene = FindFirstObjectByType<SuspectSceneUI>();
         suspectScene?.OnEvidencesReceived(ReceivedEvidences);
 #endif
@@ -210,8 +209,25 @@ public class GameManager : NetworkBehaviour
     }
 
     // ──────────────────────────────────────
-    // 게임 종료 후 모바일 클라이언트씬 이동
+    // 게임 종료 후 모바일 로비씬 이동
+    // 서버에서 직접 호출 (ServerRpc 체인 없이)
     // ──────────────────────────────────────
+    public void SendClientToLobbyFromServer()
+    {
+        // 서버에서 직접 ObserversRpc 호출
+        SendClientToLobbyClientRpc();
+    }
+
+    [ObserversRpc]
+    void SendClientToLobbyClientRpc()
+    {
+        Debug.Log("[GameManager] SendClientToLobbyClientRpc 수신");
+#if UNITY_ANDROID
+        UnityEngine.SceneManagement.SceneManager.LoadScene("ClientMobile");
+#endif
+    }
+
+    // 기존 호환용 (사용 안 해도 됨)
     [ServerRpc(RequireOwnership = false)]
     public void LoadClientSceneServerRpc(NetworkConnection sender = null)
     {
@@ -222,7 +238,7 @@ public class GameManager : NetworkBehaviour
     void LoadClientSceneClientRpc()
     {
 #if UNITY_ANDROID
-    UnityEngine.SceneManagement.SceneManager.LoadScene("Mobile_LobbyScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("ClientMobile");
 #endif
     }
 }
