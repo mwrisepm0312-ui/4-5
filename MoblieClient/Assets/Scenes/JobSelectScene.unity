@@ -1185,7 +1185,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7e99948607dded540aec5b0d5d6ce2fa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6393eb9ac8f27e545b282bee792d7c4a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1415,7 +1415,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7a021ff82c6028a4a90c2e5ca77091a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 33f0cdfdb9f977048ae501c089b64ed1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1645,7 +1645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 31dfb5769b8a5574c87cca17ff0c56f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1e2f0ab412c492b4e96a9c44908aedf2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2397,12 +2397,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -3073,7 +3073,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ea0fcdfff78edc64e9a06f4b42f06202, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1e2f0ab412c492b4e96a9c44908aedf2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3303,7 +3303,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ea0fcdfff78edc64e9a06f4b42f06202, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 079dffa612277ac4f866d379c1a697dc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3533,7 +3533,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7a021ff82c6028a4a90c2e5ca77091a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 41de1c0a4cf04ba4bacfe331034c0aeb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4397,7 +4397,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: af12adb71c7d82244b6715b1f67a31f5, type: 3}
+  m_Texture: {fileID: 2800000, guid: 339d5695e7808114ab65a0dfc189cd5c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -4516,7 +4516,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 51cef5fa09bb84e42a35c715fdc3eac1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0e5b91aaac41d7e49b2299d10ca926f1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4883,7 +4883,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 45c86e9660b851a48ac6c28d36560553, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 41de1c0a4cf04ba4bacfe331034c0aeb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5351,7 +5351,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0aa5634dfb85bd847b395a5d1bb9d34b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 33f0cdfdb9f977048ae501c089b64ed1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

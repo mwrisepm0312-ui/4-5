@@ -1611,7 +1611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SliderArrowSpawner
   timeSlider: {fileID: 634590595}
-  triangleSprite: {fileID: 21300000, guid: 993c20293b3f66e4884f102669ccaaa1, type: 3}
+  triangleSprite: {fileID: 21300000, guid: 0ea7f1bafca46d3418d812e7313b5a93, type: 3}
   offsetAboveSlider: 40
   bounceDistance: 10
   bounceDuration: 0.65
@@ -1673,7 +1673,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4c893d7b1395049429dc1076bca8bce9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 626776bb2f52c6543992908e99d3ec3f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2759,7 +2759,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96

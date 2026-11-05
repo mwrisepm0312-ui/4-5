@@ -30,7 +30,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Blur: 1
-    - _Brightness: 0.8425
+    - _Brightness: 0.1
     - _Saturation: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
