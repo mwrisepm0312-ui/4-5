@@ -46,6 +46,7 @@ public class ForensicGame : MonoBehaviour
 
     [Header("가이드 손가락 이미지")]
     public GameObject fingerGuideImage;
+    public GameObject afisFingerGuideImage; // AFIS 패널용 드래그 가이드 손가락
 
     [Header("지문 발견 팝업")]
     public GameObject evidencePopup;
@@ -96,6 +97,7 @@ public class ForensicGame : MonoBehaviour
     private List<bool> locationCleared = new List<bool> { false, false, false };
 
     private bool fingerGuideActive = false;
+    private bool afisGuideActive = false;
 
     void Start()
     {
@@ -118,6 +120,8 @@ public class ForensicGame : MonoBehaviour
 
         if (fingerGuideImage != null)
             fingerGuideImage.SetActive(false);
+        if (afisFingerGuideImage != null)
+            afisFingerGuideImage.SetActive(false);
 
         if (foundSprite == null) foundSprite = Resources.Load<Sprite>("Fingerprints/found_fingerprint");
         if (fpSprite1 == null) fpSprite1 = Resources.Load<Sprite>("Fingerprints/fingerprint_1");
@@ -237,7 +241,6 @@ public class ForensicGame : MonoBehaviour
         if (powderSpread) return;
         powderButton.interactable = false;
         powderBtnText.text = "느낌표 주위를 문질러보세요!";
-
         StartCoroutine(PlayFingerGuide());
     }
 
@@ -245,6 +248,7 @@ public class ForensicGame : MonoBehaviour
     {
         if (fingerGuideImage == null)
         {
+            Debug.LogWarning("[ForensicGame] fingerGuideImage가 null! Inspector에서 연결해주세요.");
             powderSpread = true;
             yield break;
         }
@@ -253,34 +257,39 @@ public class ForensicGame : MonoBehaviour
 
         RectTransform guideRect = fingerGuideImage.GetComponent<RectTransform>();
         RectTransform areaRect = currentBrushArea;
-
-        // brushArea의 월드 포지션 → FingerGuide 부모 기준 로컬 포지션으로 변환
-        RectTransform guideParent = fingerGuideImage.transform.parent as RectTransform;
         Canvas canvas = fingerGuideImage.GetComponentInParent<Canvas>();
+        Camera cam = (canvas.renderMode == RenderMode.ScreenSpaceOverlay) ? null : canvas.worldCamera;
 
+        // 부모가 없거나 Canvas 자체이면 Canvas의 RectTransform을 기준으로 사용
+        RectTransform guideParent = fingerGuideImage.transform.parent?.GetComponent<RectTransform>();
+        if (guideParent == null)
+            guideParent = canvas.GetComponent<RectTransform>();
+
+        // brushArea의 4개 코너를 월드→스크린→guideParent 로컬로 변환
         Vector3[] areaCorners = new Vector3[4];
         areaRect.GetWorldCorners(areaCorners);
         // 0:좌하, 1:좌상, 2:우상, 3:우하
-        Vector3 worldCenter = (areaCorners[0] + areaCorners[2]) * 0.5f;
-        Vector3 worldTop = (areaCorners[1] + areaCorners[2]) * 0.5f;
-        Vector3 worldBottom = (areaCorners[0] + areaCorners[3]) * 0.5f;
 
-        Camera cam = canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera;
+        Vector2 screenCenter = RectTransformUtility.WorldToScreenPoint(cam, (areaCorners[0] + areaCorners[2]) * 0.5f);
+        Vector2 screenTop = RectTransformUtility.WorldToScreenPoint(cam, (areaCorners[1] + areaCorners[2]) * 0.5f);
+        Vector2 screenBottom = RectTransformUtility.WorldToScreenPoint(cam, (areaCorners[0] + areaCorners[3]) * 0.5f);
+        Vector2 screenLeft = RectTransformUtility.WorldToScreenPoint(cam, (areaCorners[0] + areaCorners[1]) * 0.5f);
+        Vector2 screenRight = RectTransformUtility.WorldToScreenPoint(cam, (areaCorners[2] + areaCorners[3]) * 0.5f);
 
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent,
-            RectTransformUtility.WorldToScreenPoint(cam, worldCenter), cam, out Vector2 localCenter);
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent,
-            RectTransformUtility.WorldToScreenPoint(cam, worldTop), cam, out Vector2 localTop);
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent,
-            RectTransformUtility.WorldToScreenPoint(cam, worldBottom), cam, out Vector2 localBottom);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent, screenCenter, cam, out Vector2 localCenter);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent, screenTop, cam, out Vector2 localTop);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent, screenBottom, cam, out Vector2 localBottom);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent, screenLeft, cam, out Vector2 localLeft);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent, screenRight, cam, out Vector2 localRight);
 
         // 시작: brushArea 위쪽, 끝: brushArea 아래쪽
         Vector2 startPos = localTop + new Vector2(0f, 30f);
         Vector2 endPos = localBottom + new Vector2(0f, -10f);
-        float swingWidth = (areaRect.rect.width * 0.3f) *
-                           (canvas.scaleFactor > 0 ? 1f : 1f); // 좌우 흔들림 범위 (로컬 단위)
+        // 좌우 흔들림: brushArea 너비의 30% — 월드→로컬 변환으로 정확한 픽셀 단위
+        float swingWidth = (localRight.x - localLeft.x) * 0.3f;
 
         guideRect.anchoredPosition = startPos;
+        Debug.Log($"[FingerGuide] guideParent={guideParent.name} startPos={startPos} endPos={endPos} swingWidth={swingWidth}");
         fingerGuideImage.SetActive(true);
 
         for (int i = 0; i < 3; i++)
@@ -294,19 +303,10 @@ public class ForensicGame : MonoBehaviour
             {
                 if (!fingerGuideActive) break;
 
-                // 터치/클릭 감지 → 중단
 #if UNITY_ANDROID && !UNITY_EDITOR
-                if (Input.touchCount > 0)
-                {
-                    fingerGuideActive = false;
-                    break;
-                }
+                if (Input.touchCount > 0) { fingerGuideActive = false; break; }
 #else
-                if (Input.GetMouseButtonDown(0))
-                {
-                    fingerGuideActive = false;
-                    break;
-                }
+                if (Input.GetMouseButtonDown(0)) { fingerGuideActive = false; break; }
 #endif
                 elapsed += Time.deltaTime;
                 float t = elapsed / duration;
@@ -320,7 +320,6 @@ public class ForensicGame : MonoBehaviour
 
             if (!fingerGuideActive) break;
 
-            // 한 번 내려갔으면 순간이동 후 잠깐 대기
             guideRect.anchoredPosition = startPos;
             yield return new WaitForSeconds(0.08f);
         }
@@ -332,19 +331,21 @@ public class ForensicGame : MonoBehaviour
 
     void Update()
     {
-        // 손가락 가이드 중 터치 감지해서 즉시 중단
         if (fingerGuideActive)
         {
 #if UNITY_ANDROID && !UNITY_EDITOR
-            if (Input.touchCount > 0)
-            {
-                fingerGuideActive = false;
-            }
+            if (Input.touchCount > 0) fingerGuideActive = false;
 #else
-            if (Input.GetMouseButtonDown(0))
-            {
-                fingerGuideActive = false;
-            }
+            if (Input.GetMouseButtonDown(0)) fingerGuideActive = false;
+#endif
+        }
+
+        if (afisGuideActive)
+        {
+#if UNITY_ANDROID && !UNITY_EDITOR
+            if (Input.touchCount > 0) afisGuideActive = false;
+#else
+            if (Input.GetMouseButtonDown(0)) afisGuideActive = false;
 #endif
         }
 
@@ -420,14 +421,13 @@ public class ForensicGame : MonoBehaviour
         afisPanel.SetActive(true);
 
         ShowArrow(0);
+        StartCoroutine(PlayAfisFingerGuide());
     }
 
     void ShowArrow(int correctIndex)
     {
         if (dragArrow == null || arrows == null) return;
-
         dragArrow.SetActive(true);
-
         for (int i = 0; i < arrows.Length; i++)
         {
             arrows[i].SetActive(true);
@@ -438,15 +438,84 @@ public class ForensicGame : MonoBehaviour
     void HideArrows()
     {
         if (dragArrow == null || arrows == null) return;
-
         for (int i = 0; i < arrows.Length; i++)
             DOTween.Pause("arrow" + (i + 1));
-
         dragArrow.SetActive(false);
+    }
+
+    // AFIS 패널: 발견된 지문 → 용의자 지문 방향으로 손가락 가이드 (3회)
+    IEnumerator PlayAfisFingerGuide()
+    {
+        if (afisFingerGuideImage == null) yield break;
+
+        afisGuideActive = true;
+
+        RectTransform guideRect = afisFingerGuideImage.GetComponent<RectTransform>();
+        Canvas canvas = afisFingerGuideImage.GetComponentInParent<Canvas>();
+        Camera cam = (canvas.renderMode == RenderMode.ScreenSpaceOverlay) ? null : canvas.worldCamera;
+
+        RectTransform guideParent = afisFingerGuideImage.transform.parent?.GetComponent<RectTransform>();
+        if (guideParent == null) guideParent = canvas.GetComponent<RectTransform>();
+
+        // 출발: foundFingerprintImage (발견된 지문)
+        RectTransform fromRect = foundFingerprintImage.GetComponent<RectTransform>();
+        // 도착: 정답 용의자 지문 이미지
+        Image[] fpImages = { fpImage1, fpImage2, fpImage3, fpImage4 };
+        int targetIdx = correctSuspectIndex[currentLocation];
+        RectTransform toRect = fpImages[targetIdx].GetComponent<RectTransform>();
+
+        Vector3[] fromCorners = new Vector3[4];
+        Vector3[] toCorners = new Vector3[4];
+        fromRect.GetWorldCorners(fromCorners);
+        toRect.GetWorldCorners(toCorners);
+
+        Vector2 screenFrom = RectTransformUtility.WorldToScreenPoint(cam, (fromCorners[0] + fromCorners[2]) * 0.5f);
+        Vector2 screenTo = RectTransformUtility.WorldToScreenPoint(cam, (toCorners[0] + toCorners[2]) * 0.5f);
+
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent, screenFrom, cam, out Vector2 localFrom);
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(guideParent, screenTo, cam, out Vector2 localTo);
+
+        guideRect.anchoredPosition = localFrom;
+        afisFingerGuideImage.SetActive(true);
+
+        for (int i = 0; i < 3; i++)
+        {
+            if (!afisGuideActive) break;
+
+            float duration = 0.8f;
+            float elapsed = 0f;
+
+            while (elapsed < duration)
+            {
+                if (!afisGuideActive) break;
+#if UNITY_ANDROID && !UNITY_EDITOR
+                if (Input.touchCount > 0) { afisGuideActive = false; break; }
+#else
+                if (Input.GetMouseButtonDown(0)) { afisGuideActive = false; break; }
+#endif
+                elapsed += Time.deltaTime;
+                float t = Mathf.SmoothStep(0f, 1f, elapsed / duration);
+                guideRect.anchoredPosition = Vector2.Lerp(localFrom, localTo, t);
+                yield return null;
+            }
+
+            if (!afisGuideActive) break;
+
+            // 도착 후 짧은 대기 → 출발점으로 순간이동
+            yield return new WaitForSeconds(0.15f);
+            guideRect.anchoredPosition = localFrom;
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        afisFingerGuideImage.SetActive(false);
+        afisGuideActive = false;
     }
 
     public void OnSuspectDropped(string suspectName, DraggableFingerprint draggable)
     {
+        afisGuideActive = false; // 드래그 시작 시 가이드 중단
+        if (afisFingerGuideImage != null) afisFingerGuideImage.SetActive(false);
+
         if (suspectName == correctAnswers[currentLocation])
         {
             HideArrows();
@@ -494,9 +563,7 @@ public class ForensicGame : MonoBehaviour
         currentBrushArea = null;
 
         if (locationCleared[0] && locationCleared[1] && locationCleared[2])
-        {
             StartCoroutine(ShowClearPopup());
-        }
     }
 
     IEnumerator ShowClearPopup()
@@ -517,5 +584,6 @@ public class ForensicGame : MonoBehaviour
     void OnDestroy()
     {
         fingerGuideActive = false;
+        afisGuideActive = false;
     }
 }
