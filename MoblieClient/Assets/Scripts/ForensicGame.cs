@@ -289,8 +289,10 @@ public class ForensicGame : MonoBehaviour
         float swingWidth = (localRight.x - localLeft.x) * 0.3f;
 
         guideRect.anchoredPosition = startPos;
-        Debug.Log($"[FingerGuide] guideParent={guideParent.name} startPos={startPos} endPos={endPos} swingWidth={swingWidth}");
         fingerGuideImage.SetActive(true);
+
+        // 버튼 터치가 완전히 끝날 때까지 대기
+        yield return new WaitForSeconds(0.3f);
 
         for (int i = 0; i < 3; i++)
         {
@@ -331,24 +333,6 @@ public class ForensicGame : MonoBehaviour
 
     void Update()
     {
-        if (fingerGuideActive)
-        {
-#if UNITY_ANDROID && !UNITY_EDITOR
-            if (Input.touchCount > 0) fingerGuideActive = false;
-#else
-            if (Input.GetMouseButtonDown(0)) fingerGuideActive = false;
-#endif
-        }
-
-        if (afisGuideActive)
-        {
-#if UNITY_ANDROID && !UNITY_EDITOR
-            if (Input.touchCount > 0) afisGuideActive = false;
-#else
-            if (Input.GetMouseButtonDown(0)) afisGuideActive = false;
-#endif
-        }
-
         if (!powderSpread || fingerFound || currentBrushArea == null) return;
 
 #if UNITY_ANDROID && !UNITY_EDITOR
@@ -478,6 +462,9 @@ public class ForensicGame : MonoBehaviour
         guideRect.anchoredPosition = localFrom;
         afisFingerGuideImage.SetActive(true);
 
+        // 확인 버튼 터치가 완전히 끝날 때까지 대기
+        yield return new WaitForSeconds(0.3f);
+
         for (int i = 0; i < 3; i++)
         {
             if (!afisGuideActive) break;
@@ -525,7 +512,8 @@ public class ForensicGame : MonoBehaviour
         }
         else
         {
-            resultText.text = $"{suspectName}의 지문이 아니에요. 다시 시도해보세요!";
+            //resultText.text = /*$"{suspectName}의 지문이 아니에요. 다시 시도해보세요!";*/
+            resultText.text = $"다시 시도해보세요!";
             resultText.color = Color.red;
             draggable.ReturnToOriginal();
         }
