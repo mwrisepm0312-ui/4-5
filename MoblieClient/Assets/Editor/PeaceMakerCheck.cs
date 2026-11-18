@@ -75,10 +75,10 @@ public static class PeaceMakerCheck
             var goNames = new Dictionary<string, string>();
             foreach (var b in blocks)
             {
-                var head = Regex.Match(b, "^--- !u!1 &(-?\\d+)");
-                if (!head.Success) continue;
+                var goHead = Regex.Match(b, "^--- !u!1 &(-?\\d+)");
+                if (!goHead.Success) continue;
                 var nm = Regex.Match(b, "m_Name: (.*)");
-                goNames[head.Groups[1].Value] = nm.Success ? nm.Groups[1].Value.Trim() : "?";
+                goNames[goHead.Groups[1].Value] = nm.Success ? nm.Groups[1].Value.Trim() : "?";
             }
             var guidRx = new Regex("\\{fileID: (?:21300000|2800000), guid: ([0-9a-f]{32}), type: 3\\}");
             foreach (var b in blocks)
