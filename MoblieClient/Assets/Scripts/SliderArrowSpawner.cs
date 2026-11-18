@@ -35,7 +35,7 @@ public class SliderArrowSpawner : MonoBehaviour
     {
         if (timeSlider == null) { Debug.LogError("[SliderArrowSpawner] TimeSlider 미연결"); return; }
         if (triangleSprite == null) { Debug.LogError("[SliderArrowSpawner] triangleSprite 미연결"); return; }
-        ColorUtility.TryParseHtmlString("#87CEEB", out arrowColor);
+        ColorUtility.TryParseHtmlString("#FFFFFF", out arrowColor);
         SpawnArrows();
     }
 

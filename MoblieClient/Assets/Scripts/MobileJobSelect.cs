@@ -80,7 +80,7 @@ public class MobileJobSelect : MonoBehaviour
         "삭제된 디지털 파일을 복원하여 증거를 찾아냅니다"
     };
 
-    private string[] images2 = { "Jobs/수사관1", "Jobs/수사관2" };
+    private string[] images2 = { "Jobs/수사관1", "Jobs/수사관2_2인" };   // 2인용 두 번째 카드 그림(목격자+CCTV)과 팝업 그림을 맞춤
     private string[] images3 = { "Jobs/수사관1", "Jobs/수사관2", "Jobs/수사관3" };
     private string[] images4 = { "Jobs/현장감식관", "Jobs/CCTV분석관", "Jobs/목격자조사관", "Jobs/사이버수사관" };
 
