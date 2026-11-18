@@ -516,19 +516,34 @@ public class CyberGame : MonoBehaviour
 
     void OnKeywordSelected(string keyword, GameObject btnObj)
     {
-        if (selectedKeywords.Contains(keyword))
-        {
-            selectedKeywords.Remove(keyword);
-            btnObj.GetComponent<Image>().color = new Color(0.08f, 0.16f, 0.31f);
-        }
-        else
-        {
-            selectedKeywords.Add(keyword);
-            btnObj.GetComponent<Image>().color = new Color(0.1f, 0.5f, 0.1f);
-        }
+        bool selected = !selectedKeywords.Contains(keyword);
+        if (selected) selectedKeywords.Add(keyword);
+        else selectedKeywords.Remove(keyword);
+        ShowKeywordSelected(btnObj, selected);
 
         // 선택을 바꾸면 이전 결과 메시지 지우기
         keywordResultText.text = "";
+    }
+
+    // 선택한 검색어는 손을 떼도 표시가 남도록 그림(또는 색)을 바꿔 둠
+    void ShowKeywordSelected(GameObject btnObj, bool selected)
+    {
+        Image img = btnObj.GetComponent<Image>();
+        Button button = btnObj.GetComponent<Button>();
+        Sprite normal = keywordTemplate.GetComponent<Image>().sprite;
+        Sprite picked = button != null ? button.spriteState.pressedSprite : null;   // 버튼 스킨의 '목록 줄 (선택)' 그림
+
+        if (picked != null && normal != null && normal.name.StartsWith("item"))
+        {
+            // 버튼 스킨 적용됨: 밝은 줄 ↔ 노란 줄
+            img.sprite = selected ? picked : normal;
+            img.color = Color.white;
+        }
+        else
+        {
+            // 스킨 적용 전: 원래 색
+            img.color = selected ? new Color(0.1f, 0.5f, 0.1f) : new Color(0.08f, 0.16f, 0.31f);
+        }
     }
 
     void OnKeywordSubmit()

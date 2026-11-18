@@ -4,6 +4,7 @@
 // 검사 항목
 //  1) 없어진 스크립트 (Missing Script)
 //  2) 끊어진 그림 연결 (Image·RawImage·Button 눌림 그림·SpriteRenderer 가 지워진 파일을 가리킴)
+//     — 씬 파일 글자에서 그림 GUID 를 직접 찾아, 프로젝트에 없는 파일이면 알려 줌
 //  3) 찌그러진 그림 (Preserve Aspect 꺼짐 + 칸 비율과 그림 비율이 8% 넘게 다름)
 //  4) 코드가 Resources.Load 로 부르는 그림 경로가 실제로 있는지
 using System.Collections.Generic;
@@ -68,6 +69,28 @@ public static class PeaceMakerCheck
                     }
                 }
             }
+            // 씬 파일에 적힌 그림 GUID 중 프로젝트에 없는 것 (지워진 파일)
+            string yaml = File.ReadAllText(s.path);
+            var blocks = Regex.Split(yaml, "(?=^--- !u!)", RegexOptions.Multiline);
+            var goNames = new Dictionary<string, string>();
+            foreach (var b in blocks)
+            {
+                var goHead = Regex.Match(b, "^--- !u!1 &(-?\\d+)");
+                if (!goHead.Success) continue;
+                var nm = Regex.Match(b, "m_Name: (.*)");
+                goNames[goHead.Groups[1].Value] = nm.Success ? nm.Groups[1].Value.Trim() : "?";
+            }
+            var guidRx = new Regex("\\{fileID: (?:21300000|2800000), guid: ([0-9a-f]{32}), type: 3\\}");
+            foreach (var b in blocks)
+                foreach (Match m in guidRx.Matches(b))
+                {
+                    if (!string.IsNullOrEmpty(AssetDatabase.GUIDToAssetPath(m.Groups[1].Value))) continue;
+                    var owner = Regex.Match(b, "m_GameObject: \\{fileID: (-?\\d+)\\}");
+                    string who = owner.Success && goNames.ContainsKey(owner.Groups[1].Value) ? goNames[owner.Groups[1].Value] : "?";
+                    brokenRef++;
+                    lines.Add($"  ✖ 지워진 그림을 가리킴 : {who}  (GUID {m.Groups[1].Value.Substring(0, 8)}…)");
+                }
+
             log.AppendLine($"■ {scene.name}" + (lines.Count == 0 ? "  ✔ 문제 없음" : ""));
             foreach (var l in lines) log.AppendLine(l);
         }
