@@ -5,6 +5,7 @@
 //  - 글자가 그림에 들어 있는 버튼(연결·선택·시작하기·게임 종료 등): 그림 그대로 + 눌림 그림 + 3:1 크기
 //  - 나머지: 노랑(진행)·초록(증거)·남색(송신·AFIS·레포트)·빨강(종료·검거)·흰색(닫기) 알약 버튼
 //  - 작은 닫기 X, 느낌표 !, 목록 줄, 직업·용의자 카드 테두리, 누름 효과(ButtonPressFeedback)
+//  - 정사각형에 가깝거나 글자가 + − ◀ ▶ 인 버튼: 노란 동그라미 (알약을 정사각형에 늘리면 모양이 뭉개지므로)
 //  - 현장감식 게이지 막대 그림 연결 (지워진 그림을 가리키던 것)
 // 모바일 씬에서만 높이 70 보다 작은 버튼을 70 으로 키웁니다 (PC 는 크기 유지).
 // 여러 번 실행해도 결과는 같습니다.
@@ -39,7 +40,7 @@ public static class PeaceMakerButtonSkin
         "Start", "선택 버튼", "확인 버튼", "용의자 버튼", "용의자 특정 버튼", "증거 목록 버튼"
     };
 
-    private enum Kind { Skip, Baked, Pill, Close, Exclaim, Item, Card, Feedback }
+    private enum Kind { Skip, Baked, Pill, Round, Close, Exclaim, Item, Card, Feedback }
 
     private struct Plan
     {
@@ -134,6 +135,9 @@ public static class PeaceMakerButtonSkin
         if (n.Contains("Exclamation") || label == "!" || label == "'!'") { p.kind = Kind.Exclaim; return p; }
         if (n.Contains("ItemTemplate") || n.Contains("Keyword")) { p.kind = Kind.Item; return p; }
         if (label == "X" || label == "x" || (n.Contains("Close") && Mathf.Max(w, h) <= 90f)) { p.kind = Kind.Close; return p; }
+        string g = label.Replace("\n", "").Trim();
+        if (g == "+" || g == "-" || g == "−" || g == "▶" || g == "◀" || (h >= 40f && w / Mathf.Max(1f, h) <= 1.3f))
+        { p.kind = Kind.Round; p.theme = "yellow"; return p; }
 
         p.kind = Kind.Pill;
         if (label.Contains("종료") || label.Contains("검거")) p.theme = "red";
@@ -150,6 +154,7 @@ public static class PeaceMakerButtonSkin
         {
             case Kind.Baked: return "글자 든 그림 + 눌림 그림";
             case Kind.Pill: return "알약 " + p.theme;
+            case Kind.Round: return "동그라미 " + p.theme;
             case Kind.Close: return "닫기 X";
             case Kind.Exclaim: return "느낌표 !";
             case Kind.Item: return "목록 줄";
@@ -171,6 +176,7 @@ public static class PeaceMakerButtonSkin
             {
                 case Kind.Baked: ApplyBaked(p.button, scene.name); break;
                 case Kind.Pill: ApplyPill(p.button, p.theme, mobile); break;
+                case Kind.Round: ApplyRoundLabel(p.button, p.theme); break;
                 case Kind.Close: ApplyRound(p.button, "btn_close"); break;
                 case Kind.Exclaim: ApplyRound(p.button, "btn_exclaim"); Feedback(p.button, 0f, true); break;
                 case Kind.Item: ApplyItem(p.button); break;
@@ -234,6 +240,31 @@ public static class PeaceMakerButtonSkin
         SpriteSwap(b, Load(name + "_pressed"));
         foreach (var t in b.GetComponentsInChildren<TMP_Text>(true)) t.gameObject.SetActive(false); // X·! 는 그림에 있음
         if (name == "btn_close") Feedback(b, 0f, false);
+    }
+
+    // 동그라미 버튼 (+ − ◀ ▶ 등): 그림은 비율 유지, 글자는 그대로 보이게
+    private static void ApplyRoundLabel(Button b, string theme)
+    {
+        var img = b.targetGraphic as Image;
+        if (img == null) return;
+        var rt = (RectTransform)b.transform;
+        float d = Mathf.Min(rt.rect.width, rt.rect.height);
+        img.sprite = Load("btn_round_" + theme);
+        img.type = Image.Type.Simple;
+        img.preserveAspect = true;
+        img.color = Color.white;
+        SpriteSwap(b, Load("btn_round_" + theme + "_pressed"));
+        float lip = d * 20f / 240f;      // 받침 두께
+        foreach (var t in b.GetComponentsInChildren<TMP_Text>(true))
+        {
+            t.color = new Color32(34, 38, 58, 255);
+            t.fontStyle |= FontStyles.Bold;
+            t.enableAutoSizing = true;
+            t.fontSizeMin = 10; t.fontSizeMax = Mathf.Max(12f, d * 0.5f);
+            t.alignment = TextAlignmentOptions.Center;
+            t.margin = new Vector4(0, 0, 0, lip);
+        }
+        Feedback(b, lip, false);
     }
 
     private static void ApplyItem(Button b)
