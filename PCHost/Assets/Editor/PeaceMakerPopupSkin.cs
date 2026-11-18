@@ -21,7 +21,7 @@ using UnityEngine.UI;
 public static class PeaceMakerPopupSkin
 {
     const string Dir = "Assets/UI/PopupSkin/";
-    enum Kind { Guide, GuideNoTab, Evidence, Document, Inset }
+    enum Kind { Guide, GuideNoTab, Evidence, Document, Inset, Slot }
     static StringBuilder log;
     static int count;
 
@@ -74,6 +74,7 @@ public static class PeaceMakerPopupSkin
     static Kind? KindOf(Transform t)
     {
         string n = t.name;
+        if (n.StartsWith("EvidenceSlot_")) return Kind.Slot;     // 용의자 팝업의 증거 칸 (회색 네모 → 안쪽 판)
         if (n == "EvidenceListPopup" || n == "KeywordListPanel" || n.EndsWith("ScrollView")) return Kind.Inset;
         if (n == "GuidePopup" || n == "TutorialPopup" || n == "JobPopup" || n == "PopupPanel") return Kind.Guide;
         if (n == "Image" && t.parent != null && t.parent.name.EndsWith("Tutorial")) return Kind.GuideNoTab;
@@ -99,10 +100,10 @@ public static class PeaceMakerPopupSkin
     static void Apply(Transform t, Image img, Kind k)
     {
         Undo.RecordObject(img, "Popup Skin");
-        img.sprite = Load(k == Kind.Inset ? "panel_inset" : "popup_frame");
+        img.sprite = Load(k == Kind.Inset || k == Kind.Slot ? "panel_inset" : "popup_frame");
         img.type = Image.Type.Sliced;
         img.fillCenter = true;
-        img.pixelsPerUnitMultiplier = k == Kind.Inset ? 2f : 1.4f;     // 테두리 굵기 (클수록 얇아짐)
+        img.pixelsPerUnitMultiplier = k == Kind.Slot ? 2.5f : k == Kind.Inset ? 2f : 1.4f;     // 테두리 굵기 (클수록 얇아짐)
         img.color = Color.white;
 
         string tab = k == Kind.Guide ? "tab_guide" : k == Kind.Evidence ? "tab_evidence" : k == Kind.Document ? "tab_document" : null;
