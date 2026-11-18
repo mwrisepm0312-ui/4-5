@@ -61,7 +61,7 @@ public static class PeaceMakerButtonSkin
         new Spot { scene = "ClientMobile", name = "ConnectButton", w = 450, h = 150, x = 0, y = -190 },
         new Spot { scene = "ClientMobile", name = "ExitButton", w = 450, h = 150, x = 0, y = -360 },
         new Spot { scene = "Mobile_LobbyScene", name = "EvidenceButton", w = 420, h = 140, x = -250, y = 110 },
-        new Spot { scene = "JobSelectScene", name = "SelectButton", w = 420, h = 140, x = 0, y = 100 },
+        new Spot { scene = "Mobile_LobbyScene", name = "ConfirmButton", w = 320, h = 90, x = 0, y = -330 },   // 안내 팝업 확인
         new Spot { scene = "WitnessScene", name = "ReportButton", w = 330, h = 110, x = -195, y = -85 },
     };
 
@@ -164,7 +164,8 @@ public static class PeaceMakerButtonSkin
             p.kind = (img != null && img.sprite != null && img.sprite.name.StartsWith("btn_exclaim")) ? Kind.Restore : Kind.Skip;
             return p;
         }
-        if (invisible) { p.kind = Kind.Skip; return p; }      // 투명 버튼(그림 위 터치 영역 등)은 그대로
+        if (invisible && label.Trim().Length == 0) { p.kind = Kind.Skip; return p; }   // 글자 없는 투명 버튼(그림 위 터치 영역)은 그대로
+        // 투명 배경 + 글자만 있던 버튼(PC 의 + − ◀ ▶ X)은 아래 규칙대로 동그라미·닫기 버튼으로
         if (n.Contains("ItemTemplate") || n.Contains("Keyword") || n.Contains("EvidenceBtn")) { p.kind = Kind.Item; return p; }
         if (label == "X" || label == "x" || (n.Contains("Close") && Mathf.Max(w, h) <= 90f)) { p.kind = Kind.Close; return p; }
         string g = label.Replace("\n", "").Trim();
