@@ -38,7 +38,31 @@ public static class PeaceMakerButtonSkin
         // 모바일
         "Connect", "Select", "시작하기 버튼 이미지", "레포트 버튼 이미지", "수집한 증거 버튼 이미지", "ExitGame",
         // PC
-        "Start", "선택 버튼", "확인 버튼", "용의자 버튼", "용의자 특정 버튼", "증거 목록 버튼"
+        "Start", "선택 버튼", "확인 버튼", "용의자 버튼", "용의자 특정 버튼", "증거 목록 버튼", "검거 버튼"
+    };
+
+    // 화면별 주요 버튼의 최종 크기·위치 (1920×1080 기준, 앵커는 원래대로 두고 그 기준 위치)
+    //  씬, 이름, 너비, 높이, x, y, 바꿀 그림(없으면 null)
+    private struct Spot { public string scene, name, sprite; public float w, h, x, y; }
+    private static readonly Spot[] Layout =
+    {
+        // PC 시작 화면: 게임 시작·게임 종료 같은 크기로 위아래, 인원 팝업 확인
+        new Spot { scene = "HostPc", name = "StartButton", w = 420, h = 140, x = 0, y = -175 },
+        new Spot { scene = "HostPc", name = "ExitButton", w = 420, h = 140, x = 0, y = 200 },
+        new Spot { scene = "HostPc", name = "ConfirmButton", w = 300, h = 100, x = 0, y = 75 },
+        // PC 로비: 왼쪽 아래 두 버튼
+        new Spot { scene = "PC_LobbyScene", name = "SuspectButton", w = 390, h = 130, x = 250, y = 245 },
+        new Spot { scene = "PC_LobbyScene", name = "GoToSuspectSceneButton", w = 390, h = 130, x = 250, y = 95 },
+        // PC 용의자 선택: 카드 밑 선택, 오른쪽 아래 증거 목록, 팝업 왼쪽 아래 검거
+        new Spot { scene = "SuspectScene", name = "SelectButton", w = 240, h = 80, x = 0, y = -160 },
+        new Spot { scene = "SuspectScene", name = "EvidenceListButton", w = 390, h = 130, x = -260, y = 120 },
+        new Spot { scene = "SuspectScene", name = "ArrestButton", w = 330, h = 110, x = -520, y = -280, sprite = "Assets/Images/검거 버튼.png" },
+        // 모바일
+        new Spot { scene = "ClientMobile", name = "ConnectButton", w = 450, h = 150, x = 0, y = -190 },
+        new Spot { scene = "ClientMobile", name = "ExitButton", w = 450, h = 150, x = 0, y = -360 },
+        new Spot { scene = "Mobile_LobbyScene", name = "EvidenceButton", w = 420, h = 140, x = -250, y = 110 },
+        new Spot { scene = "JobSelectScene", name = "SelectButton", w = 420, h = 140, x = 0, y = 100 },
+        new Spot { scene = "WitnessScene", name = "ReportButton", w = 330, h = 110, x = -195, y = -85 },
     };
 
     private enum Kind { Skip, Baked, Pill, Round, Close, Restore, Item, Card, Feedback }
@@ -180,6 +204,7 @@ public static class PeaceMakerButtonSkin
         foreach (var p in Collect(scene))
         {
             Undo.RegisterFullObjectHierarchyUndo(p.button.gameObject, "버튼 스킨");
+            if (p.kind != Kind.Skip && p.kind != Kind.Restore) FoldScale((RectTransform)p.button.transform);
             switch (p.kind)
             {
                 case Kind.Baked: ApplyBaked(p.button, scene.name); break;
@@ -196,7 +221,96 @@ public static class PeaceMakerButtonSkin
             count++;
         }
         if (scene.name == "ForensicScene") FixGauge();
+        ApplyLayout(scene);
+        if (scene.name == "HostPc") FixHostDim(scene);
         return count;
+    }
+
+    // 버튼에 Scale(예: 3배, 1.5×2배)이 걸려 있으면 크기 계산이 어긋나고 찌그러짐 → 크기에 합치고 Scale 은 1 로
+    private static void FoldScale(RectTransform rt)
+    {
+        Vector3 s = rt.localScale;
+        if (Mathf.Abs(s.x - 1f) < 0.001f && Mathf.Abs(s.y - 1f) < 0.001f) return;
+        if (s.x <= 0f || s.y <= 0f || rt.anchorMin != rt.anchorMax) return;
+        log?.AppendLine($"  {rt.name}: Scale {s.x:0.##}×{s.y:0.##} → 1 (크기 {rt.sizeDelta.x:0}×{rt.sizeDelta.y:0} → {rt.sizeDelta.x * s.x:0}×{rt.sizeDelta.y * s.y:0})");
+        rt.sizeDelta = new Vector2(rt.sizeDelta.x * s.x, rt.sizeDelta.y * s.y);
+        foreach (Transform ct in rt)
+        {
+            var c = ct as RectTransform;
+            if (c == null) continue;
+            if (c.anchorMin == c.anchorMax) { c.sizeDelta = Vector2.Scale(c.sizeDelta, s); c.anchoredPosition = Vector2.Scale(c.anchoredPosition, s); }
+            else { c.offsetMin = Vector2.Scale(c.offsetMin, s); c.offsetMax = Vector2.Scale(c.offsetMax, s); }
+        }
+        float k = (s.x + s.y) * 0.5f;
+        foreach (var t in rt.GetComponentsInChildren<TMP_Text>(true))
+        { t.fontSize *= k; t.fontSizeMin *= k; t.fontSizeMax *= k; }
+        rt.localScale = Vector3.one;
+    }
+
+    // 표(Layout)에 적힌 화면별 주요 버튼의 크기·위치를 맞춤
+    private static void ApplyLayout(Scene scene)
+    {
+        foreach (var root in scene.GetRootGameObjects())
+            foreach (var b in root.GetComponentsInChildren<Button>(true))
+                foreach (var sp in Layout)
+                {
+                    if (sp.scene != scene.name || sp.name != b.name) continue;
+                    var rt = (RectTransform)b.transform;
+                    if (rt.anchorMin != rt.anchorMax) continue;
+                    Undo.RecordObject(rt, "버튼 스킨");
+                    FoldScale(rt);
+                    if (sp.sprite != null)
+                    {
+                        var spr = AssetDatabase.LoadAssetAtPath<Sprite>(sp.sprite);
+                        var img = b.targetGraphic as Image;
+                        if (spr != null && img != null)
+                        {
+                            Undo.RecordObject(img, "버튼 스킨");
+                            img.sprite = spr; img.type = Image.Type.Simple; img.preserveAspect = true; img.color = Color.white;
+                            var pressed = AssetDatabase.LoadAssetAtPath<Sprite>(PressedDir + spr.name + "_눌림.png");
+                            if (pressed != null) SpriteSwap(b, pressed);
+                            foreach (var t in b.GetComponentsInChildren<TMP_Text>(true)) t.gameObject.SetActive(false);   // 글자는 그림에 있음
+                            Feedback(b, 0f, false);
+                        }
+                    }
+                    var size = new Vector2(sp.w, sp.h);
+                    var pos = new Vector2(sp.x, sp.y);
+                    if (rt.sizeDelta != size || rt.anchoredPosition != pos)
+                        log?.AppendLine($"  {b.name}: 크기 {rt.sizeDelta.x:0}×{rt.sizeDelta.y:0} → {size.x:0}×{size.y:0}, 위치 ({rt.anchoredPosition.x:0},{rt.anchoredPosition.y:0}) → ({pos.x:0},{pos.y:0})");
+                    rt.sizeDelta = size;
+                    rt.anchoredPosition = pos;
+                    EditorUtility.SetDirty(b.gameObject);
+                }
+    }
+
+    // PC 시작 화면: 팝업용 어두운 막(DimBG)이 '게임 시작' 버튼 안에 들어 있어 버튼 크기를 따라 움직임
+    // → 화면 전체를 덮도록 Canvas 로 옮기고, 팝업과 함께 맨 위(게임 종료 버튼보다 위)에 그려지게
+    private static void FixHostDim(Scene scene)
+    {
+        Transform dim = null, popup = null;
+        foreach (var root in scene.GetRootGameObjects())
+            foreach (var t in root.GetComponentsInChildren<Transform>(true))
+            {
+                if (t.name == "DimBG") dim = t;
+                if (t.name == "PopupPanel") popup = t;
+            }
+        if (dim == null || popup == null || popup.parent == null) return;
+        var canvas = popup.parent;
+        if (dim.parent != canvas)
+        {
+            Undo.SetTransformParent(dim, canvas, "버튼 스킨");
+            log?.AppendLine("  DimBG: 게임 시작 버튼 안 → 화면 전체 어두운 막");
+        }
+        var rt = (RectTransform)dim;
+        Undo.RecordObject(rt, "버튼 스킨");
+        rt.localScale = Vector3.one;
+        rt.anchorMin = Vector2.zero; rt.anchorMax = Vector2.one;
+        rt.offsetMin = new Vector2(-200f, -200f); rt.offsetMax = new Vector2(200f, 200f);   // 넓은 화면에서도 가장자리까지
+        rt.anchoredPosition = Vector2.zero;
+        Undo.RegisterFullObjectHierarchyUndo(canvas.gameObject, "버튼 스킨");
+        dim.SetAsLastSibling();
+        popup.SetAsLastSibling();
+        EditorUtility.SetDirty(dim.gameObject);
     }
 
     private static Sprite Load(string name) => AssetDatabase.LoadAssetAtPath<Sprite>(SkinDir + name + ".png");
