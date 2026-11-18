@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 using TMPro;
@@ -7,13 +7,13 @@ using DG.Tweening;
 
 public class MobileLobbyUI : MonoBehaviour
 {
-    [Header("Á÷¾÷ Ç¥½Ã")]
+    [Header("ì§ì—… í‘œì‹œ")]
     public TextMeshProUGUI jobText;
 
-    [Header("Áõ°Å ¸ñ·Ï ¹öÆ°")]
+    [Header("ì¦ê±° ëª©ë¡ ë²„íŠ¼")]
     public Button evidenceButton;
 
-    [Header("Áõ°Å ÆË¾÷")]
+    [Header("ì¦ê±° íŒì—…")]
     public GameObject evidencePopup;
     public Transform evidenceContent;
     public GameObject evidenceItemTemplate;
@@ -21,7 +21,7 @@ public class MobileLobbyUI : MonoBehaviour
     public Button closeButton;
     public TextMeshProUGUI sendStatusText;
 
-    [Header("Æ©Åä¸®¾ó ÆË¾÷")]
+    [Header("íŠœí† ë¦¬ì–¼ íŒì—…")]
     public GameObject tutorialPopup;
     public VideoPlayer videoPlayer;
     public RawImage videoDisplay;
@@ -34,7 +34,7 @@ public class MobileLobbyUI : MonoBehaviour
         if (DataManager.Instance != null)
         {
             string job = DataManager.Instance.SelectedJob;
-            jobText.text = $"³» Á÷¾÷: {job}";
+            jobText.text = $"ë‚´ ì§ì—…: {job}";
         }
 
         evidencePopup.SetActive(false);
@@ -48,7 +48,7 @@ public class MobileLobbyUI : MonoBehaviour
 
         SetupVideo();
 
-        // Ã³À½ ÇÑ ¹ø¸¸ Æ©Åä¸®¾ó Ç¥½Ã
+        // ì²˜ìŒ í•œ ë²ˆë§Œ íŠœí† ë¦¬ì–¼ í‘œì‹œ
         if (!DataManager.Instance.TutorialShown)
         {
             ShowTutorialPopup();
@@ -89,7 +89,7 @@ public class MobileLobbyUI : MonoBehaviour
 
     
 
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     void OpenEvidencePopup()
     {
         foreach (Transform child in evidenceContent)
@@ -103,7 +103,7 @@ public class MobileLobbyUI : MonoBehaviour
         {
             GameObject item = Instantiate(evidenceItemTemplate, evidenceContent);
             item.SetActive(true);
-            item.GetComponentInChildren<TextMeshProUGUI>().text = "¾ÆÁ÷ ¼öÁıÇÑ Áõ°Å°¡ ¾ø½À´Ï´Ù.";
+            item.GetComponentInChildren<TextMeshProUGUI>().text = "ì•„ì§ ìˆ˜ì§‘í•œ ì¦ê±°ê°€ ì—†ìŠµë‹ˆë‹¤.";
             item.GetComponent<Button>().interactable = false;
         }
         else
@@ -124,19 +124,19 @@ public class MobileLobbyUI : MonoBehaviour
         var evidences = DataManager.Instance.CollectedEvidences;
         if (evidences.Count == 0)
         {
-            if (sendStatusText != null) sendStatusText.text = "¼öÁıÇÑ Áõ°Å°¡ ¾ø½À´Ï´Ù!";
+            if (sendStatusText != null) sendStatusText.text = "ìˆ˜ì§‘í•œ ì¦ê±°ê°€ ì—†ìŠµë‹ˆë‹¤!";
             return;
         }
         var gm = FindFirstObjectByType<GameManager>();
         if (gm != null)
         {
             gm.ShareEvidencesServerRpc(evidences.ToArray());
-            if (sendStatusText != null) sendStatusText.text = "PC·Î ¼Û½Å ¿Ï·á!";
+            if (sendStatusText != null) sendStatusText.text = "PCë¡œ ì†¡ì‹  ì™„ë£Œ!";
             sendButton.interactable = false;
         }
         else
         {
-            if (sendStatusText != null) sendStatusText.text = "¿¬°á ¿À·ù! ´Ù½Ã ½ÃµµÇØÁÖ¼¼¿ä.";
+            if (sendStatusText != null) sendStatusText.text = "ì—°ê²° ì˜¤ë¥˜! ë‹¤ì‹œ ì‹œë„í•´ì£¼ì„¸ìš”.";
         }
     }
 

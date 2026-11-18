@@ -1,20 +1,20 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class FingerprintDropZone : MonoBehaviour, IDropHandler
 {
-    [Header("ÀÌ ½½·ÔÀÇ ¿ëÀÇÀÚ ÀÌ¸§")]
+    [Header("ì´ ìŠ¬ë¡¯ì˜ ìš©ì˜ì ì´ë¦„")]
     public string suspectName;
 
     public void OnDrop(PointerEventData eventData)
     {
-        // µå·¡±×µÈ ¿ÀºêÁ§Æ®°¡ DraggableFingerprintÀÎÁö È®ÀÎ
+        // ë“œë˜ê·¸ëœ ì˜¤ë¸Œì íŠ¸ê°€ DraggableFingerprintì¸ì§€ í™•ì¸
         DraggableFingerprint draggable =
             eventData.pointerDrag?.GetComponent<DraggableFingerprint>();
 
         if (draggable == null) return;
 
-        // ForensicGame¿¡ °á°ú Àü´Ş
+        // ForensicGameì— ê²°ê³¼ ì „ë‹¬
         ForensicGame forensicGame = FindFirstObjectByType<ForensicGame>();
         if (forensicGame != null)
         {

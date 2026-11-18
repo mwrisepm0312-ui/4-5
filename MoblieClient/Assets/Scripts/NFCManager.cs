@@ -1,117 +1,117 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.SceneManagement;
 using DigitsNFCToolkit;
 
 public class NFCManager : MonoBehaviour
 {
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
-    // NFC Ä«µå ID µî·Ï
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    // NFC ì¹´ë“œ ID ë“±ë¡
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     private const string FORENSIC_ID = "04a13e2a2c0389";
     private const string CCTV_ID = "0451351c2c0389";
     private const string WITNESS_ID = "041119252c0389";
     private const string CYBER_ID = "0461d9202c0389";
 
-    // Å×½ºÆ®¿ë Ä«µå ID
+    // í…ŒìŠ¤íŠ¸ìš© ì¹´ë“œ ID
     private const string UNKNOWN_ID = "0401BC292C0389";
     private const string INVALID_ID = "0461E71A2C0389";
     private const string UNREGISTERED_ID = "045167222C0389";
 
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
-    // NativeNFC ÄÄÆ÷³ÍÆ®
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    // NativeNFC ì»´í¬ë„ŒíŠ¸
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     private NativeNFC nativeNFC;
 
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     // Start
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     void Start()
     {
 #if !UNITY_EDITOR && UNITY_ANDROID
-        // NativeNFC ÄÄÆ÷³ÍÆ® Ãß°¡ ¹× ÃÊ±âÈ­
+        // NativeNFC ì»´í¬ë„ŒíŠ¸ ì¶”ê°€ ë° ì´ˆê¸°í™”
         nativeNFC = gameObject.AddComponent<AndroidNFC>();
         nativeNFC.Initialize();
         nativeNFC.NFCTagDetected += HandleNFCTag;
         nativeNFC.Enable();
 
-        Debug.Log("NFCManager ÃÊ±âÈ­ ¿Ï·á");
+        Debug.Log("NFCManager ì´ˆê¸°í™” ì™„ë£Œ");
 #else
 #endif
     }
 
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
-    // NFC ÅÂ±× °¨Áö
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    // NFC íƒœê·¸ ê°ì§€
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     void HandleNFCTag(NFCTag tag)
     {
         string tagId = tag.ID;
         int maxPlayers = DataManager.Instance?.MaxPlayers ?? 4;
         string myJob = DataManager.Instance?.SelectedJob ?? "";
-        Debug.Log($"NFC ÅÂ±× °¨Áö: {tagId} / ÀÎ¿ø¼ö: {maxPlayers} / Á÷¾÷: {myJob}");
+        Debug.Log($"NFC íƒœê·¸ ê°ì§€: {tagId} / ì¸ì›ìˆ˜: {maxPlayers} / ì§ì—…: {myJob}");
 
         string targetScene = GetTargetScene(tagId, maxPlayers);
 
         if (targetScene == null)
         {
-            Debug.Log("µî·ÏµÇÁö ¾ÊÀº Ä«µå!");
+            Debug.Log("ë“±ë¡ë˜ì§€ ì•Šì€ ì¹´ë“œ!");
             return;
         }
 
-        // Á÷¾÷ Ã¼Å©
+        // ì§ì—… ì²´í¬
         if (!IsAllowedForJob(tagId, myJob, maxPlayers))
         {
-            Debug.Log($"ÀÌ Ä«µå´Â {myJob} Á÷¾÷¿ëÀÌ ¾Æ´Õ´Ï´Ù!");
+            Debug.Log($"ì´ ì¹´ë“œëŠ” {myJob} ì§ì—…ìš©ì´ ì•„ë‹™ë‹ˆë‹¤!");
             return;
         }
 
         LoadScene(targetScene);
     }
 
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
-    // Á÷¾÷º° Ä«µå Çã¿ë ¿©ºÎ
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    // ì§ì—…ë³„ ì¹´ë“œ í—ˆìš© ì—¬ë¶€
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     bool IsAllowedForJob(string tagId, string myJob, int maxPlayers)
     {
         if (maxPlayers == 2)
         {
-            // ¼ö»ç°ü1: Ä«µå 1, 2
-            // ¼ö»ç°ü2: Ä«µå 3, 4
-            if (myJob == "¼ö»ç°ü1")
+            // ìˆ˜ì‚¬ê´€1: ì¹´ë“œ 1, 2
+            // ìˆ˜ì‚¬ê´€2: ì¹´ë“œ 3, 4
+            if (myJob == "ìˆ˜ì‚¬ê´€1")
                 return tagId == FORENSIC_ID || tagId == CCTV_ID;
-            if (myJob == "¼ö»ç°ü2")
+            if (myJob == "ìˆ˜ì‚¬ê´€2")
                 return tagId == WITNESS_ID || tagId == CYBER_ID;
         }
         else if (maxPlayers == 3)
         {
-            // ¼ö»ç°ü1: Ä«µå 1 / ¼ö»ç°ü2: Ä«µå 2 / ¼ö»ç°ü3: Ä«µå 3 / °ø¿ë: Ä«µå 4
-            if (myJob == "¼ö»ç°ü1")
+            // ìˆ˜ì‚¬ê´€1: ì¹´ë“œ 1 / ìˆ˜ì‚¬ê´€2: ì¹´ë“œ 2 / ìˆ˜ì‚¬ê´€3: ì¹´ë“œ 3 / ê³µìš©: ì¹´ë“œ 4
+            if (myJob == "ìˆ˜ì‚¬ê´€1")
                 return tagId == FORENSIC_ID || tagId == CYBER_ID;
-            if (myJob == "¼ö»ç°ü2")
+            if (myJob == "ìˆ˜ì‚¬ê´€2")
                 return tagId == CCTV_ID || tagId == CYBER_ID;
-            if (myJob == "¼ö»ç°ü3")
+            if (myJob == "ìˆ˜ì‚¬ê´€3")
                 return tagId == WITNESS_ID || tagId == CYBER_ID;
         }
-        else // 4ÀÎ
+        else // 4ì¸
         {
-            // °¢ÀÚ ÀÚ±â Ä«µå¸¸
-            if (myJob == "ÇöÀå°¨½Ä°ü") return tagId == FORENSIC_ID;
-            if (myJob == "CCTVºĞ¼®°ü") return tagId == CCTV_ID;
-            if (myJob == "¸ñ°İÀÚÁ¶»ç°ü") return tagId == WITNESS_ID;
-            if (myJob == "»çÀÌ¹ö¼ö»ç°ü") return tagId == CYBER_ID;
+            // ê°ì ìê¸° ì¹´ë“œë§Œ
+            if (myJob == "í˜„ì¥ê°ì‹ê´€") return tagId == FORENSIC_ID;
+            if (myJob == "CCTVë¶„ì„ê´€") return tagId == CCTV_ID;
+            if (myJob == "ëª©ê²©ìì¡°ì‚¬ê´€") return tagId == WITNESS_ID;
+            if (myJob == "ì‚¬ì´ë²„ìˆ˜ì‚¬ê´€") return tagId == CYBER_ID;
         }
 
         return false;
     }
 
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
-    // ÀÎ¿ø¼öº° Ä«µå ¡æ ¾À ¸ÅÇÎ
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    // ì¸ì›ìˆ˜ë³„ ì¹´ë“œ â†’ ì”¬ ë§¤í•‘
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     string GetTargetScene(string tagId, int maxPlayers)
     {
         if (maxPlayers == 2)
         {
-            // ¼ö»ç°ü1: Ä«µå1 ¡æ ForensicScene / Ä«µå2 ¡æ CCTVScene
-            // ¼ö»ç°ü2: Ä«µå3 ¡æ WitnessScene  / Ä«µå4 ¡æ CyberScene
+            // ìˆ˜ì‚¬ê´€1: ì¹´ë“œ1 â†’ ForensicScene / ì¹´ë“œ2 â†’ CCTVScene
+            // ìˆ˜ì‚¬ê´€2: ì¹´ë“œ3 â†’ WitnessScene  / ì¹´ë“œ4 â†’ CyberScene
             if (tagId == FORENSIC_ID) return "ForensicScene";
             if (tagId == CCTV_ID) return "CCTVScene";
             if (tagId == WITNESS_ID) return "WitnessScene";
@@ -119,21 +119,21 @@ public class NFCManager : MonoBehaviour
         }
         else if (maxPlayers == 3)
         {
-            // Ä«µå 1 ¡æ ¼ö»ç°ü1 ¡æ ForensicScene
-            // Ä«µå 2 ¡æ ¼ö»ç°ü2 ¡æ CCTVScene
-            // Ä«µå 3 ¡æ ¼ö»ç°ü3 ¡æ WitnessScene
-            // Ä«µå 4 ¡æ °ø¿ë ¡æ CyberScene
+            // ì¹´ë“œ 1 â†’ ìˆ˜ì‚¬ê´€1 â†’ ForensicScene
+            // ì¹´ë“œ 2 â†’ ìˆ˜ì‚¬ê´€2 â†’ CCTVScene
+            // ì¹´ë“œ 3 â†’ ìˆ˜ì‚¬ê´€3 â†’ WitnessScene
+            // ì¹´ë“œ 4 â†’ ê³µìš© â†’ CyberScene
             if (tagId == FORENSIC_ID) return "ForensicScene";
             if (tagId == CCTV_ID) return "CCTVScene";
             if (tagId == WITNESS_ID) return "WitnessScene";
             if (tagId == CYBER_ID) return "CyberScene";
         }
-        else // 4ÀÎ
+        else // 4ì¸
         {
-            // Ä«µå 1 ¡æ ÇöÀå°¨½Ä°ü ¡æ ForensicScene
-            // Ä«µå 2 ¡æ CCTVºĞ¼®°ü ¡æ CCTVScene
-            // Ä«µå 3 ¡æ ¸ñ°İÀÚÁ¶»ç°ü ¡æ WitnessScene
-            // Ä«µå 4 ¡æ »çÀÌ¹ö¼ö»ç°ü ¡æ CyberScene
+            // ì¹´ë“œ 1 â†’ í˜„ì¥ê°ì‹ê´€ â†’ ForensicScene
+            // ì¹´ë“œ 2 â†’ CCTVë¶„ì„ê´€ â†’ CCTVScene
+            // ì¹´ë“œ 3 â†’ ëª©ê²©ìì¡°ì‚¬ê´€ â†’ WitnessScene
+            // ì¹´ë“œ 4 â†’ ì‚¬ì´ë²„ìˆ˜ì‚¬ê´€ â†’ CyberScene
             if (tagId == FORENSIC_ID) return "ForensicScene";
             if (tagId == CCTV_ID) return "CCTVScene";
             if (tagId == WITNESS_ID) return "WitnessScene";
@@ -143,12 +143,12 @@ public class NFCManager : MonoBehaviour
         return null;
     }
 
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
-    // ¾À ÀÌµ¿
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    // ì”¬ ì´ë™
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     void LoadScene(string sceneName)
     {
-        // NFC ºñÈ°¼ºÈ­ ÈÄ ¾À ÀÌµ¿
+        // NFC ë¹„í™œì„±í™” í›„ ì”¬ ì´ë™
         if (nativeNFC != null)
         {
             nativeNFC.NFCTagDetected -= HandleNFCTag;
@@ -158,9 +158,9 @@ public class NFCManager : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
-    // Á¾·á ½Ã NFC ºñÈ°¼ºÈ­
-    // ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    // ì¢…ë£Œ ì‹œ NFC ë¹„í™œì„±í™”
+    // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     void OnDestroy()
     {
         if (nativeNFC != null)

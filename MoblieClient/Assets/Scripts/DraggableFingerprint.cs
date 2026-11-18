@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
@@ -17,37 +17,37 @@ public class DraggableFingerprint : MonoBehaviour,
         canvasGroup = GetComponent<CanvasGroup>();
         canvas = GetComponentInParent<Canvas>();
 
-        // CanvasGroup ¾øÀ¸¸é Ãß°¡
+        // CanvasGroup ì—†ìœ¼ë©´ ì¶”ê°€
         if (canvasGroup == null)
             canvasGroup = gameObject.AddComponent<CanvasGroup>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        // ¿ø·¡ À§Ä¡ ÀúÀå
+        // ì›ë˜ ìœ„ì¹˜ ì €ì¥
         originalPosition = rectTransform.anchoredPosition;
         originalParent = transform.parent;
 
-        // Canvas ÃÖ»óÀ§·Î ÀÌµ¿ (´Ù¸¥ UI À§¿¡ º¸ÀÌ°Ô)
+        // Canvas ìµœìƒìœ„ë¡œ ì´ë™ (ë‹¤ë¥¸ UI ìœ„ì— ë³´ì´ê²Œ)
         transform.SetParent(canvas.transform);
         transform.SetAsLastSibling();
 
-        // µå·¡±× Áß ·¹ÀÌÄ³½ºÆ® ¹«½Ã (µå·ÓÁ¸ °¨Áö¿ë)
+        // ë“œë˜ê·¸ ì¤‘ ë ˆì´ìºìŠ¤íŠ¸ ë¬´ì‹œ (ë“œë¡­ì¡´ ê°ì§€ìš©)
         canvasGroup.blocksRaycasts = false;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        // ¸¶¿ì½º/¼Õ°¡¶ô µû¶ó ÀÌµ¿
+        // ë§ˆìš°ìŠ¤/ì†ê°€ë½ ë”°ë¼ ì´ë™
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        // ·¹ÀÌÄ³½ºÆ® ´Ù½Ã È°¼ºÈ­
+        // ë ˆì´ìºìŠ¤íŠ¸ ë‹¤ì‹œ í™œì„±í™”
         canvasGroup.blocksRaycasts = true;
 
-        // µå·ÓÁ¸ À§¿¡ ¾øÀ¸¸é ¿ø·¡ À§Ä¡·Î º¹±Í
+        // ë“œë¡­ì¡´ ìœ„ì— ì—†ìœ¼ë©´ ì›ë˜ ìœ„ì¹˜ë¡œ ë³µê·€
         ReturnToOriginal();
     }
 

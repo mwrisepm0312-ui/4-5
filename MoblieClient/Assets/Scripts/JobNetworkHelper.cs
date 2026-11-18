@@ -1,4 +1,4 @@
-using FishNet.Object;
+ï»¿using FishNet.Object;
 using FishNet.Connection;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,7 +17,7 @@ public class JobNetworkHelper : NetworkBehaviour
         string jobName,
         NetworkConnection sender = null)
     {
-        Debug.Log($"Á÷¾÷ ¼±ÅÃµÊ: {jobName}");
+        Debug.Log($"ì§ì—… ì„ íƒë¨: {jobName}");
         ConfirmJobClientRpc(sender, jobName);
         UpdateJobStatusClientRpc(jobName, true);
     }
