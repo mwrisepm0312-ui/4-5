@@ -300,7 +300,7 @@ public class MobileClientUI : MonoBehaviour
     {
         yield return null;
         Debug.Log($"[Mobile] 씬 이동: {nextSceneName}");
-        SceneManager.LoadScene(nextSceneName);
+        SceneTransition.Load(nextSceneName);
     }
 
     void OnDestroy()

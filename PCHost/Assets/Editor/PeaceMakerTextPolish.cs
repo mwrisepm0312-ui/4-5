@@ -36,8 +36,9 @@ public static class PeaceMakerTextPolish
         // ───────── PC ─────────
         new E("HostPc", "PopupPanel/PopupTitle", "참가 인원을 선택하세요"),
         new E("HostPc", "Canvas/StatusText", ""),                                   // 쓰지 않는 글자 (경찰 그림 위에 겹쳐 보였음)
-        new E("WaitingScene", "Canvas/StatusText", "휴대폰에서 [연결]을 눌러 주세요"),
-        new E("WaitingScene", "Canvas/ConnectedText", "연결된 휴대폰  0 / 4"),
+        // 대기 화면 배경 간판이 시작 화면과 같은 가운데로 옮겨져서, 글자도 가운데(x 0)로
+        new E("WaitingScene", "Canvas/StatusText", "휴대폰에서 [연결]을 눌러 주세요", 0, 0, 0, 0, 50),
+        new E("WaitingScene", "Canvas/ConnectedText", "연결된 휴대폰  0 / 4", 0, 0, 0, 0, 250),
         new E("PC_LobbyScene", "Canvas/LobbyText", "수사 진행 중", 0, 800, 120),
         new E("PC_LobbyScene", "Canvas/ConnectedText", "연결된 휴대폰  0 / 4", 48, 700, 80, -370, 60),
         new E("PC_LobbyScene", "Canvas/TimerText", null, 0, 300, 100, -170, -70),
@@ -62,8 +63,8 @@ public static class PeaceMakerTextPolish
 
         // ───────── 모바일 ─────────
         new E("ClientMobile", "Canvas/StatusText", ""),
-        new E("JobSelectScene", "Canvas/TitleText", "직업을 선택하세요"),
-        new E("JobSelectScene", "Canvas/StatusText", ""),
+        new E("JobSelectScene", "Canvas/TitleText", "직업을 선택하세요", 0, 0, 0, 0, -250),   // 간판 가운데 (x -45 → 0)
+        new E("JobSelectScene", "Canvas/StatusText", "", 0, 0, 0, 0, 125),
         new E("JobSelectScene", "JobPopup/PopupJobName", ""),
         new E("JobSelectScene", "JobPopup/PopupJobDesc", ""),
         new E("Mobile_LobbyScene", "Canvas/TitleText", "수사 본부", 0, 600, 150),
@@ -210,7 +211,7 @@ public static class PeaceMakerTextPolish
             foreach (var root in scene.GetRootGameObjects())
                 foreach (var cs in root.GetComponentsInChildren<CanvasScaler>(true))
                 {
-                    if (cs.uiScaleMode == CanvasScaler.ScaleMode.ScaleWithScreenSize && cs.referenceResolution == new Vector2(1920, 1080)) continue;
+                    if (cs.uiScaleMode == CanvasScaler.ScaleMode.ScaleWithScreenSize && cs.referenceResolution == new Vector2(1920, 1080) && cs.matchWidthOrHeight == 0f) continue;
                     log.AppendLine($"  {cs.name}: Canvas Scaler → 화면 크기에 맞춤 (1920×1080)");
                     changes++;
                     if (dry) continue;
@@ -218,10 +219,27 @@ public static class PeaceMakerTextPolish
                     cs.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
                     cs.referenceResolution = new Vector2(1920, 1080);
                     cs.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight;
-                    cs.matchWidthOrHeight = 0.5f;
+                    cs.matchWidthOrHeight = 0f;                       // 다른 PC 화면과 같게 (가로 기준)
                 }
 
-        // 5) 용의자 카드 배경판
+        // 5) PC 대기 화면 배경: 시작 화면과 똑같이 가운데 1920×1080 (늘이기 → 고정)
+        //    배경 그림도 시작 화면 무대와 같은 위치·크기로 맞춰 두었으므로, 넘어갈 때 그림이 움직이지 않음
+        if (scene.name == "WaitingScene")
+            foreach (var root in scene.GetRootGameObjects())
+                foreach (var rt in root.GetComponentsInChildren<RectTransform>(true))
+                {
+                    if (rt.name != "WaitingBackground") continue;
+                    var c = new Vector2(0.5f, 0.5f);
+                    if (rt.anchorMin == c && rt.anchorMax == c && rt.sizeDelta == new Vector2(1920, 1080) && rt.anchoredPosition == Vector2.zero) continue;
+                    log.AppendLine("  WaitingBackground: 화면 늘이기 → 시작 화면과 같은 가운데 1920×1080");
+                    changes++;
+                    if (dry) continue;
+                    Undo.RecordObject(rt, "문구 정리");
+                    rt.anchorMin = rt.anchorMax = c; rt.pivot = c;
+                    rt.sizeDelta = new Vector2(1920, 1080); rt.anchoredPosition = Vector2.zero;
+                }
+
+        // 6) 용의자 카드 배경판
         if (scene.name == "SuspectScene") CardBacks(scene);
     }
 

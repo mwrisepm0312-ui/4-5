@@ -77,7 +77,7 @@ public class WaitingSceneUI : MonoBehaviour
         var gm2 = FindFirstObjectByType<GameManager>();
         gm2?.LoadJobSelectSceneServerRpc();
 
-        SceneManager.LoadScene("OpeningScene");
+        SceneTransition.Load("OpeningScene");
     }
 
     void UpdateUI()

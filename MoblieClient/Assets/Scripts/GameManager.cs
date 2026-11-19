@@ -115,8 +115,7 @@ public class GameManager : NetworkBehaviour
     {
 #if UNITY_ANDROID
         DataManager.Instance.MaxPlayers = count;
-        UnityEngine.SceneManagement.SceneManager
-            .LoadScene("JobSelectScene");
+        SceneTransition.Load("JobSelectScene");
 #endif
     }
 
@@ -185,8 +184,7 @@ public class GameManager : NetworkBehaviour
     void LoadJobSelectSceneClientRpc()
     {
 #if UNITY_ANDROID
-        UnityEngine.SceneManagement.SceneManager
-            .LoadScene("JobSelectScene");
+        SceneTransition.Load("JobSelectScene");
 #endif
     }
 

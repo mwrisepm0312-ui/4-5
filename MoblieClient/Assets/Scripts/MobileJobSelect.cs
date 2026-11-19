@@ -171,7 +171,7 @@ public class MobileJobSelect : MonoBehaviour
         selectedJob = jobName;
         statusText.text = $"{jobName} 선택 완료!";
         DataManager.Instance.SelectedJob = jobName;
-        SceneManager.LoadScene("Mobile_LobbyScene");
+        SceneTransition.Load("Mobile_LobbyScene");
     }
 
     public void OnJobRejected(string jobName)

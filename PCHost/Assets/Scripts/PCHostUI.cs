@@ -153,7 +153,7 @@ public class PCHostUI : MonoBehaviour
             InstanceFinder.ServerManager.Spawn(obj);
         }
         yield return new WaitForSeconds(0.3f);
-        SceneManager.LoadScene("WaitingScene");
+        SceneTransition.Load("WaitingScene");
     }
 
     void OnDestroy()
