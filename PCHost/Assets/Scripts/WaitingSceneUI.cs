@@ -71,7 +71,7 @@ public class WaitingSceneUI : MonoBehaviour
     {
         DOTween.Pause("statusFade");        // ← Fade Loop 멈추기
         statusText.DOFade(1f, 0.2f);        // ← 알파 원복
-        statusText.text = "모든 인원 연결 완료! 오프닝 시작...";
+        statusText.text = "모두 연결됐어요! 오프닝을 시작합니다";
         yield return new WaitForSeconds(1.0f);
 
         var gm2 = FindFirstObjectByType<GameManager>();
@@ -82,10 +82,10 @@ public class WaitingSceneUI : MonoBehaviour
 
     void UpdateUI()
     {
-        connectedText.text = $"연결된 인원: {connectedCount} / {maxPlayers}";
+        connectedText.text = $"연결된 휴대폰  {connectedCount} / {maxPlayers}";
         statusText.text = connectedCount < maxPlayers
-            ? "모바일 연결을 기다리는 중..."
-            : "모든 인원 연결 완료!";
+            ? "휴대폰에서 [연결]을 눌러 주세요"
+            : "모두 연결됐어요!";
     }
 
     string GetLocalIP()

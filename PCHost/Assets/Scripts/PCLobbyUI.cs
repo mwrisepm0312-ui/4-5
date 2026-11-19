@@ -59,28 +59,28 @@ public class PCLobbyUI : MonoBehaviour
                 "수집가",
                 45,
                 "보석 수집가",
-                "열린마음 은행 VIP 금고에 레드 다이아 반지를 보관 중.\n사건 당일 은행 주변에서 배회한 것이 CCTV에 포착됨.",
+                "열린마음 은행 VIP 금고에 레드 다이아 반지를 맡김.\n사건 당일 은행 주변을 서성이는 모습이 CCTV에 찍힘.",
                 Resources.Load<Sprite>("Suspects/suspect_1")
             ),
             new SuspectData(
                 "경비원",
                 38,
                 "은행 경비원",
-                "사건 당일 정상 근무 중이었음.\n순찰 중 이상한 점을 목격했다고 진술함.",
+                "사건 당일 평소처럼 근무함.\n순찰 중 이상한 점을 봤다고 진술함.",
                 Resources.Load<Sprite>("Suspects/suspect_2")
             ),
             new SuspectData(
                 "비서",
                 35,
                 "주얼리씨 비서",
-                "15년간 주얼리씨 밑에서 근무.\n사건 당일 화장실에만 있었다고 진술했으나\nCCTV에 금고 앞에서 포착됨.",
+                "주얼리씨 밑에서 15년째 근무.\n화장실에만 있었다고 했지만\n금고 앞에서 CCTV에 찍힘.",
                 Resources.Load<Sprite>("Suspects/suspect_3")
             ),
             new SuspectData(
                 "청소부",
                 52,
                 "은행 청소부",
-                "사건 당일 지하에서 청소 작업 중이었다고 진술.\n목격자에 의해 수상한 가방을 들고 다닌 것이 목격됨.",
+                "지하에서 청소 중이었다고 진술.\n수상한 가방을 들고 다니는 모습이 목격됨.",
                 Resources.Load<Sprite>("Suspects/suspect_4")
             ),
         };
@@ -239,7 +239,7 @@ public class PCLobbyUI : MonoBehaviour
 
     void UpdateConnectedText()
     {
-        connectedText.text = $"연결된 인원: {connectedCount} / {maxPlayers}";
+        connectedText.text = $"연결된 휴대폰  {connectedCount} / {maxPlayers}";
     }
 
     void OnDestroy()

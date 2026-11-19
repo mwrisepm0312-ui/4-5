@@ -290,7 +290,7 @@ public class WitnessGame : MonoBehaviour
         if (suspectName == correctSuspects[currentWitness])
         {
             // 정답
-            resultText.text = $"정답! {suspectName}의 진술과 목격자 진술이 모순됩니다!";
+            resultText.text = $"정답! {suspectName}의 말이 목격 내용과 달라요!";
             resultText.color = Color.green;
 
             // 해당 카드 강조
@@ -301,7 +301,7 @@ public class WitnessGame : MonoBehaviour
         else
         {
             // 오답
-            resultText.text = $"다시 생각해보세요!\n{suspectName}의 진술과 비교해보세요.";
+            resultText.text = $"다시 생각해 보세요.\n{suspectName}의 말과 목격 내용을 비교해 보세요.";
             resultText.color = Color.red;
         }
     }
@@ -355,11 +355,11 @@ public class WitnessGame : MonoBehaviour
     {
         if (collectedStatements.Count == 0)
         {
-            reportText.text = "아직 수집한 진술이 없습니다.\n목격자를 조사해보세요!";
+            reportText.text = "아직 모은 진술이 없어요.\n목격자를 눌러 조사해 보세요!";
         }
         else
         {
-            string report = "=== 수집한 진술 목록 ===\n\n";
+            string report = "";
             foreach (string s in collectedStatements)
                 report += s + "\n";
             reportText.text = report;

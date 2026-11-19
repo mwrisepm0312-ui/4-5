@@ -103,7 +103,7 @@ public class MobileLobbyUI : MonoBehaviour
         {
             GameObject item = Instantiate(evidenceItemTemplate, evidenceContent);
             item.SetActive(true);
-            item.GetComponentInChildren<TextMeshProUGUI>().text = "아직 수집한 증거가 없습니다.";
+            item.GetComponentInChildren<TextMeshProUGUI>().text = "아직 수집한 증거가 없어요.\n미션을 해결해 증거를 모아 보세요!";
             item.GetComponent<Button>().interactable = false;
         }
         else
@@ -124,19 +124,19 @@ public class MobileLobbyUI : MonoBehaviour
         var evidences = DataManager.Instance.CollectedEvidences;
         if (evidences.Count == 0)
         {
-            if (sendStatusText != null) sendStatusText.text = "수집한 증거가 없습니다!";
+            if (sendStatusText != null) sendStatusText.text = "보낼 증거가 아직 없어요.";
             return;
         }
         var gm = FindFirstObjectByType<GameManager>();
         if (gm != null)
         {
             gm.ShareEvidencesServerRpc(evidences.ToArray());
-            if (sendStatusText != null) sendStatusText.text = "PC로 송신 완료!";
+            if (sendStatusText != null) sendStatusText.text = "PC로 보냈어요!";
             sendButton.interactable = false;
         }
         else
         {
-            if (sendStatusText != null) sendStatusText.text = "연결 오류! 다시 시도해주세요.";
+            if (sendStatusText != null) sendStatusText.text = "보내지 못했어요. 다시 시도해 주세요.";
         }
     }
 

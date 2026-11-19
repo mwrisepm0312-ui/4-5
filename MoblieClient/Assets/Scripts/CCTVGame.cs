@@ -49,19 +49,19 @@ public class CCTVGame : MonoBehaviour
     {
         // 23:00
         {
-            "23:00 금고 앞에서\n수집가가 배회하는 것이 포착됐습니다.",
-            "23:00 경비원이\n정상적으로 순찰 중임이 확인됐습니다.",
+            "23:00 금고 앞에서\n수집가가 서성이는 모습이 찍혔어요.",
+            "23:00 경비원이\n평소처럼 순찰하는 모습이에요.",
             null,
-            "23:00 청소부가\n은행을 퇴근하는 것이 포착됐습니다."
+            "23:00 청소부가\n은행에서 퇴근하는 모습이 찍혔어요."
         },
         // 23:30
-        { null, null, null, "23:30 수집가가\n은행 외부를 배회하는 것이 포착됐습니다." },
+        { null, null, null, "23:30 수집가가\n은행 밖을 서성이는 모습이 찍혔어요." },
         // 00:00
         { null, null, null, null },
         // 00:30
-        { "00:30 비서가\n금고 앞에서 포착됐습니다!\n범행 시간대와 일치합니다.", null, null, null },
+        { "00:30 비서가 금고 앞에 있어요!\n범행 시간과 같아요.", null, null, null },
         // 01:00
-        { "01:00 경비원이\n금고 앞을 순찰하는 것이 포착됐습니다.", null, "01:00 비서가\n서류가방을 꽉 안고\n은행 복도를 서성이는 것이 포착됐습니다!", null },
+        { "01:00 경비원이\n금고 앞을 순찰하는 모습이에요.", null, "01:00 비서가 서류가방을 꽉 안고\n복도를 서성이는 모습이 찍혔어요!", null },
     };
 
     // [시간대][모니터] 진짜 증거 여부
@@ -240,8 +240,8 @@ public class CCTVGame : MonoBehaviour
         // 증거 없음
         if (evidence == null)
         {
-            evidenceTitleText.text = "수상한 인물 없음";
-            evidenceDescText.text = $"{timeLabels[currentTimeSlot]}\n이 시간대에는 수상한 인물이 없습니다.";
+            evidenceTitleText.text = "수상한 사람 없음";
+            evidenceDescText.text = $"{timeLabels[currentTimeSlot]}\n이 시간에는 수상한 사람이 없어요.";
             evidencePopup.SetActive(true);
             return;
         }
@@ -249,8 +249,8 @@ public class CCTVGame : MonoBehaviour
         // 이미 수집
         if (collectedEvidence[currentTimeSlot, monitorIndex])
         {
-            evidenceTitleText.text = "이미 수집한 증거";
-            evidenceDescText.text = $"{evidence}\n이미 수집한 증거입니다.";
+            evidenceTitleText.text = "이미 찾은 증거";
+            evidenceDescText.text = $"{evidence}\n이미 찾은 증거예요.";
             evidencePopup.SetActive(true);
             return;
         }
