@@ -42,6 +42,7 @@ public class DialogueManager : MonoBehaviour
     private int currentIndex = 0;
     private bool isTyping = false;
     private bool isDialogueActive = false;
+    private bool isFading = false;          // 페이드 중에는 터치를 받지 않음 (첫 대사가 건너뛰어지지 않게)
     private System.Action onDialogueFinished;
 
     // ──────────────────────────────────────
@@ -54,6 +55,16 @@ public class DialogueManager : MonoBehaviour
         onDialogueFinished = onFinished;
         isDialogueActive = true;
 
+        // 패널을 켜기 전에 이번 목격자의 모습·빈 대화창으로 먼저 바꿔 둠
+        // (안 그러면 페이드 동안 하얀 네모나 이전 목격자 모습·대사가 잠깐 보임)
+        Sprite first = null;
+        foreach (var l in lines)
+            if (l.characterSprite != null) { first = l.characterSprite; break; }
+        characterImage.sprite = first;
+        characterImage.enabled = first != null;
+        speakerNameText.text = lines.Count > 0 ? lines[0].speakerName : "";
+        dialogueText.text = "";
+
         dialoguePanel.SetActive(true);
         nextIcon.SetActive(false);
 
@@ -65,6 +76,7 @@ public class DialogueManager : MonoBehaviour
     // ──────────────────────────────────────
     IEnumerator FadeIn()
     {
+        isFading = true;
         fadePanel.gameObject.SetActive(true);
         Color c = fadePanel.color;
         c.a = 1f;
@@ -82,6 +94,7 @@ public class DialogueManager : MonoBehaviour
         c.a = 0f;
         fadePanel.color = c;
         fadePanel.gameObject.SetActive(false);
+        isFading = false;
 
         ShowLine(currentIndex);
     }
@@ -91,6 +104,7 @@ public class DialogueManager : MonoBehaviour
     // ──────────────────────────────────────
     IEnumerator FadeOut()
     {
+        isFading = true;
         fadePanel.gameObject.SetActive(true);
         Color c = fadePanel.color;
         c.a = 0f;
@@ -110,6 +124,7 @@ public class DialogueManager : MonoBehaviour
 
         dialoguePanel.SetActive(false);
         isDialogueActive = false;
+        isFading = false;
 
         // 대화 완료 콜백
         onDialogueFinished?.Invoke();
@@ -133,7 +148,10 @@ public class DialogueManager : MonoBehaviour
 
         // 캐릭터 이미지
         if (line.characterSprite != null)
+        {
             characterImage.sprite = line.characterSprite;
+            characterImage.enabled = true;
+        }
 
         // 타이핑 효과
         StartCoroutine(TypeText(line.text));
@@ -171,7 +189,7 @@ public class DialogueManager : MonoBehaviour
     // ──────────────────────────────────────
     void Update()
     {
-        if (!isDialogueActive) return;
+        if (!isDialogueActive || isFading) return;
 
         bool clicked = false;
 

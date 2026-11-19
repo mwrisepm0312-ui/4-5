@@ -73,3 +73,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 빌드 결과물 (IL2CPP 백업·Burst 디버그 폴더) — 새로 생기는 것은 저장소에 올리지 않음
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*_BurstDebugInformation_DoNotShip/
