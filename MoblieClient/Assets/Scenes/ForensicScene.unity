@@ -401,7 +401,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC9C0\uBB38\uC744 \uCC44\uCDE8\uD588\uC2B5\uB2C8\uB2E4! AFIS\uB85C \uB300\uC870\uD574\uBCF4\uC138\uC694!"
+  m_text: "\uC9C0\uBB38\uC744 \uCC44\uCDE8\uD588\uC5B4\uC694!\nAFIS\uB85C \uC8FC\uC778\uC744
+    \uCC3E\uC544 \uBCF4\uC138\uC694."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -538,7 +539,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC9C0\uBB38\uC744 \uB300\uC870\uD558\uC138\uC694!"
+  m_text: "AFIS \uC9C0\uBB38 \uB300\uC870"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -675,7 +676,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uAC00\uB8E8 \uBFCC\uB9AC\uAE30\n"
+  m_text: "\uAC00\uB8E8 \uBFCC\uB9AC\uAE30"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -1246,8 +1247,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uAE08\uACE0\uC5D0\uC11C \uBC1C\uACAC\uB41C \uC9C0\uBB38\uC744 \uC6A9\uC758\uC790
-    \uC9C0\uBB38\uC5D0 \uB4DC\uB798\uADF8\uD574 \uD655\uC778\uD558\uC138\uC694"
+  m_text: "\uBC1C\uACAC\uB41C \uC9C0\uBB38\uC744 \uB04C\uC5B4\uC11C\n\uAC19\uC740
+    \uC6A9\uC758\uC790 \uC9C0\uBB38 \uC704\uC5D0 \uB193\uC73C\uC138\uC694."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -1521,7 +1522,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC218\uC9D1\uAC00\n"
+  m_text: "\uC218\uC9D1\uAC00"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -3061,7 +3062,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBE44\uC11C\n"
+  m_text: "\uBE44\uC11C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -3353,7 +3354,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uACBD\uBE44\uC6D0\n"
+  m_text: "\uACBD\uBE44\uC6D0"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -3565,7 +3566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCCAD\uC18C\uBD80\n"
+  m_text: "\uCCAD\uC18C\uBD80"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -3852,10 +3853,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB290\uB08C\uD45C(!) \uBC84\uD2BC\uC744 \uB20C\uB7EC \uC218\uC0C1\uD55C
-    \uC704\uCE58\uB97C \uD655\uC778\uD558\uC138\uC694\n\n\uAC00\uB8E8\uB97C \uBFCC\uB9AC\uACE0
-    \uBB38\uC9C8\uB7EC \uC9C0\uBB38\uC744 \uCC44\uCDE8\uD558\uC138\uC694\n\nAFIS\uB85C
-    \uB204\uAD6C\uC758 \uC9C0\uBB38\uC778\uC9C0 \uD655\uC778\uD558\uC138\uC694"
+  m_text: "1. \uB290\uB08C\uD45C(!)\uB97C \uB20C\uB7EC \uC218\uC0C1\uD55C \uACF3\uC744
+    \uC0B4\uD3B4\uBCF4\uC138\uC694\n2. \uAC00\uB8E8\uB97C \uBFCC\uB9AC\uACE0 \uBB38\uC9C8\uB7EC
+    \uC9C0\uBB38\uC744 \uCC44\uCDE8\uD558\uC138\uC694\n3. AFIS\uB85C \uC9C0\uBB38\uC758
+    \uC8FC\uC778\uC744 \uCC3E\uC73C\uC138\uC694"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -4211,7 +4212,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBBF8\uC158 \uC644\uB8CC!\n"
+  m_text: "\uBBF8\uC158 \uC644\uB8CC!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -4238,8 +4239,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 195
-  m_fontSizeBase: 195
+  m_fontSize: 140
+  m_fontSizeBase: 140
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5008,7 +5009,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD604\uC7A5\uAC10\uC2DD \uBBF8\uC158 \uC2DC\uC791!"
+  m_text: "\uD604\uC7A5 \uAC10\uC2DD \uBBF8\uC158"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -6422,7 +6423,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB85C\uBE44\uB85C \uC774\uB3D9\uD569\uB2C8\uB2E4"
+  m_text: "\uC7A0\uC2DC \uD6C4 \uC218\uC0AC \uBCF8\uBD80\uB85C \uB3CC\uC544\uAC11\uB2C8\uB2E4"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
   m_sharedMaterial: {fileID: 157630318506450510, guid: f8020b52af32d4c4891d3936e12d500b, type: 2}
@@ -6449,8 +6450,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 91
-  m_fontSizeBase: 91
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
