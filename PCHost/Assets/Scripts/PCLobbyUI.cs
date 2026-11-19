@@ -59,21 +59,21 @@ public class PCLobbyUI : MonoBehaviour
                 "수집가",
                 45,
                 "보석 수집가",
-                "열린마음 은행 VIP 금고에 레드 다이아 반지를 맡김.\n사건 당일 은행 주변을 서성이는 모습이 CCTV에 찍힘.",
+                "레드 다이아 반지를 사겠다고\n주얼리씨에게 여러 번 졸랐음.\n사건 당일 밤 은행 주변에서 CCTV에 찍힘.",
                 Resources.Load<Sprite>("Suspects/suspect_1")
             ),
             new SuspectData(
                 "경비원",
                 38,
-                "은행 경비원",
-                "사건 당일 평소처럼 근무함.\n순찰 중 이상한 점을 봤다고 진술함.",
+                "은행 야간 경비원",
+                "그날 밤 누가 준 커피를 마신 뒤\n경비실에서 잠들었다고 진술함.",
                 Resources.Load<Sprite>("Suspects/suspect_2")
             ),
             new SuspectData(
                 "비서",
                 35,
-                "주얼리씨 비서",
-                "주얼리씨 밑에서 15년째 근무.\n화장실에만 있었다고 했지만\n금고 앞에서 CCTV에 찍힘.",
+                "반지 주인 주얼리씨의 비서",
+                "15년째 주얼리씨의 일을 대신 처리함.\n주얼리씨 대신 VIP 금고를 열 수 있는\n대리인 카드를 가지고 있음.",
                 Resources.Load<Sprite>("Suspects/suspect_3")
             ),
             new SuspectData(

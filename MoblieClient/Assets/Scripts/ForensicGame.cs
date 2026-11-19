@@ -85,6 +85,12 @@ public class ForensicGame : MonoBehaviour
     private string[] correctAnswers = { "비서", "청소부", "경비원" };
     private int[] correctSuspectIndex = { 0, 1, 2 };
     private string[] evidenceNames = { "금고 지문", "바닥 지문", "데스크 지문" };
+    // 일치했을 때 한 줄 설명 (왜 중요한 지문인지)
+    private string[] matchHints = {
+        "화장실에만 있었다던 비서가 금고 손잡이를 만졌어요!",
+        "바닥을 청소하며 남긴 지문이에요.",
+        "경비 데스크에서 근무하며 남긴 지문이에요."
+    };
     private Sprite[] locationSprites;
 
     private int currentLocation = -1;
@@ -506,7 +512,7 @@ public class ForensicGame : MonoBehaviour
         if (suspectName == correctAnswers[currentLocation])
         {
             HideArrows();
-            resultText.text = $"{suspectName}의 지문과 일치합니다!";
+            resultText.text = $"{suspectName}의 지문과 일치해요!\n{matchHints[currentLocation]}";
             resultText.color = Color.green;
             StartCoroutine(EvidenceObtained());
         }

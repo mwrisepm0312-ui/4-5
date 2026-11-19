@@ -48,6 +48,11 @@ public static class PeaceMakerTextPolish
         new E("PC_LobbyScene", "SuspectPopup/JobText", "직업:", 32),
         new E("PC_LobbyScene", "SuspectPopup/FeatureText", "특징:", 28, 520, 170, 0, -510),
         new E("SuspectScene", "ReceivedEvidencePopup/TitleText", "받은 증거"),
+        // 카드 이름: 누구인지 한눈에 (비서 = 반지 주인 주얼리씨의 비서)
+        new E("SuspectScene", "SuspectCard_1/NameText", "보석 수집가", 32),
+        new E("SuspectScene", "SuspectCard_2/NameText", "은행 경비원", 32),
+        new E("SuspectScene", "SuspectCard_3/NameText", "주얼리씨의 비서", 32),
+        new E("SuspectScene", "SuspectCard_4/NameText", "은행 청소부", 32),
         new E("SuspectScene", "SuspectPopup/NameText", null, 36),
         new E("SuspectScene", "SuspectPopup/JobText", null, 32),
         new E("SuspectScene", "EvidenceItemTemplate/Text (TMP)", "증거 이름", 30),
@@ -126,8 +131,15 @@ public static class PeaceMakerTextPolish
     // PC 엔딩 자막 (음성이 없는 화면만. 오프닝은 녹음된 내레이션과 같아야 해서 그대로)
     private static readonly Dictionary<string, string[]> Story = new Dictionary<string, string[]>
     {
-        { "ArrestScene", new[] { "범인 검거 성공!", "시민의 안전을 지켜 낸 여러분은\n진정한 경찰입니다!", "태블릿을 반납해 주세요." } },
-        { "FailScene", new[] { "범인을 찾지 못했습니다...", "수사는 미궁에 빠지고, 범인은 달아났습니다.", "다시 조사해서 꼭 범인을 잡아 주세요!" } },
+        { "ArrestScene", new[] {
+            "범인 검거 성공!\n범인은 반지 주인 주얼리씨의 비서였습니다.",
+            "비서는 주얼리씨 대신 금고를 여는 대리인 카드로\n침입 흔적 없이 VIP 금고를 열었습니다.",
+            "낮에는 모르는 번호로 경비원의 순찰 시간을 알아내고,\n밤에는 수면제를 탄 커피로 경비원을 재웠습니다.",
+            "새벽 0시 30분, 반지를 서류가방에 숨겨 빠져나가려 했지만\n금고 손잡이의 지문과 CCTV, 목격자를 피하지 못했습니다.",
+            "수집가와 청소부는 범행 전에 은행을 떠났습니다.\n2주 전부터 반지를 팔 곳을 찾던 사람은 비서뿐이었습니다.",
+            "시민의 안전을 지켜 낸 여러분은\n진정한 경찰입니다!",
+            "태블릿을 반납해 주세요." } },
+        { "FailScene", new[] { "범인을 찾지 못했습니다...", "수사는 미궁에 빠지고, 범인은 달아났습니다.", "금고를 열 수 있었던 사람은 누구였을까요?\n다시 조사해서 꼭 범인을 잡아 주세요!" } },
     };
 
     // Canvas Scaler 를 화면 크기에 맞추는 씬 (지금은 '픽셀 크기 고정'이라 1920×1080 이 아닌 모니터에서 크기가 달라짐)
@@ -241,6 +253,9 @@ public static class PeaceMakerTextPolish
 
         // 6) 용의자 카드 배경판
         if (scene.name == "SuspectScene") CardBacks(scene);
+
+        // 7) PC 로비 사건 메모 (수사 내내 큰 화면에 보이는 핵심 질문)
+        if (scene.name == "PC_LobbyScene") CaseMemo(scene);
     }
 
     private static void Edit(TMP_Text t, E e)
@@ -347,6 +362,74 @@ public static class PeaceMakerTextPolish
         img.color = Color.white; img.raycastTarget = false; img.preserveAspect = false;
         EditorUtility.SetDirty(t.gameObject);
         return true;
+    }
+
+    private const string MemoText =
+        "<b>사건 메모</b>\n" +
+        "· 사라진 것: 레드 다이아 반지\n" +
+        "· 반지 주인: 주얼리씨 (VIP 고객)\n" +
+        "· 사건 시각: 밤 11시 ~ 새벽 1시\n" +
+        "· 금고: 부서진 곳 없음\n" +
+        "<color=#FFD24A>→ 금고를 열 수 있었던 사람은?</color>";
+
+    // PC 로비 왼쪽 위에 사건 메모판 (안쪽 판 + 글자)
+    private static void CaseMemo(Scene scene)
+    {
+        var panelSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/UI/PopupSkin/panel_inset.png");
+        RectTransform canvas = null; TMP_Text titleRef = null;
+        foreach (var root in scene.GetRootGameObjects())
+            foreach (var rt in root.GetComponentsInChildren<RectTransform>(true))
+            {
+                if (rt.name == "LobbyText") { canvas = rt.parent as RectTransform; titleRef = rt.GetComponent<TMP_Text>(); }
+            }
+        if (canvas == null || panelSprite == null) { log.AppendLine("  (사건 메모: LobbyText 또는 panel_inset 을 찾지 못함)"); return; }
+
+        var memo = canvas.Find("CaseMemo") as RectTransform;
+        var memoText = memo != null && memo.Find("MemoText") ? memo.Find("MemoText").GetComponent<TMP_Text>() : null;
+        bool ok = memo != null && memoText != null && memoText.text == MemoText && memo.sizeDelta == new Vector2(520, 340);
+        if (ok) return;
+        log.AppendLine("  CaseMemo: 왼쪽 위에 사건 메모판 (반지 주인·시각·부서진 곳 없음 → 금고를 열 수 있던 사람은?)");
+        changes++;
+        if (dry) return;
+
+        if (memo == null)
+        {
+            var go = new GameObject("CaseMemo", typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
+            Undo.RegisterCreatedObjectUndo(go, "문구 정리");
+            go.layer = canvas.gameObject.layer;
+            go.transform.SetParent(canvas, false);
+            memo = (RectTransform)go.transform;
+        }
+        Undo.RecordObject(memo, "문구 정리");
+        memo.anchorMin = memo.anchorMax = new Vector2(0f, 1f);
+        memo.pivot = new Vector2(0.5f, 0.5f);
+        memo.sizeDelta = new Vector2(520, 340);
+        memo.anchoredPosition = new Vector2(290, -280);   // 위 가운데 "수사 진행 중" 글자와 겹치지 않게
+        memo.localScale = Vector3.one;
+        var img = memo.GetComponent<Image>();
+        img.sprite = panelSprite; img.type = Image.Type.Sliced; img.pixelsPerUnitMultiplier = 2f;
+        img.color = Color.white; img.raycastTarget = false;
+
+        if (memoText == null)
+        {
+            var tgo = new GameObject("MemoText", typeof(RectTransform), typeof(CanvasRenderer), typeof(TextMeshProUGUI));
+            Undo.RegisterCreatedObjectUndo(tgo, "문구 정리");
+            tgo.layer = memo.gameObject.layer;
+            tgo.transform.SetParent(memo, false);
+            memoText = tgo.GetComponent<TextMeshProUGUI>();
+        }
+        var trt = memoText.rectTransform;
+        trt.anchorMin = Vector2.zero; trt.anchorMax = Vector2.one;
+        trt.offsetMin = new Vector2(34, 26); trt.offsetMax = new Vector2(-30, -26);
+        if (titleRef != null && titleRef.font != null) memoText.font = titleRef.font;
+        memoText.text = MemoText;
+        memoText.richText = true;
+        memoText.color = Color.white;
+        memoText.alignment = TextAlignmentOptions.TopLeft;
+        memoText.enableAutoSizing = true; memoText.fontSizeMin = 22; memoText.fontSizeMax = 32;
+        memoText.lineSpacing = 8f;
+        memoText.raycastTarget = false;
+        EditorUtility.SetDirty(memo.gameObject);
     }
 
     private static string Short(string s)

@@ -35,7 +35,7 @@ public class CCTVGame : MonoBehaviour
         // 23:00
         { "수집가 금고 앞 배회", "경비원 정상 순찰 확인", null, "청소부 퇴근 포착" },
         // 23:30: 로비 경비원 없음
-        { null, null, null, "수집가 은행 외부 배회" },
+        { null, "경비원 자리 비움", null, "수집가 은행 외부 배회" },
         // 00:00
         { null, null, null, null },
         // 00:30
@@ -52,14 +52,14 @@ public class CCTVGame : MonoBehaviour
             "23:00 금고 앞에서\n수집가가 서성이는 모습이 찍혔어요.",
             "23:00 경비원이\n평소처럼 순찰하는 모습이에요.",
             null,
-            "23:00 청소부가\n은행에서 퇴근하는 모습이 찍혔어요."
+            "23:00 청소부가 큰 가방을 들고\n은행에서 퇴근하는 모습이에요."
         },
         // 23:30
-        { null, null, null, "23:30 수집가가\n은행 밖을 서성이는 모습이 찍혔어요." },
+        { null, "23:30 로비에 경비원이 없어요.\n순찰 시간인데 어디 간 걸까요?", null, "23:30 수집가가\n은행 밖을 서성이다 떠나요." },
         // 00:00
         { null, null, null, null },
         // 00:30
-        { "00:30 비서가 금고 앞에 있어요!\n범행 시간과 같아요.", null, null, null },
+        { "00:30 비서가 금고 문 앞에 있어요!\n주얼리씨도 없는 한밤중에 왜?", null, null, null },
         // 01:00
         { "01:00 경비원이\n금고 앞을 순찰하는 모습이에요.", null, "01:00 비서가 서류가방을 꽉 안고\n복도를 서성이는 모습이 찍혔어요!", null },
     };
@@ -129,7 +129,7 @@ public class CCTVGame : MonoBehaviour
     private int currentTimeSlot = 0;
     private bool[,] collectedEvidence = new bool[5, 4];
     private int totalEvidenceCount = 0;
-    private int maxEvidence = 7;
+    private int maxEvidence = 8;   // 23:30 경비원 자리 비움 추가
     private Sprite[,] sprites = new Sprite[5, 4];
 
     // ──────────────────────────────────────
