@@ -84,7 +84,7 @@ public class SuspectSceneUI : MonoBehaviour
     // 용의자 데이터
     // ──────────────────────────────────────
     private string[] suspectNames = { "수집가", "경비원", "비서", "청소부" };
-    private string[] suspectJobs = { "보석 수집가", "은행 경비원", "주얼리씨 비서", "은행 청소부" };
+    private string[] suspectJobs = { "보석 수집가", "은행 야간 경비원", "반지 주인 주얼리씨의 비서", "은행 청소부" };
 
 
     // ──────────────────────────────────────
@@ -217,11 +217,13 @@ public class SuspectSceneUI : MonoBehaviour
         currentPlusSlot = -1;
     }
 
+    private const string EmptySlot = "+ 를 눌러 증거 선택";
+
     void UpdateSlotTexts()
     {
-        slotText1.text = selectedEvidences[0] ?? "";
-        slotText2.text = selectedEvidences[1] ?? "";
-        slotText3.text = selectedEvidences[2] ?? "";
+        slotText1.text = selectedEvidences[0] ?? EmptySlot;
+        slotText2.text = selectedEvidences[1] ?? EmptySlot;
+        slotText3.text = selectedEvidences[2] ?? EmptySlot;
         slotText4.text = selectedEvidences[3] ?? "";
         slotText5.text = selectedEvidences[4] ?? "";
     }
@@ -262,7 +264,7 @@ public class SuspectSceneUI : MonoBehaviour
         {
             GameObject item = Instantiate(receivedEvidenceTemplate, receivedEvidenceContent);
             item.SetActive(true);
-            item.GetComponentInChildren<TextMeshProUGUI>().text = "아직 수신된 증거가 없습니다.";
+            item.GetComponentInChildren<TextMeshProUGUI>().text = "아직 받은 증거가 없어요.\n휴대폰에서 증거를 보내 주세요.";
             item.GetComponent<Button>().interactable = false;
         }
         else

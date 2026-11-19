@@ -132,15 +132,15 @@ public class CyberGame : MonoBehaviour
     private string[] evidenceNames =
     {
         "수집가 반지 구매 요청 이메일",
-        "경비원 불만 메시지",
+        "경비원 수상한 메시지",
         "비서 레드 다이아 반지 시세 검색 기록"
     };
 
     private string[] evidenceDescs =
     {
-        "[수집가의 반지 구매 요청 이메일]\n\n수집가가 반지를 팔아달라고 하는 내용의 이메일이 여러 건 있다.",
-        "[경비원의 수상한 메시지]\n\n알 수 없는 번호로부터 메시지가 와 있다.\n- 오늘 밤 은행 비워?\n- 몇 시에 끝나?",
-        "[비서의 반지 시세 검색 기록]\n\n사건 2주일 전부터 지속적으로 반지 시세를 검색하고 판매처를 알아본 것으로 보인다."
+        "[수집가의 반지 구매 요청 이메일]\n\n반지를 팔아 달라는 수집가의 이메일이 여러 통 있어요.",
+        "[경비원의 수상한 메시지]\n\n사건 당일 낮, 모르는 번호에서 온 메시지.\n- 오늘 밤 순찰 몇 시에 돌아?\n- 몇 시에 끝나?\n누가 경비원의 순찰 시간을 알아내려 했을까요?",
+        "[비서의 반지 시세 검색 기록]\n\n사건 2주 전부터 반지 시세와\n빨리 파는 곳을 계속 검색했어요.\n반지 주인도 아닌데 왜?"
     };
 
     // ──────────────────────────────────────
@@ -270,7 +270,7 @@ public class CyberGame : MonoBehaviour
             }
         }
 
-        scanTitleText.text = "데이터 조각을 스캔하세요!";
+        scanTitleText.text = "데이터 조각을 모두 찾으세요!";
         scanCountText.text = $"0 / {total}";
         scanGame.SetActive(true);
     }
@@ -461,10 +461,10 @@ public class CyberGame : MonoBehaviour
         {
             // 힌트 표시
             string hint = "";
-            if (!s1) hint += slider1.value < answerMin[0] ? "밝기 높여보세요  " : "밝기 낮춰보세요  ";
-            if (!s2) hint += slider2.value < answerMin[1] ? "선명도 높여보세요  " : "선명도 낮춰보세요  ";
-            if (!s3) hint += slider3.value < answerMin[2] ? "색상 높여보세요" : "색상 낮춰보세요";
-            sliderResultText.text = $"복원 실패!\n{hint}";
+            if (!s1) hint += slider1.value < answerMin[0] ? "밝기를 올려 보세요\n" : "밝기를 내려 보세요\n";
+            if (!s2) hint += slider2.value < answerMin[1] ? "선명도를 올려 보세요\n" : "선명도를 내려 보세요\n";
+            if (!s3) hint += slider3.value < answerMin[2] ? "색상을 올려 보세요" : "색상을 내려 보세요";
+            sliderResultText.text = $"아직 흐려요!\n{hint.TrimEnd()}";
             sliderResultText.color = Color.red;
         }
     }
@@ -566,14 +566,14 @@ public class CyberGame : MonoBehaviour
 
         if (allCorrect)
         {
-            keywordResultText.text = "필요한 검색어를 모두 수집했습니다!";
+            keywordResultText.text = "관련 검색어를 모두 찾았어요!";
             keywordResultText.color = Color.green;
             keywordSubmitButton.interactable = false;
             StartCoroutine(KeywordGameClear());
         }
         else
         {
-            keywordResultText.text = "필요 없는 검색어가 포함됐거나\n빠진 검색어가 있습니다. 다시 확인해보세요.";
+            keywordResultText.text = "관련 없는 검색어가 섞였거나\n빠진 검색어가 있어요. 다시 확인해 보세요.";
             keywordResultText.color = Color.red;
         }
     }
@@ -601,7 +601,7 @@ public class CyberGame : MonoBehaviour
         fileBtn2.interactable = false;
         fileBtn3.interactable = false;
 
-        evidenceTitleText.text = "파일 복원 완료!\n\n다음 증거물을 획득했습니다.";
+        evidenceTitleText.text = "파일 복원 완료!";
         evidenceDescText.text = evidenceDescs[fileIndex];
         evidencePopup.SetActive(true);
     }

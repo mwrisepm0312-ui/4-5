@@ -35,7 +35,7 @@ public class CCTVGame : MonoBehaviour
         // 23:00
         { "수집가 금고 앞 배회", "경비원 정상 순찰 확인", null, "청소부 퇴근 포착" },
         // 23:30: 로비 경비원 없음
-        { null, null, null, "수집가 은행 외부 배회" },
+        { null, "경비원 자리 비움", null, "수집가 은행 외부 배회" },
         // 00:00
         { null, null, null, null },
         // 00:30
@@ -49,19 +49,19 @@ public class CCTVGame : MonoBehaviour
     {
         // 23:00
         {
-            "23:00 금고 앞에서\n수집가가 배회하는 것이 포착됐습니다.",
-            "23:00 경비원이\n정상적으로 순찰 중임이 확인됐습니다.",
+            "23:00 금고 앞에서\n수집가가 서성이는 모습이 찍혔어요.",
+            "23:00 경비원이\n평소처럼 순찰하는 모습이에요.",
             null,
-            "23:00 청소부가\n은행을 퇴근하는 것이 포착됐습니다."
+            "23:00 청소부가 큰 가방을 들고\n은행에서 퇴근하는 모습이에요."
         },
         // 23:30
-        { null, null, null, "23:30 수집가가\n은행 외부를 배회하는 것이 포착됐습니다." },
+        { null, "23:30 로비에 경비원이 없어요.\n순찰 시간인데 어디 간 걸까요?", null, "23:30 수집가가\n은행 밖을 서성이다 떠나요." },
         // 00:00
         { null, null, null, null },
         // 00:30
-        { "00:30 비서가\n금고 앞에서 포착됐습니다!\n범행 시간대와 일치합니다.", null, null, null },
+        { "00:30 비서가 금고 문 앞에 있어요!\n주얼리씨도 없는 한밤중에 왜?", null, null, null },
         // 01:00
-        { "01:00 경비원이\n금고 앞을 순찰하는 것이 포착됐습니다.", null, "01:00 비서가\n서류가방을 꽉 안고\n은행 복도를 서성이는 것이 포착됐습니다!", null },
+        { "01:00 경비원이\n금고 앞을 순찰하는 모습이에요.", null, "01:00 비서가 서류가방을 꽉 안고\n복도를 서성이는 모습이 찍혔어요!", null },
     };
 
     // [시간대][모니터] 진짜 증거 여부
@@ -129,7 +129,7 @@ public class CCTVGame : MonoBehaviour
     private int currentTimeSlot = 0;
     private bool[,] collectedEvidence = new bool[5, 4];
     private int totalEvidenceCount = 0;
-    private int maxEvidence = 7;
+    private int maxEvidence = 8;   // 23:30 경비원 자리 비움 추가
     private Sprite[,] sprites = new Sprite[5, 4];
 
     // ──────────────────────────────────────
@@ -240,8 +240,8 @@ public class CCTVGame : MonoBehaviour
         // 증거 없음
         if (evidence == null)
         {
-            evidenceTitleText.text = "수상한 인물 없음";
-            evidenceDescText.text = $"{timeLabels[currentTimeSlot]}\n이 시간대에는 수상한 인물이 없습니다.";
+            evidenceTitleText.text = "수상한 사람 없음";
+            evidenceDescText.text = $"{timeLabels[currentTimeSlot]}\n이 시간에는 수상한 사람이 없어요.";
             evidencePopup.SetActive(true);
             return;
         }
@@ -249,8 +249,8 @@ public class CCTVGame : MonoBehaviour
         // 이미 수집
         if (collectedEvidence[currentTimeSlot, monitorIndex])
         {
-            evidenceTitleText.text = "이미 수집한 증거";
-            evidenceDescText.text = $"{evidence}\n이미 수집한 증거입니다.";
+            evidenceTitleText.text = "이미 찾은 증거";
+            evidenceDescText.text = $"{evidence}\n이미 찾은 증거예요.";
             evidencePopup.SetActive(true);
             return;
         }

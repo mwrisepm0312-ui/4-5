@@ -69,7 +69,7 @@ public class MobileClientUI : MonoBehaviour
             return;
         }
 
-        statusText.text = "연결 버튼을 눌러주세요";
+        statusText.text = "[연결]을 눌러 수사에 참여하세요";
         statusText.gameObject.SetActive(true);
         connectButton.interactable = true;
         connectButton.onClick.AddListener(OnConnectButtonClicked);
@@ -161,7 +161,7 @@ public class MobileClientUI : MonoBehaviour
         stopListening = false;
 
         connectButton.interactable = false;
-        statusText.text = "서버 탐색 중...";
+        statusText.text = "PC를 찾는 중...";
 
         listenThread = new Thread(ListenForServer);
         listenThread.IsBackground = true;
@@ -230,7 +230,7 @@ public class MobileClientUI : MonoBehaviour
     void ConnectToServer(string serverIP, int serverPort)
     {
         connecting = true;
-        statusText.text = $"서버 발견: {serverIP}:{serverPort}\n연결 중...";
+        statusText.text = $"PC를 찾았어요! 연결하는 중...\n({serverIP})";
 
         Debug.Log($"[Mobile] FishNet 연결 시도: {serverIP}:{serverPort}");
 
@@ -238,7 +238,7 @@ public class MobileClientUI : MonoBehaviour
         if (tugboat == null)
         {
             Debug.LogError("[Mobile] Tugboat 컴포넌트를 찾을 수 없습니다.");
-            statusText.text = "Tugboat를 찾을 수 없습니다.";
+            statusText.text = "네트워크 설정 오류 (Tugboat 없음)";
             connecting = false;
             connectButton.interactable = true;
             return;
@@ -252,7 +252,7 @@ public class MobileClientUI : MonoBehaviour
 
         if (!result)
         {
-            statusText.text = "연결 시작에 실패했습니다.";
+            statusText.text = "연결하지 못했어요. 다시 눌러 주세요.";
             connecting = false;
             connectButton.interactable = true;
         }
@@ -265,11 +265,11 @@ public class MobileClientUI : MonoBehaviour
         switch (args.ConnectionState)
         {
             case LocalConnectionState.Starting:
-                statusText.text = "서버 연결 시작...";
+                statusText.text = "연결하는 중...";
                 break;
 
             case LocalConnectionState.Started:
-                statusText.text = "연결 완료!";
+                statusText.text = "연결됐어요!";
                 Debug.Log("[Mobile] 연결 성공 → 씬 이동");
                 if (!sceneLoaded)
                 {
@@ -287,7 +287,7 @@ public class MobileClientUI : MonoBehaviour
                 // 씬 복귀 직후 오는 Stopped는 무시 (connecting=false이고 sceneLoaded=false인 초기 상태)
                 if (connecting && !sceneLoaded)
                 {
-                    statusText.text = "서버 연결 실패";
+                    statusText.text = "연결에 실패했어요.\nPC와 같은 와이파이인지 확인해 주세요.";
                     Debug.LogError("[Mobile] FishNet 연결 실패/종료");
                     connecting = false;
                     connectButton.interactable = true;
@@ -300,7 +300,7 @@ public class MobileClientUI : MonoBehaviour
     {
         yield return null;
         Debug.Log($"[Mobile] 씬 이동: {nextSceneName}");
-        SceneManager.LoadScene(nextSceneName);
+        SceneTransition.Load(nextSceneName);
     }
 
     void OnDestroy()

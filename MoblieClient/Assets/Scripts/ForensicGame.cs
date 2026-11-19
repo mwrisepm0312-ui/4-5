@@ -85,6 +85,12 @@ public class ForensicGame : MonoBehaviour
     private string[] correctAnswers = { "비서", "청소부", "경비원" };
     private int[] correctSuspectIndex = { 0, 1, 2 };
     private string[] evidenceNames = { "금고 지문", "바닥 지문", "데스크 지문" };
+    // 일치했을 때 한 줄 설명 (왜 중요한 지문인지)
+    private string[] matchHints = {
+        "화장실에만 있었다던 비서가 금고 손잡이를 만졌어요!",
+        "바닥을 청소하며 남긴 지문이에요.",
+        "경비 데스크에서 근무하며 남긴 지문이에요."
+    };
     private Sprite[] locationSprites;
 
     private int currentLocation = -1;
@@ -240,7 +246,7 @@ public class ForensicGame : MonoBehaviour
     {
         if (powderSpread) return;
         powderButton.interactable = false;
-        powderBtnText.text = "느낌표 주위를 문질러보세요!";
+        powderBtnText.text = "문질러 보세요!";
         StartCoroutine(PlayFingerGuide());
     }
 
@@ -387,7 +393,7 @@ public class ForensicGame : MonoBehaviour
         powderButton.gameObject.SetActive(false);
         evidencePopup.SetActive(true);
         popupTitleText.text = "지문 발견!";
-        popupDescText.text = "지문을 채취했습니다!\nAFIS로 대조해보세요!";
+        popupDescText.text = "지문을 채취했어요!\nAFIS로 주인을 찾아 보세요.";
 
         if (fingerprintPopupImage != null && locationSprites[currentLocation] != null)
             fingerprintPopupImage.sprite = locationSprites[currentLocation];
@@ -400,7 +406,7 @@ public class ForensicGame : MonoBehaviour
         if (foundFingerprintImage != null && locationSprites[currentLocation] != null)
             foundFingerprintImage.sprite = locationSprites[currentLocation];
 
-        afisDescText.text = "발견된 지문을 용의자 지문 위에 올려보세요!";
+        afisDescText.text = "발견된 지문을 끌어서\n같은 용의자 지문 위에 놓으세요.";
         resultText.text = "";
         afisPanel.SetActive(true);
 
@@ -506,14 +512,14 @@ public class ForensicGame : MonoBehaviour
         if (suspectName == correctAnswers[currentLocation])
         {
             HideArrows();
-            resultText.text = $"{suspectName}의 지문과 일치합니다!";
+            resultText.text = $"{suspectName}의 지문과 일치해요!\n{matchHints[currentLocation]}";
             resultText.color = Color.green;
             StartCoroutine(EvidenceObtained());
         }
         else
         {
             //resultText.text = /*$"{suspectName}의 지문이 아니에요. 다시 시도해보세요!";*/
-            resultText.text = $"다시 시도해보세요!";
+            resultText.text = "일치하지 않아요. 다시 해 보세요.";
             resultText.color = Color.red;
             draggable.ReturnToOriginal();
         }

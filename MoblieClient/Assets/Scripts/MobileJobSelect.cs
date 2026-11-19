@@ -65,19 +65,19 @@ public class MobileJobSelect : MonoBehaviour
     private string[] jobs4 = { "현장감식관", "CCTV분석관", "목격자조사관", "사이버수사관" };
 
     private string[] desc2 = {
-        "현장과 디지털 증거를 분석하는 수사관",
-        "목격자와 영상을 분석하는 수사관"
+        "현장과 디지털 증거를 분석해요",
+        "목격자 진술과 CCTV 영상을 분석해요"
     };
     private string[] desc3 = {
-        "현장과 디지털 증거를 분석하는 수사관",
-        "CCTV 영상으로 동선을 파악하는 수사관",
-        "목격자 진술을 분석하는 수사관"
+        "현장과 디지털 증거를 분석해요",
+        "CCTV로 용의자의 동선을 추적해요",
+        "목격자 진술에서 모순을 찾아요"
     };
     private string[] desc4 = {
-        "범죄 현장에서 지문을 채취하고 AFIS로 용의자를 특정합니다",
-        "CCTV 영상을 분석하여 용의자의 동선을 파악합니다",
-        "목격자 진술을 수집하고 모순점을 찾아냅니다",
-        "삭제된 디지털 파일을 복원하여 증거를 찾아냅니다"
+        "현장에서 지문을 채취하고 AFIS로 주인을 찾아요",
+        "CCTV로 용의자의 동선을 추적해요",
+        "목격자 진술에서 모순을 찾아요",
+        "지워진 파일을 복원해 증거를 찾아요"
     };
 
     private string[] images2 = { "Jobs/수사관1", "Jobs/수사관2_2인" };   // 2인용 두 번째 카드 그림(목격자+CCTV)과 팝업 그림을 맞춤
@@ -92,7 +92,7 @@ public class MobileJobSelect : MonoBehaviour
     void Start()
     {
         jobPopup.SetActive(false);
-        statusText.text = "PC에서 오프닝 영상 재생 중입니다.\n잠시 기다려주세요!";
+        statusText.text = "PC 화면에서 오프닝이 진행 중이에요.\n잠시만 기다려 주세요!";
 
         int maxPlayers = DataManager.Instance.MaxPlayers;
         jobGrid2.SetActive(maxPlayers == 2);
@@ -127,7 +127,7 @@ public class MobileJobSelect : MonoBehaviour
     {
         if (isLocked)
         {
-            statusText.text = "PC에서 오프닝 영상 재생 중입니다.\n잠시 기다려주세요!";
+            statusText.text = "PC 화면에서 오프닝이 진행 중이에요.\n잠시만 기다려 주세요!";
             return;
         }
 
@@ -156,13 +156,13 @@ public class MobileJobSelect : MonoBehaviour
         if (gm != null)
             gm.SelectJobServerRpc(pendingJob);
         else
-            statusText.text = "연결 오류!";
+            statusText.text = "연결이 끊겼어요. 다시 시도해 주세요.";
     }
 
     public void UnlockJobSelect()
     {
         isLocked = false;
-        statusText.text = "직업을 선택하세요!";
+        statusText.text = "직업을 하나 골라 주세요!";
         DOTween.Restart("cardDrop");
     }
 
@@ -171,14 +171,14 @@ public class MobileJobSelect : MonoBehaviour
         selectedJob = jobName;
         statusText.text = $"{jobName} 선택 완료!";
         DataManager.Instance.SelectedJob = jobName;
-        SceneManager.LoadScene("Mobile_LobbyScene");
+        SceneTransition.Load("Mobile_LobbyScene");
     }
 
     public void OnJobRejected(string jobName)
     {
         jobPopup.SetActive(false);
         pendingJob = "";
-        statusText.text = $"{jobName}은 이미 선택됐어요!\n다른 직업을 선택하세요.";
+        statusText.text = $"{jobName}은(는) 이미 선택됐어요.\n다른 직업을 골라 주세요.";
     }
 
     public void OnJobStatusUpdated(string jobName, bool isTaken)

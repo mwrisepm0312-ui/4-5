@@ -12,11 +12,11 @@ public class WitnessGame : MonoBehaviour
     // ──────────────────────────────────────
 
     // 목격자 진술
-    private string[] witnessNames = { "은행 직원", "은행 방문객", "청소 동료" };
+    private string[] witnessNames = { "은행 직원", "ATM 손님", "청소 동료" };
     private string[] witnessStatements =
     {
-        "비서가 서류가방을 가슴에 꽉 안고\n화장실 복도에서 장시간 서성이는 것을\n제 눈으로 직접 봤어요!",
-        "수집가가 금고 쪽 복도에서\n두리번거리고 있었어요.\n분명히 봤습니다.",
+        "새벽 1시쯤, 비서가 서류가방을\n가슴에 꽉 안고 금고 쪽 복도를\n서성이는 걸 직접 봤어요!",
+        "밤 11시쯤, 유리문 너머 금고 쪽 복도에서\n수집가가 두리번거리는 걸 봤어요.",
         "청소부가 청소 카트도 없이\n수상한 가방을 들고\n은행 안을 돌아다니고 있었어요."
     };
 
@@ -36,8 +36,8 @@ public class WitnessGame : MonoBehaviour
     private string[] suspectStatements =
     {
         "저는 그날 가게에 있었어요.\n은행에 간 적 없습니다.",
-        "저는 그날 졸음 약을 마셔서\n경비실에서 쓰러져 있었어요.",
-        "저는 화장실에만 있었어요.\n몸이 안 좋아서 나오지 않았습니다.",
+        "그날 밤 누가 준 커피를 마시고\n경비실에서 깜빡 잠들었어요.",
+        "주얼리씨 서류를 가지러 왔다가\n몸이 안 좋아 화장실에만 있었어요.",
         "저는 지하에서 청소했어요.\n위층에는 올라간 적 없어요."
     };
 
@@ -209,19 +209,19 @@ public class WitnessGame : MonoBehaviour
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "은행 직원",
-                text = "그날 저는 은행에서 평소처럼 근무하고 있었어요.",
+                text = "그날 밤 저는 은행에서 야근 중이었어요.",
                 characterSprite = guest1
             });
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "은행 직원",
-                text = "<color=yellow><b>비서가 서류가방을 가슴에 꽉 안고</b></color>\n화장실 복도에서 장시간 서성이는 것을\n제 눈으로 직접 봤어요!",
+                text = "새벽 1시쯤, <color=yellow><b>비서가 서류가방을 가슴에 꽉 안고</b></color>\n금고 쪽 복도를 서성이는 걸 직접 봤어요!",
                 characterSprite = guest1
             });
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "은행 직원",
-                text = "분명히 뭔가 이상했어요.\n평소엔 그런 행동을 하는 사람이 아니었거든요.",
+                text = "주얼리씨도 없는 한밤중에 비서 혼자서요.\n분명히 뭔가 이상했어요.",
                 characterSprite = guest1
             });
         }
@@ -229,20 +229,20 @@ public class WitnessGame : MonoBehaviour
         {
             lines.Add(new DialogueManager.DialogueLine
             {
-                speakerName = "은행 방문객",
-                text = "저는 그날 볼일이 있어서 은행에 들렀어요.",
+                speakerName = "ATM 손님",
+                text = "밤 11시쯤, 24시간 ATM 코너에 들렀어요.",
                 characterSprite = guest2
             });
             lines.Add(new DialogueManager.DialogueLine
             {
-                speakerName = "은행 방문객",
-                text = "<color=yellow><b>수집가가 금고 쪽 복도에서\n두리번거리고 있었어요.</b></color>\n분명히 봤습니다.",
+                speakerName = "ATM 손님",
+                text = "유리문 너머로 <color=yellow><b>수집가가 금고 쪽 복도에서\n두리번거리고 있었어요.</b></color>",
                 characterSprite = guest2
             });
             lines.Add(new DialogueManager.DialogueLine
             {
-                speakerName = "은행 방문객",
-                text = "뭔가 찾는 것처럼 보였어요.\n수상한 느낌이 들었죠.",
+                speakerName = "ATM 손님",
+                text = "누군가를 기다리는 것 같았어요.\n조금 뒤에 밖으로 나가더라고요.",
                 characterSprite = guest2
             });
         }
@@ -290,7 +290,7 @@ public class WitnessGame : MonoBehaviour
         if (suspectName == correctSuspects[currentWitness])
         {
             // 정답
-            resultText.text = $"정답! {suspectName}의 진술과 목격자 진술이 모순됩니다!";
+            resultText.text = $"정답! {suspectName}의 말이 목격 내용과 달라요!";
             resultText.color = Color.green;
 
             // 해당 카드 강조
@@ -301,7 +301,7 @@ public class WitnessGame : MonoBehaviour
         else
         {
             // 오답
-            resultText.text = $"다시 생각해보세요!\n{suspectName}의 진술과 비교해보세요.";
+            resultText.text = $"다시 생각해 보세요.\n{suspectName}의 말과 목격 내용을 비교해 보세요.";
             resultText.color = Color.red;
         }
     }
@@ -355,11 +355,11 @@ public class WitnessGame : MonoBehaviour
     {
         if (collectedStatements.Count == 0)
         {
-            reportText.text = "아직 수집한 진술이 없습니다.\n목격자를 조사해보세요!";
+            reportText.text = "아직 모은 진술이 없어요.\n목격자를 눌러 조사해 보세요!";
         }
         else
         {
-            string report = "=== 수집한 진술 목록 ===\n\n";
+            string report = "";
             foreach (string s in collectedStatements)
                 report += s + "\n";
             reportText.text = report;
