@@ -295,7 +295,7 @@ public class MobileClientUI : MonoBehaviour
 
         if (!result)
         {
-            statusText.text = "연결하지 못했어요. 다시 눌러 주세요.";
+            statusText.text = "연결하지 못했어요.\n다시 눌러 주세요.";
             connecting = false;
             connectButton.interactable = true;
         }
@@ -330,7 +330,7 @@ public class MobileClientUI : MonoBehaviour
                 // 씬 복귀 직후 오는 Stopped는 무시 (connecting=false이고 sceneLoaded=false인 초기 상태)
                 if (connecting && !sceneLoaded)
                 {
-                    statusText.text = "연결에 실패했어요.\nPC와 같은 와이파이인지 확인해 주세요.";
+                    statusText.text = "연결에 실패했어요.\n같은 와이파이인지 확인해 주세요.";
                     Debug.LogError("[Mobile] FishNet 연결 실패/종료");
                     connecting = false;
                     connectButton.interactable = true;

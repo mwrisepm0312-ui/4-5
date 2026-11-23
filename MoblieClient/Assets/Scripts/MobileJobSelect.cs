@@ -209,7 +209,9 @@ public class MobileJobSelect : MonoBehaviour
     {
         jobPopup.SetActive(false);
         pendingJob = "";
-        statusText.text = $"{jobName}은(는) 이미 선택됐어요.\n다른 직업을 골라 주세요.";
+        // 안내는 화면 아래 말풍선으로 (가운데 글자는 카드와 가까워서)
+        statusText.text = "직업을 하나 골라 주세요!";
+        MobileSession.ShowToast($"{jobName}은(는) 이미 선택됐어요.\n다른 직업을 골라 주세요.");
     }
 
     public void OnJobStatusUpdated(string jobName, bool isTaken)
