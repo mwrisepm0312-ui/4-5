@@ -117,6 +117,25 @@ public class MobileLobbyUI : MonoBehaviour
             }
         }
         evidencePopup.SetActive(true);
+
+        // 내 미션을 모두 끝내야 보낼 수 있음
+        UpdateSendAvailability();
+    }
+
+    // 내 직업 미션을 다 끝냈는지에 따라 [증거 보내기] 버튼을 켜고 끔
+    bool UpdateSendAvailability()
+    {
+        var remaining = MissionRules.RemainingMissions(DataManager.Instance);
+        bool ready = remaining.Count == 0;
+        sendButton.interactable = ready;
+
+        if (!ready && sendStatusText != null)
+        {
+            var names = new System.Collections.Generic.List<string>();
+            foreach (string m in remaining) names.Add(MissionRules.DisplayName(m));
+            sendStatusText.text = $"남은 미션: {string.Join(" · ", names)}";
+        }
+        return ready;
     }
 
     void OnSendClicked()
@@ -127,6 +146,7 @@ public class MobileLobbyUI : MonoBehaviour
             if (sendStatusText != null) sendStatusText.text = "보낼 증거가 아직 없어요.";
             return;
         }
+        if (!UpdateSendAvailability()) return;   // 내 미션을 다 끝내야 보낼 수 있음
         var gm = FindFirstObjectByType<GameManager>();
         if (gm != null && gm.IsClientInitialized)
         {

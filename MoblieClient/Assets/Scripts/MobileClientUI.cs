@@ -67,7 +67,10 @@ public class MobileClientUI : MonoBehaviour
         {
             resume = DataManager.Instance.ReconnectPending && !DataManager.Instance.RoundEnded;
             if (!resume)
+            {
                 DataManager.Instance.CollectedEvidences.Clear();
+                DataManager.Instance.ClearedMissions.Clear();
+            }
             DataManager.Instance.ReconnectPending = false;
             DataManager.Instance.RoundEnded = false;
         }
