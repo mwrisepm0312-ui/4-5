@@ -60,9 +60,17 @@ public class MobileClientUI : MonoBehaviour
         sceneLoaded = false;
         foundIP = null;
 
-        // 모바일 증거 초기화
+        // 수사 도중 연결이 끊겨 돌아온 경우에는 모은 증거를 그대로 둠
+        // (한 판이 끝나 돌아온 경우나 처음 켠 경우에만 초기화)
+        bool resume = false;
         if (DataManager.Instance != null)
-            DataManager.Instance.CollectedEvidences.Clear();
+        {
+            resume = DataManager.Instance.ReconnectPending && !DataManager.Instance.RoundEnded;
+            if (!resume)
+                DataManager.Instance.CollectedEvidences.Clear();
+            DataManager.Instance.ReconnectPending = false;
+            DataManager.Instance.RoundEnded = false;
+        }
 
         // 씬의 NetworkManager가 DestroyNewest로 파괴되는 경우 InstanceFinder로 대체
         networkManager = FishNet.InstanceFinder.NetworkManager;
@@ -72,7 +80,9 @@ public class MobileClientUI : MonoBehaviour
             return;
         }
 
-        statusText.text = "[연결]을 눌러 수사에 참여하세요";
+        statusText.text = resume
+            ? "[연결]을 눌러 다시 참여하세요"
+            : "[연결]을 눌러 수사에 참여하세요";
         statusText.gameObject.SetActive(true);
         connectButton.interactable = true;
         connectButton.onClick.AddListener(OnConnectButtonClicked);
@@ -271,6 +281,8 @@ public class MobileClientUI : MonoBehaviour
         }
 
         tugboat.SetPort((ushort)serverPort);
+        // PC와 연락이 15초 끊기면 끊긴 것으로 판단 (기본값은 30분이라 끊긴 줄 모름)
+        tugboat.SetTimeout(15f, false);
         Debug.Log($"[Mobile] Tugboat Port 설정: {serverPort}");
 
         bool result = networkManager.ClientManager.StartConnection(serverIP);

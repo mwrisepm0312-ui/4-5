@@ -15,6 +15,10 @@ public class GameManager : NetworkBehaviour
     private int maxPlayers = 0;
     // 오프닝이 끝나 직업 선택이 열렸는지 (나중에 다시 연결한 휴대폰에도 알려 주기 위해 서버가 기억)
     private bool jobSelectUnlocked = false;
+    // 수사 시간이 끝났는지 (나중에 다시 연결한 휴대폰에도 '수사 끝'을 보여 주기 위해)
+    private bool investigationEnded = false;
+    // 서버가 받은 증거 (휴대폰에 '새 증거 몇 개 도착'을 알려 주기 위해)
+    private readonly HashSet<string> serverEvidences = new HashSet<string>();
 
     // PC에서 수신한 증거 목록
     public static List<string> ReceivedEvidences = new List<string>();
@@ -59,6 +63,9 @@ public class GameManager : NetworkBehaviour
         {
             UpdateJobStatusTargetRpc(sender, job.Key, true);
         }
+
+        if (investigationEnded)
+            InvestigationEndedTargetRpc(sender);
     }
 
     [ServerRpc(RequireOwnership = false)]
@@ -85,7 +92,18 @@ public class GameManager : NetworkBehaviour
         NetworkConnection sender = null)
     {
         Debug.Log($"증거 수신: {evidences.Length}개");
+
+        int newCount = 0;
+        foreach (string evidence in evidences)
+        {
+            if (serverEvidences.Add(evidence)) newCount++;
+        }
+
         ReceiveEvidencesClientRpc(evidences);
+
+        // 보낸 휴대폰에 '도착했어요' 알림
+        if (sender != null)
+            EvidenceArrivedTargetRpc(sender, newCount, serverEvidences.Count);
     }
 
     [ObserversRpc]
@@ -233,6 +251,7 @@ public class GameManager : NetworkBehaviour
     {
         Debug.Log("[GameManager] SendClientToLobbyClientRpc 수신");
 #if UNITY_ANDROID
+        if (DataManager.Instance != null) DataManager.Instance.RoundEnded = true;   // 정상 종료 (끊김 아님)
         UnityEngine.SceneManagement.SceneManager.LoadScene("ClientMobile");
 #endif
     }
@@ -248,6 +267,7 @@ public class GameManager : NetworkBehaviour
     void LoadClientSceneClientRpc()
     {
 #if UNITY_ANDROID
+        if (DataManager.Instance != null) DataManager.Instance.RoundEnded = true;
         UnityEngine.SceneManagement.SceneManager.LoadScene("ClientMobile");
 #endif
     }
@@ -275,4 +295,62 @@ public class GameManager : NetworkBehaviour
             jobSelect.UnlockJobSelect();
 #endif
     }
+
+    // ──────────────────────────────────────
+    // 수사 시간 끝 알림 (PC → 모든 휴대폰)
+    // PC 로비에서 용의자 선택으로 넘어갈 때 서버에서 직접 호출
+    // ──────────────────────────────────────
+    public void NotifyInvestigationEndFromServer()
+    {
+        if (!IsServerStarted) return;
+        investigationEnded = true;
+        InvestigationEndedClientRpc();
+    }
+
+    [ObserversRpc]
+    void InvestigationEndedClientRpc()
+    {
+#if UNITY_ANDROID
+        OnInvestigationEndedMobile();
+#endif
+    }
+
+    // 수사가 끝난 뒤 다시 연결한 휴대폰 1대에게
+    [TargetRpc]
+    void InvestigationEndedTargetRpc(NetworkConnection conn)
+    {
+#if UNITY_ANDROID
+        OnInvestigationEndedMobile();
+#endif
+    }
+
+    // ──────────────────────────────────────
+    // 증거 도착 알림 (PC → 보낸 휴대폰 1대)
+    // ──────────────────────────────────────
+    [TargetRpc]
+    void EvidenceArrivedTargetRpc(
+        NetworkConnection conn, int newCount, int totalCount)
+    {
+#if UNITY_ANDROID
+        string message = newCount > 0
+            ? $"PC에 증거가 도착했어요!\n새 증거 {newCount}개"
+            : "PC에 이미 있는 증거예요.";
+        MobileSession.ShowToast(message);
+
+        var lobby = FindFirstObjectByType<MobileLobbyUI>();
+        if (lobby != null) lobby.OnEvidenceArrived(newCount);
+#endif
+    }
+
+#if UNITY_ANDROID
+    void OnInvestigationEndedMobile()
+    {
+        // 아직 보내지 않은 증거가 있으면 자동으로 PC에 보냄 (빠뜨리지 않도록)
+        var dm = DataManager.Instance;
+        if (dm != null && dm.CollectedEvidences.Count > 0)
+            ShareEvidencesServerRpc(dm.CollectedEvidences.ToArray());
+
+        MobileSession.ShowBlocking("수사 끝!", "PC 화면을 봐 주세요");
+    }
+#endif
 }

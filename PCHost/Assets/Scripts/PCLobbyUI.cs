@@ -145,6 +145,11 @@ public class PCLobbyUI : MonoBehaviour
     void GoToSuspectScene()
     {
         timerRunning = false;
+
+        // 휴대폰에 '수사 끝! PC 화면을 봐 주세요' 표시 + 아직 안 보낸 증거 자동 전송
+        var gm = FindFirstObjectByType<GameManager>();
+        if (gm != null) gm.NotifyInvestigationEndFromServer();
+
         SceneManager.LoadScene("SuspectScene");
     }
 

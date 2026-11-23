@@ -1,9 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using System.Collections.Generic;
-using TMPro;
-using DG.Tweening;
 using DigitsNFCToolkit;
 
 public class NFCManager : MonoBehaviour
@@ -127,80 +124,14 @@ public class NFCManager : MonoBehaviour
     }
 
     // ──────────────────────────────────────
-    // 화면 아래 안내 말풍선 (잘못 찍은 카드 안내)
-    // 씬을 고치지 않고 코드에서 만들어 씀
+    // 화면 아래 안내 말풍선 + 진동 (잘못 찍은 카드 안내)
     // ──────────────────────────────────────
-    private CanvasGroup toastGroup;
-    private TextMeshProUGUI toastText;
-    private Sequence toastSeq;
-
     void ShowToast(string message)
     {
 #if UNITY_ANDROID && !UNITY_EDITOR
         Handheld.Vibrate();
 #endif
-        if (toastGroup == null && !CreateToast()) return;
-
-        toastText.text = message;
-        toastGroup.transform.SetAsLastSibling();
-
-        toastSeq?.Kill();
-        toastGroup.alpha = 0f;
-        toastGroup.transform.localScale = Vector3.one * 0.9f;
-        toastSeq = DOTween.Sequence()
-            .Append(toastGroup.DOFade(1f, 0.2f))
-            .Join(toastGroup.transform.DOScale(1f, 0.2f).SetEase(Ease.OutBack))
-            .AppendInterval(2.5f)
-            .Append(toastGroup.DOFade(0f, 0.4f));
-    }
-
-    bool CreateToast()
-    {
-        // 이 씬(로비)의 최상위 캔버스 중 가장 앞에 그려지는 것에 붙임
-        Canvas canvas = null;
-        foreach (var c in FindObjectsByType<Canvas>(FindObjectsSortMode.None))
-        {
-            if (!c.isRootCanvas || c.gameObject.scene != gameObject.scene || !c.isActiveAndEnabled) continue;
-            if (canvas == null || c.sortingOrder > canvas.sortingOrder) canvas = c;
-        }
-        if (canvas == null) return false;
-
-        var panel = new GameObject("NFCToast", typeof(RectTransform), typeof(CanvasGroup), typeof(Image));
-        var rt = (RectTransform)panel.transform;
-        rt.SetParent(canvas.transform, false);
-        rt.anchorMin = rt.anchorMax = new Vector2(0.5f, 0f);
-        rt.pivot = new Vector2(0.5f, 0f);
-        rt.anchoredPosition = new Vector2(0f, 150f);
-        rt.sizeDelta = new Vector2(1100f, 220f);
-
-        var bg = panel.GetComponent<Image>();
-        bg.color = new Color32(0x1A, 0x27, 0x51, 0xF2);   // 남색 판 (팝업과 같은 색)
-        bg.raycastTarget = false;
-
-        toastGroup = panel.GetComponent<CanvasGroup>();
-        toastGroup.alpha = 0f;
-        toastGroup.blocksRaycasts = false;
-        toastGroup.interactable = false;
-
-        var textGo = new GameObject("Text", typeof(RectTransform), typeof(TextMeshProUGUI));
-        var trt = (RectTransform)textGo.transform;
-        trt.SetParent(rt, false);
-        trt.anchorMin = Vector2.zero;
-        trt.anchorMax = Vector2.one;
-        trt.offsetMin = new Vector2(30f, 20f);
-        trt.offsetMax = new Vector2(-30f, -20f);
-
-        toastText = textGo.GetComponent<TextMeshProUGUI>();
-        var sample = canvas.GetComponentInChildren<TextMeshProUGUI>(true);   // 씬에서 쓰는 글꼴을 그대로 사용
-        if (sample != null && sample != toastText) toastText.font = sample.font;
-        toastText.fontSize = 56f;
-        toastText.enableAutoSizing = true;   // 혹시 길어져도 판 밖으로 나가지 않게
-        toastText.fontSizeMin = 36f;
-        toastText.fontSizeMax = 56f;
-        toastText.alignment = TextAlignmentOptions.Center;
-        toastText.color = Color.white;
-        toastText.raycastTarget = false;
-        return true;
+        MobileSession.ShowToast(message);
     }
 
     // ──────────────────────────────────────
@@ -263,7 +194,6 @@ public class NFCManager : MonoBehaviour
     // ──────────────────────────────────────
     void OnDestroy()
     {
-        toastSeq?.Kill();
         if (nativeNFC != null)
         {
             nativeNFC.NFCTagDetected -= HandleNFCTag;

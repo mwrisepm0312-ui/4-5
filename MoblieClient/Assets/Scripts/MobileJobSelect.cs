@@ -132,8 +132,25 @@ public class MobileJobSelect : MonoBehaviour
             pendingJob = "";
         });
 
-        var gm = FindFirstObjectByType<GameManager>();
-        gm?.RequestJobStatusServerRpc();
+        StartCoroutine(RequestStatusWhenReady());
+    }
+
+    // 다시 연결한 직후에는 GameManager가 아직 준비 중일 수 있어서, 준비될 때까지 기다렸다가 상태를 요청 (M-64)
+    System.Collections.IEnumerator RequestStatusWhenReady()
+    {
+        float waited = 0f;
+        while (waited < 10f)
+        {
+            var gm = FindFirstObjectByType<GameManager>();
+            if (gm != null && gm.IsClientInitialized)
+            {
+                gm.RequestJobStatusServerRpc();
+                yield break;
+            }
+            waited += 0.25f;
+            yield return new WaitForSeconds(0.25f);
+        }
+        Debug.LogWarning("[JobSelect] GameManager 준비를 기다리다 시간이 지남");
     }
 
     void OnJobCardClicked(string jobName, string desc, string imagePath)
