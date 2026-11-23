@@ -189,6 +189,7 @@ public class WitnessGame : MonoBehaviour
             // 대화 완료 후 기존 팝업 열기
             witnessNameText.text = $"목격자: {witnessNames[index]}";
             witnessStatementText.text = $"\"{witnessStatements[index]}\"";
+            ShowResult("", Color.white);   // 결과 글자 지우고 안내 문구 다시 보이기
             ResetCardColors();
             statementPopup.SetActive(true);
         });
@@ -292,8 +293,7 @@ public class WitnessGame : MonoBehaviour
         if (suspectName == correctSuspects[currentWitness])
         {
             // 정답
-            resultText.text = $"정답! {suspectName}의 말이 목격 내용과 달라요!";
-            resultText.color = Color.green;
+            ShowResult($"정답! {suspectName}의 말이 목격 내용과 달라요!", CorrectColor);
 
             // 해당 카드 강조
             HighlightCorrectCard(suspectName);
@@ -304,8 +304,7 @@ public class WitnessGame : MonoBehaviour
         else
         {
             // 오답
-            resultText.text = $"다시 생각해 보세요.\n{suspectName}의 말과 목격 내용을 비교해 보세요.";
-            resultText.color = Color.red;
+            ShowResult($"다시 생각해 보세요.\n{suspectName}의 말과 목격 내용을 비교해 보세요.", WrongColor);
         }
     }
 
@@ -375,6 +374,28 @@ public class WitnessGame : MonoBehaviour
     // ──────────────────────────────────────
     // 카드 색상 초기화
     // ──────────────────────────────────────
+    // ──────────────────────────────────────
+    // 결과 글자 (M-71)
+    // 결과는 안내 문구("목격 내용과 말이 다른 용의자는?") 자리에 나옴
+    // → 결과가 보이는 동안 안내 문구를 숨겨 목격자 이름·진술과 겹치지 않게
+    // ──────────────────────────────────────
+    private static readonly Color CorrectColor = new Color(0.45f, 1f, 0.55f);   // 남색 팝업 위에서 잘 보이는 밝은 초록
+    private static readonly Color WrongColor = new Color(1f, 0.55f, 0.55f);     // 남색 팝업 위에서 잘 보이는 밝은 빨강
+    private GameObject guideLabel;
+
+    void ShowResult(string message, Color color)
+    {
+        resultText.text = message;
+        resultText.color = color;
+
+        if (guideLabel == null && statementPopup != null)
+        {
+            var t = statementPopup.transform.Find("GuideLabel");
+            if (t != null) guideLabel = t.gameObject;
+        }
+        if (guideLabel != null) guideLabel.SetActive(string.IsNullOrEmpty(message));
+    }
+
     void ResetCardColors()
     {
         Color defaultColor = new Color(0.1f, 0.18f, 0.37f); // 네이비

@@ -13,6 +13,7 @@ using FishNet.Transporting;
 //  1) 게임 중 휴대폰 화면이 꺼지지 않게 (M-63)
 //  2) 수사 도중 연결이 끊기면 안내 후 연결 화면으로 이동, 모은 증거는 유지 (M-62)
 //  3) 화면 안내: 아래쪽 말풍선(ShowToast) / 화면 전체 안내(ShowBlocking)
+//  4) 60fps로 실행 (M-68)
 // ──────────────────────────────────────
 public class MobileSession : MonoBehaviour
 {
@@ -25,6 +26,9 @@ public class MobileSession : MonoBehaviour
     {
         // 게임 중에는 화면이 저절로 꺼지지 않게 (꺼지면 연결이 끊길 수 있음)
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
+
+        // 안드로이드 기본값은 30fps라 애니메이션이 뚝뚝 끊겨 보임 → 60fps (M-68)
+        Application.targetFrameRate = 60;
 
         if (instance != null) return;
         var go = new GameObject("MobileSession");
