@@ -19,6 +19,8 @@
 | 기타 | DOTween Pro, TextMeshPro(Maplestory Bold SDF), DigitsNFCToolkit(모바일) |
 | 앱 이름 | 두 프로젝트 모두 `피스메이커` (Android 패키지 `com.police.mobile`은 그대로) |
 | 앱 아이콘 | `Images/앱 아이콘.png` (남색 바탕 + 금색 경찰 배지 + 돋보기), Player Settings 기본 아이콘 |
+| 시작 화면 | 스플래시는 켜 둠, "Made with Unity" 로고만 끔 (`m_ShowUnitySplashLogo: 0`, 두 프로젝트) |
+| 안드로이드 진입점 | GameActivity (`UnityPlayerGameActivity`). **이 설정으로 NFC 정상 동작 확인됨** (2026-11-24 사용자 확인) → 바꾸지 않음 |
 | 연결 시간 제한 | 서버 20초(`NetworkSetup.cs`), 휴대폰 15초(`MobileClientUI.cs`) |
 | 캔버스 기준 | 1920×1080, Match 0.5 / 테스트 기기 2400×1080 |
 | 입력 | PC = Input System, 모바일 = Both(옛 Input 코드 있음) |
@@ -99,6 +101,7 @@
 | P-64 | 용의자 화면 증거 칸 글자 280×55 → 360×100, 자동 크기 24~35 |
 | P-65 | `PeaceMakerTextPolish`가 직접 조정한 글자 크기·칸·위치를 되돌리던 문제 → 문구만 바꾸게 |
 | M-67 | 앱 아이콘 (두 프로젝트) |
+| — | 시작 화면 "Made with Unity" 로고 끄기 (두 프로젝트) |
 | — | `PeaceMakerFontFreeze.cs`: 게임 글자만 미리 넣고 폰트를 고정(Static) → 실행할 때마다 폰트 파일이 바뀌지 않음. **사용자가 메뉴를 실행하고 커밋해야 적용** |
 
 ### PR #10
