@@ -70,6 +70,8 @@ public class MobileClientUI : MonoBehaviour
             {
                 DataManager.Instance.CollectedEvidences.Clear();
                 DataManager.Instance.ClearedMissions.Clear();
+                // 새 판(다른 아이들)이므로 로비 튜토리얼을 다시 보여 줌 (M-66)
+                DataManager.Instance.TutorialShown = false;
             }
             DataManager.Instance.ReconnectPending = false;
             DataManager.Instance.RoundEnded = false;

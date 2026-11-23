@@ -254,8 +254,13 @@ public static class PeaceMakerTextPolish
         if (scene.name == "PC_LobbyScene") CaseMemo(scene);
     }
 
+    // 2026-11-23 이후 글자 크기·칸·위치는 팀이 Unity에서 직접 조정한 값이 기준.
+    // 이 메뉴를 다시 실행해도 그 값을 되돌리지 않도록 문구만 바꿈 (표의 크기·위치 값은 참고용으로 남겨 둠)
+    private static readonly bool KeepManualLayout = true;
+
     private static void Edit(TMP_Text t, E e)
     {
+        if (KeepManualLayout) { e.size = 0; e.w = 0; e.h = 0; e.x = float.NaN; e.y = float.NaN; }
         var rt = t.rectTransform;
         var parts = new List<string>();
         if (e.text != null && t.text != e.text) parts.Add($"'{Short(t.text)}' → '{Short(e.text)}'");

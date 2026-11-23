@@ -59,7 +59,7 @@ public class PCLobbyUI : MonoBehaviour
                 "수집가",
                 45,
                 "보석 수집가",
-                "레드 다이아 반지를 사겠다고\n주얼리씨에게 여러 번 졸랐음.\n사건 당일 밤 금고 앞 CCTV에 찍힘.",
+                "레드 다이아 반지를 사겠다고\n주얼리씨에게 여러 번 졸랐음.\n그날 밤 금고 앞 CCTV에 찍힘.",
                 Resources.Load<Sprite>("Suspects/suspect_1")
             ),
             new SuspectData(
@@ -72,15 +72,15 @@ public class PCLobbyUI : MonoBehaviour
             new SuspectData(
                 "비서",
                 35,
-                "반지 주인 주얼리씨의 비서",
-                "15년째 주얼리씨의 일을 대신 처리함.\n주얼리씨 대신 VIP 금고를 열 수 있는\n대리인 카드를 가지고 있음.",
+                "주얼리씨의 비서",
+                "15년째 주얼리씨의 비서로 일함.\nVIP 금고를 대신 열 수 있는\n대리인 카드를 가지고 있음.",
                 Resources.Load<Sprite>("Suspects/suspect_3")
             ),
             new SuspectData(
                 "청소부",
                 52,
                 "은행 청소부",
-                "지하에서 청소 중이었다고 진술.\n수상한 가방을 들고 다니는 모습이 목격됨.",
+                "지하에서 청소 중이었다고 진술.\n수상한 가방을 든 모습이 목격됨.",
                 Resources.Load<Sprite>("Suspects/suspect_4")
             ),
         };
