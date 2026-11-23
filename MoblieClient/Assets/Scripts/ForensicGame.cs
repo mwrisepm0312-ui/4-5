@@ -575,6 +575,10 @@ public class ForensicGame : MonoBehaviour
 
     IEnumerator ShowClearPopup()
     {
+        // 미션 완료 기록 (증거 보내기 조건)
+        if (DataManager.Instance != null)
+            DataManager.Instance.ClearedMissions.Add(MissionRules.Forensic);
+
         clearTitleText.SetActive(true);
         clearDescText.SetActive(true);
         countdownText.gameObject.SetActive(true);

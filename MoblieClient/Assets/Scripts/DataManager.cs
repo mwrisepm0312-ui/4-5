@@ -21,6 +21,10 @@ public class DataManager : MonoBehaviour
 
     public bool TutorialShown { get; set; } = false;
 
+    // 끝낸 미션 (MissionRules.Forensic / CCTV / Witness / Cyber)
+    public HashSet<string> ClearedMissions { get; set; }
+        = new HashSet<string>();
+
     // 수사 도중 연결이 끊겨 연결 화면으로 돌아온 경우 (모은 증거를 지우지 않음)
     public bool ReconnectPending { get; set; } = false;
 
