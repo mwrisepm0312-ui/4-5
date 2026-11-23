@@ -34,6 +34,9 @@ public class MobileClientUI : MonoBehaviour
     private Thread listenThread;
 
     private volatile bool isSearching = false;
+    private volatile bool searchFailed = false;   // 찾기가 오류로 끝나면 버튼을 다시 켜기 위해
+    private float searchStartTime;
+    private bool searchHintShown = false;
     private volatile bool stopListening = false;
 
     private string foundIP = null;
@@ -162,6 +165,9 @@ public class MobileClientUI : MonoBehaviour
 
         connectButton.interactable = false;
         statusText.text = "PC를 찾는 중...";
+        searchFailed = false;
+        searchStartTime = Time.time;
+        searchHintShown = false;
 
         listenThread = new Thread(ListenForServer);
         listenThread.IsBackground = true;
@@ -210,6 +216,8 @@ public class MobileClientUI : MonoBehaviour
         }
         finally
         {
+            if (string.IsNullOrEmpty(foundIP) && !stopListening)
+                searchFailed = true;
             isSearching = false;
             udpClient?.Close();
             udpClient = null;
@@ -218,6 +226,24 @@ public class MobileClientUI : MonoBehaviour
 
     void Update()
     {
+        // 10초가 지나도 PC를 못 찾으면 와이파이를 확인하라고 안내 (계속 찾는 중)
+        if (isSearching && !searchHintShown && Time.time - searchStartTime > 10f)
+        {
+            searchHintShown = true;
+            statusText.text = "와이파이를 확인해 주세요";
+        }
+
+        // 찾기가 오류로 끝났으면 다시 누를 수 있게
+        if (searchFailed)
+        {
+            searchFailed = false;
+            if (!connecting)
+            {
+                statusText.text = "다시 눌러 주세요";
+                connectButton.interactable = true;
+            }
+        }
+
         if (!string.IsNullOrEmpty(foundIP) && !connecting)
         {
             string serverIP = foundIP;

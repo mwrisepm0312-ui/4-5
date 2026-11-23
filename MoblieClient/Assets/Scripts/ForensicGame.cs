@@ -171,10 +171,23 @@ public class ForensicGame : MonoBehaviour
         AnimateExclamationBtn(exclamationBtn3, 0.4f);
     }
 
+    // ! 버튼의 원래 높이 (다시 켤 때마다 위로 밀려 올라가지 않도록 처음 값을 기억)
+    private readonly System.Collections.Generic.Dictionary<Transform, float> exclamationBaseY
+        = new System.Collections.Generic.Dictionary<Transform, float>();
+
     void AnimateExclamationBtn(Button btn, float delay)
     {
         Transform t = btn.transform;
-        float baseY = t.localPosition.y;
+        if (!exclamationBaseY.TryGetValue(t, out float baseY))
+        {
+            baseY = t.localPosition.y;
+            exclamationBaseY[t] = baseY;
+        }
+
+        // 남아 있던 흔들림을 끄고 제자리·원래 크기에서 다시 시작
+        DOTween.Kill(t);
+        t.localPosition = new Vector3(t.localPosition.x, baseY, t.localPosition.z);
+        t.localScale = Vector3.one;
 
         t.DOLocalMoveY(baseY + 15f, 0.6f)
             .SetEase(Ease.InOutSine)

@@ -104,6 +104,7 @@ public class WitnessGame : MonoBehaviour
     // 상태 변수
     // ──────────────────────────────────────
     private int currentWitness = -1;
+    private bool isAnswering = false;   // 정답 처리 중(1.5초)에는 중복 터치·닫기를 막음
     private List<bool> witnessCleared = new List<bool> { false, false, false };
     private List<string> collectedStatements = new List<string>();
 
@@ -276,6 +277,7 @@ public class WitnessGame : MonoBehaviour
     // ──────────────────────────────────────
     void OnClosePopup()
     {
+        if (isAnswering) return;
         statementPopup.SetActive(false);
         currentWitness = -1;
     }
@@ -285,7 +287,7 @@ public class WitnessGame : MonoBehaviour
     // ──────────────────────────────────────
     void OnSuspectSelected(string suspectName)
     {
-        if (currentWitness < 0) return;
+        if (currentWitness < 0 || isAnswering) return;
 
         if (suspectName == correctSuspects[currentWitness])
         {
@@ -296,7 +298,8 @@ public class WitnessGame : MonoBehaviour
             // 해당 카드 강조
             HighlightCorrectCard(suspectName);
 
-            StartCoroutine(EvidenceObtained());
+            isAnswering = true;
+            StartCoroutine(EvidenceObtained(currentWitness));
         }
         else
         {
@@ -309,9 +312,10 @@ public class WitnessGame : MonoBehaviour
     // ──────────────────────────────────────
     // 증거 획득
     // ──────────────────────────────────────
-    IEnumerator EvidenceObtained()
+    IEnumerator EvidenceObtained(int witness)
     {
         yield return new WaitForSeconds(1.5f);
+        currentWitness = witness;   // 기다리는 동안 값이 바뀌어도 처음 고른 목격자로 처리
 
         // 증거 저장
         string evidence = evidenceNames[currentWitness];
@@ -340,6 +344,7 @@ public class WitnessGame : MonoBehaviour
 
         statementPopup.SetActive(false);
         currentWitness = -1;
+        isAnswering = false;
 
         // 3개 완료 시 미션 완료
         if (witnessCleared[0] && witnessCleared[1] && witnessCleared[2])

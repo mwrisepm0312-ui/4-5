@@ -90,18 +90,8 @@ public class WaitingSceneUI : MonoBehaviour
 
     string GetLocalIP()
     {
-        try
-        {
-            var host = System.Net.Dns.GetHostEntry(System.Net.Dns.GetHostName());
-            foreach (var ip in host.AddressList)
-            {
-                if (ip.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork
-                    && ip.ToString().StartsWith("192.168"))
-                    return ip.ToString();
-            }
-            return "IP 없음";
-        }
-        catch { return "IP 없음"; }
+        // 192.168 / 10 / 172.16~31 공유기 주소를 모두 찾음
+        return LanAddress.GetLocalIP() ?? "IP 없음";
     }
 
     void OnDestroy()

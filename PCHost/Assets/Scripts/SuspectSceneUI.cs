@@ -224,8 +224,8 @@ public class SuspectSceneUI : MonoBehaviour
         slotText1.text = selectedEvidences[0] ?? EmptySlot;
         slotText2.text = selectedEvidences[1] ?? EmptySlot;
         slotText3.text = selectedEvidences[2] ?? EmptySlot;
-        slotText4.text = selectedEvidences[3] ?? "";
-        slotText5.text = selectedEvidences[4] ?? "";
+        slotText4.text = selectedEvidences[3] ?? EmptySlot;
+        slotText5.text = selectedEvidences[4] ?? EmptySlot;
     }
 
     void ClearSlots()
