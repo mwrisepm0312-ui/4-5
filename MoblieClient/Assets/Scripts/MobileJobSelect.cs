@@ -64,23 +64,25 @@ public class MobileJobSelect : MonoBehaviour
     private string[] jobs3 = { "수사관1", "수사관2", "수사관3" };
     private string[] jobs4 = { "현장감식관", "CCTV분석관", "목격자조사관", "사이버수사관" };
 
+    // 2인: 수사관1 = 현장·CCTV 카드, 수사관2 = 목격자·사이버 카드 (NFCManager 허용 규칙과 같게)
     private string[] desc2 = {
-        "현장과 디지털 증거를 분석해요",
-        "목격자 진술과 CCTV 영상을 분석해요"
+        "현장 지문과 CCTV 영상을 분석해요",
+        "목격자 진술과 디지털 증거를 분석해요"
     };
+    // 3인: 각자 카드 1장 + 사이버 카드는 모두 함께 사용
     private string[] desc3 = {
-        "현장과 디지털 증거를 분석해요",
-        "CCTV로 용의자의 동선을 추적해요",
-        "목격자 진술에서 모순을 찾아요"
+        "현장 지문과 디지털 증거를 분석해요",
+        "CCTV 영상과 디지털 증거를 분석해요",
+        "목격자 진술과 디지털 증거를 분석해요"
     };
     private string[] desc4 = {
-        "현장에서 지문을 채취하고 AFIS로 주인을 찾아요",
+        "지문을 채취해 AFIS로 주인을 찾아요",   // 한 줄(600px)에 들어가도록 줄임
         "CCTV로 용의자의 동선을 추적해요",
         "목격자 진술에서 모순을 찾아요",
         "지워진 파일을 복원해 증거를 찾아요"
     };
 
-    private string[] images2 = { "Jobs/수사관1", "Jobs/수사관2_2인" };   // 2인용 두 번째 카드 그림(목격자+CCTV)과 팝업 그림을 맞춤
+    private string[] images2 = { "Jobs/수사관1_2인", "Jobs/수사관2_2인" };   // 2인용 그림: 현장+CCTV / 목격자+사이버
     private string[] images3 = { "Jobs/수사관1", "Jobs/수사관2", "Jobs/수사관3" };
     private string[] images4 = { "Jobs/현장감식관", "Jobs/CCTV분석관", "Jobs/목격자조사관", "Jobs/사이버수사관" };
 

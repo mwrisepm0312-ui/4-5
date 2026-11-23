@@ -87,7 +87,7 @@ public class ForensicGame : MonoBehaviour
     private string[] evidenceNames = { "금고 지문", "바닥 지문", "데스크 지문" };
     // 일치했을 때 한 줄 설명 (왜 중요한 지문인지)
     private string[] matchHints = {
-        "화장실에만 있었다던 비서가 금고 손잡이를 만졌어요!",
+        "집에 갔다던 비서가 금고 손잡이를 만졌어요!",
         "바닥을 청소하며 남긴 지문이에요.",
         "경비 데스크에서 근무하며 남긴 지문이에요."
     };

@@ -17,7 +17,7 @@ public class WitnessGame : MonoBehaviour
     {
         "새벽 1시쯤, 비서가 서류가방을\n가슴에 꽉 안고 금고 쪽 복도를\n서성이는 걸 직접 봤어요!",
         "밤 11시쯤, 유리문 너머 금고 쪽 복도에서\n수집가가 두리번거리는 걸 봤어요.",
-        "청소부가 청소 카트도 없이\n수상한 가방을 들고\n은행 안을 돌아다니고 있었어요."
+        "청소부가 청소 카트도 없이\n수상한 가방을 들고\n1층 로비를 돌아다니고 있었어요."
     };
 
     // 각 목격자의 정답 용의자
@@ -37,7 +37,7 @@ public class WitnessGame : MonoBehaviour
     {
         "저는 그날 가게에 있었어요.\n은행에 간 적 없습니다.",
         "그날 밤 누가 준 커피를 마시고\n경비실에서 깜빡 잠들었어요.",
-        "주얼리씨 서류를 가지러 왔다가\n몸이 안 좋아 화장실에만 있었어요.",
+        "주얼리씨 서류만 챙겨서\n밤 10시에 집에 갔어요.",
         "저는 지하에서 청소했어요.\n위층에는 올라간 적 없어요."
     };
 
@@ -257,7 +257,7 @@ public class WitnessGame : MonoBehaviour
             lines.Add(new DialogueManager.DialogueLine
             {
                 speakerName = "청소 동료",
-                text = "<color=yellow><b>청소부가 청소 카트도 없이\n수상한 가방을 들고</b></color>\n은행 안을 돌아다니고 있었어요.",
+                text = "<color=yellow><b>청소부가 청소 카트도 없이\n수상한 가방을 들고</b></color>\n1층 로비를 돌아다니고 있었어요.",
                 characterSprite = guest3
             });
             lines.Add(new DialogueManager.DialogueLine

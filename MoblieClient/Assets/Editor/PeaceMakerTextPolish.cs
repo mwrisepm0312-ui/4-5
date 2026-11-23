@@ -111,7 +111,7 @@ public static class PeaceMakerTextPolish
         new E("CyberScene", "GuidePopup/GuideTitleText", "사이버 수사 미션"),
         new E("CyberScene", "GuidePopup/GuideDescText", "지워진 파일 3개를 복원하세요\n파일마다 복원 방법이 달라요\n복원한 파일에서 증거를 찾으세요"),
         new E("CyberScene", "ScanTutorial/GuideTitleText", "1. 이메일 복구"),
-        new E("CyberScene", "ScanTutorial/GuideDescText", "수집가가 범행 직후 이메일을 지웠어요.\n\n화면을 드래그해 숨은 데이터 조각 5개를\n모두 찾아 보세요!"),
+        new E("CyberScene", "ScanTutorial/GuideDescText", "수집가가 사건 직후 이메일을 지웠어요.\n\n화면을 드래그해 숨은 데이터 조각 5개를\n모두 찾아 보세요!"),
         new E("CyberScene", "SliderTutorial/GuideTitleText", "2. 휴대폰 복구"),
         new E("CyberScene", "SliderTutorial/GuideDescText", "경비원의 망가진 휴대폰을 찾았어요.\n\n오른쪽 막대 3개를 조절해\n휴대폰 화면을 되살려 보세요!"),
         new E("CyberScene", "KeywordTutorial/GuideTitleText", "3. 검색 기록 분석"),
@@ -134,7 +134,7 @@ public static class PeaceMakerTextPolish
         { "ArrestScene", new[] {
             "범인 검거 성공!\n모두 고생하셨습니다!",
             "사건을 해결한 여러분은 진정한 경찰입니다!",
-            "태블릿을 반납해 주세요. 감사합니다." } },
+            "휴대폰을 반납해 주세요. 감사합니다." } },
         { "FailScene", new[] { "범인을 찾지 못했습니다...", "수사는 미궁에 빠지고, 범인은 달아났습니다.", "금고를 열 수 있었던 사람은 누구였을까요?\n다시 조사해서 꼭 범인을 잡아 주세요!" } },
     };
 
