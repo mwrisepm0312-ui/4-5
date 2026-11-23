@@ -172,8 +172,10 @@ public class DialogueManager : MonoBehaviour
 
         dialogueText.text = fullText;
         dialogueText.maxVisibleCharacters = 0;
+        dialogueText.ForceMeshUpdate();   // 글자 수(characterCount)를 새 문장 기준으로 바로 계산
 
-        while (visibleCount < dialogueText.textInfo.characterCount)
+        int total = dialogueText.textInfo.characterCount;
+        while (visibleCount < total)
         {
             visibleCount++;
             dialogueText.maxVisibleCharacters = visibleCount;

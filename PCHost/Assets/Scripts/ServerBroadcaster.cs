@@ -38,9 +38,18 @@ public class ServerBroadcaster : MonoBehaviour
             string message = $"FISHNET_SERVER:{fishnetPort}";
             byte[] data = Encoding.UTF8.GetBytes(message);
 
+            // 공유기에 따라 서브넷 브로드캐스트가 막히는 경우를 대비해 전체 브로드캐스트도 함께 보냄
+            IPEndPoint allEndPoint = new IPEndPoint(IPAddress.Broadcast, broadcastPort);
+            bool sendAll = broadcastIP != "255.255.255.255";
+
             while (isRunning)
             {
                 udpClient.Send(data, data.Length, endPoint);
+                if (sendAll)
+                {
+                    try { udpClient.Send(data, data.Length, allEndPoint); }
+                    catch (SocketException) { sendAll = false; }   // 허용 안 되는 환경이면 그만 보냄
+                }
                 Thread.Sleep(1000);
             }
         }
@@ -50,36 +59,10 @@ public class ServerBroadcaster : MonoBehaviour
         }
     }
 
+    // 같은 공유기 안 휴대폰에게 보내는 주소 (192.168 / 10 / 172.16~31 모두 지원)
     string GetSubnetBroadcast()
     {
-        try
-        {
-            foreach (var ni in System.Net.NetworkInformation.NetworkInterface.GetAllNetworkInterfaces())
-            {
-                foreach (var addr in ni.GetIPProperties().UnicastAddresses)
-                {
-                    if (addr.Address.AddressFamily == AddressFamily.InterNetwork)
-                    {
-                        string ip = addr.Address.ToString();
-                        if (ip.StartsWith("192.168"))
-                        {
-                            // 예: 192.168.0.2 + 마스크 255.255.255.0 → 192.168.0.255
-                            byte[] ipBytes = addr.Address.GetAddressBytes();
-                            byte[] maskBytes = addr.IPv4Mask.GetAddressBytes();
-                            byte[] broadcastBytes = new byte[4];
-                            for (int i = 0; i < 4; i++)
-                                broadcastBytes[i] = (byte)(ipBytes[i] | ~maskBytes[i]);
-                            return new IPAddress(broadcastBytes).ToString();
-                        }
-                    }
-                }
-            }
-        }
-        catch (System.Exception e)
-        {
-            Debug.LogError($"[Server] GetSubnetBroadcast 오류: {e.Message}");
-        }
-        return "192.168.0.255"; // 폴백
+        return LanAddress.GetBroadcastIP();
     }
 
     void OnDestroy()

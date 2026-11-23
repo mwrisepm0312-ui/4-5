@@ -91,15 +91,26 @@ public class MobileJobSelect : MonoBehaviour
         if (Instance == null) Instance = this;
     }
 
+    // 씬을 떠나면 비워 둠 (다른 씬에서 사라진 화면을 건드리지 않도록)
+    void OnDestroy()
+    {
+        if (Instance == this) Instance = null;
+    }
+
+    // 인원 수에 맞는 카드 묶음만 보이게 (씬을 다시 불러오지 않고 바꿀 때도 사용)
+    public void ApplyMaxPlayers(int maxPlayers)
+    {
+        jobGrid2.SetActive(maxPlayers == 2);
+        jobGrid3.SetActive(maxPlayers == 3);
+        jobGrid4.SetActive(maxPlayers == 4);
+    }
+
     void Start()
     {
         jobPopup.SetActive(false);
         statusText.text = "PC 화면에서 오프닝이 진행 중이에요.\n잠시만 기다려 주세요!";
 
-        int maxPlayers = DataManager.Instance.MaxPlayers;
-        jobGrid2.SetActive(maxPlayers == 2);
-        jobGrid3.SetActive(maxPlayers == 3);
-        jobGrid4.SetActive(maxPlayers == 4);
+        ApplyMaxPlayers(DataManager.Instance.MaxPlayers);
 
         jobCard2_1.onClick.AddListener(() => OnJobCardClicked(jobs2[0], desc2[0], images2[0]));
         jobCard2_2.onClick.AddListener(() => OnJobCardClicked(jobs2[1], desc2[1], images2[1]));
@@ -163,6 +174,7 @@ public class MobileJobSelect : MonoBehaviour
 
     public void UnlockJobSelect()
     {
+        if (!isLocked) return;   // 이미 열렸으면 카드 애니메이션을 다시 틀지 않음
         isLocked = false;
         statusText.text = "직업을 하나 골라 주세요!";
         DOTween.Restart("cardDrop");

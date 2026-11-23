@@ -13,6 +13,8 @@ public class GameManager : NetworkBehaviour
     private Dictionary<int, string> clientJobs
         = new Dictionary<int, string>();
     private int maxPlayers = 0;
+    // 오프닝이 끝나 직업 선택이 열렸는지 (나중에 다시 연결한 휴대폰에도 알려 주기 위해 서버가 기억)
+    private bool jobSelectUnlocked = false;
 
     // PC에서 수신한 증거 목록
     public static List<string> ReceivedEvidences = new List<string>();
@@ -50,6 +52,9 @@ public class GameManager : NetworkBehaviour
     public void RequestJobStatusServerRpc(
         NetworkConnection sender = null)
     {
+        // 인원 수·잠금 상태를 먼저 보내고, 그다음 이미 선택된 직업을 보냄 (순서 유지)
+        SyncLobbyStateTargetRpc(sender, maxPlayers, jobSelectUnlocked);
+
         foreach (var job in selectedJobs)
         {
             UpdateJobStatusTargetRpc(sender, job.Key, true);
@@ -115,7 +120,13 @@ public class GameManager : NetworkBehaviour
     {
 #if UNITY_ANDROID
         DataManager.Instance.MaxPlayers = count;
-        SceneTransition.Load("JobSelectScene");
+
+        // 이미 직업 선택 화면이면 다시 불러오지 않고 카드 배치만 바꿈 (화면 깜빡임 방지)
+        var jobSelect = MobileJobSelect.Instance;
+        if (jobSelect != null)
+            jobSelect.ApplyMaxPlayers(count);
+        else
+            SceneTransition.Load("JobSelectScene");
 #endif
     }
 
@@ -195,6 +206,7 @@ public class GameManager : NetworkBehaviour
     public void UnlockJobSelectServerRpc(
         NetworkConnection sender = null)
     {
+        jobSelectUnlocked = true;
         UnlockJobSelectClientRpc();
     }
 
@@ -237,6 +249,30 @@ public class GameManager : NetworkBehaviour
     {
 #if UNITY_ANDROID
         UnityEngine.SceneManagement.SceneManager.LoadScene("ClientMobile");
+#endif
+    }
+
+    // ──────────────────────────────────────
+    // 직업 선택 화면 상태 맞추기 (서버 → 요청한 휴대폰 1대)
+    // 수사 도중 다시 연결한 휴대폰이 '오프닝 진행 중' 화면에 갇히지 않도록
+    // 새 RPC는 기존 RPC 순서가 바뀌지 않게 항상 맨 아래에 추가
+    // ──────────────────────────────────────
+    [TargetRpc]
+    void SyncLobbyStateTargetRpc(
+        NetworkConnection conn, int count, bool unlocked)
+    {
+#if UNITY_ANDROID
+        var jobSelect = MobileJobSelect.Instance;
+        if (jobSelect == null) return;
+
+        if (count >= 2 && count <= 4 && DataManager.Instance.MaxPlayers != count)
+        {
+            DataManager.Instance.MaxPlayers = count;
+            jobSelect.ApplyMaxPlayers(count);
+        }
+
+        if (unlocked)
+            jobSelect.UnlockJobSelect();
 #endif
     }
 }
