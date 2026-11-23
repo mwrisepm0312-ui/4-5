@@ -128,16 +128,43 @@ public class MobileLobbyUI : MonoBehaviour
             return;
         }
         var gm = FindFirstObjectByType<GameManager>();
-        if (gm != null)
+        if (gm != null && gm.IsClientInitialized)
         {
             gm.ShareEvidencesServerRpc(evidences.ToArray());
-            if (sendStatusText != null) sendStatusText.text = "PC로 보냈어요!";
+            if (sendStatusText != null) sendStatusText.text = "PC로 보내는 중...";
             sendButton.interactable = false;
+
+            // PC에서 '도착' 알림이 3초 안에 안 오면 다시 보낼 수 있게
+            evidenceArrived = false;
+            if (sendWaitRoutine != null) StopCoroutine(sendWaitRoutine);
+            sendWaitRoutine = StartCoroutine(WaitForArrival());
         }
         else
         {
             if (sendStatusText != null) sendStatusText.text = "보내지 못했어요. 다시 시도해 주세요.";
         }
+    }
+
+    private bool evidenceArrived = false;
+    private Coroutine sendWaitRoutine;
+
+    System.Collections.IEnumerator WaitForArrival()
+    {
+        yield return new WaitForSeconds(3f);
+        if (!evidenceArrived)
+        {
+            if (sendStatusText != null) sendStatusText.text = "보내지 못했어요. 다시 시도해 주세요.";
+            if (sendButton != null) sendButton.interactable = true;
+        }
+        sendWaitRoutine = null;
+    }
+
+    // PC가 증거를 받으면 GameManager가 불러 줌
+    public void OnEvidenceArrived(int newCount)
+    {
+        evidenceArrived = true;
+        if (sendStatusText != null)
+            sendStatusText.text = newCount > 0 ? "PC에 도착했어요!" : "이미 PC에 있는 증거예요.";
     }
 
     void CloseEvidencePopup() => evidencePopup.SetActive(false);

@@ -21,6 +21,12 @@ public class DataManager : MonoBehaviour
 
     public bool TutorialShown { get; set; } = false;
 
+    // 수사 도중 연결이 끊겨 연결 화면으로 돌아온 경우 (모은 증거를 지우지 않음)
+    public bool ReconnectPending { get; set; } = false;
+
+    // 한 판이 정상적으로 끝나 연결 화면으로 돌아온 경우 (다음 판을 위해 초기화)
+    public bool RoundEnded { get; set; } = false;
+
     // 현재 스테이지
     public int CurrentStage { get; set; } = 1;
 
