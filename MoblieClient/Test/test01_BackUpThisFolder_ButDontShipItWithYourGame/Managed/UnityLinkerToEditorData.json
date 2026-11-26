@@ -737,6 +737,12 @@
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
           },
           {
+            "name": "Required by ScreenCapture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.screencapture"
+          },
+          {
             "name": "Required by Subsystems Module",
             "scenes": [],
             "dependencyType": 2,
@@ -920,7 +926,14 @@
       },
       {
         "name": "ImageConversion",
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "Required by ScreenCapture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.screencapture"
+          }
+        ]
       },
       {
         "name": "Input",
@@ -1222,6 +1235,10 @@
         ]
       },
       {
+        "name": "ScreenCapture",
+        "dependencies": []
+      },
+      {
         "name": "SharedInternals",
         "dependencies": [
           {
@@ -1361,6 +1378,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.runtimeinitializeonloadmanagerinitializer"
+          },
+          {
+            "name": "Required by ScreenCapture Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.screencapture"
           },
           {
             "name": "Required by Subsystems Module",

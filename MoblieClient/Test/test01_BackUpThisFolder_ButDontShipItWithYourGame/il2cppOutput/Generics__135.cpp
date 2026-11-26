@@ -19399,7 +19399,7 @@ void StateChanged_Invoke_mBEDFE11F8D57A8D61F01D41095A9A18948ACFB79_OpenGenericIn
 	NullCheck(___0_component);
 	GenericInterfaceActionInvoker3< bool, bool, bool >::Invoke(method, ___0_component, ___1_prevState, ___2_nextState, ___3_asServer);
 }
-// Method Definition Index: 76504
+// Method Definition Index: 76607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateChanged__ctor_m09E245A00B7FC8EE2B6E689158CBA40357F1291A_gshared (StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -19452,13 +19452,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateChanged__ctor_m09E245A00B7FC8EE2B6E
 	}
 	__this->___extra_arg = (intptr_t)&StateChanged_Invoke_mBEDFE11F8D57A8D61F01D41095A9A18948ACFB79_Multicast;
 }
-// Method Definition Index: 76505
+// Method Definition Index: 76608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateChanged_Invoke_mBEDFE11F8D57A8D61F01D41095A9A18948ACFB79_gshared (StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* __this, RuntimeObject* ___0_component, bool ___1_prevState, bool ___2_nextState, bool ___3_asServer, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, bool, bool, bool, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_component, ___1_prevState, ___2_nextState, ___3_asServer, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 76506
+// Method Definition Index: 76609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StateChanged_BeginInvoke_mEAF23F122FBD0675D83D9D842257510E553FA045_gshared (StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* __this, RuntimeObject* ___0_component, bool ___1_prevState, bool ___2_nextState, bool ___3_asServer, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	void *__d_args[5] = {0};
@@ -19468,7 +19468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StateChanged_BeginInvoke_mEAF2
 	__d_args[3] = Box(il2cpp_defaults.boolean_class, &___3_asServer);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 76507
+// Method Definition Index: 76610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StateChanged_EndInvoke_mE978F4F388692095F04AC6DF34EC519AEADF288A_gshared (StateChanged_tE19EB09AB6CA396461BBA4258B7E36249DFC0133* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);

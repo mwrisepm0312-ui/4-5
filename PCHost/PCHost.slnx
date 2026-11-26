@@ -1,0 +1,16 @@
+﻿<Solution>
+  <Project Path="FishNet.Codegen.Cecil.csproj" />
+  <Project Path="FishNet.Runtime.csproj" />
+  <Project Path="GameKit.Dependencies.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="CFXRRuntime.csproj" />
+  <Project Path="CFXRDemo.csproj" />
+  <Project Path="Unity.FishNet.Codegen.csproj" />
+  <Project Path="CFXREditor.csproj" />
+  <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="FishNet.Demos.csproj" />
+  <Project Path="KinoBloom.Runtime.csproj" />
+  <Project Path="Assembly-CSharp-Editor-firstpass.csproj" />
+  <Project Path="ToonyColorsPro.Demo.Editor.csproj" />
+</Solution>

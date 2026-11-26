@@ -4964,6 +4964,9 @@ struct HaltonSequence_t5DF74D509292E81BB1B43A3DD77E33F7F5A00393  : public Runtim
 struct Hammersley_tB31CFFD97C1BC22E82019C3D307A8CDBBD0D105B  : public RuntimeObject
 {
 };
+struct Handheld_tD0463F933E6DBCDBCC1147383C488C9E99FCA0D3  : public RuntimeObject
+{
+};
 struct HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D  : public RuntimeObject
 {
 	bool ____disposed;
@@ -66752,23 +66755,23 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize5389 = { sizeof(RenderTextur
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize5390;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize5390 = { sizeof(MipmapLimitDescriptor_tDF942E4F2579A62C447B32B64F6825553D632C21)+ sizeof(RuntimeObject), sizeof(MipmapLimitDescriptor_tDF942E4F2579A62C447B32B64F6825553D632C21_marshaled_pinvoke), 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize5391;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5391 = { sizeof(Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)+ sizeof(RuntimeObject), sizeof(Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40), 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5391 = { sizeof(Handheld_tD0463F933E6DBCDBCC1147383C488C9E99FCA0D3), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize5392;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5392 = { sizeof(HashUtilities_t648AA835002E09DC2AF4A8A8ECDA59DB9146F617), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5392 = { sizeof(Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40)+ sizeof(RuntimeObject), sizeof(Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40), 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize5393;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5393 = { sizeof(HashUnsafeUtilities_tE1EA99E00D552FC2A9F713691D7723EFB64F8C18), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5393 = { sizeof(HashUtilities_t648AA835002E09DC2AF4A8A8ECDA59DB9146F617), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize5394;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5394 = { sizeof(U_tD97EEFD8B5ACF85A86306D2F6D80173A2CDCA85B)+ sizeof(RuntimeObject), sizeof(U_tD97EEFD8B5ACF85A86306D2F6D80173A2CDCA85B), 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5394 = { sizeof(HashUnsafeUtilities_tE1EA99E00D552FC2A9F713691D7723EFB64F8C18), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize5395;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5395 = { sizeof(SpookyHash_tDB5B3882DA382483DB3B3DF85EA206B64039FA3F), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5395 = { sizeof(U_tD97EEFD8B5ACF85A86306D2F6D80173A2CDCA85B)+ sizeof(RuntimeObject), sizeof(U_tD97EEFD8B5ACF85A86306D2F6D80173A2CDCA85B), 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize5396;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5396 = { sizeof(int32_t)+ sizeof(RuntimeObject), sizeof(int32_t), 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5396 = { sizeof(SpookyHash_tDB5B3882DA382483DB3B3DF85EA206B64039FA3F), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize5397;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize5397 = { sizeof(int32_t)+ sizeof(RuntimeObject), sizeof(int32_t), 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize5398;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5398 = { sizeof(Cursor_t7E6B5D20DD5FBA63DB2F216E18280B92B5101DC4), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5398 = { sizeof(int32_t)+ sizeof(RuntimeObject), sizeof(int32_t), 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize5399;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5399 = { sizeof(int32_t)+ sizeof(RuntimeObject), sizeof(int32_t), 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5399 = { sizeof(Cursor_t7E6B5D20DD5FBA63DB2F216E18280B92B5101DC4), -1, 0, 0 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
