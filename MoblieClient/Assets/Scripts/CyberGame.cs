@@ -138,8 +138,8 @@ public class CyberGame : MonoBehaviour
 
     private string[] evidenceDescs =
     {
-        "[수집가의 반지 구매 요청 이메일]\n\n반지를 팔아 달라는 수집가의 이메일이 여러 통 있어요.",
-        "[경비원의 수상한 메시지]\n\n사건 당일 낮, 모르는 번호에서 온 메시지.\n- 오늘 밤 은행 비워?\n- 몇 시에 끝나?\n누가 은행이 비는 시간을 알아내려 했을까요?",
+        "[수집가의 반지 구매 요청 이메일]\n\n반지를 팔아 달라는\n수집가의 이메일이 여러 통 있어요.",
+        "[경비원의 수상한 메시지]\n\n사건 당일 낮, 모르는 번호에서 온 메시지.\n- 오늘 밤 은행 비워?\n- 몇 시에 끝나?\n누가 은행이 비는 시간을\n알아내려 했을까요?",
         "[비서의 반지 시세 검색 기록]\n\n사건 2주 전부터 반지 시세와\n빨리 파는 곳을 계속 검색했어요.\n반지 주인도 아닌데 왜?"
     };
 
@@ -573,7 +573,7 @@ public class CyberGame : MonoBehaviour
         }
         else
         {
-            keywordResultText.text = "관련 없는 검색어가 섞였거나\n빠진 검색어가 있어요. 다시 확인해 보세요.";
+            keywordResultText.text = "관련 없는 검색어가 섞였거나\n빠진 검색어가 있어요.\n다시 확인해 보세요.";
             keywordResultText.color = Color.red;
         }
     }
