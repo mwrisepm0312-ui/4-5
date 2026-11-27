@@ -2524,6 +2524,7 @@ GameObject:
   - component: {fileID: 772498874}
   - component: {fileID: 772498876}
   - component: {fileID: 772498875}
+  - component: {fileID: 2008615246}
   m_Layer: 5
   m_Name: BackGround
   m_TagString: Untagged
@@ -2531,6 +2532,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2008615246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772498873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.AspectRatioFitter
+  m_AspectMode: 4
+  m_AspectRatio: 1.7777778
 --- !u!224 &772498874
 RectTransform:
   m_ObjectHideFlags: 0

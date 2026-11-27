@@ -84,7 +84,7 @@ public class SuspectSceneUI : MonoBehaviour
     // 용의자 데이터
     // ──────────────────────────────────────
     private string[] suspectNames = { "수집가", "경비원", "비서", "청소부" };
-    private string[] suspectJobs = { "보석 수집가", "은행 야간 경비원", "반지 주인 주얼리씨의 비서", "은행 청소부" };
+    private string[] suspectJobs = { "보석 수집가", "은행 야간 경비원", "주얼리씨의 비서", "은행 청소부" };
 
 
     // ──────────────────────────────────────
