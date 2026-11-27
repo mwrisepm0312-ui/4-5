@@ -71,7 +71,7 @@ public class WaitingSceneUI : MonoBehaviour
     {
         DOTween.Pause("statusFade");        // ← Fade Loop 멈추기
         statusText.DOFade(1f, 0.2f);        // ← 알파 원복
-        statusText.text = "모두 연결됐어요! 오프닝을 시작합니다";
+        statusText.text = "모두 연결됐어요! 곧 시작해요";
         yield return new WaitForSeconds(1.0f);
 
         var gm2 = FindFirstObjectByType<GameManager>();
