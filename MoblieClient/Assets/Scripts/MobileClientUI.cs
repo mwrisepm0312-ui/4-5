@@ -152,6 +152,27 @@ public class MobileClientUI : MonoBehaviour
             += OnClientConnectionState;
 
         Debug.Log("[Mobile] MobileClientUI 초기화 완료");
+
+        // 전시 모드: [연결]을 누르지 않아도 같은 PC의 PC 프로그램에 바로 연결
+        if (ExhibitionMode.IsOn)
+        {
+            statusText.text = "연결하는 중...";
+            connectButton.interactable = false;
+            ScheduleExhibitionConnect(0.5f);
+        }
+    }
+
+    // ──────────────────────────────────────
+    // 전시 모드 자동 연결
+    // PC를 찾는 신호(8888)는 한 PC에서 프로그램 하나만 받을 수 있어
+    // 휴대폰 창이 여러 개면 서로 충돌함 → 찾지 않고 127.0.0.1로 바로 연결.
+    // PC 프로그램이 아직 안 켜졌으면 2초마다 다시 시도.
+    // ──────────────────────────────────────
+    private float exhibitionConnectAt = -1f;
+
+    void ScheduleExhibitionConnect(float delay)
+    {
+        exhibitionConnectAt = Time.unscaledTime + delay;
     }
 
     void OnQuitClicked()
@@ -172,6 +193,12 @@ public class MobileClientUI : MonoBehaviour
     void OnConnectButtonClicked()
     {
         if (isSearching || connecting) return;
+
+        if (ExhibitionMode.IsOn)
+        {
+            ScheduleExhibitionConnect(0f);
+            return;
+        }
 
         Debug.Log("[Mobile] 서버 탐색 시작");
 
@@ -241,6 +268,12 @@ public class MobileClientUI : MonoBehaviour
 
     void Update()
     {
+        if (exhibitionConnectAt >= 0f && Time.unscaledTime >= exhibitionConnectAt && !connecting && !sceneLoaded)
+        {
+            exhibitionConnectAt = -1f;
+            ConnectToServer(ExhibitionMode.ServerAddress, ExhibitionMode.ServerPort);
+        }
+
         // 10초가 지나도 PC를 못 찾으면 와이파이를 확인하라고 안내 (계속 찾는 중)
         if (isSearching && !searchHintShown && Time.time - searchStartTime > 10f)
         {
@@ -271,7 +304,9 @@ public class MobileClientUI : MonoBehaviour
     void ConnectToServer(string serverIP, int serverPort)
     {
         connecting = true;
-        statusText.text = $"PC를 찾았어요! 연결하는 중...\n({serverIP})";
+        statusText.text = ExhibitionMode.IsOn
+            ? "연결하는 중..."
+            : $"PC를 찾았어요! 연결하는 중...\n({serverIP})";
 
         Debug.Log($"[Mobile] FishNet 연결 시도: {serverIP}:{serverPort}");
 
@@ -295,8 +330,14 @@ public class MobileClientUI : MonoBehaviour
 
         if (!result)
         {
-            statusText.text = "연결하지 못했어요.\n다시 눌러 주세요.";
             connecting = false;
+            if (ExhibitionMode.IsOn)
+            {
+                statusText.text = "연결하는 중...";
+                ScheduleExhibitionConnect(2f);
+                return;
+            }
+            statusText.text = "연결하지 못했어요.\n다시 눌러 주세요.";
             connectButton.interactable = true;
         }
     }
@@ -328,7 +369,14 @@ public class MobileClientUI : MonoBehaviour
             case LocalConnectionState.Stopped:
                 Debug.Log($"[Mobile] Stopped 수신 — sceneLoaded={sceneLoaded}, connecting={connecting}");
                 // 씬 복귀 직후 오는 Stopped는 무시 (connecting=false이고 sceneLoaded=false인 초기 상태)
-                if (connecting && !sceneLoaded)
+                if (connecting && !sceneLoaded && ExhibitionMode.IsOn)
+                {
+                    // 전시 모드: PC 프로그램이 아직 준비 전 → 조용히 다시 시도
+                    statusText.text = "연결하는 중...";
+                    connecting = false;
+                    ScheduleExhibitionConnect(2f);
+                }
+                else if (connecting && !sceneLoaded)
                 {
                     statusText.text = "연결에 실패했어요.\n같은 와이파이인지 확인해 주세요.";
                     Debug.LogError("[Mobile] FishNet 연결 실패/종료");

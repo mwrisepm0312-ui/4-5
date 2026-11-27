@@ -36,6 +36,14 @@ public class ServerBroadcaster : MonoBehaviour
     {
         if (isPersistent) return;
 
+        // 전시 모드: 휴대폰 창이 127.0.0.1로 바로 연결하므로 PC 찾기 신호가 필요 없음
+        // (전시장 공유기에 신호를 뿌리지 않게)
+        if (ExhibitionMode.IsOn)
+        {
+            enabled = false;
+            return;
+        }
+
         // 씬에 놓인 원본: 남는 신호기가 없으면 하나 만들고, 자기는 아무것도 하지 않음
         if (persistent == null)
         {

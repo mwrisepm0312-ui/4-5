@@ -14,6 +14,7 @@ using FishNet.Transporting;
 //  2) 수사 도중 연결이 끊기면 안내 후 연결 화면으로 이동, 모은 증거는 유지 (M-62)
 //  3) 화면 안내: 아래쪽 말풍선(ShowToast) / 화면 전체 안내(ShowBlocking)
 //  4) 60fps로 실행 (M-68)
+//  5) 전시 모드(PC 한 대에 휴대폰 창 4개)에서는 창을 클릭하지 않아도 계속 동작, 30fps
 // ──────────────────────────────────────
 public class MobileSession : MonoBehaviour
 {
@@ -29,6 +30,16 @@ public class MobileSession : MonoBehaviour
 
         // 안드로이드 기본값은 30fps라 애니메이션이 뚝뚝 끊겨 보임 → 60fps (M-68)
         Application.targetFrameRate = 60;
+
+        // 전시 모드: 휴대폰 창 4개가 동시에 떠 있으므로
+        //  - 마우스로 선택하지 않은 창도 멈추지 않게 (멈추면 15초 뒤 연결이 끊김)
+        //  - PC 한 대가 창 5개를 그리므로 30fps로 부담을 줄임
+        // (안드로이드에서는 전시 모드가 켜지지 않으므로 원래대로)
+        if (ExhibitionMode.IsOn)
+        {
+            Application.runInBackground = true;
+            Application.targetFrameRate = 30;
+        }
 
         if (instance != null) return;
         var go = new GameObject("MobileSession");
