@@ -4213,8 +4213,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89dd72e0d5fe8c541aa97ed9eabf0b9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TouchEffect
-  effectPrefab: {fileID: 0}
-  targetCamera: {fileID: 0}
+  effectPrefab: {fileID: 8525990746615576120, guid: b85d21f3b8fed714bacf0c4fd50fa512, type: 3}
+  targetCamera: {fileID: 502365314}
   distanceFromCamera: 5
 --- !u!4 &1281386653
 Transform:
@@ -6266,32 +6266,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f558038a58deeea4da24d5adf6659552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WitnessGame
-  dialogueManager: {fileID: 0}
-  guidePopup: {fileID: 0}
-  startButton: {fileID: 0}
-  witnessBtn1: {fileID: 0}
-  witnessBtn2: {fileID: 0}
-  witnessBtn3: {fileID: 0}
-  statementPopup: {fileID: 0}
-  witnessNameText: {fileID: 0}
-  witnessStatementText: {fileID: 0}
-  resultText: {fileID: 0}
-  closePopupButton: {fileID: 0}
-  suspectCard1: {fileID: 0}
-  suspectCard2: {fileID: 0}
-  suspectCard3: {fileID: 0}
-  suspectCard4: {fileID: 0}
-  suspectStatement1: {fileID: 0}
-  suspectStatement2: {fileID: 0}
-  suspectStatement3: {fileID: 0}
-  suspectStatement4: {fileID: 0}
-  reportButton: {fileID: 0}
-  reportPopup: {fileID: 0}
-  reportText: {fileID: 0}
-  closeReportButton: {fileID: 0}
-  clearTitleText: {fileID: 0}
-  clearDescText: {fileID: 0}
-  countdownText: {fileID: 0}
+  dialogueManager: {fileID: 2026844842}
+  guidePopup: {fileID: 1650468857}
+  startButton: {fileID: 203337177}
+  witnessBtn1: {fileID: 2060046782}
+  witnessBtn2: {fileID: 2086544582}
+  witnessBtn3: {fileID: 1322299368}
+  statementPopup: {fileID: 591489343}
+  witnessNameText: {fileID: 1417827146}
+  witnessStatementText: {fileID: 1557106681}
+  resultText: {fileID: 1262802662}
+  closePopupButton: {fileID: 1192400831}
+  suspectCard1: {fileID: 2067629117}
+  suspectCard2: {fileID: 583075805}
+  suspectCard3: {fileID: 551602836}
+  suspectCard4: {fileID: 482918160}
+  suspectStatement1: {fileID: 1563386183}
+  suspectStatement2: {fileID: 2066282352}
+  suspectStatement3: {fileID: 428659637}
+  suspectStatement4: {fileID: 1342272090}
+  reportButton: {fileID: 1650172376}
+  reportPopup: {fileID: 1093603146}
+  reportText: {fileID: 192005664}
+  closeReportButton: {fileID: 1953278589}
+  clearTitleText: {fileID: 1966601335}
+  clearDescText: {fileID: 2721962}
+  countdownText: {fileID: 1284497463}
 --- !u!114 &2026844842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6304,13 +6304,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aea385432303f3468ff7003fc7db71a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
-  dialoguePanel: {fileID: 0}
-  dialogueBG: {fileID: 0}
-  characterImage: {fileID: 0}
-  fadePanel: {fileID: 0}
-  speakerNameText: {fileID: 0}
-  dialogueText: {fileID: 0}
-  nextIcon: {fileID: 0}
+  dialoguePanel: {fileID: 115064678}
+  dialogueBG: {fileID: 846725247}
+  characterImage: {fileID: 1958398525}
+  fadePanel: {fileID: 1470795084}
+  speakerNameText: {fileID: 325385852}
+  dialogueText: {fileID: 1086376083}
+  nextIcon: {fileID: 301904126}
   charInterval: 0.03
 --- !u!1 &2060046780
 GameObject:

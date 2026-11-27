@@ -566,14 +566,14 @@ public class CyberGame : MonoBehaviour
 
         if (allCorrect)
         {
-            keywordResultText.text = "관련 검색어를 모두 찾았어요!";
+            keywordResultText.text = "관련 검색어를\n모두 찾았어요!";
             keywordResultText.color = Color.green;
             keywordSubmitButton.interactable = false;
             StartCoroutine(KeywordGameClear());
         }
         else
         {
-            keywordResultText.text = "관련 없는 검색어가 섞였거나\n빠진 검색어가 있어요.\n다시 확인해 보세요.";
+            keywordResultText.text = "잘못 고르거나 빠진\n검색어가 있어요.\n다시 확인해 보세요.";
             keywordResultText.color = Color.red;
         }
     }
