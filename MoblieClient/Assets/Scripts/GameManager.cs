@@ -116,7 +116,7 @@ public class GameManager : NetworkBehaviour
         }
         Debug.Log($"증거 수신 완료: {ReceivedEvidences.Count}개");
 
-#if !UNITY_ANDROID
+#if !MOBILE_CLIENT
         var suspectScene = FindFirstObjectByType<SuspectSceneUI>();
         suspectScene?.OnEvidencesReceived(ReceivedEvidences);
 #endif
@@ -136,7 +136,7 @@ public class GameManager : NetworkBehaviour
     void SetMaxPlayersAndLoadSceneTargetRpc(
         NetworkConnection conn, int count)
     {
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         DataManager.Instance.MaxPlayers = count;
 
         // 이미 직업 선택 화면이면 다시 불러오지 않고 카드 배치만 바꿈 (화면 깜빡임 방지)
@@ -152,7 +152,7 @@ public class GameManager : NetworkBehaviour
     void UpdateJobStatusTargetRpc(
         NetworkConnection conn, string jobName, bool isTaken)
     {
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         MobileJobSelect.Instance?.OnJobStatusUpdated(jobName, isTaken);
 #endif
     }
@@ -174,7 +174,7 @@ public class GameManager : NetworkBehaviour
         NetworkConnection conn, string jobName)
     {
         Debug.Log($"직업 거부: {jobName}");
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         MobileJobSelect.Instance?.OnJobRejected(jobName);
 #endif
     }
@@ -184,7 +184,7 @@ public class GameManager : NetworkBehaviour
         NetworkConnection conn, string jobName)
     {
         Debug.Log($"직업 확인: {jobName}");
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         MobileJobSelect.Instance?.OnJobConfirmed(jobName);
 #endif
     }
@@ -194,7 +194,7 @@ public class GameManager : NetworkBehaviour
         string jobName, bool isTaken)
     {
         Debug.Log($"직업 상태 업데이트: {jobName} = {isTaken}");
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         MobileJobSelect.Instance?.OnJobStatusUpdated(jobName, isTaken);
 #endif
     }
@@ -212,7 +212,7 @@ public class GameManager : NetworkBehaviour
     [ObserversRpc]
     void LoadJobSelectSceneClientRpc()
     {
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         SceneTransition.Load("JobSelectScene");
 #endif
     }
@@ -231,7 +231,7 @@ public class GameManager : NetworkBehaviour
     [ObserversRpc]
     void UnlockJobSelectClientRpc()
     {
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         MobileJobSelect.Instance?.UnlockJobSelect();
 #endif
     }
@@ -250,7 +250,7 @@ public class GameManager : NetworkBehaviour
     void SendClientToLobbyClientRpc()
     {
         Debug.Log("[GameManager] SendClientToLobbyClientRpc 수신");
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         if (DataManager.Instance != null) DataManager.Instance.RoundEnded = true;   // 정상 종료 (끊김 아님)
         UnityEngine.SceneManagement.SceneManager.LoadScene("ClientMobile");
 #endif
@@ -266,7 +266,7 @@ public class GameManager : NetworkBehaviour
     [ObserversRpc]
     void LoadClientSceneClientRpc()
     {
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         if (DataManager.Instance != null) DataManager.Instance.RoundEnded = true;
         UnityEngine.SceneManagement.SceneManager.LoadScene("ClientMobile");
 #endif
@@ -281,7 +281,7 @@ public class GameManager : NetworkBehaviour
     void SyncLobbyStateTargetRpc(
         NetworkConnection conn, int count, bool unlocked)
     {
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         var jobSelect = MobileJobSelect.Instance;
         if (jobSelect == null) return;
 
@@ -310,7 +310,7 @@ public class GameManager : NetworkBehaviour
     [ObserversRpc]
     void InvestigationEndedClientRpc()
     {
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         OnInvestigationEndedMobile();
 #endif
     }
@@ -319,7 +319,7 @@ public class GameManager : NetworkBehaviour
     [TargetRpc]
     void InvestigationEndedTargetRpc(NetworkConnection conn)
     {
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         OnInvestigationEndedMobile();
 #endif
     }
@@ -331,7 +331,7 @@ public class GameManager : NetworkBehaviour
     void EvidenceArrivedTargetRpc(
         NetworkConnection conn, int newCount, int totalCount)
     {
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
         string message = newCount > 0
             ? $"PC에 증거가 도착했어요!\n새 증거 {newCount}개"
             : "PC에 이미 있는 증거예요.";
@@ -342,7 +342,7 @@ public class GameManager : NetworkBehaviour
 #endif
     }
 
-#if UNITY_ANDROID
+#if MOBILE_CLIENT
     void OnInvestigationEndedMobile()
     {
         // 아직 보내지 않은 증거가 있으면 자동으로 PC에 보냄 (빠뜨리지 않도록)
