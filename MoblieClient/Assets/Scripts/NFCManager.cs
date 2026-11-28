@@ -38,6 +38,10 @@ public class NFCManager : MonoBehaviour
         Debug.Log("NFCManager 초기화 완료");
 #else
 #endif
+
+        // 전시 모드(PC 한 대에 휴대폰 창 4개): NFC 대신 화면의 카드를 눌러 미니게임 입장
+        if (ExhibitionMode.IsOn)
+            ExhibitionCardPanel.Create(this);
     }
 
     // ──────────────────────────────────────
@@ -45,8 +49,16 @@ public class NFCManager : MonoBehaviour
     // ──────────────────────────────────────
     void HandleNFCTag(NFCTag tag)
     {
+        HandleCardId(tag.ID);
+    }
+
+    // ──────────────────────────────────────
+    // 카드 처리 (NFC로 찍은 카드 / 전시 모드에서 화면으로 누른 카드 모두 여기로)
+    // ──────────────────────────────────────
+    public void HandleCardId(string rawId)
+    {
         // 카드 ID는 기기마다 대·소문자가 다르게 올 수 있어 소문자로 맞춤
-        string tagId = (tag.ID ?? "").Trim().ToLowerInvariant();
+        string tagId = (rawId ?? "").Trim().ToLowerInvariant();
         int maxPlayers = DataManager.Instance?.MaxPlayers ?? 4;
         string myJob = DataManager.Instance?.SelectedJob ?? "";
         Debug.Log($"NFC 태그 감지: {tagId} / 인원수: {maxPlayers} / 직업: {myJob}");
@@ -108,6 +120,36 @@ public class NFCManager : MonoBehaviour
         }
 
         return false;
+    }
+
+    // ──────────────────────────────────────
+    // 카드 목록 (전시 모드 카드 버튼용)
+    //  Key: 그림 이름(Resources/ExhibitionCards/card_<Key>), Mission: MissionRules 미션 이름
+    // ──────────────────────────────────────
+    public struct CardInfo
+    {
+        public string Id;
+        public string Key;
+        public string Mission;
+    }
+
+    public static readonly CardInfo[] AllCards =
+    {
+        new CardInfo { Id = FORENSIC_ID, Key = "forensic", Mission = MissionRules.Forensic },
+        new CardInfo { Id = CCTV_ID,     Key = "cctv",     Mission = MissionRules.CCTV },
+        new CardInfo { Id = WITNESS_ID,  Key = "witness",  Mission = MissionRules.Witness },
+        new CardInfo { Id = CYBER_ID,    Key = "cyber",    Mission = MissionRules.Cyber },
+    };
+
+    // 내 직업이 쓸 수 있는 카드 (NFC 규칙과 같음)
+    public List<CardInfo> GetMyCards()
+    {
+        int maxPlayers = DataManager.Instance?.MaxPlayers ?? 4;
+        string myJob = DataManager.Instance?.SelectedJob ?? "";
+        var list = new List<CardInfo>();
+        foreach (var c in AllCards)
+            if (IsAllowedForJob(c.Id, myJob, maxPlayers)) list.Add(c);
+        return list;
     }
 
     // ──────────────────────────────────────
