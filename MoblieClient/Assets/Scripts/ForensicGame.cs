@@ -84,7 +84,9 @@ public class ForensicGame : MonoBehaviour
 
     private string[] correctAnswers = { "비서", "청소부", "경비원" };
     private int[] correctSuspectIndex = { 0, 1, 2 };
-    private string[] evidenceNames = { "금고 지문", "바닥 지문", "데스크 지문" };
+    // 증거 이름 = PC 용의자 선택 화면에 그대로 보임 → 누구의 지문인지 앞에 붙임
+    // (정답 "비서 금고 지문"은 PC SuspectSceneUI·SuspectScene 과 글자까지 같아야 함)
+    private string[] evidenceNames = { "비서 금고 지문", "청소부 바닥 지문", "경비원 데스크 지문" };
     // 일치했을 때 한 줄 설명 (왜 중요한 지문인지)
     private string[] matchHints = {
         "집에 갔다던 비서가 금고 손잡이를 만졌어요!",

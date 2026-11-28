@@ -154,13 +154,18 @@ public class MobileClientUI : MonoBehaviour
         Debug.Log("[Mobile] MobileClientUI 초기화 완료");
 
         // 전시 모드: [연결]을 누르지 않아도 같은 PC의 PC 프로그램에 바로 연결
+        // 버튼은 누를 일이 없어서 숨김 (꺼진 버튼이 '이미 눌린 것'처럼 보이던 문제, E-10)
+        // 처음 켤 때와 한 판이 끝나 돌아왔을 때 모두 같은 화면
         if (ExhibitionMode.IsOn)
         {
-            statusText.text = "연결하는 중...";
-            connectButton.interactable = false;
+            statusText.text = ExhibitionWaitText;
+            connectButton.gameObject.SetActive(false);
             ScheduleExhibitionConnect(0.5f);
         }
     }
+
+    // 전시 모드에서 PC가 게임을 시작하기를 기다리는 동안 보이는 글자 (폰트에 이미 있는 글자만)
+    private const string ExhibitionWaitText = "PC를 기다리는 중이에요";
 
     // ──────────────────────────────────────
     // 전시 모드 자동 연결
@@ -305,7 +310,7 @@ public class MobileClientUI : MonoBehaviour
     {
         connecting = true;
         statusText.text = ExhibitionMode.IsOn
-            ? "연결하는 중..."
+            ? ExhibitionWaitText
             : $"PC를 찾았어요! 연결하는 중...\n({serverIP})";
 
         Debug.Log($"[Mobile] FishNet 연결 시도: {serverIP}:{serverPort}");
@@ -333,7 +338,7 @@ public class MobileClientUI : MonoBehaviour
             connecting = false;
             if (ExhibitionMode.IsOn)
             {
-                statusText.text = "연결하는 중...";
+                statusText.text = ExhibitionWaitText;
                 ScheduleExhibitionConnect(2f);
                 return;
             }
@@ -349,7 +354,8 @@ public class MobileClientUI : MonoBehaviour
         switch (args.ConnectionState)
         {
             case LocalConnectionState.Starting:
-                statusText.text = "연결하는 중...";
+                // 전시 모드는 2초마다 조용히 다시 시도하므로 글자가 바뀌지 않게
+                statusText.text = ExhibitionMode.IsOn ? ExhibitionWaitText : "연결하는 중...";
                 break;
 
             case LocalConnectionState.Started:
@@ -372,7 +378,7 @@ public class MobileClientUI : MonoBehaviour
                 if (connecting && !sceneLoaded && ExhibitionMode.IsOn)
                 {
                     // 전시 모드: PC 프로그램이 아직 준비 전 → 조용히 다시 시도
-                    statusText.text = "연결하는 중...";
+                    statusText.text = ExhibitionWaitText;
                     connecting = false;
                     ScheduleExhibitionConnect(2f);
                 }

@@ -20,7 +20,7 @@ using UnityEngine.UI;
 
 public static class PeaceMakerTextPolish
 {
-    // 씬, 경로 끝부분(같으면 모두), 바꿀 글자(null = 그대로), 글자 크기(0 = 그대로), 칸 크기(0 = 그대로), 위치(NaN = 그대로)
+    // 씬, 경로 끝부분('/' 단위로 같으면 모두 — "Button/Text" 는 "CloseButton/Text" 와 다름), 바꿀 글자(null = 그대로), 글자 크기(0 = 그대로), 칸 크기(0 = 그대로), 위치(NaN = 그대로)
     private struct E
     {
         public string scene, path, text;
@@ -121,7 +121,10 @@ public static class PeaceMakerTextPolish
         new E("CyberScene", "SliderGame/ResultText", ""),
         new E("CyberScene", "KeywordGame/KeywordTitleText", "사건과 관련된 검색어를 모두 고르세요"),
         new E("CyberScene", "KeywordGame/ResultText", ""),
-        new E("CyberScene", "Button/Text (TMP)", "증거 수집"),
+        new E("CyberScene", "KeywordListPanel/Button/Text (TMP)", "증거 수집"),
+        new E("CyberScene", "SliderGame/RestoreButton/Text (TMP)", "복원 시도"),
+        new E("CyberScene", "CloseButton/Text (TMP)", "닫기"),   // 이메일·휴대폰·검색 기록 3곳의 오른쪽 위 버튼
+        new E("CyberScene", "EvidencePopup/ConfirmButton/Text (TMP)", "확인"),
         new E("CyberScene", "StartButton/Text (TMP)", "시작하기"),
         new E("CyberScene", "EvidencePopup/EvidenceTitleText", "파일 복원 완료!"),
         new E("CyberScene", "Canvas/ClearTitleText", "미션 완료!", 140),
@@ -190,7 +193,7 @@ public static class PeaceMakerTextPolish
             int hit = 0;
             foreach (var t in texts)
             {
-                if (!PathOf(t.transform).EndsWith(e.path)) continue;
+                if (!PathMatches(PathOf(t.transform), e.path)) continue;
                 hit++;
                 Edit(t, e);
             }
@@ -440,4 +443,8 @@ public static class PeaceMakerTextPolish
     }
 
     private static string PathOf(Transform t) => t.parent == null ? t.name : PathOf(t.parent) + "/" + t.name;
+
+    // 경로 끝부분이 '/' 경계에서 같을 때만 (예전에는 글자 끝만 비교해서
+    // "Button/Text (TMP)" 가 CloseButton·RestoreButton·ConfirmButton 글자까지 "증거 수집"으로 덮어썼음)
+    private static bool PathMatches(string full, string tail) => full == tail || full.EndsWith("/" + tail);
 }

@@ -3134,7 +3134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SuspectSceneUI
   correctSuspect: "\uBE44\uC11C"
   correctEvidences:
-  - "\uAE08\uACE0 \uC9C0\uBB38"
+  - "\uBE44\uC11C \uAE08\uACE0 \uC9C0\uBB38"
   - "\uBE44\uC11C \uAE08\uACE0 \uC55E \uD3EC\uCC29"
   - "\uBE44\uC11C \uBCF5\uB3C4 \uC11C\uC131\uC784"
   - "\uBE44\uC11C \uC11C\uB958\uAC00\uBC29 \uC218\uC0C1 \uBAA9\uACA9"
