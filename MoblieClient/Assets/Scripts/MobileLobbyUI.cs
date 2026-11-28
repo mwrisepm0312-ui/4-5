@@ -49,7 +49,8 @@ public class MobileLobbyUI : MonoBehaviour
         SetupVideo();
 
         // 처음 한 번만 튜토리얼 표시
-        if (!DataManager.Instance.TutorialShown)
+        // (전시 모드는 NFC 대신 화면의 카드를 누르므로 'NFC 태그하는 방법' 튜토리얼을 보여 주지 않음)
+        if (!DataManager.Instance.TutorialShown && !ExhibitionMode.IsOn)
         {
             ShowTutorialPopup();
         }
