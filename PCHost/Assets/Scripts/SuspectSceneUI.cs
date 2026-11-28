@@ -13,7 +13,7 @@ public class SuspectSceneUI : MonoBehaviour
     public string correctSuspect = "비서";
     public List<string> correctEvidences = new List<string>
     {
-        "금고 지문",
+        "비서 금고 지문",
         "비서 금고 앞 포착",
         "비서 복도 서성임",
         "비서 서류가방 수상 목격",

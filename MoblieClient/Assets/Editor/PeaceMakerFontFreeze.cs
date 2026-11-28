@@ -8,6 +8,7 @@
 //
 // 하는 일
 //  1) 이 프로젝트의 모든 씬 글자 + 모든 스크립트 문자열 + 영문·숫자·기호에서 쓰는 글자를 모음
+//     + 다른 프로젝트에서 네트워크로 받아 화면에 보여 주는 글자(증거 이름, 아래 NetworkTexts)
 //  2) 폰트를 비우고 그 글자들만 미리 그려 넣음
 //  3) 폰트를 '고정(Static)'으로 바꿈 → 이후에는 실행해도 폰트 파일이 바뀌지 않음
 //
@@ -26,6 +27,23 @@ using UnityEngine;
 public static class PeaceMakerFontFreeze
 {
     private const string FontPath = "Assets/TextMesh Pro/Fonts/Maplestory Bold SDF.asset";
+
+    // 휴대폰에서 만들어 PC로 보내는 증거 이름 (PC 용의자 선택 화면에 그대로 보임)
+    // PC 프로젝트 안에는 이 글자가 없어서, 예전에는 '회·퇴·근·움·외·매·닥' 이 □ 로 보였음
+    // ※ 휴대폰 미니게임의 증거 이름(ForensicGame·CCTVGame·WitnessGame·CyberGame)을 바꾸면 여기도 같이 바꾸고
+    //   PC 프로젝트에서 이 메뉴를 다시 실행
+    private static readonly string[] NetworkTexts =
+    {
+        // 현장감식
+        "비서 금고 지문", "청소부 바닥 지문", "경비원 데스크 지문",
+        // CCTV
+        "수집가 금고 앞 배회", "경비원 정상 순찰 확인", "청소부 퇴근 포착", "경비원 자리 비움",
+        "수집가 은행 외부 배회", "비서 금고 앞 포착", "경비원 01:00 금고 앞 순찰", "비서 복도 서성임",
+        // 목격자
+        "비서 서류가방 수상 목격", "수집가 복도 목격", "청소부 수상한 가방",
+        // 사이버
+        "수집가 반지 구매 요청 이메일", "경비원 수상한 메시지", "비서 레드 다이아 반지 시세 검색 기록",
+    };
 
     [MenuItem("PeaceMaker/폰트 고정 (게임 글자 미리 채우기)")]
     public static void Freeze()
@@ -103,6 +121,9 @@ public static class PeaceMakerFontFreeze
                 foreach (Match m in literal.Matches(code)) AddText(set, m.Groups[1].Value);
             }
         }
+
+        // 네트워크로 받아 보여 주는 글자
+        foreach (string t in NetworkTexts) AddText(set, t);
 
         var sb = new StringBuilder();
         foreach (char c in set.OrderBy(c => c)) sb.Append(c);
